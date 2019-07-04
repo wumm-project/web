@@ -33,6 +33,12 @@ function thePeople($people)
     return htmlEnv($out);
 }
 
-echo thePeople('../rdf/People.rdf'); // for testing
+function main() {
+    $people=$_GET["people"];
+    return thePeople($people);
+    
+}
+
+echo main();
 
 ?>
