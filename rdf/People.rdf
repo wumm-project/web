@@ -13,6 +13,11 @@
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
     <rdfs:label>People in the TRIZ Community</rdfs:label>
   </owl:Ontology>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Adunka_R">
+    <foaf:affil>LB at Uni Erlangen, Germany</foaf:affil>
+    <foaf:homepage rdf:resource="http://www.adunka.de/"/>
+    <foaf:name>Robert Adunka</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ageed_S">
     <foaf:name>Sharaf Ageed</foaf:name>
   </foaf:Person>
@@ -38,6 +43,10 @@
     <foaf:affil>EPAM, Minsk, Belarus</foaf:affil>
     <foaf:name>Vitaliy Bozhkov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bukhman_I">
+    <foaf:affil>The Altshuller Institute for TRIZ Studies, Inc.</foaf:affil>
+    <foaf:name>Isak Bukhman</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chizhevskaya_N">
     <foaf:affil xml:lang="ru">Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования</foaf:affil>
     <foaf:name>Nataliya Chizhevskaya</foaf:name>
@@ -53,6 +62,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Devojno_I">
     <foaf:affil xml:lang="en">IHS Markit, Product Analysis and Design Associate Director</foaf:affil>
     <foaf:name>Igor Devojno</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dobrusskin_C">
+    <foaf:homepage rdf:resource="https://innovationorigins.com/nl/tag/christoph-dobrusskin/"/>
+    <foaf:name>Christoph Dobrusskin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Domkin_K">
     <foaf:affil xml:lang="ru">Компания АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
@@ -87,9 +100,21 @@
     <foaf:homepage rdf:resource="https://www.facebook.com/hg.graebe"/>
     <foaf:name>Hans-Gert Gräbe</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gronauer_B">
+    <foaf:affil>StrategieInnovation, Hünfeld, Germany</foaf:affil>
+    <foaf:name>Barbara Gronauer</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_B">
     <foaf:affil xml:lang="en">Tianjin Innovation and Development Institute</foaf:affil>
     <foaf:name>Bing Han</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hentschel_C">
+    <foaf:affil>HS Berlin, Germany</foaf:affil>
+    <foaf:name>Claudia Hentschel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Herrlich_M">
+    <foaf:affil>Erfinder-Akademie, Leipzig, Germany</foaf:affil>
+    <foaf:name>Michael Herrlich</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
     <foaf:affil>FH Coburg, Germany</foaf:affil>
@@ -102,6 +127,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hovanov_S">
     <foaf:name>Sergej Hovanov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huber_N">
+    <foaf:affil>HS Weihenstephan-Triesdorf</foaf:affil>
+    <foaf:name>Norbert Huber</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Izmikov_K">
     <foaf:name>Kirill Izmikov</foaf:name>
   </foaf:Person>
@@ -113,13 +142,16 @@
     <foaf:affil xml:lang="ru">EPAM Systems, Проектный менеджер</foaf:affil>
     <foaf:name>Pavel Koblenc</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koltze_K">
+    <foaf:affil>HS Niederrhein, Germany</foaf:affil>
+    <foaf:name>Karl Koltze</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korotkih_S">
     <foaf:affil xml:lang="ru">Красноярский техникум промышленного сервиса, преподаватель</foaf:affil>
     <foaf:name>Svetlana Korotkih</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozhemyako_A">
     <foaf:affil>Business Association TRIZ</foaf:affil>
-    <foaf:affil xml:lang="ru">Бизнес-ассоциация ТРИЗ (БА ТРИЗ), Учредитель</foaf:affil>
     <foaf:homepage rdf:resource="http://batriz.ru/"/>
     <foaf:homepage rdf:resource="http://bmtriz.ru/"/>
     <foaf:name>Anton Kozhemyako</foaf:name>
@@ -158,6 +190,10 @@
     <foaf:affil>International TRIZ Association (MATRIZ)</foaf:affil>
     <foaf:name xml:lang="en">Simon Litvin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Livotov_P">
+    <foaf:affil>HS Offenburg, Germany</foaf:affil>
+    <foaf:name>Pavel Livotov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mann_D">
     <foaf:affil xml:lang="en">Systematic Innovation Ltd, CEO</foaf:affil>
     <foaf:name>Darell Mann</foaf:name>
@@ -165,6 +201,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Martinovskij_G">
     <foaf:affil xml:lang="ru">EPAM Systems, Главный бизнес консультант</foaf:affil>
     <foaf:name>Georgij Martinovskij</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Naehler_T">
+    <foaf:affil>c4pi – Center for Product-Innovation, Hünfeld, Germany</foaf:affil>
+    <foaf:name>Horst Thomas Nähler</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nesterenko_A">
     <foaf:affil xml:lang="ru">ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист</foaf:affil>
@@ -274,5 +314,22 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Terekhova_G">
     <foaf:affil xml:lang="ru">ЮУрГГПУ, Челябинск, Доцент кафедры теоретической и прикладной психологии</foaf:affil>
     <foaf:name>Galina Terekhova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Thiel_R">
+    <foaf:affil>LIFIS, Bugk bei Storkow, Germany</foaf:affil>
+    <foaf:name>Rainer Thiel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Thurnes_C">
+    <foaf:affil>HS Kaiserslautern, Germany</foaf:affil>
+    <foaf:name>Christian Thurnes</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Weber_O">
+    <foaf:affil>„Next Generation Education”, Berlin</foaf:affil>
+    <foaf:homepage rdf:resource="https://somales.de/"/>
+    <foaf:name>Olaf Weber</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zobel_D">
+    <foaf:affil>Ingenieurbüro für Systemtechnik, Wittenberg</foaf:affil>
+    <foaf:name>Dietmar Zobel</foaf:name>
   </foaf:Person>
 </rdf:RDF>
