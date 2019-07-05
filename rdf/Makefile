@@ -1,0 +1,3 @@
+all:
+	rapper -g ../../RDFData/People.ttl -o rdfxml-abbrev >People.rdf
+	rapper -g ../../RDFData/Conferences/TRIZ-Summit-2019.ttl -o rdfxml-abbrev >TRIZ-Summit-2019.rdf

@@ -13,20 +13,23 @@ function thePeople($people)
     $res = $graph->allOfType('foaf:Person');
     foreach ($res as $autor) {
         $b=array();
+        foreach ($autor->all("foaf:name") as $e) {
+            $b[]='<span itemprop="name" class="foaf:name">'
+                .$e->getValue().'</span>';
+        }
         foreach ($autor->all("foaf:affil") as $e) {
             $b[]='<span itemprop="affiliation" class="foaf:affil">'
                 .$e->getValue().'</span>';
         }
-        foreach ($autor->all("owl:sameAs") as $e) {
+        foreach ($autor->all("foaf:homepage") as $e) {
             $b[]=createLink($e,$e);
         }
-        $a[$autor->getUri()]='<div itemscope itemtype="http://schema.org/Person" class="creator">'
-            .'<p><span itemprop="name" class="foaf:name">'
-            .$autor->get("foaf:name").'</span><br/>'
+        $a[$autor->getUri()]=
+            '<div itemscope itemtype="http://schema.org/Person" class="creator">'
             .join('<br/>',$b).'</p></div>';
     }
     ksort($a);
-    $out='<h3>The TRIZ Social Network</h3>
+    $out='<h3>People in the TRIZ Social Network</h3>
 <div class="people">
 '.join("\n", $a).'
 </div> <!-- end class people -->';

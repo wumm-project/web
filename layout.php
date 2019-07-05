@@ -36,6 +36,7 @@ function pageNavbar() {
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li> 
             <li><a href="people.php?people=rdf/People.rdf">People within the TSN</a></li>
+            <li><a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf">TRIZ Summit 2019</a></li>
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->
