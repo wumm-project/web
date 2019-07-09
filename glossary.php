@@ -1,45 +1,43 @@
 <?php
+/**
+ * User: Hans-Gert Gräbe
+ * last update: 2019-07-09
+ */
+
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 
 function theGlossary($input) 
 {
     EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
     EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
+    EasyRdf_Namespace::set('skos', 'http://www.w3.org/2004/02/skos/core#');
+    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
     $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Glossary/');
     $graph->parseFile($input);
     $a=array();
-    $res = $graph->allOfType('foaf:Person');
-    foreach ($res as $autor) {
-        $b=array();
-        foreach ($autor->all("foaf:name") as $e) {
-            $b[]='<span itemprop="name" class="foaf:name">'
-                .$e->getValue().'</span>';
+    $res = $graph->allOfType('skos:Concept');
+    foreach ($res as $concept) {
+        $out="<h3>".showLanguage($concept->all("skos:prefLabel"),"<br/>")."</h3>";
+        $out.="<h4>Definition</h4>".showLanguage($concept->all("skos:definition"),"<br/>");
+        if ($concept->all("skos:note")) {
+            $out.="<h4>Notes</h4>".showLanguage($concept->all("skos:note"),"<br/>");
         }
-        foreach ($autor->all("foaf:affil") as $e) {
-            $b[]='<span itemprop="affiliation" class="foaf:affil">'
-                .$e->getValue().'</span>';
+        if ($concept->all("skos:example")) {
+            $out.="<h4>Examples</h4>".showLanguage($concept->all("skos:example"),"<br/>");
         }
-        foreach ($autor->all("foaf:homepage") as $e) {
-            $b[]=createLink($e,$e);
-        }
-        $a[$autor->getUri()]=
-            '<div itemscope itemtype="http://schema.org/Person" class="creator">'
-            .join('<br/>',$b).'</p></div>';
+        $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
-    $out='<h3>People in the TRIZ Social Network</h3>
-<div class="people">
+    $out='<h2>The TRIZ Glossary</h2>
+<div class="concept">
 '.join("\n", $a).'
-</div> <!-- end class people -->';
+</div> <!-- end concept list -->';
     return htmlEnv($out);
 }
 
 function main() {
-    $input=$_GET["people"];
-    return theGlossary($input);
-    
+    return theGlossary("rdf/Glossary.rdf");    
 }
 
 echo main();

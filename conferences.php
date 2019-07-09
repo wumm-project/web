@@ -1,4 +1,9 @@
 <?php
+/**
+ * User: Hans-Gert Gräbe
+ * last update: 2019-07-09
+ */
+
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 
