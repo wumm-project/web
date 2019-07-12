@@ -20,21 +20,23 @@
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_1001">
     <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304816-file-original.pdf"/>
-    <dcterms:abstract>Additional material, not presented at the conference</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">Additional material, not presented at the conference</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
-    <dcterms:title>COBRA+: A Systematic (Service) Innovation Process</dcterms:title>
+    <dcterms:title xml:lang="en">COBRA+: A Systematic (Service) Innovation Process</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_1002">
     <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304818-file-original.pdf"/>
-    <dcterms:abstract>Additional material, not presented at the conference</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">Additional material, not presented at the conference</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Falkov_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khorenyan_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Koblents_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Martsinovskii_G"/>
-    <dcterms:title>Solving non-digital problems for digital transformation</dcterms:title>
+    <dcterms:title xml:lang="en">Solving non-digital problems for digital transformation</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_519">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/IT"/>
+    <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304862-file-original.pdf"/>
+    <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304863-file-original.pdf"/>
     <dcterms:abstract xml:lang="en">- The author’s experience in using various TRIZ tools in IT companies is outlined. &lt;br/&gt; - Traditional TRIZ tools adapted for information technology are outlined. &lt;br/&gt; - Most from the materials are described in different books of the author. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">- Излагается опыт автора в использовании различных инструментов ТРИЗ в компаниях ИТ.&lt;br/&gt;- Излагаются традиционные и адаптированные под информационные технологии инструменты ТРИЗ.&lt;br/&gt;- Большинство из метериалов изложены в разных книгах автора.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
@@ -44,6 +46,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_520">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/IT"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=QtPhiRp8sk8"/>
     <dcterms:abstract xml:lang="en">We will get acquainted with the approach to solving inventive problems developed during the Samsung Advanced Institute of Technology. Taking into account the experience of practical consulting, an algorithm for correcting problem situations has been developed and repeatedly tested which turned out to be very effective for solving real problems of the company. The report will show the analysis of the problems solved for the SAMSUNG Group. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Мы познакомимся с подходом к решению изобретательских заадч, выработанном за время работы на Samsung Advanced Institute of Technology. С учетом опыта практического консалтинга был разработан и многократно проверен алгоритм исправления проблемных ситуаций, оказавшийся весьма эффективным именно для решения реальных задач компании. В докладе будут показаны разборы задач, решенных для SAMSUNG Group.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
@@ -53,6 +56,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_521">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/IT"/>
+    <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304811-file-original.pdf"/>
     <dcterms:abstract xml:lang="en">The mechanisms for saturation of technical systems with information will be presented. These mechanisms are universal and will manifest themselves in both hardware systems and software. During the master class there will be shown how practically apply these mechanisms to improve systems. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Будут представлены механизмы насыщения технических систем информацией. Эти механизмы - универсальны и проявляются как в "железячных" системах, так и в программном обеспечении. Во время мастер класса будет показано, как практически применять эти механизмы для совершенствания систем.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Devojno_I"/>
@@ -121,6 +125,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_529">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/PT"/>
+    <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304798-file-original.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sushkov_V"/>
     <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2019-ru/talks/529"/>
     <dcterms:title xml:lang="en">TRIZ for business and management: the current state</dcterms:title>
@@ -145,6 +150,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_574">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/IT"/>
+    <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304861-file-original.pdf"/>
     <dcterms:abstract xml:lang="en">The system of assessment and improvement of the level of assimilation of TRIZ tools "IKAR and DEDAL" is intended for self-evaluation of specialists of their level of TRIZ knowledge, provides objective information about the qualification of a TRIZ specialist and recommendations to raise it. The report presents the components of the system, in particular, the classification of TRIZ tools, the register of issued certificates, the methodology for assessing the level of knowledge of TRIZ. The system involves certification in the following areas: engineering, business, information technology, aktika (teachers), juniors. Will be presented the development of a referral system «IKAR and DEDAL» </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Система оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ» предназначена для самооценки специалистов их уровня знаний по ТРИЗ, предоставляет объективную информацию о квалификации специалиста в области ТРИЗ и рекомендации по ее повышению. В докладе будут представлены составляющие системы, в частности, классификация инструментов ТРИЗ, реестр выданных сертификатов, методика оценки уровня знания по ТРИЗ. Система предполагает сертификацию по направлениям: техника, бизнес, информационные технологии, дидактика (преподаватели), юниоры. Будут представлены направления развития системы «ИКАР и ДЕДАЛ»</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_O"/>
@@ -369,7 +375,8 @@
     <dcterms:title xml:lang="ru">Совместное применение методов бережливого производства, ФСА и ТРИЗ для снижения затрат и повышения качества процессов и продукции</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_606">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/Business"/>
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/PT"/>
+    <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304797-file-original.pdf"/>
     <dcterms:abstract xml:lang="en">In most cases, customers do not want to own products, but rather are trying to get jobs done. This universal phenomenon means that nearly every industry is embarking on a shift from product to service. Currently service innovation is done predominantly by trial and error. This presentation will exhibit the new SI toolkit designed specifically for the service sector, and will describe a number of real-life case studies from leading-edge service enterprises in the tourism, automotive, aerospace and ICT sectors.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
     <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2019-ru/talks/606"/>

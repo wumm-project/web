@@ -63,6 +63,7 @@ function abstracts($src,$people)
         $section=$talk->get("swc:relatedToEvent");
         $urlPaper=$talk->get("od:urlPaper");
         $urlSlides=$talk->get("od:urlSlides");
+        $urlVideo=$talk->get("od:urlVideo");
         $out.='<hr/>
 <div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
   <h4>
@@ -78,15 +79,20 @@ function abstracts($src,$people)
   <div class="section"><p><strong>Track:</strong> '
             . $section->get("rdfs:label") .'</p></div>';
         }
+        if ($urlPaper) { 
+            $out.='
+  <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
+            .' width="18px"/>&nbsp;<a href="'.$urlPaper.'">Paper</a> </div>';
+        } 
         if ($urlSlides) { 
             $out.='
   <div class="slides"> <img alt="" src="images/13_icon_pdf.gif"'
             .' width="18px"/>&nbsp;<a href="'.$urlSlides.'">Slides</a> </div>';
         } 
-        if ($urlPaper) { 
+        if ($urlVideo) { 
             $out.='
-  <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
-            .' width="18px"/>&nbsp;<a href="'.$urlPaper.'">Paper</a> </div>';
+  <div class="video"> <img alt="" src="images/video.png"'
+            .' width="18px"/>&nbsp;<a href="'.$urlVideo.'">Video</a> </div>';
         } 
         if ($abstract) { 
             $out.='
