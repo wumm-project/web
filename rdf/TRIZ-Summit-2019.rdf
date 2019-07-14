@@ -46,6 +46,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_520">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/IT"/>
+    <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=QtPhiRp8sk8"/>
     <dcterms:abstract xml:lang="en">We will get acquainted with the approach to solving inventive problems developed during the Samsung Advanced Institute of Technology. Taking into account the experience of practical consulting, an algorithm for correcting problem situations has been developed and repeatedly tested which turned out to be very effective for solving real problems of the company. The report will show the analysis of the problems solved for the SAMSUNG Group. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Мы познакомимся с подходом к решению изобретательских заадч, выработанном за время работы на Samsung Advanced Institute of Technology. С учетом опыта практического консалтинга был разработан и многократно проверен алгоритм исправления проблемных ситуаций, оказавшийся весьма эффективным именно для решения реальных задач компании. В докладе будут показаны разборы задач, решенных для SAMSUNG Group.</dcterms:abstract>
