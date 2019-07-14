@@ -38,6 +38,7 @@ function thePresentations($src,$people)
         $urlSlides=$talk->get("od:urlSlides");
         $size=$talk->get("dcterms:extent");
         $lang=$talk->get("dcterms:language");
+        $license=$talk->get("dcterms:rights");
         $out.='<hr/>
 <div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
   <h4>
@@ -50,6 +51,10 @@ function thePresentations($src,$people)
         if ($lang) { 
             $out.='
   <div itemprop="language"><strong>Language:</strong> '.$lang.'</div>';
+        }
+        if ($license) { 
+            $out.='
+  <div itemprop="license"><strong>Legal Notes:</strong> '.$license.'</div>';
         }
         if ($abstract) { 
             $out.='
