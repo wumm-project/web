@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://opendiscovery.org/Data/Presentations/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <rdfs:label>Open Discovery Collection of Presentations</rdfs:label>
+    <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Presentation">
+    <rdfs:label>DCMI Metarecord of a Presentation</rdfs:label>
+  </owl:Class>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713a">
+    <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713a.pdf"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
+    <dcterms:extent>164 slides</dcterms:extent>
+    <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">TRIZ in the modern world</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ в современном мире</dcterms:title>
+  </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713b">
+    <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
+    <dcterms:extent>41 slides</dcterms:extent>
+    <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">Training of company specialists in time pressure</dcterms:title>
+    <dcterms:title xml:lang="ru">Обучение специалистов компаний в условиях дефицита времени</dcterms:title>
+  </od:Presentation>
+</rdf:RDF>

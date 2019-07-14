@@ -31,6 +31,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arutyunova_E">
     <foaf:name>Ekaterina Arutyunova</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bakhturin_D">
+    <foaf:homepage rdf:resource="https://www.facebook.com/dmitriy.bakhturin"/>
+    <foaf:name>Dmitri Bakhturin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bezdel_Z">
     <foaf:affil xml:lang="ru">IPMA, Менеджер проектов</foaf:affil>
     <foaf:name>Zoya Bezdel'</foaf:name>
@@ -57,7 +61,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Curikov_V">
     <foaf:affil xml:lang="ru">True Machina, Главный архитектор интеллектульных систем</foaf:affil>
-    <foaf:name>Valerij Curikov</foaf:name>
+    <foaf:name>Valerij Tsourikov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Devojno_I">
     <foaf:affil xml:lang="en">IHS Markit, Product Analysis and Design Associate Director</foaf:affil>

@@ -38,6 +38,7 @@ function pageNavbar() {
             <li><a href="people.php">People</a></li>
             <li><a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf">TRIZ Summit 2019</a></li>
             <li><a href="glossary.php">TRIZ Glossary</a></li>
+            <li><a href="presentations.php">TRIZ Presentations</a></li>
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->
@@ -48,7 +49,7 @@ function generalContent() {
   return '
 <div class="container">
   <h1 align="center">Demonstation Site of the 
-<a href="https://wumm-project.github.io/TSN.html">TRIZ Social Network</a> (TSN)</h1>
+<a href="https://wumm-project.github.io/TSN.html">Systematic Innovations Social Network</a> (TSN)</h1>
 </div>
 ';
 }
@@ -58,7 +59,7 @@ function pageFooter() {
 
       <div class="container">
     <div class="footer">
-        <p class="text-muted">&copy; <a href="http://leipzig-data.de">The WUMM Projekt</a> since 2019 </p>
+        <p class="text-muted">&copy; <a href="http://wumm.uni-leipzig.de">The WUMM Projekt</a> since 2019 </p>
       </div>
     </div>
     <!-- jQuery (necessary for Bootstrap JavaScript plugins) -->
