@@ -270,6 +270,7 @@
     <foaf:affil>International TRIZ Association (MATRIZ)</foaf:affil>
     <foaf:affil xml:lang="ru">РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ</foaf:affil>
     <foaf:name xml:lang="en">Mikhail Rubin</foaf:name>
+    <foaf:name xml:lang="ru">Михаил Семенович Рубин</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubina_NV">
     <foaf:affil xml:lang="ru">ОО «Саммит разработчиков ТРИЗ», Руководитель проекта «Кубок ТРИЗ Саммита»</foaf:affil>
