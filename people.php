@@ -47,6 +47,6 @@ function main() {
     
 }
 
-echo main();
+echo genericLink().main();
 
 ?>

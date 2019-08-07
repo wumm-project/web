@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-07-14
+ * last update: 2019-08-07
  */
 
 require_once 'lib/EasyRdf.php';
@@ -39,6 +39,7 @@ function thePresentations($src,$people)
         $size=$talk->get("dcterms:extent");
         $lang=$talk->get("dcterms:language");
         $license=$talk->get("dcterms:rights");
+        $issued=$talk->get("dcterms:issued");
         $out.='<hr/>
 <div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
   <h4>
@@ -58,7 +59,7 @@ function thePresentations($src,$people)
         }
         if ($abstract) { 
             $out.='
-  <div itemprop="description" class="abstract"><p><strong>Abstract:</strong><br/> '
+  <div itemprop="description" class="abstract"><p><strong>Description:</strong><br/> '
             . $abstract .'</p></div>';
         }
         if ($urlSlides) { 
@@ -78,6 +79,6 @@ function main() {
     return thePresentations($src,$people);
 }
 
-echo main();
+echo genericLink().main();
 
 ?>

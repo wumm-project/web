@@ -31,3 +31,9 @@ function showLanguage($a,$sep) {
 function createLink($url,$text) {
     return '<a href='.$url.'>'.$text.'</a>';
 }
+
+function genericLink() {
+    return '
+<h4>This web site is part of the <a href="http://wumm.uni-leipzig.de">WUMM Demonstration Project"</a></h4>
+';
+}

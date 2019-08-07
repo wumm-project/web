@@ -105,14 +105,29 @@ function abstracts($src,$people)
     return htmlEnv($out);
 }
 
+function generalInfo() {
+    return '
+This web site lists RDF descriptions of different conferences collected within
+our RDFData Conferences subdirectory. At the moment report on the following
+conferences are available.
+
+<ul>
+<li> <a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf">
+TRIZ Summit 2019 in Minsk</a></li>
+</ul>
+'; 
+    
+}
+
 function main() {
     $conf=$_GET["conference"];
     $people=$_GET["people"];
+    if (empty($conf)) { return generalInfo(); }
     return abstracts($conf,$people);
     
 }
 
-echo main();
+echo genericLink().main();
 
 // conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf
 
