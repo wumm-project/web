@@ -49,7 +49,7 @@ function generalContent() {
   return '
 <div class="container">
   <h1 align="center">Demonstation Site of the 
-<a href="https://wumm-project.github.io/TSN.html">Systematic Innovations Social Network</a> (TSN)</h1>
+    <a href="https://wumm-project.github.io">WUMM Social Network</a></h1>
 </div>
 ';
 }

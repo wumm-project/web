@@ -34,6 +34,6 @@ function createLink($url,$text) {
 
 function genericLink() {
     return '
-<h4>This web site is part of the <a href="http://wumm.uni-leipzig.de">WUMM Demonstration Project"</a></h4>
+<h4>This web site is part of the <a href="http://wumm.uni-leipzig.de">WUMM Demonstration Project</a></h4>
 ';
 }
