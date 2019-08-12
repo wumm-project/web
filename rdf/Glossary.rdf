@@ -11,10 +11,10 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/40_inventive_principles">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Last collection of Inventive Principles authorised by G. Altshuller as published in (Altshuller,Sludyak,Rodman 1997).</skos:definition>
-    <skos:definition xml:lang="de">Letzte von G. Altshuller autorisierte Sammlung von Erfindungsgrundsätzen, wie in (Altshuller, Sludyak, Rodman 1997) veröffentlicht.</skos:definition>
+    <skos:definition xml:lang="de">Letzte von G. Altschuller autorisierte Sammlung von Innovationsprinzipien, wie in (Altshuller, Sludyak, Rodman 1997) veröffentlicht.</skos:definition>
     <skos:definition xml:lang="ru">Последняя коллекция изобретательских принципов, утвержденных Г. Альтшуллером, как опубликовано в (Altshuller, Sludyak, Rodman 1997).</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:prefLabel xml:lang="de">40 erfinderische Prinzipien</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">40 Innovationsprinzipien</skos:prefLabel>
     <skos:prefLabel xml:lang="en">40 inventive principles</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">40 изобретательских принципов</skos:prefLabel>
   </od:GlossaryEntry>
@@ -31,7 +31,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/algorithm_of_inventive_problem_solving">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Algorithm for the solution of a problem with various TRIZ tools which intensifies the problem by reformulating it in a series of steps.</skos:definition>
-    <skos:definition xml:lang="de">Vorgehensweise in der ein Problem schrittweise umformuliert und dadurch verstärkt wird, um dieses mit verschiedenen TRIZ-Werkzeugen und -Methoden zu lösen.</skos:definition>
+    <skos:definition xml:lang="de">Vorgehensweise, in der ein Problem schrittweise umformuliert und dadurch verstärkt wird, um dieses mit verschiedenen TRIZ-Werkzeugen und -Methoden zu lösen.</skos:definition>
     <skos:definition xml:lang="ru">Алгоритм решения проблемы с помощью различных инструментов ТРИЗ, усиливая проблему и переформулируя ее в несколько этапов.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">Algorithmus zur erfinderischen Problemlösung (ARIZ)</skos:prefLabel>
@@ -40,15 +40,15 @@
   </od:GlossaryEntry>
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/altshuller_matrix">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="de">39x39 Widerspruchsmatrix mit abstrakten technischen Parametern.</skos:definition>
     <skos:definition xml:lang="en">39x39 contradiction matrix generalised technical parameters.</skos:definition>
     <skos:definition xml:lang="ru">39x39 матрица противоречий с обобщенными техническими параметрами.</skos:definition>
+    <skos:definition xml:lang="de">Widerspruchsmatrix mit 39x39 abstrakten technischen Parametern.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:note xml:lang="de">Die letzte von G. Altshuller freigegebene Widerspruchsmatrix.</skos:note>
+    <skos:note xml:lang="de">Die letzte von G. Altschuller freigegebene Widerspruchsmatrix.</skos:note>
     <skos:note xml:lang="en">Last contradiction matrix authorised by G. Altshuller.</skos:note>
     <skos:note xml:lang="ru">Последняя матрица противоречий, утвержденная Г. Альтшуллером.</skos:note>
     <skos:prefLabel xml:lang="en">Altshuller matrix</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Widerspruchsmatrix nach Altshuller</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Widerspruchsmatrix nach Altschuller</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Матрица Альтшуллера</skos:prefLabel>
   </od:GlossaryEntry>
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/anticipatory_failure_determination">
@@ -64,7 +64,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/ariz-85c">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Last variant of the algorithm of inventive problem solving authorised by G. Altshuller dated 1985.</skos:definition>
-    <skos:definition xml:lang="de">Letzte von G. Altshuller 1985 freigegebene Variante des Algorithmus des erfinderischen Problemlösens.</skos:definition>
+    <skos:definition xml:lang="de">Letzte von G. Altschuller 1985 freigegebene Variante des Algorithmus des erfinderischen Problemlösens.</skos:definition>
     <skos:definition xml:lang="ru">Последний вариант алгоритма решения изобретательских задач, утвержденный Г. Альтшуллером 1985 г.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">ARIZ-85C</skos:prefLabel>
@@ -83,7 +83,7 @@
   </od:GlossaryEntry>
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/cause-effect-chains_analysis">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="de">Analysemethode, mit der über die Bildung von Ursache-Wirkungsketten die grundlegenden Ursachen für Nachteile eines technischen Systems identifiziert werden können.</skos:definition>
+    <skos:definition xml:lang="de">Analysemethode, mit der über die Bildung von Ursache-Wirkungs-Ketten die grundlegenden Ursachen für Nachteile eines technischen Systems identifiziert werden können.</skos:definition>
     <skos:definition xml:lang="en">Analysis method which permits identifying the basic causes for disadvantages of a technical system via cause-effect chains.</skos:definition>
     <skos:definition xml:lang="ru">Метод анализа, позволяющий выявить основные причины недостатков технической системы с помощью причинно-следственных цепочек.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
@@ -97,14 +97,14 @@
     <skos:definition xml:lang="en">System model which graphically represents cause-effect relations between functions, components, events, and parameters of the system and its environment</skos:definition>
     <skos:definition xml:lang="ru">Системная модель, которая графически представляет причинно-следственные связи между функциями, компонентами, событиями и параметрами системы и ее среды</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:prefLabel xml:lang="de">Ursache-Wirkungs-Ketten-Modell)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ursache-Wirkungs-Ketten-Modell</skos:prefLabel>
     <skos:prefLabel xml:lang="en">cause-effect diagram (cause-effect-chain diagram)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">причинно-следственная схема</skos:prefLabel>
   </od:GlossaryEntry>
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/classical_triz">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">TRIZ methods and tools by G. Altshuller. founder of TRIZ</skos:definition>
-    <skos:definition xml:lang="de">TRIZ-Methoden und -Werkzeuge, die auf den Begründer der TRIZ, G. Altshuller, zurückgehen.</skos:definition>
+    <skos:definition xml:lang="de">TRIZ-Methoden und -Werkzeuge, die auf den Begründer der TRIZ, G. Altschuller, zurückgehen.</skos:definition>
     <skos:definition xml:lang="ru">Методы и инструменты ТРИЗ разработанные Г. Альтшуллером, основателем ТРИЗ.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">Klassische TRIZ</skos:prefLabel>
@@ -180,8 +180,8 @@
     <skos:definition xml:lang="de">Wirkung auf ein Objekt, die Eigenschaften des Objekts beeinflusst, d.h. ändert oder konstant hält.</skos:definition>
     <skos:definition xml:lang="ru">Воздействие на объект, которое влияет, то есть изменяет или поддерживает свойства объекта.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:note xml:lang="en">Commonly, five ciasses of effects are distinguished:&lt;ul&gt;&lt;li&gt;mechanical&lt;/li&gt; &lt;li&gt;acoustical&lt;/li&gt; &lt;li&gt;thermal&lt;/li&gt; &lt;li&gt;chemical&lt;/li&gt; &lt;li&gt;electro-magnetic&lt;/ul&gt;.</skos:note>
-    <skos:note xml:lang="de">Die Bedeutung des Begriffs weicht von dem in der Physik üblichen "Raum, in dem Kräfte wirken" ab.</skos:note>
+    <skos:note xml:lang="en">Commonly, five classes of effects are distinguished:&lt;ul&gt;&lt;li&gt;mechanical&lt;/li&gt; &lt;li&gt;acoustical&lt;/li&gt; &lt;li&gt;thermal&lt;/li&gt; &lt;li&gt;chemical&lt;/li&gt; &lt;li&gt;electro-magnetic&lt;/ul&gt;.</skos:note>
+    <skos:note xml:lang="de">Die Bedeutung des Begriffs weicht von dem in der Physik üblichen „Raum, in dem Kräfte wirken“ ab.</skos:note>
     <skos:note xml:lang="en">The definition of this term differs from its usage in physics as «area in which forces are acting».</skos:note>
     <skos:note xml:lang="de">Verbreitet ist die Einteilung in fünf Klassen von Wirkungen: &lt;ul&gt; &lt;li&gt; mechanische &lt;/li&gt; &lt;li&gt; akustische &lt;/li&gt; &lt;li&gt; thermische &lt;/li&gt; &lt;li&gt; chemische &lt;/li&gt; &lt;li&gt; elektromagnetische &lt;/li&gt; </skos:note>
     <skos:note xml:lang="ru">Обычно различают пять групп эффектов: &lt;ul&gt; &lt;li&gt; механические &lt;/li&gt; &lt;li&gt; акустические &lt;/li&gt; &lt;li&gt; термические &lt;/li&gt; &lt;li&gt; химические &lt;/li&gt; &lt;li&gt; электромагнитные &lt;/ul&gt; </skos:note>
@@ -226,7 +226,7 @@
     <skos:definition xml:lang="de">Modell der besten Lösung eines erfinderischen Problems</skos:definition>
     <skos:definition xml:lang="ru">Модель наилучшего решения изобретательской проблемы</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:note xml:lang="de">Das ideale Endergebnis löst das Problem vollständig unter minimalen Änderungen am System und ohne Verschlechterung der Systemeigenschaften.</skos:note>
+    <skos:note xml:lang="de">Das ideale Endresultat löst das Problem vollständig unter minimalen Änderungen am System und ohne Verschlechterung der Systemeigenschaften.</skos:note>
     <skos:note xml:lang="en">The ideal final result completely solves the problem with minimal changes of the system and without deterioration of system properties.</skos:note>
     <skos:note xml:lang="ru">Идеальный конечный результат полностью решает проблему с минимальными изменениями системы и без ухудшения свойств системы.</skos:note>
     <skos:prefLabel xml:lang="en">Ideal Final Result (IFR)</skos:prefLabel>
@@ -262,7 +262,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/innovation_checklist">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Collection of questions and directives which help to analyse the situation of the innovation problem.</skos:definition>
-    <skos:definition xml:lang="de">Sammlung von Fragen und Anweisungen, um die Innovationssituation kennen zu lernen.</skos:definition>
+    <skos:definition xml:lang="de">Sammlung von Fragen und Anweisungen, um die Innovationssituation kennenzulernen.</skos:definition>
     <skos:definition xml:lang="ru">Сборник вопросов и директив, помогающих проанализировать ситуацию с инновационной проблемой.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:note xml:lang="de">In Anlehnung an Innovation Situation Questionnaire^TM formuliert.</skos:note>
@@ -304,7 +304,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/inventive_problem_solving">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Process of problem solving which produces novel solutions not apparent to the expert by the state of the art and which are considered as novelty.</skos:definition>
-    <skos:definition xml:lang="de">Vorgehen zum Lösen eines Problems unter Entwicklung von Lösungen hervorbringt, die sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergeben und damit als neuartig gelten.</skos:definition>
+    <skos:definition xml:lang="de">Vorgehen zum Lösen eines Problems unter Entwicklung von Lösungen, die sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergeben und damit als neuartig gelten.</skos:definition>
     <skos:definition xml:lang="ru">Процесс решения проблем, который приводит к новым решениям, не очевидным для специалиста в данной области техники и которые рассматриваются как новизна.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">erfinderische Problemlösung</skos:prefLabel>
@@ -313,7 +313,7 @@
   </od:GlossaryEntry>
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/inventive_standard">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="de">Allgemeines Muster zur Änderung der Stoff-Feld-Struktur eines technischen Systems zur Problemlösung.</skos:definition>
+    <skos:definition xml:lang="de">Allgemeines Muster für die Änderung der Stoff-Feld-Struktur eines technischen Systems zur Problemlösung.</skos:definition>
     <skos:definition xml:lang="en">General directive for the modification of a substance-field structure for problem solution</skos:definition>
     <skos:definition xml:lang="ru">Общая директива для модификации структуры вещества-поля для решения проблемы.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
@@ -327,7 +327,7 @@
     <skos:definition xml:lang="en">General patterns which describe the evolution of all kinds of technical systems.</skos:definition>
     <skos:definition xml:lang="ru">Общие схемы, которые описывают эволюцию всех видов технических систем. </skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:note xml:lang="de">Durch G. Altshuller begründete Muster. Ergänzungen und Detaillierungen sind auch als Muster, Trends und Linien der technischen Evolution bekannt.</skos:note>
+    <skos:note xml:lang="de">Durch G. Altschuller begründete Muster. Ergänzungen und Detaillierungen sind auch als Muster, Trends und Linien der technischen Evolution bekannt.</skos:note>
     <skos:note xml:lang="en">The patterns were originally conceived by G. Altshuller. Extensions and detailings are also known as patterns, trends, and lines of technical evolution.</skos:note>
     <skos:note xml:lang="ru">Паттерны были изначально задуманы Г. Альтшуллером. Расширения и детализации также известны как паттерны, тренды и линии технической эволюции.</skos:note>
     <skos:prefLabel xml:lang="de">Gesetze der Evolution technischer Systeme</skos:prefLabel>
@@ -340,7 +340,7 @@
     <skos:definition xml:lang="de">Kennzahl zur Bewertung der Erfindungshöhe auf Basis des zum Zeitpunkt der Erfindung existierenden Stands der Technik.</skos:definition>
     <skos:definition xml:lang="ru">Характерное число для оценки интеллектуального уровня изобретения по сравнению с современным уровнем на момент изобретения.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:prefLabel xml:lang="de">Erfindungsgrad</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erfindungsniveau</skos:prefLabel>
     <skos:prefLabel xml:lang="en">level of invention</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">уровень изобретательности</skos:prefLabel>
   </od:GlossaryEntry>
@@ -397,7 +397,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/resource">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Mean suitable for the solution of a problem.</skos:definition>
-    <skos:definition xml:lang="de">Mittel, das zur Lösung eines Problems geeignet ist.</skos:definition>
+    <skos:definition xml:lang="de">Mittel, das zur Lösung eines Problems genutzt werden kann.</skos:definition>
     <skos:definition xml:lang="ru">Средство, подходящее для решения проблемы.</skos:definition>
     <skos:example xml:lang="en">Time, space, substance, fields, information, and functions with their respective properties.</skos:example>
     <skos:example xml:lang="de">Zeit, Raum, Stoffe, Felder, Information und Funktionen mit ihren jeweiligen Eigenschaften.</skos:example>
@@ -410,7 +410,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/resource_analysis">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Search for and description of available and developable resources in the system itself and its environment.</skos:definition>
-    <skos:definition xml:lang="de">Suche nach und Beschreibung von vorhandenen und entwickelbaren Ressourcen im System und in seiner Umgebung.</skos:definition>
+    <skos:definition xml:lang="de">Suche nach und Beschreibung von vorhandenen und entwickelbaren Ressourcen im System und seiner Umgebung.</skos:definition>
     <skos:definition xml:lang="ru">Поиск и описание доступных и развиваемых ресурсов в самой системе и ее среде.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">Ressourcenanalyse</skos:prefLabel>
@@ -420,7 +420,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/root-conflict-analysis">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Cause-effect-chains analysis which permits complete identification of contradictions.</skos:definition>
-    <skos:definition xml:lang="de">Ursachen-Wirkungsketten-Analyse, die die vollständige Identifikation von Widersprüchen erlaubt.</skos:definition>
+    <skos:definition xml:lang="de">Ursachen-Wirkungs-Analyse, welche die vollständige Identifikation von Widersprüchen erlaubt.</skos:definition>
     <skos:definition xml:lang="ru">Анализ причинно-следственных связей, который позволяет полностью выявить противоречия.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">Root-Conflict-Analysis</skos:prefLabel>
@@ -453,7 +453,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/size-time-cost_operator">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">TRIZ method for overcoming the inventor's psychological bias by means of a thought experiment which varies system properties related to dimensions, time, and tost to their extremes.</skos:definition>
-    <skos:definition xml:lang="de">TRIZ-Methode, die die mentale Voreingenommenheit durch ein Gedankenexperiment mit extremer Variation der System- oder Prozesseigenschaften Maße, Zeit und Kosten überwindet.</skos:definition>
+    <skos:definition xml:lang="de">TRIZ-Methode, welche die mentale Voreingenommenheit durch ein Gedankenexperiment mit extremer Variation der System- oder Prozesseigenschaften Maße, Zeit und Kosten überwindet.</skos:definition>
     <skos:definition xml:lang="ru">Метод ТРИЗ для преодоления психологического смещения изобретателя с помощью мысленного эксперимента, который изменяет свойства системы, связанные с размерами, временем и стоимостью крайным способом </skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">Operator MZK</skos:prefLabel>
@@ -463,7 +463,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/smart-little-people_model">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Model for system analysis and for idea creation in which the system and possible solutions are represented by the actions of elements (so called little people, also known as dwarfs) who can possess any ability and perform any desired behaviour.</skos:definition>
-    <skos:definition xml:lang="de">Modell zur Systemanalyse und zur Ideenfindung, bei dem das System und mögliche Lösungen durch die Handlungen von Elementen (sogenannte kleine Leute, auch Zwerge genannt), die jede Fähigkeit besitzen und jedes gewünschte Verhalten ausführen können </skos:definition>
+    <skos:definition xml:lang="de">Modell zur Analyse eines Systems und zur Ideenfindung durch die Darstellung des Systems und möglicher Lösungen in Form von Elementen (sogenannten Zwergen), die beliebige gewünschte Eigenschaften besitzen und beliebiges Verhalten zeigen können.</skos:definition>
     <skos:definition xml:lang="ru">Модель для системного анализа и создания идеи, в которой система и возможные решения представлены действиями элементов (так называемые маленькие люди, также известный как гномы), которые могут обладать любой способностью и показать любое желаемое поведение.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">Zwergemodell</skos:prefLabel>
@@ -526,7 +526,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/system_of_inventive_standards">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Classification of 76 standard solutions, grouped into five classes of typical problems.</skos:definition>
-    <skos:definition xml:lang="de">Systematik von 76 Standardlösungen, die in fünf problembezogenen Klassen eingeteilt sind.</skos:definition>
+    <skos:definition xml:lang="de">Systematik von 76 Standardlösungen, die in fünf problembezogene Klassen eingeteilt sind.</skos:definition>
     <skos:definition xml:lang="ru">Классификация 76 стандартных приёмов, сгруппированных в пять классов типичных проблем.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:prefLabel xml:lang="de">System der Standardlösungen</skos:prefLabel>
@@ -557,7 +557,7 @@
     <skos:definition xml:lang="de">TRIZ-Methode zur Erhöhung der Idealität eines technischen Systems durch Elimination einzelner Komponenten.</skos:definition>
     <skos:definition xml:lang="ru">Метод ТРИЗ для повышения идеальности технической системы за счет устранения отдельных компонент.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
-    <skos:note xml:lang="de">Die nützlichen Funktionen der eliminierten Komponenten werden anderen Komponenten des Systems oder seiner Obersysteme zugewiesen.</skos:note>
+    <skos:note xml:lang="de">Die nützlichen Funktionen der eliminierten Komponenten werden anderen Komponenten des Systems oder seiner Obersysteme neu zugeordnet.</skos:note>
     <skos:note xml:lang="en">The useful functions of the eliminated components are reassigned to other components of the system or of its supersystems.</skos:note>
     <skos:note xml:lang="ru">Полезные функции устраненных компонент переназначаются другим компонентам системы или ее суперсистем.</skos:note>
     <skos:prefLabel xml:lang="de">Trimmen</skos:prefLabel>
@@ -567,7 +567,7 @@
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/triz">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Scientific and application-oriented discipline which comprises studying directions of engineering systems evolution and the process of inventive problem solving in order to develop methods and tools to support innovative improvement of engineering systems based on a systematic and knowledge-based approach.</skos:definition>
-    <skos:definition xml:lang="de">Wissenschaftliche und anwendungsorientierte Disziplin, die die Entwicklung technischer Systeme sowie den Prozess erfinderischer Problemlösung untersucht, um systematische und wissensbasierte Methoden und Werkzeuge zur Unterstützung der innovativen Verbesserung technischer Systeme zu entwickeln.</skos:definition>
+    <skos:definition xml:lang="de">Wissenschaftliche und anwendungsorientierte Disziplin, welche die Entwicklung technischer Systeme sowie den Prozess erfinderischer Problemlösung untersucht, um systematische und wissensbasierte Methoden und Werkzeuge zur Unterstützung der innovativen Verbesserung technischer Systeme zu entwickeln.</skos:definition>
     <skos:definition xml:lang="ru">Научная и прикладная дисциплина, которая включает в себя изучение направлений эволюции инженерных систем и процесса решения изобретательских задач с целью разработки методов и инструментов поддерживать которые поддерживают инновационное совершенствование инженерных систем на основе системного подхода, основанного на научных методах.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
     <skos:note xml:lang="de">In den ersten Übersetzungen vom Russischen ins Englische wurde TRIZ mit TIPS übersetzt. "TIPS" ist das Akronym der englischen Bezeichnung "Theory of Inventive Problem Solving".</skos:note>
@@ -592,7 +592,7 @@
   </od:GlossaryEntry>
   <od:GlossaryEntry rdf:about="http://opendiscovery.org/rdf/Glossary/triz_method">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="de">Ablaub der Anwendung eines oder mehrerer TRIZ-Werkzeuge.</skos:definition>
+    <skos:definition xml:lang="de">Ablauf der Anwendung eines oder mehrerer TRIZ-Werkzeuge.</skos:definition>
     <skos:definition xml:lang="en">Way of application of one or more TRIZ tools.</skos:definition>
     <skos:definition xml:lang="ru">Способ применения одного или нескольких инструментов ТРИЗ.</skos:definition>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Glossary/theTRIZGlossary"/>
