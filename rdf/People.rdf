@@ -102,6 +102,7 @@
     <foaf:name>Oleg Gerasimov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Graebe_HG">
+    <rdfs:seeAlso rdf:resource="https://orcid.org/0000-0002-3934-413X"/>
     <foaf:affil xml:lang="en">Leipzig University, Germany</foaf:affil>
     <foaf:homepage rdf:resource="http://bis.informatik.uni-leipzig.de/HansGertGraebe"/>
     <foaf:homepage rdf:resource="https://www.facebook.com/hg.graebe"/>
