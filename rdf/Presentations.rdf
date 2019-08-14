@@ -74,4 +74,17 @@
     <dcterms:title xml:lang="en">Training of company specialists in time pressure</dcterms:title>
     <dcterms:title xml:lang="ru">Обучение специалистов компаний в условиях дефицита времени</dcterms:title>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190727">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=srh23Ug6D6s"/>
+    <dcterms:abstract xml:lang="en">Interview given to a Russian TV channel on July 27, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:extent>1:11:40 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">Breakthrough thinking in small and medium-sized businesses. TRIZ for business</dcterms:title>
+    <dcterms:title xml:lang="ru">Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel, accompanied by a large discussion</rdfs:comment>
+  </od:Presentation>
 </rdf:RDF>

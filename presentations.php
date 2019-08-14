@@ -36,6 +36,7 @@ function thePresentations($src,$people)
         $titel=showLanguage($talk->all("dcterms:title"),"<br>");
         $abstract=showLanguage($talk->all("dcterms:abstract"),"<p>");
         $urlSlides=$talk->get("od:urlSlides");
+        $urlVideo=$talk->get("od:urlVideo");
         $size=$talk->get("dcterms:extent");
         $lang=$talk->get("dcterms:language");
         $license=$talk->get("dcterms:rights");
@@ -64,8 +65,11 @@ function thePresentations($src,$people)
         }
         if ($urlSlides) { 
             $out.='
-  <div class="slides"> <p><img alt="" src="images/13_icon_pdf.gif"'
-            .' width="18px"/>&nbsp;<a href="'.$urlSlides.'">Slides</a></p> </div>';
+  <div class="slides"> <p><a href="'.$urlSlides.'">Link to the Slides</a></p> </div>';
+        } 
+        if ($urlVideo) { 
+            $out.='
+  <div class="slides"> <p><a href="'.$urlVideo.'">Link to the Video</a></p> </div>';
         } 
         $out.='
 </div> <!-- end class presentation -->';
