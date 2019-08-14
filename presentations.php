@@ -41,6 +41,7 @@ function thePresentations($src,$people)
         $lang=$talk->get("dcterms:language");
         $license=$talk->get("dcterms:rights");
         $issued=$talk->get("dcterms:issued");
+        $comment=$talk->get("rdfs:comment");
         $out.='<hr/>
 <div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
   <h4>
@@ -71,6 +72,10 @@ function thePresentations($src,$people)
             $out.='
   <div class="slides"> <p><a href="'.$urlVideo.'">Link to the Video</a></p> </div>';
         } 
+        if ($comment) { 
+            $out.='
+  <div itemprop="comment"><strong>Comment:</strong> '.$comment.'</div>';
+        }
         $out.='
 </div> <!-- end class presentation -->';
     }
