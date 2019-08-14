@@ -326,7 +326,7 @@
     <foaf:affil>Consultant, Minsk, Belarus</foaf:affil>
     <foaf:name>Alexander Solodkin</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sushkov_V">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Souchkov_V">
     <foaf:affil xml:lang="ru">ICG Training &amp; Consulting, Управляющий Директор</foaf:affil>
     <foaf:homepage rdf:resource="https://www.facebook.com/valeri.souchkov"/>
     <foaf:name>Valeri Souchkov</foaf:name>
