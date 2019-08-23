@@ -52,6 +52,19 @@
     <dcterms:title xml:lang="de">Das ProHEAL Wegemodell</dcterms:title>
     <dcterms:title xml:lang="en">The ProHEAL Path Model</dcterms:title>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Litvin-20171101">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=BPpTNC2QOh0"/>
+    <dcterms:abstract xml:lang="en">Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions).</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Краткое изложение работы, которая имеет название: Как компьютер может сам изобретать (то есть Методы изобретательства, с помощью которых три программиста легко могут составить программы, посредством которых компьютер может сам изобрести много изобретений).</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_S"/>
+    <dcterms:extent>02:40:12 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">New TRIZ tools (current developments of GEN-TRIZ company)</dcterms:title>
+    <dcterms:title xml:lang="ru">Новые ТРИЗ инструменты (актуальные разработки компании GEN-TRIZ)</dcterms:title>
+  </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713a">
     <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713a.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
@@ -75,16 +88,24 @@
     <dcterms:title xml:lang="ru">Обучение специалистов компаний в условиях дефицита времени</dcterms:title>
   </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190727">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=4MRtONIOv4M"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=srh23Ug6D6s"/>
-    <dcterms:abstract xml:lang="en">Interview given to a Russian TV channel on July 27, 2019</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">Interview given to Alexei Shinnikov from the Saratov TRIZ Club for a Russian TV channel on July 27, 2019</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The fourth issue in the series "Innovative Thinking". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Shinnikov from the Saratov TRIZ Club for a Russian TV channel on August 19, 2019</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Четвертый выпуск в серии "Инновационное мышление". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
-    <dcterms:extent>1:11:40 h</dcterms:extent>
+    <dcterms:extent>00:59:33 h</dcterms:extent>
+    <dcterms:extent>01:11:40 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking</dcterms:title>
     <dcterms:title xml:lang="en">Breakthrough thinking in small and medium-sized businesses. TRIZ for business</dcterms:title>
+    <dcterms:title xml:lang="ru">Обострение требований в малом и среднем бизнесе. Инновационное мышление ТРИЗ</dcterms:title>
     <dcterms:title xml:lang="ru">Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей</dcterms:title>
-    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel, accompanied by a large discussion</rdfs:comment>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#Presentation"/>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel, accompanied by a large discussion over there</rdfs:comment>
   </od:Presentation>
 </rdf:RDF>

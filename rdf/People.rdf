@@ -295,6 +295,12 @@
     <foaf:affil xml:lang="ru">АО «НПК», Руководитель направления, Дирекция по ТРИЗ</foaf:affil>
     <foaf:name>Nikolaj Saunin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schinnikov_A">
+    <foaf:affil xml:lang="ru">Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов</foaf:affil>
+    <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
+    <foaf:name>Alexey Schinnikov</foaf:name>
+    <foaf:name xml:lang="ru">Алексей Шинников</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schollmeyer_J">
     <foaf:homepage rdf:resource="https://leibniz-institut.de/justus-schollmeyer/"/>
     <foaf:name>Justus Schollmeyer</foaf:name>
