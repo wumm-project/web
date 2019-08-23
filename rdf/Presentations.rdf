@@ -24,7 +24,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:extent>13 slides</dcterms:extent>
     <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-05-22</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dcterms:language>
     <dcterms:rights>Public domain</dcterms:rights>
     <dcterms:title xml:lang="en">The WUMM Project. Semantic Data and Innovation Management</dcterms:title>
@@ -46,7 +46,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:extent>7 slides</dcterms:extent>
     <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-04-04</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dcterms:language>
     <dcterms:rights>Public domain</dcterms:rights>
     <dcterms:title xml:lang="de">Das ProHEAL Wegemodell</dcterms:title>
@@ -59,7 +59,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_S"/>
     <dcterms:extent>02:40:12 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017-11-01</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <dcterms:rights>Public domain</dcterms:rights>
     <dcterms:title xml:lang="en">New TRIZ tools (current developments of GEN-TRIZ company)</dcterms:title>
@@ -87,27 +87,67 @@
     <dcterms:title xml:lang="en">Training of company specialists in time pressure</dcterms:title>
     <dcterms:title xml:lang="ru">Обучение специалистов компаний в условиях дефицита времени</dcterms:title>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190722">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=2cfx3qJZJJ4"/>
+    <dcterms:abstract xml:lang="en">Interview given to Alexei Shinnikov from the Saratov TRIZ Club on July 22, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:extent>01:27:00 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-22</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">TRIZ for the development of small and medium-sized businesses</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ для развития малого и среднего бизнеса</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190725">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ubgvcjzhs3g"/>
+    <dcterms:abstract xml:lang="en">Interview given to Alexei Shinnikov from the Saratov TRIZ Club on July 25, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:extent>01:27:10 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-25</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">Thinking skills in small and medium business. Systemic thinking</dcterms:title>
+    <dcterms:title xml:lang="ru">Навыки мышления в малом и среднем бизнесе. Системное мышление</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190727">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=srh23Ug6D6s"/>
-    <dcterms:abstract xml:lang="en">Interview given to Alexei Shinnikov from the Saratov TRIZ Club for a Russian TV channel on July 27, 2019</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">Interview given to Alexei Shinnikov from the Saratov TRIZ Club on July 27, 2019</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
     <dcterms:extent>01:11:40 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-27</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <dcterms:rights>Public domain</dcterms:rights>
     <dcterms:title xml:lang="en">Breakthrough thinking in small and medium-sized businesses. TRIZ for business</dcterms:title>
     <dcterms:title xml:lang="ru">Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей</dcterms:title>
     <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel, accompanied by a large discussion over there</rdfs:comment>
   </od:Presentation>
-  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190820">
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190813">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=X9tHu1czb7c"/>
+    <dcterms:abstract xml:lang="en">Interview given to Alexei Shinnikov from the Saratov TRIZ Club on August 13, 2019</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Очередной, третий эпизод бесед о инновационном мышлении. В этот раз речь идет об абстрактном мышлении. Как всегда, привожу примеры из личного опыта работы с клиентскими организациями и делюсь идеями, возникшими в результате многочисленных встреч с инноваторами из совершенно разных областей техники и бизнеса.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:extent>01:21:07 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-13</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Public domain</dcterms:rights>
+    <dcterms:title xml:lang="en">Abstract thinking in small and medium business</dcterms:title>
+    <dcterms:title xml:lang="ru">Абстрактное мышление в малом и среднем бизнесе</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190819">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=4MRtONIOv4M"/>
-    <dcterms:abstract xml:lang="en">The fourth issue in the series "Innovative Thinking". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Shinnikov from the Saratov TRIZ Club for a Russian TV channel on August 19, 2019</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The fourth issue in the series "Innovative Thinking". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Shinnikov from the Saratov TRIZ Club on August 19, 2019</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Четвертый выпуск в серии "Инновационное мышление". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
     <dcterms:extent>00:59:33 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-19</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <dcterms:rights>Public domain</dcterms:rights>
     <dcterms:title xml:lang="en">Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking</dcterms:title>

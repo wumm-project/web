@@ -285,6 +285,9 @@
     <foaf:name>Nataliya Rubina</foaf:name>
     <foaf:name xml:lang="ru">Наталия Викторовна Рубина</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ruin_A">
+    <foaf:name>Aleksei Ruin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ryabchuk_A">
     <foaf:affil>CTTIT, St. Peterburg, Russia</foaf:affil>
     <foaf:homepage rdf:resource="https://cttit.ru"/>
@@ -299,7 +302,7 @@
     <foaf:affil xml:lang="ru">Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов</foaf:affil>
     <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
     <foaf:name>Alexey Schinnikov</foaf:name>
-    <foaf:name xml:lang="ru">Алексей Шинников</foaf:name>
+    <foaf:name xml:lang="ru">Алексей Щинников</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schollmeyer_J">
     <foaf:homepage rdf:resource="https://leibniz-institut.de/justus-schollmeyer/"/>
@@ -319,6 +322,9 @@
     <foaf:homepage rdf:resource="http://www.target-invention.com"/>
     <foaf:name>Nikolaj Shpakovskij</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Simakov_S">
+    <foaf:name>Sergey Simakov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Skuratovich_А">
     <foaf:affil xml:lang="ru">ОАО «АМКОДОР - управляющая компания холдинга», Руководитель проекта по оптимизации бизнес-процессов</foaf:affil>
     <foaf:name>Alexander Skuratovich</foaf:name>
@@ -336,6 +342,9 @@
     <foaf:affil xml:lang="ru">ICG Training &amp; Consulting, Управляющий Директор</foaf:affil>
     <foaf:homepage rdf:resource="https://www.facebook.com/valeri.souchkov"/>
     <foaf:name>Valeri Souchkov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stroganov_B">
+    <foaf:name>Boris Stroganov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sysoev_S">
     <foaf:name>Sergej Sysoev</foaf:name>
