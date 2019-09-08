@@ -70,6 +70,8 @@
     <foaf:name>Igor Devojno</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dobrusskin_C">
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <foaf:affil xml:lang="en">Philips TRIZ Association, The Netherlands</foaf:affil>
     <foaf:homepage rdf:resource="https://innovationorigins.com/nl/tag/christoph-dobrusskin/"/>
     <foaf:name>Christoph Dobrusskin</foaf:name>
   </foaf:Person>
@@ -90,6 +92,11 @@
     <foaf:name>Dmitrii Falkov</foaf:name>
     <foaf:name>Dmitrij Falkov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fedosov_JuI">
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <foaf:affil xml:lang="en">St. Petersburg, Russia</foaf:affil>
+    <foaf:name>Ju. I. Fedosov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fey_V">
     <foaf:affil>Altshuller Institute for TRIZ Studies</foaf:affil>
     <foaf:name>Victor Fey</foaf:name>
@@ -97,6 +104,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fomenko_A">
     <foaf:affil xml:lang="ru">Группа ГАЗ, Директор Департамента ТРИЗ</foaf:affil>
     <foaf:name>Aleksej Fomenko</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fresner_J">
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <foaf:affil xml:lang="en">TRIZ Campus Vienna, Vienna, Austria</foaf:affil>
+    <foaf:name>J. Fresner</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gerasimov_O">
     <foaf:name>Oleg Gerasimov</foaf:name>
@@ -107,6 +119,11 @@
     <foaf:homepage rdf:resource="http://bis.informatik.uni-leipzig.de/HansGertGraebe"/>
     <foaf:homepage rdf:resource="https://www.facebook.com/hg.graebe"/>
     <foaf:name>Hans-Gert Gräbe</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gredynarov_I">
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <foaf:affil xml:lang="en">Ukrainian TRIZ Association, Ukraina</foaf:affil>
+    <foaf:name>Igor Gredynarov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gronauer_B">
     <foaf:affil>StrategieInnovation, Hünfeld, Germany</foaf:affil>
@@ -127,6 +144,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
     <foaf:affil>FH Coburg, Germany</foaf:affil>
     <foaf:name>Kai Hiltmann</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Holtz_V">
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <foaf:affil xml:lang="en">Intel Corporate TRIZ Chapter, USA</foaf:affil>
+    <foaf:name>Vendetta Holtz</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Horenyan_R">
     <foaf:affil xml:lang="ru">EPAM Systems, Проектный менеджер</foaf:affil>
@@ -202,8 +224,9 @@
     <foaf:name>Youn Jan Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Litvin_S">
-    <foaf:affil>International TRIZ Association (MATRIZ)</foaf:affil>
-    <foaf:name xml:lang="en">Simon Litvin</foaf:name>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <foaf:affil xml:lang="en">International TRIZ Association (MATRIZ), Boston, USA</foaf:affil>
+    <foaf:name>Simon Litvin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Livotov_P">
     <foaf:affil>HS Offenburg, Germany</foaf:affil>
@@ -227,6 +250,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nesterenko_A">
     <foaf:affil xml:lang="ru">ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист</foaf:affil>
     <foaf:name>Alla Nesterenko</foaf:name>
+    <foaf:name xml:lang="ru">Алла Нестеренко</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Neumuth_T">
     <foaf:affil>Leipzig University, Germany</foaf:affil>
@@ -307,6 +331,21 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schollmeyer_J">
     <foaf:homepage rdf:resource="https://leibniz-institut.de/justus-schollmeyer/"/>
     <foaf:name>Justus Schollmeyer</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schusterman_MN">
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+    <rdfs:comment xml:lang="ru">Мастер ТРИЗ, закончил ЛЭТИ им. Ульянова (Ленина) в 1972г., 
+Образование высшее Инженер электрик
+- преподает ТРИЗ инженерам Норильского комбината с 1980г.,
+- преподает ТРИЗ школьникам с 1982г.,
+- впервые в стране начал преподавать дошкольную ТРИЗ с 1987 года
+- педагог дополнительного образования ТОУ "ТРИЗ" МБУДО "СЮТ", г. Норильска,
+автор книг для детей и родителей, выходящих с 1991 года общим тиражом свыше 130 000 экз (на 2018 год).
+Обучивший на 40 часовых семинарах свыше 5000 воспитателей и педагогов
+с 1988 по 1991 годы в разных городах СССР</rdfs:comment>
+    <foaf:affil xml:lang="en">TRIZ School Norilsk, Russia</foaf:affil>
+    <foaf:name>Michail Naumovich Schusterman</foaf:name>
+    <foaf:name xml:lang="ru">Михаил Наумович Шустерман</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Severinec_G">
     <foaf:affil xml:lang="ru">Компания АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
