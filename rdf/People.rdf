@@ -69,12 +69,12 @@
     <foaf:affil xml:lang="en">IHS Markit, Product Analysis and Design Associate Director</foaf:affil>
     <foaf:name>Igor Devojno</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dobrusskin_C">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Dobrusskin_C">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil xml:lang="en">Philips TRIZ Association, The Netherlands</foaf:affil>
     <foaf:homepage rdf:resource="https://innovationorigins.com/nl/tag/christoph-dobrusskin/"/>
     <foaf:name>Christoph Dobrusskin</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Domkin_K">
     <foaf:affil xml:lang="ru">Компания АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
     <foaf:name>Kirill Domkin</foaf:name>
@@ -92,39 +92,42 @@
     <foaf:name>Dmitrii Falkov</foaf:name>
     <foaf:name>Dmitrij Falkov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fedosov_JuI">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Fedosov_JuI">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil xml:lang="en">St. Petersburg, Russia</foaf:affil>
     <foaf:name>Ju. I. Fedosov</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fey_V">
+    <od:affiliation>Altshuller Institute for TRIZ Studies</od:affiliation>
     <foaf:affil>Altshuller Institute for TRIZ Studies</foaf:affil>
     <foaf:name>Victor Fey</foaf:name>
+    <foaf:name xml:lang="en">Victor Fey</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fomenko_A">
     <foaf:affil xml:lang="ru">Группа ГАЗ, Директор Департамента ТРИЗ</foaf:affil>
     <foaf:name>Aleksej Fomenko</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fresner_J">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Fresner_J">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil xml:lang="en">TRIZ Campus Vienna, Vienna, Austria</foaf:affil>
     <foaf:name>J. Fresner</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gerasimov_O">
     <foaf:name>Oleg Gerasimov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Graebe_HG">
+    <od:affiliation>Leipzig University, Germany</od:affiliation>
     <rdfs:seeAlso rdf:resource="https://orcid.org/0000-0002-3934-413X"/>
     <foaf:affil xml:lang="en">Leipzig University, Germany</foaf:affil>
     <foaf:homepage rdf:resource="http://bis.informatik.uni-leipzig.de/HansGertGraebe"/>
     <foaf:homepage rdf:resource="https://www.facebook.com/hg.graebe"/>
     <foaf:name>Hans-Gert Gräbe</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gredynarov_I">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Gredynarov_I">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil xml:lang="en">Ukrainian TRIZ Association, Ukraina</foaf:affil>
     <foaf:name>Igor Gredynarov</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gronauer_B">
     <foaf:affil>StrategieInnovation, Hünfeld, Germany</foaf:affil>
     <foaf:name>Barbara Gronauer</foaf:name>
@@ -142,14 +145,16 @@
     <foaf:name>Michael Herrlich</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
+    <od:affiliation>FH Coburg, Germany</od:affiliation>
     <foaf:affil>FH Coburg, Germany</foaf:affil>
     <foaf:name>Kai Hiltmann</foaf:name>
+    <foaf:name xml:lang="de">Kai Hiltmann</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Holtz_V">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Holtz_V">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil xml:lang="en">Intel Corporate TRIZ Chapter, USA</foaf:affil>
     <foaf:name>Vendetta Holtz</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Horenyan_R">
     <foaf:affil xml:lang="ru">EPAM Systems, Проектный менеджер</foaf:affil>
     <foaf:name>Rostislav Horenyan</foaf:name>
@@ -223,11 +228,11 @@
     <foaf:affil xml:lang="en">Minghsin University, Professor, TRIZ trainer</foaf:affil>
     <foaf:name>Youn Jan Lin</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Litvin_S">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Litvin_S">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil xml:lang="en">International TRIZ Association (MATRIZ), Boston, USA</foaf:affil>
     <foaf:name>Simon Litvin</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Livotov_P">
     <foaf:affil>HS Offenburg, Germany</foaf:affil>
     <foaf:name>Pavel Livotov</foaf:name>
@@ -240,10 +245,7 @@
     <foaf:affil xml:lang="ru">EPAM Systems, Главный бизнес консультант</foaf:affil>
     <foaf:name>Georgij Martinovskij</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Martsinovskii_G">
-    <foaf:name>Georgii Martsinovskii</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Naehler_T">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Naehler_HT">
     <foaf:affil>c4pi – Center for Product-Innovation, Hünfeld, Germany</foaf:affil>
     <foaf:name>Horst Thomas Nähler</foaf:name>
   </foaf:Person>
@@ -269,6 +271,7 @@
     <foaf:name>Dmitrij Petrov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_VM">
+    <od:affiliation>International TRIZ Association (MATRIZ)</od:affiliation>
     <foaf:affil xml:lang="en">Innovation Technology</foaf:affil>
     <foaf:affil>International TRIZ Association (MATRIZ)</foaf:affil>
     <foaf:homepage rdf:resource="https://www.facebook.com/vladimir.petrov.triz"/>
@@ -298,6 +301,7 @@
     <foaf:name xml:lang="ru">Елена Валерьевна Редколис</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubin_M">
+    <od:affiliation>International TRIZ Association (MATRIZ)</od:affiliation>
     <foaf:affil>International TRIZ Association (MATRIZ)</foaf:affil>
     <foaf:affil xml:lang="ru">РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ</foaf:affil>
     <foaf:homepage rdf:resource="https://www.facebook.com/mihail.rubin"/>
@@ -332,8 +336,8 @@
     <foaf:homepage rdf:resource="https://leibniz-institut.de/justus-schollmeyer/"/>
     <foaf:name>Justus Schollmeyer</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schusterman_MN">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#MatrizMember"/>
+  <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Schusterman_MN">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:comment xml:lang="ru">Мастер ТРИЗ, закончил ЛЭТИ им. Ульянова (Ленина) в 1972г., 
 Образование высшее Инженер электрик
 - преподает ТРИЗ инженерам Норильского комбината с 1980г.,
@@ -346,7 +350,7 @@
     <foaf:affil xml:lang="en">TRIZ School Norilsk, Russia</foaf:affil>
     <foaf:name>Michail Naumovich Schusterman</foaf:name>
     <foaf:name xml:lang="ru">Михаил Наумович Шустерман</foaf:name>
-  </foaf:Person>
+  </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Severinec_G">
     <foaf:affil xml:lang="ru">Компания АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
     <foaf:name>Georgij Severinec</foaf:name>
