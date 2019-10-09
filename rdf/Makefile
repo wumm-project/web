@@ -4,3 +4,4 @@ all:
 	rapper -g ../../RDFData/Glossary.ttl -o rdfxml-abbrev >Glossary.rdf
 	rapper -g ../../RDFData/Presentations.ttl -o rdfxml-abbrev >Presentations.rdf
 	rapper -g ../../RDFData/ThePrinciples.ttl -o rdfxml-abbrev >Principles.rdf
+	rapper -g ../../WUMM-intern/Projekte/TRIZ-Trainer/tt-texts.ttl -o rdfxml-abbrev >tt-texts.rdf
