@@ -33,10 +33,11 @@ function displayTranslations($s) {
 
 function main() {
     $src="rdf/tt-texts.rdf";
-    $people="rdf/People.rdf";
     $out='<h2> The TRIZ Trainer Translation Project</h2>
 
 <p>This is an experimental setting only. </p>
+
+<p><a href="rdf/tt-texts.csv">Translation as CSV</a></p>
 
 <table align="center" border="2" width="90%">
 <tr><th> ID </th><th> Russian </th><th> German </th></tr>

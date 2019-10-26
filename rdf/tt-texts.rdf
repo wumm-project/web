@@ -5971,13 +5971,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_010">
     <tt:line>10</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Nach der Verarbeitung von Hypothesen auftretende Situationen</tt:text>
+    <tt:text xml:lang="de">Nach der Bearbeitung von Hypothesen auftretende Situationen</tt:text>
     <tt:text xml:lang="ru">Ситуации, возникающие после обработки гипотез</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_011">
     <tt:line>11</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Nach der Bearbeitung von Hypothesen können die folgenden Situationen auftreten (Beispiele für Formulierungsprobleme werden auf der Grundlage einer Liste von Hypothesen angegeben, die zur Verbesserung der Flüssigkeitskühlung aufgestellt wurden):</tt:text>
+    <tt:text xml:lang="de">Nach der Bearbeitung von Hypothesen können die folgenden Situationen auftreten (Die Beispiele für Formulierungsprobleme sind auf der Grundlage der Liste von Hypothesen angegeben, die zur Verbesserung der Kühlung der Flüssigkeit aufgestellt wurden):</tt:text>
     <tt:text xml:lang="ru">После обработки гипотез могут возникнуть следующие ситуации (примеры формулирования задач приведены на основе списка гипотез, выдвинутых для улучшения охлаждения жидкости):</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_012">
@@ -5989,13 +5989,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_013">
     <tt:line>13</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Einige Hypothesen weisen auf offensichtliche Möglichkeiten zur Lösung des Konflikts hin, dh sie raten direkt zur Transformation des Systems. Wenn eine solche Konvertierung für die spezifischen Umstände der Problemsituation geeignet ist und die Lösung des Problems offensichtlich ist, ist es nicht erforderlich, mit dieser Hypothese gemäß dem Algorithmus weiterzuarbeiten. Es reicht aus, die Lösung aufzuschreiben . </tt:text>
+    <tt:text xml:lang="de">Einige Hypothesen weisen auf offensichtliche Möglichkeiten zur Beseitigung des Konflikts hin, d.h. sie raten direkt dazu, wie das System zu transformieren ist. Wenn eine solche Transformation für die konkreten Problemumstände geeignet und die Lösung des Problems offensichtlich ist, so ist es nicht erforderlich, mit dieser Hypothese gemäß dem Algorithmus weiterzuarbeiten. Es reicht aus, die Lösung aufzuschreiben. </tt:text>
     <tt:text xml:lang="ru">Некоторые гипотезы указывают очевидные способы устранения конфликта – то есть прямо советуют, как преобразовать систему. Если такое преобразование подходит для конкретных обстоятельств проблемной ситуации, и решение задачи очевидно, то нет необходимости продолжать работу с этой гипотезой по алгоритму, достаточно записать решение.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_015">
     <tt:line>15</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Zum Beispiel wird gemäß der Hypothese „Blasen eines Flüssigkeitsbehälters mit Kühlluft“ die folgende Lösung geschrieben: „Um das Abkühlen einer Flüssigkeit zu beschleunigen, verwenden Sie eine Kühlung des Behälters mit Kühlluft“. </tt:text>
+    <tt:text xml:lang="de">Zum Beispiel wird gemäß der Hypothese „Umblasen des Flüssigkeitsbehälters mit Kühlluft“ die folgende Lösung geschrieben: „Für das beschleunigte Abkühlen der Flüssigkeit ist der Behälter mit Kühlluft zu umblasen“. </tt:text>
     <tt:text xml:lang="ru">Например, согласно гипотезе «Обдувать емкость с жидкостью охлаждающим воздухом», запишется такое решение: «Для ускорения охлаждения жидкости применить обдув емкости охлаждающим воздухом».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_016">
@@ -6013,139 +6013,139 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_018">
     <tt:line>18</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Blästanks mit flüssigem Stickstoff</tt:text>
+    <tt:text xml:lang="de">Umblasen des Tanks mit flüssigem Stickstoff</tt:text>
     <tt:text xml:lang="ru">Обдув ёмкости жидким азотом</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_021">
     <tt:line>21</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Wenn es nicht klar ist, wie die Hypothese zu testen ist, dh wie die vorgeschlagenen Methoden zur Lösung des Konflikts für das verbesserte technische System anzuwenden sind, sollten die Aufgaben für die Lösung in der zweiten Stufe formuliert werden.</tt:text>
+    <tt:text xml:lang="de">Wenn es nicht klar ist, wie die Hypothese überprüft werden kann, d.h. wie die vorgeschlagenen Methoden zur Beseitigung des Konflikts für das verbesserte technische System anzuwenden sind, sind Aufgaben für die zweite Lösungsstufe zu formulieren.</tt:text>
     <tt:text xml:lang="ru">Если же не ясно, как проверить гипотезу, т.е. как применить предложенные способы устранения конфликта для улучшаемой технической системы, следует сформулировать задачи для решения на втором этапе.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_022">
     <tt:line>22</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">2. Aufgabenmodell als Beschreibung der Bedingungen im Einsatzgebiet</tt:text>
+    <tt:text xml:lang="de">2. Aufgabenmodell als Beschreibung der Bedingungen in der Operativen Zone</tt:text>
     <tt:text xml:lang="ru">2. Модель задачи как описание условий в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_023">
     <tt:line>23</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Die meisten Hypothesen beschreiben die Bedingungen, die erstellt werden müssen, um den Konflikt zu lösen. Die Aufgabe wird als Frage formuliert und wie solche Bedingungen erstellt werden.</tt:text>
+    <tt:text xml:lang="de">In der Mehrzahl der Hypothesen werden Bedingungen beschrieben, die hergestellt werden müssen, um den Konflikt zu beseitigen. Die Aufgabe wird als Frage formuliert, wie genau solche Bedingungen hergestellt werden können.</tt:text>
     <tt:text xml:lang="ru">Большинство гипотез описывают условия, которые нужно создать, чтобы устранить конфликт. Задача формулируется в виде вопроса, а как именно создать такие условия.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_024">
     <tt:line>24</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Zum Beispiel, wie lässt sich nach der Hypothese „Anordnen, dass eine gekühlte und gefrierbereite Flüssigkeit ständig die Wand verlässt“ sicherstellen, dass die gekühlte Flüssigkeit ständig die Wand verlässt und durch eine wärmere Flüssigkeit ersetzt wird?</tt:text>
+    <tt:text xml:lang="de">Zum Beispiel, wie lässt sich nach der Hypothese „Dafür sorgen, dass die gekühlte und gefrierbereite Flüssigkeit ständig die Wand verlässt“ sicherstellen, dass die gekühlte Flüssigkeit tatsächlich ständig die Wand verlässt und durch eine wärmere Flüssigkeit ersetzt wird?</tt:text>
     <tt:text xml:lang="ru">Например, как, согласно гипотезе «Устроить так, чтобы охлажденная и готовая замерзнуть жидкость постоянно уходила от стенки» сделать так, чтобы охлаждаемая жидкость постоянно уходила от стенки, и заменялась более теплой?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_025">
     <tt:line>25</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Warm Fluid</tt:text>
+    <tt:text xml:lang="de">Warme Flüssigkeit</tt:text>
     <tt:text xml:lang="ru">Тёплая жидкость</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_026">
     <tt:line>26</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Supercooled Liquid</tt:text>
+    <tt:text xml:lang="de">Überkühlte Flüssigkeit</tt:text>
     <tt:text xml:lang="ru">Переохлаждённая жидкость</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_027">
     <tt:line>27</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Kalte Flüssigkeit weicht warm</tt:text>
+    <tt:text xml:lang="de">Kalte Flüssigkeit wird durch warme ersetzt</tt:text>
     <tt:text xml:lang="ru">Холодная жидкость сменяется тёплой</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_029">
     <tt:line>29</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">3. Das Aufgabenmodell als Aktion im operativen Bereich</tt:text>
+    <tt:text xml:lang="de">3. Das Aufgabenmodell als Aktion in der Operativen Zone</tt:text>
     <tt:text xml:lang="ru">3. Модель задачи как действие в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_030">
     <tt:line>30</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Ein anderer Aufgabentyp ist dadurch gekennzeichnet, dass die Bedingungen, die im operativen Bereich geschaffen werden müssen, bereits offensichtlich sind. Das Problem bei den Aktionen ist, dass die auszuführende Aktion einen Nachteil hat oder gar nicht klar ist, wie sie ausgeführt werden soll. Dann in der Aufgabenformulierung Die Frage ist, wie die notwendigen Aktionen ausgeführt werden sollen. </tt:text>
+    <tt:text xml:lang="de">Ein anderer Aufgabentyp ist dadurch gekennzeichnet, dass die Bedingungen, die in der Operativen Zone geschaffen werden müssen, bereits offensichtlich sind. Das Problem beim Vorgehen ist, dass die auszuführende Aktion einen Nachteil hat oder gar nicht klar ist, wie sie ausgeführt werden kann. Dann ist in der Aufgabenstellung die Frage zu formuleieren, wie die notwendigen Aktionen ausgeführt werden können. </tt:text>
     <tt:text xml:lang="ru">Еще один тип задач характеризуется тем, что условия, которые нужно создать в оперативной зоне – уже очевидны. Проблема с действиями – либо выполняемое действия имеет какой-то недостаток, либо вообще непонятно, как его выполнить. Тогда в формулировке задачи задается вопрос, как выполнить необходимые действия.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_031">
     <tt:line>31</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Nach der Hypothese, „die Eisschicht ständig zu zerstören, beispielsweise durch Schlagen auf den Behälter“, ist ein mechanisches Schlaggerät wie elektrische Hämmer vorgesehen. Ein solches Gerät ist ziemlich kompliziert. Sie müssen einen einfacheren Weg finden, um diese Aktion auszuführen.</tt:text>
+    <tt:text xml:lang="de">Nach der Hypothese, „die Eisschicht ständig zerstören, beispielsweise durch Schlagen auf den Behälter“, ist ein mechanisches Schlaggerät wie ein elektrischer Hammer vorgesehen. Ein solches Gerät ist ziemlich kompliziert. Es ist ein einfacherer Weg zu finden, um diese Aktion auszuführen.</tt:text>
     <tt:text xml:lang="ru">Например, согласно гипотезе «постоянно разрушать слой льда, например, ударами по емкости» предусмотрено механическое ударное устройство вроде молоточков с электроприводом. Такое устройство довольно сложно. Нужно найти более простой способ выполнения этого действия.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_032">
     <tt:line>32</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Impact Device</tt:text>
+    <tt:text xml:lang="de">Schlaggerät</tt:text>
     <tt:text xml:lang="ru">Ударное устройство</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_033">
     <tt:line>33</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Behälter mit Flüssigkeit</tt:text>
+    <tt:text xml:lang="de">Behälter mit der Flüssigkeit</tt:text>
     <tt:text xml:lang="ru">Ёмкость с жидкостью</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_034">
     <tt:line>34</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Zerstörung einer Eisschicht durch ein Schlaggerät</tt:text>
+    <tt:text xml:lang="de">Zerstörung der Eisschicht durch ein Schlaggerät</tt:text>
     <tt:text xml:lang="ru">Разрушение слоя льда ударным устройством</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_036">
     <tt:line>36</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">4. Das Modell des Problems „Technischer Widerspruch“</tt:text>
+    <tt:text xml:lang="de">4. Das Aufgabenmodell „Technischer Widerspruch“</tt:text>
     <tt:text xml:lang="ru">4. Модель задачи «Техническое противоречие»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_037">
     <tt:line>37</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Wenn wir Hypothesen aufstellen, versuchen wir uns immer die einfachste und naheliegendste Art vorzustellen, sie zu implementieren. Es kommt häufig vor, dass die vorgeschlagene Methode es ermöglicht, einige Systemparameter zu verbessern, aber einer oder mehrere ihrer anderen Parameter verschlechtern sich unannehmbar. Hier können wir darüber sprechen technischer Widerspruch, der richtig formuliert und auf seiner Grundlage aufgebaut werden muss. </tt:text>
+    <tt:text xml:lang="de">Beim aufstellen von Hypothesen versuchen wir immer, uns die einfachste und naheliegendste Art der Umsetzung vorzustellen. Es kommt häufig vor, dass es die vorgeschlagene Methode ermöglicht, einige Systemparameter zu verbessern, aber einer oder mehrere ihrer anderen Parameter verschlechtern sich unannehmbar. Wir erhalten einen technischen Widerspruch, der richtig formuliert werden muss, um auf dieser Grundlage die genaue Aufgabenstellung zu formulieren. </tt:text>
     <tt:text xml:lang="ru">При выдвижении гипотез мы всегда стараемся представить себе наиболее простой и очевидный способ их реализации. Часто бывает так, что предложенный способ дает возможность улучшить какой-то параметр системы, но один или несколько других ее параметров недопустимо ухудшаются. Здесь можно говорить о техническом противоречии, которое нужно должным образом сформулировать и построить задачи на его основе.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_038">
     <tt:line>38</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Zum Beispiel wird nach der Hypothese, „die Eisschicht ständig zu zerstören, zum Beispiel durch Schlagen auf den Behälter“, ein mechanisches Schlaggerät wie elektrische Hämmer bereitgestellt. Ein solches Gerät weist jedoch einen komplexen Aufbau auf. Das heißt, es entsteht ein Widerspruch: Die Verbesserung des Parameters Abkühlgeschwindigkeit führt zu einem inakzeptablen Ergebnis Verschlechterung des Parameters „Einfachheit des Geräts“. </tt:text>
+    <tt:text xml:lang="de">Zum Beispiel wird nach der Hypothese, „die Eisschicht ständig zerstören, zum Beispiel durch Schlagen auf den Behälter“, ein mechanisches Schlaggerät wie ein elektrischer Hammer bereitgestellt. Ein solches Gerät hat jedoch einen komplizierten Aufbau. Das heißt, es entsteht ein Widerspruch: Die Verbesserung des Parameters „Abkühlgeschwindigkeit“ führt zu einem inakzeptablen Ergebnis Verschlechterung des Parameters „Einfachheit des Geräts“. </tt:text>
     <tt:text xml:lang="ru">Например, согласно гипотезе «постоянно разрушать слой льда, например, ударами по емкости» предусмотрено механическое ударное устройство вроде молоточков с электроприводом. Но такое устройство имеет сложную конструкцию. То есть возникает противоречие: улучшение параметра «Скорость охлаждения» ведет к недопустимому ухудшению параметра «Простота устройства».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_039">
     <tt:line>39</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Verwenden eines anderen Schlagzeugtyps</tt:text>
+    <tt:text xml:lang="de">Verwenden eines anderen Typs von Schlaggerät</tt:text>
     <tt:text xml:lang="ru">Использование другого типа ударного устройства</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_040">
     <tt:line>40</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">5. Das Modell des Problems „Physikalischer Widerspruch“</tt:text>
+    <tt:text xml:lang="de">5. Das Aufgabenmodell „Physikalischer Widerspruch“</tt:text>
     <tt:text xml:lang="ru">5. Модель задачи «Физическое противоречие»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_041">
     <tt:line>41</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Es kommt häufig vor, dass die kombinierten Hypothesen widersprüchliche Anforderungen für denselben Parameter einer Systemkomponente beschreiben. Solche Hypothesen müssen sorgfältig identifiziert und auf der Grundlage grundlegender physikalischer Widersprüche aufgebaut werden. Dadurch können wir das Problem direkt in Form eines physikalischen Widerspruchs formulieren, dessen Beseitigung bietet die Gelegenheit, eine überzeugende Lösung für das Problem zu finden. </tt:text>
+    <tt:text xml:lang="de">Es kommt häufig vor, dass die kombinierten Hypothesen widersprüchliche Anforderungen an denselben Parameter einer Systemkomponente stellen. Solche Hypothesen müssen sorgfältig herausgearbeitet und auf dieser Grundlage der grundlegende physikalische Widerspruch formuliert werden. Dadurch kann im Weiteren das Problem direkt in Form eines physikalischen Widerspruchs formuliert werden, dessen Beseitigung auf eine starke Lösung des Problems führt. </tt:text>
     <tt:text xml:lang="ru">Часто бывает, что объединяемые гипотезы описывают противоречивые требования к одному и тому же параметру компонента системы. Такие гипотезы нужно тщательно выявлять и строить на их основе базовые физические противоречия. Это позволит в дальнейшем сформулировать задачу непосредственно в виде физического противоречия, устранение которого даст возможность выйти на сильное решение задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_042">
     <tt:line>42</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Zum Beispiel kann man sich nach der Hypothese „Anordnen, dass die gekühlte und gefrierbereite Flüssigkeit ständig die Wand verlässt“ den Fall so vorstellen:</tt:text>
+    <tt:text xml:lang="de">Zum Beispiel kann man sich nach der Hypothese „Dafür sorgen, dass die gekühlte und gefrierbereite Flüssigkeit ständig die Wand verlässt“ die Sache so vorstellen:</tt:text>
     <tt:text xml:lang="ru">Например, согласно гипотезе «Устроить так, чтобы охлажденная и готовая замерзнуть жидкость постоянно уходила от стенки» можно представить дело так:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_043">
     <tt:line>43</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">unterkühlte und gefrierbereite Flüssigkeit sollte sich in der Nähe einer kalten Oberfläche (Wand oder Oberfläche aus Eis) befinden;</tt:text>
+    <tt:text xml:lang="de">Die unterkühlte und gefrierbereite Flüssigkeit soll sich in der Nähe der kalten Oberfläche (Wand oder Oberfläche aus Eis) befinden;</tt:text>
     <tt:text xml:lang="ru">переохлажденная и готовая замерзнуть жидкость должна располагаться около холодной поверхности (стенки или поверхности льда);</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_044">
     <tt:line>44</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Unterkühlte Flüssigkeit sollte sich nicht in der Nähe der Wand oder Oberfläche des Eises befinden.</tt:text>
+    <tt:text xml:lang="de">Die unterkühlte Flüssigkeit sollte sich nicht in der Nähe der Wand oder Oberfläche des Eises befinden.</tt:text>
     <tt:text xml:lang="ru">переохлажденная жидкость не должна располагаться около стенки или поверхности льда.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_046">
@@ -6157,13 +6157,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_047">
     <tt:line>47</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Bei der Eingabe dieses Schritts haben wir eine oder mehrere erweiterte Hypothesen zur Lösung des Konflikts. Die Ausgabe sollte ein Modell des Problems sein, das dieser Hypothese so nahe wie möglich kommt.</tt:text>
-    <tt:text xml:lang="ru">На входе этого шага мы имеем одну или несколько выдвинутых гипотез устранения конфликта. На выходемы должны получить модель задачи, максимально близкую к этой гипотезе.</tt:text>
+    <tt:text xml:lang="de">Eingangs dieses Schritts sind eine oder mehrere Hypothesen zur Lösung des Konflikts formuliert. Am Ende haben wir ein Aufgabenmodell vorliegen, das dieser Hypothese so nahe wie möglich kommt.</tt:text>
+    <tt:text xml:lang="ru">На входе этого шага мы имеем одну или несколько выдвинутых гипотез устранения конфликта. На выходе мы должны получить модель задачи, максимально близкую к этой гипотезе.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_048">
     <tt:line>48</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Dies kann erreicht werden, wenn Sie bei der Aufstellung einer Hypothese sorgfältig prüfen, welcher Art von Modell für das Problem am nächsten ist, und die Aufgabe sofort in Form ihres Modells formulieren.</tt:text>
+    <tt:text xml:lang="de">Dies kann erreicht werden, wenn bei der Aufstellung einer Hypothese sorgfältig geprüft wird, welcher Art von Aufgabenmodell diese am nächsten ist, und die Aufgabe sofort in der Form dieses Modells formuliert wird.</tt:text>
     <tt:text xml:lang="ru">Это можно добиться, если при выдвижении гипотезы внимательно посмотреть, к какому типу модели задачи она ближе всего, и формулировать задачу сразу в виде её модели.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_050">
@@ -6175,55 +6175,55 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_051">
     <tt:line>51</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Konfliktursache: Pizza berührt den Boden der Schachtel.</tt:text>
+    <tt:text xml:lang="de">Konfliktursache: Die Pizza berührt den Boden der Schachtel.</tt:text>
     <tt:text xml:lang="ru">Причина конфликта: Пицца соприкасается с дном коробки.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_052">
     <tt:line>52</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Ausgewählte Hypothese: Erstellen Sie Bedingungen, damit die Pizza den Boden der Schachtel nicht berührt.</tt:text>
+    <tt:text xml:lang="de">Ausgewählte Hypothese: Es sind Bedingungen herzustellen, dass die Pizza den Boden der Schachtel nicht berührt.</tt:text>
     <tt:text xml:lang="ru">Выбранная гипотеза: Создать условия, чтобы пицца не соприкасалась с дном коробки.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/114_053">
     <tt:line>53</tt:line>
     <tt:sheet>114</tt:sheet>
-    <tt:text xml:lang="de">Formulierte Aufgabe nach dem Modell der Bedingungen: Wie werden Bedingungen erstellt, damit die Pizza nicht den Boden der Schachtel berührt?</tt:text>
+    <tt:text xml:lang="de">Formulierte Aufgabe nach dem Modell „Bedingungen“: Wie werden Bedingungen hergestellt, dass die Pizza den Boden der Schachtel nicht berührt?</tt:text>
     <tt:text xml:lang="ru">Сформулированная задача по модели «Условия»: Как создать условия, чтобы пицца не соприкасалась с дном коробки?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_001">
     <tt:line>1</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Lösen eines ausgewählten Problems</tt:text>
+    <tt:text xml:lang="de">Lösen der herausgearbeiteten Aufgabe</tt:text>
     <tt:text xml:lang="ru">Решение выделенной задачи</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_002">
     <tt:line>2</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Problem und Zweck der Lösung</tt:text>
+    <tt:text xml:lang="de">Aufgabenstellung und Zweck ihrer Lösung</tt:text>
     <tt:text xml:lang="ru">Задача и цель ее решения</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_003">
     <tt:line>3</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Schließlich werden die Aufgaben umrissen, und Sie können mit der zweiten Arbeitsstufe fortfahren - ihrer Lösung.</tt:text>
+    <tt:text xml:lang="de">Damit ist schließlich die Aufgabe umrissen und Sie können mit der zweiten Arbeitsstufe fortfahren - ihrer Lösung.</tt:text>
     <tt:text xml:lang="ru">Наконец, задачи обозначены, можно приступать ко второму этапу работы – их решению.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_004">
     <tt:line>4</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">In der ersten Phase haben wir das Gerät und die Bedienung der Maschine aussortiert, den Konflikt hervorgehoben, Arbeitshypothesen aufgestellt, das heißt, wir haben Optionen für die Bedingungen identifiziert, unter denen der Konflikt verschwindet. Einige Hypothesen werden ganz einfach implementiert, sie stellen Optionen zur Lösung des Problems dar. Wenn Es ist nicht klar, wie die Hypothese zu implementieren ist, auf deren Grundlage das zu lösende Problem formuliert wird. Gemäß der Hypothese wird vorgeschlagen, etwas im System zu ändern, und das Problem wirft die Frage auf, wie diese Änderung in den Umständen vorgenommen werden kann th system. </tt:text>
+    <tt:text xml:lang="de">In der ersten Phase haben wir Aufbau und Arbeitsweise der Maschine analysiert, den Konflikt herausgearbeitet, Arbeitshypothesen aufgestellt, d.h. wir haben Varianten von Bedingungen identifiziert, unter denen der Konflikt verschwindet. Einige Hypothesen lassen sich ganz einfach umsetzen, sie sind bereits Varianten zur Lösung des Problems. Wenn dagegen nicht klar ist, wie die Hypothese umzusetzen ist, so ist auf dieser Grundlage eine Aufgabe zu formulieren, die danach zu lösen ist. Gemäß der Hypothese wird vorgeschlagen, etwas im System zu ändern, und in der Aufgabenstellung wird die Frage aufgeworfen, wie diese Änderung unter den Bedingungen des nützlichen Systems umgesetzt werden kann. </tt:text>
     <tt:text xml:lang="ru">На первом этапе мы разобрались с устройством и работой машины, выделили конфликт, выдвинули рабочие гипотезы, то есть определили варианты условий, при которых конфликт исчезает. Некоторые гипотезы реализуются довольно просто, по сути дела они представляют варианты решения задачи. Если же непонятно, как реализовать гипотезу, на ее основе формулируется задача, которую мы будем решать. Согласно гипотезе, предлагается что-то изменить в системе, а в задаче ставится вопрос — как это изменение выполнить в обстоятельствах конкретной полезной системы.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_005">
     <tt:line>5</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Das Ziel der Problemlösung besteht darin, die problematischen Umstände im Betriebsbereich zu beheben. Dazu müssen Sie das problematische System transformieren und seine Version erhalten, in der es keinen anfänglichen Fehler gibt.</tt:text>
+    <tt:text xml:lang="de">Das Ziel der Lösung der Aufgabenstellung besteht darin, die problematischen Umstände in der Operativen Zone zu beseitigen. Dazu ist das problematische System zu transformieren, um eine Variante zu erhalten, in der es die anfängliche Unzulänglichkeit nicht mehr gibt.</tt:text>
     <tt:text xml:lang="ru">Цель решения задачи – исправить проблемные обстоятельства в оперативной зоне. Для этого нужно преобразовать проблемную систему, и получить ее вариант, в котором отсутствует исходный недостаток.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_007">
     <tt:line>7</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Undulating Scheme</tt:text>
+    <tt:text xml:lang="de">Hügelförmiges Schema</tt:text>
     <tt:text xml:lang="ru">Холмообразная схема</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_008">
@@ -6235,37 +6235,37 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_009">
     <tt:line>9</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">1. von den Bedingungen des Problems zum abstrakten Modell des Problems</tt:text>
+    <tt:text xml:lang="de">1. von den Bedingungen des Problems zum abstrakten Problemmodell</tt:text>
     <tt:text xml:lang="ru">1. от условия задачи к абстрактной модели задачи</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_010">
     <tt:line>10</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">2. Vom abstrakten Modell eines Problems zum abstrakten Modell einer Lösung</tt:text>
+    <tt:text xml:lang="de">2. Vom abstrakten Problemmodell zum abstrakten Lösungsmodell</tt:text>
     <tt:text xml:lang="ru">2. от абстрактной модели задачи к абстрактной модели решения</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_011">
     <tt:line>11</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">3. Von einem abstrakten Lösungsmodell zu einer bestimmten Lösung</tt:text>
+    <tt:text xml:lang="de">3. Vom abstrakten Lösungsmodell zu einer konkreten Lösung</tt:text>
     <tt:text xml:lang="ru">3. от абстрактной модели решения к конкретному решению</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_012">
     <tt:line>12</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Abstraction Level</tt:text>
+    <tt:text xml:lang="de">Abstraktionsebene</tt:text>
     <tt:text xml:lang="ru">Уровень абстракции</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_013">
     <tt:line>13</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Systemoptionen</tt:text>
+    <tt:text xml:lang="de">Systemvarianten</tt:text>
     <tt:text xml:lang="ru">Варианты системы</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_014">
     <tt:line>14</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Task</tt:text>
+    <tt:text xml:lang="de">Aufgabe</tt:text>
     <tt:text xml:lang="ru">Задача</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_015">
@@ -6283,61 +6283,61 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_017">
     <tt:line>17</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Solution</tt:text>
+    <tt:text xml:lang="de">Lösung</tt:text>
     <tt:text xml:lang="ru">Решение</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_018">
     <tt:line>18</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Undulating Scheme</tt:text>
+    <tt:text xml:lang="de">Hügelförmiges Modell</tt:text>
     <tt:text xml:lang="ru">Холмообразная схема</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_022">
     <tt:line>22</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Die Argumentation ist wie folgt aufgebaut.</tt:text>
+    <tt:text xml:lang="de">Die Argumentationskette wird wie folgt aufgebaut.</tt:text>
     <tt:text xml:lang="ru">Цепочка рассуждений строится следующим образом.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_023">
     <tt:line>23</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Eine Aufgabe, die sich auf einige reale Objekte bezieht, wird in ihr abstraktes Modell transformiert, das die Haupteigenschaften der zu verbessernden Objekte oder die Beziehungen zwischen ihnen in vereinfachter Form widerspiegelt. Gleichzeitig wird nicht die Aufgabe selbst transformiert, sondern ihr Modell auf abstrakter Ebene Das abstrakte Modell wird in ein Lösungsmodell umgewandelt, die allgemeine Idee - welche Änderung ist erforderlich, um das Ziel zu erreichen. Dann müssen wir verstehen, welche Ressourcen wir verwenden können, um diese abstrakte Idee auf einer realen Ebene zu verwirklichen. </tt:text>
+    <tt:text xml:lang="de">Eine Aufgabe, die sich auf reale Objekte bezieht, wird in ihr abstraktes Modell transformiert, das die Haupteigenschaften der zu verbessernden Objekte oder die Beziehungen zwischen ihnen in vereinfachter Form widerspiegelt. Gleichzeitig wird nicht die Aufgabe selbst transformiert, sondern ihr Modell auf abstrakter Ebene. Das abstrakte Modell wird in ein Lösungsmodell transformiert, die Leitidee dabei ist die Frage, welche Änderungen erforderlich sind, um das Ziel zu erreichen. Danach müssen wir verstehen, welche Ressourcen wir verwenden können, um diese abstrakte Idee auf einer realen Ebene zu verwirklichen. </tt:text>
     <tt:text xml:lang="ru">Задача, которая относится к каким-то реальным объектам, трансформируется в её абстрактную модель, которая отражает главные свойства улучшаемых объектов либо отношения между ними в упрощенном виде. При этом что преобразуется не сама задача, а именно ее модель на абстрактном уровне. Абстрактная модель трансформируется в модель решения, общую идею – какое требуется изменение для достижения поставленной цели. Затем нужно понять, какие ресурсы мы можем использовать, чтобы воплотить эту абстрактную идею на реальном уровне.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_024">
     <tt:line>24</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Die folgende Prozedur wird verfolgt:</tt:text>
+    <tt:text xml:lang="de">Dabei wird eine Folge von Schritten gegangen:</tt:text>
     <tt:text xml:lang="ru">Прослеживается такой порядок действий: </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_025">
     <tt:line>25</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">1. ein aufgabenmodell erstellen</tt:text>
+    <tt:text xml:lang="de">1. Ein Aufgabenmodell wird erstellt</tt:text>
     <tt:text xml:lang="ru">1. построить модель задачи </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_026">
     <tt:line>26</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">2. konvertiere es in ein Lösungsmodell</tt:text>
+    <tt:text xml:lang="de">2. Dieses wird in ein Lösungsmodell umgeformt</tt:text>
     <tt:text xml:lang="ru">2. преобразовать её в модель решения </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_027">
     <tt:line>27</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">3. Definieren Sie die Ressourcenanforderungen</tt:text>
+    <tt:text xml:lang="de">3. Die Anforderungen an die Ressourcen werden bestimmt</tt:text>
     <tt:text xml:lang="ru">3. определить требования к ресурсу </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_028">
     <tt:line>28</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">4. generiere eine Lösung</tt:text>
+    <tt:text xml:lang="de">4. Eine Lösung wird generiert</tt:text>
     <tt:text xml:lang="ru">4. сгенерировать решение</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_029">
     <tt:line>29</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Zum Beispiel: Sie müssen den Abstand zu einem Objekt - dem Startpunkt und dem Objekt - dem Startpunkt und dem Objekt, ergänzt durch eine Art Messgerät - mit einem Laser-Entfernungsmesser messen. </tt:text>
+    <tt:text xml:lang="de">Zum Beispiel: Es muss der Abstand zu einem Objekt bestimmen werden - Startpunkt und Objekt - Startpunkt und Objekt, ergänzt durch eine Art Messgerät - einen Laser-Entfernungsmesser verwenden. </tt:text>
     <tt:text xml:lang="ru">Например: «нужно измерить расстояние до какого-то объекта – начальная точка и объект – начальная точка и объект, дополненные каким-то измерителем – применить лазерный дальномер».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_031">
@@ -6349,31 +6349,31 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_032">
     <tt:line>32</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Eine Person wendet unbewusst den Ansatz eines hügelförmigen Schemas an, um Probleme zu lösen. Es hat sich als sehr vielversprechend erwiesen, erfinderische Probleme zu lösen. Der Unterschied zwischen dem Denken des Erfinders und dem alltäglichen, nicht reflektierten Denken besteht darin, dass wir, wenn wir alle drei Übergänge des Hügelschemas ausführen, können Standardmodelle und heuristische Werkzeuge für ihre Transformation anwenden, die in der TRIZ entwickelt wurden. Dazu gehören Modelle wie verschiedene Arten von Widersprüchen, SuField-Modelle, Modelle von kleinen Menschen, vereinfachte physische Kopien des Systems werden verbessert, grafische, mathematische und andere Modelle. </tt:text>
+    <tt:text xml:lang="de">Jeder Mensch wendet den Ansatz des hügelförmigen Schemas beim Lösen beliebiger Aufgaben unbewusst an. Er hat sich auch für das Lösen erfinderischer Probleme als sehr vielversprechend erwiesen. Der Unterschied zwischen dem Denken des Erfinders und dem alltäglichen, nicht reflektierten Denken besteht darin, dass wir bei allen drei Übergängen des Hügelschemas standardisierte Modelle und heuristische Werkzeuge für deren Transformation anwenden können, die in der TRIZ entwickelt wurden. Dazu gehören Modelle wie verschiedene Arten von Widersprüchen, SuField-Modelle, Zwergen-Modelle, vereinfachte physikalische Kopien des zu verbessernden Systems, grafische, mathematische und andere Modelle. </tt:text>
     <tt:text xml:lang="ru">Подход, иллюстрируемый холмообразной схемой, человек бессознательно применяет при решении любых задач. Он оказался весьма перспективным и для решения изобретательских задач. Отличие мышления изобретателя от повседневного, неотрефлексированного мышления состоит в том, что при выполнении всех трёх переходов холмовой схемы мы можем применить стандартные модели и эвристические инструменты для их преобразования, разработанные в ТРИЗ. Это такие модели, как различные типы противоречий, вепольные модели, модели из маленьких человечков, упрощенные физические копии улучшаемой системы, графические, математические и другие модели.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_033">
     <tt:line>33</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">So können wir in TRIZ entwickelte Standard-Problemmodelle anwenden. Und Sie können sie mit den entsprechenden heuristischen Werkzeugen in Lösungsmodelle konvertieren: Techniken zur Beseitigung technischer und physikalischer Widersprüche, Standard-Problemlösung, Regeln zur Konvertierung anderer Modelle. Das Ergebnis dieser Aktionen es wird eine abstrakte Beschreibung der Lösung des Problems geben. </tt:text>
+    <tt:text xml:lang="de">So können wir in TRIZ entwickelte Standard-Problemmodelle anwenden. Und Sie können sie mit den entsprechenden heuristischen Werkzeugen in Lösungsmodelle konvertieren: Techniken zur Beseitigung technischer und physikalischer Widersprüche, Standard-Problemlösung, Regeln zur Umwandlung anderer Modelle. Das Ergebnis dieser Aktionen liefert eine abstrakte Beschreibung der Lösung der Aufgabe. </tt:text>
     <tt:text xml:lang="ru">Таким образом, мы можем применить стандартные модели задачи, разработанные в ТРИЗ. А преобразовать их в модели решения можно, используя соответствующие эвристические инструменты: приёмы устранения технических и физических противоречий, стандартные решения задач, правила преобразования других моделей. Результатом этих действий будет абстрактное описание решения задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_034">
     <tt:line>34</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Was den dritten Schritt betrifft - den Übergang von einem Lösungsmodell zu einer technischen Lösung zu einem Problem, müssen Sie hier die Ressourcen ermitteln, die zur Lösung des Problems erforderlich sind, und diese optimal in das Lösungsmodell integrieren. Es ist besser, dies in zwei Schritten zu tun: Machen Sie zuerst eine detaillierte Beschreibung der erforderlichen eine Ressource, eine Art „Ressourcen-Identikit“, und suchen Sie dann eine Ressource (oder eine Gruppe von Ressourcen), die diese Anforderungen erfüllt. </tt:text>
+    <tt:text xml:lang="de">Was den dritten Schritt betrifft - den Übergang von einem Lösungsmodell zu einer technischen Lösung der Aufgabe, so sind hier Ressourcen zu ermitteln, die zur Lösung des Problems erforderlich sind, und diese optimal in das Lösungsmodell zu integrieren. Es ist besser, dies in zwei Schritten zu tun: Zuerst eine detaillierte Beschreibung der erforderlichen Ressource erstellen, eine Art „Ressourcen-Identikit“, und dann die Ressource (oder eine Gruppe von Ressourcen) heraussuchen, welche die Anforderungen erfüllt. </tt:text>
     <tt:text xml:lang="ru">Что касается третьего шага – перехода от модели решения к техническому решению задачи, то здесь нужно определить ресурсы, необходимые для решения задачи, и оптимальным образом встроить их в модель решения. Лучше делать это в два приёма: сначала составить подробное описание требуемого ресурса, своеобразный «фоторобот ресурса», а затем найти ресурс (или совокупность ресурсов), который удовлетворяет этим требованиям.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_035">
     <tt:line>35</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Dadurch erhalten wir ernsthafte methodische Unterstützung bei der Lösung des Problems.</tt:text>
+    <tt:text xml:lang="de">Auf diese Weise erhalten wir eine ernsthafte methodische Unterstützung bei der Lösung des Problems.</tt:text>
     <tt:text xml:lang="ru">Благодаря этому, мы получаем серьезную методическую поддержку при решении задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_036">
     <tt:line>36</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Ziel +</tt:text>
+    <tt:text xml:lang="de">Ziel+</tt:text>
     <tt:text xml:lang="ru">Цель+</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_037">
@@ -6385,13 +6385,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_038">
     <tt:line>38</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Wild Model</tt:text>
+    <tt:text xml:lang="de">SuField-Modell</tt:text>
     <tt:text xml:lang="ru">Вепольная модель</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_039">
     <tt:line>39</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Modell der kleinen Männer</tt:text>
+    <tt:text xml:lang="de">Zwergen-Modell</tt:text>
     <tt:text xml:lang="ru">Модель из маленьких человечков</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_040">
@@ -6403,25 +6403,25 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_041">
     <tt:line>41</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Ein Weg zum gewünschten Ergebnis +)</tt:text>
+    <tt:text xml:lang="de">Methode, das gewünschte Ergebnis zu erreichen +)</tt:text>
     <tt:text xml:lang="ru">Способ достижения желаемого результата +)</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_042">
     <tt:line>42</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Tricks von Altschuller</tt:text>
+    <tt:text xml:lang="de">Altschullers Prinzipien</tt:text>
     <tt:text xml:lang="ru">Приёмы Альтшуллера</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_043">
     <tt:line>43</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Standard Solutions</tt:text>
+    <tt:text xml:lang="de">Standard-Lösungen</tt:text>
     <tt:text xml:lang="ru">Стандартные решения</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_044">
     <tt:line>44</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">MMC-Konvertierungsregeln</tt:text>
+    <tt:text xml:lang="de">Umformungsregeln des Zwergenmodells</tt:text>
     <tt:text xml:lang="ru">Правила преобразования ММЧ</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_045">
@@ -6433,13 +6433,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_046">
     <tt:line>46</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Ressourcenanforderungen</tt:text>
+    <tt:text xml:lang="de">Anforderungen an die Ressourcen</tt:text>
     <tt:text xml:lang="ru">Требования к ресурсам</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_047">
     <tt:line>47</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Attributiver Ansatz</tt:text>
+    <tt:text xml:lang="de">Attributiver Zugang</tt:text>
     <tt:text xml:lang="ru">Атрибутивный подход</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_048">
@@ -6451,19 +6451,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_049">
     <tt:line>49</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">ANALOGUES</tt:text>
+    <tt:text xml:lang="de">ANALOGES</tt:text>
     <tt:text xml:lang="ru">АНАЛОГИ</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_050">
     <tt:line>50</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Unterstützung für Aktionen beim Arbeiten mit einer Aufgabe</tt:text>
+    <tt:text xml:lang="de">Unterstützung der Arbeitsschritte beim Arbeiten mit einer Aufgabe</tt:text>
     <tt:text xml:lang="ru">Поддержка действий при работе с задачей</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_052">
     <tt:line>52</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Im Rahmen des hügelförmigen Schemas verhalten wir uns also wie folgt:</tt:text>
+    <tt:text xml:lang="de">Im Rahmen des hügelförmigen Schemas gehen wir also wie folgt vor:</tt:text>
     <tt:text xml:lang="ru">Итак, в рамках холмообразной схемы мы действуем следующим образом:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_053">
@@ -6475,13 +6475,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_054">
     <tt:line>54</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Finden Sie die grundlegende Idee, wie Sie das gewünschte Ergebnis erzielen, welche Aktion Sie dazu ausführen müssen.</tt:text>
+    <tt:text xml:lang="de">Wir finden die grundlegende Idee, wie sich das gewünschte Ergebnis erzielen lässt, welche Aktion dazu ausgeführt werden müssen.</tt:text>
     <tt:text xml:lang="ru">Находим принципиальную идею, как получить требуемый результат, какое действие нужно для этого выполнить.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_055">
     <tt:line>55</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Wir überlegen, welche Ressourcen wir benötigen, um diese Idee umzusetzen und anzuwenden, um eine bestimmte Maschine zu verbessern. Finden Sie diese Ressourcen und verwandeln Sie die Idee in eine echte Lösung.</tt:text>
+    <tt:text xml:lang="de">Wir überlegen, welche Ressourcen benötigt werden, um diese Idee umzusetzen und zum Verbessern einer bestimmte Maschine anzuwenden. Wir finden diese Ressourcen und verwandeln die Idee in eine reale Lösung.</tt:text>
     <tt:text xml:lang="ru">Продумываем, какие ресурсы нам нужны, чтобы эту идею реализовать и применить её для улучшения конкретной машины, находим эти ресурсы и превращаем идею в реальное решение.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_057">
@@ -6499,7 +6499,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_059">
     <tt:line>59</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Task</tt:text>
+    <tt:text xml:lang="de">Aufgabe</tt:text>
     <tt:text xml:lang="ru">Задача</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_060">
@@ -6517,7 +6517,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_062">
     <tt:line>62</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Ressourcenanforderungen</tt:text>
+    <tt:text xml:lang="de">Anforderungen an die Ressourcen</tt:text>
     <tt:text xml:lang="ru">Требования к ресурсу</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_063">
@@ -6529,19 +6529,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_064">
     <tt:line>64</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Final Solution</tt:text>
+    <tt:text xml:lang="de">Endgültige Lösung</tt:text>
     <tt:text xml:lang="ru">Финальное решение</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_065">
     <tt:line>65</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">FP</tt:text>
+    <tt:text xml:lang="de">Physikalischer Widerspruch</tt:text>
     <tt:text xml:lang="ru">ФП</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_066">
     <tt:line>66</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">TP</tt:text>
+    <tt:text xml:lang="de">Technischer Widerspruch</tt:text>
     <tt:text xml:lang="ru">ТП</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_067">
@@ -6553,7 +6553,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_068">
     <tt:line>68</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Terms</tt:text>
+    <tt:text xml:lang="de">Bedingungen</tt:text>
     <tt:text xml:lang="ru">Условия</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_069">
@@ -6565,7 +6565,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_071">
     <tt:line>71</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Um das Problem gemäß dem AIPS-Algorithmus zu lösen, werden vier Problemmodelle bereitgestellt. Diese Modelle bieten die Möglichkeit, das Problem aus vier verschiedenen Blickwinkeln zu betrachten, wodurch es möglich wird, es gut zu verstehen und ein zufriedenstellendes Lösungskonzept zu erhalten.</tt:text>
+    <tt:text xml:lang="de">Um das Problem gemäß dem AIPS-Algorithmus zu lösen, werden vier Aufgabenmodelle bereitgestellt. Diese Modelle bieten die Möglichkeit, die Aufgabe aus vier verschiedenen Blickwinkeln zu betrachten, wodurch es möglich wird, diese gut zu verstehen und ein zufriedenstellendes Lösungskonzept zu erhalten.</tt:text>
     <tt:text xml:lang="ru">Для решения задачи согласно алгоритму АИПС, предусмотрены четыре модели задачи. Эти модели дают возможность взглянуть на задачу с четырех разных точек зрения, что дает возможность хорошо разобраться в ней, и получить устраивающую концепцию решения. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_072">
@@ -6577,139 +6577,139 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_073">
     <tt:line>73</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">1. bedingungen im einsatzgebiet</tt:text>
+    <tt:text xml:lang="de">1. Bedingungen in der Operativen Zone</tt:text>
     <tt:text xml:lang="ru">1. условия в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_074">
     <tt:line>74</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">2. aktion im einsatzbereich</tt:text>
+    <tt:text xml:lang="de">2. Aktionen in der Operativen Zone</tt:text>
     <tt:text xml:lang="ru">2. действие в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_075">
     <tt:line>75</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">3. technischer widerspruch</tt:text>
+    <tt:text xml:lang="de">3. Technischer Widerspruch</tt:text>
     <tt:text xml:lang="ru">3. техническое противоречие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_076">
     <tt:line>76</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">4. physischer widerspruch</tt:text>
+    <tt:text xml:lang="de">4. Physikalischer Widerspruch</tt:text>
     <tt:text xml:lang="ru">4. физическое противоречие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_077">
     <tt:line>77</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Die Arbeit mit Aufgabenmodellen wird wie folgt ausgeführt. Sie müssen sofort versuchen, die problematischen Umstände im Betriebsbereich direkt zu beheben. Dies kann durch Einführen neuer oder Umformen bestehender Komponenten erfolgen. Hier wird das Modell der Aufgabe „Bedingungen im Betriebsbereich“ angewendet.</tt:text>
+    <tt:text xml:lang="de">Die Arbeit mit Aufgabenmodellen wird wie folgt ausgeführt. Sie müssen sofort direkt versuchen, die problematischen Umstände in der Operativen Zone zu beheben. Dies kann durch Einführen neuer oder Umformen bestehender Komponenten erfolgen. Hier wird das Aufgabenmodell „Bedingungen in der Operativen Zone“ angewendet.</tt:text>
     <tt:text xml:lang="ru">Работа с моделями задачи проводится следующим образом. Сразу нужно попытаться напрямую исправить проблемные обстоятельства в оперативной зоне. Это можно сделать путем введения новых компонентов или преобразования существующих. Здесь применяется модель задачи «Условия в оперативной зоне».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_078">
     <tt:line>78</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Die zweite Richtung ist, mit Aktionen zu arbeiten, deren Implementierung Umstände schafft, die in der Betriebszone vorhanden sind. Vielleicht werden diese Aktionen nicht effizient ausgeführt, oder umgekehrt. Es können auch andere Probleme bei der Ausführung von Aktionen auftreten. Hierzu wird ein Modell verwendet „Aktionen im Einsatzgebiet“. </tt:text>
+    <tt:text xml:lang="de">Die zweite Richtung ist, mit Aktionen zu arbeiten, deren Ausführung die Umstände in der Operativen Zone beeinflusst. Vielleicht sind diese Aktionen zu schwach, oder umgekehrt zu stark. Es können auch andere Probleme bei der Ausführung dieser Aktionen auftreten. Hierbei wird das Modell „Aktionen in der Operativen Zone“ verwendet. </tt:text>
     <tt:text xml:lang="ru">Второе направление – поработать с действиями, выполнение которых и создает обстоятельства, присутствующие в оперативной зоне. Возможно, эти действия выполняются недостаточно эффективно, либо наоборот, чересчур сильно. Также могут присутствовать и другие проблемы с выполнением действий. Для этого используется модель «Действия в оперативной зоне».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_079">
     <tt:line>79</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Wir können gleich nach den ersten beiden Iterationen eine für uns passende Lösung finden. Wenn Versuche, die Umstände im Betriebsbereich zu verbessern und die ergriffenen Maßnahmen zu einer Verschlechterung einiger Systemparameter führen, entsteht eine Situation namens TRIZ, ein technischer Widerspruch.</tt:text>
+    <tt:text xml:lang="de">Wir können gleich nach den ersten beiden Iterationen eine für uns passende Lösung finden. Wenn jedoch die Versuche, die Umstände in der Operativen Zone zu verbessern und die ergriffenen Maßnahmen zu einer Verschlechterung anderer Systemparameter führen, entsteht eine Situation, die in der TRIZ als technischer Widerspruch bezeichnet wird.</tt:text>
     <tt:text xml:lang="ru">Мы можем получить устраивающее нас решение непосредственно после выполнения первых двух итераций. Если же попытки улучшить обстоятельства в оперативной зоне и выполняемые действия приводят к ухудшению каких-то параметров системы, возникает ситуация, называемая в ТРИЗ техническим противоречием.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_080">
     <tt:line>80</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Wenn sich bei der Entscheidung herausstellt, dass widersprüchliche Anforderungen an denselben Parameter des Systems oder seiner Komponente gestellt werden, sprechen wir von einem physischen Widerspruch.</tt:text>
+    <tt:text xml:lang="de">Wenn sich im Zuge der Lösungsfindung herausstellt, dass widersprüchliche Anforderungen an denselben Parameter des Systems oder eine seiner Komponente gestellt werden, sprechen wir von einem physikalischen Widerspruch.</tt:text>
     <tt:text xml:lang="ru">Если в ходе решения выяснится, что к одному и тому же параметру системы или ее компонента предъявляются противоречивые требования, мы говорим о физическом противоречии.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_081">
     <tt:line>81</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Die Lösung lautet also: Wir versuchen, die Umstände im operativen Bereich zu verbessern. Dazu betrachten und transformieren wir die dafür durchgeführten Aktionen. Wenn wir Widersprüche feststellen, beseitigen wir diese.</tt:text>
+    <tt:text xml:lang="de">Damit ist der Lösungsweg wie folgt: Wir versuchen, die Umstände in der Operativen Zone zu verbessern. Dazu betrachten und transformieren wir die dafür durchgeführten Aktionen. Wenn sich Widersprüche abzeichnen, beseitigen wir diese.</tt:text>
     <tt:text xml:lang="ru">Таким образом ход решения задачи следующий – мы стараемся улучшить обстоятельства в оперативной зоне. Для этого рассматриваем и преобразуем выполняемые для этого действия. При выявлении противоречий – устраняем их.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_082">
     <tt:line>82</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Identifizierung und Behebung technischer Inkonsistenzen</tt:text>
+    <tt:text xml:lang="de">Herausarbeiten und Lösen technischer Widersprüche</tt:text>
     <tt:text xml:lang="ru">Выявление и разрешение технических противоречий</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_083">
     <tt:line>83</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Aufdeckung und Lösung physikalischer Widersprüche</tt:text>
+    <tt:text xml:lang="de">Herausarbeiten und Lösen physikalischer Widersprüche</tt:text>
     <tt:text xml:lang="ru">Выявление и разрешение физических противоречий</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_084">
     <tt:line>84</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Zweck: Umstände im Einsatzgebiet</tt:text>
+    <tt:text xml:lang="de">Zweck: Bedingungen in der Operativen Zone</tt:text>
     <tt:text xml:lang="ru">Цель: Обстоятельства в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_085">
     <tt:line>85</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Methode: Aktionen im operativen Bereich</tt:text>
+    <tt:text xml:lang="de">Methode: Aktionen in der Operativen Zone</tt:text>
     <tt:text xml:lang="ru">Способ: Действия в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_086">
     <tt:line>86</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Allgemeines Schema zur Lösung des Problems</tt:text>
+    <tt:text xml:lang="de">Allgemeines Schema der Lösung der Aufgabe</tt:text>
     <tt:text xml:lang="ru">Общая схема решения задачи</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_089">
     <tt:line>89</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Szenarien für die Arbeit mit Aufgabenmodellen</tt:text>
+    <tt:text xml:lang="de">Szenarien der Arbeit mit Aufgabenmodellen</tt:text>
     <tt:text xml:lang="ru">Сценарии работы с моделями задачи</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_090">
     <tt:line>90</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Es gibt eine bestimmte Taktik, um das Problem im AIPS-2015-Algorithmus zu lösen.</tt:text>
+    <tt:text xml:lang="de">Im AIPS-2015-Algorithmus gibt es eine bestimmte Taktik zum Lösen  von Aufgaben.</tt:text>
     <tt:text xml:lang="ru">В алгоритме АИПС-2015 существует определенная тактика решения задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_091">
     <tt:line>91</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Dies ist zuallererst das oben dargestellte Aktionsdiagramm.</tt:text>
+    <tt:text xml:lang="de">Dies ist zuallererst das oben dargestellte Aktionsschema.</tt:text>
     <tt:text xml:lang="ru">Прежде всего эта схема действий, представленная выше.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_092">
     <tt:line>92</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Wir suchen nach Lösungen, untersuchen die Bedingungen im Einsatzgebiet und die durchgeführten Maßnahmen.</tt:text>
+    <tt:text xml:lang="de">Wir suchen nach Lösungen, indem wir die Bedingungen in der Operativen Zone erforschen und die dort ausgeführten Aktionen.</tt:text>
     <tt:text xml:lang="ru">Ищем решения, исследуя условия, присутствующие в оперативной зоне, и выполняемые действия.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_093">
     <tt:line>93</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Wir bauen und lösen die technischen Widersprüche, die gleichzeitig entstehen.</tt:text>
+    <tt:text xml:lang="de">Wir beschreiben und lösen die technischen Widersprüche, die dabei entstehen.</tt:text>
     <tt:text xml:lang="ru">Строим и разрешаем возникающие при этом технические противоречия.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_094">
     <tt:line>94</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Identifizieren und beseitigen Sie physische Widersprüche.</tt:text>
+    <tt:text xml:lang="de">Wir identifizieren und beseitigen die physikalischen Widersprüche.</tt:text>
     <tt:text xml:lang="ru">Выявляем и устраняем физические противоречия.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_095">
     <tt:line>95</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Außerdem gibt es eine bestimmte Taktik für die Arbeit mit der Aufgabe, die auf der Verwendung der vier empfohlenen Aufgabenmodelle basiert.</tt:text>
+    <tt:text xml:lang="de">Außerdem gibt es eine bestimmte Taktik für die Arbeit mit Aufgaben, die auf der Verwendung der vier empfohlenen Aufgabenmodelle basiert.</tt:text>
     <tt:text xml:lang="ru">Кроме этого, существует определенная тактика работы с задачей, исходя из использования четырех рекомендуемых моделей задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_096">
     <tt:line>96</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Sie können den entscheidenden Teil des Algorithmus ausgehend von jedem Modell des Problems eingeben. In der Regel ist dies das Modell des Problems, das für die ausgewählte Hypothese am besten geeignet ist. Nachdem wir den Prozess der Problemlösung bestanden haben, erhalten wir eine vorläufige Lösung, mit der ein bestimmter Parameter des nützlichen Systems verbessert werden soll. If after Dies zeigt keine schädlichen Phänomene, dann kann die Lösung des Problems als gefunden betrachtet werden. Wenn die empfangene Idee uns nicht vollständig befriedigt, ist es notwendig, den Lösungsprozess zu wiederholen. Dies kann unter Verwendung eines beliebigen Modells des Problems durchgeführt werden, eines beliebigen hier gibt es keine einschränkungen. </tt:text>
+    <tt:text xml:lang="de">Sie gelangen in den Lösungsteil des Algorithmus ausgehend von jedem der Aufgabenmodelle. In der Regel ist dies das Aufgabenmodell, das für die ausgewählte Hypothese am besten geeignet ist. Nachdem wir den Prozess der Lösung der Aufgabe durchlaufen haben, erhalten wir eine vorläufige Lösung, mit der ein bestimmter Parameter des nützlichen Systems verbessert werden soll. Wenn dabei keine schädlichen Phänomene auftreten, ist die Lösung des Problems gefunden. Wenn die gefundene Idee uns nicht vollständig befriedigt, ist es notwendig, den Lösungsprozess zu wiederholen. Dazu kann ein beliebiges Aufgabenmodell verwendet werden, hier gibt es keine Einschränkungen. </tt:text>
     <tt:text xml:lang="ru">Входить в решательную часть алгоритма можно, начиная с любой модели задачи. Как правило, это модель задачи, наиболее подходящая для выбранной гипотезы. Пройдя процесс решения задачи, мы получаем предварительное решение, которое призвано улучшить определенный параметр полезной системы. Если после этого не проявляется никаких вредных явлений, то решение задачи можно считать найденным. Если же полученная идея не до конца удовлетворяет нас, необходимо повторить процесс решения. Это можно сделать, используя любую модель задачи, каких-либо ограничений здесь нет. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_097">
     <tt:line>97</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">In der Abbildung ist eines der Szenarien für die Arbeit mit der Aufgabe dargestellt.</tt:text>
+    <tt:text xml:lang="de">In der Abbildung ist eines der Szenarien der Arbeit mit einer Aufgabe dargestellt.</tt:text>
     <tt:text xml:lang="ru">Один из сценариев работы с задачей показан на рисунке.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_098">
@@ -6721,37 +6721,37 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_099">
     <tt:line>99</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">FP</tt:text>
+    <tt:text xml:lang="de">Physikalische Widersprüche</tt:text>
     <tt:text xml:lang="ru">ФП</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_100">
     <tt:line>100</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">TP</tt:text>
+    <tt:text xml:lang="de">Technische Widersprüche</tt:text>
     <tt:text xml:lang="ru">ТП</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_101">
     <tt:line>101</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Actions</tt:text>
+    <tt:text xml:lang="de">Aktionen</tt:text>
     <tt:text xml:lang="ru">Действия</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_102">
     <tt:line>102</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Terms</tt:text>
+    <tt:text xml:lang="de">Bedingungen</tt:text>
     <tt:text xml:lang="ru">Условия</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_103">
     <tt:line>103</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Ein rationales Szenario für die Arbeit mit Aufgabenmodellen für AIPS 2015</tt:text>
+    <tt:text xml:lang="de">Ein rationales Szenario für die Arbeit mit den Aufgabenmodellen von AIPS-2015</tt:text>
     <tt:text xml:lang="ru">Рациональный сценарий работы с моделями задач по АИПС 2015</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_105">
     <tt:line>105</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Nach diesem Szenario müssen Sie, nachdem Sie die Idee einer Lösung für ein Modell erhalten haben, zunächst prüfen, ob ein technischer Widerspruch vorliegt, und versuchen, einen physischen Widerspruch zu formulieren.</tt:text>
+    <tt:text xml:lang="de">Nach diesem Szenario muss nach der Konstruktion einer Lösungsidee nach einem beliebigen Modell zunächst geprüft werden, ob ein technischer Widerspruch vorliegt, und versucht werden, einen physikalischen Widerspruch zu formulieren.</tt:text>
     <tt:text xml:lang="ru">Согласно этому сценарию, после получения идеи решения по любой модели нужно в первую очередь проверять, не возникает ли техническое противоречие и пытаться сформулировать противоречие физическое.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_106">
@@ -6763,13 +6763,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_107">
     <tt:line>107</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Es mag sich herausstellen, dass die Idee einer Lösung den erforderlichen Systemparameter verbessert, aber zu einer Verschlechterung eines oder mehrerer anderer Parameter führt. In TRIZ tritt eine Situation auf, die als technischer Widerspruch bezeichnet wird. Auf dieser Grundlage ist es ratsam, unmittelbar nach Erhalt einer Lösung zu prüfen, ob es ist ein technischer Widerspruch. Wenn ja, dann sollte dieser Widerspruch identifiziert und gelöst werden. </tt:text>
+    <tt:text xml:lang="de">Es kann sich herausstellen, dass die Lösungsidee den erforderlichen Systemparameter verbessert, aber zu einer Verschlechterung eines oder mehrerer anderer Parameter führt. Es tritt eine Situation auf, die in TRIZ als technischer Widerspruch bezeichnet wird. Deshalb ist es ratsam, unmittelbar nach Erhalt einer Lösung zu prüfen, ob in dieser ein technischer Widerspruch enthalten ist. Wenn ja, dann sollte dieser Widerspruch identifiziert und gelöst werden. </tt:text>
     <tt:text xml:lang="ru">Может получиться так, что идея решения улучшает требуемый параметр системы, но приводит к ухудшению одного или нескольких других ее параметров. Возникает ситуация, именуемая в ТРИЗ техническим противоречием. Исходя из этого, сразу после получения любого решения целесообразно проверять, содержит ли оно техническое противоречие. Если это так, то следует выявить и разрешить это противоречие.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_108">
     <tt:line>108</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Der einfachste und rentabelste Weg, das Problem zu lösen, besteht darin, den physischen Widerspruch zu identifizieren und zu beseitigen. Sie müssen sich bei jedem Schritt der Problemlösung darum bemühen, dh sich ständig die Frage stellen - ist es möglich, einen physischen Widerspruch zu formulieren? Das heißt, wir müssen versuchen, darüber hinwegzugehen zu einem physischen Widerspruch, nachdem eine Iteration durchgeführt wurde, da ihre Beseitigung gute Lösungsideen liefert. </tt:text>
+    <tt:text xml:lang="de">Der einfachste und rentabelste Weg, das Problem zu lösen, besteht darin, den physikalischen Widerspruch zu identifizieren und zu beseitigen. Darum muss man sich bei jedem Schritt der Problemlösung bemühen, d.h. sich ständig die Frage stellen - ist es möglich, einen physikalischen Widerspruch zu formulieren? Das heißt, wir sollten nach jeder Iteration versuchen, einen physikalischen Widerspruch zu identifizieren, da dessen Beseitigung gute Lösungsideen liefert. </tt:text>
     <tt:text xml:lang="ru">Самый простой и выгодный путь решения задачи – выявить и устранить физическое противоречие. К этому нужно стремиться на любом шаге решения задачи, т. е. постоянно задавать себе вопрос – а можно ли сформулировать физическое противоречие? То есть, надо пытаться перейти к физическому противоречию после выполнения любой итерации, поскольку именно его устранение дает хорошие идеи решения.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_109">
