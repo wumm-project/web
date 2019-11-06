@@ -6787,55 +6787,55 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_112">
     <tt:line>112</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Am Anfang der Phase „Das ausgewählte Problem lösen“ haben wir die Problembedingung als eines der Standardmodelle formuliert. Die Ausgabe ist die Idee, das Problem zu lösen.</tt:text>
+    <tt:text xml:lang="de">Eingangs der Phase „Das ausgewählte Problem lösen“ haben wir die Problembedingung als eines der Standardmodelle formuliert. Am Ende steht eine Idee, das Problem zu lösen.</tt:text>
     <tt:text xml:lang="ru">На входе этапа «Решение выделенной задачи» мы имеем условие задачи, сформулированное, как одна из стандартных моделей. Выход - идея решения задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/115_113">
     <tt:line>113</tt:line>
     <tt:sheet>115</tt:sheet>
-    <tt:text xml:lang="de">Beim Arbeiten mit Aufgabenmodellen können Sie Modelle in beliebiger Reihenfolge verwenden. Gleichzeitig müssen Sie das Auftreten von Widersprüchen ständig überwachen, identifizieren und mit den entsprechenden Tools beseitigen.</tt:text>
+    <tt:text xml:lang="de">Beim Arbeiten mit Aufgabenmodellen können Sie Modelle in beliebiger Reihenfolge verwenden. Gleichzeitig müssen Sie das Auftreten von Widersprüchen ständig überwachen, diese identifizieren und mit den entsprechenden Tools beseitigen.</tt:text>
     <tt:text xml:lang="ru">При работе с моделями задачи можно использовать модели в любом порядке. При этом нужно постоянно следить за возникновением противоречий, выявлять их и устранять при помощи соответствующих инструментов.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_001">
     <tt:line>1</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone und Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zone und Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативная зона и оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_002">
     <tt:line>2</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_003">
     <tt:line>3</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Bei der Lösung des Problems muss festgelegt werden, an welchem ​​Ort und wann die Korrekturmaßnahme stattfinden soll. Meistens handelt es sich um eine Konfliktzone, aber es kommt vor, dass die Aktion an der Stelle stattfinden muss, an der die Konfliktursache beseitigt wird. Der Ort des nützlichen Systems, in dem die Transformationen gemäß ausgeführt werden Der Zustand der Aufgabe wird als Betriebszone bezeichnet. </tt:text>
+    <tt:text xml:lang="de">Bei der Lösung des Problems muss festgelegt werden, an welchem ​​Ort und wann die Korrekturmaßnahme stattfinden soll. Meistens handelt es sich um die Konfliktzone, aber es kommt vor, dass die Aktion an der Stelle stattfinden muss, an der die Konfliktursache beseitigt wird. Der Ort im nützlichen System, an dem die Transformationen entsprechend den Bedingungen der Aufgabe auszuführen ist, wird als Operative Zone bezeichnet. </tt:text>
     <tt:text xml:lang="ru">При решении задачи надо определить, в каком месте и когда должно проявляться корректирующее действие. Чаще всего это зона конфликта, но бывает, что действие должно происходить в месте устранения причины конфликта.  Место полезной системы, в котором мы будем выполнять преобразования согласно условию задачи, называется оперативной зоной.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_004">
     <tt:line>4</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Mindestens zwei Komponenten sind in der Betriebszone vorhanden. Eine von ihnen führt eine Aktion aus, es ist ein Werkzeug. Die zweite wird transformiert, es ist ein verarbeitetes Objekt.</tt:text>
+    <tt:text xml:lang="de">In der Operative Zone sind stets mindestens zwei Komponenten vorhanden. Eine von ihnen führt eine Aktion aus, es ist ein Werkzeug. Die zweite wird transformiert, es ist das Objekt, welches bearbeitet wird.</tt:text>
     <tt:text xml:lang="ru">В оперативной зоне присутствуют, как минимум, два компонента. Один из них выполняет действие, это инструмент. Второй – подвергается преобразованию, это обрабатываемый объект.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_005">
     <tt:line>5</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">In verschiedenen Aufgaben, die in Bezug auf denselben Konflikt formuliert wurden, können Betriebszonen unterschiedlich sein.</tt:text>
+    <tt:text xml:lang="de">In verschiedenen Aufgaben, die in Bezug auf denselben Konflikt formuliert wurden, können Operative Zonen unterschiedlich sein.</tt:text>
     <tt:text xml:lang="ru">В разных задачах, сформулированных относительно одного и того же конфликта, оперативные зоны могут быть разными.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_007">
     <tt:line>7</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Beispiel. Drei Betriebszonen im „automatischen Bleistift“-System</tt:text>
+    <tt:text xml:lang="de">Beispiel. Drei Operative Zonen im „automatischen Bleistift“ System</tt:text>
     <tt:text xml:lang="ru">Пример. Три оперативные зоны в системе «автоматический карандаш»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_008">
     <tt:line>8</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Wir betrachten eine Problemsituation mit einem automatischen Stift. Die folgenden Komponenten sind in der Situation vorhanden: Federmäppchen, Hand, Stiftvorschub- und Haltemechanismus, Stift, Papier.</tt:text>
+    <tt:text xml:lang="de">Wir betrachten eine Problemsituation mit einem automatischen Stift. Die folgenden Komponenten sind in der Situation vorhanden: Der Bleistiftkorpus, die Hand, der Stiftvorschub- und Haltemechanismus für die Bleistiftmine, die Bleistiftmine, Papier.</tt:text>
     <tt:text xml:lang="ru">Мы рассматриваем проблемную ситуацию с автоматическим карандашом. В ситуации присутствуют следующие компоненты: корпус карандаша, рука, механизм подачи и удержания грифеля, грифель, бумага. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_009">
@@ -6847,7 +6847,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_010">
     <tt:line>10</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Der Konflikt besteht darin, dass der Stift auf dem Papier zu wenig Spuren hinterlässt.</tt:text>
+    <tt:text xml:lang="de">Der Konflikt besteht darin, dass der Stift auf dem Papier zu schwache Spuren hinterlässt.</tt:text>
     <tt:text xml:lang="ru">Конфликт заключается в том, что грифель оставляет слишком слабый след на бумаге.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_011">
@@ -6859,19 +6859,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_012">
     <tt:line>12</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">blei ist zu hart und papier ist zu glatt</tt:text>
+    <tt:text xml:lang="de">Die Bleistiftmine ist zu hart, das Papier ist zu glatt</tt:text>
     <tt:text xml:lang="ru">грифель слишком твёрдый, а бумага слишком гладкая</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_013">
     <tt:line>13</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">unbequem mit dem bleistift</tt:text>
+    <tt:text xml:lang="de">Es ist unbequem, den Bleistift zu halten</tt:text>
     <tt:text xml:lang="ru">неудобно удерживать карандаш</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_014">
     <tt:line>14</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Stift schlecht im Gehäuse befestigt</tt:text>
+    <tt:text xml:lang="de">Die Bleistiftmine ist schlecht im Korpus befestigt</tt:text>
     <tt:text xml:lang="ru">грифель плохо зафиксирован внутри корпуса</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_015">
@@ -6895,103 +6895,103 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_018">
     <tt:line>18</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Wenn es unter den Bedingungen der Aufgabe erforderlich ist, die Fixierung des Stifts im Federmäppchen zu verbessern, können der Stift und der Mechanismus zum Halten des Stifts in den Operationsbereich gelangen.</tt:text>
+    <tt:text xml:lang="de">Wenn es unter den Bedingungen der Aufgabe erforderlich ist, die Fixierung der Bleistiftmine im Korpus des Bleistifts zu verbessern, können der Stift und der Mechanismus zum Halten des Stifts als Operative Zone genommen werden.</tt:text>
     <tt:text xml:lang="ru">Если по условию задачи требуется улучшить фиксацию грифеля в корпусе карандаша, то в оперативную зону могут входить грифель и механизм его удержания.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_019">
     <tt:line>19</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">a) Bedienbereich: Stiftspitze und Papieroberfläche</tt:text>
+    <tt:text xml:lang="de">a) Operative Zone: Stiftspitze und Papieroberfläche</tt:text>
     <tt:text xml:lang="ru">а) Оперативная зона: кончик грифеля и поверхность бумаги</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_020">
     <tt:line>20</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">b) Einsatzgebiet: Hand- und Federmäppchen</tt:text>
+    <tt:text xml:lang="de">b) Operative Zone: Hand und Korpus des Bleistifts</tt:text>
     <tt:text xml:lang="ru">б) Оперативная зона: рука и корпус карандаша</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_021">
     <tt:line>21</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">c) Einsatzgebiet: Stift und Haltemechanismus</tt:text>
+    <tt:text xml:lang="de">c) Operative Zone: Stift und Haltemechanismus</tt:text>
     <tt:text xml:lang="ru">в) Оперативная зона: грифель и механизм его держания</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_024">
     <tt:line>24</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_025">
     <tt:line>25</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Konflikt, die schädliche Interaktion, die im System auftritt, entwickelt sich räumlich und zeitlich. Es werden auch Korrekturmaßnahmen durchgeführt, die wir in der Betriebszone durchführen, um den Konflikt zu beseitigen.</tt:text>
+    <tt:text xml:lang="de">Der Konflikt, die schädliche Interaktion, die im System auftritt, entwickelt sich räumlich und zeitlich. Genau so werden auch Korrekturmaßnahmen umgesetzt, die wir in der Operative Zone durchführen, um den Konflikt zu beseitigen.</tt:text>
     <tt:text xml:lang="ru">Конфликт, вредное взаимодействие, которое происходит в системе, развивается в пространстве и во времени. Точно также осуществляется и корректирующее действие, которое мы выполняем в оперативной зоне для устранения конфликта.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_026">
     <tt:line>26</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Daher ist es wichtig, neben der Betriebszone, also dem Ort, an dem das System transformiert wird, um den Konflikt zu lösen, die Betriebszeit zuzuweisen, dh den Zeitpunkt, zu dem Korrekturmaßnahmen für Systemkomponenten in der Betriebszone erforderlich sind.</tt:text>
+    <tt:text xml:lang="de">Daher ist es wichtig, neben der Operative Zone, also dem Ort, an dem das System transformiert wird, um den Konflikt zu lösen, die Operative Zeit auszuweisen, d.h. den Zeitpunkt, zu dem Korrekturmaßnahmen für Systemkomponenten in der Operative Zone erforderlich sind.</tt:text>
     <tt:text xml:lang="ru">Следовательно, кроме оперативной зоны, т. е. места, где мы трансформируем систему для устранения конфликта, важно выделять и оперативное время, то есть время, когда нам нужно обеспечить корректирующее действие на компоненты системы в оперативной зоне.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_027">
     <tt:line>27</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Die Betriebszeit ist durch den Beginn der Aktion und die Dauer gekennzeichnet und kann in zwei Teile unterteilt werden:</tt:text>
+    <tt:text xml:lang="de">Die Operative Zeit ist durch den Beginn der Aktion und ihre Dauer gekennzeichnet und kann in zwei Teile unterteilt werden:</tt:text>
     <tt:text xml:lang="ru">Оперативное время характеризуется моментом начала действия и продолжительностью и может быть разделено на две части:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_028">
     <tt:line>28</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Zeitpunkt, zu dem wir die Korrekturmaßnahme im Einsatzbereich vorbereiten</tt:text>
+    <tt:text xml:lang="de">Den Zeitpunkt, zu dem wir die Korrekturmaßnahme in der Operativen Zone vorbereiten</tt:text>
     <tt:text xml:lang="ru">время, когда мы подготавливаем корректирующее действие в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_029">
     <tt:line>29</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Uhrzeit, zu der die Korrekturmaßnahme ausgeführt wird.</tt:text>
+    <tt:text xml:lang="de">Die Zeit, zu der die Korrekturmaßnahme ausgeführt wird.</tt:text>
     <tt:text xml:lang="ru">время, когда корректирующее действие выполняется.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_031">
     <tt:line>31</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Sie können eine Korrekturmaßnahme durchführen, dh die Situation im Betriebsbereich vor der Konfliktinteraktion, während der Manifestation sowie nachdem der Konflikt bereits aufgetreten ist, korrigieren. Die Korrekturmaßnahme kann permanent sein, aber nur für einen kurzen Moment erfolgen mit einer Dauer, die ausreicht, um die Lage im Einsatzgebiet zu verbessern. </tt:text>
+    <tt:text xml:lang="de">Eine Korrekturmaßnahme, d.h. die Veränderung der Situation in der Operativen Zone, kann vor der Konfliktinteraktion, während des Konflikts sowie zur Zeit, nachdem der Konflikt bereits aufgetreten ist, ausgeführt werden. Die Korrekturmaßnahme kann permanent sein, nur für einen kurzen Moment erfolgen oder mit einer Dauer, die ausreicht, um die Lage in der Operativen Zone zu verbessern. </tt:text>
     <tt:text xml:lang="ru">Выполнить корректирующее действие, т. е. исправить ситуацию в оперативной зоне можно до конфликтного взаимодействия, во время его проявления, а также после того, как конфликт уже произошел. Исправляющее действие может быть постоянным, а может проявляться только на короткий момент, с длительностью, достаточной для улучшения ситуации в оперативной зоне.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_033">
     <tt:line>33</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Beispiel: Betriebszeit eines Films für einen Smartphone-Bildschirm</tt:text>
+    <tt:text xml:lang="de">Beispiel: Die Operative Zeit eines Schutzfilms für einen Smartphone-Bildschirm</tt:text>
     <tt:text xml:lang="ru">Пример: Оперативное время использования пленки для экрана смартфона</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_034">
     <tt:line>34</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Wenn Sie das Problem des Schutzes des Smartphonebildschirms vor Beschädigungen lösen, können Sie auf die Idee kommen, den Bildschirm mit einer Plastikschutzfolie zu bedecken. In diesem Fall beginnt die Betriebszeit lange bevor der Konflikt (Auftreffen auf den Bildschirm), die Schutzwirkung dauert konstant und bietet Schutz für die gesamte Lebensdauer des Films. Und die Korrekturmaßnahme (Schutz des Bildschirms vor Zerstörung) erscheint sofort im Moment des Aufpralls. </tt:text>
+    <tt:text xml:lang="de">Wenn Sie das Problem des Schutzes des Smartphone-Bildschirms vor Beschädigungen lösen, können Sie auf die Idee kommen, den Bildschirm mit einer Plastikschutzfolie zu bedecken. In diesem Fall beginnt die Operative Zeit lange vor dem Konflikt (Stoß auf den Bildschirm), die Schutzwirkung ist konstant und bietet Schutz für die gesamte Lebensdauer der Schutzfolie. Und die Korrekturmaßnahme (Schutz des Bildschirms vor Zerstörung) wirkt sofort im Moment des Stoßes. </tt:text>
     <tt:text xml:lang="ru">Решая задачу защиты экрана смартфона от повреждения, можно прийти к идее покрыть экран защитной пластиковой пленкой. В этом случае оперативное время начинается задолго до конфликта (удара по экрану), защитное действие длится постоянно, обеспечивает защиту на весь срок службы пленки. А корректирующее действие (предохранение экрана от разрушения) проявляется непосредственно в момент удара.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_035">
     <tt:line>35</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Bildschirmschutz auf dem Smartphone-Display</tt:text>
+    <tt:text xml:lang="de">Schutzfolie auf dem Smartphone-Display</tt:text>
     <tt:text xml:lang="ru">Защитная пленка на дисплее смартфона</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_036">
     <tt:line>36</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Beispiel: Einsatzzeit der Fallschirm-Jet-Bremse</tt:text>
+    <tt:text xml:lang="de">Beispiel: Operative Zeit der Fallschirm-Rückstoß-Bremse</tt:text>
     <tt:text xml:lang="ru">Пример: Оперативное время использования реактивного тормоза парашюта</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_037">
     <tt:line>37</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Der Fallschirm für die Landung schwerer Lasten hat eine übermäßige Bodenkontaktgeschwindigkeit. Damit die Ladung reibungslos landen kann, setzen sie einen Jet-Bremsmotor auf den Fallschirm, der kurz vor dem Aufsetzen auf den Boden arbeitet, und verlangsamen die Sinkgeschwindigkeit erheblich. Hier tritt der Korrektureffekt vor der Konfliktzeit auf . </tt:text>
+    <tt:text xml:lang="de">Ein Fallschirm für die Landung schwerer Lasten hat eine übermäßige Bodenkontaktgeschwindigkeit. Damit die Ladung reibungslos landen kann, wird ein Rückstoß-Bremsmotor auf den Fallschirm montiert, der kurz vor dem Aufsetzen auf den Boden arbeitet und die Sinkgeschwindigkeit erheblich verlangsamt. Hier tritt der Korrektureffekt vor der Konfliktzeit auf.</tt:text>
     <tt:text xml:lang="ru">Парашют для десантирования тяжелых грузов имеет чрезмерную скорость контакта с землей. Чтобы груз приземлялся плавно, на парашют ставят реактивный тормозной двигатель, который на короткое время срабатывает перед касанием земли, и существенно замедляет скорость снижения. Здесь корректирующее действие проявляется перед временем конфликта.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_038">
     <tt:line>38</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Cargo Parachute Jet Brake</tt:text>
+    <tt:text xml:lang="de">Rückstoßbremse eines Lastenfallschirms</tt:text>
     <tt:text xml:lang="ru">Реактивный тормоз грузового парашюта</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_040">
@@ -7003,7 +7003,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_041">
     <tt:line>41</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Zu Beginn dieses Schritts haben wir kein klares Verständnis dafür, wo wir unsere Bemühungen mit dem Modell des Problems in Einklang bringen werden. Am Ausgang müssen wir herausfinden, wo wir das System ändern werden, um das gewünschte Ergebnis zu erzielen.</tt:text>
+    <tt:text xml:lang="de">Eingangs dieses Schritts haben wir kein klares Verständnis dafür, wo wir unsere Bemühungen entsprechend dem Modell des Problems ansetzen sollen. Am Ende haben wir herausgefunden, wo wir das System ändern müssen, um das gewünschte Ergebnis zu erzielen.</tt:text>
     <tt:text xml:lang="ru">На входе этого шага мы не имеем ясного понимания того, где мы будем прикладывать свои усилия в соответствие с моделью задачи. На выходе мы должны уяснить, где мы будем менять систему, чтобы получить требуемый результат.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_042">
@@ -7015,13 +7015,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_043">
     <tt:line>43</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone: Hier fällt die Betriebszone mit der Konfliktzone zusammen, dh dies ist der Ort, an dem die Pizza mit dem Boden der Schachtel in Kontakt steht.</tt:text>
+    <tt:text xml:lang="de">Operative Zone: Hier fällt die Operative Zone mit der Konfliktzone zusammen, d.h. dies ist der Ort, an dem die Pizza mit dem Boden der Schachtel in Kontakt kommt.</tt:text>
     <tt:text xml:lang="ru">Оперативная зона: Здесь оперативная зона совпадает с зоной конфликта, а именно, это место, где пицца соприкасается с дном коробки.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/116_044">
     <tt:line>44</tt:line>
     <tt:sheet>116</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_001">
@@ -7039,79 +7039,79 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_003">
     <tt:line>3</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Ein Aufgabenmodell kann auf der Grundlage von einzelnen Hypothesen, einer Liste von Hypothesen und einer formulierten Problembedingung erstellt werden. Wie hier erwähnt, ist der profitabelste Weg, ein Aufgabenmodell direkt aus der Liste von Hypothesen zu erstellen.</tt:text>
+    <tt:text xml:lang="de">Ein Aufgabenmodell kann auf der Grundlage von einzelnen Hypothesen, einer Liste von Hypothesen und einer formulierten Problembedingung erstellt werden. Wie erwähnt, ist der günstigste Weg, ein Aufgabenmodell direkt aus der Liste von Hypothesen zu erstellen.</tt:text>
     <tt:text xml:lang="ru">Модель задачи может строиться на основе отдельных гипотез, списка гипотез и сформулированного условия задачи. Как говорилось здесь, самый выгодный путь – строить модель задачи сразу из списка гипотез.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_004">
     <tt:line>4</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Der Unterschied zwischen dem Denken des Erfinders und dem alltäglichen, nicht-reflexiven Denken besteht darin, dass spezielle Modelle verwendet werden, um auf die abstrakte Ebene zu gelangen, und in TRIZ entwickelte effektive Werkzeuge, um vom abstrakten Problemmodell zur abstrakten Lösung zu gelangen.</tt:text>
+    <tt:text xml:lang="de">Der Unterschied zwischen dem Denken des Erfinders und dem alltäglichen, nicht-reflexiven Denken besteht darin, dass spezielle Modelle verwendet werden, um auf die abstrakte Ebene zu gelangen, und die in TRIZ entwickelten effektiven Werkzeuge, um vom abstrakten Problemmodell zur abstrakten Lösung zu gelangen.</tt:text>
     <tt:text xml:lang="ru">Отличие мышления изобретателя от повседневного, неотрефлексированного мышления состоит в том, что для перехода на абстрактный уровень применяются особые модели, а для перехода от абстрактной модели задачи к абстрактному решению используются наработанные в ТРИЗ эффективные инструменты.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_005">
     <tt:line>5</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Das Konzept eines Modells im Alltag von Lösern wird in vielen Situationen verwendet. Bei der Lösung eines Problems wird nicht versucht, das zu untersuchende Objekt vollständig zu beschreiben, sondern es werden nur die wichtigsten Eigenschaften herangezogen, die für die Lösung des Problems wichtig sind, dh das Objekt durch das vereinfachte Modell zu ersetzen.</tt:text>
+    <tt:text xml:lang="de">Das Konzept eines Modells wird im Alltag in vielen Situationen verwendet. Bei der Lösung eines Problems wird nicht versucht, das zu untersuchende Objekt vollständig zu beschreiben, sondern es werden nur die hauptsächlichen Eigenschaften herangezogen, die für die Lösung des Problems wichtig sind, d.h. das Objekt wird durch ein vereinfachtes Modell ersetzt.</tt:text>
     <tt:text xml:lang="ru">Понятие модель в обиходе решателей используется во многих ситуациях. При решении задачи мы не пытаемся полностью описывать объект исследования, а берем для рассмотрения только его самые главные свойства, важные для решения поставленной задачи. То есть заменить объект его упрощенной моделью.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_006">
     <tt:line>6</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Das Hauptziel beim Erstellen von Modellen zur Lösung erfinderischer Probleme ist es, eine beschreibende, für den Löser verständliche Beschreibung der Zusammensetzung, Struktur und Funktionsweise des Objekts zu präsentieren und Antworten auf Fragen zu dem zu untersuchenden Objekt zu geben.</tt:text>
+    <tt:text xml:lang="de">Das Hauptziel beim Erstellen von Modellen zur Lösung erfinderischer Probleme ist es, eine anschauliche, für den Löser verständliche Beschreibung der Zusammensetzung, der Struktur und der Funktionsweise des Objekts zu präsentieren und Antworten auf Fragen zu dem zu untersuchenden Objekt zu geben.</tt:text>
     <tt:text xml:lang="ru">Главная цель построения моделей при решении изобретательских задач – представить наглядное, понятное решателю описание состава, структуры, функционирования объекта и дать ответы на вопросы относительно исследуемого объекта.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_007">
     <tt:line>7</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Wie wir hier gesagt haben, können in einem einzigen Zyklus von Übergängen „konkret-abstrakt-konkret“ relativ einfache erfinderische Probleme gelöst werden. In komplexeren Fällen kann die Abfolge von Handlungen („was wird benötigt - wie kommt man - mit welcher - Lösungsoption“) manchmal müssen wir es mehrmals wiederholen, um genauer zu bestimmen, was wir wollen und was uns davon abhält, es zu bekommen. Das Problem wird aus verschiedenen Blickwinkeln betrachtet, seine verschiedenen Modelle werden gebaut. Wir werden vier abstrakte Modelle verwenden, um die Probleme zu lösen: </tt:text>
+    <tt:text xml:lang="de">Wie wir hier gesagt haben, können in einem einzigen Zyklus von Übergängen „konkret-abstrakt-konkret“ relativ einfache erfinderische Probleme gelöst werden. In komplexeren Fällen muss die Abfolge von Handlungen („was wird benötigt - wie erhält man das - womit - Lösungsvariante“) manchmal mehrmals wiederholr werden, um genauer zu bestimmen, was wir wollen und was uns davon abhält, es zu bekommen. Das Problem wird aus verschiedenen Blickwinkeln betrachtet, es werden verschiedene Modelle gebaut. Wir werden vier abstrakte Modelle verwenden, um Probleme zu lösen: </tt:text>
     <tt:text xml:lang="ru">Как мы уже говорили здесь, за один цикл переходов «конкретное-абстрактное-конкретное» могут быть решены сравнительно простые изобретательские задачи. В более сложных случаях последовательность действий («что требуется – как получить – при помощи чего – вариант решения») иногда приходится повторять несколько раз, всё более точно определяя – чего же мы хотим, и что нам мешает это получить. Задача рассматривается с разных сторон, строятся разные её модели. Мы будем применять для решения задач четыре абстрактных модели:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_009">
     <tt:line>9</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Modell der Aufgabe „Bedingungen im Einsatzgebiet“</tt:text>
+    <tt:text xml:lang="de">Aufgabenmodell „Bedingungen in der Operativen Zone“</tt:text>
     <tt:text xml:lang="ru">Модель задачи «Условия в оперативной зоне»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_010">
     <tt:line>10</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Dieses Modell des Problems wird angewendet, wenn die Hypothese der Konfliktlösung als Beschreibung der im Betriebsbereich zu erstellenden Bedingungen aufgestellt wird. Um dieses Modell des Problems in ein Lösungsmodell umzuwandeln, müssen Sie verstehen, wie die Komponenten des Betriebsbereichs oder die Beziehung zwischen ihnen geändert werden . </tt:text>
+    <tt:text xml:lang="de">Dieses Aufgabenmodell wird angewendet, wenn die Hypothese der Konfliktlösung als Beschreibung der in der Operativen Zone zu erstellenden Bedingungen aufgestellt wird. Um dieses Aufgabenmodell in ein Lösungsmodell umzuwandeln, müssen Sie verstehen, wie die Komponenten des Betriebsbereichs oder die Beziehung zwischen ihnen geändert werden . </tt:text>
     <tt:text xml:lang="ru">Эта модель задачи применяется в том случае, когда гипотеза устранения конфликта выдвинута как описание условий, которые нужно создать в оперативной зоне. Чтобы преобразовать эту модель задачи в модель решения, необходимо понять, как нужно изменить компоненты оперативной зоны или отношения между ними.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_012">
     <tt:line>12</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Das Modell der Aufgabe „Aktion im Einsatzgebiet“</tt:text>
+    <tt:text xml:lang="de">Das Aufgabenmodell „Aktion in der Operativen Zone“</tt:text>
     <tt:text xml:lang="ru">Модель задачи «Действие в оперативной зоне»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_013">
     <tt:line>13</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Sie wird verwendet, wenn wir klar verstehen, welche Art von Interaktion zwischen Komponenten im Betriebsbereich auftritt und welche Probleme auftreten. Um dieses Modell zu transformieren, müssen Sie die Aktion ändern: sie verstärken oder abschwächen, andere unerwünschte Phänomene beseitigen. Ein anderer Fall wenn klar ist, welche Maßnahmen ergriffen werden müssen, aber nicht klar ist, mit welchem ​​Tool dies möglich ist. </tt:text>
+    <tt:text xml:lang="de">Dieses Modell wird verwendet, wenn wir klar verstehen, welche Art von Interaktion zwischen Komponenten in der Operativen Zone auftritt und welche Probleme auftreten. Um dieses Modell zu transformieren, müssen Sie die Aktion ändern: sie verstärken oder abschwächen, andere unerwünschte Phänomene beseitigen. Ein anderer Anwendungsfall liegt vor, wenn klar ist, welche Maßnahmen ergriffen werden müssen, aber nicht klar ist, mit welchem ​​Werkzeug dies möglich ist. </tt:text>
     <tt:text xml:lang="ru">Применяется в том случае, когда мы ясно понимаем, какое взаимодействие происходит между компонентами в оперативной зоне и какие проблемы при этом возникают. Для преобразования этой модели нужно изменить действие: усилить либо ослабить его, устранить другие нежелательные явления. Еще один случай, когда понятно, какое действие нужно выполнить, но неясно какой инструмент мог бы сделать это.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_015">
     <tt:line>15</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Das Modell des Problems „Technischer Widerspruch“</tt:text>
+    <tt:text xml:lang="de">Das Aufgabenmodell „Technischer Widerspruch“</tt:text>
     <tt:text xml:lang="ru">Модель задачи «Техническое противоречие»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_016">
     <tt:line>16</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Um dieses Modell zu erstellen, müssen Sie zwei Parameter eines nützlichen Systems bestimmen, die im Konflikt stehen, wenn Sie versuchen, einen von ihnen zu verbessern, sowohl während der Verarbeitung fortgeschrittener Hypothesen als auch während der Problemlösung. Um einen technischen Widerspruch zu lösen, müssen Sie einen Weg finden, den sich verschlechternden Parameter zu verbessern system. </tt:text>
+    <tt:text xml:lang="de">Um dieses Modell zu erstellen, müssen Sie zwei Parameter eines nützlichen Systems bestimmen, die im Konflikt stehen, wenn Sie versuchen, einen von ihnen zu verbessern, sowohl während der Verarbeitung fortgeschrittener Hypothesen als auch während der Problemlösung. Um den technischen Widerspruch zu lösen, müssen Sie einen Weg finden, den sich verschlechternden Systemparameter zu verbessern. </tt:text>
     <tt:text xml:lang="ru">Для построения этой модели нужно определить два параметра полезной системы, которые вступают в противоречие при попытке улучшить один из них, как в ходе обработки выдвинутых гипотез, так и в процессе решения задачи. Чтобы разрешить техническое противоречие необходимо найти способ улучшить ухудшившийся параметр системы.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_018">
     <tt:line>18</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Das Modell des Problems „Physikalischer Widerspruch“</tt:text>
+    <tt:text xml:lang="de">Das Aufgabenmodell „Physikalischer Widerspruch“</tt:text>
     <tt:text xml:lang="ru">Модель задачи «Физическое противоречие»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_019">
     <tt:line>19</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Dieses Modell des Problems veranschaulicht die sich gegenseitig ausschließenden Anforderungen für die Parameter einer der Komponenten des Systems. Das Ein-Parameter-Modell des Problems kann in ein Lösungsmodell umgewandelt werden, wenn wir einen Weg zur Lösung physikalischer Widersprüche und getrennter widersprüchlicher Anforderungen für die Komponentenparameter angeben.</tt:text>
+    <tt:text xml:lang="de">Dieses Aufgabenmodell veranschaulicht die sich gegenseitig ausschließenden Anforderungen für die Parameter einer der Komponenten des Systems. Das Ein-Parameter-Aufgabenmodell kann in ein Lösungsmodell umgewandelt werden, wenn wir einen Weg zur Lösung der physikalischen Widersprüche und getrennter widersprüchlicher Anforderungen für die Komponentenparameter finden.</tt:text>
     <tt:text xml:lang="ru">Эта модель задачи иллюстрирует взаимоисключающие требования к параметрам одного из компонентов системы. Однопараметрическая модель задачи может быть преобразована в модель решения, если мы укажем способ разрешения физического противоречия и разделения противоречивых требований к параметру компонента.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_021">
@@ -7129,73 +7129,73 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_023">
     <tt:line>23</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">verbal, unter Verwendung der Fähigkeiten der Sprache;</tt:text>
+    <tt:text xml:lang="de">verbale, unter Verwendung von Sprachfähigkeiten;</tt:text>
     <tt:text xml:lang="ru">вербальные, использующие возможности языка;</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_024">
     <tt:line>24</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">signifikant, beschreibt die Eigenschaften eines Objekts mithilfe von Formeln, z. B. mathematisch oder chemisch;</tt:text>
+    <tt:text xml:lang="de">symbolische, welche die Eigenschaften eines Objekts mithilfe von Formeln beschreiben, z. B. durch mathematische oder chemische;</tt:text>
     <tt:text xml:lang="ru">знаковые, описывающие свойства объекта при помощи формул, например, математических или химических;</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_025">
     <tt:line>25</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Grafik: Zeichnungen, Zeichnungen, Diagramme, Diagramme usw .;</tt:text>
+    <tt:text xml:lang="de">grafische: Skizzen, Zeichnungen, Schemata, Diagramme usw .;</tt:text>
     <tt:text xml:lang="ru">графические: рисунки, чертежи, схемы, диаграммы и т.п.;</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_026">
     <tt:line>26</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">physisch: Layouts, reduzierte und aktive Samples in voller Größe usw.</tt:text>
+    <tt:text xml:lang="de">physische: Muster, vereinfachte und vollständige Prototypen usw.</tt:text>
     <tt:text xml:lang="ru">физические: макеты, уменьшенные и полноразмерные действующие образцы и т.п.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_027">
     <tt:line>27</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Die Auswahl und Konstruktion des am besten geeigneten Modells ist für die Lösung des Problems sehr wichtig. Je genauer das Modell ist, desto größer ist die Wahrscheinlichkeit, das Problem zu lösen. Dies bedeutet nicht immer, dass das Modell sehr kompliziert sein sollte, es kann einfach sein, es sollte jedoch ausreichend dargestellt werden die wichtigsten Aspekte des simulierten Objekts. </tt:text>
+    <tt:text xml:lang="de">Die Auswahl und Konstruktion des am besten geeigneten Modells ist für die Lösung des Problems sehr wichtig. Je genauer das Modell ist, desto größer ist die Wahrscheinlichkeit, das Problem zu lösen. Dies bedeutet nicht immer, dass das Modell sehr kompliziert sein muss, es kann einfach sein, es sollte jedoch die wichtigsten Aspekte des simulierten Objekts ausreichend darstellen. </tt:text>
     <tt:text xml:lang="ru">Выбор и построение наиболее адекватной модели очень важен для решения задачи. Чем точнее будет модель, тем больше шансов на решение задачи. Это не всегда значит, что модель должна быть очень уж сложна, она может быть простой, но должна адекватно показывать самые важные аспекты моделируемого объекта.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_028">
     <tt:line>28</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Betrachten Sie eine Lösung für das Tintenstrahldruckerproblem anhand eines einfachen grafischen Modells.</tt:text>
+    <tt:text xml:lang="de">Betrachten wir eine Lösung für das Tintenstrahldruckerproblem anhand eines einfachen grafischen Modells.</tt:text>
     <tt:text xml:lang="ru">Рассмотрим решение задачи о струйном принтере с применением простейшей графической модели.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_030">
     <tt:line>30</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Beispiel. Verwenden eines grafischen Modells einer Aufgabe zum Erstellen eines kompakten Druckers</tt:text>
+    <tt:text xml:lang="de">Beispiel. Verwenden eines grafischen Aufgabenmodells zum Erstellen eines kompakten Druckers</tt:text>
     <tt:text xml:lang="ru">Пример. Использование графической модели задачи при создании компактного принтера</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_031">
     <tt:line>31</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Aufgabe. So verkleinern Sie einen Tintenstrahldrucker: Die Breite dieses Geräts ist an die Standardgröße eines A4-Blattes gebunden, und die Fähigkeit, auf solchen Blättern zu drucken, sollte erhalten bleiben.</tt:text>
+    <tt:text xml:lang="de">Aufgabe. Wie kann ein Tintenstrahldrucker verkleinert werden? Die Breite dieses Geräts ist an die Standardgröße eines A4-Blattes gebunden, und die Fähigkeit, auf solchen Blättern zu drucken, soll erhalten bleiben.</tt:text>
     <tt:text xml:lang="ru">Задача. Как уменьшить размер струйного принтера? Ширина этого устройства привязана к стандартному размеру листа бумаги А4, и возможность печатать на таких листах должна сохраняться.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_032">
     <tt:line>32</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Das Modell des Problems. Lassen Sie uns das Zusammenspiel von Druckkopf und Blatt Papier verallgemeinern. Der Kopf bewegt sich in einer geraden Linie über das Blatt und bewegt und druckt das Bild. Das Modell des Problems ist ein gerades Liniensegment.</tt:text>
+    <tt:text xml:lang="de">Das Aufgabenmodell. Wir wollen das Zusammenspiel von Druckkopf und Blatt Papier in verallgemeinerter Form darstellen. Der Kopf bewegt sich in einer geraden Linie quer über das Blatt hin und her und druckt die Abbildung. Das Aufgabenmodell ist ein gerades Liniensegment.</tt:text>
     <tt:text xml:lang="ru">Модель задачи. Представим в обобщённом виде взаимодействие печатающей головки и листа бумаги. Головка движется по прямой линии поперек листа возвратно-поступательно и печатает изображение. Модель задачи – отрезок прямой.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_033">
     <tt:line>33</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Lösungsmodelle. Der Pfad des Druckkopfs ist im Originaldrucker einfach. Hier können Sie sich die Frage stellen, wie Sie ein gerades Liniensegment kompakt machen können. Wie stecke ich ein Stück Draht in die Tasche? Rollen Sie es in einen Ring ... oder schneiden Sie es in Stücke, wenn die Integrität des Drahtes nicht stimmt Der Übergang von der Aufgabe zur Lösung ist in der Abbildung dargestellt. </tt:text>
+    <tt:text xml:lang="de">Lösungsmodelle. Der Pfad des Druckkopfs ist im Originaldrucker linear. Hier kann man sich fragen, wie ein gerades Liniensegment kompakt gemacht  werden kann. Wie stecke ich ein Stück Draht in die Tasche? Man rollt es zu einem Ring ... oder schneidet es in Stücke, wenn die Integrität des Drahtes nicht wichtig ist. Der Übergang von der Aufgabe zur Lösung ist in der Abbildung dargestellt. </tt:text>
     <tt:text xml:lang="ru">Модели решения. В исходном принтере траектория движения печатающей головки прямолинейная. Здесь можно задать себе вопрос – а как сделать компактным отрезок прямой линии? Как положить в карман кусок проволоки? Свернуть в кольцо…  или порезать на кусочки, если целостность проволоки не имеет значения. Переход от задачи к решению показан на рисунке.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_034">
     <tt:line>34</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Abrufen eines Lösungsmodells für einen Kompaktdrucker</tt:text>
+    <tt:text xml:lang="de">Ableiten eines Lösungsmodells für einen kompakten Drucker</tt:text>
     <tt:text xml:lang="ru">Получение модели решения для компактного принтера</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_035">
     <tt:line>35</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Lösung 1. Stellen Sie den Drucker in Form eines Rings her, durch den ein Blatt Papier in eine Röhre gerollt wird. SAMSUNG hat einen solchen „Runddrucker“ entwickelt.</tt:text>
+    <tt:text xml:lang="de">Lösung 1. Den Drucker in Form eines Rings herstellen, durch den ein Blatt Papier geführt wird, das zu einer Röhre gerollt wurde. SAMSUNG hat einen solchen „Сircular Printer“ entwickelt.</tt:text>
     <tt:text xml:lang="ru">Решение 1. Выполнить принтер в виде кольца, через которое протягивается лист бумаги, свёрнутый в трубку. Такой «Сircular Printer» разработала компания SAMSUNG.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_036">
@@ -7207,25 +7207,25 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_037">
     <tt:line>37</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Compact Ring Printer</tt:text>
+    <tt:text xml:lang="de">Kompakter Ringdrucker</tt:text>
     <tt:text xml:lang="ru">Компактный принтер-кольцо</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_038">
     <tt:line>38</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Die Idee eines kreisförmigen Druckers</tt:text>
+    <tt:text xml:lang="de">Herleitung der Idee eines kreisförmigen Druckers</tt:text>
     <tt:text xml:lang="ru">Получение идеи принтера круговой печати</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_039">
     <tt:line>39</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Ring Printer</tt:text>
+    <tt:text xml:lang="de">Ringdrucker</tt:text>
     <tt:text xml:lang="ru">Кольцевой принтер</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_040">
     <tt:line>40</tt:line>
     <tt:sheet>117</tt:sheet>
-    <tt:text xml:lang="de">Lösung 2. Belassen Sie nur den Hauptteil des Druckers - den Druckkopf mit den Steuerelementen. Ein solcher Drucker, z. B. Zuta Pocket Printer, kann sich zeilenweise auf einem Blatt Papier bewegen und Buchstaben drucken.</tt:text>
+    <tt:text xml:lang="de">Lösung 2. Nur den Hauptteil des Druckers belassen - den Druckkopf mit den Steuerelementen. Ein solcher Drucker, z.B. der Zuta Pocket Printer, kann sich auf dem Blatt Papier Zeile für Zeile bewegen und die Buchstaben drucken.</tt:text>
     <tt:text xml:lang="ru">Решение 2. Оставить от принтера только основную его часть – печатающую головку с элементами управления. Такой принтер, например, Zuta Pocket Printer, может перемещаться по листу бумаги, строка за строкой, печатая буквы.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/117_042">
@@ -7237,13 +7237,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_001">
     <tt:line>1</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Aufgabenmodellbedingungen im Einsatzgebiet</tt:text>
+    <tt:text xml:lang="de">Aufgabenmodell „Bedingungen in der Operative Zone“</tt:text>
     <tt:text xml:lang="ru">Модель задачи Условия в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_002">
     <tt:line>2</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Im Modell „Bedingungen in der Betriebszone“ stellt sich folgende Frage: Wir müssen verstehen, welche Umstände in der Betriebszone nicht zu uns passen, was genau die Erreichung des Ziels der Problemlösung behindert. Klären Sie, welche Bedingungen den Konflikt im System in der Betriebszone verursachen. </tt:text>
+    <tt:text xml:lang="de">Im Modell „Bedingungen in der Operative Zone“ stellt sich folgende Frage: Wir müssen verstehen, welche Umstände in der Operative Zone uns nicht zufriedenstellen, was genau die Erreichung des Ziels der Problemlösung behindert. Es ist zu präzisieren, welche Bedingungen den Konflikt im System in der Operative Zone verursachen. </tt:text>
     <tt:text xml:lang="ru">В модели «Условия в оперативной зоне» вопрос ставится следующим образом: нужно понять, какие обстоятельства в оперативной зоне нас не устраивают, что именно мешает достижению цели решения задачи. Уточнить, какие условия, вызывающие конфликт в системе, сложились в оперативной зоне.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_003">
@@ -7255,7 +7255,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_004">
     <tt:line>4</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Action</tt:text>
+    <tt:text xml:lang="de">Aktion</tt:text>
     <tt:text xml:lang="ru">Действие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_005">
@@ -7279,31 +7279,31 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_008">
     <tt:line>8</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Funktionsausführung in der Betriebszone</tt:text>
+    <tt:text xml:lang="de">Funktionsausführung in der Operative Zone</tt:text>
     <tt:text xml:lang="ru">Выполнение функции в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_010">
     <tt:line>10</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">In diesem Modell des Problems wird die Aktion nicht berücksichtigt. In der Tat wird in der Betriebszone bereits eine Funktion ausgeführt, die ein schädliches Produkt ergibt. Das Vorhandensein dieses Produkts verursacht einen Nachteil. Wir müssen uns die Frage stellen, wie die Umstände in der Betriebszone geändert werden können. welche neue Qualität zu bekommen, um diesen Mangel zu beseitigen. </tt:text>
+    <tt:text xml:lang="de">In diesem Aufgabenmodell wird die Aktion nicht berücksichtigt. Im Prinzip wird in der Operative Zone bereits irgendeine Funktion ausgeführt, die ein schädliches Produkt ergibt. Das Vorhandensein dieses Produkts verursacht einen Nachteil. Wir müssen uns die Frage stellen, wie die Umstände in der Operative Zone geändert werden können, welche neue Qualität zu bekommen ist, um diesen Mangel zu beseitigen. </tt:text>
     <tt:text xml:lang="ru">Эта модель задачи не рассматривает действия. По сути дела, в оперативной зоне уже выполняется какая-то функция, которая даёт вредный продукт.  Наличие этого продукта и вызывает недостаток. Мы должны задать себе вопрос – как нужно изменить обстоятельства оперативной зоны, какое новое качество получить, чтобы устранить этот недостаток. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_011">
     <tt:line>11</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Der Zweck der Problemlösung besteht beispielsweise darin, dass das Display einwandfrei funktioniert. Es wird jedoch verhindert, dass das Display einen bestimmten Grenzwert erreicht. Oder es wird kein guter Farbsprüher erhalten, weil die Luftgeschwindigkeit in der Düse unter einem bestimmten Wert liegt.</tt:text>
+    <tt:text xml:lang="de">Der Zweck der Problemlösung besteht beispielsweise darin, dass das Display einwandfrei funktioniert. Dies wird jedoch verhindert, wenn sich das Display über einen bestimmten Grenzwert hinaus erhitzt. Oder wir erhalten keinen guten Farbsprüher, weil die Luftgeschwindigkeit in der Düse unter einem bestimmten Wert liegt.</tt:text>
     <tt:text xml:lang="ru">Например, целью решения задачи является хорошая работа дисплея, но ее достижению мешает то, что дисплей нагревается выше какого-то предела. Или мы не можем получить хорошую работу разбрызгивателя краски, поскольку скорость потока воздуха в сопле ниже определённой величины. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_012">
     <tt:line>12</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">In gleicher Weise kann es sich auch um die qualitativen Eigenschaften von Prozessen im Betriebsbereich handeln. Beispielsweise muss das Bauteilmaterial fest bleiben, was jedoch dadurch behindert wird, dass es unter Temperatureinfluss schmilzt, der Luftstrom laminar bleiben soll, jedoch in einigen Modi es geht turbulent, etc. </tt:text>
+    <tt:text xml:lang="de">In gleicher Weise kann es sich auch um die qualitativen Eigenschaften von Prozessen in der Operativen Zone handeln. Beispielsweise muss das Material der Komponente fest bleiben, was jedoch dadurch behindert wird, dass es unter Temperatureinfluss schmilzt, der Luftstrom soll laminar bleiben, er geht jedoch in einigen Arbeitsmodi in Turbulenzen über, etc. </tt:text>
     <tt:text xml:lang="ru">Точно так же это могут быть и качественные характеристики процессов в оперативной зоне. Например, материал компонента должен оставаться твердым, но этому препятствует то обстоятельство, что он расплавляется под действием температуры, течение потока воздуха должно оставаться ламинарным, но на некоторых режимах оно переходит в турбулентное и т.п.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_013">
     <tt:line>13</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Ein kurzer Zustand der Aufgabe kann in Form eines beliebigen geeigneten grafischen Modells dargestellt werden. Wenn Sie die Struktur des Betriebsbereichs oder die Merkmale seiner Komponenten verstehen müssen, ist eine Zeichnung oder ein Diagramm möglicherweise nützlicher als die ausführlichste Textbeschreibung.</tt:text>
+    <tt:text xml:lang="de">Eine Kurzversion der Aufgabenstellung kann in Form eines beliebigen geeigneten grafischen Modells dargestellt werden. Wenn die Struktur der Operativen Zone oder Besonderheiten der Arbeitsweise ihrer Komponenten zu verstehen ist, kann eine Zeichnung oder ein Diagramm möglicherweise nützlicher sein als eine ausführliche Textbeschreibung.</tt:text>
     <tt:text xml:lang="ru">Краткое условие задачи может быть представлено в виде любой удобной графической модели. Когда нужно разобраться в структуре оперативной зоны или в особенностях работы её компонентов, то чертёж или схема могут дать больше пользы, чем самое подробное текстовое описание.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_015">
@@ -7315,31 +7315,31 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_016">
     <tt:line>16</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Ausgewählte Hypothese: Erstellen Sie Bedingungen, damit die Pizza den Boden der Schachtel nicht berührt.</tt:text>
+    <tt:text xml:lang="de">Ausgewählte Hypothese: Bedingungen herstellen, damit die Pizza den Boden der Schachtel nicht berührt.</tt:text>
     <tt:text xml:lang="ru">Выбранная гипотеза: Создать условия, чтобы пицца не соприкасалась с дном коробки.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_017">
     <tt:line>17</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Formulierte Aufgabe: Erstellen von Bedingungen, damit die Pizza nicht den Boden der Schachtel berührt?</tt:text>
+    <tt:text xml:lang="de">Formulierte Aufgabe: Wie lassen sich Bedingungen herstellen, damit die Pizza nicht den Boden der Schachtel berührt?</tt:text>
     <tt:text xml:lang="ru">Сформулированная задача: Как создать условия, чтобы пицца не соприкасалась с дном коробки?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/118_018">
     <tt:line>18</tt:line>
     <tt:sheet>118</tt:sheet>
-    <tt:text xml:lang="de">Das heißt, die Schachtel sollte nicht mit Pizza in Berührung kommen. Der Zweck der Verwendung der Schachtel besteht jedoch darin, die Pizza zu halten. Wenn Sie die Schachtel entfernen, müssen Sie die Pizza in der Handfläche halten, was unbequem ist und es ist nicht klar, wie die Pizza geschützt werden soll vor Verschmutzung. </tt:text>
+    <tt:text xml:lang="de">Das heißt, die Schachtel sollte nicht mit der Pizza in Berührung kommen. Der Zweck der Verwendung der Schachtel besteht jedoch darin, die Pizza zu halten. Wenn die Schachtel entfernt wird, müsste die Pizza in der Handfläche gehalten werden, was unbequem ist, und es ist nicht klar, wie die Pizza vor Verschmutzung geschützt werden soll. </tt:text>
     <tt:text xml:lang="ru">То есть, коробка не должна соприкасаться с пиццей. Но ведь смысл применения коробки и заключается в том, чтобы удерживать пиццу. Если убрать коробку, то пиццу надо удерживать на ладони, что неудобно, и непонятно, как при этом предохранить пиццу от загрязнений.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_001">
     <tt:line>1</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Aufgabenmodell als Aktion in der Einsatzzone</tt:text>
+    <tt:text xml:lang="de">Aufgabenmodell „Aktion in der Operativen Zone“</tt:text>
     <tt:text xml:lang="ru">Модель задачи как действие в оперативной зоне</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_002">
     <tt:line>2</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Es kommt häufig vor, dass wir bereits verstehen, welche Aktionen ausgeführt werden müssen, um die gewünschten Bedingungen zu schaffen. Die Ausführung der erforderlichen Aktion verursacht jedoch Probleme, oder es ist überhaupt nicht klar, wie sie ausgeführt werden soll. Dann wird das Aufgabenmodell als Interaktion zweier Komponenten erstellt: des Werkzeugs und des verarbeiteten Objekts zeigt die Aktion an, die das Tool ausführt. </tt:text>
+    <tt:text xml:lang="de">Es kommt häufig vor, dass wir bereits verstehen, welche Aktionen ausgeführt werden müssen, um die gewünschten Bedingungen zu schaffen. Die Ausführung der erforderlichen Aktion verursacht jedoch Probleme, oder es ist überhaupt nicht klar, wie sie ausgeführt werden soll. Dann wird das Aufgabenmodell als Interaktion zweier Komponenten erstellt: des Werkzeugs und des zu verarbeitenden Objekts, wobei die Aktion angegeben wird, die das Werkzeug ausführt. </tt:text>
     <tt:text xml:lang="ru">Часто бывает так, что мы уже понимаем, какие действия необходимо выполнить для создания желаемых условий. Но выполнение требуемого действия вызывает проблемы, либо вообще непонятно, как его выполнить. Тогда модель задачи строится как взаимодействие двух компонентов: инструмента и обрабатываемого объекта с указанием действия, которое выполняет инструмент.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_003">
@@ -7351,31 +7351,31 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_004">
     <tt:line>4</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Action</tt:text>
+    <tt:text xml:lang="de">Aktion</tt:text>
     <tt:text xml:lang="ru">Действие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_005">
     <tt:line>5</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Verarbeitetes Objekt</tt:text>
+    <tt:text xml:lang="de">Bearbeitetes Objekt</tt:text>
     <tt:text xml:lang="ru">Обрабатываемый объект</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_006">
     <tt:line>6</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Nützliches Betriebsprodukt</tt:text>
+    <tt:text xml:lang="de">Nützliches Produkt der Operation</tt:text>
     <tt:text xml:lang="ru">Полезный продукт операции</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_007">
     <tt:line>7</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Gesundheitsschädliches Betriebsprodukt</tt:text>
+    <tt:text xml:lang="de">Schädliches Produkt der Operation</tt:text>
     <tt:text xml:lang="ru">Вредный продукт операции</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_008">
     <tt:line>8</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Darstellung einer Aktion als Triade „Werkzeug - Aktion - Objekt“</tt:text>
+    <tt:text xml:lang="de">Darstellung der Aktion als Triade „Werkzeug - Aktion - Objekt“</tt:text>
     <tt:text xml:lang="ru">Представление действия как триады «инструмент – действие - объект»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_010">
@@ -7387,49 +7387,49 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_012">
     <tt:line>12</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">1. Es gibt kein Werkzeug, um eine nützliche Aktion auszuführen</tt:text>
+    <tt:text xml:lang="de">1. Es gibt kein Werkzeug, um die nützliche Aktion auszuführen</tt:text>
     <tt:text xml:lang="ru">1. Нет инструмента для выполнения полезного действия</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_013">
     <tt:line>13</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Es ist klar, welche Aktion wir ausführen müssen, wir kennen ein nützliches Produkt, das empfangen werden muss, und ein Objekt, das dafür verarbeitet werden muss. Es ist jedoch nicht klar, welcher Arbeitskörper dafür angewendet werden muss.</tt:text>
+    <tt:text xml:lang="de">Es ist klar, welche Aktion ausgeführt werden muss, das nützliche Produkt ist bekannt, das hergestellt werden muss, und das Objekt, welches dafür bearbeitet werden muss. Es ist jedoch nicht klar, welches Arbeitsorgan dafür angewendet werden muss.</tt:text>
     <tt:text xml:lang="ru">Понятно, какое действие нам надо выполнить, известен полезный продукт, который нужно получить и объект, который для этого надо обработать.  Однако нет ясности, какой рабочий орган нужно применить для этого.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_014">
     <tt:line>14</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">2. Nicht genug nützliche Aktion</tt:text>
+    <tt:text xml:lang="de">2. Unzureichende nützliche Aktion</tt:text>
     <tt:text xml:lang="ru">2. Недостаточное полезное действие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_015">
     <tt:line>15</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Eine solche Aktion kann schwach sein. Infolgedessen weist die Maschine eine schlechte Leistung auf oder kann ihre Funktion nicht ausführen. Dies kann auch zu einer unbefriedigenden Produktqualität führen.</tt:text>
+    <tt:text xml:lang="de">Eine Aktion kann schwach sein. Infolgedessen weist die Maschine eine schlechte Produktivität auf oder kann ihre Funktion nicht erfüllen. Dies kann auch zu einer unbefriedigenden Produktqualität führen.</tt:text>
     <tt:text xml:lang="ru">Такое действие может быть слабым. В результате машина имеет низкую производительность или не способна выполнять свою функцию. Также это может приводить к неудовлетворительному качеству продукта.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_016">
     <tt:line>16</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">3. Redundante nützliche Aktion</tt:text>
+    <tt:text xml:lang="de">3. Überschüssige nützliche Aktion</tt:text>
     <tt:text xml:lang="ru">3. Избыточное полезное действие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_017">
     <tt:line>17</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Eine zu starke Aktion führt zum Bruch, zur Beschädigung oder zum Verlust einiger wertvoller Ressourcen.</tt:text>
+    <tt:text xml:lang="de">Eine zu starke Aktion führt zu Brüchen, zur Beschädigung oder zum Verlust wertvoller Ressourcen.</tt:text>
     <tt:text xml:lang="ru">Слишком сильное действие приводит к поломкам, повреждениям или потерям каких-то ценных ресурсов.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_019">
     <tt:line>19</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Beispiel. Ein festsitzender Traktor</tt:text>
+    <tt:text xml:lang="de">Beispiel. Ein Traktor hat sich festgefahren</tt:text>
     <tt:text xml:lang="ru">Пример. Застрявший трактор</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_020">
     <tt:line>20</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Beim Herausziehen eines festgefahrenen Traktors kann es vorkommen, dass er einfach in zwei Hälften zerbricht.</tt:text>
+    <tt:text xml:lang="de">Beim Herausziehen des festgefahrenen Traktors kann es vorkommen, dass er einfach in zwei Hälften zerbricht.</tt:text>
     <tt:text xml:lang="ru">При вытаскивании застрявшего трактора возможна ситуация, когда его просто разрывает пополам.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_021">
@@ -7441,43 +7441,43 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_022">
     <tt:line>22</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Traktor</tt:text>
+    <tt:text xml:lang="de">Ziehgerät</tt:text>
     <tt:text xml:lang="ru">Тягач</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_023">
     <tt:line>23</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Zu stark</tt:text>
+    <tt:text xml:lang="de">wirkt zu stark</tt:text>
     <tt:text xml:lang="ru">Слишком сильно действует</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_024">
     <tt:line>24</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Stuck Tractor</tt:text>
+    <tt:text xml:lang="de">auf den festgefahrenen Traktor</tt:text>
     <tt:text xml:lang="ru">Застрявший трактор</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_025">
     <tt:line>25</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Broken Tractor</tt:text>
+    <tt:text xml:lang="de">Kaputter Traktor</tt:text>
     <tt:text xml:lang="ru">Сломанный трактор</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_026">
     <tt:line>26</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Beispiel für übermäßige Aktion beim Herausziehen eines festgefahrenen Traktors</tt:text>
+    <tt:text xml:lang="de">Ein Beispiel für eine übermäßige Aktion beim Herausziehen eines festgefahrenen Traktors</tt:text>
     <tt:text xml:lang="ru">Пример чрезмерного действия при вытаскивании застрявшего трактора</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_028">
     <tt:line>28</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Das transformierte Modell schreibt die Beseitigung überschüssiger Kräfte vor, die auf den Traktor wirken. Der nächste Schritt besteht darin, eine Ressource zu finden, die dafür konvertiert werden kann.</tt:text>
+    <tt:text xml:lang="de">Das transformierte Modell schreibt die Beseitigung überschüssiger Kräfte vor, die auf den Traktor wirken. Der nächste Schritt besteht darin, eine Ressource zu finden, die dafür umgewandelt werden kann.</tt:text>
     <tt:text xml:lang="ru">Преобразованная модель будет предписывать убрать излишек силы, действующий на трактор. Следующим шагом будет поиск ресурса, который можно для этого преобразовать.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_029">
     <tt:line>29</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">4. Die schädliche Wirkung der nützlichen</tt:text>
+    <tt:text xml:lang="de">4. Eine schädliche Wirkung begleitet die nützliche</tt:text>
     <tt:text xml:lang="ru">4. Вредное действие, сопровождающее полезное</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_030">
@@ -7489,43 +7489,43 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_031">
     <tt:line>31</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">5. Überhöhter Werkzeugwert</tt:text>
+    <tt:text xml:lang="de">5. Besonders hohe Kosten des Werkzeugs</tt:text>
     <tt:text xml:lang="ru">5. Чрезмерная стоимость инструмента</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_032">
     <tt:line>32</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Die Leistung des Tools ist zufriedenstellend, aber die Komplexität und die Kosten sind zu hoch.</tt:text>
+    <tt:text xml:lang="de">Die Leistung des Werkzeugs ist zufriedenstellend, aber seine Kompliziertheit und die Kosten sind zu hoch.</tt:text>
     <tt:text xml:lang="ru">Инструмент выполняет полезное действие удовлетворительно, но его сложность и стоимость слишком высоки.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_033">
     <tt:line>33</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Bei der Lösung einfacher Probleme kann das Aufgabenmodell als Dreiklang aus „Werkzeug - Aktion - Objekt“ konstruiert werden, wobei die Merkmale der Aktion zum Nachteil führen. Oft ist dies ausreichend, aber komplexe Aufgaben erfordern präzisere Technologien und Werkzeuge, z. Anwendung der gleichen SuField-Analyse. </tt:text>
+    <tt:text xml:lang="de">Bei der Lösung einfacher Probleme kann das Aufgabenmodell als Triade „Werkzeug - Aktion - Objekt“ konstruiert werden, wobei die Merkmale der Aktion aufzuzeigen sind, die zum Nachteil führen. Oft ist dies ausreichend, aber komplexe Aufgaben erfordern präzisere Technologien und Werkzeuge, z.B. die Anwendung einer SuField-Analyse. </tt:text>
     <tt:text xml:lang="ru">При решении простых задач модель задачи может быть построена, как триада «инструмент – действие - объект» с указанием особенностей действия, приводящих к недостатку. Часто этого бывает достаточно, но сложные задачи, требуют более четких технологий и инструментов, например, применения того же вепольного анализа.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_034">
     <tt:line>34</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Wenn die Aufgabe als Aktion im operativen Bereich formuliert ist, ist es besser, SuField-Modelle vom Standpunkt der auszuführenden Aktion aus zu betrachten. Die an dieser Aktion beteiligten Komponenten sind impliziert. Ein korrekt formuliertes SuField-Modell kann leicht mit einem Tool wie 76 standard in ein Lösungsmodell konvertiert werden Lösungen für erfinderische Probleme. Im Detail werden hier die Konstruktion von SuField-Modellen und die Anwendung von Standardlösungen für Probleme betrachtet. </tt:text>
+    <tt:text xml:lang="de">Wenn die Aufgabe als Aktion in der Operativen Zone formuliert ist, ist es besser, SuField-Modelle vom Standpunkt der auszuführenden Aktion aus zu betrachten. Die an dieser Aktion beteiligten Komponenten sind offensichtlich. Ein korrekt formuliertes SuField-Modell kann leicht mit einem Werkzeug wie den 76 Standardlösungen in ein Lösungsmodell konvertiert werden Lösungen für erfinderische Probleme. Die Konstruktion von SuField-Modellen und die Anwendung von Standardlösungen für Probleme werden hier betrachtet. </tt:text>
     <tt:text xml:lang="ru">Если задача сформулирована как действие в оперативной зоне, лучше рассматривать вепольные модели с точки зрения выполняемого действия. Компоненты, участвующие в выполнении этого действия, подразумеваются. Правильно сформулированная вепольная модель легко преобразуется в модель решения при помощи такого инструмента, как 76 стандартных решений изобретательских задач. Подробно построение вепольных моделей и применение стандартных решений задач рассмотрены здесь. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_038">
     <tt:line>38</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Beispiels</tt:text>
+    <tt:text xml:lang="de">Beispiele</tt:text>
     <tt:text xml:lang="ru">Примеры</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_039">
     <tt:line>39</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Ein Beispiel für die Fertigstellung des SuFields „Motor einfahren“</tt:text>
+    <tt:text xml:lang="de">Ein Beispiel für die Erstellung des SuField-Modells „Motor einfahren“</tt:text>
     <tt:text xml:lang="ru">Пример на достройку веполя. Обкатка двигателя</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_040">
     <tt:line>40</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Nach dem Zusammenbau des Verbrennungsmotors wird dieser eingefahren. Der Motor läuft mehrere Stunden. Während dieser Zeit reiben seine Teile aneinander. Wie kann die Einlaufzeit verkürzt werden?</tt:text>
+    <tt:text xml:lang="de">Nach dem Zusammenbau des Verbrennungsmotors wird dieser eingefahren. Der Motor läuft mehrere Stunden. Während dieser Zeit reiben sich seine Teile aneinander. Wie kann die Einlaufzeit verkürzt werden?</tt:text>
     <tt:text xml:lang="ru">После сборки двигателя внутреннего сгорания его обкатывают. Двигатель работает несколько часов, за это время его части притираются друг к другу. Как сократить время обкатки?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_041">
@@ -7537,13 +7537,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_043">
     <tt:line>43</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Engine</tt:text>
+    <tt:text xml:lang="de">Motor</tt:text>
     <tt:text xml:lang="ru">Двигатель</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_045">
     <tt:line>45</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Air</tt:text>
+    <tt:text xml:lang="de">Luft</tt:text>
     <tt:text xml:lang="ru">Воздух</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_047">
@@ -7561,13 +7561,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_052">
     <tt:line>52</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Wir werden sofort das Prinzip der Transformation des SuField-Modells zeigen.</tt:text>
+    <tt:text xml:lang="de">Wir zeigen sofort auch das Prinzip der Transformation des SuField-Modells.</tt:text>
     <tt:text xml:lang="ru">Покажем сразу и принцип преобразования вепольной модели.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_053">
     <tt:line>53</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Dies kann gemäß der Norm 1.1.2 erfolgen. Er empfiehlt, auf ein internes komplexes Eberfeld umzuschalten. Fügen Sie also einem der Stoffe einen zusätzlichen Stoff hinzu. In diesem Fall kann es sich um abrasive Partikel handeln.</tt:text>
+    <tt:text xml:lang="de">Dies kann gemäß dem Standard 1.1.2 erfolgen. Er empfiehlt, auf ein internes komplexes SuField überzugehen. Also einem der Stoffe einen zusätzlichen Stoff hinzufügen. In diesem Fall kann es sich um abrasive Partikel handeln.</tt:text>
     <tt:text xml:lang="ru">Это можно сделать согласно стандарту 1.1.2. Он рекомендует перейти к внутреннему комплексному веполю. То есть добавить к одному из веществ дополнительное вещество. В данном случае это могут быть абразивные частицы. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_054">
@@ -7579,13 +7579,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_056">
     <tt:line>56</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Ein Beispiel für die Zerstörung eines SuField. Schutz einer Hand vor einem Schnitt.</tt:text>
+    <tt:text xml:lang="de">Ein Beispiel für die Zerstörung eines SuField. Schutz einer Hand vor einer Schnittverletzung.</tt:text>
     <tt:text xml:lang="ru">Пример на разрушение веполя. Защита руки от пореза.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_057">
     <tt:line>57</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Die Gastgeberin benutzt oft ein Messer, um in der Küche zu arbeiten, zum Beispiel, wenn sie Gemüse für den Salat schneidet. Es kann zu einer schädlichen Wechselwirkung zwischen Finger und Messer kommen, mit anderen Worten, Sie können sich versehentlich den Finger schneiden. Wie geht das?</tt:text>
+    <tt:text xml:lang="de">Die Hausfrau benutzt oft ein Messer, um in der Küche zu arbeiten, zum Beispiel, wenn sie Grünzeug für den Salat schneidet. Zwischen Finger und Messer kann es zu einer schädlichen Wechselwirkung kommen, mit anderen Worten, man kann sich versehentlich in den Finger schneiden. Was tun?</tt:text>
     <tt:text xml:lang="ru">Хозяйка часто пользуется ножом для выполнения кухонных работ, например, когда нарезает зелень для салата. Между пальцем и ножом может возникнуть вредное взаимодействие, проще говоря можно случайно порезать палец.  Как быть?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_058">
@@ -7597,7 +7597,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_060">
     <tt:line>60</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Knife</tt:text>
+    <tt:text xml:lang="de">Messer</tt:text>
     <tt:text xml:lang="ru">Ножик</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_062">
@@ -7609,19 +7609,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_064">
     <tt:line>64</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">SuField-Modell des Problems des Schneidens von Produkten</tt:text>
+    <tt:text xml:lang="de">Ein SuField-Modell des Schneidens von Produkten</tt:text>
     <tt:text xml:lang="ru">Вепольная модель задачи об нарезке продуктов</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_067">
     <tt:line>67</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Das Veppole-Modell transformieren.</tt:text>
+    <tt:text xml:lang="de">Transformation des SuField-Modells.</tt:text>
     <tt:text xml:lang="ru">Преобразование вепольной модели.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_068">
     <tt:line>68</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Stoff 2 ist ein Messer, Stoff 1 ist ein Finger. Zwischen ihnen besteht eine schädliche Wechselwirkung. Gemäß Norm 1.2.1 muss B3 zwischen B1 und B2 eingefügt werden, wodurch die schädliche Wirkung unter Beibehaltung des Nutzens beseitigt wird. Es kann sich um etwas Ähnliches handeln Schild in der Abbildung unten gezeigt. </tt:text>
+    <tt:text xml:lang="de">Stoff 2 ist ein Messer, Stoff 1 ist ein Finger. Zwischen ihnen besteht eine schädliche Wechselwirkung. Gemäß Standard 1.2.1 muss B3 zwischen B1 und B2 eingefügt werden, wodurch die schädliche Wirkung unter Beibehaltung des Nutzens beseitigt wird. Es kann sich um etwas Ähnliches handeln wie ein Schild, das in der Abbildung unten gezeigt wird. </tt:text>
     <tt:text xml:lang="ru">Вещество 2 – ножик, вещество 1 – палец. Между ними возникает вредное взаимодействие. Согласно стандарту 1.2.1 между В1 и В2 нужно ввести вещество В3, которое бы устраняло вредное действие, сохраняя полезное. Это может быть что-то наподобие щитка, показанного на рисунке ниже. </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_069">
@@ -7633,13 +7633,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_071">
     <tt:line>71</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Beispiel. Ungewöhnliches Modell einer Aufgabe zur Verbesserung eines Startroboters</tt:text>
+    <tt:text xml:lang="de">Beispiel. SuField-Modell einer Aufgabe zur Verbesserung eines Bestückungs-Roboters</tt:text>
     <tt:text xml:lang="ru">Пример. Вепольная модель задачи об усовершенствовании загрузочного робота</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_072">
     <tt:line>72</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Bei der Herstellung von Flachbildschirmen nimmt ein Roboter mit Vakuumsaugern eine Glasscheibe von einem Stapel und führt sie dem Montagetisch zu. Die Glasscheiben sind jedoch schlecht voneinander getrennt und die Positionierung der Scheiben wird beim Zusammenbau des Bildschirms beeinträchtigt.</tt:text>
+    <tt:text xml:lang="de">Bei der Herstellung von Flachbildschirmen nimmt ein Roboter mit Vakuumsauger eine Glasscheibe von einem Stapel und führt sie dem Montagetisch zu. Die Glasscheiben lassen sich jedoch schlecht voneinander trennen und die Positionierung der Scheiben wird beim Zusammenbau des Bildschirms gestört.</tt:text>
     <tt:text xml:lang="ru">При производстве плоских дисплеев робот с вакуумными присосками захватывает лист стекла из стопки и подает его на сборочный стол. Однако листы стекла плохо отделяются друг от друга, и нарушается позиционирование листов при сборке дисплея.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_073">
@@ -7651,7 +7651,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_074">
     <tt:line>74</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Roboterbetrieb laden</tt:text>
+    <tt:text xml:lang="de">Betrieb des Bestückungs-Roboters</tt:text>
     <tt:text xml:lang="ru">Работа загрузочного робота</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_075">
@@ -7663,7 +7663,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_076">
     <tt:line>76</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Problemmodell 1. Die obere Glasscheibe muss mit Vakuumgreifern abgetrennt werden. Dies wird dadurch behindert, dass beim Anheben die nächste Scheibe vom Stapel zur oberen Scheibe klebt, dh die obere und die nächste Scheibe treten in schädliche Wechselwirkung. Grafik Die Darstellung des Problemmodells ist wie folgt (Abb. a): </tt:text>
+    <tt:text xml:lang="de">Problemmodell 1. Die obere Glasscheibe muss mit Vakuumgreifern abgetrennt werden. Dies wird dadurch behindert, dass beim Anheben die nächste Scheibe vom Stapel an der oberen Scheibe klebt, d.h. die obere und die nächste Scheibe treten in eine schädliche Wechselwirkung. Die grafische Darstellung des Problemmodells sieht wie folgt aus (Abb. a): </tt:text>
     <tt:text xml:lang="ru">Модель задачи 1. Необходимо отделить верхний лист стекла вакуумными захватами. Этому мешает то обстоятельство, что во время подъема к верхнему листу прилипает следующий за ним лист из стопки, т.е. верхний и следующий листы вступают во вредное взаимодействие. Графическое представление модели задачи выглядит следующим образом (рис. а):</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_077">
@@ -7693,13 +7693,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_085">
     <tt:line>85</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">SuField-Modell zur Aufgabe des Stiefelroboters</tt:text>
+    <tt:text xml:lang="de">SuField-Modell zur Aufgabe des Bestückungs-Roboters</tt:text>
     <tt:text xml:lang="ru">Вепольные модели к задаче о загрузочном роботе</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_088">
     <tt:line>88</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Problemmodell 2. Vakuumgreifer sollten nur die obere Glasscheibe anheben. Die Griffe sind jedoch nicht effektiv genug - sie trennen die obere Glasscheibe nicht richtig vom Stapel anderer Scheiben (Grafikmodell in Abb. b).</tt:text>
+    <tt:text xml:lang="de">Problemmodell 2. Vakuumgreifer sollten nur die obere Glasscheibe anheben. Die Griffe sind jedoch nicht effektiv genug - sie trennen die obere Glasscheibe nicht richtig vom Stapel anderer Scheiben (Grafisches Modell in Abb. b).</tt:text>
     <tt:text xml:lang="ru">Модель задачи 2. Вакуумные захваты должны поднимать только верхний лист стекла. Но захваты действуют недостаточно эффективно – плохо отделяют верхний лист стекла от стопки остальных листов (графическая модель на рис. b).</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_090">
@@ -7711,19 +7711,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_091">
     <tt:line>91</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Bei der Eingabe dieses Schritts haben wir die Hypothese der Konfliktlösung als Aktion formuliert. Bei der Ausgabe ein Modell, das die Interaktion des Werkzeugs und des bearbeiteten Objekts mit der Angabe nützlicher und schädlicher Produkte zeigt.</tt:text>
+    <tt:text xml:lang="de">Eingangs dieses Schritts haben wir die Hypothese der Konfliktlösung als Aktion formuliert. Am Ende steht ein Modell, das die Interaktion des Werkzeugs und des bearbeiteten Objekts mit der Angabe der nützlichen und schädlichen Produkte zeigt.</tt:text>
     <tt:text xml:lang="ru">На входе этого шага мы имеем гипотезу устранения конфликта, сформулированную как действие. На выходе модель, показывающая взаимодействие инструмента и обрабатываемого объекта с указанием полезного и вредного продуктов.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_092">
     <tt:line>92</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Dazu können Sie eine Triade von „Werkzeug - Aktion - Objekt“ erstellen, die die Art des Fehlers angibt.</tt:text>
+    <tt:text xml:lang="de">Dazu kann eine Triade von „Werkzeug - Aktion - Objekt“ mit Angabe der Art der Unzulänglichkeit erstellt werde.</tt:text>
     <tt:text xml:lang="ru">Для этого можно построить триада «инструмент – действие - объект» с указанием типа недостатка.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_093">
     <tt:line>93</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Wenn dies nicht ausreicht, können Sie die SuField-Analyse anwenden und ein Modell als Wechselwirkung zweier Substanzen über das Feld erstellen.</tt:text>
+    <tt:text xml:lang="de">Wenn dies nicht ausreicht, kann die SuField-Analyse angewendet und ein Modell als Wechselwirkung zweier Substanzen über das Feld erstellt werden.</tt:text>
     <tt:text xml:lang="ru">Если этого недостаточно, можно применить вепольный анализ и построить модель, как взаимодействие двух веществ посредством поля.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_095">
@@ -7735,7 +7735,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_096">
     <tt:line>96</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Das Modell des Problems. Sowohl aus der Hypothese als auch aus dem Problem ist es möglich, ein solches Off-Field-Modell zu erstellen:</tt:text>
+    <tt:text xml:lang="de">Das Aufgabenmodell. Sowohl aus der Hypothese als auch aus dem Problem ist es möglich, ein solches SuField-Modell zu erstellen:</tt:text>
     <tt:text xml:lang="ru">Модель задачи. Как из гипотезы, так и из задачи можно построить такую вепольную модель:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_097">
@@ -7759,19 +7759,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_104">
     <tt:line>104</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Das Modell zeigt Folgendes:</tt:text>
+    <tt:text xml:lang="de">Das Modell zeigt folgendes:</tt:text>
     <tt:text xml:lang="ru">Модель показывает следующее:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/119_105">
     <tt:line>105</tt:line>
     <tt:sheet>119</tt:sheet>
-    <tt:text xml:lang="de">Zwischen zwei Substanzen - einer Schachtel und einer Pizza - besteht eine nützliche und schädliche Wechselwirkung. Die Schachtel enthält die Pizza, zerreißt aber auch den Boden der Pizza, wenn sie entfernt wird.</tt:text>
+    <tt:text xml:lang="de">Zwischen zwei Substanzen - der Schachtel und der Pizza - besteht eine nützliche und eine schädliche Wechselwirkung. Die Schachtel enthält die Pizza, zerreißt aber auch den Boden der Pizza, wenn sie entfernt wird.</tt:text>
     <tt:text xml:lang="ru">Между двумя веществами – коробкой и пиццей – присутствует полезное и вредное взаимодействие. Коробка удерживает пиццу, но она же и изрывает дно пиццы при извлечении.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_001">
     <tt:line>1</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Problem Model Technical Controversy</tt:text>
+    <tt:text xml:lang="de">Aufgabenmodell „Technischer Widerspruch“</tt:text>
     <tt:text xml:lang="ru">Модель задачи Техническое противоречие</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_002">
@@ -7789,19 +7789,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_005">
     <tt:line>5</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Ein Weg, um einen technischen Widerspruch aufzubauen „Swing“</tt:text>
     <tt:text xml:lang="ru">Способ построения технического противоречия «Качели»</tt:text>
+    <tt:text xml:lang="de">„Schaukel“ als Weg, einen technischen Widerspruch aufzubauen </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_006">
     <tt:line>6</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Die Formulierung des Problems durch einen technischen Widerspruch kann als eine Art „Schwung“ dargestellt werden - wenn sich ein Parameter verbessert, verschlechtert sich der andere und umgekehrt. In diesem Modell wird die gesamte Informationsvielfalt, die im Zustand des Problems enthalten ist, auf eine Konfrontation zwischen den beiden Systemparametern reduziert. Wie die Modellierung der Bedingungen des Problems ermöglicht ein gutes Verständnis des Wesens des Problems, aber das Wichtigste ist, dass Sie ein effektives Werkzeug, erfinderische Techniken, verwenden können, um technische Widersprüche aufzulösen. </tt:text>
+    <tt:text xml:lang="de">Die Formulierung des Problems durch einen technischen Widerspruch kann als eine Art „Schaukel“ dargestellt werden - wenn sich ein Parameter verbessert, verschlechtert sich der andere und umgekehrt. In diesem Modell wird die gesamte Informationsvielfalt, die in den Bedingungen der Aufgabe enthalten ist, auf eine Konfrontation zwischen den beiden Systemparametern reduziert. Eine solche Modellierung der Bedingungen des Problems ermöglicht ein gutes Verständnis des Wesens des Problems, aber das Wichtigste ist, dass zur Lösung technischer Widersprüche ein effektives Werkzeug angewendt werden kann - die TRIZ-Prinzipien. </tt:text>
     <tt:text xml:lang="ru">Формулирование задачи через техническое противоречие можно проиллюстрировать как своеобразные «качели» - когда один параметр улучшается, другой ухудшается, и - наоборот. В этой модели всё разнообразие информации, содержащееся в условии задачи, сводится к противостоянию между двумя параметрами системы. Такое моделирование условия задачи позволяет хорошо понять саму суть проблемы. Но самое главное – для разрешения технического противоречия можно использовать эффективный инструмент – изобретательские приёмы.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_007">
     <tt:line>7</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Verbesserter Parameter</tt:text>
+    <tt:text xml:lang="de">Sich verbessernder Parameter</tt:text>
     <tt:text xml:lang="ru">Улучшаемый параметр</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_008">
@@ -7819,19 +7819,19 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_010">
     <tt:line>10</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Verschlechterungsparameter</tt:text>
+    <tt:text xml:lang="de">Sich verschlechternder Parameter</tt:text>
     <tt:text xml:lang="ru">Ухудшающийся параметр</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_012">
     <tt:line>12</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Ein technischer Widerspruch kann während der Beschreibung des Problems in der Phase der Hypothesenerstellung formuliert werden. Dies geschieht, wenn es möglich ist, die Idee der Problemlösung zu formulieren, diese Idee uns jedoch nicht vollständig befriedigt. Ebenso kann sich die Situation eines technischen Widerspruchs nach einer Handlung ergeben ein problem lösen Wenn wir mit einem Modell eines Problems arbeiten, tauchen Ideen für eine Lösung auf, das heißt, wir sprechen von der Verbesserung eines bestimmten Parameters eines Systems oder Prozesses. Wenn die Entscheidung nicht als zufriedenstellend angesehen werden kann, bedeutet dies, dass ein anderer Parameter schlechter geworden ist und sein Wert nicht zu uns passt. </tt:text>
+    <tt:text xml:lang="de">Ein technischer Widerspruch kann mit der Aufgabenstellung, in der Phase der Hypothesenerstellung formuliert werden. Dies geschieht, wenn es möglich ist, die Idee der Problemlösung zu formulieren, diese Idee uns jedoch nicht vollständig befriedigt. Ebenso kann sich die Situation eines technischen Widerspruchs nach jeder Handlung ergeben, mit der ein Problem gelöst werden soll. Wenn wir mit einem beliebigen Aufgabenmodell arbeiten, tauchen Lösungsideen auf, das heißt, wir sprechen von der Verbesserung eines bestimmten System- oder Prozessparameters. Wenn die Entscheidung nicht als zufriedenstellend angesehen werden kann, bedeutet dies, dass ein anderer Parameter schlechter geworden ist und sein Wert uns nicht zufriedenstellt. </tt:text>
     <tt:text xml:lang="ru">Техническое противоречие может быть сформулировано при постановке задачи, на этапе выдвижения гипотез. Это происходит, когда есть возможность сформулировать идею решения задачи, но эта идея не до конца нас удовлетворяет. Точно также ситуация технического противоречия может возникнуть и после выполнения любых действий по решению задачи. Когда мы работаем с любыми моделями задачи, появляются идеи решения, т.е. речь идет об улучшении определенного параметра системы или технологического процесса. Если решение нас удовлетворяет – всё в порядке. Если же решение нельзя признать удовлетворительным, то это значит, что какой-то другой параметр стал хуже и его значение не может нас устроить.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_013">
     <tt:line>13</tt:line>
     <tt:sheet>120</tt:sheet>
-    <tt:text xml:lang="de">Um einen technischen Widerspruch zu konstruieren, muss klar festgelegt werden, welche Parameter wir auf die eine oder andere Weise verbessert haben. Bestimmen Sie dann den Parameter des nützlichen Systems, das sich bei der Implementierung der vorgeschlagenen Methode verschlechtert. Ein Modell des Problems, das einen technischen Widerspruch enthält (es wird auch als Zwei-Parameter bezeichnet). unterscheidet sich in einer prägnanten Darstellung des Problems. Ein technischer Widerspruch wird hier eindeutig angegeben: </tt:text>
+    <tt:text xml:lang="de">Um einen technischen Widerspruch zu konstruieren, muss klar festgelegt werden, welche Parameter wir auf die eine oder andere Weise verbessert haben. Bestimmen Sie dann den Parameter des nützlichen Systems, das sich bei der Implementierung der vorgeschlagenen Methode verschlechtert. Ein Aufgabenmodell, das einen technischen Widerspruch enthält (es wird auch als Zwei-Parameter bezeichnet). unterscheidet sich in einer prägnanten Darstellung des Problems. Ein technischer Widerspruch wird hier eindeutig angegeben: </tt:text>
     <tt:text xml:lang="ru">Для построения технического противоречия нужно чётко определить, какой именно параметр мы улучшили тем или иным способом. Затем – определить тот параметр полезной системы, который ухудшается при реализации предложенного способа. Модель задачи, содержащая техническое противоречие (ее еще называют двухпараметрической), отличается краткой формулировкой задачи. Здесь четко и ясно прописано техническое противоречие:</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/120_014">
@@ -8329,7 +8329,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/121_039">
     <tt:line>39</tt:line>
     <tt:sheet>121</tt:sheet>
-    <tt:text xml:lang="de">Der physikalische Widerspruch, der dem Ein-Parameter-Modell des Problems zugrunde liegt, kann auf der Stufe der Hypothese formuliert werden. Dies geschieht, wenn wir zwei Hypothesen haben, die die entgegengesetzten Zustände der Systemkomponente beschreiben. Das heißt, eine Hypothese erfordert, dass die Komponente ist B. flach und zweitens - damit diese Komponente konvex ist, d.h. der Parameter „Oberflächenkrümmung“ hat unterschiedliche, sich gegenseitig ausschließende Werte. </tt:text>
+    <tt:text xml:lang="de">Der physikalische Widerspruch, der dem Ein-Parameter-Aufgabenmodell zugrunde liegt, kann auf der Stufe der Hypothese formuliert werden. Dies geschieht, wenn wir zwei Hypothesen haben, die die entgegengesetzten Zustände der Systemkomponente beschreiben. Das heißt, eine Hypothese erfordert, dass die Komponente ist B. flach und zweitens - damit diese Komponente konvex ist, d.h. der Parameter „Oberflächenkrümmung“ hat unterschiedliche, sich gegenseitig ausschließende Werte. </tt:text>
     <tt:text xml:lang="ru">Физическое противоречие, лежащее в основе однопараметрической модели задачи, может быть сформулировано на этапе выдвижения гипотез. Это происходит тогда, когда мы имеем две гипотезы, описывающие противоположные состояния компонента системы. То есть, одна гипотеза предписывает, чтобы компонент был, к примеру, плоским, а вторая – чтобы этот самый компонент был выпуклым. То есть параметр «кривизна поверхности» имеет разные, взаимоисключающие значения.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/121_040">
@@ -8731,7 +8731,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_003">
     <tt:line>3</tt:line>
     <tt:sheet>123</tt:sheet>
-    <tt:text xml:lang="de">Wenn Sie ein Modell des Problems haben, können Sie damit beginnen, ein Modell der Lösung zu erstellen.</tt:text>
+    <tt:text xml:lang="de">Wenn Sie ein Aufgabenmodell haben, können Sie damit beginnen, ein Modell der Lösung zu erstellen.</tt:text>
     <tt:text xml:lang="ru">Имея модель задачи можно приступать к построению модели решения.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_004">
@@ -8761,13 +8761,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_009">
     <tt:line>9</tt:line>
     <tt:sheet>123</tt:sheet>
-    <tt:text xml:lang="de">Transformation des Modells der Aufgabe „Bedingungen im Einsatzgebiet“</tt:text>
+    <tt:text xml:lang="de">Transformation des Modells der Aufgabe „Bedingungen im Operative Zone“</tt:text>
     <tt:text xml:lang="ru">Преобразование модели задачи «Условия в оперативной зоне»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_010">
     <tt:line>10</tt:line>
     <tt:sheet>123</tt:sheet>
-    <tt:text xml:lang="de">Hier müssen wir verstehen, was genau zu tun ist, um Bedingungen und Umstände in der Betriebszone zu schaffen, die den Mangel dort beseitigen. Hier können verschiedene Transformationen angewendet werden.</tt:text>
+    <tt:text xml:lang="de">Hier müssen wir verstehen, was genau zu tun ist, um Bedingungen und Umstände in der Operative Zone zu schaffen, die den Mangel dort beseitigen. Hier können verschiedene Transformationen angewendet werden.</tt:text>
     <tt:text xml:lang="ru">Здесь нам нужно понять, что именно нужно сделать, чтобы создать в оперативной зоне условия и обстоятельства, которые устраняют существующий там недостаток. Здесь можно применять самые разные преобразования.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_011">
@@ -8785,7 +8785,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_013">
     <tt:line>13</tt:line>
     <tt:sheet>123</tt:sheet>
-    <tt:text xml:lang="de">Wenn wir im Großen und Ganzen das Ziel der Problemlösung (das gewünschte Ergebnis) und den Weg zur Erreichung dieses Ziels verstehen, können Heuristiken als Hinweise dienen, wie das Problem zu lösen ist. Um das Modell des Problems zu transformieren, werden solche Werkzeuge bereitgestellt, da die Umstände des Betriebsbereichs als Analogien, Entwicklungslinien nützlicher Systeme, Standardlösungen für erfinderische Probleme und andere. </tt:text>
+    <tt:text xml:lang="de">Wenn wir im Großen und Ganzen das Ziel der Problemlösung (das gewünschte Ergebnis) und den Weg zur Erreichung dieses Ziels verstehen, können Heuristiken als Hinweise dienen, wie das Problem zu lösen ist. Um das Aufgabenmodell zu transformieren, werden solche Werkzeuge bereitgestellt, da die Umstände des Betriebsbereichs als Analogien, Entwicklungslinien nützlicher Systeme, Standardlösungen für erfinderische Probleme und andere. </tt:text>
     <tt:text xml:lang="ru">Если же мы в целом понимаем цель решения задачи (желаемый результат) и способ достижения этой цели, то эвристики могут служить в качестве подсказок, конкретизирующих способ решения задачи. Для преобразования модели задачи, как обстоятельств оперативной зоны, предусмотрены такие инструменты, как аналогии, линии развития полезных систем, стандартные решения изобретательских задач и другие.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_015">
@@ -8833,7 +8833,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_023">
     <tt:line>23</tt:line>
     <tt:sheet>123</tt:sheet>
-    <tt:text xml:lang="de">Dieses Modell des Problems wird entsprechend seiner Erstellung transformiert. Wenn Sie eine Entscheidung treffen können, indem Sie nur die Art des Fehlers kennen, müssen Sie dies tun. Wenn Sie ein SuField-Modell verwenden, werden Standard-Problemlösungen als Konvertierungswerkzeug verwendet.</tt:text>
+    <tt:text xml:lang="de">Dieses Aufgabenmodell wird entsprechend seiner Erstellung transformiert. Wenn Sie eine Entscheidung treffen können, indem Sie nur die Art des Fehlers kennen, müssen Sie dies tun. Wenn Sie ein SuField-Modell verwenden, werden Standard-Problemlösungen als Konvertierungswerkzeug verwendet.</tt:text>
     <tt:text xml:lang="ru">Эта модель задачи преобразуется в соответствии с тем, как она строилась. Если можно принять решение, просто зная тип недостатка, то нужно это сделать. Если применялась вепольная модель, то в качестве преобразовательного инструмента применяются стандартные решения задач.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_024">
@@ -9019,7 +9019,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_062">
     <tt:line>62</tt:line>
     <tt:sheet>123</tt:sheet>
-    <tt:text xml:lang="de">Die Eingabe dieses Schritts ist ein abstraktes Modell des Problems. Am Ausgang sollten wir ein Modell zur Lösung des Problems erhalten.</tt:text>
+    <tt:text xml:lang="de">Die Eingabe dieses Schritts ist ein abstraktes Aufgabenmodell. Am Ausgang sollten wir ein Modell zur Lösung des Problems erhalten.</tt:text>
     <tt:text xml:lang="ru">Вход этого шага – абстрактная модель задачи. На выходе мы должны получить модель решения задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/123_063">
@@ -9031,7 +9031,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_001">
     <tt:line>1</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Transformation des Modells „Bedingungen im Einsatzgebiet“</tt:text>
+    <tt:text xml:lang="de">Transformation des Modells „Bedingungen im Operative Zone“</tt:text>
     <tt:text xml:lang="ru">Преобразование модели «Условия в оперативной зоне»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_002">
@@ -9043,13 +9043,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_003">
     <tt:line>3</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Wir kennen und verstehen die Umstände, die im Betriebsbereich bestehen, sowie die Eigenschaft, die neue Qualität, die wir benötigen. Dazu müssen wir einige Korrekturmaßnahmen durchführen. Dieses Modell des Problems zeichnet sich dadurch aus, dass wir hier die Komponenten des Betriebs betrachten Zonen und die von diesen Komponenten ausgeführten Aktionen sind nur impliziert. </tt:text>
+    <tt:text xml:lang="de">Wir kennen und verstehen die Umstände, die im Betriebsbereich bestehen, sowie die Eigenschaft, die neue Qualität, die wir benötigen. Dazu müssen wir einige Korrekturmaßnahmen durchführen. Dieses Aufgabenmodell zeichnet sich dadurch aus, dass wir hier die Komponenten des Betriebs betrachten Zonen und die von diesen Komponenten ausgeführten Aktionen sind nur impliziert. </tt:text>
     <tt:text xml:lang="ru">Мы знаем и понимаем обстоятельства, которые существуют в оперативной зоне, а также свойство, новое качество, которое нам нужно получить. Для этого нужно выполнить какие-то исправительные действия. Эта модель задачи характеризуется тем, что здесь мы рассматривает компоненты оперативной зоны, а действия, выполняемые этими компонентами, лишь подразумеваются.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_004">
     <tt:line>4</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Wir haben also eine Art schädliches Produkt in der Betriebszone, eine Eigenschaft, die nicht zu uns passt. Wir müssen uns die Frage stellen, wie die Umstände in der Betriebszone geändert werden können. Welche neue Qualität sollte erhalten werden, um den Defekt zu beseitigen?</tt:text>
+    <tt:text xml:lang="de">Wir haben also eine Art schädliches Produkt in der Operative Zone, eine Eigenschaft, die nicht zu uns passt. Wir müssen uns die Frage stellen, wie die Umstände in der Operative Zone geändert werden können. Welche neue Qualität sollte erhalten werden, um den Defekt zu beseitigen?</tt:text>
     <tt:text xml:lang="ru">Итак, мы имеем какой-то вредный продукт в оперативной зоне, какое-то не устраивающее нас свойство. Мы должны задать себе вопрос – как нужно изменить обстоятельства оперативной зоны, какое новое качество получить, чтобы устранить недостаток?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_005">
@@ -9085,7 +9085,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_010">
     <tt:line>10</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Der einfachste Weg, eine neue Eigenschaft zu erhalten, besteht darin, eine neue Komponente in die Betriebszone einzufügen, die im Prinzip die erforderliche Funktion ausführen oder Komponenten transformieren kann, die bereits in der Betriebszone vorhanden sind.</tt:text>
+    <tt:text xml:lang="de">Der einfachste Weg, eine neue Eigenschaft zu erhalten, besteht darin, eine neue Komponente in die Operative Zone einzufügen, die im Prinzip die erforderliche Funktion ausführen oder Komponenten transformieren kann, die bereits in der Operative Zone vorhanden sind.</tt:text>
     <tt:text xml:lang="ru">Проще всего получить новое свойство можно, если ввести в оперативную зону новый компонент, который в принципе может выполнить требуемую функцию или преобразовать компоненты, уже имеющиеся в оперативной зоне.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_011">
@@ -9229,7 +9229,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_036">
     <tt:line>36</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Um die Komponenten der Betriebszone zu transformieren, ist es effektiv, Entwicklungslinien anzuwenden. Die Entwicklungslinie ist eine Folge von Systemoptionen, die nach einem bestimmten Gesetz in der Richtung der Änderung einiger quantitativer oder qualitativer Parameter erstellt wurden.</tt:text>
+    <tt:text xml:lang="de">Um die Komponenten der Operative Zone zu transformieren, ist es effektiv, Entwicklungslinien anzuwenden. Die Entwicklungslinie ist eine Folge von Systemoptionen, die nach einem bestimmten Gesetz in der Richtung der Änderung einiger quantitativer oder qualitativer Parameter erstellt wurden.</tt:text>
     <tt:text xml:lang="ru">Для преобразования компонентов оперативной зоны эффективно применить линии развития. Линия развития представляет собой последовательность вариантов системы, выстроенных по определенному закону в направлении изменения каких-то количественных или качественных параметров.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_037">
@@ -9247,7 +9247,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_039">
     <tt:line>39</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Zuerst müssen Sie die Möglichkeit in Betracht ziehen, Linien zu verwenden, die die Einführung von Komponenten in die Betriebszone vorschreiben, Träger neuer Funktionen. Dann sollten Sie prüfen, ob es möglich ist, Komponenten aus dem System zu entfernen, während ihre Funktionen beibehalten werden.</tt:text>
+    <tt:text xml:lang="de">Zuerst müssen Sie die Möglichkeit in Betracht ziehen, Linien zu verwenden, die die Einführung von Komponenten in die Operative Zone vorschreiben, Träger neuer Funktionen. Dann sollten Sie prüfen, ob es möglich ist, Komponenten aus dem System zu entfernen, während ihre Funktionen beibehalten werden.</tt:text>
     <tt:text xml:lang="ru">Сначала надо рассмотреть возможность применения линий, предписывающих введение в оперативную зону компонентов, носителей новых функций. Затем следует проверить, есть ли возможность удалить компоненты из состава системы при сохранении их функций.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_040">
@@ -9325,7 +9325,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_052">
     <tt:line>52</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Beim Schneiden eines dünnwandigen Materials mit einer Kreissäge treten eine Reihe von Problemen auf. Das Material verbiegt sich und verformt sich. Es treten Vibrationen auf, die die Schnittqualität verringern. Es ist erforderlich, die Eigenschaft zu erhalten, das zu schneidende Material zu halten und Vibrationen in der Betriebszone zu beseitigen.</tt:text>
+    <tt:text xml:lang="de">Beim Schneiden eines dünnwandigen Materials mit einer Kreissäge treten eine Reihe von Problemen auf. Das Material verbiegt sich und verformt sich. Es treten Vibrationen auf, die die Schnittqualität verringern. Es ist erforderlich, die Eigenschaft zu erhalten, das zu schneidende Material zu halten und Vibrationen in der Operative Zone zu beseitigen.</tt:text>
     <tt:text xml:lang="ru">При резании дисковой пилой тонкостенного материала возникает ряд проблем. Материал изгибается, деформируется. Возникает вибрация, которая снижает качество резания. Необходимо получить в оперативной зоне свойство удержания разрезаемого материала и устранения вибраций.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_053">
@@ -9349,13 +9349,13 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_057">
     <tt:line>57</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Bei der Eingabe dieses Schritts haben wir eine oder mehrere erweiterte Hypothesen zur Lösung des Konflikts. Bei der Ausgabe sollten wir ein Modell des Problems erhalten, das dieser Hypothese so nahe wie möglich kommt.</tt:text>
+    <tt:text xml:lang="de">Bei der Eingabe dieses Schritts haben wir eine oder mehrere erweiterte Hypothesen zur Lösung des Konflikts. Bei der Ausgabe sollten wir ein Aufgabenmodell erhalten, das dieser Hypothese so nahe wie möglich kommt.</tt:text>
     <tt:text xml:lang="ru">На входе этого шага мы имеем одну или несколько выдвинутых гипотез устранения конфликта. На выходе мы должны получить модель задачи, максимально близкую к этой гипотезе.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_058">
     <tt:line>58</tt:line>
     <tt:sheet>124</tt:sheet>
-    <tt:text xml:lang="de">Dies kann erreicht werden, wenn Sie beim Vorbringen einer Hypothese sorgfältig prüfen müssen, welcher Art von Modell des Problems am nächsten ist, und die Aufgabe sofort in Form ihres Modells formulieren.</tt:text>
+    <tt:text xml:lang="de">Dies kann erreicht werden, wenn Sie beim Vorbringen einer Hypothese sorgfältig prüfen müssen, welcher Art von Aufgabenmodell am nächsten ist, und die Aufgabe sofort in Form ihres Modells formulieren.</tt:text>
     <tt:text xml:lang="ru">Это можно добиться, если при выдвижении гипотезы нужно внимательно посмотреть, к какому типу модели задачи она ближе всего, и формулировать задачу сразу в виде ее модели.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/124_060">
@@ -9451,7 +9451,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/125_011">
     <tt:line>11</tt:line>
     <tt:sheet>125</tt:sheet>
-    <tt:text xml:lang="de">Natürlich können und müssen Sie die Gelegenheit nutzen, das Problem sofort zu lösen. Wenn Sie nicht sofort eine Lösung finden, können Sie die in TRIZ enthaltenen Werkzeuge in Betracht ziehen. Standardlösungen für Probleme der Klassen 1, 2, 3 und 4 können hier Abhilfe schaffen Es geht hier um die Vervollständigung des Sufield-Feldes und die Entwicklung von SuField-Modellen. Die Anwendung von Standards in diesem Modell des Problems unterscheidet sich von ihrer Verwendung im Modell „Umstände in der Betriebszone“. Der Unterschied besteht darin, dass wir hier zunächst die Situation in der Betriebszone betrachten. Die Komponenten, die diese Aktionen ausführen, sind impliziert. </tt:text>
+    <tt:text xml:lang="de">Natürlich können und müssen Sie die Gelegenheit nutzen, das Problem sofort zu lösen. Wenn Sie nicht sofort eine Lösung finden, können Sie die in TRIZ enthaltenen Werkzeuge in Betracht ziehen. Standardlösungen für Probleme der Klassen 1, 2, 3 und 4 können hier Abhilfe schaffen Es geht hier um die Vervollständigung des Sufield-Feldes und die Entwicklung von SuField-Modellen. Die Anwendung von Standards in diesem Aufgabenmodell unterscheidet sich von ihrer Verwendung im Modell „Umstände in der Operative Zone“. Der Unterschied besteht darin, dass wir hier zunächst die Situation in der Operative Zone betrachten. Die Komponenten, die diese Aktionen ausführen, sind impliziert. </tt:text>
     <tt:text xml:lang="ru">Конечно же, возможностью сразу решать задачу можно и нужно воспользоваться. Если же сразу найти решение не получается, можно рассмотреть инструменты, содержащиеся в ТРИЗ. Существенную помощь здесь могут оказать стандартные решения задач классов 1, 2, 3 и 4, в которых идет речь о достройке веполя и развитии вепольных моделей. Применение стандартов в данной модели задачи отличается от их использования в модели «Обстоятельства в оперативной зоне». Отличие состоит в том, что здесь мы рассматриваем ситуацию в оперативной зоне, прежде всего, с точки зрения выполняемых там действий. Компоненты, выполняющие эти действия, подразумеваются.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/125_012">
@@ -12553,7 +12553,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/137_039">
     <tt:line>39</tt:line>
     <tt:sheet>137</tt:sheet>
-    <tt:text xml:lang="de">Die Beschreibung einer unbekannten Ressource, der X-Komponente, ermöglicht es, unser Problem besser zu verstehen und die Voraussetzungen für ihre Lösung zu schaffen. Ressourcenanforderungen werden immer für ein bestimmtes Modell der Aufgabe zusammengestellt. Bei der Beschreibung der Anforderungen für eine Ressource können wir jedoch nicht nur diese spezielle verwenden Modell des Problems, aber auch alle während der Lösung gewonnenen Informationen. </tt:text>
+    <tt:text xml:lang="de">Die Beschreibung einer unbekannten Ressource, der X-Komponente, ermöglicht es, unser Problem besser zu verstehen und die Voraussetzungen für ihre Lösung zu schaffen. Ressourcenanforderungen werden immer für ein bestimmtes Aufgabenmodell zusammengestellt. Bei der Beschreibung der Anforderungen für eine Ressource können wir jedoch nicht nur diese spezielle verwenden Aufgabenmodell, aber auch alle während der Lösung gewonnenen Informationen. </tt:text>
     <tt:text xml:lang="ru">Описание неизвестного ресурса, Х-компонента, дает возможность лучше понять нашу задачу и создать предпосылки для ее решения. Требования к ресурсу всегда составляются под конкретную модель задачи. Но, при описании требований к ресурсу, мы можем пользоваться не только данной конкретной моделью задачи, но и всей информацией, наработанной в ходе решения.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/137_041">
@@ -12727,7 +12727,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_014">
     <tt:line>14</tt:line>
     <tt:sheet>138</tt:sheet>
-    <tt:text xml:lang="de">Es ist ratsam, nach einer Ressource für eine Lösung in einer bestimmten Reihenfolge zu suchen und den Suchbereich schrittweise zu erweitern (Abb. 1). Sie müssen ausgehend von der Betriebszone beginnen, da die Lösung umso idealer ist, je näher die erforderliche Ressource an der Betriebszone liegt.</tt:text>
+    <tt:text xml:lang="de">Es ist ratsam, nach einer Ressource für eine Lösung in einer bestimmten Reihenfolge zu suchen und den Suchbereich schrittweise zu erweitern (Abb. 1). Sie müssen ausgehend von der Operative Zone beginnen, da die Lösung umso idealer ist, je näher die erforderliche Ressource an der Operative Zone liegt.</tt:text>
     <tt:text xml:lang="ru">Поиск ресурса для решения целесообразно вести в определённой последовательности, постепенно расширяя область поиска (рис.1). Начинать нужно с оперативной зоны, ведь чем ближе к оперативной зоне найдётся требуемый ресурс, тем ближе к идеальному будет решение.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_015">
@@ -12739,7 +12739,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_016">
     <tt:line>16</tt:line>
     <tt:sheet>138</tt:sheet>
-    <tt:text xml:lang="de">Kann ein Betriebszonen-Tool eine erforderliche Ressource sein?</tt:text>
+    <tt:text xml:lang="de">Kann ein Operative Zonen-Tool eine erforderliche Ressource sein?</tt:text>
     <tt:text xml:lang="ru">Может ли инструмент оперативной зоны быть требуемым ресурсом?</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_017">
@@ -12799,7 +12799,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_026">
     <tt:line>26</tt:line>
     <tt:sheet>138</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_027">
@@ -12913,7 +12913,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_050">
     <tt:line>50</tt:line>
     <tt:sheet>138</tt:sheet>
-    <tt:text xml:lang="de">Wenn in der Betriebszone keine Ressourcen gefunden werden, sollten sie unter anderen Komponenten eines nützlichen Systems gesucht werden. Achten Sie auf Ressourcen, die übermäßig vorhanden sind. Besonderes Augenmerk wird auf Energiequellen gelegt, die unnötig verbraucht werden.</tt:text>
+    <tt:text xml:lang="de">Wenn in der Operative Zone keine Ressourcen gefunden werden, sollten sie unter anderen Komponenten eines nützlichen Systems gesucht werden. Achten Sie auf Ressourcen, die übermäßig vorhanden sind. Besonderes Augenmerk wird auf Energiequellen gelegt, die unnötig verbraucht werden.</tt:text>
     <tt:text xml:lang="ru">Если в оперативной зоне ресурсов не найдено, их следует искать среди других компонентов полезной системы. Нужно обращать внимание на ресурсы, которые присутствуют в избыточном количестве. Особое внимание – к энергетическим ресурсам, которые бесполезно расходуются.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_051">
@@ -12991,7 +12991,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_065">
     <tt:line>65</tt:line>
     <tt:sheet>138</tt:sheet>
-    <tt:text xml:lang="de">Dazu muss die Komponente transformiert werden. Dies hängt weitgehend mit den Ressourcen der Betriebszone zusammen. Tatsache ist, dass die Eigenschaften der Komponenten der Betriebszone bereits ziemlich genau definiert sind. Es ist häufig unmöglich, die Komponente der Betriebszone in dem Zustand zu übernehmen, in dem sie sich befindet. Sie müssen wissen, wie Sie diese Komponenten ändern, um die Ressourcenanforderungen zu erfüllen. </tt:text>
+    <tt:text xml:lang="de">Dazu muss die Komponente transformiert werden. Dies hängt weitgehend mit den Ressourcen der Operative Zone zusammen. Tatsache ist, dass die Eigenschaften der Komponenten der Operative Zone bereits ziemlich genau definiert sind. Es ist häufig unmöglich, die Komponente der Operative Zone in dem Zustand zu übernehmen, in dem sie sich befindet. Sie müssen wissen, wie Sie diese Komponenten ändern, um die Ressourcenanforderungen zu erfüllen. </tt:text>
     <tt:text xml:lang="ru">Для этого компонент нужно преобразовать. Это в большой степени касается ресурсов оперативной зоны. Дело в том, что характеристики компонентов оперативной зоны уже довольно жестко определены. Взять компонент оперативной зоны в том состоянии, в каком он есть, часто бывает невозможно. Надо понять, как изменить эти компоненты, чтобы удовлетворить требованиям к ресурсу.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_066">
@@ -13015,7 +13015,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_070">
     <tt:line>70</tt:line>
     <tt:sheet>138</tt:sheet>
-    <tt:text xml:lang="de">Die Empfehlung hier ist einfach - versuchen Sie, die erforderliche Ressource innerhalb der Betriebszone zu finden, da jede Abweichung von der Betriebszone den Grad der Idealität der resultierenden Lösung verringert.</tt:text>
+    <tt:text xml:lang="de">Die Empfehlung hier ist einfach - versuchen Sie, die erforderliche Ressource innerhalb der Operative Zone zu finden, da jede Abweichung von der Operative Zone den Grad der Idealität der resultierenden Lösung verringert.</tt:text>
     <tt:text xml:lang="ru">Рекомендация здесь простая – старайтесь найти необходимый ресурс в пределах оперативной зоны, ибо каждое отступление от оперативной зоны снижает степень идеальности получаемого решения.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/138_072">
@@ -13609,7 +13609,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_053">
     <tt:line>53</tt:line>
     <tt:sheet>140</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_054">
@@ -13621,7 +13621,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_055">
     <tt:line>55</tt:line>
     <tt:sheet>140</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_056">
@@ -14167,7 +14167,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_064">
     <tt:line>64</tt:line>
     <tt:sheet>141</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_065">
@@ -14179,7 +14179,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_066">
     <tt:line>66</tt:line>
     <tt:sheet>141</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_067">
@@ -14437,7 +14437,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_116">
     <tt:line>116</tt:line>
     <tt:sheet>141</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_117">
@@ -14449,7 +14449,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_118">
     <tt:line>118</tt:line>
     <tt:sheet>141</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/141_119">
@@ -14947,7 +14947,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_045">
     <tt:line>45</tt:line>
     <tt:sheet>142</tt:sheet>
-    <tt:text xml:lang="de">Wir wählen das Modell der Aufgabe „Aktion“ aus: Das Tool zum Ausführen der Aktion „Chip finden, reparieren und übertragen“ ist nicht effektiv genug.</tt:text>
+    <tt:text xml:lang="de">Wir wählen das Aufgabenmodell „Aktion“ aus: Das Tool zum Ausführen der Aktion „Chip finden, reparieren und übertragen“ ist nicht effektiv genug.</tt:text>
     <tt:text xml:lang="ru">Выбираем модель задачи «Действие»: Инструмент для выполнения действия «найти, закрепить и перенести микросхему» недостаточно эффективен.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_047">
@@ -14971,7 +14971,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_050">
     <tt:line>50</tt:line>
     <tt:sheet>142</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_051">
@@ -14983,7 +14983,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_052">
     <tt:line>52</tt:line>
     <tt:sheet>142</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_053">
@@ -15205,7 +15205,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_094">
     <tt:line>94</tt:line>
     <tt:sheet>142</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_095">
@@ -15217,7 +15217,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_096">
     <tt:line>96</tt:line>
     <tt:sheet>142</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/142_097">
@@ -15667,7 +15667,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_045">
     <tt:line>45</tt:line>
     <tt:sheet>143</tt:sheet>
-    <tt:text xml:lang="de">Da es einen Widerspruch zwischen der Komplexität des Fahrgestelldesigns und den Bedingungen für das Berühren des Rads und der Landebahn gibt, wählen wir ein Zwei-Parameter-Modell des Problems.</tt:text>
+    <tt:text xml:lang="de">Da es einen Widerspruch zwischen der Komplexität des Fahrgestelldesigns und den Bedingungen für das Berühren des Rads und der Landebahn gibt, wählen wir ein Zwei-Parameter-Aufgabenmodell.</tt:text>
     <tt:text xml:lang="ru">Поскольку возникает противоречие между сложностью конструкции шасси и условиях касания колеса и посадочной полосы, выбираем двухпараметрическую модель задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_047">
@@ -15691,7 +15691,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_050">
     <tt:line>50</tt:line>
     <tt:sheet>143</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_051">
@@ -15703,7 +15703,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_052">
     <tt:line>52</tt:line>
     <tt:sheet>143</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_053">
@@ -15721,7 +15721,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_055">
     <tt:line>55</tt:line>
     <tt:sheet>143</tt:sheet>
-    <tt:text xml:lang="de">Wählen Sie ein Zwei-Parameter-Modell des Problems.</tt:text>
+    <tt:text xml:lang="de">Wählen Sie ein Zwei-Parameter-Aufgabenmodell.</tt:text>
     <tt:text xml:lang="ru">Выбираем двухпараметрическую модель задачи.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/143_056">
@@ -16291,7 +16291,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/144_047">
     <tt:line>47</tt:line>
     <tt:sheet>144</tt:sheet>
-    <tt:text xml:lang="de">Da die Decke des Gefrierschranks mit der X-Komponente beheizt wird, wählen wir das Modell der Aufgabe „Aktion im Einsatzbereich“. </tt:text>
+    <tt:text xml:lang="de">Da die Decke des Gefrierschranks mit der X-Komponente beheizt wird, wählen wir das Aufgabenmodell „Aktion im Einsatzbereich“. </tt:text>
     <tt:text xml:lang="ru">Поскольку потолок морозильной камеры нагревается при помощи Х-компонента, выбираем модель задачи «Действие в оперативной зоне».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/144_049">
@@ -16309,7 +16309,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/144_051">
     <tt:line>51</tt:line>
     <tt:sheet>144</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/144_052">
@@ -16321,7 +16321,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/144_053">
     <tt:line>53</tt:line>
     <tt:sheet>144</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/144_054">
@@ -16819,7 +16819,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/145_054">
     <tt:line>54</tt:line>
     <tt:sheet>145</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/145_055">
@@ -16831,7 +16831,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/145_056">
     <tt:line>56</tt:line>
     <tt:sheet>145</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/145_057">
@@ -17341,7 +17341,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/146_054">
     <tt:line>54</tt:line>
     <tt:sheet>146</tt:sheet>
-    <tt:text xml:lang="de">Betriebszone</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/146_055">
@@ -17353,7 +17353,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/146_056">
     <tt:line>56</tt:line>
     <tt:sheet>146</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/146_057">
@@ -18127,7 +18127,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_042">
     <tt:line>42</tt:line>
     <tt:sheet>148</tt:sheet>
-    <tt:text xml:lang="de">Wir wählen das Modell der Aufgabe „Aktion im Einsatzgebiet“.</tt:text>
+    <tt:text xml:lang="de">Wir wählen das Aufgabenmodell „Aktion im Operative Zone“.</tt:text>
     <tt:text xml:lang="ru">Выбираем модель задачи «Действие в оперативной зоне».</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_044">
@@ -18145,7 +18145,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_046">
     <tt:line>46</tt:line>
     <tt:sheet>148</tt:sheet>
-    <tt:text xml:lang="de">Einsatzgebiet</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_047">
@@ -18157,7 +18157,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_048">
     <tt:line>48</tt:line>
     <tt:sheet>148</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_049">
@@ -18415,7 +18415,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_097">
     <tt:line>97</tt:line>
     <tt:sheet>148</tt:sheet>
-    <tt:text xml:lang="de">Einsatzgebiet</tt:text>
+    <tt:text xml:lang="de">Operative Zone</tt:text>
     <tt:text xml:lang="ru">Оперативная зона </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_098">
@@ -18427,7 +18427,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_099">
     <tt:line>99</tt:line>
     <tt:sheet>148</tt:sheet>
-    <tt:text xml:lang="de">Betriebszeit</tt:text>
+    <tt:text xml:lang="de">Operative Zeit</tt:text>
     <tt:text xml:lang="ru">Оперативное время</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_100">
@@ -18463,7 +18463,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_105">
     <tt:line>105</tt:line>
     <tt:sheet>148</tt:sheet>
-    <tt:text xml:lang="de">Hier haben wir einen physischen Widerspruch und verwenden daher das Modell des Problems „Physikalischer Widerspruch“</tt:text>
+    <tt:text xml:lang="de">Hier haben wir einen physischen Widerspruch und verwenden daher das Aufgabenmodell „Physikalischer Widerspruch“</tt:text>
     <tt:text xml:lang="ru">Здесь мы имеем физическое противоречие, а следовательно, используем модель задачи «Физическое противоречие»</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/148_106">
