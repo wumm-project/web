@@ -1381,7 +1381,7 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/101_313">
     <tt:line>313</tt:line>
     <tt:sheet>101</tt:sheet>
-    <tt:text xml:lang="de">Auswählen eines Problemmodells</tt:text>
+    <tt:text xml:lang="de">Auswählen eines Aufgabenmodells</tt:text>
     <tt:text xml:lang="ru">Выбор модели задачи</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/101_314">
@@ -13573,25 +13573,25 @@
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_047">
     <tt:line>47</tt:line>
     <tt:sheet>140</tt:sheet>
-    <tt:text xml:lang="de">1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählen Sie das Bedingungsmodell in der Integritätszone aus.</tt:text>
+    <tt:text xml:lang="de">1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählen Sie das Modell „Bedingungen in der Operativen Zone“ aus.</tt:text>
     <tt:text xml:lang="ru">1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_048">
     <tt:line>48</tt:line>
     <tt:sheet>140</tt:sheet>
-    <tt:text xml:lang="de">2. Wenn die Bedingung als Aktion formuliert ist, wählen Sie das Modell der Aktion in OZ aus.</tt:text>
+    <tt:text xml:lang="de">2. Wenn die Bedingung als Aktion formuliert ist, wählen Sie das Modell „Aktion in der Operativen Zone“ aus.</tt:text>
     <tt:text xml:lang="ru">2. если условие формулируется как действие, выбираем модель Действия в ОЗ; </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_049">
     <tt:line>49</tt:line>
     <tt:sheet>140</tt:sheet>
-    <tt:text xml:lang="de">3. Wenn ein technischer Widerspruch formuliert ist, wählen Sie das TP-Modell aus.</tt:text>
+    <tt:text xml:lang="de">3. Wenn ein technischer Widerspruch formuliert ist, wählen Sie das Modell „Technischer Widerspruch“ aus.</tt:text>
     <tt:text xml:lang="ru">3. если сформулировано техническое противоречие, выбираем модель ТП; </tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_050">
     <tt:line>50</tt:line>
     <tt:sheet>140</tt:sheet>
-    <tt:text xml:lang="de">4. Wenn bereits ein physikalischer Widerspruch formuliert wurde, wählen Sie das FP-Modell aus.</tt:text>
+    <tt:text xml:lang="de">4. Wenn bereits ein physikalischer Widerspruch formuliert wurde, wählen Sie das Modell „Physikalischer Widerspruch“ aus.</tt:text>
     <tt:text xml:lang="ru">4. если уже сформулировано физическое противоречие, выбираем модель ФП.</tt:text>
   </tt:Entry>
   <tt:Entry rdf:about="http://triztrainer.ru/rdf/Record/140_051">

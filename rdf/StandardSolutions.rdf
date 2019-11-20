@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Standard/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/76-Standards/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dcterms:source rdf:resource="http://triz-online.de/index.php?id=5577"/>
+    <rdfs:comment>2019-07-06 graebe: Extracted and transformed from the source</rdfs:comment>
+    <rdfs:comment>2019-07-08 graebe: english and russian versions added</rdfs:comment>
+    <rdfs:label>TRIZ Database - The 76 Standard Solutions</rdfs:label>
+  </owl:Ontology>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Das Wurzelkonzept</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">The Root Concept</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Концепция корня</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Aufbau und Zerlegung vollständiger Stoff-Feld-Modelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Construction and decomposition of complete matter-field models</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Построение и разложение полных моделей поля материи</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Aufbau von Stoff-Feld-Modellen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Building substance-field models</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Построение полевых моделей</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:example xml:lang="en">To separate air or water (S1) from solid particles (S2), centrifuge (F, centrifugal force).</skos:example>
+    <skos:example xml:lang="de">Um Luft oder Wasser (S1) von festen Partikeln (S2) abzutrennen, wird zentrifugiert (F, Zentrifugalkraft).</skos:example>
+    <skos:example xml:lang="ru">Для отделения воздуха или воды (S1) от твердых частиц (S2), центрифуга (F, центробежная сила).</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Complete an Incomplete Substance Field Model</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vervollständige ein unvollständiges Stoff-Feld-Modell</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Заполнить модель поля неполного вещества</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:example xml:lang="de">Kleine Flüssigkeitstropfen lassen sich leicht durch Zugabe eines Fluoreszenzfarbstoffes detektieren.</skos:example>
+    <skos:example xml:lang="en">Small drops of liquid are easily detected by adding a fluorescent dye.</skos:example>
+    <skos:example xml:lang="ru">Маленькие капли жидкости легко обнаруживаются при добавлении флуоресцентного красителя.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">If additives can be added internally, complete</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Wenn sich Additive intern zufügen lassen, vervollständige</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Если добавки можно добавлять изнутри, заполните</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:example xml:lang="en">Gas leak detection by soap spray from the outside onto a pipe.</skos:example>
+    <skos:example xml:lang="de">Gasleck-Detektion durch Seifenspray von außen auf ein Rohr.</skos:example>
+    <skos:example xml:lang="ru">Обнаружение утечки газа с помощью мыльного спрея снаружи на трубу.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">If additives can be added externally, complete it with</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Wenn sich Additive extern zufügen lassen, vervollständige damit</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Если добавки можно добавлять извне, дополните их словом</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Ressourcen zur Vervollständigung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use resources to complete</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать ресурсы для завершения</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Create more resources by changing the system environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erzeuge weitere Ressourcen durch Veränderung der Systemumgebung</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Создавать больше ресурсов путем изменения системной среды</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze überschüssige Aktionen zur Vervollständigung und eliminiere den Überschuß</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use Excessive Action to Complete and Eliminate Excess</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать чрезмерное действие для завершения и устранения избыточного</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">If the excess action is harmful, try to redirect it to another component in the system</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ist die überschüssige Aktion schädlich, dann versuche sie auf eine andere Komponente im System zu lenken</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Если избыточное действие вредно, попробуйте перенаправить его на другой компонент в системе</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.1.8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.1"/>
+    <skos:example xml:lang="de">Glasampullen werden beim Zuschmelzen in einem Wasserbad von unten her gekühlt, um Überhitzung des thermisch empfindlichen Inhalts zu vermeiden.</skos:example>
+    <skos:example xml:lang="en">Glass ampoules are cooled from below when melted in a water bath to avoid overheating the thermally sensitive contents.</skos:example>
+    <skos:example xml:lang="ru">Стеклянные ампулы охлаждают снизу при расплавлении на водяной бане, чтобы избежать перегрева термочувствительного содержимого.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Führe zur Komplettierung lokal schützende Substanzen ein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Implement local protective substances for completion</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Внедрить местные защитные вещества для завершения</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Dissecting Fabric Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zerlegung von Stoff-Feld-Modellen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Рассеяние полевых моделей ткани</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.2.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Eliminate Adverse Interactions by Introducing a Third Substance S3</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Устранить нежелательные взаимодействия путем введения третьего вещества S3</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.2"/>
+    <skos:example xml:lang="de">Die oberflächliche Zerstörung von Rümpfen bei Schnellbooten durch Kavitation des Wassers kann durch Kühlung des Rumpfes und Ausbildung einer Eisschicht vermieden werden.</skos:example>
+    <skos:example xml:lang="en">The superficial destruction of hulls in speedboats by cavitation of the water can be avoided by cooling the hull and forming a layer of ice.</skos:example>
+    <skos:example xml:lang="ru">Поверхностного разрушения корпусов скоростных катеров путем кавитации воды можно избежать, охлаждая корпус и формируя слой льда.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Eliminate harmful interactions by introducing a third substance S3, where S3 can be a modification of the two substances S1 and / or S2 present</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3, wobei S3 eine Modifikation der beiden vorhandenen Stoffe S1 und/oder S2 sein kann</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Устранить вредные взаимодействия путем введения третьего вещества S3, где S3 может быть модификацией двух присутствующих веществ S1 и / или S2</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.2.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Lenke die schädliche Wirkung auf einen weniger wichtigen Stoff S3 z.B.: Wände von Behältern (S1), in denen Wasser (S2) gefriert, werden mit elastischen Materialien (S3) ausgekleidet, um die thermische Ausdehnung abzufangen und ein Beschädigen der Behälterwand auszuschließen.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Reduce the harmful effect on a less important substance S3 eg: Walls of containers (S1) where water (S2) freezes lined with elastic materials (S3) to absorb the thermal expansion and to prevent damaging the container wall. </skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Уменьшить вредное воздействие на менее важное вещество S3, например: стены контейнеров (S1), где вода (S2) замерзает облицованы эластичными материалами (S3) для поглощения теплового расширения и предотвращения повреждения стенки контейнера. </skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.2.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.2"/>
+    <skos:example xml:lang="en">For pollination of flowers an air current is used, which unfortunately also causes the flowers to close, eliminating this negative effect by electrostatically charging the flowers which keeps them open. </skos:example>
+    <skos:example xml:lang="de">Zur Bestäubung von Blumen wird eine Luftströmung eingesetzt, die leider auch zum Schließen der Blüten führt. Diesen negativen Effekt eliminiert man durch elektrostatische Aufladung der Blüten, wodurch sie offen bleiben.</skos:example>
+    <skos:example xml:lang="ru">Для опыления цветов используется воздушный поток, который, к сожалению, также вызывает закрытие цветов, устраняя этот негативный эффект за счет электростатической зарядки цветов который держит их открытыми. </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Führe ein neues Feld zur Kompensation schädlicher Effekte ein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Introduce a new field to compensate for harmful effects</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Введите новое поле для компенсации вредных воздействий</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1.2.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_1.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze die Möglichkeit, Magnetfelder ein- und ausschalten zu können</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Take the opportunity to turn magnetic fields on and off</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Воспользуйтесь возможностью включать и выключать магнитные поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Enhancing Fabric Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verbesserung von Stoff-Feld-Modellen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Улучшение полевых моделей тканей</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Transitioning to More Complex Fabric Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Übergang zu komplexeren Stoff-Feld-Modellen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Переход к более сложным моделям полевых структур</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.1.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.1"/>
+    <skos:example xml:lang="en">Hilti principle, drive beats on heavy intermediate chisel, this on the actual chisel, this on the rock to be smashed (= impulse transmission and Reinforcement over several stages). </skos:example>
+    <skos:example xml:lang="de">Hilti-Prinzip, Antrieb schlägt auf schweren Zwischenmeißel, dieser auf den eigentlichen Meißel, dieser auf den zu zerschlagenden Fels (= Impuls-Übertragung und -Verstärkung über mehrere Stufen).</skos:example>
+    <skos:example xml:lang="ru">Принцип Hilti, приводные удары по тяжелому промежуточному долоту, это на фактическом долоте, это на скале, которая будет разбита (= импульсная передача и Армирование в несколько этапов). </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Link Multiple Fabric Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verkette mehrere Stoff-Feld-Modelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Связать несколько полевых моделей матрицы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.1.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Double a Cloth-Field Model</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verdopple ein Stoff-Feld-Modell</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Двойная модель поля ткани</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Further Development of a Substance Field Model</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Weiterentwicklung eines Stoff-Feld-Modells</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Дальнейшая разработка модели поля вещества</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Put in better taxable fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Setze besser steuerbare Felder ein</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Поместите в более облагаемые налогом поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.2"/>
+    <skos:example xml:lang="en">Knife - Knife with serration - Mirkowellenschliff - targeted roughened blade.</skos:example>
+    <skos:example xml:lang="de">Messer - Messer mit Zahnung - Mirkowellenschliff - gezielt angerauhte Klinge.</skos:example>
+    <skos:example xml:lang="ru">Нож - нож с зазубринами - Mirkowellenschliff - направленный шероховатый клинок.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Fragment S2</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Fragmentiere S2</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Фрагмент S2</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.2"/>
+    <skos:example xml:lang="de">Mehrere kleine Düsen dosieren Klebstoff präziser als eine große Öffnung.</skos:example>
+    <skos:example xml:lang="en">Several small nozzles dose glue more precisely than a large opening.</skos:example>
+    <skos:example xml:lang="ru">Несколько маленьких насадок дозируют клей более точно, чем большое отверстие</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Setze Kapillaren und poröse Stoffe ein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use Capillaries and Porous Substances</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использование капилляров и пористых веществ</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.2"/>
+    <skos:example xml:lang="en">Dividing a door leaf into several flexibly connected segments, roller shutter, shutters.</skos:example>
+    <skos:example xml:lang="de">Unterteilen eines Türblattes in mehrere flexibel verbundene Segmente, Rolltor, Rolladen.</skos:example>
+    <skos:example xml:lang="ru">Разделение полотна ворот на несколько гибко соединенных сегментов, рольставни, жалюзи.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Erhöhe den Grad der Dynamik</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Increase the degree of dynamism</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Увеличить степень динамизма</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Structured Fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Strukturierte Felder</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Структурированные поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.2.6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Structured fabrics</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Strukturierte Stoffe</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Структурированные ткани</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Rhythm Coordination</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Rhythmus-Koordination</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Координация ритма</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.3.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.3"/>
+    <skos:example xml:lang="de">Bei der Massage versucht man, den Rhythmus der äußeren Einwirkung mit dem Puls des Patienten in Übereinstimmung zu bringen.z. B.: Gezielte Asymmetrie in Getrieben verhindert laute Geräusche bzw. starke Eigenresonanz.</skos:example>
+    <skos:example xml:lang="en">During the massage, you try to match the rhythm of the external impact with the pulse of the patient, such as: targeted asymmetry in gears prevents loud noises or strong self-resonance. </skos:example>
+    <skos:example xml:lang="ru">Во время массажа вы пытаетесь согласовать ритм внешнего воздействия с пульсом пациента, например: целевая асимметрия в передачах предотвращает громкие шумы или сильный резонанс. </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Bringe den Rhythmus (die Frequenz) des einwirkenden Feldes in Übereinstimmung (oder gezielte Nicht-Übereinstimmung mit einem der beiden Stoffe)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Match the rhythm (frequency) of the applied field (or deliberate non-conformity with either of the two substances)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Сопоставить ритм (частоту) прикладного поля (или преднамеренное несоответствие с любым из двух веществ)</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.3.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Synchronisiere den Rhythmus, die Frequenz von Feldern</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Synchronize the rhythm, the frequency of fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Синхронизировать ритм, частоту полей</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.3.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.3"/>
+    <skos:example xml:lang="de">Nutze die Pausen im Ablauf einer nützlichen Funktion, um eine andere Funktion auszuführen, beispielsweise eine Mess- oder Regelaktion.</skos:example>
+    <skos:example xml:lang="en">Use the pauses in a useful function to perform another function, such as a measurement or rule action.</skos:example>
+    <skos:example xml:lang="ru">Используйте паузы в полезной функции для выполнения другой функции, такой как измерение или действие правила.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Bring independent actions into rhythmic connection</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bringe unabhängige Aktionen in rhythmischen Zusammenhang</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Ввести независимые действия в ритмическую связь</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Complex Enhanced Fabric Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Komplex verbesserte Stoff-Feld-Modelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Сложные усовершенствованные полевые модели матрицы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze ferromagnetische Stoffe und Magnetfelder</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use ferromagnetic materials and magnetic fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать ферромагнитные материалы и магнитные поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.10">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Stimme die Rhythmen ab</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Void the rhythms</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Пустые ритмы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.11">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze elektrische Felder</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use Electric Fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать электрические поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.12">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Elektrorheologie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use Electrorheology</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать электрореологию</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze ferromagnetische Partikel, Granulate, Pulver</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use ferromagnetic particles, granules, powders</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте ферромагнитные частицы, гранулы, порошки</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:example xml:lang="en">Ferromagnetic particles suspended in water, kerosene, etc.</skos:example>
+    <skos:example xml:lang="de">Ferromagnetische Partikel, die in Wasser, Kerosion etc. suspendiert sind.</skos:example>
+    <skos:example xml:lang="ru">Ферромагнитные частицы, взвешенные в воде, керосине и т. д.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze ferromagnetische Flüssigkeiten</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use ferromagnetic fluids</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать ферромагнитные жидкости</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Kapillar-Strukturen in Zusammensetzung mit Ferromagnetismus</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use Capillary Structures in Composition with Ferromagnetism</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использование капиллярных структур в сочетании с ферромагнетизмом</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze komplexe ferromagnetische SFM, beispielsweise externe Magnetfelder, ferromagnetische Additive etc.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use complex ferromagnetic SFMs, such as external magnetic fields, ferromagnetic additives, etc.</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте сложные ферромагнитные SFM, такие как внешние магнитные поля, ферромагнитные добавки и т. д.</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Führe Ferromagnetismus in das Systemumfeld ein und nutze daraus resultierende Effekte.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Introduce ferromagnetism into the system environment and exploit the resulting effects.</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Внедрить ферромагнетизм в системную среду и использовать полученные эффекты</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Improve the controllability of ferromagnetic systems by using the effects database</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verbessere die Kontrollierbarkeit ferromagnetischer Systeme durch Nutzen der Effekte-Datenbank</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Улучшить управляемость ферромагнитных систем с помощью базы данных эффектов</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Erhöhe den Grad an Dynamik in einem komplexen Stoff-Feld-Modell</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Increase the level of dynamics in a complex fabric-field model</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Повышение уровня динамики в сложной модели поля ткани</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2.4.9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_2.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Structure and Subdivide Fields and Substances into Complex Fabric Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Strukturiere und unterteile Felder und Stoffe in komplexe Stoff-Feld-Modelle</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Структурировать и подразделять поля и вещества на сложные полевые модели тканей</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Transition to Super and Subsystem (Macro and Microlevel)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Übergang ins Super- und Subsystem (Makro- und Mikrolevel)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Переход на супер и подсистему (макро- и микроуровень)</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Transition to Bi- and Poly-Systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Übergang zu Bi- und Poly-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Переход на би- и поли-системы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3.1"/>
+    <skos:example xml:lang="en">To process the edges of thin glass plates, several plates are stacked together to form a stable stack.</skos:example>
+    <skos:example xml:lang="de">Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt.</skos:example>
+    <skos:example xml:lang="ru">Для обработки краев тонких стеклянных пластин несколько пластин складываются вместе, образуя устойчивую стопку.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Combine Systems with Bi- and Poly Systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kombiniere Systeme zu Bi- und Poly-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Объединение систем с двух- и поли-системами</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3.1.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Create or intensify the links between the individual elements in bi and poly systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Schaffe oder intensiviere die Verbindungen zwischen den Einzelelementen in Bi- und Poly-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Создание или усиление связей между отдельными элементами в двух- и поли-системах</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3.1"/>
+    <skos:example xml:lang="en">Similar components (individual pencils of different colors) are enhanced into different components (a set of drawing instruments) and eventually become combinations of conflicting functions (pencil with eraser). </skos:example>
+    <skos:example xml:lang="de">Ähnliche Komponenten (einzelne Bleistifte verschiedener Farben) werden verbessert zu verschiedenen Komponenten (ein Satz an Zeicheninstrumenten) und werden schließlich zu Kombinationen gegensätzlicher Funktionen (Bleistift mit Radierer).</skos:example>
+    <skos:example xml:lang="ru">Подобные компоненты (отдельные карандаши разных цветов) превращаются в разные компоненты (набор инструментов для рисования) и в конечном итоге становятся комбинациями конфликтующих функций (карандаш с ластиком). </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Improve the Efficiency of Bi- and Poly Systems by Increasing the Distinction of Individual Components</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verbessere die Effizienz von Bi- und Poly-Systemen durch Vergrößerung des Unterschiedes einzelner Komponenten</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Повышение эффективности би- и поли-систем путем увеличения различий отдельных компонентов</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3.1"/>
+    <skos:example xml:lang="en">Many devices today only have one LED, which indicates green ON, and red off means OFF, in the past two lights were needed for this information.</skos:example>
+    <skos:example xml:lang="de">Viele Geräte besitzen heutzutage nur noch ein LED, das grünleuchtend EIN anzeigt und rotleuchtend AUS bedeutet, früher waren zwei Lämpchen für diese Information notwendig.</skos:example>
+    <skos:example xml:lang="ru">На многих устройствах в настоящее время имеется только один светодиод, который указывает на зеленый свет, а красный на выключенный означает выключение, в прошлых двух источниках для этой информации требовалось</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Simplifying Bi and Poly Systems by Eliminating Superfluous, Redundant or Similar Components</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vereinfache Bi- und Poly-Systeme durch Elimination überflüssiger, redundanter oder ähnlicher Komponenten</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Упрощение двух- и полисистем за счет устранения избыточных, избыточных или аналогичных компонентов</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Improve the Efficiency of Bi- and Poly Systems by Distributing Disruptive or Harmful Effects on Different Components</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verbessere die Effizienz von Bi- und Poly-Systemen durch Verteilen sich behindernder oder schädlicher Effekte auf verschiedene Komponenten</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Повышение эффективности двух- и поли-систем путем распределения разрушительного или вредного воздействия на различные компоненты</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Transition to Microsystems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Übergang zu Mikro-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Переход на микросистемы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.2.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_3.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Miniaturisiere Komponenten oder ganze Systeme</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Miniaturize components or whole systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Миниатюризация компонентов или целых систем</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Erkennen und Messen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Recognize and Measure</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Распознать и измерить</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Indirect Methods</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Indirekte Methoden</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Косвенные методы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.1.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.1"/>
+    <skos:example xml:lang="en">To protect an electric motor from overheating, a temperature sensor must measure the temperature and initiate actions, and make the poles of the engine from an alloy Curie point just at the temperature where the overheating begins, then the engine stops by itself. </skos:example>
+    <skos:example xml:lang="de">Um einen Elektromotor vor Überhitzung zu schützen, muß ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst.</skos:example>
+    <skos:example xml:lang="ru">Чтобы защитить электродвигатель от перегрева, датчик температуры должен измерять температуру и инициировать действия, а также изготавливать опоры двигателя из сплава. Кюри указывает только на температуру, где начинается перегрев, а затем двигатель останавливается сам по себе. </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Learn Detect and Measure</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Umgehe Erkennen und Messen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Учиться обнаруживать и измерять</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.1.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.1"/>
+    <skos:example xml:lang="en">Measuring snakes lengthwise is dangerous, but better with a true-to-scale photo of the snake.</skos:example>
+    <skos:example xml:lang="de">Schlangen der Länge nach zu vermessen ist gefährlich. Besser geht das mit einem maßstabsgerechten Foto der Schlange.</skos:example>
+    <skos:example xml:lang="ru">Измерять змей по длине опасно, но лучше с реалистичной фотографией змеи.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Führe Erkennen und Messen an einer Kopie aus</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Perform Cognition and Measurement on a Copy</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Выполнять распознавание и измерение на копии</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.1.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.1"/>
+    <skos:example xml:lang="en">To measure temperature, you can use thermochromic substances that have a different color depending on the temperature, but are only interested in exceeding a temperature limit, then only two distinct color states are the more efficient way. </skos:example>
+    <skos:example xml:lang="de">Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind ausschließlich zwei sicher unterscheidbare Farbzustände der effizientere Weg.</skos:example>
+    <skos:example xml:lang="ru">Для измерения температуры можно использовать термохромные вещества, которые имеют разные цвета в зависимости от температуры, но заинтересованы только в превышении температурного предела, тогда только два различных цветовых состояния являются более эффективным способом. </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Ersetze Messen durch zwei aufeinanderfolgende Erkennungsvorgänge</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Replace measurement with two consecutive detection processes</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Заменить измерение двумя последовательными процессами обнаружения</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Aufbau von Mess-Stoff-Feld-Modellen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Building Measured Substance Field Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Создание полевых моделей измеряемых веществ</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.2.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.2"/>
+    <skos:example xml:lang="en">To detect the boiling of water, an electrical current is passed through it, and as it begins to boil, vapor formation increases electrical resistance significantly.</skos:example>
+    <skos:example xml:lang="de">Um das Kochen von Wasser zu detektieren, wird ein elektrischer Strom hindurchgeleitet. Bei beginnendem Sieden steigt durch die Dampfblasenbildung der elektrische Widerstand deutlich an.</skos:example>
+    <skos:example xml:lang="ru">Чтобы обнаружить кипение воды, через нее пропускают электрический ток, и, когда он начинает кипеть, образование пара значительно увеличивает электрическое сопротивление</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Detect or measure by means of an additional field</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Detektiere oder messe mittels eines zusätzlichen Feldes</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Обнаружение или измерение с помощью дополнительного поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.2"/>
+    <skos:example xml:lang="en">To detect a leak in the refrigeration circuit of a refrigerator, a luminescent dye is added to the refrigerant.</skos:example>
+    <skos:example xml:lang="de">Um ein Leck im Kühlkreislauf eines Kühlschrankes zu entdecken, wird dem Kühlmittel ein Lumineszenz-Farbstoff zugemischt.</skos:example>
+    <skos:example xml:lang="ru">Чтобы обнаружить утечку в контуре охлаждения холодильника, в хладагент добавляется люминесцентный краситель.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Add easily detectable or measurable additives or substances</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Füge einfach zu detektierende oder zu messende Additive oder Stoffe hinzu</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Добавить легко обнаружимые или измеримые добавки или вещества</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.2.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Füge einfach zu detektierende oder zu messende Felder in die Systemumgebung hinzu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Simply add fields to be detected or measured to the system environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Просто добавьте поля, которые будут обнаружены или измерены в системной среде</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.2.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Add easily detectable or measurable additives or substances into the system environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Füge einfach zu detektierende oder zu messende Additive oder Stoffe in die Systemumgebung hinzu</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Добавить легко обнаруживаемые или измеримые добавки или вещества в системную среду</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Improving Measurement Systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verbesserung von Mess-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Совершенствование измерительных систем</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.3.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze die Effekte-Datenbank zur Verbesserung von Mess-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use the Effects Database to Improve Measurement Systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать базу данных эффектов для улучшения измерительных систем</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.3.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Resonanzphänomene zur Messung z.B.: Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use resonance phenomena to measure, for example: To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. </skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте резонансные явления для измерения, например: для определения массы твердого тела в закрытом контейнере возбуждаются механические колебания, их частота зависит от массы зависит. </skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.3.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Resonanzphänomene verknüpfter Objekte zur (indirekten) Messung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use resonant phenomena of linked objects for (indirect) measurement</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использование резонансных явлений связанных объектов для (косвенного) измерения</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Transition to Ferromagnetic Measurement Systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Übergang zu ferromagnetischen Mess-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Переход к ферромагнитным измерительным системам</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Setze ferromagnetische Stoffe und Magnetfelder ein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use ferromagnetic materials and magnetic fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать ферромагнитные материалы и магнитные поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Ersetze Stoffe durch ferromagnetische Stoffe und detektiere oder messe via Magnetfeld</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Substitute substances through ferromagnetic materials and detect or measure via magnetic field</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Заменить вещества с помощью ферромагнитных материалов и обнаружить или измерить с помощью магнитного поля</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Create Complex, Linked Fibrous-Field Models with Ferromagnetic Components</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erzeuge komplexe, verknüpfte Stoff-Feld-Modelle mit ferromagnetischen Bestandteilen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Создание сложных моделей связанных волокнистых полей с ферромагнитными компонентами</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Führe ferromagnetische Materialien in die Systemumgebung ein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Introduce ferromagnetic materials into the system environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Вводить ферромагнитные материалы в среду системы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.).</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc.).</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте базу данных эффектов (точка Кюри, эффект Хопкинса и Баркгаузена), магнитоупругие эффекты и т. д.).</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Evolution of Recognize and Measure</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Evolution von Erkenn und Messen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Эволюция распознавания и измерения</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.5.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Create Bi and Poly Systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erzeuge Bi- und Poly-Systeme</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Создание би и поли систем</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.5.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Erkenne und messe die (mathematische) Ableitung anstatt der Originalfunktion</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Recognize and measure the (mathematical) derivative instead of the original function</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Распознавать и измерять (математическую) производную вместо исходной функции</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Help</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Hilfen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Помощь</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Einführen von Stoffen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Introducing fabrics</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Представляем ткани</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.1.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.1"/>
+    <skos:example xml:lang="de">Führe Leerräume oder Hohlräume als Stoff ein, benutze hochaktive Additive in kleinen Mengen oder nur lokal, erzeuge den benötigten Stoff erst bei Bedarf ("in situ", beispielsweise durch Elektrolyse, Katalyse, ....).</skos:example>
+    <skos:example xml:lang="en">Introduce voids or voids as a substance, use highly active additives in small amounts or only locally, do not produce the required substance until needed (in situ, for example by electrolysis, catalysis, ....). </skos:example>
+    <skos:example xml:lang="ru">Вводить пустоты или пустоты в качестве вещества, использовать высокоактивные добавки в небольших количествах или только локально, не производить необходимое вещество до тех пор, пока оно не потребуется (на месте, например, электролизом, катализом, ....). </skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Indirect Methods</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Indirekte Methoden</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Косвенные методы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.1.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.1"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Parts of fabrics, use fragments</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zerteile Stoffe, nutze Fragmente</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Части тканей, используйте фрагменты</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.1.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.1"/>
+    <skos:example xml:lang="de">Der temporär eingeführte Stoff erfällt nach erfolgreicher Aktion oder wird chemisch zersetzt.</skos:example>
+    <skos:example xml:lang="en">The temporarily introduced substance will fail after a successful action or will be chemically decomposed.</skos:example>
+    <skos:example xml:lang="ru">Временно введенное вещество выйдет из строя после успешного действия или будет химически разложено.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze die Selbstelimination von Stoffen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use self-elimination of substances</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте самоликвидацию веществ</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.1.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.1"/>
+    <skos:example xml:lang="en">By using foams, it is possible to meet both demands for low mass and high volume of material (volume) (voids in excess).</skos:example>
+    <skos:example xml:lang="de">Lässt sich durch Nutzung von Schaumstoffen beiden Forderungen nach wenig Masse und viel Stoffmenge (Volumen) Rechnung tragen (Hohlräume im Überschuss).</skos:example>
+    <skos:example xml:lang="ru">Используя пенопласт, можно удовлетворить как потребности в малой массе и большом объеме материала (объем) (пустоты в избытке).</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Stoffe im Überschuss</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use substances in excess</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте вещества в избытке</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Einführung von Feldern</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Introduction of Fields</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Введение полей</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.2.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze im Sinne von Ressourcen alle vorhandenen Felder</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Utilize all existing fields in the sense of resources</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать все существующие поля в смысле ресурсов.</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.2.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.2"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Felder aus der Systemumgebung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use Fields from System Environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать поля из системного окружения</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.2.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.2"/>
+    <skos:example xml:lang="en">magnetic materials.</skos:example>
+    <skos:example xml:lang="de">magnetische Stoffe.</skos:example>
+    <skos:example xml:lang="ru">магнитные материалы</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze felderzeugende Stoffe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use field-generating substances</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать вещества, генерирующие поле</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Phase transitions</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Phasenübergänge</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Фазовые переходы</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Change the state of matter or the phase of substances</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verändere den Aggregatzustand oder die Phase von Stoffen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Изменение состояния вещества или фазы веществ</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
+    <skos:example xml:lang="de">Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius.</skos:example>
+    <skos:example xml:lang="en">Water and ice together fix the temperature at exactly 0 ° Celsius.</skos:example>
+    <skos:example xml:lang="ru">Вода и лед вместе устанавливают температуру ровно 0 ° по Цельсию.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze zwei Aggregatzustände oder Phasen eines Stoffes</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use two states of matter or phases of a substance</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать два состояния вещества или фазы вещества</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze die einen Phasenübergang begleitenden physikalischen Effekte z.B.: Verdunstungskälte.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use the physical effects accompanying a phase transition, such as evaporative coldness.</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте физические эффекты, сопровождающие фазовый переход, такие как испарительный холод</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Effekte, die aus dem gleichzeitigen Vorliegen zweier Phasen resultieren</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use effects that result from the simultaneous presence of two phases</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать эффекты, возникающие в результате одновременного присутствия двух фаз</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Improving the interaction between two phases</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verbessere die Interaktion zwischen zwei Phasen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Улучшение взаимодействия между двумя фазами</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Einsatz der Effekte-Datenbank</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Using the Effects Database</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использование базы данных эффектов</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.4.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.4"/>
+    <skos:example xml:lang="en">Phase transitions, dissociation and association, ionization and recombination.</skos:example>
+    <skos:example xml:lang="de">Phasenübergänge, Dissoziation und Assoziation, Ionisation und Rekombination.</skos:example>
+    <skos:example xml:lang="ru">Фазовые переходы, диссоциация и ассоциация, ионизация и рекомбинация.</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze eigengesteuerte reversible physikalische Transformationen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use self-directed reversible physical transformations</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать самонаправленные обратимые физические преобразования</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.4.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.4"/>
+    <skos:example xml:lang="en">Catalysts, enzymes.</skos:example>
+    <skos:example xml:lang="de">Katalysatoren, Enzyme.</skos:example>
+    <skos:example xml:lang="ru">Катализаторы, ферменты</skos:example>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Nutze Speicher- und Verstärkungseffekte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use storage and reinforcement effects</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать эффекты хранения и усиления</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Cloth particles</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Stoffpartikel</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Частицы ткани</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.5.1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Erzeuge Stoffpartikel (z. B. Ionen) durch Zerlegung eines höher organisierten Stoffes (z. B. Moleküle).</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Produce material particles (eg ions) by decomposing a more highly organized substance (eg molecules).</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Производите материальные частицы (например, ионы), разлагая более высокоорганизованное вещество (например, молекулы).</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.5.2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="en">Create material particles (eg atoms) by combining lower organized substances (eg elementary particles)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Erzeuge Stoffpartikel (z. B. Atome) durch Kombination niedriger organisierter Stoffe (z. B. Elementarteilchen)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Создайте материальные частицы (например, атомы) путем объединения низкоорганизованных веществ (например, элементарных частиц)</skos:prefLabel>
+  </od:StandardSolution>
+  <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.5.3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.5"/>
+    <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
+    <skos:prefLabel xml:lang="de">Setze beim Zerlegen oder Kombinieren von Stoffpartikeln einen vom Unterteilungsgrad her ähnlichen Stoff ein ("kleine Schritte tun")</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">When cutting or combining fabric particles, use a similar level of subdivision «do small steps»</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">При разрезании или комбинировании частиц ткани используйте аналогичный уровень подразделения («делайте маленькие шаги»)</skos:prefLabel>
+  </od:StandardSolution>
+  <skos:ConceptScheme rdf:about="http://opendiscovery.org/rdf/Standard/theTRIZStandards">
+    <skos:prefLabel xml:lang="de">The 76 TRIZ Standards</skos:prefLabel>
+  </skos:ConceptScheme>
+</rdf:RDF>

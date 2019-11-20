@@ -227,7 +227,7 @@
 101_309|Формулировка условия задачи|Formulierung der Bedingungen der Aufgabe
 101_310|Выберите самую перспективную гипотезу устранения причины конфликта и сформулируйте обстоятельства, которые мешают ее выполнению.|Wählen Sie die vielversprechendste Hypothese zur Lösung der Konfliktursache und geben Sie die Umstände an, die deren Umsetzung behindern.
 101_312|Решение задачи|Lösung der Aufgabe
-101_313|Выбор модели задачи|Auswählen eines Problemmodells
+101_313|Выбор модели задачи|Auswählen eines Aufgabenmodells
 101_314|Критерии выбора модели: |Modellauswahlkriterien:
 101_315|1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; |1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählt man das Modell „Bedingungen in der Operativen Zone“ aus.
 101_316|2. если условие формулируется как действие, выбираем модель Действия в ОЗ; |2. Wenn die Bedingung als Wirkung formuliert ist, wählt man das Modell „Wirkung in der Operativen Zone“ aus.
@@ -2259,10 +2259,10 @@
 140_044|Решение задачи|Problemlösung
 140_045|Выбор модели задачи|Auswählen eines Aufgabenmodells
 140_046|Критерии выбора модели: |Modellauswahlkriterien:
-140_047|1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; |1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählen Sie das Bedingungsmodell in der Integritätszone aus.
-140_048|2. если условие формулируется как действие, выбираем модель Действия в ОЗ; |2. Wenn die Bedingung als Aktion formuliert ist, wählen Sie das Modell der Aktion in OZ aus.
-140_049|3. если сформулировано техническое противоречие, выбираем модель ТП; |3. Wenn ein technischer Widerspruch formuliert ist, wählen Sie das TP-Modell aus.
-140_050|4. если уже сформулировано физическое противоречие, выбираем модель ФП.|4. Wenn bereits ein physikalischer Widerspruch formuliert wurde, wählen Sie das FP-Modell aus.
+140_047|1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; |1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählen Sie das Modell „Bedingungen in der Operativen Zone“ aus.
+140_048|2. если условие формулируется как действие, выбираем модель Действия в ОЗ; |2. Wenn die Bedingung als Aktion formuliert ist, wählen Sie das Modell „Aktion in der Operativen Zone“ aus.
+140_049|3. если сформулировано техническое противоречие, выбираем модель ТП; |3. Wenn ein technischer Widerspruch formuliert ist, wählen Sie das Modell „Technischer Widerspruch“ aus.
+140_050|4. если уже сформулировано физическое противоречие, выбираем модель ФП.|4. Wenn bereits ein physikalischer Widerspruch formuliert wurde, wählen Sie das Modell „Physikalischer Widerspruch“ aus.
 140_051|Модель Действия в оперативной зоне|Aktionsbereichsmodell
 140_052|Модель задачи|Aufgabenmodell
 140_053|Оперативная зона |Operative Zone
