@@ -192,4 +192,17 @@
     <dcterms:title xml:lang="ru">Нелинейное мышление в малом и среднем бизнесе</dcterms:title>
     <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20191006">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=f6sG-ew9Gzw"/>
+    <dcterms:abstract xml:lang="en">New video in the series “Skills of innovative thinking” - this time we are talking about resource thinking. Although I recently found out that in the Russian-speaking space the phrase “resource thinking” has a negative connotation. But it is precisely the ability to see and rationally use the “right” resources to achieve their goals that allows entrepreneurs to create the most effective and close to ideal solutions. Another interview given to Alexei Schinnikov from the Saratov TRIZ Club</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:extent>01:16:01 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-10-06</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Youtube Standard License</dcterms:rights>
+    <dcterms:title xml:lang="en">Resource Thinking in Small and Medium Businesses</dcterms:title>
+    <dcterms:title xml:lang="ru">Ресурсное мышление в малом и среднем бизнесе</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Presentation>
 </rdf:RDF>
