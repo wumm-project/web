@@ -227,7 +227,7 @@
 101_309|Формулировка условия задачи|Formulierung der Bedingungen der Aufgabe
 101_310|Выберите самую перспективную гипотезу устранения причины конфликта и сформулируйте обстоятельства, которые мешают ее выполнению.|Wählen Sie die vielversprechendste Hypothese zur Lösung der Konfliktursache und geben Sie die Umstände an, die deren Umsetzung behindern.
 101_312|Решение задачи|Lösung der Aufgabe
-101_313|Выбор модели задачи|Auswählen eines Problemmodells
+101_313|Выбор модели задачи|Auswählen eines Aufgabenmodells
 101_314|Критерии выбора модели: |Modellauswahlkriterien:
 101_315|1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; |1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählt man das Modell „Bedingungen in der Operativen Zone“ aus.
 101_316|2. если условие формулируется как действие, выбираем модель Действия в ОЗ; |2. Wenn die Bedingung als Wirkung formuliert ist, wählt man das Modell „Wirkung in der Operativen Zone“ aus.
@@ -2259,10 +2259,10 @@
 140_044|Решение задачи|Problemlösung
 140_045|Выбор модели задачи|Auswählen eines Aufgabenmodells
 140_046|Критерии выбора модели: |Modellauswahlkriterien:
-140_047|1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; |1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählen Sie das Bedingungsmodell in der Integritätszone aus.
-140_048|2. если условие формулируется как действие, выбираем модель Действия в ОЗ; |2. Wenn die Bedingung als Aktion formuliert ist, wählen Sie das Modell der Aktion in OZ aus.
-140_049|3. если сформулировано техническое противоречие, выбираем модель ТП; |3. Wenn ein technischer Widerspruch formuliert ist, wählen Sie das TP-Modell aus.
-140_050|4. если уже сформулировано физическое противоречие, выбираем модель ФП.|4. Wenn bereits ein physikalischer Widerspruch formuliert wurde, wählen Sie das FP-Modell aus.
+140_047|1. если понятно, какие условия надо получить в зоне конфликта, выбираем модель Условия в ОЗ; |1. Wenn klar ist, welche Bedingungen in der Konfliktzone eingehalten werden müssen, wählen Sie das Modell „Bedingungen in der Operativen Zone“ aus.
+140_048|2. если условие формулируется как действие, выбираем модель Действия в ОЗ; |2. Wenn die Bedingung als Aktion formuliert ist, wählen Sie das Modell „Aktion in der Operativen Zone“ aus.
+140_049|3. если сформулировано техническое противоречие, выбираем модель ТП; |3. Wenn ein technischer Widerspruch formuliert ist, wählen Sie das Modell „Technischer Widerspruch“ aus.
+140_050|4. если уже сформулировано физическое противоречие, выбираем модель ФП.|4. Wenn bereits ein physikalischer Widerspruch formuliert wurde, wählen Sie das Modell „Physikalischer Widerspruch“ aus.
 140_051|Модель Действия в оперативной зоне|Aktionsbereichsmodell
 140_052|Модель задачи|Aufgabenmodell
 140_053|Оперативная зона |Operative Zone
@@ -3103,3 +3103,183 @@
 148_135|Такой процесс распознавания слов прост, удобен, фантастически дешев, его легко запрограммировать.|Solch ein Worterkennungsprozess ist einfach, bequem, unglaublich billig und einfach zu programmieren.
 148_136|Финальное решение задачи|Endgültige Lösung
 148_137|Предлагать пользователям вводить в виде CAPTCHA не случайное слово, а слово, не распознанное в оцифрованном тексте и добавлять к неизвестному слову дополнительное известное слово, которое и есть, собственно, CAPTCHA.|Um Benutzer aufzufordern, in Form von CAPTCHA kein zufälliges Wort einzugeben, sondern ein Wort, das im digitalisierten Text nicht erkannt wird, und dem unbekannten Wort ein zusätzliches bekanntes Wort hinzuzufügen, nämlich CAPTCHA.
+149_001|8. Льдоделатель холодильника|8. Eismaschine des Kühlschranks
+149_003|Льдоделательная машина замораживает кубики льда в ванночке, складывает их в сборник и выдает пользователю по мере надобности. Такой «мини-завод» по производству льда сложен, дорог в производстве и в эксплуатации, требует значительного расхода энергии. Он занимает почти треть объема морозильной камеры, съедая полезное внутреннее пространство холодильника.|Eine Eisherstellungsmaschine friert Eiswürfel in einem Bad ein, legt sie in einen Sammler und gibt sie dem Benutzer nach Bedarf. Eine solche Mini-Anlage zur Eisherstellung ist kompliziert, teuer in der Herstellung und im Betrieb und erfordert einen erheblichen Energieaufwand. Sie benötigt fast ein Drittel Volumen der Gefriertruhe und reduziert damit den nutzbaren Innenraum des Kühlschranks. 
+149_004|Самый главный нежелательный эффект: шумная работа устройства. Дело в том, что кусочки льда могут смерзаться. Чтобы их разделить, время от времени в сборнике проворачивается специальный шнек. Это сопровождается грохотом и скрежетом.|Der wichtigste unerwünschte Effekt: lauter Betrieb des Geräts. Fakt ist, dass Eisstücke einfrieren können. Um sie zu trennen, wird von Zeit zu Zeit eine spezielle Schnecke im Sammler gedreht. Dies wird von Krach und Rasseln begleitet.
+149_005|Вопрос: как уменьшить шумность работы устройства?|Frage: Wie kann man den Lärm des Geräts reduzieren?
+149_006|Рычаг для измерения уровня кубиков льда|Hebel zum Messen des Füllstands von Eiswürfeln
+149_007|Окно для подачи кубиков льда|Fenster zur Lieferung von Eiswürfeln
+149_008|Ванночка|Bad
+149_009|Шнек|Schnecke
+149_010|Мотор и редуктор|Motor und Getriebe
+149_011|Накопитель|Sammler
+149_015|Анализ проблемной ситуации|Problemanalyse
+149_016|Уточнение обстоятельств|Klarstellung
+149_017|Полезный продукт|Nützliches Produkt
+149_018|кубики льда|Eiswürfel
+149_019|Принцип получения|Empfangsprinzip
+149_020|кубики льда замораживаются в ванночке, собираются в сборнике и выдаются пользователю по мере надобности.|Eiswürfel werden im Bad eingefroren, im Sammler gesammelt und dem Benutzer nach Bedarf ausgehändigt.
+149_021|Нежелательный эффект |Unerwünschter Effekt
+149_022|сильный звук при перемешивании кубиков льда в сборнике.|Lautes Geräusch beim Mischen von Eiswürfeln im Vorratsbehälter.
+149_024|Конфликт в системе|Systemkonflikt
+149_025|Машина |Maschine
+149_026|Льдоделатель, состоящий из ванночки, сборника со шнеком, устройства подачи кусочков льда пользователю.|Eismaschine, bestehend aus einem Bad, einem Sammler mit einer Schnecke, einer Vorrichtung zum Zuführen von Eisstücken an den Benutzer.
+149_027|Работа машины|Maschinenbedienung
+149_028|В ванночку подается вода, вода замораживается в кубики, кубики попадают в сборник, кубики выдаются пользователю по мере надобности.|Wasser wird in die Wanne gefüllt, Wasser wird in Würfel gefroren, Würfel fallen in den Sammler, Würfel werden dem Benutzer nach Bedarf ausgehändigt.
+149_029|Рычаг для измерения уровня кубиков льда|Hebel zum Messen des Füllstands von Eiswürfeln
+149_030|Подача кубиков льда пользователю|Eiswürfel an Benutzer senden
+149_031|Шнек|Auger
+149_032|Наполненный сборник|Der gefüllte Sammler
+149_034|Здесь уместно представить себе совокупность технологических операций, выполняемых льдоделателем.|Es ist angebracht, sich die Gesamtheit der vom Eisbereiter durchgeführten technologischen Operationen vorzustellen.
+149_035|Вода|Wasser
+149_036|Подача воды в ванночку|Wasserversorgung des Bades
+149_037|Замораживание воды|Wasser einfrieren
+149_038|Удаление ледяных кубиков из ванночки|Eiswürfel aus dem Bad nehmen
+149_039|Накопление и сохранение ледяных кубиков|Ansammlung und Konservierung von Eiswürfeln
+149_040|Измерение уровня ледяных кубиков в сборнике|Messung des Füllstands von Eiswürfeln im Sammler
+149_041|Подача ледяных кубиков|Ausgabe der Eiswürfel
+149_042|Ледяные кубики|Eiswürfel
+149_043|Разбивание смёрзшихся ледяных кубиков|Brechen gefrorener Eiswürfel
+149_045|Действие, которое невозможно выполнить без проблем |Eine Aktion, die nicht ohne Probleme abgeschlossen werden kann
+149_046|Накопление и хранение кубиков в сборнике.|Anhäufung und Lagerung von Würfeln im Sammler.
+149_047|Структура конфликта|Konfliktstruktur
+149_048|Шнек с большим усилием разбивает массу смерзшихся кубиков.|Die Schnecke zerkleinert mühsam viele gefrorene Würfel.
+149_049|Вредный продукт: сильный звук.|Schädliches Produkt: Starkes Geräusch.
+149_050|Место конфликта|Ort des Konflikts
+149_051|Сборник.|Sammler
+149_052|Время конфликта |Konfliktzeit
+149_053|Всё время вращения шнека.|Die Schnecke dreht sich ständig.
+149_055|Выдвижение гипотез|Hypothese
+149_056|Причины конфликта|Konfliktursachen
+149_057|Кубики льда подтаивают при открытии дверей морозильной камеры и смерзаются в единый монолит, который трудно разрушить шнеку при перемешивании.|Eiswürfel tauen beim Öffnen der Türen des Gefrierschranks auf und gefrieren zu einem einzigen Monolithen, der beim Mischen nur schwer zu brechen ist.
+149_059|Гипотезы устранения конфликта|Konfliktlösungshypothesen
+149_060|Конфликт можно предотвратить, если исключить необходимость перемешивать ледяные кубики. Для этого нужно удалить сборник из конструкции льдоделателя. Чтобы кубики льда не смерзались, каждый из них должен оставаться в своей ячейке ванночки, как патрон в обойме, до того времени, как он будет использован.|Ein Konflikt kann verhindert werden, indem keine Eiswürfel mehr gemischt werden müssen. Dazu müssen Sie den Sammler aus dem Eisbereiter-Design entfernen. Um ein Einfrieren der Eiswürfel zu verhindern, sollte jeder Eiswürfel wie eine Patrone in einem Halter in der Badzelle verbleiben, bis er verwendet wird. 
+149_061|То есть, нужно использовать одну большую ванночку для изготовления и хранения кубиков льда.|Das heißt, Sie müssen ein großes Bad verwenden, um Eiswürfel herzustellen und aufzubewahren.
+149_063|Условие задачи|Bedingung der Aufgabe
+149_064|Формулировка условия задачи|Erklärung des Problems
+149_065|Для устранения смерзания ледяных кубиков нужно, чтобы каждый кубик оставался в своей ячейке ванночки до того времени, как он будет использован.|Um das Einfrieren von Eiswürfeln zu verhindern, muss jeder Würfel in seiner Zelle im Bad bleiben, bis er verwendet wird.
+149_066|Как обеспечить дозированную подачу большого количества кубиков льда пользователю, если хранить их в ячейках ванночки и не использовать сборник?|Wie kann der dosierte Fluss einer großen Anzahl von Eiswürfeln zum Benutzer sichergestellt werden, wenn diese in den Zellen des Bades aufbewahrt werden und Sie den Sammler nicht verwenden?
+149_067|Здесь просматривается техническое противоречие:|Hier liegt ein technischer Widerspruch vor:
+149_068|Нам надо хранить большое количество кубиков в ванночке, но размер ванночки ограничен. По сути дела, мы в своей гипотезе улучшили параметр «Устойчивость состава объекта», ведь кубики теперь не ломаются при разрушении шнеком. Но параметр «Количество вещества» ухудшился, поскольку размер ванночки ограничен.|Wir müssen eine große Anzahl von Würfeln im Bad lagern, aber die Größe des Bades ist begrenzt. Tatsächlich haben wir in unserer Hypothese den Parameter „Stabilität der Zusammensetzung des Objekts“ verbessert, da die Würfel jetzt nicht brechen, wenn sie durch die Schnecke zerstört werden. Aber der Parameter „Substanzmenge“ hat sich verschlechtert, weil die Größe des Bades begrenzt ist. 
+149_070|Модель Техническое противоречие|Modell des technischen Widerspruchs
+149_071|Модель задачи|Aufgabenmodell
+149_072|Оперативная зона |Betriebszone
+149_073|Место, занимаемое кубиками льда.|Von Eiswürfeln belegter Platz
+149_074|Оперативное время|Betriebszeit
+149_075|Время от начала замораживания кубика до подачи его пользователю.|Die Zeit vom Beginn des Einfrierens des Würfels bis zu seiner Übermittlung an den Benutzer.
+149_076|Уточнённое противоречие|Präzisierter Widerspruch
+149_077|Улучшенный параметр – «Устойчивость состава объекта».|Verbesserte Option - „Die Stabilität der Zusammensetzung des Objekts.“
+149_078|Ухудшившийся параметр «Количество вещества».|Verschlechterter Parameter „Stoffmenge“.
+149_080|Доступные ресурсы|Verfügbare Ressourcen
+149_081|Вещественные |Stoffliche
+149_082|1. Ванночка с ячейками 2. Ледяные кубики 3. Вода 4. Легкодоступные вещественные ресурсы.|1. Ein Bad mit Zellen 2. Eiswürfel 3. Wasser 4. Leicht zugängliche stoffliche Ressourcen.
+149_083|Полевые |Feldförmige
+149_084|1. Энергия потока воды 2. Тепловая энергия 3. Электрическая энергия 4. Легкодоступные полевые ресурсы.|1. Energie des Wasserflusses 2. Wärmeenergie 3. Elektrische Energie 4. Leicht zugängliche Feldressourcen.
+149_085|Пространственные|Räumliche
+149_086|1. Пространство, занимаемое кубиками льда|1. Von Eiswürfeln belegter Platz
+149_087|Временные|Zeitliche
+149_088|1. Время от начала замораживания кубика до подачи его пользователю.|1. Die Zeit vom Beginn des Einfrierens des Würfels bis zu seiner Übermittlung an den Benutzer.
+149_090|Модель решения|Lösungsmodell
+149_091|Способ разрешения противоречия|Methode zur Lösung des Widerspruchs
+149_092|Желаемый результат такой: нужно увеличить количество ячеек для приготовления кубиков льда.|Das gewünschte Ergebnis ist folgendes: Sie müssen die Anzahl der Zellen für die Herstellung von Eiswürfeln erhöhen.
+149_093|Давайте посмотрим, что нам подскажут эвристические приёмы. Таблица Альтшуллера дает на сформулированное противоречие следующие приёмы:|Lassen Sie uns sehen, was die heuristischen Tricks uns sagen. Die Altschuller-Tabelle enthält die folgenden Tricks für den formulierten Widerspruch:
+149_094|2. Принцип вынесения.|2. Das Prinzip der Entfernung.
+149_095|14. Принцип сфероидальности.|14. Das Prinzip der Sphäroidalität.
+149_096|30. Использование гибких оболочек и тонких плёнок.|30. Mit flexiblen Hüllen und dünnen Filmen.
+149_097|40. Применение композиционных материалов.|40. Die Verwendung von Verbundwerkstoffen.
+149_098|Модель решения |Lösungsmodell
+149_099|На основе приёма 30 с учётом желаемого результата сформулируем следующую модель решения:|Basierend auf Methode 30 formulieren wir unter Berücksichtigung des gewünschten Ergebnisses das folgende Lösungsmodell:
+149_100|Использовать ванночки из гибкой пленки, уже заполненные водой.|Verwenden Sie flexible Folienbäder, die bereits mit Wasser gefüllt sind.
+149_102|Требования к ресурсам|Ressourcenanforderungen
+149_103|Ресурс должен |Ressource sollte
+149_104|Ресурс понятен из модели решения.|Die Ressource ist aus dem Lösungsmodell bekannt.
+149_106|Идея решения задачи|Idee zur Lösung des Problems
+149_107|Идеальный конечный результат|Ideales Endresultat
+149_108|Х-элемент, абсолютно не усложняя системы (ванночка с ячейками), обеспечивает приготовление, хранение и выдачу кубиков пользователю.|Das X-Element bietet, ohne das System zu verkomplizieren (Bad mit Zellen), die Vorbereitung, Lagerung und Lieferung von Eiswürfeln an den Benutzer.
+149_109|Идея решения задачи |Idee zur Lösung des Problems
+149_110|Использовать одноразовые ванночки, изготовленные из тонкой плёнки. Запас ледяных кубиков хранится в нескольких ванночках, чтобы извлечь ледяные кубики, ванночку нужно разорвать. После извлечения льда ванночка идёт в отходы, а её место занимает другая, с уже подготовленным льдом.|Verwenden Sie Einweghüllen aus dünnem Film. Der Vorrat an Eiswürfeln wird in mehreren Hüllen aufbewahrt. Um Eiswürfel zu entfernen, muss das Bad zerrissen werden. Nach dem Entfernen des Eises wird das Bad zum Abfall und durch ein anderes ersetzt, mit bereits vorbereitetem Eis.
+149_111|Ванночки из плёнки|Bäder mit Film
+149_112|Разорванная плёнка|Zerrissener Film
+149_114|Полученная идея устраивает, но есть проблема - нужно провести изменения в надсистеме. Кроме того, усложняется процесс получения ледяных кубиков.|Die Idee ist in Ordnung, aber es gibt ein Problem - Sie müssen Änderungen im Obersystem vornehmen. Darüber hinaus ist der Prozess der Beschaffung von Eiswürfeln kompliziert.
+149_115|Продолжим решение задачи.|Lösen wir das Problem weiter.
+149_116|Модель Действия в оперативной зоне|Modell „Wirkung in der operativen Zone“
+149_117|Модель задачи|Aufgabenmodell
+149_118|Оперативная зона |Operative Zone
+149_119|Место, занимаемое кубиками льда.|Von Eiswürfeln belegter Platz
+149_120|Оперативное время|Operative Zeit
+149_121|Время от начала замораживания кубика до подачи его пользователю.|Die Zeit vom Beginn des Einfrierens des Würfels bis zu seiner Übermittlung an den Benutzer.
+149_122|Уточнённая модель задачи |Verfeinertes Aufgabenmodell
+149_123|Нам нужно как-то найти способ хранить кубики в одной ванночке, и выдавать их один за одним. По сути дела, необходимо создать описанные условия в оперативной зоне.|Wir müssen irgendeinen Weg finden, die Würfel im Bad aufzubewahren und einzeln auszugeben. Tatsächlich müssen wir die beschriebenen Bedingungen in der Operativen Zone schaffen.
+149_124|Это можно сделать, если применить модель задачи «Условия».|Dies ist möglich, wenn das Aufgabenmodell „Bedingungen“ angewendet wird.
+149_125|Доступные ресурсы|Verfügbare Ressourcen
+149_126|Вещественные |Stoffliche
+149_127|1. Ванночка с ячейками 2. Ледяные кубики 3. Вода 4. Легкодоступные вещественные ресурсы.|1. Ein Bad mit Zellen 2. Eiswürfel 3. Wasser 4. Leicht zugängliche materielle Ressourcen.
+149_128|Полевые |Feldförmige
+149_129|1. Энергия потока воды 2. Тепловая энергия 3. Электрическая энергия 4. Легкодоступные полевые ресурсы.|1. Energie des Wasserflusses 2. Wärmeenergie 3. Elektrische Energie 4. Leicht zugängliche Feldressourcen.
+149_130|Пространственные|Räumliche
+149_131|1. Пространство, занимаемое кубиками льда|1. Von Eiswürfeln belegter Platz
+149_132|Временные|Zeitliche
+149_133|1. Время от начала замораживания кубика до подачи его пользователю.|1. Die Zeit vom Beginn des Einfrierens des Würfels bis zu seiner Übermittlung an den Benutzer.
+149_134|Модель решения|Lösungsmodell
+149_135|Способ преобразования|Transformationsmethode
+149_136|Желаемый результат: Ванночка должна быть подвижной и храниться в свободном месте морозильной камеры.|Gewünschtes Ergebnis: Das Bad sollte beweglich sein und an einem freien Ort im Gefrierschrank aufbewahrt werden.
+149_137|Эвристики: трудно сказать что-либо, но все же попробуем. Идея решения 1, несмотря на недостатки, выглядит довольно перспективным направлением устранения конфликта. |Heuristik: Es ist schwer, etwas zu sagen, aber versuchen Sie es trotzdem. Die Idee der Lösung 1 scheint trotz der Mängel eine vielversprechende Richtung für die Lösung des Konflikts zu sein.
+149_138|Попробуем доработать его, сохранив полезные качества: простоту извлечения кубиков и непрерывность процесса.|Wir werden versuchen, diese zu verfeinern und dabei nützliche Eigenschaften beizubehalten: einfache Extraktion von Würfeln und Kontinuität des Prozesses.
+149_139|У нас уже есть несколько вариантов льдоделателя, посмотрим, в какую линию развития они выстраиваются.|Wir haben bereits mehrere Optionen für die Eismaschine. Lassen Sie uns sehen, in welcher Entwicklungslinie wir uns befinden.
+149_140|Если проследить логику предложенных решений, то можно заметить, что:|Wenn Sie der Logik der vorgeschlagenen Lösungen folgen, werden Sie feststellen, dass:
+149_141|А) Количество ванночек растёт. Сначала была одна, затем несколько. Соответственно, здесь прослеживается линии «Моно-би-поли».|A) Die Anzahl der Bäder wächst. Zuerst gab es eine, dann mehrere. Entsprechend wird hier die Mono-Bi-Poly-Linie verfolgt.
+149_142|Для завершения линии «Моно-би-поли» не хватает финального шага «Переход к моносистеме более высокого уровня» – то есть, требуется «свернуть» многочисленные ванночки в одну динамичную ванночку.|Um die Mono-Bi-Poly-Linie zu vervollständigen, reicht der letzte Schritt „Übergang zu einem übergeordneten Monosystem“ nicht aus - das heißt, Sie müssen mehrere Bäder in ein dynamisches Bad „zusammenfassen“.
+149_143|Для усиления этой идеи можно использовать приём разрешения технического противоречия «Сфероидальность». В соответствии с его рекомендациями нужно перейти к  круговому движению ванночки.|Um diese Idee zu verstärken, können Sie die Technik der Auflösung des technischen Widerspruchs „Sphäroidalität“ verwenden. Entsprechend den Empfehlungen müssen Sie zur kreisförmigen Bewegung des Bades gehen.
+149_144|Модель решения |Lösungsmodell
+149_145|Расположить ванночки по кругу.|Ordnen Sie die Bäder in einem Kreis an.
+149_147|Требования к ресурсам|Ressourcenanforderungen
+149_148|Ресурс должен |Ressource sollte
+149_149|Ресурс понятен из модели решения.|Die Ressource ist aus dem Lösungsmodell bekannt.
+149_151|Идея решения задачи|Idee zur Lösung des Problems
+149_152|Идеальный конечный результат|Ideales Endresultat
+149_153|Ванночка сама обеспечивает круговое движение.|Das Bad selbst sorgt für die Kreisbewegungen.
+149_154|Идея решения задачи |Idee zur Lösung des Problems
+149_155|Расположить ряды ячеек по кругу на кольцевой основе, которая может вращаться, подавая пользователю готовые кубики и подставляя под заполнение водой новые пустые ячейки.|Ordnen Sie die Zellenreihen in einem Kreis auf einer Ringbasis an, die sich drehen kann, sodass der Benutzer fertige Würfel erhält und neue leere Zellen zum Füllen mit Wasser verwendet.
+149_156|Вывод|Schlussfolgerung
+149_157|Такая ванночка очевидно проще по конструкции и позволяет получить высокую производительность выдачи кубиков льда. |Solch ein Bad ist offensichtlich einfacher im Design und ermöglicht Ihnen die Ausgabe von Eiswürfeln mit hoher Leistung.
+149_158|Однако, круговая траектория движения кубиков плохо вписывается в призматическую форму морозильной камеры, а при движении по кругу незамёрзшая вода может вылиться из ячеек. Здесь прослеживается физическое противоречие.|Die Kreisbahn der Würfel passt jedoch nicht gut in die prismatische Form des Gefrierschranks. Wenn Sie sich in einem Kreis bewegen, kann gefrorenes Wasser aus den Zellen fließen. Hier liegt ein physikalischer Widerspruch vor.
+149_159|Продолжим решение.|Fahren wir mit der Lösung fort.
+149_160|Модель Физическое противоречие|Modell „Physikalischer Widerspruch“
+149_161|Модель задачи|Aufgabenmodell
+149_162|Оперативная зона |Operative Zone
+149_163|Место, занимаемое кубиками льда.|Von Eiswürfeln belegter Platz
+149_164|Оперативное время|Operative Zeit
+149_165|Время от начала замораживания кубика до подачи его пользователю.|Die Zeit vom Beginn des Einfrierens des Würfels bis zu seiner Übermittlung an den Benutzer.
+149_166|Уточнённое противоречие|Präzisierter Widerspruch
+149_167|Построим физическое противоречие:|Bauen wir einen physikalischen Widerspruch auf:
+149_168|Ячейки должны двигаться по кругу.|Die Zellen sollen sich in einem Kreis bewegen.
+149_169|Ячейки должна двигаться по прямой линии (лучше горизонтально).|Die Zellen sollten sich in einer geraden Linie (vorzugsweise horizontal) bewegen.
+149_170|Доступные ресурсы|Verfügbare Ressourcen
+149_171|Вещественные |Stoffliche
+149_172|1. Ванночка с ячейками 2. Ледяные кубики 3. Вода 4. Легкодоступные вещественные ресурсы.|1. Ein Bad mit Zellen 2. Eiswürfel 3. Wasser 4. Leicht zugängliche stoffliche Ressourcen.
+149_173|Полевые |Feldförmige
+149_174|1. Энергия потока воды 2. Тепловая энергия 3. Электрическая энергия 4. Легкодоступные полевые ресурсы.|1. Energie des Wasserflusses 2. Wärmeenergie 3. Elektrische Energie 4. Leicht zugängliche Feldressourcen.
+149_175|Пространственные|Räumliche
+149_176|1. Пространство, занимаемое кубиками льда|1. Von Eiswürfeln belegter Platz
+149_177|Временные|Zeitliche
+149_178|1. Время от начала замораживания кубика до подачи его пользователю.|1. Die Zeit vom Beginn des Einfrierens des Würfels bis zu seiner Übermittlung an den Benutzer.
+149_180|Модель решения|Lösungsmodell
+149_181|Способ разрешения противоречия|Methode zur Lösung des Widerspruchs
+149_182|Поскольку противоречивые свойства кольцевой ванночки должны проявляться в одно и тоже время, разрешить такое противоречие можно в пространстве.|Da sich die widersprüchlichen Eigenschaften des Ringbades gleichzeitig manifestieren sollen, kann ein solcher Widerspruch im Raum aufgelöst werden.
+149_183|Модель решения |Lösungsmodell
+149_184|Пусть какая-то часть нашей кольцевой ванночки будет круглой, а другая – прямолинейной.|Lass einen Teil unseres Ringbades rund und den anderen gerade sein.
+149_185|Требования к ресурсам|Ressourcenanforderungen
+149_186|Ресурс должен |Ressource sollte
+149_187|Ресурс понятен из модели решения.|Die Ressource ist aus dem Lösungsmodell bekannt.
+149_189|Идея решения задачи|Idee zur Lösung des Problems
+149_190|Идеальный конечный результат|Ideales Endresultat
+149_191|Х-элемент, абсолютно не усложняя системы (ванночка с ячейками), обеспечивает приготовление, хранение и выдачу кубиков пользователю.|Das X-Element bietet, ohne das System zu verkomplizieren (Bad mit Zellen), die Vorbereitung, Lagerung und Lieferung von Würfeln an den Benutzer.
+149_192|Идея решения задачи |Idee zur Lösung des Problems
+149_193|Расположить ячейки рядами на ленточном транспортере.|Zellen in Reihen auf einem Förderband anordnen.
+149_194|Ледяные кубики|Eiswürfel
+149_195|Вода|Wasser
+149_196|Ленточный транспортёр|Förderband
+149_198|Вывод|Schlussfolgerung
+149_199|Данное решение эффективно и может быть легко реализовано.|Diese Lösung ist effektiv und kann einfach implementiert werden.
+149_200|Финальное решение задачи|Finale Lösung der Aufgabe
+149_201|Расположить ячейки рядами на ленточном транспортере. (см. патент США № US7013657).|Die Zellen werden in Reihen auf einem Förderband anordnen. (Siehe US-Patent Nr. US7013657).
