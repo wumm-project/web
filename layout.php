@@ -40,7 +40,6 @@ function pageNavbar() {
             <li><a href="glossary.php">TRIZ Glossary</a></li>
             <li><a href="principles.php">The 40 TRIZ Principles</a></li>
             <li><a href="standards.php">The 76 Standard Solutions</a></li>
-            <li><a href="tttp.php">TT Translation Project</a></li>
             <li><a href="presentations.php">TRIZ Presentations</a></li>
           </ul>
         </div><!-- navbar end -->
