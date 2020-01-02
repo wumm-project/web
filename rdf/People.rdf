@@ -24,6 +24,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amnuel_P">
     <foaf:affil xml:lang="ru">художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор</foaf:affil>
     <foaf:name>Pavel Amnuel'</foaf:name>
+    <foaf:name xml:lang="ru">Песах Рафаилович Амнуэль</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arutyunov_Y">
     <foaf:name>Yurij Arutyunov</foaf:name>
@@ -83,6 +84,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dusmikeev_A">
     <foaf:affil xml:lang="ru">Компания МедиуМ, бренд SolarEnrg, Директор</foaf:affil>
     <foaf:name>Andrei Dusmikeev</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dyachenko_A">
+    <foaf:name>Andrei Dyachenko</foaf:name>
+    <foaf:name xml:lang="ru">Андрей Петрович Дьяченко</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Eckardt_O">
     <foaf:affil xml:lang="en">Sparkling Spring GmbH (Director), Wilo SE (Senior Business Consultant, Project Manager)</foaf:affil>
