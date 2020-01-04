@@ -1,11 +1,12 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-10-05
+ * last update: 2020-01-04
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
+require_once 'layout.php';
 
 function thePrinciples($input) 
 {
@@ -33,13 +34,9 @@ function thePrinciples($input)
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
-    return htmlEnv($out);
+    return '<div class="container">'.$out.'</div>';
 }
 
-function main() {
-    return thePrinciples("rdf/Principles.rdf");    
-}
-
-echo main();
+echo showpage(thePrinciples("rdf/Principles.rdf"));
 
 ?>

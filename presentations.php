@@ -1,11 +1,12 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-08-07
+ * last update: 2020-01-04
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
+require_once 'layout.php';
 
 function getAutoren($node) {
     $s=array();
@@ -79,7 +80,7 @@ function thePresentations($src,$people)
         $out.='
 </div> <!-- end class presentation -->';
     }
-    return htmlEnv($out);
+    return '<div class="container">'.$out.'</div>';
 }
 
 function main() {
@@ -88,6 +89,6 @@ function main() {
     return thePresentations($src,$people);
 }
 
-echo genericLink().main();
+echo showpage(main());
 
 ?>

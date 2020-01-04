@@ -1,11 +1,12 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-07-09
+ * last update: 2020-01-04
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
+require_once 'layout.php';
 
 function getAutoren($node) {
     $s=array();
@@ -102,17 +103,17 @@ function abstracts($src,$people)
         $out.='
 </div> <!-- end class talk -->';
     }
-    return htmlEnv($out);
+    return $out;
 }
 
 function generalInfo() {
     return '
 This web site lists RDF descriptions of different conferences collected within
-our RDFData Conferences subdirectory. At the moment report on the following
+our RDFData Conferences subdirectory. At the moment reports on the following
 conferences are available.
 
 <ul>
-<li> <a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf">
+<li> <a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf">
 TRIZ Summit 2019 in Minsk</a></li>
 </ul>
 '; 
@@ -121,13 +122,14 @@ TRIZ Summit 2019 in Minsk</a></li>
 
 function main() {
     $conf=$_GET["conference"];
-    $people=$_GET["people"];
-    if (empty($conf)) { return generalInfo(); }
-    return abstracts($conf,$people);
-    
+    $people="rdf/People.rdf"; // $_GET["people"];
+    $out='';
+    if (empty($conf)) { $out=generalInfo(); }
+    else { $out=abstracts($conf,$people); }
+    return '<div class="container">'.$out.'</div>';
 }
 
-echo genericLink().main();
+echo showpage(main());
 
 // conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf
 

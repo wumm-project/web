@@ -1,11 +1,12 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-10-05
+ * last update: 2020-01-04
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
+require_once 'layout.php';
 
 function theStandards($input) 
 {
@@ -35,13 +36,9 @@ function theStandards($input)
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
-    return htmlEnv($out);
+    return '<div class="container">'.$out.'</div>';
 }
 
-function main() {
-    return theStandards("rdf/StandardSolutions.rdf");    
-}
-
-echo main();
+echo showpage(theStandards("rdf/StandardSolutions.rdf"));
 
 ?>

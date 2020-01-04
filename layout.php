@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-07-09
+ * last update: 2020-01-04
  */
 
 function pageHeader() {
@@ -36,7 +36,7 @@ function pageNavbar() {
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li> 
             <li><a href="people.php">People</a></li>
-            <li><a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf">TRIZ Summit 2019</a></li>
+            <li><a href="conferences.php">Past Conferences</a></li>
             <li><a href="glossary.php">TRIZ Glossary</a></li>
             <li><a href="principles.php">The 40 TRIZ Principles</a></li>
             <li><a href="standards.php">The 76 Standard Solutions</a></li>

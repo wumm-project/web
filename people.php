@@ -1,11 +1,12 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2019-07-09
+ * last update: 2020-01-04
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
+require_once 'layout.php';
 
 function thePeople($in) 
 {
@@ -38,15 +39,9 @@ function thePeople($in)
 <div class="people">
 '.join("\n", $a).'
 </div> <!-- end class people -->';
-    return htmlEnv($out);
+    return '<div class="container">'.$out.'</div>';
 }
 
-function main() {
-    // $in=$_GET["people"];
-    return thePeople("rdf/People.rdf");
-    
-}
-
-echo genericLink().main();
+echo showpage(thePeople("rdf/People.rdf"));
 
 ?>
