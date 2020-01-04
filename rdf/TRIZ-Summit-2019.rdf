@@ -29,7 +29,7 @@
     <dcterms:abstract xml:lang="en">Additional material, not presented at the conference</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Falkov_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khorenyan_R"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Koblents_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Koblenc_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Martsinovskii_G"/>
     <dcterms:title xml:lang="en">Solving non-digital problems for digital transformation</dcterms:title>
   </od:Talk>

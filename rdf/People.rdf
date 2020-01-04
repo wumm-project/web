@@ -105,7 +105,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fey_V">
     <od:affiliation>Altshuller Institute for TRIZ Studies</od:affiliation>
     <foaf:affil>Altshuller Institute for TRIZ Studies</foaf:affil>
-    <foaf:name>Victor Fey</foaf:name>
     <foaf:name xml:lang="en">Victor Fey</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fomenko_A">
@@ -152,7 +151,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
     <od:affiliation>FH Coburg, Germany</od:affiliation>
     <foaf:affil>FH Coburg, Germany</foaf:affil>
-    <foaf:name>Kai Hiltmann</foaf:name>
     <foaf:name xml:lang="de">Kai Hiltmann</foaf:name>
   </foaf:Person>
   <od:MatrizMember rdf:about="http://opendiscovery.org/rdf/Person/Holtz_V">
@@ -184,9 +182,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koblenc_P">
     <foaf:affil xml:lang="ru">EPAM Systems, Проектный менеджер</foaf:affil>
     <foaf:name>Pavel Koblenc</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koblents_P">
-    <foaf:name>Pavel Koblents</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koltze_K">
     <foaf:affil>HS Niederrhein, Germany</foaf:affil>
@@ -353,7 +348,7 @@
 Обучивший на 40 часовых семинарах свыше 5000 воспитателей и педагогов
 с 1988 по 1991 годы в разных городах СССР</rdfs:comment>
     <foaf:affil xml:lang="en">TRIZ School Norilsk, Russia</foaf:affil>
-    <foaf:name>Michail Naumovich Schusterman</foaf:name>
+    <foaf:name>Michail Schusterman</foaf:name>
     <foaf:name xml:lang="ru">Михаил Наумович Шустерман</foaf:name>
   </od:MatrizMember>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Severinec_G">
@@ -368,7 +363,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shpakovskij_N">
     <foaf:affil xml:lang="ru">Target Invention, Ведущий эксперт</foaf:affil>
     <foaf:homepage rdf:resource="http://www.target-invention.com"/>
-    <foaf:name>Nikolaj Shpakovskij</foaf:name>
+    <foaf:name>Nikolay Shpakovskij</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Simakov_S">
     <foaf:name>Sergey Simakov</foaf:name>
