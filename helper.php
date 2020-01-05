@@ -37,3 +37,7 @@ function genericLink() {
 <h4>This web site is part of the <a href="http://wumm.uni-leipzig.de">WUMM Demonstration Project</a></h4>
 ';
 }
+
+function showDate($s) {
+    return date("D d M Y",strtotime($s));
+}

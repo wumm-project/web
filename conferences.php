@@ -1,12 +1,20 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-04
+ * last update: 2020-01-05
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 require_once 'layout.php';
+
+function setNamespaces() {
+    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
+    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
+    EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
+    EasyRdf_Namespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
+    EasyRdf_Namespace::set('swc', 'http://data.semanticweb.org/ns/swc/ontology#');
+}
 
 function getAutoren($node) {
     $s=array();
@@ -21,38 +29,65 @@ function getAutoren($node) {
     return join(", ", $s);
 }
 
-function theEvent($v) {
+function theEvent($v,$graph) {
     $label=$v->get("rdfs:label");
     $description=$v->get("ical:description");
     $start=$v->get("ical:dtstart");
     $end=$v->get("ical:dtend");
     $location=$v->get("ical:location");
-    $url=$v->get("ical:url");
-    return '
-<h1>'.$label.'</h1>
-<dl>
-<dt>From '.$start.' until '.$end.'</dt>
-<dt><strong>Location: </strong>'.$location.'</dt>
-<dt><strong>URL: </strong>'.createLink($url,$url).'</dt>
-<dt><strong>Description: </strong>'.$description.'</dt>
+    $url=$v->all("ical:url");
+    $series=$v->get("od:toConferenceSeries");
+    $reports=$v->all("od:hasReports");
+    $proceedings=$v->all("od:theProceedings");
+    $fotos=$v->all("od:theFotos");
+    $details=$v->get("od:detailedReport");
+    $out='
+<li>'.$label.'
+<ul>
+<li>From '.showDate($start).' until '.showDate($end).'</li>
+';
+    if ($series) {
+        $name=$graph->resource($series)->get("rdfs:label");
+        $out.='<li><strong>Conference Series: </strong>'.$name.'</li>';
+    }
+    if ($location) { 
+        $out.='<li><strong>Location: </strong>'.$location.'</li>';
+    }
+    if ($description) { 
+        $out.='<li><strong>Description: </strong>'.$description.'</li>';
+    }
+    if ($url) { 
+        $out.='<li><strong>URL: </strong>'
+            .join("<br/> ",array_map('createLink',$url,$url)).'</li>';
+    }
+    if ($proceedings) { 
+        $out.='<li><strong>Proceedings: </strong>'
+            .join("<br/> ",array_map('createLink',$proceedings,$proceedings)).'</li>';
+    }
+    if ($details) {
+        $link="conferences.php?conference=$details";
+        $out.='<li><strong>'.createLink($link,"Detailed Report").'</strong></li>';
+    }
+    if ($reports) { 
+        $out.='<li><strong>Personal Reports: </strong>'
+            .join("<br/> ",array_map('createLink',$reports,$reports)).'</li>';
+    }
+    if ($fotos) { 
+        $out.='<li><strong>Conference Fotos: </strong>'
+            .join("<br/> ",array_map('createLink',$fotos,$fotos)).'</li>';
+    }
+    return $out.'</ul>
 
 ';
 }
 
-function abstracts($src,$people) 
+function abstracts($src,$graph) 
 {
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
-    EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
-    EasyRdf_Namespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
-    EasyRdf_Namespace::set('swc', 'http://data.semanticweb.org/ns/swc/ontology#');
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Conference/');
     $graph->parseFile($src);
-    $graph->parseFile($people);
     $out='';
     $res = $graph->allOfType('swc:ConferenceEvent');
     foreach ($res as $entry) {
-        $out.=theEvent($entry);
+        $out.=theEvent($entry,$graph);
     }
     $out.='<h3>Contributions</h3><div class="talks">';
     $res = $graph->allOfType('od:Talk');
@@ -106,26 +141,39 @@ function abstracts($src,$people)
     return $out;
 }
 
-function generalInfo() {
-    return '
-This web site lists RDF descriptions of different conferences collected within
-our RDFData Conferences subdirectory. At the moment reports on the following
-conferences are available.
+function generalInfo($graph) {
+    $graph->parseFile("rdf/PastConferences.rdf");
+    $res = $graph->allOfType('swc:ConferenceEvent');
+    $a=array();
+    foreach ($res as $entry) {
+        $start=$entry->get("ical:dtstart");
+        $a["$start"]=theEvent($entry,$graph);
+    }
+    krsort($a);
+    return theTitle().'<ul>'.join("\n",$a).'</ul>';
+}
 
-<ul>
-<li> <a href="conferences.php?conference=rdf/TRIZ-Summit-2019.rdf">
-TRIZ Summit 2019 in Minsk</a></li>
-</ul>
+function theTitle() {    
+    return '
+<h3 align="center"> Past TRIZ Conferences </h3>
+
+<p>This web site is generated from the RDF descriptions of different
+conferences collected within our 
+<a href="https://github.com/wumm-project/RDFData">RDFData subproject</a>. </p>
+
 '; 
     
 }
 
 function main() {
+    setNamespaces();
     $conf=$_GET["conference"];
-    $people="rdf/People.rdf"; // $_GET["people"];
+    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Conference/');
+    $graph->parseFile("rdf/People.rdf");
+    $graph->parseFile("rdf/ConferenceSeries.rdf");
     $out='';
-    if (empty($conf)) { $out=generalInfo(); }
-    else { $out=abstracts($conf,$people); }
+    if (empty($conf)) { $out=generalInfo($graph); }
+    else { $out=abstracts($conf,$graph); }
     return '<div class="container">'.$out.'</div>';
 }
 

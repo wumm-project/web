@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <rdfs:label>TSN: Conference Series</rdfs:label>
+  </owl:Ontology>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest">
+    <od:description>This series of meetings is organized by MATRIZ.</od:description>
+    <rdfs:label>TRIZ-Fest</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://matriz.org"/>
+  </od:ConferenceSeries>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future">
+    <od:description>This series of conferences is organized by ETRIA.</od:description>
+    <rdfs:label>TRIZ Developer Summit</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67"/>
+  </od:ConferenceSeries>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit">
+    <od:description>This series of conferences is organized by the TRIZ Developers Summit Council.</od:description>
+    <rdfs:label>TRIZ Developers Summit</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://triz-summit.ru/en/conference/"/>
+  </od:ConferenceSeries>
+</rdf:RDF>
