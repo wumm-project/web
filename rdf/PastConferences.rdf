@@ -118,9 +118,9 @@
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-26</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-24</ical:dtstart>
     <ical:location>New University of Lisbon, Lisbon, Portugal</ical:location>
-    <ical:url rdf:resource="http://etria.eu/documents/TFC2012_Program.pdfl"/>
-    <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/101l"/>
-    <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/97l"/>
+    <ical:url rdf:resource="http://etria.eu/documents/TFC2012_Program.pdf"/>
+    <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/101"/>
+    <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/97"/>
     <ical:url rdf:resource="http://trizrealworld.blogspot.com/2012_10_01_archive.html"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2013/">
