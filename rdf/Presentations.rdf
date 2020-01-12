@@ -74,6 +74,16 @@
     <dcterms:title xml:lang="de">Das ProHEAL Wegemodell</dcterms:title>
     <dcterms:title xml:lang="en">The ProHEAL Path Model</dcterms:title>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Kozhemyako-VCM">
+    <od:urlSlides rdf:resource="https://yadi.sk/i/lqZakWMWIrJPFg"/>
+    <dcterms:abstract xml:lang="ru">На встрече Клуба практиков ТРИЗ в Челябинске Антон Кожемяко делал доклад с описанием инструмента ТРИЗ - VCM (Value-Conflict Mapping) разработанного Мастером ТРИЗ Валерием Сушковым (Нидерланды). VCM – это аналитический метод, разработанный для выявления и ранжирования так называемых «блокирующих» противоречий, сдерживающих развитие продукта = технической системы. В ходе анализа по VCM выявленные требования стейкхоледров учитываются в соответствующих значениях параметров системы (например, в физических параметрах).</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
+    <dcterms:extent>17 slides</dcterms:extent>
+    <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-12-26</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:title xml:lang="en">VCM (Value-Conflict Mapping)</dcterms:title>
+  </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Litvin-20171101">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=BPpTNC2QOh0"/>
     <dcterms:abstract xml:lang="en">Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions).</dcterms:abstract>

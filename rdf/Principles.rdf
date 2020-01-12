@@ -91,7 +91,7 @@
     <od:description xml:lang="ru">Объект размещен внутри другого, который, в свою очередь, находится внутри третьего.</od:description>
     <od:hasPrincipleNumber>07</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of nesting (matryoshka)</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Verschachtelung (Matrjoschka-Prinzip)</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Integration (Matrjoschka-Prinzip)</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип вложенности («матрёшки»)</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P08">
@@ -112,7 +112,7 @@
     <od:description xml:lang="ru">Если в соответствии с условиями задачи должен быть достигнут определенный эффект, сначала должно быть создано противодействие.</od:description>
     <od:hasPrincipleNumber>09</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of early counteraction</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der vorgezogenen Gegenwirkung</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der vorherigen Gegenwirkung</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип предварительного противодействия</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P10">
@@ -124,7 +124,7 @@
     <od:description xml:lang="ru">Требуемый эффект должен быть достигнут заранее (полностью или частично).</od:description>
     <od:hasPrincipleNumber>10</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of the preferred action</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der vorgezogenen Wirkung</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der vorherigen Wirkung bzw. Aktion</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип предварительного действия (заранее выполненное действие)</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P11">
@@ -136,7 +136,7 @@
     <od:description xml:lang="ru">Относительно низкая надежность объекта компенсируется ранее предоставленными средствами.</od:description>
     <od:hasPrincipleNumber>11</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of advanced cushion (prevention)</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip des vorher untergelegten Kissens (Prävention)</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip des untergelegten Kissens (Prävention)</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип заранее подложенной подушки</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P12">
@@ -145,7 +145,7 @@
     <od:description xml:lang="ru">Рабочие условия должны быть изменены, чтобы объект мог работать с постоянным энергетическим потенциалом, например, его не нужно поднимать или опускать.</od:description>
     <od:hasPrincipleNumber>12</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of Equipotentiality</rdfs:label>
-    <rdfs:label xml:lang="de">Äquipotenzialitätsprinzip</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Äquipotenzialität</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип эквипотенциальности</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P13">
@@ -159,8 +159,8 @@
     <od:description xml:lang="ru">Движущаяся часть объекта или окружающая среда неподвижна, а неподвижная - подвижна.</od:description>
     <od:description xml:lang="ru">Объект находится вверх ногами или наоборот.</od:description>
     <od:hasPrincipleNumber>13</od:hasPrincipleNumber>
-    <rdfs:label xml:lang="de">Das Prinzip „Umgekehrt“</rdfs:label>
     <rdfs:label xml:lang="en">Principle conversely</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Funktionsumkehr (Inversion)</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип Наоборот</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P14">
@@ -175,7 +175,7 @@
     <od:description xml:lang="ru">От прямых контуров слишком изогнутые, от плоских поверхностей слишком сферические, чтобы их перегибать.</od:description>
     <od:hasPrincipleNumber>14</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of the ball similarity</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Kugelähnlichkeit</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Kugelähnlichkeit (Sphäroidalität)</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип сфероидальности</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P15">
@@ -217,7 +217,7 @@
     <od:description xml:lang="ru">Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект является объектом Также исключается возможность перемещения в двух измерениях, то есть в одной плоскости, а также трудности, связанные с перемещением объектов на плоскости при переходе в трехмерное пространство. </od:description>
     <od:hasPrincipleNumber>17</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of transition to another dimension</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip des Übergangs in eine andere Dimension</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip des Übergangs zu anderen Dimensionen</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип перехода в другое измерение</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P18">
@@ -411,9 +411,9 @@
     <od:description xml:lang="ru">Степень прозрачности объекта или окружающей среды должна быть изменена.</od:description>
     <od:description xml:lang="ru">Цвет объекта или окружающей среды должен быть изменен.</od:description>
     <od:hasPrincipleNumber>32</od:hasPrincipleNumber>
-    <rdfs:label xml:lang="en">Color change principle</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Farbveränderung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип изменения окраски</rdfs:label>
+    <rdfs:label xml:lang="en">Color and transparency change principle</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Veränderung von Farbe und Transparenz</rdfs:label>
+    <rdfs:label xml:lang="ru">Принцип изменения окраски и прозрачности</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P33">
     <od:description xml:lang="en">Objects that interact with the given object must be made of the same material or a material with approximately the same characteristics.</od:description>
@@ -421,7 +421,7 @@
     <od:description xml:lang="ru">Объекты, взаимодействующие с данным объектом, должны быть изготовлены из одного и того же материала или материала с примерно одинаковыми характеристиками.</od:description>
     <od:hasPrincipleNumber>33</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of homogeneity</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Homogenität</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Gleichartigkeit (Homogenität)</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип однородности</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P34">
@@ -445,7 +445,7 @@
     <od:description xml:lang="ru">К ним относятся не только простые переходы, например, из твердого состояния в жидкое состояние, но также переходы в псевдо или квазизначные состояния, например, квазидожидкость, и в промежуточные состояния, например, использование упругое твердое тело. </od:description>
     <od:hasPrincipleNumber>35</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of changing the physical or chemical parameters of an object</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Veränderung der physiko-chemischen Parameter eines Objekts</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип изменения физико-химических параметров объекта</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P36">
@@ -466,7 +466,7 @@
     <od:description xml:lang="ru">Существует несколько материалов с различными коэффициентами теплового расширения.</od:description>
     <od:hasPrincipleNumber>37</od:hasPrincipleNumber>
     <rdfs:label xml:lang="en">Principle of application of thermal expansion</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Anwendung von Wärmedehnung</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Anwendung von Wärmeausdehnung</rdfs:label>
     <rdfs:label xml:lang="ru">Принцип применения термического расширения</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/P38">
@@ -518,6 +518,7 @@
     <dcterms:source rdf:resource="http://triz-online.de/index.php?id=5593"/>
     <rdfs:comment>HGG 2019-01-10: Extracted and transformed from triz-online</rdfs:comment>
     <rdfs:comment>HGG 2019-10-05: A first raw translation to Russian and English added</rdfs:comment>
+    <rdfs:comment>HGG 2020-01-12: Adjustment of the German terms with (Koltze/Souchkov 2017)</rdfs:comment>
     <rdfs:label>TRIZ Database - The 40 Principles</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>
