@@ -40,6 +40,11 @@
     <foaf:affil xml:lang="ru">IPMA, Менеджер проектов</foaf:affil>
     <foaf:name>Zoya Bezdel'</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bogatyrev_N">
+    <foaf:homepage rdf:resource="https://www.facebook.com/nikolay.bogatyrev.1"/>
+    <foaf:name>Nikolay Bogatyrev</foaf:name>
+    <foaf:name xml:lang="ru">Николай Ростиславович Богатырёв</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Borisevich_S">
     <foaf:affil xml:lang="en">EPAM Systems, Director, User Experience Desing</foaf:affil>
     <foaf:name>Stanislav Borisevich</foaf:name>

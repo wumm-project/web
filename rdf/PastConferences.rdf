@@ -194,11 +194,22 @@ including keynote talks and presentations at plenary sessions. </ical:descriptio
     <ical:location>Marrakesh, Morocco</ical:location>
     <ical:url rdf:resource="http://tfc19.ovh"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2007/">
+    <od:theProceedings rdf:resource="https://www.trizland.ru/trizba/pdf-books/TRIZ-summit2007.pdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
+    <rdfs:label>TRIZ Summit 2007</rdfs:label>
+    <ical:description>TRIZ Summit 2007</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-08</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-07</ical:dtstart>
+    <ical:location>Moscow, Russia</ical:location>
+    <ical:url rdf:resource="https://triz-summit.ru/en/conference/203453/"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2019.rdf"/>
+    <od:theFotos rdf:resource="http://www.metodolog.ru/01062/01062.html"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
-    <rdfs:label>TRIZ Summit 2019 in Minsk</rdfs:label>
-    <ical:description>TRIZ Summit 2019 in Minsk</ical:description>
+    <rdfs:label>TRIZ Summit 2019</rdfs:label>
+    <ical:description>TRIZ Summit 2019</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-15</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-13</ical:dtstart>
     <ical:location>EPAM, Minsk, Belarus</ical:location>
