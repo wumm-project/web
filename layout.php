@@ -36,11 +36,12 @@ function pageNavbar() {
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li> 
             <li><a href="people.php">People</a></li>
+            <li><a href="books.php">Books</a></li>
             <li><a href="conferences.php">Past Conferences</a></li>
-            <li><a href="glossary.php">TRIZ Glossary</a></li>
-            <li><a href="principles.php">The 40 TRIZ Principles</a></li>
-            <li><a href="standards.php">The 76 Standard Solutions</a></li>
             <li><a href="presentations.php">TRIZ Presentations</a></li>
+            <li><a href="glossary.php">TRIZ Glossary</a></li>
+            <li><a href="principles.php">40 Principles</a></li>
+            <li><a href="standards.php">76 Standard Solutions</a></li>
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->

@@ -8,19 +8,6 @@ require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
-function getAutoren($node) {
-    $s=array();
-    foreach ($node->all("dcterms:creator") as $a) {
-        $title=$a->get("foaf:title");
-        $name=$a->get("foaf:name");
-        if (!empty($title)) {
-            $name="$title $name" ; 
-        }
-        array_push($s, '<span itemprop="creator">'.$name.'</span>');
-    }
-    return join(", ", $s);
-}
-
 function thePresentations($src,$people) 
 {
     EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
@@ -83,12 +70,8 @@ function thePresentations($src,$people)
     return '<div class="container">'.$out.'</div>';
 }
 
-function main() {
-    $src="rdf/Presentations.rdf";
-    $people="rdf/People.rdf";
-    return thePresentations($src,$people);
-}
-
-echo showpage(main());
+$src="rdf/Presentations.rdf";
+$people="rdf/People.rdf";
+echo showpage(thePresentations($src,$people));
 
 ?>

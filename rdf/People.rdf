@@ -21,6 +21,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ageed_S">
     <foaf:name>Sharaf Ageed</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Altshuller_GS">
+    <foaf:name xml:lang="en">Genrich Saulowich Altshuller</foaf:name>
+    <foaf:name xml:lang="ru">Генрих Саулович Альтшуллер</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amnuel_P">
     <foaf:affil xml:lang="ru">художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор</foaf:affil>
     <foaf:name>Pavel Amnuel'</foaf:name>
@@ -414,8 +418,14 @@
     <foaf:homepage rdf:resource="https://somales.de/"/>
     <foaf:name>Olaf Weber</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zlotin_B">
+    <foaf:name>Boris Zlotin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zobel_D">
     <foaf:affil>Ingenieurbüro für Systemtechnik, Wittenberg</foaf:affil>
     <foaf:name>Dietmar Zobel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zusman_A">
+    <foaf:name>Alla Zusman</foaf:name>
   </foaf:Person>
 </rdf:RDF>

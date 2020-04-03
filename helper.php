@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * User: Hans-Gert Gräbe
+ * last update: 2020-04-03
+ */
+
+/* ======= helper function ======== */
+
 function htmlEnv($out) 
 {
     return '
@@ -40,4 +47,19 @@ function genericLink() {
 
 function showDate($s) {
     return date("D d M Y",strtotime($s));
+}
+
+/* ============== display blocks ============= */
+
+function getAutoren($node) {
+    $s=array();
+    foreach ($node->all("dcterms:creator") as $a) {
+        $title=$a->get("foaf:title");
+        $name=$a->get("foaf:name");
+        if (!empty($title)) {
+            $name="$title $name" ; 
+        }
+        array_push($s, '<span itemprop="creator">'.$name.'</span>');
+    }
+    return join(", ", $s);
 }
