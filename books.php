@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-04
+ * last update: 2020-04-05
  */
 
 require_once 'lib/EasyRdf.php';
@@ -22,12 +22,12 @@ function theBooks($src,$people)
     $res = $graph->allOfType('od:TRIZ-Book');
     foreach ($res as $book) {
         $autoren=getAutoren($book);
-        $titel=$book->get("dcterms:title");
-        $id=$book->get("dcterms:creator").$titel;
+        $titel=showLanguage($book->all("dcterms:title"),"<br/>");
+        $id=join("",$book->all("dcterms:creator")).$titel;
         $abstract=$book->get("dcterms:abstract");
         $publisher=$book->get("dc:publisher");
-        $year=$book->get("dcterms:issued");
-        $isbn=$book->get("bibo:isbn");
+        $year=join(", ",$book->all("dcterms:issued"));
+        $isbn=join(", ",$book->all("bibo:isbn"));
         $asin=$book->get("bibo:asin");
         $lang=$book->get("dc:language");
         $comment=$book->get("rdfs:comment");

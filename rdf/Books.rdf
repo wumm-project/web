@@ -19,6 +19,71 @@
     <rdfs:label>Open Discovery Collection of TRIZ Books</rdfs:label>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
   </owl:Ontology>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3-326-00131-2">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Deutscher Verlag der Wissenschaften, Berlin</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1985</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1987</dcterms:issued>
+    <dcterms:title xml:lang="de">Erfinderfibel</dcterms:title>
+    <bibo:isbn>3-326-00131-2</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3-326-00654-3">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Deutscher Verlag der Wissenschaften, Berlin</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1991</dcterms:issued>
+    <dcterms:title xml:lang="de">Erfinderpraxis – Ideenvielfalt durch Systematisches Erfinden</dcterms:title>
+    <bibo:isbn>3-326-00654-3</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3-930903-08-3">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1995</dcterms:issued>
+    <dcterms:title xml:lang="de">Erfinden mit System</dcterms:title>
+    <bibo:isbn>3-930903-08-3</bibo:isbn>
+    <rdfs:comment>DABEI-Materialien Nr. 10, Bonn 1995</rdfs:comment>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2613-4">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2001</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2002</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2004</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="de">Systematisches Erfinden – Methoden und Beispiele für den Praktiker</dcterms:title>
+    <bibo:isbn>978-3-8169-2613-4</bibo:isbn>
+    <bibo:isbn>978-3-8169-2939-0</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2713-6">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007</dcterms:issued>
+    <dcterms:title xml:lang="de">Kreatives Arbeiten – Methoden, Erfahrungen, Beispiele</dcterms:title>
+    <bibo:isbn>978-3-8169-2713-6</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2760-0">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007</dcterms:issued>
+    <dcterms:title xml:lang="de">TRIZ für alle – Der systematische Weg zur Problemlösung</dcterms:title>
+    <bibo:isbn>978-3-8169-2760-0</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2904-8">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hartmann_R"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009</dcterms:issued>
+    <dcterms:title xml:lang="de">Erfindungsmuster – TRIZ: Prinzipien, Analogien, Ordnungskriterien, Beispiele</dcterms:title>
+    <bibo:isbn>978-3-8169-2904-8</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4490-8547-4">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -41,10 +106,8 @@
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
-    <dcterms:title xml:lang="ru">История развития АРИЗ: ТРИЗ</dcterms:title>
     <dcterms:title xml:lang="ru">История развития приемов: ТРИЗ</dcterms:title>
     <bibo:isbn>978-5-4493-0036-2</bibo:isbn>
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZ-Book"/>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0037-0">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
@@ -210,6 +273,226 @@
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017</dcterms:issued>
     <dcterms:title xml:lang="en">Structural System Analysis. Su-Field Analysis. TRIZ</dcterms:title>
     <bibo:asin>B07XTR56HM</bibo:asin>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.102">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>Moscow: Moskovsky Rabotchy</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:title xml:lang="en">The Invention Algorithm</dcterms:title>
+    <dcterms:title xml:lang="ru">Алгоритм Изобретения</dcterms:title>
+    <rdfs:comment>2nd edition</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.102"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.103">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>Leningrad: IPK SP</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhuckov_RF"/>
+    <dcterms:issued>1980</dcterms:issued>
+    <dcterms:title xml:lang="en">Modern Methods of Scientific and Engineering Creativity. Guidebook</dcterms:title>
+    <dcterms:title xml:lang="ru">Современные методы научно-технического творчества. Учебное пособие.</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.103"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.103a">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>Tel Aviv</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued>1999</dcterms:issued>
+    <dcterms:source rdf:resource="http://www.trizland.ru/trizba.php?id=105"/>
+    <dcterms:title xml:lang="ru">Алгоритм решения изобретательских задач. Учебное пособие.</dcterms:title>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.107">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Selyutsky_AB"/>
+    <dcterms:issued>1991</dcterms:issued>
+    <dcterms:title xml:lang="en">A Chance for Adventure</dcterms:title>
+    <rdfs:comment>Petrozavodsk: Karelia, 1991.</rdfs:comment>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.108">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Cambridge University Press</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fey_VR"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rivin_E"/>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Innovation on Demand: New Product Development Using TRIZ</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.108"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.109">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>M: Inform-VEA</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_VM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kalish_VS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Karpunin_MG"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuzmin_AM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:issued>1991</dcterms:issued>
+    <dcterms:title xml:lang="en">Basics of the Methodology for Conducting Value Engineering Analysis: Methodological Recommendations</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.109"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.110">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Invention Machine Educational Services</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Arel_AT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Devojno_I"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ikovenko_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Verbitsky_M"/>
+    <dcterms:issued>2002</dcterms:issued>
+    <dcterms:title xml:lang="en">TechOptimizer Fundamentals</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.110"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.113">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Worcester: Technical Innovation Center, Inc.</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1999</dcterms:issued>
+    <dcterms:title xml:lang="en">The Innovation Algorithm</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.113"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.114">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Flickstein_IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gadjiev_Ch"/>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:title xml:lang="en">Introduction to Substance-Field Analysis</dcterms:title>
+    <rdfs:commentQ>Baku: OLMI</rdfs:commentQ>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.114"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.115">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>Baku: OLMI</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:title xml:lang="en">Sufield Analysis: Methodological Guidelines</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.115"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.116">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>Baku: OLMI</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Flickstein_IM"/>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:title xml:lang="en">Problem Solving Using Sufield Analysis</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.116"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.118">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>M: Sovietskoje radio</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1979</dcterms:issued>
+    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/zrts1.asp"/>
+    <dcterms:title xml:lang="en">Creativity as an Exact Science. Theory of Inventive Problem Solving</dcterms:title>
+    <dcterms:title xml:lang="ru">Творчество как точная наука</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.118"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.119">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>NY: Gordon and Breach</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1988</dcterms:issued>
+    <dcterms:title xml:lang="en">Creativity as an Exact Science</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.119"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.120">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Selyutsky_AB"/>
+    <dcterms:issued>1980</dcterms:issued>
+    <dcterms:title xml:lang="en">Wings for Icarus: How to solve inventive problems</dcterms:title>
+    <dcterms:title xml:lang="ru">Крылья для Икара: как решить изобретательские проблемы</dcterms:title>
+    <rdfs:comment>Petrozavodsk: Karelia, 1980. (p. 58-72).</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.120"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.121">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher>Novosibirsk: Nauka</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1986</dcterms:issued>
+    <dcterms:title xml:lang="en">To Find an Idea: Introduction to the Theory of Inventive Problem Solving</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.121"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.123">
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/Book/Verweis.6"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:title xml:lang="en">Daring Formulae of Creativity</dcterms:title>
+    <rdfs:comment>Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.123"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.125">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Southfield: Ideation International Inc.</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Filatov_VI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AV"/>
+    <dcterms:issued>1999</dcterms:issued>
+    <dcterms:title xml:lang="en">Tools of Classical TRIZ</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.125"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.128">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Selyutsky_AB"/>
+    <dcterms:issued>1989</dcterms:issued>
+    <dcterms:title xml:lang="en">Rules for a Game Without Rules</dcterms:title>
+    <dcterms:title xml:lang="ru">Правила для игры без правил</dcterms:title>
+    <rdfs:comment>Petrozavodsk: Karelia, 1989.</rdfs:comment>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.131">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Royzen_Z"/>
+    <dcterms:issued>1986</dcterms:issued>
+    <dcterms:title xml:lang="en">Specific Features of Resources Utilization for Problem Solving and Improving Obtained Solutions</dcterms:title>
+    <rdfs:comment>Kishinev: 1986</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.131"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.147">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Ieper: CREAX Press</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
+    <dcterms:issued>2002</dcterms:issued>
+    <dcterms:title xml:lang="en">Hands-On Systematic Innovation</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.147"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.148">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Boca Raton: CRC Press</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domb_E"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rantanen_K"/>
+    <dcterms:issued>2002</dcterms:issued>
+    <dcterms:title xml:lang="en">Simplified TRIZ</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.148"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.162a">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Selyutsky_AB"/>
+    <dcterms:issued>1988</dcterms:issued>
+    <dcterms:title xml:lang="en">A Thread in the Labyrinth</dcterms:title>
+    <dcterms:title xml:lang="ru">Нить в Лабиринте</dcterms:title>
+    <rdfs:comment>Petrozavodsk: Karelia, 1988.</rdfs:comment>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.206">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Filatov_VI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AV"/>
+    <dcterms:issued>1999</dcterms:issued>
+    <dcterms:title xml:lang="en">Tools of Classical TRIZ</dcterms:title>
+    <rdfs:comment>Ideation International Inc. 1999.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.206"/>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.243">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher>Ideation International Inc.</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaplan_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Visnepolski_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AV"/>
+    <dcterms:issued>1999</dcterms:issued>
+    <dcterms:title xml:lang="en">New Tools for Failure and Risk Analysis</dcterms:title>
+    <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.243"/>
   </od:TRIZ-Book>
   <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#TRIZ-Book">
     <rdfs:label>DCMI Metarecord of a TRIZ book</rdfs:label>
