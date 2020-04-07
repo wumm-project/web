@@ -2,7 +2,7 @@
 
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-04-03
+ * last update: 2020-04-07
  */
 
 /* ======= helper function ======== */
@@ -39,6 +39,10 @@ function createLink($url,$text) {
     return '<a href='.$url.'>'.$text.'</a>';
 }
 
+function createUniLink($url) {
+    return '<a href='.$url.'>'.$url.'</a>';
+}
+
 function genericLink() {
     return '
 <h4>This web site is part of the <a href="http://wumm.uni-leipzig.de">WUMM Demonstration Project</a></h4>
@@ -47,6 +51,10 @@ function genericLink() {
 
 function showDate($s) {
     return date("D d M Y",strtotime($s));
+}
+
+function multiline($s) {
+    return str_replace("\n","<br/>",$s);
 }
 
 /* ============== display blocks ============= */

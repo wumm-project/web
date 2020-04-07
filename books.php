@@ -24,12 +24,13 @@ function theBooks($src,$people)
         $autoren=getAutoren($book);
         $titel=showLanguage($book->all("dcterms:title"),"<br/>");
         $id=join("",$book->all("dcterms:creator")).$titel;
-        $abstract=$book->get("dcterms:abstract");
+        $abstract=multiline($book->get("dcterms:abstract"));
         $publisher=$book->get("dc:publisher");
         $year=join(", ",$book->all("dcterms:issued"));
         $isbn=join(", ",$book->all("bibo:isbn"));
         $asin=$book->get("bibo:asin");
         $lang=$book->get("dc:language");
+        $url=join(", ",array_map('createUniLink',$book->all("od:relatedLinks")));
         $comment=$book->get("rdfs:comment");
         $out='
 <div itemscope itemtype="http://schema.org/Book" class="book">
@@ -52,6 +53,10 @@ function theBooks($src,$people)
             $out.='
   <div itemprop="description" class="abstract"><p><strong>Description:</strong><br/> '
             . $abstract .'</p></div>';
+        }
+        if ($url) { 
+            $out.='
+  <div><strong>Links:</strong> '.$url.'</div>';
         }
         if ($comment) { 
             $out.='

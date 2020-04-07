@@ -102,6 +102,7 @@
     <bibo:isbn>978-5-4490-9985-3</bibo:isbn>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0036-2">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_priemov/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
@@ -118,6 +119,7 @@
     <bibo:isbn>978-5-4493-0037-0</bibo:isbn>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0863-4">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_standartov/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
@@ -182,8 +184,13 @@
     <bibo:isbn>978-5-4493-5127-2</bibo:isbn>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-5369-6">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/fotoalbom_triz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">Это уникальное издание, которое впервые публикуется в виде книги.
+В этом альбоме собраны уникальные фотографии различных событий в истории ТРИЗ с момента рождения автора ТРИЗ Генриха Сауловича Альтшуллера до его ухода из жизни.
+Имеются фотографии родственников, друзей, коллег и соратников Альтшуллера.
+Альбом будет интересен, как людям, принимавшим участие в этих событиях, так и тем, кто впервые с этим знакомится. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Фотоальбом ТРИЗ: Часть 1. 1926-1998</dcterms:title>
@@ -254,6 +261,35 @@
     <dcterms:title xml:lang="ru">Думай иначе: Креативное мышление</dcterms:title>
     <bibo:isbn>978-5-4496-0678-5</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-8183-6">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/osnovy_znanii_po_triz/"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="ru">Основы знаний по ТРИЗ: Теория решения изобретательских задач</dcterms:title>
+    <bibo:isbn>978-5-4496-8183-6</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-8188-1">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/obuchenie_triz/"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="ru">Обучение ТРИЗ: Теория решения изобретательских задач</dcterms:title>
+    <bibo:isbn>978-5-4496-8188-1</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-8415-8">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/ariz-2010/"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="ru">АРИЗ-2010: ТРИЗ</dcterms:title>
+    <bibo:isbn>978-5-4496-8415-8</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/B073GZCSDT">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dc:publisher>Amazon Digital Services LLC</dc:publisher>
@@ -295,11 +331,11 @@
     <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.103"/>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.103a">
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba.php?id=105"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher>Tel Aviv</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued>1999</dcterms:issued>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba.php?id=105"/>
     <dcterms:title xml:lang="ru">Алгоритм решения изобретательских задач. Учебное пособие.</dcterms:title>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.107">
@@ -377,11 +413,11 @@
     <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.116"/>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/BIB.118">
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/zrts1.asp"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher>M: Sovietskoje radio</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:issued>1979</dcterms:issued>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/zrts1.asp"/>
     <dcterms:title xml:lang="en">Creativity as an Exact Science. Theory of Inventive Problem Solving</dcterms:title>
     <dcterms:title xml:lang="ru">Творчество как точная наука</dcterms:title>
     <rdfs:seeAlso rdf:resource="http://opendiscovery.org/rdf/Book/BIB.118"/>

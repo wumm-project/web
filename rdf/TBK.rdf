@@ -29,11 +29,11 @@
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.1"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.11"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.30"/>
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba.php?id=105"/>
+    <od:relatedLinks rdf:resource="http://www.trizminsk.org/e/247009.htm"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhuckov_RF"/>
     <dcterms:publisher>L: IPK SP</dcterms:publisher>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba.php?id=105"/>
-    <dcterms:source rdf:resource="http://www.trizminsk.org/e/247009.htm"/>
     <dcterms:title>Modern Methods of Scientific and Engineering Creativity. Guidebook</dcterms:title>
     <dcterms:year>1980</dcterms:year>
   </od:Reference>
@@ -93,9 +93,9 @@
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.110">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Arel_AT"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Devojno_I"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Devojno_IG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ikovenko_S"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Verbitsky_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Verbitsky_MJ"/>
     <dcterms:publisher>Invention Machine Educational Services</dcterms:publisher>
     <dcterms:title>TechOptimizer Fundamentals</dcterms:title>
     <dcterms:year>2002</dcterms:year>
@@ -113,7 +113,7 @@
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.6"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Flickstein_IM"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gadjiev_Ch"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gadjiev_C"/>
     <dcterms:title>Introduction to Substance-Field Analysis</dcterms:title>
     <dcterms:year>1973</dcterms:year>
     <rdfs:commentQ>Baku: OLMI</rdfs:commentQ>
@@ -150,9 +150,9 @@
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.40"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.41"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.6"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/zrts1.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:publisher>M: Sovietskoje radio</dcterms:publisher>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/zrts1.asp"/>
     <dcterms:title>Creativity as an Exact Science. Theory of Inventive Problem Solving</dcterms:title>
     <dcterms:year>1979</dcterms:year>
   </od:Reference>
@@ -206,8 +206,8 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.124">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.6"/>
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba.php?id=111"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VP"/>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba.php?id=111"/>
     <dcterms:title>Structural Sufield Analysis</dcterms:title>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.125">
@@ -293,8 +293,8 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.139">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.11"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz1.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz1.asp"/>
     <dcterms:title>The Process of Inventive Problem Solving: Main Stages and Mechanisms</dcterms:title>
     <rdfs:comment>Publishing date: 06.04.75</rdfs:comment>
   </od:Reference>
@@ -352,8 +352,8 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.155">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.15"/>
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba/pdf-books/zrts-08-ideal.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba/pdf-books/zrts-08-ideal.pdf"/>
     <dcterms:title>Idealization of Technological Systems</dcterms:title>
     <dcterms:year>1983</dcterms:year>
     <rdfs:comment>District Scientific-and-Practical Conference "Problems of Development of Scientific and Engineering Creativity of Engineers". Abstracts of reports. Gorky, 1983, p. 60-62.</rdfs:comment>
@@ -382,15 +382,15 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.163">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.18"/>
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba/pdf-books/zrts-17nadsyst.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VP"/>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba/pdf-books/zrts-17nadsyst.pdf"/>
     <dcterms:title>The Trend of Transition to Supersystems</dcterms:title>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.164">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.19"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/zrts5.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vertkin_IM"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/zrts5.asp"/>
     <dcterms:title>Lines of Increasing Structurization of Voids</dcterms:title>
     <dcterms:year>1987</dcterms:year>
   </od:Reference>
@@ -441,9 +441,9 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.176">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.24"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/zrts5.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vertkin_IM"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/zrts5.asp"/>
     <dcterms:title>Lines of Fragmentation</dcterms:title>
     <dcterms:year>1987</dcterms:year>
     <rdfs:comment>Baku: 1987</rdfs:comment>
@@ -465,39 +465,39 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.190">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.27"/>
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba/pdfbooks/zrts-12-microlevel.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VP"/>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba/pdfbooks/zrts-12-microlevel.pdf"/>
     <dcterms:title>Trend of System Transition from Macro- to Microlevels</dcterms:title>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.192">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.28"/>
+    <od:relatedLinks rdf:resource="http://www.trizland.ru/trizba.php?id=108"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:source rdf:resource="http://www.trizland.ru/trizba.php?id=108"/>
     <dcterms:title>A System of Laws of Technological System Evolution</dcterms:title>
     <dcterms:year>1982</dcterms:year>
     <rdfs:comment>Lecture at the seminar for TRIZ instructors and researchers (Petrozavodsk-82). - L: 1982.</rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.194">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.28"/>
+    <od:relatedLinks rdf:resource="http://rus.trizguide.com/publicat/allbooks/ideal_tech_systems.html"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kondrakov_IM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Salamatov_YP"/>
-    <dcterms:source rdf:resource="http://rus.trizguide.com/publicat/allbooks/ideal_tech_systems.html"/>
     <dcterms:title>Idealization of Technological Systems. A Study and Development of a Spatial-Temporal Model of Technological System Evolution ("a wave of idealization") based on the study of evolution of a technological system "heat pipe" </dcterms:title>
     <dcterms:year>1984</dcterms:year>
     <rdfs:comment>Krasnoyarsk: 1984</rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.195">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.29"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/ariz-about1.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/ariz-about1.asp"/>
     <dcterms:title>The History of ARIZ Evolution</dcterms:title>
     <dcterms:year>1987</dcterms:year>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.197">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.31"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.7"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/ariz85v.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/ariz85v.asp"/>
     <dcterms:title>Algorithm for Inventive Problem Solving ARIZ-85C</dcterms:title>
     <dcterms:year>1985</dcterms:year>
     <rdfs:comment>Methodological materials for trainees of the seminar "Methods of solving scientific and engineering problems" - L: Leningrad Metal Works, 1985.</rdfs:comment>
@@ -524,8 +524,8 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.204">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.33"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/engineering16.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/engineering16.asp"/>
     <dcterms:title>Theory of Inventive Problem Solving</dcterms:title>
     <dcterms:year>1988</dcterms:year>
     <rdfs:comment>Angarsk: 1988</rdfs:comment>
@@ -542,22 +542,22 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.207">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.33"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/standards.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/standards.asp"/>
     <dcterms:title>Small Huge Worlds: Standards for Inventive Problem Solving</dcterms:title>
     <dcterms:year>1988</dcterms:year>
     <rdfs:comment>A Thread in the Labyrinth. Compiled by Selyutsky, A.B.  Petrozavodsk: Karelia, 1988.</rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.209">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.33"/>
+    <od:relatedLinks rdf:resource="http://www.triz-journal.com/archives/2000/03/d/index.htm"/>
+    <od:relatedLinks rdf:resource="http://www.triz-journal.com/archives/2000/05/b/index.htm"/>
+    <od:relatedLinks rdf:resource="http://www.triz-journal.com/archives/2000/07/b/index.htm"/>
+    <od:relatedLinks rdf:resource="http://www.trizjournal.com/archives/2000/02/g/index.htm"/>
+    <od:relatedLinks rdf:resource="http://www.trizjournal.com/archives/2000/06/e/index.htm"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domb_E"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Miller_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Terninko_J"/>
-    <dcterms:source rdf:resource="http://www.triz-journal.com/archives/2000/03/d/index.htm"/>
-    <dcterms:source rdf:resource="http://www.triz-journal.com/archives/2000/05/b/index.htm"/>
-    <dcterms:source rdf:resource="http://www.triz-journal.com/archives/2000/07/b/index.htm"/>
-    <dcterms:source rdf:resource="http://www.trizjournal.com/archives/2000/02/g/index.htm"/>
-    <dcterms:source rdf:resource="http://www.trizjournal.com/archives/2000/06/e/index.htm"/>
     <dcterms:title>The Seventy Six Standard Solutions, with Examples</dcterms:title>
     <dcterms:year>2000</dcterms:year>
   </od:Reference>
@@ -577,8 +577,8 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.216">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.35"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/technique1a.asp"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:source rdf:resource="http://www.altshuller.ru/triz/technique1a.asp"/>
     <dcterms:title>An Additional List of Inventive Principles</dcterms:title>
     <dcterms:year>1971</dcterms:year>
     <rdfs:comment>Baku: 1971</rdfs:comment>
@@ -600,8 +600,8 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.219">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.36"/>
+    <od:relatedLinks rdf:resource="http://www.trizminsk.org/e/212002.htm"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:source rdf:resource="http://www.trizminsk.org/e/212002.htm"/>
     <dcterms:title>Paired Inventive Principles</dcterms:title>
     <dcterms:year>1974</dcterms:year>
     <rdfs:comment>Leningrad: 1974</rdfs:comment>
@@ -629,25 +629,25 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.229">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.42"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gorin_Yu"/>
-    <dcterms:source rdf:resource="http://www.triz-summit.ru/ru/section.php?docId=3672"/>
+    <od:relatedLinks rdf:resource="http://www.triz-summit.ru/ru/section.php?docId=3672"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gorin_Y"/>
     <dcterms:title>Index of Physical Effects and Phenomena for Inventors</dcterms:title>
     <dcterms:year>1973</dcterms:year>
     <rdfs:comment>Baku: 1973. - 300 p. </rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.230">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.42"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gorin_Yu"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gorin_Y"/>
     <dcterms:publisher>Baku: OLMI</dcterms:publisher>
     <dcterms:title>Application of Physical Effects and Phenomena when Solving Inventive Problems</dcterms:title>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.231">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.42"/>
+    <od:relatedLinks rdf:resource="http://lib.web-malina.com/getbook.php?bid=1693"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Denisov_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kustov_V"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yefimov_V"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zubarev_V"/>
-    <dcterms:source rdf:resource="http://lib.web-malina.com/getbook.php?bid=1693"/>
     <dcterms:title>Index of Physical Effects and Phenomena for Innvators</dcterms:title>
     <dcterms:year>1977</dcterms:year>
     <rdfs:comment>Obninsk: 1977</rdfs:comment>
@@ -671,17 +671,17 @@
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.235">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.43"/>
+    <od:relatedLinks rdf:resource="http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Salamatov_YP"/>
-    <dcterms:source rdf:resource="http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html"/>
     <dcterms:title>Heroic Deeds at Molecular Level: Chemistry Helps Solve Difficult Inventive Problems</dcterms:title>
     <dcterms:year>1988</dcterms:year>
     <rdfs:comment>A Thread in the Labyrinth. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1988.</rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/TBK/BIB.236">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK/Verweis.44"/>
+    <od:relatedLinks rdf:resource="http://www.trizchance.ru/geometrical_effect.html"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vikentiev_IL"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yefremov_VI"/>
-    <dcterms:source rdf:resource="http://www.trizchance.ru/geometrical_effect.html"/>
     <dcterms:title>The Curve That Will Always Help You Out: Geometry for Inventors</dcterms:title>
     <dcterms:year>1988</dcterms:year>
     <rdfs:comment>A Thread in the Labyrinth, Compiled by Selyutsky, A. B. - Petrozavodsk: Karelia, 1988.</rdfs:comment>

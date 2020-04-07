@@ -21,7 +21,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Domkin-20200103">
     <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Domkin-20200103.pdf"/>
     <dcterms:abstract xml:lang="en">Talk given in Leipzig on Jan 03, 2020</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_K"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <dcterms:extent>21 slides</dcterms:extent>
     <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-01-03</dcterms:issued>
@@ -101,7 +101,7 @@
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=JmploJo2XRA"/>
     <dcterms:abstract xml:lang="en">Meeting of the Moscow TRIZ Club on June 19, 2019.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Встреча Московского ТРИЗ Клуба 19.06.2019</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
     <dcterms:extent>02:20:36 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-06-21</dcterms:issued>
@@ -122,11 +122,11 @@
     <dcterms:title xml:lang="en">Talented Thinking at Levels 1 through 5</dcterms:title>
     <dcterms:title xml:lang="ru">Уровни схемы талантливого мышления с 1 по 5</dcterms:title>
   </od:Presentation>
-  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovskij-20181119">
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovsky-20181119">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=KSutnPM0f68"/>
     <dcterms:abstract xml:lang="en">Report on a new book by N.A. Shpakovsky, published by INFRA publishing house. The title of the book "OTSM-TRIZ. Approaches and application practices". The book examines the methods of inventive creativity in various fields of human activity, presents theoretical approaches, tools and algorithms for solving complex problems. Various illustrative material is given, conclusions from sections and control questions, examples and tasks for independent decision are given. The book is intended for engineers, designers and students of technical specialties, teachers, specialists and management personnel of departments at production and branch research institutes.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Доклад о новой книге Н.А. Шпаковского, выпущенной издательством ИНФРА. Название книги «ОТСМ-ТРИЗ. Подходы и практика применения». В книге рассматривается методика изобретательского творчества в различных областях деятельности человека; излагаются теоретические подходы, инструменты и алгоритмы для решения сложных задач. Приводится разнообразный иллюстративный материал, даются выводы из разделов и контрольные вопросы, примеры и задачи для самостоятельного решения. Книга предназначена инженерам, конструкторам и студентам технических специальностей, преподавателям, специалистам и управляющему персоналу подразделений на производстве и в отраслевых НИИ.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
     <dcterms:extent>01:18:06 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-11-19</dcterms:issued>
@@ -136,9 +136,9 @@
     <dcterms:title xml:lang="ru">О книге «ОТСМ-ТРИЗ. Подходы и практика применения»</dcterms:title>
     <rdfs:comment xml:lang="en">Published via Solving Mills facebook channel</rdfs:comment>
   </od:Presentation>
-  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713a">
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovsky-20190713a">
     <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713a.pdf"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
     <dcterms:extent>164 slides</dcterms:extent>
     <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
@@ -147,9 +147,9 @@
     <dcterms:title xml:lang="en">TRIZ in the modern world</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ в современном мире</dcterms:title>
   </od:Presentation>
-  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713b">
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Shpakovsky-20190713b">
     <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovskij_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
     <dcterms:extent>41 slides</dcterms:extent>
     <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
