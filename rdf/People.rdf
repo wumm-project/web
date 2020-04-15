@@ -713,6 +713,9 @@
     <foaf:affil xml:lang="en">Banuba, exp(capital), CEO</foaf:affil>
     <foaf:name>Dmitrij Ogievich</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Orloff_MA">
+    <foaf:name>Michael A. Orloff</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pavlov_VV">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Валерий Валентинович Павлов</foaf:fullname>

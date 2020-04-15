@@ -44,6 +44,15 @@
     <bibo:isbn>3-930903-08-3</bibo:isbn>
     <rdfs:comment>DABEI-Materialien Nr. 10, Bonn 1995</rdfs:comment>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-540-34059-1">
+    <dc:publisher>Springer: Heidelberg, Germany</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orloff_MA"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006</dcterms:issued>
+    <dcterms:title xml:lang="de">Grundlagen der klassischen TRIZ</dcterms:title>
+    <dcterms:title xml:lang="en">Inventive Thinking Through TRIZ</dcterms:title>
+    <bibo:isbn>978-3-540-33223-7</bibo:isbn>
+    <bibo:isbn>978-3-540-34059-1</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2613-4">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
@@ -101,10 +110,23 @@
     <dcterms:title xml:lang="ru">Законы развития систем: ТРИЗ</dcterms:title>
     <bibo:isbn>978-5-4490-9985-3</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0000-3">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_ariz/"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">В работе изложена история развития алгоритма решения изобретательских задач (АРИЗ), который являются разделом теории решения изобретательских задач — ТРИЗ. Автор ТРИЗ и АРИЗ Г. Альтшуллер. В работе проведен анализ всех известных модификаций АРИЗ, разработанных Г. Альтшуллером.
+Данные материалы могут быть полезны преподавателям и разработчикам ТРИЗ и использованы, как для изучения истории ТРИЗ, так и для развития самой теории. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
+    <dcterms:title xml:lang="ru">История развития АРИЗ</dcterms:title>
+    <bibo:isbn>978-5-4493-0000-3</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0036-2">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_priemov/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">В работе изложена история развития приемов разрешения противоречий, разработанных основателем теории решения изобретательских задач — ТРИЗ Г. С. Альтшуллером. Приемы являются разделом информационного фонда ТРИЗ. В работе проведен анализ всех известных автору модификаций приемов.
+Данные материалы могут быть полезны преподавателям и разработчикам ТРИЗ, и использованы как для изучения истории ТРИЗ, так и для развития самой теории. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития приемов: ТРИЗ</dcterms:title>
@@ -122,6 +144,8 @@
     <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_standartov/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">Описана история развития стандартов на решение изобретательских задач, являющаяся разделом теории решения изобретательских задач — ТРИЗ, созданная Г. С. Альтшуллером. В работе проведен анализ всех известных автору модификаций стандартов. Приведены тексты первых 11 стандартов в оригинальном виде.
+Работа может быть полезна в первую очередь преподавателям и разработчикам ТРИЗ и познавательна всем, кто интересуется историей развития ТРИЗ. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития стандартов: ТРИЗ</dcterms:title>
@@ -216,6 +240,9 @@
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-6079-3">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">Книга написана по материалам исследований, которые автор собирал для разработки законов развития технических систем.
+Впервые эта работа была сделана в 1973 году. В дальнейшем автор периодически пополнял эти материалы. Они использовались автором для чтения лекций по законам развития технических систем.
+Данные материалы могут быть полезны преподавателям и разработчикам ТРИЗ и использованы как для изучения истории ТРИЗ, так и для развития самой теории. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития законов: ТРИЗ</dcterms:title>
@@ -265,6 +292,9 @@
     <od:relatedLinks rdf:resource="https://ridero.ru/books/osnovy_znanii_po_triz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="en">The TRIZ Body of Knowledge in Russian</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Описаны основные разделы ТРИЗ и источники знаний, версия 2007 года.
+Это своего рода картография ТРИЗ, помогающая представить все знания о ТРИЗ системно. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
@@ -276,6 +306,10 @@
     <od:relatedLinks rdf:resource="https://ridero.ru/books/obuchenie_triz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">Эта книга — своего рода путеводитель (инструкция), как для самостоятельного освоения теории решения изобретательских задач (ТРИЗ).
+Описаны разные подходы к овладению ТРИЗ и то, как наиболее эффективно и в какой последовательности использовать книги по ТРИЗ.
+Наиболее детально описано, как для разных целей использовать книги по ТРИЗ автора.
+Книги автора, описанные здесь, созданы для изучения ТРИЗ от начала до самого углубленного уровня и для получения навыков в использовании этих знаний. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="ru">Обучение ТРИЗ: Теория решения изобретательских задач</dcterms:title>
@@ -285,17 +319,30 @@
     <od:relatedLinks rdf:resource="https://ridero.ru/books/ariz-2010/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
+    <dcterms:abstract xml:lang="ru">Данная работа проводилась к подготовке Саммита разработчиков ТРИЗ-2010. Первая редакция АРИЗ-2010 была выполнена в конце 2009 года. Последняя версия этой работы была закончена 27.07.2012. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="ru">АРИЗ-2010: ТРИЗ</dcterms:title>
     <bibo:isbn>978-5-4496-8415-8</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/Altshuller_40Principles">
+    <dc:publisher>Technical Innovation Center Inc.: Worcester, MA, USA.</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2005</dcterms:issued>
+    <dcterms:title>40 Principles. Extended Edition: TRIZ Keys to Technical Innovation.</dcterms:title>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/Altshuller_ARIZ85c">
+    <od:relatedLinks rdf:resource="http://www.evolocus.com/Textbooks/ariz85c.pdf"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1985</dcterms:issued>
+    <dcterms:title>Algorithm of Inventive Problem Solving (ARIZ85c).</dcterms:title>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/B073GZCSDT">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dc:publisher>Amazon Digital Services LLC</dc:publisher>
     <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VP"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_B"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_A"/>
+    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017</dcterms:issued>
     <dcterms:title xml:lang="en">System of Standard Inventive Solution by Genrich Altshuller</dcterms:title>
