@@ -11,14 +11,16 @@ require_once 'layout.php';
 function thePrinciples($input) 
 {
     EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('odp', 'http://opendiscovery.org/rdf/Principle/');
+    EasyRdf_Namespace::set('odq', 'http://opendiscovery.org/rdf/Principle/');
     EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
     $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/ThePrinciples/');
     $graph->parseFile($input);
     $a=array();
     $res = $graph->allOfType('od:Principle');
     foreach ($res as $concept) {
-        $out="<h3> Principle ".$concept->get("od:hasPrincipleNumber")."</h3>";
+        $name=str_replace("http://opendiscovery.org/rdf/Principle/","",$concept->getUri());
+        $nr=$concept->get("od:hasPrincipleNumber");
+        $out="<h3> Principle $nr: $name </h3>";
         $out.="<h4>".showLanguage($concept->all("rdfs:label"),"<br/>")."</h4>";
         $out.="<h4>Description</h4>".showLanguage($concept->all("od:description"),"<br/>");
         if ($concept->all("skos:note")) {
@@ -27,7 +29,7 @@ function thePrinciples($input)
         if ($concept->all("rdfs:comment")) {
             $out.="<h4>Comment</h4>".showLanguage($concept->all("rdfs:comment"),"<br/>");
         }
-        $a[$concept->getUri()]="<div>\n$out\n</div>\n";
+        if ($nr>0) { $a["$nr"]="<div>\n$out\n</div>\n"; }
     }
     ksort($a);
     $out='<h2>The 40 TRIZ Principles</h2>
