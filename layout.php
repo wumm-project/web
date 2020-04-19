@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-04
+ * last update: 2020-04-18
  */
 
 function pageHeader() {
@@ -42,6 +42,7 @@ function pageNavbar() {
             <li><a href="glossary.php">TRIZ Glossary</a></li>
             <li><a href="principles.php">40 Principles</a></li>
             <li><a href="standards.php">76 Standard Solutions</a></li>
+            <li><a href="test.php">Test</a></li>
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->
