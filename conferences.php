@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-05
+ * last update: 2020-06-29
  */
 
 require_once 'lib/EasyRdf.php';
@@ -14,19 +14,6 @@ function setNamespaces() {
     EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
     EasyRdf_Namespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
     EasyRdf_Namespace::set('swc', 'http://data.semanticweb.org/ns/swc/ontology#');
-}
-
-function getAutoren($node) {
-    $s=array();
-    foreach ($node->all("dcterms:creator") as $a) {
-        $title=$a->get("foaf:title");
-        $name=$a->get("foaf:name");
-        if (!empty($title)) {
-            $name="$title $name" ; 
-        }
-        array_push($s, '<span itemprop="creator">'.$name.'</span>');
-    }
-    return join(", ", $s);
 }
 
 function theEvent($v,$graph) {

@@ -11,514 +11,806 @@
   <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Principle">
     <rdfs:label xml:lang="en">A TRIZ Principle</rdfs:label>
     <rdfs:label xml:lang="de">Ein TRIZ Prinzip</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип ТРИЗ</rdfs:label>
+    <rdfs:label xml:lang="ru">ТРИЗ приём</rdfs:label>
   </owl:Class>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ApplyCompositeMaterials">
-    <od:description xml:lang="en">The same substances should be converted into composite substances.</od:description>
-    <od:description xml:lang="de">Von gleichen Stoffen ist zu zusammengesetzten Stoffen überzugehen.</od:description>
-    <od:description xml:lang="ru">Те же вещества должны быть преобразованы в составные вещества.</od:description>
-    <od:hasPrincipleNumber>40</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>40</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyCompositeMaterials_1"/>
     <rdfs:label xml:lang="en">Principle of the application of composite materials</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Verwendung von Verbundstoffen</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип применения композиционных материалов</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём применения составных материалов</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyCompositeMaterials_1">
+    <od:description xml:lang="en">Convert simple substances into composite ones.</od:description>
+    <od:description xml:lang="de">Gehe von einfachen Stoffen zu zusammengesetzten Stoffen über.</od:description>
+    <od:description xml:lang="ru">Однородные вещества должны быть заменены составными.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ApplyPhaseTransitions">
-    <od:description xml:lang="de">Die bei Phasenübergängen auftretenden Erscheinungen sind auszunutzen, z. B. Volumenveränderung, Wärmeentwicklung oder -absorption usw.</od:description>
-    <od:description xml:lang="en">The phenomena occurring during phase transitions shall be exploited, eg change in volume, evolution or absorption of heat, etc.</od:description>
-    <od:description xml:lang="ru">Должны использоваться явления, возникающие во время фазовых переходов, например, изменение объема, выделение или поглощение тепла и т. д.</od:description>
-    <od:hasPrincipleNumber>36</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>36</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyPhaseTransitions_1"/>
     <rdfs:label xml:lang="en">Principle of applying phase transitions</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Anwendung von Phasenübergängen</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип применения фазовых переходов</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём применения фазовых переходов</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyPhaseTransitions_1">
+    <od:description xml:lang="en">Exploit phenomena occurring during phase transitions, e.g. change in volume, evolution or absorption of heat, etc.</od:description>
+    <od:description xml:lang="de">Nutze bei Phasenübergängen auftretenden Erscheinungen, z. B. Volumenänderung, Wärmeentwicklung oder -absorption usw.</od:description>
+    <od:description xml:lang="ru">Использовать явления, возникающие во время фазовых переходов, например, изменение объема, выделение или поглощение тепла и т. д.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ApplyPneumaticOrHydraulicConstructions">
-    <od:description xml:lang="de">Anstatt der schweren Teile des Objektes sind gasförmige oder flüssige zu benutzen, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile.</od:description>
-    <od:description xml:lang="en">Instead of the heavy parts of the object, use gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts.</od:description>
-    <od:description xml:lang="ru">Вместо тяжелых частей объекта используйте газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части.</od:description>
-    <od:hasPrincipleNumber>29</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>29</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>29</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyPneumaticOrHydraulicConstructions_1"/>
     <rdfs:label xml:lang="en">Principle of the application of pneumatic or hydraulic constructions</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Anwendung pneumatischer oder hydraulischer Konstruktionen</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип применения пневмо- и гидросооружений</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём применения пневмо- и гидросооружений</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyPneumaticOrHydraulicConstructions_1">
+    <od:description xml:lang="de">Ersetze schwere Teile des Objektes durch gasförmige oder flüssige, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile.</od:description>
+    <od:description xml:lang="en">Replace heavy parts of the object by gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts.</od:description>
+    <od:description xml:lang="ru">Вместо тяжелых частей объекта введите газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants">
-    <od:description xml:lang="de">Die Luft oder der Sauerstoff ist der Einwirkung ionisierender Strahlung auszusetzen.</od:description>
-    <od:description xml:lang="de">Die aktivierte Luft ist durch Sauerstoff zu ersetzen.</od:description>
-    <od:description xml:lang="de">Die normale atmosphärische Luft ist durch aktivierte zu ersetzen.</od:description>
-    <od:description xml:lang="de">Es ist ozonierter Sauerstoff zu benutzen.</od:description>
-    <od:description xml:lang="de">Ozonierter oder ionisierter Sauerstoff ist durch Ozon zu ersetzen.</od:description>
-    <od:description xml:lang="en">Replace ozonated or ionized oxygen with ozone. </od:description>
-    <od:description xml:lang="en">The activated air should be replaced by oxygen.</od:description>
-    <od:description xml:lang="en">The air or oxygen should be exposed to ionizing radiation.</od:description>
-    <od:description xml:lang="en">The normal atmospheric air is replaced by activated.</od:description>
-    <od:description xml:lang="en">Use ozonated oxygen. </od:description>
-    <od:description xml:lang="ru">Активированный воздух должен быть заменен кислородом.</od:description>
-    <od:description xml:lang="ru">Воздух или кислород должны подвергаться воздействию ионизирующего излучения.</od:description>
-    <od:description xml:lang="ru">Замените озонированный или ионизированный кислород озоном. </od:description>
-    <od:description xml:lang="ru">Используйте озонированный кислород. </od:description>
-    <od:description xml:lang="ru">Нормальный атмосферный воздух заменен активированным.</od:description>
-    <od:hasPrincipleNumber>38</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>38</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_3"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_4"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_5"/>
     <rdfs:label xml:lang="en">Principle of the application of strong oxidants</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Anwendung starker Oxidationsmittel</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип применения сильных окислителей</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём применения сильных окислителей</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_1">
+    <od:description xml:lang="de">Ersetze normale atmosphärische Luft durch aktivierte.</od:description>
+    <od:description xml:lang="en">Replace normal atmospheric air by activated.</od:description>
+    <od:description xml:lang="ru">Заменить нормальный атмосферный воздух активированным.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_2">
+    <od:description xml:lang="de">Ersetze die aktivierte Luft durch Sauerstoff.</od:description>
+    <od:description xml:lang="en">Replace the activated air by oxygen.</od:description>
+    <od:description xml:lang="ru">Заменить активированный воздух кислородом.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_3">
+    <od:description xml:lang="en">Expose air or oxygen to ionizing radiation.</od:description>
+    <od:description xml:lang="de">Setze Luft oder Sauerstoff der Einwirkung ionisierender Strahlung aus.</od:description>
+    <od:description xml:lang="ru">Воздух или кислород должны подвергаться воздействию ионизирующего излучения.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_4">
+    <od:description xml:lang="en">Use ozonated oxygen.</od:description>
+    <od:description xml:lang="de">Verwende ozonierten Sauerstoff.</od:description>
+    <od:description xml:lang="ru">Используйте озонированный кислород.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyStrongOxidants_5">
+    <od:description xml:lang="de">Ersetze ozonierten oder ionisierten Sauerstoff durch Ozon.</od:description>
+    <od:description xml:lang="en">Replace ozonated or ionized oxygen with ozone.</od:description>
+    <od:description xml:lang="ru">Заменить озонированный или ионизированный кислород озоном.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ApplyThermalExpansion">
-    <od:description xml:lang="de">Die Wärmedehnung oder -verdichtung von Werkstoffen ist auszunutzen.</od:description>
-    <od:description xml:lang="de">Es sind mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl zu benutzen.</od:description>
-    <od:description xml:lang="en">The thermal expansion or compression of materials should be exploited.</od:description>
-    <od:description xml:lang="en">There are several materials with different thermal expansion coefficients to use.</od:description>
-    <od:description xml:lang="ru">Следует использовать термическое расширение или сжатие материалов.</od:description>
-    <od:description xml:lang="ru">Существует несколько материалов с различными коэффициентами теплового расширения.</od:description>
-    <od:hasPrincipleNumber>37</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>37</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyThermalExpansion_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ApplyThermalExpansion_2"/>
     <rdfs:label xml:lang="en">Principle of application of thermal expansion</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Anwendung von Wärmeausdehnung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип применения термического расширения</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём применения термического расширения</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyThermalExpansion_1">
+    <od:description xml:lang="en">Exploit the thermal expansion or compression of materials.</od:description>
+    <od:description xml:lang="de">Nutze die Wärmedehnung oder -verdichtung von Werkstoffen aus.</od:description>
+    <od:description xml:lang="ru">Следует использовать термическое расширение или сжатие материалов.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ApplyThermalExpansion_2">
+    <od:description xml:lang="de">Nutze mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl.</od:description>
+    <od:description xml:lang="en">Use several materials with different thermal expansion coefficients.</od:description>
+    <od:description xml:lang="ru">Использовать несколько материалов с различными коэффициентами теплового расширения.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Asymmetry">
-    <od:description xml:lang="de">Der Grad der Asymmetrie ist zu erhöhen, wenn das Objekt bereits asymmetrisch ist.</od:description>
-    <od:description xml:lang="en">From the symmetrical shape of the object is to move to asymmetric.</od:description>
-    <od:description xml:lang="en">The degree of asymmetry is to be increased if the object is already asymmetric.</od:description>
-    <od:description xml:lang="de">Von der symmetrischen Form des Objektes ist zur asymmetrischen überzugehen.</od:description>
-    <od:description xml:lang="ru">От симметричной формы объекта необходимо перейти к асимметричному.</od:description>
-    <od:description xml:lang="ru">Степень асимметрии должна быть увеличена, если объект уже асимметричен.</od:description>
-    <od:hasPrincipleNumber>04</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>04</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>04</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Asymmetry_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Asymmetry_2"/>
     <rdfs:label xml:lang="en">Principle of asymmetry</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Asymmetrie</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип асимметрии</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём асимметрии</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Asymmetry_1">
+    <od:description xml:lang="de">Gehe von einer symmetrischen Form des Objektes zu einer asymmetrischen über.</od:description>
+    <od:description xml:lang="en">Move from a symmetrical shape of the object to an asymmetric one.</od:description>
+    <od:description xml:lang="ru">От симметричной формы объекта необходимо перейти к асимметричной.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Asymmetry_2">
+    <od:description xml:lang="de">Erhöhe den Grad der Asymmetrie, wenn das Objekt bereits asymmetrisch ist.</od:description>
+    <od:description xml:lang="en">Increase the degree of asymmetry if the object is already asymmetric.</od:description>
+    <od:description xml:lang="ru">Степень асимметрии должна быть увеличена, если объект уже асимметричен.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/BallSimilarity">
-    <od:description xml:lang="en">From straight contours is too curved, from flat surfaces is too spherical to go over.</od:description>
-    <od:description xml:lang="en">From the rectilinear motion is to transition to rotation.</od:description>
-    <od:description xml:lang="en">To use are rollers, balls, spirals.</od:description>
-    <od:description xml:lang="de">Von der geradlinigen Bewegung ist zur Rotation überzugehen.</od:description>
-    <od:description xml:lang="de">Von geradlinigen Konturen ist zu gekrümmten, von ebenen Flächen ist zu sphärischen überzugehen.</od:description>
-    <od:description xml:lang="de">Zu verwenden sind Rollen, Kugeln, Spiralen.</od:description>
-    <od:description xml:lang="ru">Для использования используются ролики, шарики, спирали.</od:description>
-    <od:description xml:lang="ru">От прямолинейного движения есть переход к вращению.</od:description>
-    <od:description xml:lang="ru">От прямых контуров слишком изогнутые, от плоских поверхностей слишком сферические, чтобы их перегибать.</od:description>
-    <od:hasPrincipleNumber>14</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>14</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>14</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/BallSimilarity_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/BallSimilarity_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/BallSimilarity_3"/>
     <rdfs:label xml:lang="en">Principle of the ball similarity</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Kugelähnlichkeit (Sphäroidalität)</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип сфероидальности</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der sphärischen Form</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём сфероидальности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/BallSimilarity_1">
+    <od:description xml:lang="en">From straight contours go to curved ones, from flat surfaces go to spherical ones.</od:description>
+    <od:description xml:lang="de">Gehe von geradlinigen Konturen zu gekrümmten, von ebenen Flächen zu sphärischen über.</od:description>
+    <od:description xml:lang="ru">От прямых контуров переходить к изогнутым, от плоских поверхностей к сферическим.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/BallSimilarity_2">
+    <od:description xml:lang="de">Gehe von einer geradlinigen Bewegung zur Rotation über.</od:description>
+    <od:description xml:lang="en">Move from the rectilinear motion to rotation.</od:description>
+    <od:description xml:lang="ru">От прямолинейного движения переходить к вращению.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/BallSimilarity_3">
+    <od:description xml:lang="en">Use rollers, balls, spirals.</od:description>
+    <od:description xml:lang="de">Verwende Rollen, Kugeln, Spiralen.</od:description>
+    <od:description xml:lang="ru">Используются ролики, шарики, спирали.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency">
-    <od:description xml:lang="de">Der Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums ist zu verändern.</od:description>
-    <od:description xml:lang="de">Die Farbe des Objektes oder des umgebenden Mediums ist zu verändern.</od:description>
-    <od:description xml:lang="en">For observing poorly visible objects or processes, use coloring additives. </od:description>
-    <od:description xml:lang="en">If such conditions are already applied, phosphors are too use. </od:description>
-    <od:description xml:lang="en">The color of the object or the surrounding medium should be changed.</od:description>
-    <od:description xml:lang="en">The degree of transparency of the object or the surrounding medium should be changed.</od:description>
-    <od:description xml:lang="de">Wenn solche Zustände bereits angewandt werden, sind Leuchtstoffe zu verwenden.</od:description>
-    <od:description xml:lang="de">Zur Beobachtung schlecht sichtbarer Objekte oder Prozesse sind färbende Zuschläge zu nutzen.</od:description>
-    <od:description xml:lang="ru">Для наблюдения плохо видимых предметов или процессов используйте красящие добавки. </od:description>
-    <od:description xml:lang="ru">Если такие условия уже применяются, люминофоры слишком используйте. </od:description>
-    <od:description xml:lang="ru">Степень прозрачности объекта или окружающей среды должна быть изменена.</od:description>
-    <od:description xml:lang="ru">Цвет объекта или окружающей среды должен быть изменен.</od:description>
-    <od:hasPrincipleNumber>32</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>32</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>32</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_3"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_4"/>
     <rdfs:label xml:lang="en">Color and transparency change principle</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Veränderung von Farbe und Transparenz</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип изменения окраски и прозрачности</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём изменения окраски и прозрачности</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters">
-    <od:description xml:lang="en">Changing the parameters of an object concerns not only matter, but also fields</od:description>
-    <od:description xml:lang="de">Das Ändern der Parameter eines Objekts betrifft nicht nur Materie, sondern auch Felder</od:description>
-    <od:description xml:lang="de">Hierzu gehören nicht nur einfache Übergänge, z. B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z. B. die Quasiflüssigkeit und in Zwischenzustände, z. B. die Verwendung elastisch fester Körper.</od:description>
-    <od:description xml:lang="en">These include not only simple transitions, eg from the solid to the liquid state, but also the transitions into pseudo or quasic states, eg the quasi-liquid and in intermediate states, eg the use elastic solid body. </od:description>
-    <od:description xml:lang="ru">Изменение параметров объекта касается не только вещест, но и полей</od:description>
-    <od:description xml:lang="ru">К ним относятся не только простые переходы, например, из твердого состояния в жидкое состояние, но также переходы в псевдо или квазизначные состояния, например, квазидожидкость, и в промежуточные состояния, например, использование упругое твердое тело. </od:description>
-    <od:hasPrincipleNumber>35</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>35</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters_2"/>
     <rdfs:label xml:lang="en">Principle of changing the physical or chemical parameters of an object</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип изменения физико-химических параметров объекта</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём изменения физико-химических параметров объекта</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters_1">
+    <od:description xml:lang="de">Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper.</od:description>
+    <od:description xml:lang="en">This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body.</od:description>
+    <od:description xml:lang="ru">К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters_2">
+    <od:description xml:lang="en">Changing the parameters of an object concerns not only substances, but also fields</od:description>
+    <od:description xml:lang="de">Das Ändern der Parameter eines Objekts betrifft nicht nur Substanzen, sondern auch Felder</od:description>
+    <od:description xml:lang="ru">Изменение параметров объекта касается не только вещест, но и полей</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/CheapEphemeraInsteadOfExpensiveLongevity">
-    <od:description xml:lang="de">Das teure Objekt ist durch ein Sortiment billiger Objekte zu ersetzen, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird.</od:description>
-    <od:description xml:lang="en">The expensive object has to be replaced by a range of cheap objects, with some quality features, such as longevity, being dispensed with.</od:description>
-    <od:description xml:lang="ru">Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми качественными характеристиками, такими как долговечность, без которых.</od:description>
-    <od:hasPrincipleNumber>27</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>27</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>27</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/CheapEphemeraInsteadOfExpensiveLongevity_1"/>
     <rdfs:label xml:lang="en">Principle of cheap ephemera instead of expensive longevity</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип дешёвой недолговечности вместо дорогой долговечности</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём дешёвой недолговечности вместо дорогой долговечности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/CheapEphemeraInsteadOfExpensiveLongevity_1">
+    <od:description xml:lang="de">Ersetze ein teures Objekt durch ein Sortiment billiger Objekte, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird.</od:description>
+    <od:description xml:lang="en">Replace the expensive object by a range of cheap objects, with some quality features, such as longevity, being dispensed.</od:description>
+    <od:description xml:lang="ru">Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми уступками к качественным характеристикам, таким как долговечность.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ContinuityOfUsefulAction">
-    <od:description xml:lang="de">Die Funktion soll kontinuierlich erfolgen (alle Teile des Objektes sollen ständig mit gleichmäßiger Belastung arbeiten).</od:description>
-    <od:description xml:lang="en">Idle and interruptions must be switched off.</od:description>
-    <od:description xml:lang="de">Leerläufe und Unterbrechungen sind auszuschalten.</od:description>
-    <od:description xml:lang="en">The function should be continuous (all parts of the object should constantly work with equal load).</od:description>
-    <od:description xml:lang="ru">Функция должна быть непрерывной (все части объекта должны постоянно работать с одинаковой нагрузкой).</od:description>
-    <od:description xml:lang="ru">Холостой ход и прерывания должны быть отключены.</od:description>
-    <od:hasPrincipleNumber>20</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>20</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>20</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ContinuityOfUsefulAction_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ContinuityOfUsefulAction_2"/>
     <rdfs:label xml:lang="en">Principle of continuity of the useful action</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Kontinuität der nützlichen Wirkung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип непрерывности полезного действия</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём непрерывности полезного действия</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ContinuityOfUsefulAction_1">
+    <od:description xml:lang="de">Die Funktion soll kontinuierlich erfolgen (alle Teile des Objektes sollen ständig mit gleichmäßiger Belastung arbeiten).</od:description>
+    <od:description xml:lang="en">The function should be continuous (all parts of the object should constantly work with equal load).</od:description>
+    <od:description xml:lang="ru">Функция должна быть непрерывной (все части объекта должны постоянно работать с одинаковой нагрузкой).</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ContinuityOfUsefulAction_2">
+    <od:description xml:lang="en">Prevent idle times and interruptions.</od:description>
+    <od:description xml:lang="de">Vermeide Leerläufe und Unterbrechungen.</od:description>
+    <od:description xml:lang="ru">Холостой ход и прерывания следует избегать.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Conversely">
-    <od:description xml:lang="de">Das Objekt ist auf den Kopf zu stellen bzw. umzukehren.</od:description>
-    <od:description xml:lang="de">Der bewegliche Teil des Objektes oder des umgebenden Mediums ist unbeweglich, und der unbewegliche ist beweglich zu gestalten.</od:description>
-    <od:description xml:lang="en">Instead of the effect prescribed by the conditions of the task, the reverse effect can be achieved. </od:description>
-    <od:description xml:lang="de">Statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, ist die umgekehrte Wirkung zu erzielen.</od:description>
-    <od:description xml:lang="en">The moving part of the object or the surrounding medium is immobile, and the immovable is movable.</od:description>
-    <od:description xml:lang="en">The object is upside down or reverse.</od:description>
-    <od:description xml:lang="ru">Вместо эффекта, предписанного условиями задачи, может быть достигнут обратный эффект. </od:description>
-    <od:description xml:lang="ru">Движущаяся часть объекта или окружающая среда неподвижна, а неподвижная - подвижна.</od:description>
-    <od:description xml:lang="ru">Объект находится вверх ногами или наоборот.</od:description>
-    <od:hasPrincipleNumber>13</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>13</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>13</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Conversely_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Conversely_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Conversely_3"/>
     <rdfs:label xml:lang="en">Principle conversely</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Funktionsumkehr (Inversion)</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип Наоборот</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём Наоборот</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Conversely_1">
+    <od:description xml:lang="de">Erziele statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, die umgekehrte Wirkung.</od:description>
+    <od:description xml:lang="en">Instead of the effect prescribed by the conditions of the task, achieve the reverse effect.</od:description>
+    <od:description xml:lang="ru">Вместо эффекта, предписанного условиями задачи, достигается обратный эффект.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Conversely_2">
+    <od:description xml:lang="en">Put the object upside down or reverse it.</od:description>
+    <od:description xml:lang="de">Stelle das Objekt auf den Kopf bzw. kehre es um.</od:description>
+    <od:description xml:lang="ru">Перевернуть объект вверх ногами или другим способом наоборот.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Conversely_3">
+    <od:description xml:lang="de">Gestalte den beweglichen Teil des Objektes oder des umgebenden Mediums unbeweglich, und den unbeweglichen beweglich.</od:description>
+    <od:description xml:lang="en">Make the moving part of the object or the surrounding medium immobile, and the immovable movable.</od:description>
+    <od:description xml:lang="ru">Сделай движущуюся часть объекта или окружающую среду неподвижной, а неподвижную - подвижной.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Copying">
-    <od:description xml:lang="de">Anstelle eines unzugänglichen, komplizierten, kostspieligen, schlecht handhabbaren oder zerbrechlichen Objektes sind vereinfachte und billige Kopien zu benutzen.</od:description>
-    <od:description xml:lang="de">Das Objekt oder das System von Objekten ist durch seine optischen Kopien (Abbildungen) zu ersetzen.</od:description>
-    <od:description xml:lang="en">Instead of an inaccessible, complicated, costly, difficult to handle or breakable object, simplified and cheap copies should be used.</od:description>
-    <od:description xml:lang="en">The object or system of objects should be replaced by its optical copies (illustrations).</od:description>
-    <od:description xml:lang="ru">Вместо недоступного, сложного, дорогостоящего, сложного в обращении или хрупкого объекта следует использовать упрощенные и дешевые копии.</od:description>
-    <od:description xml:lang="ru">Объект или система объектов должны быть заменены его оптическими копиями (иллюстрациями).</od:description>
-    <od:hasPrincipleNumber>26</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>26</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>26</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Copying_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Copying_2"/>
+    <rdfs:label xml:lang="de">Arbeit mit Modellen</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip des Kopierens</rdfs:label>
     <rdfs:label xml:lang="en">principle of copying</rdfs:label>
     <rdfs:label xml:lang="ru">принцип копирования</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Copying_1">
+    <od:description xml:lang="en">Use simplified and cheap copies instead of an inaccessible, complicated, costly, difficult to handle or breakable object.</od:description>
+    <od:description xml:lang="de">Verwende vereinfachte und billige Kopien anstelle eines unzugänglichen, komplizierten, kostspieligen, schlecht handhabbaren oder zerbrechlichen Objektes.</od:description>
+    <od:description xml:lang="ru">Вместо недоступного, сложного, дорогостоящего, сложного в обращении или хрупкого объекта следует использовать упрощенные и дешевые копии.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Copying_2">
+    <od:description xml:lang="de">Ersetze das Objekt oder das System von Objekten durch optische Kopien (Abbildungen).</od:description>
+    <od:description xml:lang="en">Replace the object or system of objects by optical copies (illustrations).</od:description>
+    <od:description xml:lang="ru">Объект или система объектов должны быть заменены оптическими копиями (иллюстрациями).</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Countermass">
-    <od:description xml:lang="de">Das Gewicht des Objektes ist durch Kopplung mit einem anderen Objekt, das Tragkraft besitzt, zu kompensieren.</od:description>
-    <od:description xml:lang="de">Das Gewicht des Objektes ist durch Wechselwirkung mit einem Medium zu kompensieren.</od:description>
-    <od:description xml:lang="en">The weight of the object is to be compensated by coupling it with another object that has bearing capacity.</od:description>
-    <od:description xml:lang="en">The weight of the object is to be compensated by interaction with a medium.</od:description>
-    <od:description xml:lang="ru">Вес объекта должен быть компенсирован взаимодействием со средой.</od:description>
-    <od:description xml:lang="ru">Вес объекта должен быть компенсирован путем соединения его с другим объектом, который обладает несущей способностью.</od:description>
-    <od:hasPrincipleNumber>08</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>08</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>08</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Countermass_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Countermass_2"/>
     <rdfs:label xml:lang="en">Principle of the countermass</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip des Gegengewichts</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип противовеса</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём противовеса</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Countermass_1">
+    <od:description xml:lang="en">Compensate the weight of the object by coupling it with another object that has bearing capacity.</od:description>
+    <od:description xml:lang="de">Kompensiere das Gewicht des Objektes durch die Kopplung mit einem anderen Objekt, das Tragkraft besitzt.</od:description>
+    <od:description xml:lang="ru">Вес объекта должен быть компенсирован путем соединения его с другим объектом, который обладает несущей способностью.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Countermass_2">
+    <od:description xml:lang="en">Compensate the weight of the object by interaction with a medium.</od:description>
+    <od:description xml:lang="de">Kompensiere das Gewicht des Objektes durch Wechselwirkung mit einem Medium.</od:description>
+    <od:description xml:lang="ru">Вес объекта должен быть компенсирован взаимодействием со средой.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Coupling">
-    <od:description xml:lang="de">Gleichartige oder zur Koordinierung bestimmte Systeme oder Operationen sind zu koppeln.</od:description>
-    <od:description xml:lang="en">Similar or coordinating systems or operations are to be coupled.</od:description>
-    <od:description xml:lang="ru">Подобные или координирующие системы или операции должны быть связаны.</od:description>
-    <od:hasPrincipleNumber>05</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>05</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>05</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Coupling_1"/>
+    <rdfs:label xml:lang="de">Kombination</rdfs:label>
     <rdfs:label xml:lang="en">Principle of coupling</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Kopplung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип объединения</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём объединения</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Coupling_1">
+    <od:description xml:lang="en">Couple similar or coordinating systems or operations.</od:description>
+    <od:description xml:lang="de">Kopple gleichartige oder zu koordinierende Systeme oder Operationen.</od:description>
+    <od:description xml:lang="ru">Подобные или координирующие системы или операции должны быть объединены.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Dynamization">
-    <od:description xml:lang="de">Das Objekt ist in Teile zu zerlegen, die sich zueinander verstellen oder verschieben lassen.</od:description>
-    <od:description xml:lang="de">Die Kennwerte des Objektes (oder des umgebenden Mediums) müssen sich so verändern, dass sie in jeder Arbeitsetappe optimal sind (Anpassung).</od:description>
-    <od:description xml:lang="de">Falls das Objekt insgesamt unbeweglich ist, ist es beweglich (verstellbar) zu gestalten.</od:description>
-    <od:description xml:lang="en">If the object as a whole is immobile, it has to be movable (adjustable). </od:description>
-    <od:description xml:lang="en">The characteristics of the object (or the surrounding medium) must change to be optimal in each work step (adaptation) . </od:description>
-    <od:description xml:lang="en">The object is to be broken down into parts that can be displaced or shifted.</od:description>
-    <od:description xml:lang="ru">Если объект в целом неподвижен, он должен быть подвижным (регулируемым). </od:description>
-    <od:description xml:lang="ru">Объект должен быть разбит на части, которые могут быть смещены или сдвинуты.</od:description>
-    <od:description xml:lang="ru">Характеристики объекта (или окружающей среды) должны меняться, чтобы быть оптимальными на каждом этапе работы (адаптация) . </od:description>
-    <od:hasPrincipleNumber>15</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>15</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>15</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Dynamization_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Dynamization_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Dynamization_3"/>
     <rdfs:label xml:lang="en">Principle of dynamization</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Anpassung</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Dynamisierung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип динамичности</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём динамичности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Dynamization_1">
+    <od:description xml:lang="de">Falls das Objekt insgesamt unbeweglich ist, gestalte es beweglich (verstellbar).</od:description>
+    <od:description xml:lang="en">If the object as a whole is immobile, make it movable (adjustable).</od:description>
+    <od:description xml:lang="ru">Если объект в целом неподвижен, он должен стать подвижным (регулируемым).</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Dynamization_2">
+    <od:description xml:lang="en">Brake down the object into parts that can be displaced or shifted.</od:description>
+    <od:description xml:lang="de">Zerlege das Objekt in Teile, die sich zueinander verstellen oder verschieben lassen.</od:description>
+    <od:description xml:lang="ru">Объект разбить на части, которые могут быть смещены или сдвинуты.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Dynamization_3">
+    <od:description xml:lang="en">Change the characteristics of the object (or the surrounding medium) to be optimal in each work step (adaptation).</od:description>
+    <od:description xml:lang="de">Verändere die Kennwerte des Objektes (oder des umgebenden Mediums) so, dass sie in jeder Arbeitsetappe optimal sind (Anpassung).</od:description>
+    <od:description xml:lang="ru">Характеристики объекта (или окружающей среды) должны меняться, чтобы быть оптимальными на каждом этапе работы (адаптация).</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/EarlyCounteraction">
-    <od:description xml:lang="en">If a certain effect is to be achieved according to the conditions of the task, the counteraction must first be generated.</od:description>
-    <od:description xml:lang="de">Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, muss zuvor die Gegenwirkung erzeugt werden.</od:description>
-    <od:description xml:lang="ru">Если в соответствии с условиями задачи должен быть достигнут определенный эффект, сначала должно быть создано противодействие.</od:description>
-    <od:hasPrincipleNumber>09</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>09</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>09</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/EarlyCounteraction_1"/>
     <rdfs:label xml:lang="en">Principle of early counteraction</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Vorspannung</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der vorherigen Gegenwirkung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип предварительного противодействия</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём предварительного противодействия</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/EarlyCounteraction_1">
+    <od:description xml:lang="en">If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction.</od:description>
+    <od:description xml:lang="de">Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung.</od:description>
+    <od:description xml:lang="ru">Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts">
-    <od:description xml:lang="en">Part of an object that has served its purpose or has become unusable is eliminated (dissolved, vaporized, or the like) or converted immediately during the operation.</od:description>
-    <od:description xml:lang="en">Spent parts of an object are restored immediately during the operation </od:description>
-    <od:description xml:lang="de">Teil eines Objektes, das seinen Zweck erfüllt hat oder unbrauchbar geworden ist, wird beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt.</od:description>
-    <od:description xml:lang="de">Verbrauchte Teile eines Objektes werden unmittelbar im Arbeitsgang wieder hergestellt.</od:description>
-    <od:description xml:lang="ru">Отработанные части объекта восстанавливаются непосредственно во время операции </od:description>
-    <od:description xml:lang="ru">Часть объекта, которая выполнила свою задачу или стала непригодной для использования, исключается (растворяется, испаряется и т. п.) или преобразуется непосредственно во время операции.</od:description>
-    <od:hasPrincipleNumber>34</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>34</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>34</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts_2"/>
     <rdfs:label xml:lang="en">Principle of elimination and regeneration of parts</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Beseitigung und Regenerierung von Teilen</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип отброса и регенерации частей</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём отброса и регенерации частей</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts_1">
+    <od:description xml:lang="en">Part of an object that has served its purpose or has become unusable is eliminated (dissolved, vaporized, or the like) or converted immediately during the operation.</od:description>
+    <od:description xml:lang="de">Teile eines Objektes, die ihren Zweck erfüllt haben oder unbrauchbar geworden ist, werden beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt.</od:description>
+    <od:description xml:lang="ru">Часть объекта, которая выполнила свою задачу или стала непригодной для использования, устраняется (растворяется, испаряется и т. п.) или преобразуется непосредственно во время операции.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts_2">
+    <od:description xml:lang="en">Restore used parts of an object immediately during the operation.</od:description>
+    <od:description xml:lang="de">Stelle verbrauchte Teile eines Objektes unmittelbar im Arbeitsgang wieder her.</od:description>
+    <od:description xml:lang="ru">Отработанные части объекта восстанавливаются непосредственно во время операции.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Equipotentiality">
-    <od:description xml:lang="de">Die Arbeitsbedingungen sind so zu verändern, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss.</od:description>
-    <od:description xml:lang="en">The working conditions should be changed so that the object can work with a constant energy potential, for example it does not have to be raised or lowered.</od:description>
-    <od:description xml:lang="ru">Рабочие условия должны быть изменены, чтобы объект мог работать с постоянным энергетическим потенциалом, например, его не нужно поднимать или опускать.</od:description>
-    <od:hasPrincipleNumber>12</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>12</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>12</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Equipotentiality_1"/>
     <rdfs:label xml:lang="en">Principle of Equipotentiality</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Äquipotenzialität</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип эквипотенциальности</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём эквипотенциальности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Equipotentiality_1">
+    <od:description xml:lang="en">Change the working conditions in such a way that the object can work with a constant energy potential, and has not to be raised or lowered.</od:description>
+    <od:description xml:lang="de">Verändere die Arbeitsbedingungen so, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss.</od:description>
+    <od:description xml:lang="ru">Рабочие условия должны быть изменены таким образом, чтобы объект мог работать с постоянным энергетическим потенциалом, его не нужно поднимать или опускать.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations">
-    <od:description xml:lang="de">Anstelle von mechanischen Vibratoren sind Piezovibratoren anzuwenden.</od:description>
-    <od:description xml:lang="de">Auszunutzen sind Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern.</od:description>
-    <od:description xml:lang="de">Das Objekt ist in Schwingungen zu versetzen.</od:description>
-    <od:description xml:lang="de">Die Eigenfrequenz ist auszunutzen.</od:description>
-    <od:description xml:lang="de">Falls eine solche Bewegung bereits vorliegt, ist ihre Frequenz zu erhöhen, bis hin zur Ultaschallfrequenz.</od:description>
-    <od:description xml:lang="en">If such a movement already exists, its frequency must be increased, up to the ultrasonic frequency.</od:description>
-    <od:description xml:lang="en">Instead of mechanical vibrators, piezovibrators are to be used.</od:description>
-    <od:description xml:lang="en">The natural frequency is to be exploited.</od:description>
-    <od:description xml:lang="en">The object is to be vibrated.</od:description>
-    <od:description xml:lang="en">Use ultrasonic vibrations in conjunction with electromagnetic fields.</od:description>
-    <od:description xml:lang="ru">Вместо механических вибраторов должны использоваться пьезовибраторы.</od:description>
-    <od:description xml:lang="ru">Если такое движение уже существует, его частота должна быть увеличена до ультразвуковой частоты.</od:description>
-    <od:description xml:lang="ru">Используйте ультразвуковые колебания в сочетании с электромагнитными полями.</od:description>
-    <od:description xml:lang="ru">Объект должен вибрировать.</od:description>
-    <od:description xml:lang="ru">Собственная частота должна эксплуатироваться.</od:description>
-    <od:hasPrincipleNumber>18</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>18</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_3"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_4"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_5"/>
     <rdfs:label xml:lang="en">Principle of exploitation of mechanical vibrations</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Ausnutzung mechanischer Schwingungen</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип использования механических колебаний</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём использования механических колебаний</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_1">
+    <od:description xml:lang="en">Use piezovibrators instead of mechanical ones.</od:description>
+    <od:description xml:lang="de">Verwende Piezovibratoren statt mechanischer Vibratoren.</od:description>
+    <od:description xml:lang="ru">Вместо механических вибраторов должны использоваться пьезовибраторы.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_2">
+    <od:description xml:lang="de">Nutze Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern.</od:description>
+    <od:description xml:lang="en">Use ultrasonic vibrations in conjunction with electromagnetic fields.</od:description>
+    <od:description xml:lang="ru">Используйте ультразвуковые колебания в сочетании с электромагнитными полями.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_3">
+    <od:description xml:lang="de">Versetze das Objekt in Schwingungen.</od:description>
+    <od:description xml:lang="en">Vibrate the object.</od:description>
+    <od:description xml:lang="ru">Объект должен вибрировать.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_4">
+    <od:description xml:lang="en">Exploit the eigen frequency.</od:description>
+    <od:description xml:lang="de">Nutze die Eigenfrequenz aus.</od:description>
+    <od:description xml:lang="ru">Собственная частота должна эксплуатироваться.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ExploitationOfMechanicalVibrations_5">
+    <od:description xml:lang="de">Falls eine solche Bewegung bereits vorliegt, erhöhe ihre Frequenz bis hin zur Ultaschallfrequenz.</od:description>
+    <od:description xml:lang="en">If such a movement already exists, increase its frequency, up to the ultrasonic frequency.</od:description>
+    <od:description xml:lang="ru">Если такое движение уже существует, его частота должна быть увеличена до ультразвуковой.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Feedback">
-    <od:description xml:lang="de">Es ist eine Rückkopplung einzuführen.</od:description>
-    <od:description xml:lang="de">Falls eine Rückkopplung vorhanden ist, ist sie zu verändern.</od:description>
-    <od:description xml:lang="en">If there is feedback, change it.</od:description>
-    <od:description xml:lang="en">Insert feedback.</od:description>
-    <od:description xml:lang="ru">Вставить отзыв.</od:description>
-    <od:description xml:lang="ru">Если есть отзыв, измените его.</od:description>
-    <od:hasPrincipleNumber>23</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>23</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Feedback_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Feedback_2"/>
     <rdfs:label xml:lang="en">Principle of feedback</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Rückkopplung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип обратной связи</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём обратной связи</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Feedback_1">
+    <od:description xml:lang="de">Führe eine Rückkopplung ein.</od:description>
+    <od:description xml:lang="en">Insert feedback.</od:description>
+    <od:description xml:lang="ru">Вставить обратную связь.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Feedback_2">
+    <od:description xml:lang="de">Falls eine Rückkopplung vorhanden ist, verändere diese.</od:description>
+    <od:description xml:lang="en">If there is feedback, change it.</od:description>
+    <od:description xml:lang="ru">Если есть обратная связь, измените её.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Homogeneity">
-    <od:description xml:lang="en">Objects that interact with the given object must be made of the same material or a material with approximately the same characteristics.</od:description>
-    <od:description xml:lang="de">Objekte, die mit dem gegebenen Objekt zusammenwirken, müssen aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften gefertigt sein.</od:description>
-    <od:description xml:lang="ru">Объекты, взаимодействующие с данным объектом, должны быть изготовлены из одного и того же материала или материала с примерно одинаковыми характеристиками.</od:description>
-    <od:hasPrincipleNumber>33</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>33</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>33</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Homogeneity_1"/>
     <rdfs:label xml:lang="en">Principle of homogeneity</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Gleichartigkeit (Homogenität)</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип однородности</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём однородности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Homogeneity_1">
+    <od:description xml:lang="de">Fertige Objekte, die mit dem gegebenen Objekt zusammenwirken, aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften.</od:description>
+    <od:description xml:lang="en">Make objects that interact with the given object of the same material or a material with approximately the same characteristics.</od:description>
+    <od:description xml:lang="ru">Объекты, взаимодействующие с данным объектом, должны быть изготовлены из того же материала или материала с примерно такими же характеристиками.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/LocalQuality">
-    <od:description xml:lang="en">Every part of the object should be under conditions that are most conducive to its work.</od:description>
-    <od:description xml:lang="de">Jedes Teil des Objektes soll sich unter solchen Bedingungen befinden, die seiner Arbeit am zuträglichsten sind.</od:description>
-    <od:description xml:lang="en">The homogeneous structure of the object or the surrounding medium must be transformed into an inhomogeneous structure.</od:description>
-    <od:description xml:lang="de">Von der homogenen Struktur des Objektes oder des umgebenden Mediums ist zu einer inhomogenen Struktur überzugehen.</od:description>
-    <od:description xml:lang="ru">Гомогенная структура объекта или окружающей среды должна быть преобразована в неоднородную структуру.</od:description>
-    <od:description xml:lang="ru">Каждая часть объекта должна находиться в условиях, наиболее благоприятных для его работы.</od:description>
-    <od:hasPrincipleNumber>03</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>03</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>03</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/LocalQuality_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/LocalQuality_2"/>
     <rdfs:label xml:lang="en">Principle of Local Quality</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der örtlichen Qualität</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип местного качества</rdfs:label>
+    <rdfs:label xml:lang="de">Schaffen optimaler Bedingungen</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём местного качества</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/LocalQuality_1">
+    <od:description xml:lang="en">Every part of the object should be under conditions that are most conducive to its work.</od:description>
+    <od:description xml:lang="de">Für jedes Teil des Objektes sind solche Bedingungen zu sichern, die seiner Arbeit am zuträglichsten sind.</od:description>
+    <od:description xml:lang="ru">Каждая часть объекта должна находиться в условиях, наиболее благоприятных для его работы.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/LocalQuality_2">
+    <od:description xml:lang="de">Gehe von der homogenen Struktur des Objektes oder des umgebenden Mediums zu einer inhomogenen Struktur über.</od:description>
+    <od:description xml:lang="en">Transform the homogeneous structure of the object or the surrounding medium into an inhomogeneous structure.</od:description>
+    <od:description xml:lang="ru">Однородная структура объекта или окружающей среды должна быть преобразована в неоднородную.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Mediator">
-    <od:description xml:lang="en">At times, the object must be connected to another easily removable object.</od:description>
-    <od:description xml:lang="de">Es ist ein Zwischenobjekt zu benutzen, das die Wirkung überträgt, weitergibt oder auf sich nimmt.</od:description>
-    <od:description xml:lang="en">Use an intermediate object that transmits, transmits, or absorbs the effect.</od:description>
-    <od:description xml:lang="de">Zeitweilig ist an das Objekt ein anderes leicht zu entfernendes Objekt anzuschließen.</od:description>
-    <od:description xml:lang="ru">Иногда объект должен быть связан с другим легко удаляемым объектом.</od:description>
-    <od:description xml:lang="ru">Используйте промежуточный объект, который передает, передает или поглощает эффект.</od:description>
-    <od:hasPrincipleNumber>24</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>24</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Mediator_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Mediator_2"/>
     <rdfs:label xml:lang="de">Prinzip des Vermittlers</rdfs:label>
     <rdfs:label xml:lang="en">principle of the mediator</rdfs:label>
     <rdfs:label xml:lang="ru">принцип посредника</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Mediator_1">
+    <od:description xml:lang="de">Binde das Objekt an ein anderes leicht zu entfernendes Objekt.</od:description>
+    <od:description xml:lang="en">Connect the object to another easily removable object.</od:description>
+    <od:description xml:lang="ru">Объект должен быть связан с другим легко удаляемым объектом.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Mediator_2">
+    <od:description xml:lang="de">Nutze ein Zwischenobjekt, das die Wirkung überträgt, weitergibt oder auf sich nimmt.</od:description>
+    <od:description xml:lang="en">Use an intermediate object that transmits or absorbs the effect.</od:description>
+    <od:description xml:lang="ru">Используйте промежуточный объект, который передает или поглощает эффект.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Nesting">
-    <od:description xml:lang="en">An object is housed inside another, which in turn is inside a third.</od:description>
-    <od:description xml:lang="en">An object passes through or fills the cavity of another object.</od:description>
-    <od:description xml:lang="de">Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes.</od:description>
-    <od:description xml:lang="de">Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet.</od:description>
-    <od:description xml:lang="ru">Объект проходит через или заполняет полость другого объекта.</od:description>
-    <od:description xml:lang="ru">Объект размещен внутри другого, который, в свою очередь, находится внутри третьего.</od:description>
-    <od:hasPrincipleNumber>07</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>07</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>07</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Nesting_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Nesting_2"/>
     <rdfs:label xml:lang="en">Principle of nesting (matryoshka)</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Integration (Matrjoschka-Prinzip)</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип вложенности («матрёшки»)</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём вложенности («матрёшки»)</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Nesting_1">
+    <od:description xml:lang="de">Bringe ein Objekt im Inneren eines anderen unter, das sich wiederum im Inneren eines dritten befindet.</od:description>
+    <od:description xml:lang="en">Place an object inside another, which in turn is inside a third.</od:description>
+    <od:description xml:lang="ru">Объект размещается внутри другого, который, в свою очередь, находится внутри третьего.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Nesting_2">
+    <od:description xml:lang="en">An object passes through or fills the cavity of another object.</od:description>
+    <od:description xml:lang="de">Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes.</od:description>
+    <od:description xml:lang="ru">Объект проходит через или заполняет полость другого объекта.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/NoPrinciple">
-    <od:description xml:lang="de">Keine Empfehlung in der Matrix.</od:description>
-    <od:description xml:lang="en">No recommendation within the matrix.</od:description>
-    <od:description xml:lang="ru">Нет рекомендаций в матрице.</od:description>
-    <rdfs:label xml:lang="de">Kein Prinzip</rdfs:label>
-    <rdfs:label xml:lang="en">No Principle</rdfs:label>
-    <rdfs:label xml:lang="ru">Нет Принципа</rdfs:label>
+    <rdfs:label xml:lang="de">Keine Empfehlung in der Matrix.</rdfs:label>
+    <rdfs:label xml:lang="en">No recommendation within the matrix.</rdfs:label>
+    <rdfs:label xml:lang="ru">Нет рекомендаций в матрице.</rdfs:label>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/PartialOrExcessEffect">
-    <od:description xml:lang="en">If 100% of the required effect is difficult to achieve, then a little less or a little bit more must be achieved.</od:description>
-    <od:description xml:lang="de">Wenn 100 % des erforderlichen Effekts schwer zu erzielen sind, muss „ein bisschen weniger“ oder „ein bisschen mehr“  erzielt werden.</od:description>
-    <od:description xml:lang="ru">Если 100% требуемого эффекта трудно достичь, то необходимо достичь немного меньше или немного больше.</od:description>
-    <od:hasPrincipleNumber>16</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>16</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>16</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PartialOrExcessEffect_1"/>
     <rdfs:label xml:lang="en">Principle of partial or excess effect</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der nicht vollständigen Lösung</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der partiellen oder überschüssigen Wirkung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип частичного или избыточного решения</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём частичного или избыточного действия</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PartialOrExcessEffect_1">
+    <od:description xml:lang="en">If 100% of the required effect is difficult to achieve, then achieve a little less or a little bit more.</od:description>
+    <od:description xml:lang="de">Wenn 100% des erforderlichen Effekts schwer zu erzielen sind, erziele „ein bisschen weniger“ oder „ein bisschen mehr“.</od:description>
+    <od:description xml:lang="ru">Если 100% требуемого эффекта трудно достичь, то достичь немного меньше или немного больше.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/PeriodicEffect">
-    <od:description xml:lang="de">Die Pausen zwischen den Impulsen sind für eine andere Wirkung auszunutzen.</od:description>
-    <od:description xml:lang="en">From the continuous action to the periodic (impulse action) to go over.</od:description>
-    <od:description xml:lang="en">If the effect is already periodic, the periodicity must be changed </od:description>
-    <od:description xml:lang="en">The pauses between the pulses should be exploited for another effect.</od:description>
-    <od:description xml:lang="de">Von der kontinuierlichen Wirkung ist zur periodischen (Impulswirkung) überzugehen.</od:description>
-    <od:description xml:lang="de">Wenn die Wirkung bereits periodisch erfolgt, ist die Periodizität zu verändern.</od:description>
-    <od:description xml:lang="ru">Если эффект уже периодический, периодичность должна быть изменена </od:description>
-    <od:description xml:lang="ru">От непрерывного действия к периодическому (импульсное действие), чтобы перейти.</od:description>
-    <od:description xml:lang="ru">Паузы между импульсами должны использоваться для другого эффекта.</od:description>
-    <od:hasPrincipleNumber>19</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>19</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>19</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PeriodicEffect_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PeriodicEffect_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PeriodicEffect_3"/>
     <rdfs:label xml:lang="en">Principle of periodic effect</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Impuls-Arbeitsweise</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der periodischen Wirkung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип периодического действия</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём периодического действия</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PeriodicEffect_1">
+    <od:description xml:lang="en">Exploit the pauses between the pulses for another effect.</od:description>
+    <od:description xml:lang="de">Nutze die Pausen zwischen den Impulsen für eine andere Wirkung aus.</od:description>
+    <od:description xml:lang="ru">Паузы между импульсами должны использоваться для другого эффекта.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PeriodicEffect_2">
+    <od:description xml:lang="en">From the continuous action go over to a periodic one (impulse action).</od:description>
+    <od:description xml:lang="de">Gehe von einer kontinuierlichen Wirkung zu einer periodischen (Impulswirkung) über.</od:description>
+    <od:description xml:lang="ru">Перейти от непрерывного действия к периодическому (импульсное действие).</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PeriodicEffect_3">
+    <od:description xml:lang="en">If the effect is already periodic, change the periodicity.</od:description>
+    <od:description xml:lang="de">Wenn die Wirkung bereits periodisch erfolgt, ändere die Periodizität.</od:description>
+    <od:description xml:lang="ru">Если эффект уже периодический, периодичность должна быть изменена.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/PreferredAction">
-    <od:description xml:lang="de">Die Objekte sind vorher so aufzustellen bzw. einzusetzen, dass sie ohne Zeitverlust für ihr Herbeischaffen vom geeignetsten Ort aus wirken können.</od:description>
-    <od:description xml:lang="de">Die erforderliche Wirkung ist vorher zu erzielen (vollständig oder auch teilweise).</od:description>
-    <od:description xml:lang="en">The objects must first be set up in such a way that they can work without delay for their bringing in from the most suitable place.</od:description>
-    <od:description xml:lang="en">The required effect must be achieved beforehand (completely or partially).</od:description>
-    <od:description xml:lang="ru">Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки для их доставки из наиболее подходящего места.</od:description>
-    <od:description xml:lang="ru">Требуемый эффект должен быть достигнут заранее (полностью или частично).</od:description>
-    <od:hasPrincipleNumber>10</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>10</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>10</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PreferredAction_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PreferredAction_2"/>
     <rdfs:label xml:lang="en">Principle of the preferred action</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der vorherigen Wirkung bzw. Aktion</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип предварительного действия (заранее выполненное действие)</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём предварительного действия (заранее выполненное действие)</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PreferredAction_1">
+    <od:description xml:lang="de">Bereite die Objekte vorab so vor, dass sie ohne Zeitverlust vom geeignetsten Ort aus wirken können.</od:description>
+    <od:description xml:lang="en">Prepare the objects in advance in such a way that they can work without delay at the most suitable place.</od:description>
+    <od:description xml:lang="ru">Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки из наиболее подходящего места.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PreferredAction_2">
+    <od:description xml:lang="en">Achieve the required effect beforehand (completely or partially).</od:description>
+    <od:description xml:lang="de">Erziele die erforderliche Wirkung vorab (vollständig oder auch teilweise).</od:description>
+    <od:description xml:lang="ru">Требуемый эффект должен быть достигнут заранее (полностью или частично).</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Prevention">
-    <od:description xml:lang="en">A device is foreseen for performing rescue and other emergency actions</od:description>
-    <od:description xml:lang="en">A relatively low reliability of the object is compensated by means previously provided.</od:description>
-    <od:description xml:lang="de">Eine relativ geringe Zuverlässigkeit des Objektes wird durch vorher bereitgestellte Hilfsmittel ausgeglichen.</od:description>
-    <od:description xml:lang="de">Es ist ein Gerät zur Durchführung von Rettungs- und anderen Notfallmaßnahmen vorgesehen</od:description>
-    <od:description xml:lang="ru">Заранее предусматривается устройство для выполнения спасательных и других аваририйных действий</od:description>
-    <od:description xml:lang="ru">Относительно низкая надежность объекта компенсируется ранее предоставленными средствами.</od:description>
-    <od:hasPrincipleNumber>11</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>11</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>11</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Prevention_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Prevention_2"/>
     <rdfs:label xml:lang="en">Principle of advanced cushion (prevention)</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip des untergelegten Kissens (Prävention)</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип заранее подложенной подушки</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der Prävention</rdfs:label>
+    <rdfs:label xml:lang="de">Vorbeugen</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём заранее подложенной подушки</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Prevention_1">
+    <od:description xml:lang="en">Compensate the relatively low reliability of the object by means previously provided.</od:description>
+    <od:description xml:lang="de">Kompensiere die relativ geringe Zuverlässigkeit des Objektes durch vorher bereitgestellte Hilfsmittel.</od:description>
+    <od:description xml:lang="ru">Относительно низкая надежность объекта компенсируется ранее предоставленными средствами.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Prevention_2">
+    <od:description xml:lang="en">A device is foreseen for performing rescue and other emergency actions.</od:description>
+    <od:description xml:lang="de">Sieh eine Einrichtung zur Durchführung von Rettungs- und anderen Notfallmaßnahmen vor.</od:description>
+    <od:description xml:lang="ru">Заранее предусматривается устройство для выполнения спасательных и других аваририйных действий.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes">
-    <od:description xml:lang="de">Die Felder sind in Kombination mit Ferromangetteilchen zu benutzen.</od:description>
-    <od:description xml:lang="en">Electric, magnetic or electromagnetic fields are to be exploited for an interaction with the object.</od:description>
-    <od:description xml:lang="de">Elektrische, magnetische bzw. elektromagnetische Felder sind für eine Wechselwirkung mit dem Objekt auszunutzen.</od:description>
-    <od:description xml:lang="en">From immovable fields is to moving fields, from constant to change from structureless to structured fields. </od:description>
-    <od:description xml:lang="en">The fields are to be used in combination with ferromagnetic particles.</od:description>
-    <od:description xml:lang="de">Von unbeweglichen Feldern ist zu bewegten Feldern, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Felder überzugehen.</od:description>
-    <od:description xml:lang="ru">Из неподвижных полей - в движущиеся поля, из постоянных перейти от бесструктурных к структурированным полям. </od:description>
-    <od:description xml:lang="ru">Поля должны использоваться в сочетании с ферромагнитными частицами.</od:description>
-    <od:description xml:lang="ru">Электрические, магнитные или электромагнитные поля должны использоваться для взаимодействия с объектом.</od:description>
-    <od:hasPrincipleNumber>28</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>28</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes_3"/>
     <rdfs:label xml:lang="en">Principle of the replacement of mechanical schemes</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip des Austauschs mechanischer Wirkschemata</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип замены механической схемы</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём замены механической схемы</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes_1">
+    <od:description xml:lang="de">Nutze die Felder in Kombination mit Ferromagnetteilchen.</od:description>
+    <od:description xml:lang="en">Use the fields in combination with ferromagnetic particles.</od:description>
+    <od:description xml:lang="ru">Использовать поля в сочетании с ферромагнитными частицами.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes_2">
+    <od:description xml:lang="en">Exploit electric, magnetic or electromagnetic fields for an interaction with the object.</od:description>
+    <od:description xml:lang="de">Nutze elektrische, magnetische bzw. elektromagnetische Felder für eine Wechselwirkung mit dem Objekt.</od:description>
+    <od:description xml:lang="ru">Использовать электрические, магнитные или электромагнитные поля для взаимодействия с объектом.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ReplacementOfMechanicalSchemes_3">
+    <od:description xml:lang="en">Change from immovable fields to moving ones, from constant fields to changing ones, from structureless to structured fields.</od:description>
+    <od:description xml:lang="de">Gehe von unbeweglichen Feldern zu bewegten über, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Feldern.</od:description>
+    <od:description xml:lang="ru">Переходить от неподвижных полей к движущимся, от постоянных к меняющимся, от бесструктурных к структурированным полям.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Rush">
-    <od:description xml:lang="de">Der Prozess oder einzelne seiner Etappen, z. B. schädliche oder gefährliche, sind mit hoher Geschwindigkeit zu durchlaufen.</od:description>
-    <od:description xml:lang="en">The process or any of its stages, such as harmful or dangerous, must be done at high speed.</od:description>
-    <od:description xml:lang="ru">Процесс или любые его стадии, такие как вредные или опасные, должны выполняться с высокой скоростью.</od:description>
-    <od:hasPrincipleNumber>21</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>21</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>21</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Rush_1"/>
     <rdfs:label xml:lang="en">Principle of the rush</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip des Durcheilens</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип проскока</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём проскока</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Rush_1">
+    <od:description xml:lang="de">Der Prozess oder einzelne seiner Etappen, z.B. schädliche oder gefährliche, werden mit hoher Geschwindigkeit durchlaufen.</od:description>
+    <od:description xml:lang="en">The process or any of its stages, such as harmful or dangerous, are done at high speed.</od:description>
+    <od:description xml:lang="ru">Процесс или любые его стадии, как вредные или опасные, должны проходить на большой скорости.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Segmentation">
-    <od:description xml:lang="de">Das Objekt ist in unabhängige, gleiche Teile zu zerlegen.</od:description>
-    <od:description xml:lang="de">Das Objekt ist zerlegbar auszuführen.</od:description>
-    <od:description xml:lang="de">Der Grad der Zerlegung des Objektes ist zu erhöhen.</od:description>
-    <od:description xml:lang="en">The degree of decomposition of the object has to be increased.</od:description>
-    <od:description xml:lang="en">The object is to be dismantled.</od:description>
-    <od:description xml:lang="en">The object is to be divided into independent, equal parts.</od:description>
-    <od:description xml:lang="ru">Объект должен быть разделен на независимые равные части.</od:description>
-    <od:description xml:lang="ru">Объект должен быть разложен.</od:description>
-    <od:description xml:lang="ru">Степень разложения объекта должна быть увеличена.</od:description>
-    <od:hasPrincipleNumber>01</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>01</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>01</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Segmentation_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Segmentation_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Segmentation_3"/>
     <rdfs:label xml:lang="en">Principle of decomposition or segmentation</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Zerlegung bzw. Segmentierung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип дробления</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём дробления</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Segmentation_1">
+    <od:description xml:lang="en">Divide the object into independent, equal parts.</od:description>
+    <od:description xml:lang="de">Zerlege das Objekt in unabhängige, gleiche Teile.</od:description>
+    <od:description xml:lang="ru">Объект должен быть разделен на независимые равные части.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Segmentation_2">
+    <od:description xml:lang="de">Führe das Objekt zerlegbar aus.</od:description>
+    <od:description xml:lang="en">Make the object to be dismantled.</od:description>
+    <od:description xml:lang="ru">Объект должен быть разложен.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Segmentation_3">
+    <od:description xml:lang="de">Erhöhe den Grad der Zerlegung des Objektes.</od:description>
+    <od:description xml:lang="en">Increase the degree of decomposition of the object.</od:description>
+    <od:description xml:lang="ru">Степень разложения объекта должна быть увеличена.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/SelfService">
-    <od:description xml:lang="de">Abprodukte, z. B. Energie und Stoff sind zu nutzen.</od:description>
-    <od:description xml:lang="de">Das Objekt soll sich selbst bedienen sowie Hilfs- und Reparaturmaßnahmen selbst ausführen.</od:description>
-    <od:description xml:lang="en">The object should be self-serving and carry out auxiliary and repair work itself.</od:description>
-    <od:description xml:lang="en">Waste products, eg energy and material are to be used.</od:description>
-    <od:description xml:lang="ru">Должны использоваться отходы, например, энергия и материалы.</od:description>
-    <od:description xml:lang="ru">Объект должен быть самообслуживаемым и сам выполнять вспомогательные и ремонтные работы.</od:description>
-    <od:hasPrincipleNumber>25</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>25</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>25</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/SelfService_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/SelfService_2"/>
     <rdfs:label xml:lang="en">Principle of self-service</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Selbstbedienung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип самообслуживания</rdfs:label>
+    <rdfs:label xml:lang="de">Von-Selbst-Arbeitsweise</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём самообслуживания</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/SelfService_1">
+    <od:description xml:lang="de">Nutze Abprodukte, z. B. Energie und Stoff.</od:description>
+    <od:description xml:lang="en">Use waste products, e.g. energy and material.</od:description>
+    <od:description xml:lang="ru">Использовать отходы, например, энергия и вещество.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/SelfService_2">
+    <od:description xml:lang="de">Das Objekt bedient sich selbst oder führt Hilfs- und Reparaturmaßnahmen selbst aus.</od:description>
+    <od:description xml:lang="en">The object should be self-serving and carry out auxiliary and repair work itself.</od:description>
+    <od:description xml:lang="ru">Объект должен быть самообслуживаемым и сам выполнять вспомогательные и ремонтные работы.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Separation">
-    <od:description xml:lang="en">From the object is the disturbing part to separate the annoying property. </od:description>
-    <od:description xml:lang="de">Im Unterschied zum Prinzip 01, in dem es um die Zerlegung des Objektes in gleiche Teile ging, wird hier vorgeschlagen, das Objekt in unterschiedliche Teile zu zerlegen.</od:description>
-    <od:description xml:lang="en">In contrast to principle 01, which deals with the decomposition of the object into equal parts, it is proposed here to divide the object into different parts.</od:description>
-    <od:description xml:lang="de">Vom Objekt ist das störende Teil, die störende Eigenschaft, abzutrennen.</od:description>
-    <od:description xml:lang="ru">В отличие от принципа 01, который касается разложения объекта на равные части, здесь предлагается разделить объект на разные части.</od:description>
-    <od:description xml:lang="ru">Из объекта отделить мешающую часть с вредным свойством. </od:description>
-    <od:hasPrincipleNumber>02</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>02</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>02</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Separation_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Separation_2"/>
     <rdfs:label xml:lang="en">Principle of separation</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Abtrennung</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип вынесения</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём вынесения</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Separation_1">
+    <od:description xml:lang="en">Remove the disturbing part or property from the object.</od:description>
+    <od:description xml:lang="de">Trenne vom Objekt das störende Teil, die störende Eigenschaft, ab.</od:description>
+    <od:description xml:lang="ru">Из объекта отделить мешающую часть с вредным свойством.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Separation_2">
+    <od:description xml:lang="en">Divide the object into different parts.</od:description>
+    <od:description xml:lang="de">Zerlege das Objekt in unterschiedliche Teile.</od:description>
+    <od:description xml:lang="ru">Предлагается разделить объект на разные части.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful">
-    <od:description xml:lang="en">A harmful factor is to be increased to such an extent that it ceases to be harmful.</od:description>
-    <od:description xml:lang="en">A harmful factor should be eliminated by superimposing it on other harmful factors.</od:description>
-    <od:description xml:lang="de">Ein schädlicher Faktor ist bis zu einem solchen Grade zu verstärken, dass er aufhört, schädlich zu sein.</od:description>
-    <od:description xml:lang="de">Ein schädlicher Faktor ist durch Überlagerung mit anderen schädlichen Faktoren zu beseitigen.</od:description>
-    <od:description xml:lang="en">Harmful Factors - especially the harmful effects of the medium - are to be used for the achievement of a positive effect. </od:description>
-    <od:description xml:lang="de">Schädliche Faktoren – insbesondere die schädliche Einwirkung des Mediums – sind für die Erzielung eines positiven Effektes zu nutzen.</od:description>
-    <od:description xml:lang="ru">Вредные факторы - особенно вредные воздействия среды - должны использоваться для достижения положительного эффекта. </od:description>
-    <od:description xml:lang="ru">Вредный фактор должен быть увеличен до такой степени, что он перестает быть вредным.</od:description>
-    <od:description xml:lang="ru">Вредный фактор следует устранить путем наложения его на другие вредные факторы.</od:description>
-    <od:hasPrincipleNumber>22</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>22</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>22</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful_3"/>
     <rdfs:label xml:lang="en">Principle of Transformation of Harmful into Useful</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Umwandlung von Schädlichem in Nützliches</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип превращения вредного в полезное</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём превращения вредного в полезное</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful_1">
+    <od:description xml:lang="en">Increase a harmful factor to such an extent that it ceases to be harmful.</od:description>
+    <od:description xml:lang="de">Verstärke einen schädlichen Faktor bis zu einem solchen Grade, dass er aufhört, schädlich zu sein.</od:description>
+    <od:description xml:lang="ru">Вредный фактор должен быть увеличен до такой степени, пока он перестает быть вредным.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful_2">
+    <od:description xml:lang="de">Beseitige einen schädlichen Faktor durch Überlagerung mit anderen schädlichen Faktoren.</od:description>
+    <od:description xml:lang="en">Eliminate a harmful factor by superimposing it on other harmful factors.</od:description>
+    <od:description xml:lang="ru">Вредный фактор следует устранить путем наложения его на другие вредные факторы.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransformationOfHarmfulIntoUseful_3">
+    <od:description xml:lang="de">Nutze schädliche Faktoren – insbesondere die schädliche Einwirkung des Mediums – für die Erzielung eines positiven Effektes.</od:description>
+    <od:description xml:lang="en">Use harmful Factors - especially the harmful effects of the medium - for the achievement of a positive effect.</od:description>
+    <od:description xml:lang="ru">Вредные факторы - особенно вредные воздействия среды - должны использоваться для достижения положительного эффекта.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension">
-    <od:description xml:lang="de">Das Objekt ist geneigt aufzustellen.</od:description>
-    <od:description xml:lang="de">Die Rückseite des gegebenen Objektes ist auszunutzen.</od:description>
-    <od:description xml:lang="en">Difficulties resulting from binding an object's motion to a line are eliminated when the object is the object The possibility of moving in two dimensions, that is, in one plane, is also eliminated, as are the difficulties associated with the movement of objects on a plane in the transition to three-dimensional space. </od:description>
-    <od:description xml:lang="en">Instead of arrangement in only a layer arranges objects in multiple layers. </od:description>
-    <od:description xml:lang="de">Schwierigkeiten, die aus der Bindung der Bewegung eines Objektes an eine Linie resultieren, werden beseitigt, wenn das Objekt die Möglichkeit erhält, sich in zwei Dimensionen, d. h. in einer Ebene, zu bewegen. Analog werden auch die Schwierigkeiten, die mit der Bewegung von Objekten auf einer Ebene verbunden sind, beim Übergang zum dreidimensionalen Raum beseitigt.</od:description>
-    <od:description xml:lang="de">Statt Anordnung in nur einer Ebene werden Objekte in mehreren Ebenen angeordnet.</od:description>
-    <od:description xml:lang="en">The back of the given object is to be exploited.</od:description>
-    <od:description xml:lang="en">The object is inclined to be placed.</od:description>
-    <od:description xml:lang="ru">Вместо размещения только в слой размещает объекты в нескольких слоях. </od:description>
-    <od:description xml:lang="ru">Задняя часть данного объекта должна эксплуатироваться.</od:description>
-    <od:description xml:lang="ru">Объект склонен к размещению.</od:description>
-    <od:description xml:lang="ru">Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект является объектом Также исключается возможность перемещения в двух измерениях, то есть в одной плоскости, а также трудности, связанные с перемещением объектов на плоскости при переходе в трехмерное пространство. </od:description>
-    <od:hasPrincipleNumber>17</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>17</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_3"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_4"/>
     <rdfs:label xml:lang="en">Principle of transition to another dimension</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip des Übergangs zu anderen Dimensionen</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип перехода в другое измерение</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip des Übergangs in eine andere Dimension</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём перехода в другое измерение</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_1">
+    <od:description xml:lang="en">Instead of arrangement in only a layer arrange objects in multiple layers. </od:description>
+    <od:description xml:lang="de">Ordne die Objekte statt in nur einer Ebene in mehreren Ebenen angeordnet.</od:description>
+    <od:description xml:lang="ru">Вместо размещения только в один слой размещать объекты в нескольких слоях.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_2">
+    <od:description xml:lang="de">Stelle das Objekt geneigt auf.</od:description>
+    <od:description xml:lang="en">The object is inclined to be placed.</od:description>
+    <od:description xml:lang="ru">Объект размещать склонным образом.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_3">
+    <od:description xml:lang="en">Exploit the back of the given object.</od:description>
+    <od:description xml:lang="de">Nutze die Rückseite des gegebenen Objektes aus.</od:description>
+    <od:description xml:lang="ru">Использовать обратную сторону данного объекта.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/TransitionToAnotherDimension_4">
+    <od:description xml:lang="de">Bei Schwierigkeiten der Bewegung eines Objektes längs einer Linie gehe zu zwei Dimensionen über, d.h. bewege es in einer Ebene. Analog werden Schwierigkeiten einer zweidimensionalen Bewegung von Objekten durch Übergang zum dreidimensionalen Raum beseitigt.</od:description>
+    <od:description xml:lang="en">Difficulties from object's motion on a line are eliminated when the object moves in two dimensions. Difficulties associated with the movement of objects on a plane are eliminated by the transition to three-dimensional space.</od:description>
+    <od:description xml:lang="ru">Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект перемещается в двух измерениях, то есть в плоскости. Трудности, связанные с перемещением объектов на плоскости устраняются при переходе в трехмерное пространство.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/Universality">
-    <od:description xml:lang="de">Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden.</od:description>
-    <od:description xml:lang="en">The object fulfills several different functions, which makes additional separate objects superfluous.</od:description>
-    <od:description xml:lang="ru">Объект выполняет несколько различных функций, что делает ненужными дополнительные отдельные объекты.</od:description>
-    <od:hasPrincipleNumber>06</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>06</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>06</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Universality_1"/>
+    <rdfs:label xml:lang="de">Mehrzwecknutzung</rdfs:label>
     <rdfs:label xml:lang="en">Principle of universality</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Universalität</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип универсальности</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём универсальности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Universality_1">
+    <od:description xml:lang="de">Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden.</od:description>
+    <od:description xml:lang="en">The object fulfills several different functions, which makes additional separate objects superfluous.</od:description>
+    <od:description xml:lang="ru">Объект выполняет несколько различных функций, что делает ненужными дополнительные объекты.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/UseFlexibleEnvelopesAndThinFoils">
-    <od:description xml:lang="de">Anstelle der üblichen Konstruktionen sind biegsame Hüllen und dünne Folien zu benutzen.</od:description>
-    <od:description xml:lang="de">Das Objekt ist mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium zu isolieren.</od:description>
-    <od:description xml:lang="en">Instead of the usual constructions, flexible sheaths and thin foils are to be used.</od:description>
-    <od:description xml:lang="en">The object should be isolated from the surrounding medium by means of flexible sheaths and thin foil.</od:description>
-    <od:description xml:lang="ru">Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие фольги.</od:description>
-    <od:description xml:lang="ru">Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой фольги.</od:description>
-    <od:hasPrincipleNumber>30</od:hasPrincipleNumber>
+    <od:hasAltshuller73Id>30</od:hasAltshuller73Id>
+    <od:hasAltshuller84Id>30</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/UseFlexibleEnvelopesAndThinFoils_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/UseFlexibleEnvelopesAndThinFoils_2"/>
     <rdfs:label xml:lang="en">Principle of using flexible envelopes and thin foils</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Anwendung biegsamer Hüllen und dünner Folien</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип использования гибких оболочек и тонких плёнок</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём использования гибких оболочек и тонких плёнок</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UseFlexibleEnvelopesAndThinFoils_1">
+    <od:description xml:lang="en">Use flexible envelopes and thin foils instead of the usual constructions.</od:description>
+    <od:description xml:lang="de">Verwende biegsame Hüllen und dünne Folien statt der üblichen Konstruktionen.</od:description>
+    <od:description xml:lang="ru">Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие плёнки.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UseFlexibleEnvelopesAndThinFoils_2">
+    <od:description xml:lang="en">Isolate the object from the surrounding medium by means of flexible envelopes and thin foil.</od:description>
+    <od:description xml:lang="de">Isoliere das Objekt mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium.</od:description>
+    <od:description xml:lang="ru">Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой плёнки.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/UseInertMedium">
-    <od:description xml:lang="de">Das übliche Medium ist durch ein reaktionsträgeres zu ersehtzen.</od:description>
-    <od:description xml:lang="de">Der Prozess ist im Vakuum durchzuführen.</od:description>
-    <od:description xml:lang="en">The process must be carried out in a vacuum.</od:description>
-    <od:description xml:lang="en">The usual medium is to be found by a reaction-carrier.</od:description>
-    <od:description xml:lang="ru">Обычная среда должна быть найдена носителем реакции.</od:description>
-    <od:description xml:lang="ru">Процесс должен проводиться в вакууме.</od:description>
-    <od:hasPrincipleNumber>39</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>39</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/UseInertMedium_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/UseInertMedium_2"/>
     <rdfs:label xml:lang="en">Principle of using an inert medium</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Verwendung eines inerten Mediums</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип применения инертной среды</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём применения инертной среды</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UseInertMedium_1">
+    <od:description xml:lang="de">Ersetze das übliche Medium durch ein reaktionsträgeres.</od:description>
+    <od:description xml:lang="en">Replace the usual medium by a less responsive one.</od:description>
+    <od:description xml:lang="ru">Обычную среду заменить на более инертную.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UseInertMedium_2">
+    <od:description xml:lang="en">Carry out the process in a vacuum.</od:description>
+    <od:description xml:lang="de">Führe den Prozess im Vakuum durch.</od:description>
+    <od:description xml:lang="ru">Процесс должен проводиться в вакууме.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials">
-    <od:description xml:lang="de">Das Objekt ist porös auszuführen, oder es sind zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.) zu benutzen.</od:description>
-    <od:description xml:lang="en">If the object is already porous, fill the pores with a suitable cloth.</od:description>
-    <od:description xml:lang="en">The object should be porous, or additional porous elements (inserts, coatings, etc.) should be used.</od:description>
-    <od:description xml:lang="de">Wenn das Objekt bereits porös ausgeführt ist, sind die Poren mit einem geeigneten Stoff zu füllen.</od:description>
-    <od:description xml:lang="ru">Если объект уже пористый, заполните поры подходящей тканью.</od:description>
-    <od:description xml:lang="ru">Объект должен быть пористым, или следует использовать дополнительные пористые элементы (вставки, покрытия и т. д.).</od:description>
-    <od:hasPrincipleNumber>31</od:hasPrincipleNumber>
+    <od:hasAltshuller84Id>31</od:hasAltshuller84Id>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_2"/>
     <rdfs:label xml:lang="en">Principle of using porous materials</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Verwendung poröser Werkstoffe</rdfs:label>
-    <rdfs:label xml:lang="ru">Принцип использования пористых материалов</rdfs:label>
+    <rdfs:label xml:lang="ru">Приём использования пористых материалов</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_1">
+    <od:description xml:lang="en">For observing poorly visible objects or processes, use coloring additives.</od:description>
+    <od:description xml:lang="de">Führe das Objekt porös aus, oder benutze zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.).</od:description>
+    <od:description xml:lang="de">Nutze färbende Zuschläge zur Beobachtung schlecht sichtbarer Objekte oder Prozesse.</od:description>
+    <od:description xml:lang="en">The object should be porous, or additional porous elements (inserts, coatings, etc.) should be used.</od:description>
+    <od:description xml:lang="ru">Для наблюдения плохо видимых предметов или процессов используйте красящие добавки.</od:description>
+    <od:description xml:lang="ru">Объект должен быть пористым, или следует использовать дополнительные пористые элементы (вставки, покрытия и т. д.).</od:description>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#Recommendation"/>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_2">
+    <od:description xml:lang="en">Change the degree of transparency of the object or the surrounding medium.</od:description>
+    <od:description xml:lang="en">If the object is already porous, fill the pores with a suitable substance.</od:description>
+    <od:description xml:lang="de">Verändere den Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums.</od:description>
+    <od:description xml:lang="de">Wenn das Objekt bereits porös ausgeführt ist, fülle die Poren mit einem geeigneten Stoff.</od:description>
+    <od:description xml:lang="ru">Если объект уже пористый, заполните поры подходящим веществом.</od:description>
+    <od:description xml:lang="ru">Степень прозрачности объекта или окружающей среды должна быть изменена.</od:description>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#Recommendation"/>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_3">
+    <od:description xml:lang="en">Change the color of the object or the surrounding medium.</od:description>
+    <od:description xml:lang="de">Verändere die Farbe des Objektes oder des umgebenden Mediums.</od:description>
+    <od:description xml:lang="ru">Цвет объекта или окружающей среды должны быть изменены.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_4">
+    <od:description xml:lang="en">If such conditions are already applied, use flourescent material.</od:description>
+    <od:description xml:lang="de">Wenn solche Bedingungen bereits angewandt werden, setze Leuchtstoffe ein.</od:description>
+    <od:description xml:lang="ru">Если такие условия уже применяются, используйте люминофоры.</od:description>
+  </od:Recommendation>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/ThePrinciples/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
@@ -528,6 +820,7 @@
     <rdfs:comment>2019-10-05 graebe: A first raw translation to Russian and English added</rdfs:comment>
     <rdfs:comment>2020-01-12 graebe: Adjustment of the German terms with (Koltze/Souchkov 2017)</rdfs:comment>
     <rdfs:comment>2020-04-16 graebe: namespace abbreviation and principle names fixed</rdfs:comment>
+    <rdfs:comment>2020-07-12 graebe: od:hasRecommendation split off, Altshuller73 Ids added</rdfs:comment>
     <rdfs:label>TRIZ Database - The 40 Principles</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

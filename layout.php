@@ -37,6 +37,7 @@ function pageNavbar() {
             <li><a href="index.php">Home</a></li> 
             <li><a href="people.php">People</a></li>
             <li><a href="books.php">Books</a></li>
+            <li><a href="tbk.php">TRIZ Body of Knowledge</a></li>
             <li><a href="conferences.php">Past Conferences</a></li>
             <li><a href="presentations.php">TRIZ Presentations</a></li>
             <li><a href="glossary.php">TRIZ Glossary</a></li>

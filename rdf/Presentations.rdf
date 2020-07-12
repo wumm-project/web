@@ -84,6 +84,17 @@
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <dcterms:title xml:lang="en">VCM (Value-Conflict Mapping)</dcterms:title>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Kuryan-20200422">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=lZGlOoahpvc"/>
+    <dcterms:abstract xml:lang="en">MakeSense Podcast</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_A"/>
+    <dcterms:extent>00:55:43 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-04-22</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Youtube Standard License</dcterms:rights>
+    <dcterms:title xml:lang="ru">О развитии систем, работе с требованиями и применении ТРИЗ в бизнесе с Андреем Курьяном</dcterms:title>
+  </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Litvin-20171101">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=BPpTNC2QOh0"/>
     <dcterms:abstract xml:lang="en">Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions).</dcterms:abstract>
@@ -261,6 +272,18 @@
     <dcterms:rights>Youtube Standard License</dcterms:rights>
     <dcterms:title xml:lang="en">Webinar TRIZ for problem solution in business and management</dcterms:title>
     <dcterms:title xml:lang="ru">Вебинар ТРИЗ для решения проблем в бизнесе и менеджменте</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20200630">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=vLpgLkx57ts"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:extent>01:01:20 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-06-30</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Youtube Standard License</dcterms:rights>
+    <dcterms:title xml:lang="en">Where is TRIZ going?</dcterms:title>
+    <dcterms:title xml:lang="ru">Куда идёт ТРИЗ?</dcterms:title>
     <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
   </od:Presentation>
 </rdf:RDF>

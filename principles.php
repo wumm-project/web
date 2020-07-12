@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-04
+ * last update: 2020-07-12
  */
 
 require_once 'lib/EasyRdf.php';
@@ -19,16 +19,14 @@ function thePrinciples($input)
     $res = $graph->allOfType('od:Principle');
     foreach ($res as $concept) {
         $name=str_replace("http://opendiscovery.org/rdf/Principle/","",$concept->getUri());
-        $nr=$concept->get("od:hasPrincipleNumber");
+        $nr=$concept->get("od:hasAltshuller84Id");
         $out="<h3> Principle $nr: $name </h3>";
         $out.="<h4>".showLanguage($concept->all("rdfs:label"),"<br/>")."</h4>";
-        $out.="<h4>Description</h4>".showLanguage($concept->all("od:description"),"<br/>");
-        if ($concept->all("skos:note")) {
-            $out.="<h4>Notes</h4>".showLanguage($concept->all("od:note"),"<br/>");
+        $b=array();
+        foreach ($concept->all("od:hasRecommendation") as $v) {
+            $b[]=showLanguage($v->all("od:description"),"<br/>");
         }
-        if ($concept->all("rdfs:comment")) {
-            $out.="<h4>Comment</h4>".showLanguage($concept->all("rdfs:comment"),"<br/>");
-        }
+        $out.="<h4>Recommendations</h4><p>".join("</p><p>",$b)."</p>";
         if ($nr>0) { $a["$nr"]="<div>\n$out\n</div>\n"; }
     }
     ksort($a);
@@ -38,6 +36,8 @@ function thePrinciples($input)
 </div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
 }
+
+
 
 echo showpage(thePrinciples("rdf/Principles.rdf"));
 
