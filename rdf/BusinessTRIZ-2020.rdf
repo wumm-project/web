@@ -12,85 +12,90 @@
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/General">
     <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
     <rdfs:label>Business TRIZ Online 2020</rdfs:label>
-    <ical:description>Business TRIZ Online 2020</ical:description>
+    <ical:description xml:lang="ru">Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+
+Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления.</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-24</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-23</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. </ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/news/2-uncategorised/32-2020.html"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_101">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
     <dcterms:title xml:lang="ru">Вопросы, которые мы выбираем</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_102">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Bezdel_ZV"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Dichenko_SA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bezdel_ZV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dichenko_SA"/>
     <dcterms:title xml:lang="ru">Как прототипирование ТРИЗ-решения помогает справиться со страхом неудачи и создать по-настоящему востребованный продукт</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_103">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
     <dcterms:title xml:lang="ru">Множественность решений на выходе - ДОБРО или ЗЛО?</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_104">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Pasiuta_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pasiuta_A"/>
     <dcterms:title xml:lang="ru">ТРИЗ + Фасилитация: решаем технические и другие задачи с помощью обучения</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_105">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Chernych_N"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Lukash_A"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Orlyanskaya_A"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chernych_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lukash_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orlyanskaya_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
     <dcterms:title xml:lang="ru">Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_106">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Shironosov_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shironosov_D"/>
     <dcterms:title xml:lang="ru">Компания Everypixel: наша история знакомства с ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_107">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Eckardt_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Eckardt_O"/>
     <dcterms:title xml:lang="ru">Ошибки внедрения ТРИЗ в бизнес среде</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_108">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Pokalo_E"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pokalo_E"/>
     <dcterms:title xml:lang="ru">Особенности и опыт организации изучения ТРИЗ в онлайн-формате</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_109">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Bystritskiy_A"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritskiy_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_V"/>
     <dcterms:title xml:lang="ru">Методика формулирования технического задания на модернизацию бизнеса</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_110">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
     <dcterms:title xml:lang="ru">Цели и способы формулирования противоречий в организационно-управленческих задачах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_111">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Trostyanski_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Trostyanski_A"/>
     <dcterms:title xml:lang="ru">Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_112">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
     <dcterms:title xml:lang="ru">Опыт продвижения ТРИЗ: что точно не стоит делать.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_113">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:title xml:lang="ru">Управления инновациями с позиций ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_114">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
     <dcterms:title xml:lang="ru">Особенности применения АИПС к бизнес-задачам</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_115">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
     <dcterms:title xml:lang="ru">Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_116">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
     <dcterms:title xml:lang="ru">Система стандартных изобретательских решений в бизнесе и управлении</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_117">
-    <dcterms:contributor rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
     <dcterms:title xml:lang="ru">Основные ошибки в применении инструментов при освоении ТРИЗ</dcterms:title>
   </od:Talk>
 </rdf:RDF>
