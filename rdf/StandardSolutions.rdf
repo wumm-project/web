@@ -8,15 +8,6 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Standard/">
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/76-Standards/">
-    <cc:attributionName>The Open Discovery Project</cc:attributionName>
-    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
-    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-    <dcterms:source rdf:resource="http://triz-online.de/index.php?id=5577"/>
-    <rdfs:comment>2019-07-06 graebe: Extracted and transformed from the source</rdfs:comment>
-    <rdfs:comment>2019-07-08 graebe: english and russian versions added</rdfs:comment>
-    <rdfs:label>TRIZ Database - The 76 Standard Solutions</rdfs:label>
-  </owl:Ontology>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_0">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
@@ -438,8 +429,8 @@
     <skos:example xml:lang="de">Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt.</skos:example>
     <skos:example xml:lang="ru">Для обработки краев тонких стеклянных пластин несколько пластин складываются вместе, образуя устойчивую стопку.</skos:example>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
-    <skos:prefLabel xml:lang="en">Combine Systems with Bi- and Poly Systems</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Kombiniere Systeme zu Bi- und Poly-Systemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Combine Systems with Bi- and Poly Systems in the Supersystem</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kombiniere Systeme zu Bi- und Poly-Systemen im Obersystem</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Объединение систем с двух- и поли-системами</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3.1.2">
@@ -494,6 +485,7 @@
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
     <skos:prefLabel xml:lang="de">Miniaturisiere Komponenten oder ganze Systeme</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Miniaturize components or whole systems</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Übergang zum Mikrolevel</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Миниатюризация компонентов или целых систем</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4">
@@ -799,8 +791,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
-    <skos:prefLabel xml:lang="en">Change the state of matter or the phase of substances</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Verändere den Aggregatzustand oder die Phase von Stoffen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Change the state of matter or the phase of a part of the system or supersystem</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Verändere den Aggregatzustand oder die Phase von Teilen des Systems oder Obersystems</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Изменение состояния вещества или фазы веществ</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.2">
@@ -810,8 +802,8 @@
     <skos:example xml:lang="en">Water and ice together fix the temperature at exactly 0 ° Celsius.</skos:example>
     <skos:example xml:lang="ru">Вода и лед вместе устанавливают температуру ровно 0 ° по Цельсию.</skos:example>
     <skos:inScheme rdf:resource="http://opendiscovery.org/rdf/Standard/theTRIZStandards"/>
-    <skos:prefLabel xml:lang="de">Nutze zwei Aggregatzustände oder Phasen eines Stoffes</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Use two states of matter or phases of a substance</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nutze verschiedene Aggregatzustände oder Phasen eines Stoffes in Abhängigkeit von den Arbeitsbedingungen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use different states of matter or phases of a substance depending on the working conditions</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Использовать два состояния вещества или фазы вещества</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.3.3">
@@ -903,4 +895,13 @@
   <skos:ConceptScheme rdf:about="http://opendiscovery.org/rdf/Standard/theTRIZStandards">
     <skos:prefLabel xml:lang="de">The 76 TRIZ Standards</skos:prefLabel>
   </skos:ConceptScheme>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/StandardSolutions/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dcterms:source rdf:resource="http://triz-online.de/index.php?id=5577"/>
+    <rdfs:comment>2019-07-06 graebe: Extracted and transformed from the source</rdfs:comment>
+    <rdfs:comment>2019-07-08 graebe: english and russian versions added</rdfs:comment>
+    <rdfs:label>TRIZ Database - The 76 Standard Solutions</rdfs:label>
+  </owl:Ontology>
 </rdf:RDF>

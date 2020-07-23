@@ -7,32 +7,44 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/Business-TRIZ-2020/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BusinessTRIZ-2020.rdf"/>
+    <rdfs:label>Business TRIZ Online 2020</rdfs:label>
+    <ical:description xml:lang="ru">Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+
+Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления.</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-24</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-23</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. </ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/news/2-uncategorised/32-2020.html"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2001/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2001</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2001</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-09</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-11-07</ical:dtstart>
     <ical:location>Bath University, Bath, UK</ical:location>
+    <ical:summary>World Conference TRIZ Future 2001</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2002/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2002/eETRIACon2002.html"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2002</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2002</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-11-08</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-11-06</ical:dtstart>
     <ical:location>Strasbourg, France</ical:location>
+    <ical:summary>World Conference TRIZ Future 2002</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2003/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2003/eETRIACon2003.html"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2003</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2003</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-11-14</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-11-12</ical:dtstart>
     <ical:location>Aachen, Germany</ical:location>
+    <ical:summary>World Conference TRIZ Future 2003</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2004/">
     <od:hasReports rdf:resource="http://etria.eu/documents/About_ETRIAs_TRIZ_Future_conference2004.pdf"/>
@@ -41,20 +53,20 @@
     <od:theFotos rdf:resource="http://etria.eu/img/TFC2004/"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2004</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2004</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-11-05</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-11-02</ical:dtstart>
     <ical:location>Univercity of Florence, Florence, Italy</ical:location>
+    <ical:summary>World Conference TRIZ Future 2004</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2005/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2005Forum/eETRIATFC2005Rep/eETRIATFC2005Rep051227.html"/>
     <od:theFotos rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/100"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2005</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2005</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-11-18</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-11-16</ical:dtstart>
     <ical:location>Graz, Austria</ical:location>
+    <ical:summary>World Conference TRIZ Future 2005</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2006/">
     <od:hasReports rdf:resource="http://etria.eu/documents/AboutTRIZFutureConference2006.pdf"/>
@@ -63,10 +75,10 @@
     <od:theFotos rdf:resource="http://etria.eu/img/TFC2006/"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2006</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2006</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-11</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-09</ical:dtstart>
     <ical:location>Kortrijk, Belgium</ical:location>
+    <ical:summary>World Conference TRIZ Future 2006</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2007/">
     <od:hasReports rdf:resource="http://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2007Forum/eETRIATFC2007Rep/eETRIATFC2007TNRep.html"/>
@@ -74,10 +86,10 @@
     <od:theProceedings rdf:resource="http://etria.eu/portal/index.php/conference-proceedings-usermenu-58"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2007</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2007</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-08</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-06</ical:dtstart>
     <ical:location>Frankfurt am Main, Germany</ical:location>
+    <ical:summary>World Conference TRIZ Future 2007</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2008/">
     <od:hasReports rdf:resource="http://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2008Forum/eETRIATFC2008Rep/eETRIATFC2008TNRep.html"/>
@@ -87,26 +99,26 @@
     <od:theFotos rdf:resource="http://etria.eu/img/TFC2008/"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2008</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2008</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-07</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-05</ical:dtstart>
     <ical:location>University of Twente, Enschede, The Netherlands</ical:location>
+    <ical:summary>World Conference TRIZ Future 2008</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2009/">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2009</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2009</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-06</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-04</ical:dtstart>
     <ical:location>Politehnical University, Timisoara, Romania</ical:location>
+    <ical:summary>World Conference TRIZ Future 2009</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2011/">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2011</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2011</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-04</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-02</ical:dtstart>
     <ical:location>Institute of Technology Tallaght, Dublin, Ireland</ical:location>
+    <ical:summary>World Conference TRIZ Future 2011</ical:summary>
     <ical:url rdf:resource="http://etria.eu/documents/TFC2011_Keynotes.pdf"/>
     <ical:url rdf:resource="http://etria.eu/documents/TFC2011_Program.pdf"/>
     <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/109"/>
@@ -114,10 +126,10 @@
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2012/">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2012</rdfs:label>
-    <ical:description>World Conference TRIZ Future 2012</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-26</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-24</ical:dtstart>
     <ical:location>New University of Lisbon, Lisbon, Portugal</ical:location>
+    <ical:summary>World Conference TRIZ Future 2012</ical:summary>
     <ical:url rdf:resource="http://etria.eu/documents/TFC2012_Program.pdf"/>
     <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/101"/>
     <ical:url rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/97"/>
@@ -126,82 +138,82 @@
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2013/">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2013</rdfs:label>
-    <ical:description>ETRIA’s TRIZ Future Conference 2013 took place in Paris, France on the 29th–31st October
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-31</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-29</ical:dtstart>
+    <ical:location>Ecole Nationale d'Arts et Métiers, Paris, France</ical:location>
+    <ical:summary>ETRIA’s TRIZ Future Conference 2013 took place in Paris, France on the 29th–31st October
 2013. The Conference was organized by the Ecole Nationale d'Arts et Métiers (Arts &amp; Métiers
 ParisTech) of Paris, ETRIA - The European TRIZ association, and was sponsored by CIRP, the
 international Academy for Production Engineering. The conference gathered about 140
 registered participants. The Conference featured 3 tutorials and 79 presentations in total
-including keynote talks and presentations at plenary sessions. </ical:description>
-    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-31</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-10-29</ical:dtstart>
-    <ical:location>Ecole Nationale d'Arts et Métiers, Paris, France</ical:location>
+including keynote talks and presentations at plenary sessions. </ical:summary>
     <ical:url rdf:resource="http://xtriz.blogspot.com/2014/02/etria-world-conference-triz-future-2013.html"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2014/">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2014</rdfs:label>
-    <ical:description>ETRIA World Conference TRIZ Future 2014</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-31</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-29</ical:dtstart>
     <ical:location>Lausanne, Switzerland</ical:location>
+    <ical:summary>ETRIA World Conference TRIZ Future 2014</ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2015/">
     <od:theProceedings rdf:resource="http://www.sciencedirect.com/science/journal/22128271/39/supp/C"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2015</rdfs:label>
-    <ical:description>ETRIA World Conference TRIZ Future 2015. Creating Value for Customers and Society</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-29</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-26</ical:dtstart>
     <ical:location>Berlin, Germany</ical:location>
+    <ical:summary>ETRIA World Conference TRIZ Future 2015. Creating Value for Customers and Society</ical:summary>
     <ical:url rdf:resource="https://www.tfc2015.com/"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2016/">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2016</rdfs:label>
-    <ical:description>ETRIA World Conference TRIZ Future 2016</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-10-27</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-10-24</ical:dtstart>
     <ical:location>Wroclaw, Poland</ical:location>
+    <ical:summary>ETRIA World Conference TRIZ Future 2016</ical:summary>
     <ical:url rdf:resource="http://innovento.pl/triz-future-2016/"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2017/">
     <od:theProceedings rdf:resource="http://www.etria.eu/innovator/ETRIAjournal2017vol04.pdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2017</rdfs:label>
-    <ical:description>ETRIA World Conference TRIZ Future 2017. Bridging creativity in science, entrepreneurship, industry and education</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-06</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-04</ical:dtstart>
     <ical:location>Lappeenranta, Finland</ical:location>
+    <ical:summary>ETRIA World Conference TRIZ Future 2017. Bridging creativity in science, entrepreneurship, industry and education</ical:summary>
     <ical:url rdf:resource="http://www.lut.fi/web/en/tfc2017"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2018/">
     <od:theProceedings rdf:resource="https://link.springer.com/book/10.1007/978-3-030-02456-7"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2018</rdfs:label>
-    <ical:description>ETRIA World Conference TRIZ Future 2018</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-31</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-29</ical:dtstart>
     <ical:location>INSA, Strasbourg, France</ical:location>
+    <ical:summary>ETRIA World Conference TRIZ Future 2018</ical:summary>
     <ical:url rdf:resource="http://tfc2018.fr"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2019/">
     <od:theProceedings rdf:resource="https://link.springer.com/book/10.1007/978-3-030-32497-1"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2019</rdfs:label>
-    <ical:description>ETRIA World Conference TRIZ Future 2019. New opportunities for innovation breakthroughs for developing countries and emerging economies</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-11</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-09</ical:dtstart>
     <ical:location>Marrakesh, Morocco</ical:location>
+    <ical:summary>ETRIA World Conference TRIZ Future 2019. New opportunities for innovation breakthroughs for developing countries and emerging economies</ical:summary>
     <ical:url rdf:resource="http://tfc19.ovh"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2007/">
     <od:theProceedings rdf:resource="https://www.trizland.ru/trizba/pdf-books/TRIZ-summit2007.pdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
     <rdfs:label>TRIZ Summit 2007</rdfs:label>
-    <ical:description>TRIZ Summit 2007</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-08</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-07</ical:dtstart>
     <ical:location>Moscow, Russia</ical:location>
+    <ical:summary>TRIZ Summit 2007</ical:summary>
     <ical:url rdf:resource="https://triz-summit.ru/en/conference/203453/"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/">
@@ -209,10 +221,10 @@ including keynote talks and presentations at plenary sessions. </ical:descriptio
     <od:theFotos rdf:resource="http://www.metodolog.ru/01062/01062.html"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
     <rdfs:label>TRIZ Summit 2019</rdfs:label>
-    <ical:description>TRIZ Summit 2019</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-15</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-13</ical:dtstart>
     <ical:location>EPAM, Minsk, Belarus</ical:location>
+    <ical:summary>TRIZ Summit 2019</ical:summary>
     <ical:url rdf:resource="https://communities.by/events/triz-summit-2019-ru"/>
   </swc:ConferenceEvent>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/PastConferences/">

@@ -18,6 +18,7 @@ function setNamespaces() {
 
 function theEvent($v,$graph) {
     $label=$v->get("rdfs:label");
+    $summary=$v->get("ical:summary");
     $description=$v->get("ical:description");
     $start=$v->get("ical:dtstart");
     $end=$v->get("ical:dtend");
@@ -39,6 +40,9 @@ function theEvent($v,$graph) {
     }
     if ($location) { 
         $out.='<li><strong>Location: </strong>'.$location.'</li>';
+    }
+    if ($summary) { 
+        $out.='<li><strong>Summary: </strong>'.$summary.'</li>';
     }
     if ($description) { 
         $out.='<li><strong>Description: </strong>'.$description.'</li>';
@@ -68,8 +72,7 @@ function theEvent($v,$graph) {
 ';
 }
 
-function abstracts($src,$graph) 
-{
+function abstracts($src,$graph) {
     $graph->parseFile($src);
     $out='';
     $res = $graph->allOfType('swc:ConferenceEvent');
