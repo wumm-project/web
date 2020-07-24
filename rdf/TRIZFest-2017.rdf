@@ -11,6 +11,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/General">
+    <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
     <bibo:isbn>978-0-692-52418-3</bibo:isbn>
     <bibo:issn>2374-2275</bibo:issn>
@@ -28,26 +29,22 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_102">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lok_A"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>A simple way to perform ceca and generate ideas in practice</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_103">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chybowski_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gawdzinska_K"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Przetakiewicz_W"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>A hp-based multi-criteria function analysis as a TRIZ tool for complex technical systems</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_104">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Liu_MY"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>An improvement for existing function approach</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_105">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boika_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ogievich_D"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Application of TRIZ in business systems</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_106">
@@ -55,30 +52,25 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lui_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lui_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_XL"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Application of TRIZ in ultrasonic brazing quality</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_107">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Leleito_E"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nishiyama_K"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Application of TRIZ to research communication skill development</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_108">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hammer_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kiesel_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Applying TRIZ to improve lean product lifecycle management processes</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_109">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Palcak_F"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Become user of TRIZ tools instead of to play hide and seek</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_110">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jazwiecki_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zaleski_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Closing the knowledge gaps</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_111">
@@ -86,24 +78,20 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nowak_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Platek_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stryken_E"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Combining the morphological analysis with TRIZ: the industrial use case</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_112">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dongyan_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Houcheng_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ying_Z"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Construction of innovative ecological environment of college students based on TRIZ theory</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_113">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Obojski_J"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>DFMA and trimming. A comparison of two systematic approaches for simplification of design. Floating squiring toy - case study.</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_114">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_S"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Enhancing statistical design of experiments with TRIZ and vice – versa</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_115">
@@ -115,121 +103,99 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Seo_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Son_DI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_MJ"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Evolution map based in advance invention, process and case studies</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_116">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>From problem to objective – complementing TRIZ with NLP</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_117">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tsourikov_VM"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Generative inventions</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_118">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Narayan_PV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rajan_S"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>“How to administer TRIZ?” – Experiences in introducing TRIZ</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_119">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sirdar_K"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>How theory of inventive problem solving(TRIZ) can be implemented to automotive industry in the example of Jaguar land rover?</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_120">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naether_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schmidt_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_C"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Hybridization of DFSS- and TRIZ-modeling methods within an innovation oriented DFSS-framework</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_121">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Increased addressing of human senses as a trend</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_122">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_YW"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Initial disadvantages identification</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_123">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lyubomirskiy_AL"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Integral S-curve analysis</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_124">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Halas_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Is TRIZ easy, or not?</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_125">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bertoncelli_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Papini_F"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Mapping TRIZ principles to electromechanical conversion applications</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_126">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Modern TRIZ and the concept of antifragility. Friends, enemies or frenemies?</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_127">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lok_A"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>MPV-based engineering system evolution</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_128">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Savelli_S"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Nature as a source of function-leading areas for FOS-derived solutions</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_129">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Online TRIZ training: experience with development and delivery</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_130">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Open innovation: TRIZ approach vs. crowd sourcing</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_131">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Villarroe_JRE"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Open TRIZ second wave. TRIZ &amp; toc tool</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_132">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wozniak_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Opportunities from integrating TRIZ and IT project management for alignment IT-business</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_133">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Optical contradictions in TRIZ: a review</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_134">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Quantitative approach to cause-effect chains analysis</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_135">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Report on the 2nd european remote TRIZ workshop</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_136">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dongyan_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Houcheng_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ying_Z"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Research on TRIZ integrated FBS - a representation</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_137">
@@ -237,30 +203,25 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hiltmann_K"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Huber_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_C"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Standard VDI 4521 part 3: inventive problem solving with TRIZ: problem solution</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_138">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_JH"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_JY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yeo_HS"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Suggestion of method of discovering innovative ideas through convergence of TRIZ and big data solution</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_139">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Barkan_MG"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Teaching creative problem solving and decision making. University vs. workplace</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_140">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gronauer_B"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naehler_HT"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>The hero’s journey as a framework for learning and using TRIZ</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_141">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>The law of supersystem development</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_142">
@@ -268,122 +229,101 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Delbressine_F"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feijs_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Toeters_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>The identification of contradictions in cliff: an automatized zipper prototype using the TRIZ method with root conflict analysis (RCA+)</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_143">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_D"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>“To beat the market”, or the economic rationale for using TRIZ-based inventions</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_144">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fu_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_YJ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pai_T"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>The study of innovation and improvements of the GD-K77 riken singlepoint type gas detector by applying TRIZ</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_145">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ and scientific method of cognition. Coordination of approaches.</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_146">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kochanowskia_K"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Michalik_T"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ for new products: solving “never solvable” problems</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_147">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Faer_SA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yakovenko_SA"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ implementation experience in Basel</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_148">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vemuri_TK"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ in India and its applications in technical innovation</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_149">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gronauer_B"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naehler_HT"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ in the context of digitalisation and digital transformation</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_150">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lasota_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ principles in radiotherapy</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_151">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaplan_LA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Obojski_J"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ problem solving: consulting vs. facilitation</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_152">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prushinskiy_VO"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ reccomendations for development of concepts of “learning” products</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_153">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ-navigator for business models</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_154">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rychagov_VY"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Using TRIZ-derived ‘voice of the product’ to identify promising market niches</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_155">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Evgenia"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Smart education. Keynote talk</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_156">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Elena"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Evgenia"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Developing creative thinking skills – grade school level propaedeutic course “engineering” </dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_157">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stanczak_I"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>Open tasks by making use of wooden and lego play blocks</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_158">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/BoratynskaSala_A"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>The evolution of attitudes to entrepreneurship in people (14-16 years old)</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_159">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Baaijens_H"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stoop_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ for schools</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_160">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boratynski_J"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ in the teaching of the polish language</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_161">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_JH"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_MJ"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ invention school for the children and the youth</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_162">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarova_O"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>TRIZ pedagogy as the basis of the educational process</dcterms:title>
   </od:Paper>
 </rdf:RDF>

@@ -72,6 +72,85 @@ function theEvent($v,$graph) {
 ';
 }
 
+function showTalk($talk) {
+    $autoren=getAutoren($talk);
+    $presenter=$talk->get("od:presentedBy");
+    $titel=showLanguage($talk->all("dcterms:title"),"<br>");
+    $abstract=showLanguage($talk->all("dcterms:abstract"),"<p>");
+    $section=$talk->get("swc:relatedToEvent");
+    $urlPaper=$talk->get("od:urlPaper");
+    $urlSlides=$talk->get("od:urlSlides");
+    $urlVideo=$talk->get("od:urlVideo");
+    $out='
+<div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
+  <h4>
+  <div itemprop="title" class="talktitle">'.$titel.'</div></h4>
+  <div class="referent"><p><strong>Author(s):</strong> '. $autoren.'</p></div>';
+    if ($presenter) { 
+        $out.='
+  <div class="presenter"><p><strong>Presented by:</strong> <span itemprop="creator">'
+        . $presenter->get("foaf:name") .'</span></p></div>';
+    }
+    if ($section) { 
+        $out.='
+  <div class="section"><p><strong>Track:</strong> '
+        . $section->get("rdfs:label") .'</p></div>';
+    }
+    if ($urlPaper) { 
+        $out.='
+  <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
+        .' width="18px"/>&nbsp;<a href="'.$urlPaper.'">Paper</a> </div>';
+    } 
+    if ($urlSlides) { 
+        $out.='
+  <div class="slides"> <img alt="" src="images/13_icon_pdf.gif"'
+        .' width="18px"/>&nbsp;<a href="'.$urlSlides.'">Slides</a> </div>';
+    } 
+    if ($urlVideo) { 
+        $out.='
+  <div class="video"> <img alt="" src="images/video.png"'
+        .' width="18px"/>&nbsp;<a href="'.$urlVideo.'">Video</a> </div>';
+    } 
+    if ($abstract) { 
+        $out.='
+  <div itemprop="description" class="abstract"><p><strong>Abstract:</strong><br/> '
+        . $abstract .'</p></div>';
+    }
+    $out.='
+</div> <!-- end class talk -->';
+    return $out;
+}
+function showPaper($talk) {
+    $autoren=getAutoren($talk);
+    $titel=showLanguage($talk->all("dcterms:title"),"<br>");
+    $abstract=showLanguage($talk->all("dcterms:abstract"),"<p>");
+    $section=$talk->get("swc:relatedToEvent");
+    $url=$talk->get("dcterms:source");
+    $out='
+<div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
+  <h4>
+  <div itemprop="title" class="talktitle">'.$titel.'</div></h4>
+  <div class="referent"><p><strong>Author(s):</strong> '. $autoren.'</p></div>';
+    if ($section) { 
+        $out.='
+  <div class="section"><p><strong>Track:</strong> '
+        . $section->get("rdfs:label") .'</p></div>';
+    }
+    if ($url) { 
+        $out.='
+  <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
+        .' width="18px"/>&nbsp;<a href="'.$url.'">Full Text</a> </div>';
+    } 
+    if ($abstract) { 
+        $out.='
+  <div itemprop="description" class="abstract"><p><strong>Abstract:</strong><br/> '
+        . $abstract .'</p></div>';
+    }
+    $out.='
+</div> <!-- end class talk -->';
+    return $out;
+}
+
 function abstracts($src,$graph) {
     $graph->parseFile($src);
     $out='';
@@ -80,55 +159,12 @@ function abstracts($src,$graph) {
         $out.=theEvent($entry,$graph);
     }
     $out.='<h3>Contributions</h3><div class="talks">';
+    $s=array();
     $res = $graph->allOfType('od:Talk');
-    foreach ($res as $talk) {
-        $autoren=getAutoren($talk);
-        $presenter=$talk->get("od:presentedBy");
-        $titel=showLanguage($talk->all("dcterms:title"),"<br>");
-        $abstract=showLanguage($talk->all("dcterms:abstract"),"<p>");
-        $section=$talk->get("swc:relatedToEvent");
-        $urlPaper=$talk->get("od:urlPaper");
-        $urlSlides=$talk->get("od:urlSlides");
-        $urlVideo=$talk->get("od:urlVideo");
-        $out.='<hr/>
-<div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
-  <h4>
-  <div itemprop="title" class="talktitle">'.$titel.'</div></h4>
-  <div class="referent"><p><strong>Author(s):</strong> '. $autoren.'</p></div>';
-        if ($presenter) { 
-            $out.='
-  <div class="presenter"><p><strong>Presented by:</strong> <span itemprop="creator">'
-            . $presenter->get("foaf:name") .'</span></p></div>';
-        }
-        if ($section) { 
-            $out.='
-  <div class="section"><p><strong>Track:</strong> '
-            . $section->get("rdfs:label") .'</p></div>';
-        }
-        if ($urlPaper) { 
-            $out.='
-  <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
-            .' width="18px"/>&nbsp;<a href="'.$urlPaper.'">Paper</a> </div>';
-        } 
-        if ($urlSlides) { 
-            $out.='
-  <div class="slides"> <img alt="" src="images/13_icon_pdf.gif"'
-            .' width="18px"/>&nbsp;<a href="'.$urlSlides.'">Slides</a> </div>';
-        } 
-        if ($urlVideo) { 
-            $out.='
-  <div class="video"> <img alt="" src="images/video.png"'
-            .' width="18px"/>&nbsp;<a href="'.$urlVideo.'">Video</a> </div>';
-        } 
-        if ($abstract) { 
-            $out.='
-  <div itemprop="description" class="abstract"><p><strong>Abstract:</strong><br/> '
-            . $abstract .'</p></div>';
-        }
-        $out.='
-</div> <!-- end class talk -->';
-    }
-    return $out;
+    foreach ($res as $talk) { $s[]=showTalk($talk); }
+    $res = $graph->allOfType('od:Paper');
+    foreach ($res as $talk) { $s[]=showPaper($talk); }
+    return $out.join("<hr/>\n",$s);
 }
 
 function generalInfo($graph) {

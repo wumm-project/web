@@ -30,6 +30,7 @@ function showLanguage($a,$sep) {
     $b=array();
     foreach($a as $v) {
         $l=$v->getLang();
+        if (empty($l)) { $l='en'; }
         $b[]="$l: $v";
     }
     return join($sep,$b);

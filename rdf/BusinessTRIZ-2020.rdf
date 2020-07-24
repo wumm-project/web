@@ -27,6 +27,7 @@
     <dcterms:title xml:lang="ru">Вопросы, которые мы выбираем</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_102">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bezdel_ZV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bezdel_ZV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dichenko_SA"/>
     <dcterms:title xml:lang="en">How to prototype a TRIZ solution helps to cope with the fear of failure and create a really popular product.</dcterms:title>
@@ -43,6 +44,7 @@
     <dcterms:title xml:lang="ru">ТРИЗ + Фасилитация: решаем технические и другие задачи с помощью обучения</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_105">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chernych_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lukash_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orlyanskaya_A"/>
