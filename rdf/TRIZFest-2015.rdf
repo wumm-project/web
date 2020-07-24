@@ -16,10 +16,10 @@
     <bibo:isbn>978-0-692-52417-6</bibo:isbn>
     <bibo:issn>2374-2275</bibo:issn>
     <rdfs:label>TRIZ Fest 2015</rdfs:label>
-    <ical:description>TRIZ Fest 2015 in Seoul, South Korea</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-12</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-10</ical:dtstart>
     <ical:location>Seoul, South Korea</ical:location>
+    <ical:summary>TRIZ Fest 2015 in Seoul, South Korea</ical:summary>
     <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
   </swc:ConferenceEvent>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_101">

@@ -16,10 +16,10 @@
     <bibo:isbn>978-0-692-52418-3</bibo:isbn>
     <bibo:issn>2374-2275</bibo:issn>
     <rdfs:label>TRIZ Fest 2016</rdfs:label>
-    <ical:description>TRIZ Fest 2016 in Beijing, PR China</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-30</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-28</ical:dtstart>
     <ical:location>Beijing, PR China</ical:location>
+    <ical:summary>TRIZ Fest 2016 in Beijing, PR China</ical:summary>
     <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
   </swc:ConferenceEvent>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_101">

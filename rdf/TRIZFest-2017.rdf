@@ -16,10 +16,10 @@
     <bibo:isbn>978-0-692-52418-3</bibo:isbn>
     <bibo:issn>2374-2275</bibo:issn>
     <rdfs:label>TRIZ Fest 2017</rdfs:label>
-    <ical:description>TRIZ Fest 2016 in Kraków, Poland</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-16</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-14</ical:dtstart>
     <ical:location>Kraków, Poland</ical:location>
+    <ical:summary>TRIZ Fest 2016 in Kraków, Poland</ical:summary>
     <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
   </swc:ConferenceEvent>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_101">

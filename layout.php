@@ -47,7 +47,8 @@ function pageNavbar() {
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->
-    </nav>';
+    </nav>
+';
 }
 
 function generalContent() {
@@ -62,8 +63,8 @@ function generalContent() {
 function pageFooter() {
   return '
 
-      <div class="container">
-    <div class="footer">
+    <div class="container">
+      <div class="footer">
         <p class="text-muted">&copy; <a href="http://wumm.uni-leipzig.de">The WUMM Projekt</a> since 2019 </p>
       </div>
     </div>

@@ -30,52 +30,60 @@ function theEvent($v,$graph) {
     $fotos=$v->all("od:theFotos");
     $details=$v->get("od:detailedReport");
     $out='
-<li>'.$label.'
+<h2>'.$label.'</h2>
 <ul>
 <li>From '.showDate($start).' until '.showDate($end).'</li>
 ';
     if ($series) {
         $name=$graph->resource($series)->get("rdfs:label");
-        $out.='<li><strong>Conference Series: </strong>'.$name.'</li>';
+        $out.='
+<li><strong>Conference Series: </strong>'.$name.'</li>';
     }
     if ($location) { 
-        $out.='<li><strong>Location: </strong>'.$location.'</li>';
+        $out.='
+<li><strong>Location: </strong>'.$location.'</li>';
     }
     if ($summary) { 
-        $out.='<li><strong>Summary: </strong>'.$summary.'</li>';
+        $out.='
+<li><strong>Summary: </strong>'.$summary.'</li>';
     }
     if ($description) { 
-        $out.='<li><strong>Description: </strong>'.$description.'</li>';
+        $out.='
+<li><strong>Description: </strong>'.$description.'</li>';
     }
     if ($url) { 
-        $out.='<li><strong>URL: </strong>'
-            .join("<br/> ",array_map('createLink',$url,$url)).'</li>';
+        $out.='
+<li><strong>URL: </strong>'
+        .join("<br/> ",array_map('createLink',$url,$url)).'</li>';
     }
     if ($proceedings) { 
-        $out.='<li><strong>Proceedings: </strong>'
-            .join("<br/> ",array_map('createLink',$proceedings,$proceedings)).'</li>';
+        $out.='
+<li><strong>Proceedings: </strong>'
+        .join("<br/> ",array_map('createLink',$proceedings,$proceedings)).'</li>';
     }
     if ($details) {
         $link="conferences.php?conference=$details";
-        $out.='<li><strong>'.createLink($link,"Detailed Report").'</strong></li>';
+        $out.='
+<li><strong>'.createLink($link,"Detailed Report").'</strong></li>';
     }
     if ($reports) { 
-        $out.='<li><strong>Personal Reports: </strong>'
-            .join("<br/> ",array_map('createLink',$reports,$reports)).'</li>';
+        $out.='
+<li><strong>Personal Reports: </strong>'
+        .join("<br/> ",array_map('createLink',$reports,$reports)).'</li>';
     }
     if ($fotos) { 
-        $out.='<li><strong>Conference Fotos: </strong>'
-            .join("<br/> ",array_map('createLink',$fotos,$fotos)).'</li>';
+        $out.='
+<li><strong>Conference Fotos: </strong>'
+        .join("<br/> ",array_map('createLink',$fotos,$fotos)).'</li>';
     }
-    return $out.'</ul>
-
-';
+    return $out.'
+</ul>';
 }
 
 function showTalk($talk) {
     $autoren=getAutoren($talk);
     $presenter=$talk->get("od:presentedBy");
-    $titel=showLanguage($talk->all("dcterms:title"),"<br>");
+    $titel=showLanguage($talk->all("dcterms:title"),"<br/>");
     $abstract=showLanguage($talk->all("dcterms:abstract"),"<p>");
     $section=$talk->get("swc:relatedToEvent");
     $urlPaper=$talk->get("od:urlPaper");
@@ -164,7 +172,9 @@ function abstracts($src,$graph) {
     foreach ($res as $talk) { $s[]=showTalk($talk); }
     $res = $graph->allOfType('od:Paper');
     foreach ($res as $talk) { $s[]=showPaper($talk); }
-    return $out.join("<hr/>\n",$s);
+    return $out.join("<hr/>\n",$s).'
+</div> <!-- end class talks -->
+';
 }
 
 function generalInfo($graph) {
@@ -181,7 +191,7 @@ function generalInfo($graph) {
 
 function theTitle() {    
     return '
-<h3 align="center"> Past TRIZ Conferences </h3>
+<h2 align="center"> Past TRIZ Conferences </h2>
 
 <p>This web site is generated from the RDF descriptions of different
 conferences collected within our 
