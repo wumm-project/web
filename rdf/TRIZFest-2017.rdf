@@ -24,7 +24,6 @@
   </swc:ConferenceEvent>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_101">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smolnik_M"/>
-    <dcterms:source rdf:resource="https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf"/>
     <dcterms:title>A praxiological chain model applied to the algorithm of inventive problem solving</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_102">

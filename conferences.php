@@ -86,9 +86,21 @@ function showTalk($talk) {
     $titel=showLanguage($talk->all("dcterms:title"),"<br/>");
     $abstract=showLanguage($talk->all("dcterms:abstract"),"<p>");
     $section=$talk->get("swc:relatedToEvent");
-    $urlPaper=$talk->get("od:urlPaper");
-    $urlSlides=$talk->get("od:urlSlides");
-    $urlVideo=$talk->get("od:urlVideo");
+    $a=array();
+    foreach ($talk->all("od:urlPaper") as $v) {
+        $a[]=createLink($v,"Paper");
+    }
+    $urlPaper=join(", ",$a);
+    $a=array();
+    foreach ($talk->all("od:urlSlides") as $v) {
+        $a[]=createLink($v,"Slides");
+    }
+    $urlSlides=join(", ",$a);
+    $a=array();
+    foreach ($talk->all("od:urlVideo") as $v) {
+        $a[]=createLink($v,"Video");
+    }
+    $urlVideo=join(", ",$a);
     $out='
 <div itemscope itemtype="http://schema.org/CreativeWork" class="talk">
   <h4>
@@ -107,17 +119,17 @@ function showTalk($talk) {
     if ($urlPaper) { 
         $out.='
   <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
-        .' width="18px"/>&nbsp;<a href="'.$urlPaper.'">Paper</a> </div>';
+        .' width="18px"/>&nbsp;'.$urlPaper.' </div>';
     } 
     if ($urlSlides) { 
         $out.='
   <div class="slides"> <img alt="" src="images/13_icon_pdf.gif"'
-        .' width="18px"/>&nbsp;<a href="'.$urlSlides.'">Slides</a> </div>';
+        .' width="18px"/>&nbsp;'.$urlSlides.' </div>';
     } 
     if ($urlVideo) { 
         $out.='
   <div class="video"> <img alt="" src="images/video.png"'
-        .' width="18px"/>&nbsp;<a href="'.$urlVideo.'">Video</a> </div>';
+        .' width="18px"/>&nbsp;'.$urlVideo.' </div>';
     } 
     if ($abstract) { 
         $out.='

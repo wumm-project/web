@@ -95,6 +95,17 @@
     <dcterms:rights>Youtube Standard License</dcterms:rights>
     <dcterms:title xml:lang="ru">О развитии систем, работе с требованиями и применении ТРИЗ в бизнесе с Андреем Курьяном</dcterms:title>
   </od:Presentation>
+  <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Lebedyev-20180128">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=UX3uEUZUn_k"/>
+    <dcterms:abstract xml:lang="ru">Выступление Мастера ТРИЗ Юрия Лебедева на конференции «ТРИЗ. Практика применения и развитие методических инструментов» в Москве 10-11 ноября 2017г.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedjev_Y"/>
+    <dcterms:extent>01:12:42 h</dcterms:extent>
+    <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-01-28</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:rights>Youtube Standard License</dcterms:rights>
+    <dcterms:title xml:lang="ru">Закон оптимизации потоков и потоковый анализ. Юрий Лебедев.</dcterms:title>
+  </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Litvin-20171101">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=BPpTNC2QOh0"/>
     <dcterms:abstract xml:lang="en">Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions).</dcterms:abstract>

@@ -159,6 +159,26 @@
     <rdfs:label xml:lang="de">Prinzip der Veränderung von Farbe und Transparenz</rdfs:label>
     <rdfs:label xml:lang="ru">Приём изменения окраски и прозрачности</rdfs:label>
   </od:Principle>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_1">
+    <od:description xml:lang="en">For observing poorly visible objects or processes, use coloring additives.</od:description>
+    <od:description xml:lang="de">Nutze färbende Zuschläge zur Beobachtung schlecht sichtbarer Objekte oder Prozesse.</od:description>
+    <od:description xml:lang="ru">Для наблюдения плохо видимых предметов или процессов используйте красящие добавки.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_2">
+    <od:description xml:lang="en">Change the degree of transparency of the object or the surrounding medium.</od:description>
+    <od:description xml:lang="de">Verändere den Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums.</od:description>
+    <od:description xml:lang="ru">Степень прозрачности объекта или окружающей среды должна быть изменена.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_3">
+    <od:description xml:lang="en">Change the color of the object or the surrounding medium.</od:description>
+    <od:description xml:lang="de">Verändere die Farbe des Objektes oder des umgebenden Mediums.</od:description>
+    <od:description xml:lang="ru">Цвет объекта или окружающей среды должны быть изменены.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/ChangeColorAndTransparency_4">
+    <od:description xml:lang="en">If such conditions are already applied, use flourescent material.</od:description>
+    <od:description xml:lang="de">Wenn solche Bedingungen bereits angewandt werden, setze Leuchtstoffe ein.</od:description>
+    <od:description xml:lang="ru">Если такие условия уже применяются, используйте люминофоры.</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters">
     <od:hasAltshuller73Id>35</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
@@ -327,6 +347,10 @@
     <od:description xml:lang="en">If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction.</od:description>
     <od:description xml:lang="de">Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung.</od:description>
     <od:description xml:lang="ru">Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/EarlyCounteraction_2">
+    <od:description xml:lang="de">Erzeuge im Objekt vorab eine Gegenwirkung, die der unzulässigen oder unerwünschten Wirkung entgegengesetzt ist (Prinzip der Vorspannung).</od:description>
+    <od:description xml:lang="ru">Заранее придать объекту напряжения, противоположные недопустимым или нежелательным рабочим напряжениям.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts">
     <od:hasAltshuller73Id>34</od:hasAltshuller73Id>
@@ -535,7 +559,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PreferredAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PreferredAction_2"/>
     <rdfs:label xml:lang="en">Principle of the preferred action</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der vorherigen Wirkung bzw. Aktion</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der vorherigen Wirkung</rdfs:label>
     <rdfs:label xml:lang="ru">Приём предварительного действия (заранее выполненное действие)</rdfs:label>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PreferredAction_1">
@@ -784,32 +808,14 @@
     <rdfs:label xml:lang="ru">Приём использования пористых материалов</rdfs:label>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_1">
-    <od:description xml:lang="en">For observing poorly visible objects or processes, use coloring additives.</od:description>
     <od:description xml:lang="de">Führe das Objekt porös aus, oder benutze zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.).</od:description>
-    <od:description xml:lang="de">Nutze färbende Zuschläge zur Beobachtung schlecht sichtbarer Objekte oder Prozesse.</od:description>
     <od:description xml:lang="en">The object should be porous, or additional porous elements (inserts, coatings, etc.) should be used.</od:description>
-    <od:description xml:lang="ru">Для наблюдения плохо видимых предметов или процессов используйте красящие добавки.</od:description>
     <od:description xml:lang="ru">Объект должен быть пористым, или следует использовать дополнительные пористые элементы (вставки, покрытия и т. д.).</od:description>
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#Recommendation"/>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_2">
-    <od:description xml:lang="en">Change the degree of transparency of the object or the surrounding medium.</od:description>
     <od:description xml:lang="en">If the object is already porous, fill the pores with a suitable substance.</od:description>
-    <od:description xml:lang="de">Verändere den Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums.</od:description>
     <od:description xml:lang="de">Wenn das Objekt bereits porös ausgeführt ist, fülle die Poren mit einem geeigneten Stoff.</od:description>
     <od:description xml:lang="ru">Если объект уже пористый, заполните поры подходящим веществом.</od:description>
-    <od:description xml:lang="ru">Степень прозрачности объекта или окружающей среды должна быть изменена.</od:description>
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#Recommendation"/>
-  </od:Recommendation>
-  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_3">
-    <od:description xml:lang="en">Change the color of the object or the surrounding medium.</od:description>
-    <od:description xml:lang="de">Verändere die Farbe des Objektes oder des umgebenden Mediums.</od:description>
-    <od:description xml:lang="ru">Цвет объекта или окружающей среды должны быть изменены.</od:description>
-  </od:Recommendation>
-  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/UsePorousMaterials_4">
-    <od:description xml:lang="en">If such conditions are already applied, use flourescent material.</od:description>
-    <od:description xml:lang="de">Wenn solche Bedingungen bereits angewandt werden, setze Leuchtstoffe ein.</od:description>
-    <od:description xml:lang="ru">Если такие условия уже применяются, используйте люминофоры.</od:description>
   </od:Recommendation>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/ThePrinciples/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>

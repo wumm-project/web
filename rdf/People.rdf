@@ -288,7 +288,7 @@
     <foaf:name>S.D. Denisov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Devojno_IG">
-    <foaf:affil>Misnk, Belarus</foaf:affil>
+    <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Игорь Георгиевич Девойно</foaf:fullname>
     <foaf:name>Igor Devojno</foaf:name>
   </foaf:Person>
@@ -631,9 +631,6 @@
     <foaf:affil>Harbin Engineering University, PR of China</foaf:affil>
     <foaf:name>Tang Houcheng</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hovanov_S">
-    <foaf:name>Sergej Hovanov</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/How_KB">
     <foaf:name>Khoo Boon How</foaf:name>
   </foaf:Person>
@@ -772,6 +769,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khotimliansky_Y">
     <foaf:name>Y. Khotimliansky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khovanov_S">
+    <foaf:name>Sergej Khovanov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kiesel_M">
     <foaf:affil>Siemens AG, Germany</foaf:affil>
@@ -916,8 +916,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kuryan_A">
     <foaf:affil xml:lang="en">EPAM Systems, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Андрей Георгиевич Курьян</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/andrew.kuryan"/>
-    <foaf:name>Andrei Kuryan</foaf:name>
+    <foaf:name>Andrei G. Kuryan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kustov_VP">
     <foaf:name>Valeri P. Kustov</foaf:name>
