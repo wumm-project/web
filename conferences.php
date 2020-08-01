@@ -28,7 +28,7 @@ function theEvent($v,$graph) {
     $reports=$v->all("od:hasReports");
     $proceedings=$v->all("od:theProceedings");
     $fotos=$v->all("od:theFotos");
-    $fotos=$v->all("od:theVideos");
+    $videos=$v->all("od:theVideos");
     $details=$v->get("od:detailedReport");
     $out='
 <h2>'.$label.'</h2>
