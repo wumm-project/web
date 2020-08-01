@@ -17,7 +17,7 @@
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-21</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-17</ical:dtstart>
     <ical:location>Online, supported by EPAM, Minsk, Belarus</ical:location>
-    <ical:url rdf:resource="https://communities.by/events/triz-summit-2020"/>
+    <ical:url rdf:resource="https://community-z.com/events/triz-summit-2020"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_101">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>

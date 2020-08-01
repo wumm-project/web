@@ -235,7 +235,7 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-17</ical:dtstart>
     <ical:location>Online, supported by EPAM, Minsk, Belarus</ical:location>
     <ical:summary>TRIZ Summit 2020</ical:summary>
-    <ical:url rdf:resource="https://communities.by/events/triz-summit-2020"/>
+    <ical:url rdf:resource="https://community-z.com/events/triz-summit-2020"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2015.rdf"/>
