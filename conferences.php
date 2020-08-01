@@ -28,6 +28,7 @@ function theEvent($v,$graph) {
     $reports=$v->all("od:hasReports");
     $proceedings=$v->all("od:theProceedings");
     $fotos=$v->all("od:theFotos");
+    $fotos=$v->all("od:theVideos");
     $details=$v->get("od:detailedReport");
     $out='
 <h2>'.$label.'</h2>
@@ -75,6 +76,11 @@ function theEvent($v,$graph) {
         $out.='
 <li><strong>Conference Fotos: </strong>'
         .join("<br/> ",array_map('createLink',$fotos,$fotos)).'</li>';
+    }
+    if ($fotos) { 
+        $out.='
+<li><strong>Conference Videos: </strong>'
+        .join("<br/> ",array_map('createLink',$videos,$videos)).'</li>';
     }
     return $out.'
 </ul>';

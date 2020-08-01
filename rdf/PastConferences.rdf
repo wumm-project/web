@@ -218,14 +218,15 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2019.rdf"/>
-    <od:theFotos rdf:resource="http://www.metodolog.ru/01062/01062.html"/>
+    <od:theFotos rdf:resource="https://triz-summit.ru/confer/tds-2019/photo-2019/"/>
+    <od:theVideos rdf:resource="https://triz-summit.ru/confer/tds-2019/video-2019/"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
     <rdfs:label>TRIZ Summit 2019</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-15</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-13</ical:dtstart>
     <ical:location>EPAM, Minsk, Belarus</ical:location>
     <ical:summary>TRIZ Summit 2019</ical:summary>
-    <ical:url rdf:resource="https://communities.by/events/triz-summit-2019-ru"/>
+    <ical:url rdf:resource="https://triz-summit.ru/confer/tds-2019/"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2020.rdf"/>
