@@ -32,7 +32,7 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
     <dcterms:abstract xml:lang="ru">Древнегреческая мифология не имеет временных границ. Многие поколения людей в разных странах мира используют мифологические сюжеты и образы мифологических персонажей в своих творениях. Зевс (рим. Юпитер), Гера (рим. Юнона), Афродита (рим. Венера), Арес (рим. Марс), Посейдон (рим. Нептун), Гефест (рим. Вулкан), Геракл (рим. Геркулес) и другие боги и герои запечатлены в литературе, живописи, скульптуре, архитектуре и кино. Сегодня древнегреческие мифологические персонажи служат основой для новых творений не только в искусстве, но и в образовании.
 Героями моего доклада стали древнегреческие богини Мнемосина, мать девяти Муз, олицетворяющая память, и Метида, воплощающая мудрость. В своем выступлении я расскажу, как они вместе участвуют в реализации современного перспективного образования.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/odp:Gafitulin_MS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_MS"/>
     <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4438"/>
     <dcterms:title xml:lang="de">Methodology "Mnemosyne and Metis"</dcterms:title>
     <dcterms:title xml:lang="en">Methodology "Mnemosyne and Metis"</dcterms:title>
