@@ -19,41 +19,74 @@
     <rdfs:label>Open Discovery Collection of TRIZ Books</rdfs:label>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
   </owl:Ontology>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3-326-00131-2">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3326001312">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Deutscher Verlag der Wissenschaften, Berlin</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1985</dcterms:issued>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1987</dcterms:issued>
     <dcterms:title xml:lang="de">Erfinderfibel</dcterms:title>
-    <bibo:isbn>3-326-00131-2</bibo:isbn>
+    <bibo:isbn>3326001312</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3-326-00654-3">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3326006543">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Deutscher Verlag der Wissenschaften, Berlin</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1991</dcterms:issued>
     <dcterms:title xml:lang="de">Erfinderpraxis – Ideenvielfalt durch Systematisches Erfinden</dcterms:title>
-    <bibo:isbn>3-326-00654-3</bibo:isbn>
+    <bibo:isbn>3326006543</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3-930903-08-3">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/3930903083">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">1995</dcterms:issued>
     <dcterms:title xml:lang="de">Erfinden mit System</dcterms:title>
-    <bibo:isbn>3-930903-08-3</bibo:isbn>
+    <bibo:isbn>3930903083</bibo:isbn>
     <rdfs:comment>DABEI-Materialien Nr. 10, Bonn 1995</rdfs:comment>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-540-34059-1">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9781707864195">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Amazon Digital Services LLC</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
+    <dcterms:title xml:lang="en">Solving Non-Standard Problems</dcterms:title>
+    <bibo:isbn>9781707864195</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9781711620374">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Amazon Digital Services LLC</dc:publisher>
+    <dcterms:abstract xml:lang="en">This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
+The theoretical material is illustrated by many examples, problems, and graphical material (approximately 300 examples and problems, and approximately 400 illustrations). It describes more than 300 concepts. Material for independent work is provided at the end of each chapter.
+The book is intended for students of engineering disciplines. It can also be useful for engineers and inventors, scientists, university professors, and those who solve creative problems. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="en">Selected TRIZ Tools. Theory of inventive problem solving</dcterms:title>
+    <bibo:asin>B081ZJ966M</bibo:asin>
+    <bibo:isbn>9781711620374</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9783030042530">
+    <od:relatedLinks rdf:resource="https://link.springer.com/book/10.1007/978-3-030-04254-7"/>
+    <od:relatedLinks rdf:resource="https://www.springer.com/in/book/9783030042530"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Springer</dc:publisher>
+    <dcterms:abstract xml:lang="en">This introductory book describes the initial (first) level of studying the theory of inventive problem solving (TRIZ) from the series “TRIZ from A to Z,” and presents the most general methods for solving inventive problems and generating new ideas. Chapter 1 examines traditional technologies for problem solving, based on trial and error. Chapter 2 describes the general concept of TRIZ, while Chapter 3 explains the main notions of “system” approaches, like system thinking, system and its hierarchy, system effect, emergency, synergetic effect and systematicity. In turn, Chapter 4 describes the notion of “ideality” and Chapter 5 addresses the notion of resources, their types, and methods for using them. Chapter 6 acquaints readers with one of the most important aspects of TRIZ: contradiction. Chapter 7 describes the inventive principles, while Chapter 8 includes descriptions of the systems of trends proposed by G. Altshuller and the author.
+In closing, the author makes recommendations on how to most effectively use TRIZ tools, on how readers can improve their knowledge, skills and habits concerning the use of TRIZ, and on how they can hone their inventive thinking skills. The book also features Appendices that include analyses of selected problems, a list of the main websites related to TRIZ, and lists of examples, problems, illustrations, tables and formulae. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="en">TRIZ. Theory of Inventive Problem Solving. Level 1</dcterms:title>
+    <bibo:isbn>9783030042530</bibo:isbn>
+    <bibo:isbn>9783030042547</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9783540340591">
     <dc:publisher>Springer: Heidelberg, Germany</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orloff_MA"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006</dcterms:issued>
     <dcterms:title xml:lang="de">Grundlagen der klassischen TRIZ</dcterms:title>
     <dcterms:title xml:lang="en">Inventive Thinking Through TRIZ</dcterms:title>
-    <bibo:isbn>978-3-540-33223-7</bibo:isbn>
-    <bibo:isbn>978-3-540-34059-1</bibo:isbn>
+    <bibo:isbn>9783540332237</bibo:isbn>
+    <bibo:isbn>9783540340591</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2613-4">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9783816926134">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
@@ -64,36 +97,36 @@
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009</dcterms:issued>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="de">Systematisches Erfinden – Methoden und Beispiele für den Praktiker</dcterms:title>
-    <bibo:isbn>978-3-8169-2613-4</bibo:isbn>
-    <bibo:isbn>978-3-8169-2939-0</bibo:isbn>
+    <bibo:isbn>9783816926134</bibo:isbn>
+    <bibo:isbn>9783816929390</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2713-6">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9783816927136">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007</dcterms:issued>
     <dcterms:title xml:lang="de">Kreatives Arbeiten – Methoden, Erfahrungen, Beispiele</dcterms:title>
-    <bibo:isbn>978-3-8169-2713-6</bibo:isbn>
+    <bibo:isbn>9783816927136</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2760-0">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9783816927600">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2006</dcterms:issued>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2007</dcterms:issued>
     <dcterms:title xml:lang="de">TRIZ für alle – Der systematische Weg zur Problemlösung</dcterms:title>
-    <bibo:isbn>978-3-8169-2760-0</bibo:isbn>
+    <bibo:isbn>9783816927600</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-3-8169-2904-8">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9783816929048">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
     <dc:publisher>Expert-Verlag, Renningen</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hartmann_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zobel_D"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2009</dcterms:issued>
     <dcterms:title xml:lang="de">Erfindungsmuster – TRIZ: Prinzipien, Analogien, Ordnungskriterien, Beispiele</dcterms:title>
-    <bibo:isbn>978-3-8169-2904-8</bibo:isbn>
+    <bibo:isbn>9783816929048</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-0051-0072-6">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785005100726">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/upravlenie_innovaciyami/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -104,26 +137,26 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
     <dcterms:title xml:lang="ru">Управление инновациями: Теория решения изобретательских задач (ТРИЗ)</dcterms:title>
-    <bibo:isbn>978-5-0051-0072-6</bibo:isbn>
+    <bibo:isbn>9785005100726</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4490-8547-4">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449085474">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Развитие творческого воображения: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4490-8547-4</bibo:isbn>
+    <bibo:isbn>9785449085474</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4490-9985-3">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449099853">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="ru">Законы развития систем: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4490-9985-3</bibo:isbn>
+    <bibo:isbn>9785449099853</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0000-3">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449300003">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_ariz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -132,9 +165,9 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития АРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-0000-3</bibo:isbn>
+    <bibo:isbn>9785449300003</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0036-2">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449300362">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_priemov/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -143,17 +176,17 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития приемов: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-0036-2</bibo:isbn>
+    <bibo:isbn>9785449300362</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0037-0">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449300370">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Стандарты изобретательства: Учебник. ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-0037-0</bibo:isbn>
+    <bibo:isbn>9785449300370</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0863-4">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449308634">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/istoriya_razvitiya_standartov/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -162,49 +195,49 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития стандартов: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-0863-4</bibo:isbn>
+    <bibo:isbn>9785449308634</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-0972-3">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449309723">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Системный анализ продвижения продукта на рынок: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-0972-3</bibo:isbn>
+    <bibo:isbn>9785449309723</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-1445-1">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449314451">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Универсальные приемы разрешения противоречий: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-1445-1</bibo:isbn>
+    <bibo:isbn>9785449314451</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-2772-7">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449327727">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Методы активизации творческого процесса: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-2772-7</bibo:isbn>
+    <bibo:isbn>9785449327727</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-3018-5">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449330185">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Биология и законы развития техники: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-3018-5</bibo:isbn>
+    <bibo:isbn>9785449330185</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-3084-0">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449330840">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Гравиполи: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-3084-0</bibo:isbn>
+    <bibo:isbn>9785449330840</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-3726-9">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449337269">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:abstract xml:lang="ru">Данный учебник посвящен системному изложению теории решения изобретательских задач (ТРИЗ). В книге подробно рассмотрены методы постановки нестандартных задач и способы их решения, законы развития систем, методика прогнозирования развития систем, структурный (вепольный) анализ и синтез систем, методы моделирования систем, способы выявления и разрешения противоречий, методика выявления и использования ресурсов.
@@ -213,17 +246,17 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Основы ТРИЗ: Теория решения изобретательских задач</dcterms:title>
-    <bibo:isbn>978-5-4493-3726-9</bibo:isbn>
+    <bibo:isbn>9785449337269</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-5127-2">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449351272">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Поиск идеи — это просто: ТРИЗ для всех</dcterms:title>
-    <bibo:isbn>978-5-4493-5127-2</bibo:isbn>
+    <bibo:isbn>9785449351272</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-5369-6">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449353696">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/fotoalbom_triz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -233,27 +266,27 @@
 Альбом будет интересен, как людям, принимавшим участие в этих событиях, так и тем, кто впервые с этим знакомится. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
-    <dcterms:title xml:lang="ru">Фотоальбом ТРИЗ: Часть 1. 1926-1998</dcterms:title>
-    <bibo:isbn>978-5-4493-5369-6</bibo:isbn>
-    <bibo:isbn>978-5-4493-5370-2</bibo:isbn>
+    <dcterms:title xml:lang="ru">Фотоальбом ТРИЗ: Часть 1. 19261998</dcterms:title>
+    <bibo:isbn>9785449353696</bibo:isbn>
+    <bibo:isbn>9785449353702</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-5372-6">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449353726">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-5372-6</bibo:isbn>
+    <bibo:isbn>9785449353726</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-5785-4">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449357854">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Талантливое мышление: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-5785-4</bibo:isbn>
+    <bibo:isbn>9785449357854</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-6079-3">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449360793">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:abstract xml:lang="ru">Книга написана по материалам исследований, которые автор собирал для разработки законов развития технических систем.
@@ -262,49 +295,49 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">История развития законов: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-6079-3</bibo:isbn>
+    <bibo:isbn>9785449360793</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-6332-9">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449363329">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Решение нестандартных задач: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-6332-9</bibo:isbn>
+    <bibo:isbn>9785449363329</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4493-9970-0">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449399700">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Структурный анализ систем: Вепольный анализ. ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4493-9970-0</bibo:isbn>
+    <bibo:isbn>9785449399700</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-00190-2">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/97854496001902">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
-    <dcterms:title xml:lang="ru">Задачник по АРИЗ-85-В: Алгоритм решения изобретательских задач</dcterms:title>
-    <bibo:isbn>978-5-4496-00190-2</bibo:isbn>
+    <dcterms:title xml:lang="ru">Задачник по АРИЗ85В: Алгоритм решения изобретательских задач</dcterms:title>
+    <bibo:isbn>97854496001902</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-00191-9">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/97854496001919">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
-    <dcterms:title xml:lang="ru">Учебник по АРИЗ-85-В: Алгоритм решения изобретательских задач</dcterms:title>
-    <bibo:isbn>978-5-4496-00191-9</bibo:isbn>
+    <dcterms:title xml:lang="ru">Учебник по АРИЗ85В: Алгоритм решения изобретательских задач</dcterms:title>
+    <bibo:isbn>97854496001919</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-0678-5">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449606785">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
     <dcterms:title xml:lang="ru">Думай иначе: Креативное мышление</dcterms:title>
-    <bibo:isbn>978-5-4496-0678-5</bibo:isbn>
+    <bibo:isbn>9785449606785</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-8183-6">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449681836">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/osnovy_znanii_po_triz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -316,9 +349,9 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="ru">Основы знаний по ТРИЗ: Теория решения изобретательских задач</dcterms:title>
-    <bibo:isbn>978-5-4496-8183-6</bibo:isbn>
+    <bibo:isbn>9785449681836</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-8188-1">
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449681881">
     <od:relatedLinks rdf:resource="https://ridero.ru/books/obuchenie_triz/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -329,27 +362,23 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="ru">Обучение ТРИЗ: Теория решения изобретательских задач</dcterms:title>
-    <bibo:isbn>978-5-4496-8188-1</bibo:isbn>
+    <bibo:isbn>9785449681881</bibo:isbn>
   </od:TRIZ-Book>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/978-5-4496-8415-8">
-    <od:relatedLinks rdf:resource="https://ridero.ru/books/ariz-2010/"/>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9785449684158">
+    <od:relatedLinks rdf:resource="https://ridero.ru/books/ariz2010/"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
-    <dcterms:abstract xml:lang="ru">Данная работа проводилась к подготовке Саммита разработчиков ТРИЗ-2010. Первая редакция АРИЗ-2010 была выполнена в конце 2009 года. Последняя версия этой работы была закончена 27.07.2012. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Данная работа проводилась к подготовке Саммита разработчиков ТРИЗ2010. Первая редакция АРИЗ2010 была выполнена в конце 2009 года. Последняя версия этой работы была закончена 27.07.2012. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
-    <dcterms:title xml:lang="ru">АРИЗ-2010: ТРИЗ</dcterms:title>
-    <bibo:isbn>978-5-4496-8415-8</bibo:isbn>
+    <dcterms:title xml:lang="ru">АРИЗ2010: ТРИЗ</dcterms:title>
+    <bibo:isbn>9785449684158</bibo:isbn>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9798622683022">
-    <od:relatedLinks rdf:resource="https://amzn.to/3gOJGyG"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dc:publisher xml:lang="en">Amazon Digital Services LLC</dc:publisher>
-    <dcterms:abstract xml:lang="en">This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
-The theoretical material is illustrated by many examples, problems, and graphical material (approximately 300 examples and problems, and approximately 400 illustrations). It describes more than 300 concepts. Material for independent work is provided at the end of each chapter.
-The book is intended for students of engineering disciplines. It can also be useful for engineers and inventors, scientists, university professors, and those who solve creative problems.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
     <dcterms:title xml:lang="en">TRIZ Basics. Theory of Inventive Problem Solving</dcterms:title>
     <bibo:asin>B081D6VGFJ</bibo:asin>
     <bibo:isbn>9798622683022</bibo:isbn>

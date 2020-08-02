@@ -42,7 +42,8 @@ function pageNavbar() {
             <li><a href="presentations.php">TRIZ Presentations</a></li>
             <li><a href="glossary.php">TRIZ Glossary</a></li>
             <li><a href="principles.php">40 Principles</a></li>
-            <li><a href="standards.php">76 Standard Solutions</a></li>
+            <li><a href="standards.php">Inventive Standards</a></li>
+            <li><a href="businessstandards.php">Inventive Business Standards</a></li>
             <li><a href="test.php">Test</a></li>
           </ul>
         </div><!-- navbar end -->

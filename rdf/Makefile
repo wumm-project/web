@@ -12,5 +12,6 @@ all:
 	rapper -g ../../RDFData/Presentations.ttl -o rdfxml-abbrev >Presentations.rdf
 	rapper -g ../../RDFData/ThePrinciples.ttl -o rdfxml-abbrev >Principles.rdf
 	rapper -g ../../RDFData/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
+	rapper -g ../../RDFData/TheBusinessStandards.ttl -o rdfxml-abbrev >TheBusinessStandards.rdf
 	rapper -g ../../RDFData/Books.ttl -o rdfxml-abbrev >Books.rdf
 	rapper -g ../../RDFData/TBK-References.ttl -o rdfxml-abbrev >TBK-References.rdf

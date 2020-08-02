@@ -26,6 +26,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ageed_S">
     <foaf:name>Sharaf Ageed</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/AguayoTellez_H">
+    <foaf:affil>ITESM, Mexico</foaf:affil>
+    <foaf:name>Humberto Aguayo Téllez</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ahn_HS">
     <foaf:affil>Hyundai Motor Group, South Korea</foaf:affil>
     <foaf:name>Hyun-Soo Ahn</foaf:name>
@@ -119,6 +123,10 @@
     <foaf:affil>Thai-Nichi Institute of Technology, Thailand</foaf:affil>
     <foaf:name>Trizit Benjaboonyazit</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Benmoussa_R">
+    <foaf:affil>ENSA, Morocco</foaf:affil>
+    <foaf:name>Rachid Benmoussa</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Berdonosov_VD">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Виктор Дмитриевич Бердоносов</foaf:fullname>
@@ -155,6 +163,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boika_S">
     <foaf:name>Siarhei Boika</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boko_A">
+    <foaf:affil>FHB Univ., Ivory Coast</foaf:affil>
+    <foaf:name>Aka Boko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bolotovsky_VN">
     <foaf:fullname xml:lang="ru">В.Н. Болотовский</foaf:fullname>
@@ -238,8 +250,12 @@
     <foaf:fullname xml:lang="ru">Наталья Черных</foaf:fullname>
     <foaf:name>Natalya Chernych</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chinghatam_T">
+    <foaf:affil>Kaetsart Univ., Thailand</foaf:affil>
+    <foaf:name>Thongchai Chinghatam</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chizhevskaya_NE">
-    <foaf:affil xml:lang="ru">Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования</foaf:affil>
+    <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Наталия Эдуардовна Чижевская</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/profile.php?id=100009312245237"/>
     <foaf:name>Nataliya Chizhevskaya</foaf:name>
@@ -285,6 +301,10 @@
     <foaf:fullname xml:lang="ru">Юрий Эдуардович Даниловский</foaf:fullname>
     <foaf:name>Yuri Danilovsky</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/DeCarvalho_MA">
+    <foaf:affil>UTFPR, Brazil</foaf:affil>
+    <foaf:name>MArco Aurelio De Carvalho</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Delbressine_F">
     <foaf:affil>Einhoven University of Technology, The Netherlands</foaf:affil>
     <foaf:name>Frank Delbressine</foaf:name>
@@ -296,6 +316,10 @@
     <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Игорь Георгиевич Девойно</foaf:fullname>
     <foaf:name>Igor Devojno</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Diagne_S">
+    <foaf:affil>Ziguinchor Univ., Senegal</foaf:affil>
+    <foaf:name>Seringe Diagne</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dichenko_SA">
     <foaf:affil>Domodedovo, Russia</foaf:affil>
@@ -717,6 +741,10 @@
     <foaf:fullname xml:lang="ru">Николай Григорьевич Калошин</foaf:fullname>
     <foaf:name>Nikolai Kaloshin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kanaan_H">
+    <foaf:affil>St. Josephs Univ., Lebanon</foaf:affil>
+    <foaf:name>Hadi Kanaan</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaner_VF">
     <foaf:affil>St. Petersburg, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Вадим Фроимович Канер</foaf:fullname>
@@ -981,6 +1009,10 @@
     <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
     <foaf:name>Jun–Young Lee</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_KW">
+    <foaf:affil>KPU, South Korea</foaf:affil>
+    <foaf:name>Kyeongwon Lee</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_SI">
     <foaf:name>Sang-Il Lee</foaf:name>
   </foaf:Person>
@@ -1152,6 +1184,10 @@
     <foaf:affil>Ukraina</foaf:affil>
     <foaf:fullname xml:lang="ru">Марк Иосифович Меерович</foaf:fullname>
     <foaf:name>Mark Meerovich</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/MejiaGutierrez_R">
+    <foaf:affil>Columbia</foaf:affil>
+    <foaf:name>Ricardo Mejía-Gutiérrez</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Menon_R">
     <foaf:affil>Gilbarco USA, India</foaf:affil>
@@ -1418,6 +1454,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rantanen_K">
     <foaf:name>K. Rantanen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rausin_B">
+    <foaf:affil>HELMO, Belgium</foaf:affil>
+    <foaf:name>Bernard Rausin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Redkolis_EV">
     <foaf:affil xml:lang="ru">АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
@@ -1893,6 +1933,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wozniak_M">
     <foaf:affil>University of Gdansk, Poland</foaf:affil>
     <foaf:name>Monika Woźniak</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wu_CL">
+    <foaf:affil>Hebei University, PR China</foaf:affil>
+    <foaf:name>Chunlong Wu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wu_Q">
     <foaf:name>Qiong Wu</foaf:name>

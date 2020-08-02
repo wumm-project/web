@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/BusinessStandard/">
+  <od:TRIZ_StandardGroup rdf:about="http://opendiscovery.org/rdf/BusinessStandard/G1">
+    <skos:preflabel xml:lang="en">Improving insufficient effect of an interaction</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Улучшение недостаточного эффекта взаимодействия</skos:preflabel>
+  </od:TRIZ_StandardGroup>
+  <od:TRIZ_StandardGroup rdf:about="http://opendiscovery.org/rdf/BusinessStandard/G2">
+    <skos:preflabel xml:lang="en">Improving excessive effect of an interaction</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Устранение избыточного эффекта взаимодействия</skos:preflabel>
+  </od:TRIZ_StandardGroup>
+  <od:TRIZ_StandardGroup rdf:about="http://opendiscovery.org/rdf/BusinessStandard/G3">
+    <skos:preflabel xml:lang="en">Improving poorly controllable effect of an interaction</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Устранение плохо контролируемого эффекта взаимодействия</skos:preflabel>
+  </od:TRIZ_StandardGroup>
+  <od:TRIZ_StandardGroup rdf:about="http://opendiscovery.org/rdf/BusinessStandard/G4">
+    <skos:preflabel xml:lang="en">Eliminating negative effect of an interaction</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Устранение вредного/нежелательного эффекта взаимодействия</skos:preflabel>
+  </od:TRIZ_StandardGroup>
+  <od:TRIZ_StandardGroup rdf:about="http://opendiscovery.org/rdf/BusinessStandard/G5">
+    <skos:preflabel xml:lang="en">Organizing or improving measurement and detection</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Организация и улучшение измерения или обнаружения.</skos:preflabel>
+  </od:TRIZ_StandardGroup>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_1">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Transition to internal complex model</skos:preflabel>
+    <skos:preflabel xml:lang="ru">переход к внутреннему комплексному веполю</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_10">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Segmentation of objects and processes</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Сегментация объектов и процессов</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_11">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Increasing the degree of segmentation</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Увеличение степени сегментации</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_12">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Dynamization of objects and processes</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Динамизация объектов и процессов</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_13">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Increasing the degree of dynamics</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Увеличение динамизации процессов</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_14">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Transition to bi- and poly-systems</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к би- и полисистемам</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_15">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Increasing differences in bi- and poly-systems</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Увеличение разницы внутри би- и полисистем</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_16">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Paradigm change</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Смена парадигмы</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_2">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Transition to external complex model</skos:preflabel>
+    <skos:preflabel xml:lang="ru">переход к внешнему комплексному веполю</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_3">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Introducing intermediary</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод промежуточного элемента</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_4">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Using existing resource</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Использование имеющегося ресурса</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_5">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Using modified or new environment</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Использование измененной или новой среды</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_6">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Transition to dual model</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к дуальной модели</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_7">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Transition to periodic action</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к дискретному действию</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_8">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Introducing selective protection</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод выборочной защиты</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S1_9">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G1"/>
+    <skos:preflabel xml:lang="en">Introducing selective amplification</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод выборочного усиления</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S2_1">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G2"/>
+    <skos:preflabel xml:lang="en">Introducing filtering</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод фильтрации</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S2_2">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G2"/>
+    <skos:preflabel xml:lang="en">Modified environment</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Измененная среда</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S2_3">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G2"/>
+    <skos:preflabel xml:lang="en">Action maximizing</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Максимальное взаимодействие</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S2_4">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G2"/>
+    <skos:preflabel xml:lang="en">Removing excess of action</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Распределение избыточности</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S3_1">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G3"/>
+    <skos:preflabel xml:lang="en">Introducing intermediary</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод промежуточного элемента</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S3_2">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G3"/>
+    <skos:preflabel xml:lang="en">Transition to external complex model</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к внешнему комплексному веполю</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S3_3">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G3"/>
+    <skos:preflabel xml:lang="en">Replacing paradigm</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Смена парадигмы</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S3_4">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G3"/>
+    <skos:preflabel xml:lang="en">Outsourcing to supersystem</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Аутсорсинг из надсистемы</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S3_5">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G3"/>
+    <skos:preflabel xml:lang="en">Transition to chain model</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к цепной модели</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S3_6">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G3"/>
+    <skos:preflabel xml:lang="en">Self control</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Самоконтроль</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_1">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Introducing intermediary</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод промежуточного элемента</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_10">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Paradigm change</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Смена парадигмы</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_2">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Introducing modified intermediary</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод модифицированного промежуточного элемента</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_3">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Neutralizing</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Нейтрализация</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_4">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Distraction by a new field</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод противоположного действия</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_5">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Introducing antipodal action</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Ввод дополнительных условий</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_6">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Modified object in advance</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Предварительно измененный объект</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_7">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Withdrawing effect</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Смещение</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_8">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">Periodic action</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Дискретное действие</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S4_9">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G4"/>
+    <skos:preflabel xml:lang="en">High speed</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Высокая скорость</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_1">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Problem change</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Замена проблемы</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_2">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Using a copy</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Использование копии</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_3">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Successive detection</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Последовательное обнаружение</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_4">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Indirect resource measurement</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Косвенное измерение ресурсов</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_5">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Transition to a dual model</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к дуальной модели</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_6">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Transition to bi- and poly-systems</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Переход к би- и полисистемам</skos:preflabel>
+  </od:TRIZ_Standard>
+  <od:TRIZ_Standard rdf:about="http://opendiscovery.org/rdf/BusinessStandard/S5_7">
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/BusinessStandard/G5"/>
+    <skos:preflabel xml:lang="en">Measuring derivative</skos:preflabel>
+    <skos:preflabel xml:lang="ru">Измерение производных</skos:preflabel>
+  </od:TRIZ_Standard>
+  <skos:ConceptScheme rdf:about="http://opendiscovery.org/rdf/BusinessStandard/theTRIZBusinessStandards">
+    <skos:prefLabel xml:lang="de">TRIZ Business Standards</skos:prefLabel>
+  </skos:ConceptScheme>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/TheBusinessStandards/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Business Standard Solutions proposed by Valeri Souchkov.</rdfs:comment>
+    <rdfs:comment>Extracted and transformed by HGG, 2020-08-02</rdfs:comment>
+    <rdfs:label>TRIZ Database - Business Standard Solutions</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>
