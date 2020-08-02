@@ -31,7 +31,7 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_102">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Roxas_JPB"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title>A system of standard inventive solution patterns for business and management problems</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_103">

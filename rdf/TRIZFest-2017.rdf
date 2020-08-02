@@ -42,7 +42,7 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_105">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boika_S"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ogievich_D"/>
     <dcterms:title>Application of TRIZ in business systems</dcterms:title>
   </od:Paper>
@@ -164,7 +164,7 @@
     <dcterms:title>Nature as a source of function-leading areas for FOS-derived solutions</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_129">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title>Online TRIZ training: experience with development and delivery</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_130">
@@ -220,7 +220,7 @@
     <dcterms:title>The hero’s journey as a framework for learning and using TRIZ</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_141">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title>The law of supersystem development</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_142">
@@ -278,7 +278,7 @@
     <dcterms:title>TRIZ reccomendations for development of concepts of “learning” products</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_153">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
     <dcterms:title>TRIZ-navigator for business models</dcterms:title>
   </od:Paper>

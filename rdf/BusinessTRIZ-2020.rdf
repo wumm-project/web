@@ -112,7 +112,7 @@
     <dcterms:title xml:lang="ru">Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_116">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title xml:lang="en">A system of standard inventive solutions in business and management</dcterms:title>
     <dcterms:title xml:lang="ru">Система стандартных изобретательских решений в бизнесе и управлении</dcterms:title>
   </od:Talk>

@@ -183,7 +183,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190722">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=2cfx3qJZJJ4"/>
     <dcterms:abstract xml:lang="en">Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 22, 2019</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:27:00 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-22</dcterms:issued>
@@ -196,7 +196,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190725">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ubgvcjzhs3g"/>
     <dcterms:abstract xml:lang="en">Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 25, 2019</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:27:10 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-25</dcterms:issued>
@@ -209,7 +209,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190727">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=srh23Ug6D6s"/>
     <dcterms:abstract xml:lang="en">Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 27, 2019</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:11:40 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-27</dcterms:issued>
@@ -223,7 +223,7 @@
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=X9tHu1czb7c"/>
     <dcterms:abstract xml:lang="en">Interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 13, 2019</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Очередной, третий эпизод бесед о инновационном мышлении. В этот раз речь идет об абстрактном мышлении. Как всегда, привожу примеры из личного опыта работы с клиентскими организациями и делюсь идеями, возникшими в результате многочисленных встреч с инноваторами из совершенно разных областей техники и бизнеса.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:21:07 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-13</dcterms:issued>
@@ -237,7 +237,7 @@
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=4MRtONIOv4M"/>
     <dcterms:abstract xml:lang="en">The fourth issue in the series "Innovative Thinking". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 19, 2019</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Четвертый выпуск в серии "Инновационное мышление". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>00:59:33 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-19</dcterms:issued>
@@ -250,7 +250,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20190825">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ZWexPVGQHtk"/>
     <dcterms:abstract xml:lang="en">Fifth issue in the series "Innovative Thinking". Another interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 25, 2019</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:22:44 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-25</dcterms:issued>
@@ -263,7 +263,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20191006">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=f6sG-ew9Gzw"/>
     <dcterms:abstract xml:lang="en">New video in the series “Skills of innovative thinking” - this time we are talking about resource thinking. Although I recently found out that in the Russian-speaking space the phrase “resource thinking” has a negative connotation. But it is precisely the ability to see and rationally use the “right” resources to achieve their goals that allows entrepreneurs to create the most effective and close to ideal solutions. Another interview given to Alexei Schinnikov from the Saratov TRIZ Club</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:16:01 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-10-06</dcterms:issued>
@@ -275,7 +275,7 @@
   </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20200213">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=gLx6h_KpDVI"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:09:42 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-02-14</dcterms:issued>
@@ -287,7 +287,7 @@
   </od:Presentation>
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Souchkov-20200630">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=vLpgLkx57ts"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>01:01:20 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-06-30</dcterms:issued>
