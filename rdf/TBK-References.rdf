@@ -38,6 +38,17 @@
     <dcterms:issued>1960</dcterms:issued>
     <dcterms:title xml:lang="ru">Как делаются открытия. Мысли о методике научной работы</dcterms:title>
   </od:Reference>
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1969_29f1eafaa2889cf33b2ed664a1597754">
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.B02"/>
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.D07"/>
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.F19"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/levels.asp"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/technique1.asp"/>
+    <dc:publisher xml:lang="ru">1-е изд. — М: Московский рабочий, 1969. 2-е изд. — М: Московский рабочий, 1973</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1969</dcterms:issued>
+    <dcterms:title xml:lang="ru">Алгоритм изобретения</dcterms:title>
+  </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1971_064db5ecfba06dda8b09224a76646638">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.D08"/>
     <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/technique1a.asp"/>
@@ -74,17 +85,6 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:issued>1972</dcterms:issued>
     <dcterms:title xml:lang="ru">Фантограммы: (Упражнения по развитию воображения)</dcterms:title>
-  </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1973_29f1eafaa2889cf33b2ed664a1597754">
-    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.B02"/>
-    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.D07"/>
-    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.F19"/>
-    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/levels.asp"/>
-    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/technique1.asp"/>
-    <dc:publisher xml:lang="ru">2-е изд. — М: Московский рабочий, 1973</dc:publisher>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:issued>1973</dcterms:issued>
-    <dcterms:title xml:lang="ru">Алгоритм изобретения</dcterms:title>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1973_3744d8cb70265882e16e3f7872c35c52">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.C06"/>

@@ -19,321 +19,373 @@
     <ical:location>Online, supported by EPAM, Minsk, Belarus</ical:location>
     <ical:url rdf:resource="https://community-z.com/events/triz-summit-2020"/>
   </swc:ConferenceEvent>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_101">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubina_NV"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4437"/>
-    <dcterms:title xml:lang="de">Analyse der ARIZ-Evolution mit Methoden der Theorie der Entwicklung des kreativen Denkens</dcterms:title>
-    <dcterms:title xml:lang="en">Analysis of ARIZ evolution by methods of the theory of development of inventive thinking</dcterms:title>
-    <dcterms:title xml:lang="ru">Анализ эволюции АРИЗ методами теории развития изобретательского мышления</dcterms:title>
-  </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3142_52/Gafitulin-TDS-2020-MiM.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4438"/>
     <dcterms:abstract xml:lang="ru">Древнегреческая мифология не имеет временных границ. Многие поколения людей в разных странах мира используют мифологические сюжеты и образы мифологических персонажей в своих творениях. Зевс (рим. Юпитер), Гера (рим. Юнона), Афродита (рим. Венера), Арес (рим. Марс), Посейдон (рим. Нептун), Гефест (рим. Вулкан), Геракл (рим. Геркулес) и другие боги и герои запечатлены в литературе, живописи, скульптуре, архитектуре и кино. Сегодня древнегреческие мифологические персонажи служат основой для новых творений не только в искусстве, но и в образовании.
 Героями моего доклада стали древнегреческие богини Мнемосина, мать девяти Муз, олицетворяющая память, и Метида, воплощающая мудрость. В своем выступлении я расскажу, как они вместе участвуют в реализации современного перспективного образования.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_MS"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4438"/>
     <dcterms:title xml:lang="de">Methodology "Mnemosyne and Metis"</dcterms:title>
     <dcterms:title xml:lang="en">Methodology "Mnemosyne and Metis"</dcterms:title>
     <dcterms:title xml:lang="ru">Методика "Мнемосина и Метида"</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_103">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3143_01/Chizhevskaya-TDS-2020-OTSM.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4439"/>
     <dcterms:abstract xml:lang="ru">Спикер расскажет, как помочь детям школьного возраста приобрести конкретные знания, умения и навыки использования ТРИЗ-инструментов и сформировать креативное мышление у подрастающего поколения. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chizhevskaya_NE"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4439"/>
     <dcterms:title xml:lang="de">Einsatz von OTSM-TRIZ-Modellen beim Unterrichten von Schulkindern zum Erstellen von Komischem in der Werbung</dcterms:title>
     <dcterms:title xml:lang="en">Using OTSM-TRIZ models in teaching schoolchildren to create comic in advertising</dcterms:title>
     <dcterms:title xml:lang="ru">Использование моделей ОТСМ-ТРИЗ в обучении школьников технологиям создания комического в рекламе</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_104">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3145_7d/Kozyreva-TDS-2020-inventing_games.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4441"/>
     <dcterms:abstract xml:lang="ru">Спикер расскажет про авторскую методику «Начинай изобретать» для изучения 40 типовых приемов ТРИЗ и ее применении в современных организационных условиях (ОЦ «Сириус», STEAM-образование, online-образование). Эксперт поделится раздаточными материалами и чек-листами, на основе которых педагог может диагностировать развитие изобретательского мышления учащихся. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozyreva_N"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4441"/>
     <dcterms:title xml:lang="de">Methodik zur Entwicklung kreativen Denkens bei der Untersuchung von 40 typischen TRIZ-Techniken</dcterms:title>
     <dcterms:title xml:lang="en">Methodology for the development of inventive thinking in the study of 40 typical TRIZ techniques</dcterms:title>
     <dcterms:title xml:lang="ru">Методика развития изобретательского мышления при изучении 40 типовых приемов ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3148_42/Nesterenko-TDS-2020-trizobretatel.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4444"/>
     <dcterms:abstract xml:lang="ru">Одна из проблем детского изобретательства — отсутствие у ребят практического опыта, необходимого для получения новой идеи. В среде «Тризобретатель», направленной на развитие изобретательских способностей младших школьников, он формируется с помощью экспериментов и закрепляется специальными дидактическими инструментами, основанных на моделях из ОТСМ-ТРИЗ.
 Авторы представят свою систему учебных экспериментов исследовательского и изобретательского типа, которая позволяет сформировать у ребенка необходимые научные представления на основе собственных экспериментов, учитывая его возрастные особенности и согласование цифровой и естественной экспериментальной среды. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Terekhova_G"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4444"/>
     <dcterms:title xml:lang="en">Modeling an experiment in children's invention (project of the digital laboratory "Tridentor")</dcterms:title>
     <dcterms:title xml:lang="de">Modellierung eines Experiments zur Erfindung von Kindern (Projekt des digitalen Labors "Tridentor")</dcterms:title>
     <dcterms:title xml:lang="ru">Моделирование эксперимента в детском изобретательстве (проект цифровой лаборатории "Тризобретатель")</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_106">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3149_26/Amnuel-TDS-2020-cup.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4443"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Amnuel_PR"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4443"/>
     <dcterms:title xml:lang="de">Arbeiten zur Fantasie bei den TRIZ Summit Wettbewerben</dcterms:title>
     <dcterms:title xml:lang="en">Works on fantasy at the TRIZ Summit contests</dcterms:title>
     <dcterms:title xml:lang="ru">Работы по фантазированию на конкурсах ТРИЗ-саммита</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_107">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3150_92/Amnuel-TDS-2020-sci-fi.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/446"/>
     <dcterms:abstract xml:lang="ru">На примере творчества Жюля Верна и некоторых других писателей-фантастов эксперт покажет, какие приемы РТВ позволяют придумывать наиболее эффектные научно-фантастические идеи. Спикер приведет примеры формулировок изобретений и открытий, сделанных фантастами, и опишет случаи, когда прямое использование известных научных идей и данных приводит к ошибочным научно-фантастическим идеям и прогнозам.  </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Amnuel_PR"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/446"/>
     <dcterms:title xml:lang="en">Science Fiction - Discoveries and Inventions</dcterms:title>
     <dcterms:title xml:lang="de">Science Fiction - Entdeckungen und Erfindungen</dcterms:title>
     <dcterms:title xml:lang="ru">Научная фантастика — открытия и изобретения</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_108">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4351"/>
     <dcterms:abstract xml:lang="ru">В докладе на системном уровне рассмотрена возможность расширения функциональных возможностей массовых библиотек путем формирования инновационного мышления у читателей за счет расширения возможности коммуникативной среды между читателями и работниками библиотеки. Предлагается рассматривать современную библиотеку не только как пространство хранения и получения читателями необходимой информации, но и как образовательную систему формирования у читателей инновационного мышления. Это достигается изменением характера функциональных отношений между читателями и работниками библиотеки, которые дополнительно обеспечивают и консультируют читателя не только необходимой, имеющейся в данный момент времени востребованной информацией, но и совместно с читателями обеспечивают поиск направлений выявления потенциальных проблем и путей их решения. Эффективность такой коммуникации обеспечивается применением технологии инновационного проектирования систем на основе ФСА и ТРИЗ. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dmitriev_VA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vachrushev_S"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4351"/>
     <dcterms:title xml:lang="de">Die moderne Bibliothek als System zur Herausbildung innovativen Denkens</dcterms:title>
     <dcterms:title xml:lang="en">Modern library as a system for the formation of innovative thinking</dcterms:title>
     <dcterms:title xml:lang="ru">Современная библиотека как система формирования инновационного мышления</dcterms:title>
   </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_109">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4347"/>
-    <dcterms:title xml:lang="de">Methoden zur Steigerung der Effektivität des Trainings durch Vortests von Studenten</dcterms:title>
-    <dcterms:title xml:lang="en">Methods for increasing the effectiveness of training through preliminary testing of students</dcterms:title>
-    <dcterms:title xml:lang="ru">Методика повышения эффективности обучения через предварительное тестирование слушателей</dcterms:title>
-  </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_110">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Edu"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4801"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubina_NV"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4801"/>
     <dcterms:title xml:lang="de">Ergebnisse des TRIZ Summit Cup 2019-2020</dcterms:title>
     <dcterms:title xml:lang="en">Results of the TRIZ Summit Cup 2019-2020</dcterms:title>
     <dcterms:title xml:lang="ru">Итоги Кубка ТРИЗ Саммита 2019-2020</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_201">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3141_22/Rubina-TDS-2020-ARIZ.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4437"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4461"/>
     <dcterms:abstract xml:lang="ru">В статье рассмотрены несколько модификаций Алгоритмов Решения Изобретательских Задач (АРИЗ-56, АРИЗ-65, АРИЗ-71, АРИЗ-77, АРИЗ-85). Для анализа развития инструментов, входящих в АРИЗ, и уровня развития изобретательского мышления специалиста, владеющего АРИЗ, использованы методика «Шкала изобретательности» и система оценки усвоения инструментов ТРИЗ «Икар и Дедал». Каждая модификация АРИЗ – это этап в развитии методики изобретательства и системы формирования изобретательского мышления.
 При сравнении модификаций АРИЗ между собой показано повышение уровня применения отдельных инструментов и уровня изобретательского мышления, которое формируется при применении различных модификаций АРИЗ. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubina_NV"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4461"/>
     <dcterms:title xml:lang="de">Analyse der ARIZ-Evolution mit Methoden der Theorie der Entwicklung erfinderischen Denkens</dcterms:title>
     <dcterms:title xml:lang="en">Analysis of ARIZ evolution by methods of the theory of development of inventive thinking</dcterms:title>
     <dcterms:title xml:lang="ru">Анализ эволюции АРИЗ методами теории развития изобретательского мышления</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_202">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3182_6d/TDS%20-%202020.%20%D0%A2%D0%A0%D0%98%D0%97%20%D0%BE%D0%BD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4462"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Eckardt_O"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shchedrin_N"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4462"/>
     <dcterms:title xml:lang="de">TRIZ Ontologie</dcterms:title>
     <dcterms:title xml:lang="en">TRIZ Ontology</dcterms:title>
     <dcterms:title xml:lang="ru">Онтология ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_203">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3174_d1/Souchkov-TDS-2020-Functionality.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4464"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:abstract xml:lang="ru">Подавляющее большинство утилитарных искусственных систем развиваются согласно определенным закономерностям. На разных этапах жизни проявляются разные закономерности, но есть и общие закономерности, характерные для всего жизненного цикла таких систем. Одной из таких общих закономерностей является линия развития функциональности технических и бизнес систем, описание которой дается в данном докладе. Понимание того, как развивается функциональность в общем, позволяет принимать более корректные стратегические решения в отношении дальнейшего развития конкретных продуктов и услуг. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4464"/>
     <dcterms:title xml:lang="en">Development of functionality in technical and business systems</dcterms:title>
     <dcterms:title xml:lang="de">Entwicklung von Funktionalität in technischen und Business-Systemen</dcterms:title>
     <dcterms:title xml:lang="ru">Развитие функциональности в технических и бизнес системах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_204">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3157_0c/Gafitulin-TDS-2020-checking.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4465"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:abstract xml:lang="ru">Практика проведения консультационных семинаров-тренингов для специалистов промышленных предприятий показала, что исходно поставленные для рассмотрения производственные цели и/или проблемы часто оказываются ложными. Это обстоятельство приводит к неоправданным затратам времени, расходам интеллектуальных и эмоциональных сил, производственным потерям. С целью повышения эффективности проведения предварительного анализа рассматриваемой цели и/или проблемы, предлагаются конкретные методические процедуры, повышающие достоверность определения истинности или ложности цели и проблемы. В ходе доклада будут приведены иллюстрирующие примеры из практики автора и ТРИЗ-коллег.  </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_MS"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4465"/>
     <dcterms:title xml:lang="en">Checking targets and problems for difficulty</dcterms:title>
     <dcterms:title xml:lang="de">Die Schwierigkeit von Zielen und Problemen prüfen</dcterms:title>
     <dcterms:title xml:lang="ru">Проверка цели и проблемы на сложность</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_205">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3168_ae/Solodkin-TDS-2020-key-problem.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4467"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:abstract xml:lang="ru">Искажения и "шумы" затрудняют адекватное определение организационных проблем и последующий поиск их причин. Автор объясняет понятия искажение и "шум", дает их классификацию и методы корректировки, а также рассматривает подход к формулировке организационной проблемы и поиску ключевых причин. С точки зрения теории сложности обсуждаются границы применимости ТРИЗ и других существующих методологий решения организационных проблем. Предлагается схема объединения ТРИЗ с другими методологиями для получения синергетического эффекта и расширения границ их применимости. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Solodkin_A"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4467"/>
     <dcterms:title xml:lang="en">Finding Root Causes of Organizational Problems</dcterms:title>
     <dcterms:title xml:lang="de">Suche der Primärursachen organisatorischer Probleme</dcterms:title>
     <dcterms:title xml:lang="ru">Поиск ключевых причин организационных проблем</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_206">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_A"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_N"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4470"/>
-    <dcterms:title xml:lang="de">"Das Programm für innovative Entwicklung" als Ansatz zum Aufbau einer regulären Funktion des Innovationsmanagements</dcterms:title>
-    <dcterms:title xml:lang="ru">"Программа Инновационного Развития" как подход к построению регулярной функции внедрения инноваций</dcterms:title>
-    <dcterms:title xml:lang="en">The "Program for Innovative Development" as an approach to set up a regular function of innovation management</dcterms:title>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/5382"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
+    <dcterms:title xml:lang="en">Manifold of solutions of business problems: how this influences the development of TRIZ for business</dcterms:title>
+    <dcterms:title xml:lang="de">Vielfalt der Lösung von Businessaufgaben: wie sich das auf die Entwicklung des Business-TRIZ auswirkt</dcterms:title>
+    <dcterms:title xml:lang="ru">Множественные решения бизнес-задач: как это влияет на развитие ТРИЗ для бизнеса</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_207">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
-    <dcterms:Titel xml:lang="de">TRIZ-basierte Innovationsmanagementstrategien</dcterms:Titel>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3159_4a/Petrov-TDS-2020-innovations.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4474"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:abstract xml:lang="ru">Показан системный подход к созданию инноваций разных видов и стратегии создания растущего бизнеса и успешно поддерживать его роста. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4474"/>
     <dcterms:title xml:lang="en">TRIZ-based innovation management strategies</dcterms:title>
     <dcterms:title xml:lang="de">TRIZ-gestützte Strategien des Innovationsmanagements</dcterms:title>
     <dcterms:title xml:lang="ru">Стратегии управления инновациями на основе ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_208">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/5392"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
+    <dcterms:title xml:lang="de">Die operative Zone in Erfindungsaufgaben in Businesssystemen</dcterms:title>
+    <dcterms:title xml:lang="en">Operative zone in invention problems in business systems</dcterms:title>
+    <dcterms:title xml:lang="ru">ОЗ в изобретательских задачах для бизнес-систем</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_208a">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3162_8e/Kassou-TDS-2020-economics.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4473"/>
     <dcterms:abstract xml:lang="ru">Посредством опыта консалтинговой и инновационной деятельности с применением методик ТРИЗ и Purchasing Chessboard компании A.T. Kearney сформирован подход их взаимодействия при анализе управленческих и экономических проблем в компаниях среднего и крупного бизнеса. Доклад освещает суть этой интеграции с примерами из практики. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kassou_R"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4473"/>
     <dcterms:title xml:lang="en">Practice of joint application of TRIZ tools with methodological approaches in management and economic tasks</dcterms:title>
     <dcterms:title xml:lang="de">Praxis der gemeinsamen Anwendung von TRIZ-Tools mit methodischen Ansätzen bei administrativen und wirtschaftlichen Aufgaben</dcterms:title>
     <dcterms:title xml:lang="ru">Практика совместного применения инструментов ТРИЗ с методическими подходами в управленческо-экономических задачах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_209">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:presentedby rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3155_ef/Kuryan-Rubin-TDS-2020%20buss-model-final3.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4478"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:abstract xml:lang="ru">В докладе представлены результаты работы по развитию ТРИЗ-навигатора по бизнес моделям. В основе предлагаемой методики поиска бизнес-моделей лежит формулировка противоречий требований и противоречие свойства элемента в рассматриваемой бизнес системе. Приведены примеры применения таблицы ТРИЗ-навигатора при решении бизнес-задач. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4478"/>
     <dcterms:title xml:lang="en">Business models as techniques for resolving contradictions</dcterms:title>
     <dcterms:title xml:lang="de">Geschäftsmodelle als Techniken zur Lösung von Widersprüchen</dcterms:title>
     <dcterms:title xml:lang="ru">Бизнес модели как приемы разрешения противоречий</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_210">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ogievich_D"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4480"/>
-    <dcterms:title xml:lang="de">Die effektivste TRIZ-Methode für Unternehmen oder bei TRIZ geht es nicht um das Geschäft, ABER</dcterms:title>
-    <dcterms:title xml:lang="en">The most effective TRIZ method for business or TRIZ is not about business, BUT</dcterms:title>
-    <dcterms:title xml:lang="ru">Самый действенный ТРИЗ метод для бизнеса или ТРИЗ это не про бизнес, НО</dcterms:title>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_N"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3175_89/%D0%A4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE-%D0%A1%D0%B0%D1%83%D0%BD%D0%B8%D0%BD-TDS2010_Business.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4470"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_N"/>
+    <dcterms:title xml:lang="de">"Das Programm für innovative Entwicklung" als Ansatz zum Aufbau einer regulären Funktion des Innovationsmanagements</dcterms:title>
+    <dcterms:title xml:lang="ru">"Программа Инновационного Развития" как подход к построению регулярной функции внедрения инноваций</dcterms:title>
+    <dcterms:title xml:lang="en">The "Program for Innovative Development" as an approach to set up a regular function of innovation management</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_211">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4481"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IXvR3iX5DQ4"/>
     <dcterms:abstract xml:lang="ru">Мы расскажем, почему в бизнесе при создании продуктов с помощью ТРИЗ важны принципы Agile, как ими воспользоваться и как с помощью Agile перестать бояться неудачи при внедрении ТРИЗ-решений. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bezdel_ZV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dichenko_SA"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4481"/>
     <dcterms:title xml:lang="en">How and why apply Agile principles in TRIZ for business</dcterms:title>
     <dcterms:title xml:lang="de">Wie und warum agile Prinzipien im TRIZ im Business anwenden</dcterms:title>
     <dcterms:title xml:lang="ru">Как и зачем применять принципы Agile в ТРИЗ для бизнеса</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_212">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/Business"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4482"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Eckardt_O"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4482"/>
     <dcterms:title xml:lang="de">Der Diversionsansatz in nichttechnischen Bereichen. Anwendungsbeispiele</dcterms:title>
     <dcterms:title xml:lang="en">Diversionary approach in non-technical areas. Application examples</dcterms:title>
     <dcterms:title xml:lang="ru">Диверсионный подход в не технических областях. Примеры применения</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_301">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3135_73/Nikitin-TDS-2020-ARIP.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4332"/>
     <dcterms:abstract xml:lang="ru">АРИП (алгоритм решения инженерных проблем) Г.И. Иванова – один из вариантов развития АРИЗ Г.С. Альтшуллера для производственно-технологических задач. Эксперт расскажет, почему возникла необходимость создания такого алгоритма, в чем его особенности и какова логика в его основе. А после представит выводы из практики применения АРИП для решения более 200 производственных задач и опишет дальнейшие шаги развития инструмента. </dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_V"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4332"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritskiy_AA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_VN"/>
     <dcterms:title xml:lang="de">Geschichte der Erstellung, Logik und Praxis der ARIP-Anwendung</dcterms:title>
     <dcterms:title xml:lang="en">History of creation, logic and practice of ARIP application</dcterms:title>
     <dcterms:title xml:lang="ru">История создания, логика и практика применения АРИП</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_302">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3136_21/Gr%C3%A4be-TDS-2020-Human_and_sistems.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4334"/>
     <dcterms:abstract xml:lang="ru">Исходный пункт - дискуссия об одной из тенденций развития технических систем, которая играла роль в Кубке ТРИЗ 2020 - закон, позже переформулированный как тренд, вытеснения человека из ТС. В своём докладе я покажу, почему действует противоположный этому закону тренд "ТС, из которой вытеснен человек, постоянный источник потенциальной опасности". Гаррисбург и Чернобыль только верхушка айсберга действия этого тренда, четыре захватывающих авиакатастрофа (MH 217 над Украиной, UA 752 в Иране, две аварии Boeing 737 Max) в последнее время укажут на общие проблемы, которые очень односторонне рассматриваются в западной пропаганде. Обе тенденции противоречат друг другу - я буду использовать методику ТРИЗ для анализа этого противоречия в самой ТРИЗ. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4334"/>
     <dcterms:title xml:lang="de">Der Mensch und seine technischen Systeme</dcterms:title>
     <dcterms:title xml:lang="en">Man and his technical systems</dcterms:title>
     <dcterms:title xml:lang="ru">Человек и его технические системы</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_303">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3133_3b/Rubin-TDS-2020.%20vakuum_IM10.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4335"/>
     <dcterms:abstract xml:lang="ru">В докладе представлены результаты исследовательской работы, обобщающей понятие пустоты и вакуума для любой системы: материальной или нематериальной. Вводится понятие системного вакуума для различных иерархических уровней систем: физический вакуум, химический вакуум, биологический вакуум и, технический вакуум и т.д. Вводится понятие модели обобщенного принципа действия для любых систем как совокупность функций, необходимых для реализации того или иного действия над объектами. Описаны этапы развития обобщенного принципа действия и роль пустоты при его реализации. Вводится понятие пустоты как идеального элемента в модели функции. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Misyuchenko_I"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin:MS"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4335"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
     <dcterms:title xml:lang="en">System vacuum and functions in TRIZ and evolutionary science</dcterms:title>
     <dcterms:title xml:lang="de">Systemvakuum und Funktionen in der TRIZ und Evolutionswissenschaft</dcterms:title>
     <dcterms:title xml:lang="ru">Системный вакуум и функции в ТРИЗ и эволюциоведении</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_304">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/NN"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4488"/>
-    <dcterms:title xml:lang="de">Geheimer Vortrag</dcterms:title>
-    <dcterms:title xml:lang="en">Secret talk</dcterms:title>
-    <dcterms:title xml:lang="ru">Секретный доклад</dcterms:title>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3180_7b/TDS-2020.%20%D0%91%D0%BE%D0%B9%D0%BA%D0%BE,%20%D0%9A%D1%83%D1%80%D1%8C%D1%8F%D0%BD.%20%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%B2.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4488"/>
+    <dcterms:abstract xml:lang="ru">Технологии «умного города» заметно улучшают качество нашей жизни. Датчики местоположения и скорости общественного транспорта, автоматизированное уличное освещение – все это лишь малая часть, и ТРИЗ помогает создать еще больше возможностей для нашего комфорта.
+В докладе эксперты расскажут о закономерностях развития городов, эволюции их функций и как в процессе всех изменений возникали и решались изобретательские задачи. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boika_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
+    <dcterms:title xml:lang="en">TRIZ in SmartCity systems</dcterms:title>
+    <dcterms:title xml:lang="de">TRIZ in SmartCity-Systemen</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ в системах SmartCity</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_305">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3137_9d/Tyukov-TDS-2020.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4336"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4336"/>
     <dcterms:title xml:lang="de">Anwendung von TRIZ beim Entwurf der Architektur eines Steuerungssystems auf der Basis von Daten im Energiesektor</dcterms:title>
     <dcterms:title xml:lang="en">Application of TRIZ in the design of data-based control system architecture in the energy sector</dcterms:title>
     <dcterms:title xml:lang="ru">Применение ТРИЗ при проектировании архитектуры системы управления на основе данных в энергетике</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_306">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/5393"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <dcterms:title xml:lang="en">TRIZ in IT</dcterms:title>
+    <dcterms:title xml:lang="de">TRIZ in der IT</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ в ИТ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_306a">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3167_d5/Kassou-TDS-2020-2cases.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4338"/>
     <dcterms:abstract xml:lang="ru">В области разработки программного обеспечения реализованы для заказчиков концепции двух продуктов, в архитектуре которых используются алгоритмы машинного обучения. Данные концепции были выведены методами ТРИЗ (разрешение противоречий, ФОП, перенос технологий и др). Доклад освещает эти два кейса, их методическую составляющую и качество полученного результата. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kassou_R"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4338"/>
     <dcterms:title xml:lang="en">Two cases of using TRIZ methods in AI problems launching new products</dcterms:title>
     <dcterms:title xml:lang="de">Zwei Fälle der Verwendung von TRIZ-Methoden auf KI-Probleme bei der Einführung neuer Produkte</dcterms:title>
     <dcterms:title xml:lang="ru">Два кейса применения методов ТРИЗ в задачах по ИИ с выводом новых продуктов</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_307">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3134_a7/Rubin-TDS-2020-RUSAL.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4353"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Akkubekov_PA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khronik_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Krayev_OA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lopatin_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4353"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shchedrin_N"/>
     <dcterms:title xml:lang="en">Development of TRIZ infrastructure at industrial enterprises. Experience of RUSAL</dcterms:title>
     <dcterms:title xml:lang="de">Entwicklung der TRIZ-Infrastruktur in Industrieunternehmen. Erfahrung von RUSAL</dcterms:title>
     <dcterms:title xml:lang="ru">Развитие инфраструктуры ТРИЗ на промышленных предприятиях. Опыт РУСАЛ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_308">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3138_d5/Akkubekov-TDS-2020-metallurgy.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4339"/>
     <dcterms:abstract xml:lang="ru">В статье представлена часть результатов применения инструментов ТРИЗ для решения производственной задачи металлургического предприятия. Цель проекта: снижение удельного расхода электроэнергии печей гомогенизации, а также, повышение надежности нагревательных элементов печей (калориферов). </dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Akkubekov_P"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4339"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Akkubekov_PA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Krayev_OA"/>
     <dcterms:title xml:lang="de">Erfahrung mit der Verwendung von TRIZ in der Metallurgie am Beispiel der Steigerung der Effizienz von Homogenisierungsöfen</dcterms:title>
     <dcterms:title xml:lang="en">Experience of using TRIZ in metallurgy by the example of increasing the efficiency of homogenization furnaces</dcterms:title>
     <dcterms:title xml:lang="ru">Опыт применения ТРИЗ в металлургии на примере повышения эффективности работы печей гомогенизации</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_309">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3139_da/Petrov-TDS-2020-regularities.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4442"/>
     <dcterms:abstract xml:lang="ru">В докладе представляется новая структура законов и закономерностей развития искусственных систем и формулировки некоторых законов и закономерностей. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4442"/>
     <dcterms:title xml:lang="de">Gesetze der Entwicklung künstlicher Systeme</dcterms:title>
     <dcterms:title xml:lang="en">Laws of Development of Artificial Systems</dcterms:title>
     <dcterms:title xml:lang="ru">Закономерности развития искусственных систем</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_310">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3152_cc/Petrov-TDS-2020-fashion-updated.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4341"/>
     <dcterms:abstract xml:lang="ru">Авторы на конкретных примерах покажут возможность применения инструментов ТРИЗ при создании одежды. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4341"/>
     <dcterms:title xml:lang="de">TRIZ: Innovationen in der Mode</dcterms:title>
     <dcterms:title xml:lang="en">TRIZ: Innovations in Fashion</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ: Инновации в моде</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_311">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3140_05/Skuratovich-TDS-2020-solving_a_problem.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4340"/>
     <dcterms:abstract xml:lang="ru">В докладе показано применение АРИЗ-85В для решения задачи по упрощению конструкции механизма принудительного движения сепаратора в прямолинейной направляющей трения качения. Акцент сделан на сложности выхода на подходящую идею и способ.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Skuratovich_AI"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4340"/>
     <dcterms:title xml:lang="de">Problemlösen mit ARIZ-85C, Wege zur Lösungsidee</dcterms:title>
     <dcterms:title xml:lang="en">Solving problems with ARIZ-85C, a way to the idea of ​​a solution</dcterms:title>
     <dcterms:title xml:lang="ru">Решение задачи с помощью АРИЗ-85В, способ выхода на идею решения</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_312">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3166_e0/Farber-TDS-2020-synergy.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4489"/>
     <dcterms:abstract xml:lang="ru">В статье мы описали наш подход синергетической комбинации S-кривой и перехода к системе более высокого уровня для спасения человечества от бактерий с множественной лекарственной устойчивостью. Проблема в том, что антибиотики не борются с бактериями с множественной лекарственной устойчивостью. Мы создали метод и провели исследования и разработки в нашей лаборатории для борьбы с MDR. Применяя метод ТРИЗ для разрешения противоречий, мы смогли создать новую парадигму борьбы с бактериями с множественной лекарственной устойчивостью. Наша синергетическая комбинация лекарств позволяет нам убивать то, что считалось «неубиваемыми» бактериями, устойчивыми к антибиотикам. Это также можно добиться результата, используя более низкие дозы антибиотиков, чем те, которые в настоящее время используются в качестве стандарта лечения. Таким образом, в результате изучения влияния активаторов (энхансеров) накопления цАМФ на микроорганизмы с множественной лекарственной устойчивостью мы установили, что быстрая стимуляция роста энхансерами во втором пассаже приводит к ингибированию роста бактерий при последующих пассажах до полного прекращения роста в пассажах 4-5. Мы также обнаружили, что энхансеры способствуют значительному увеличению чувствительности штаммов бактерий с множественной лекарственной устойчивостью к противомикробным препаратам. </dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/NN"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4489"/>
-    <dcterms:title xml:lang="de">Geheimer Vortrag</dcterms:title>
-    <dcterms:title xml:lang="en">Secret talk</dcterms:title>
-    <dcterms:title xml:lang="ru">Секретный доклад</dcterms:title>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Farber_B"/>
+    <dcterms:title xml:lang="en">Synergetic combination of S-curve and transition to a supersystem for bacteria with multiple drug resistance</dcterms:title>
+    <dcterms:title xml:lang="de">Synergische Kombination von S-Kurve und Übergang zu einem Obersystem für Bakterien mit multipler Arzneimittelresistenz</dcterms:title>
+    <dcterms:title xml:lang="ru">Синергетическая комбинации S-образной кривой и перехода в надсистему для бактерий с множественной лекарственной устойчивостью</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/Talk_313">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/IT"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/NN"/>
-    <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2020/talks/4348"/>
+    <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3173_a6/Aminov-TDS-2020.pdf"/>
+    <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4348"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Aminov_RB"/>
     <dcterms:title xml:lang="en">Proposal of a unified process for solving inventive problems</dcterms:title>
     <dcterms:title xml:lang="de">Vorschlag eines einheitlichen Prozesses zur Lösung erfinderischer Probleme</dcterms:title>
     <dcterms:title xml:lang="ru">Предположение о едином процессе решения изобретательских задач</dcterms:title>

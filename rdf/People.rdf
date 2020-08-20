@@ -34,9 +34,9 @@
     <foaf:affil>Hyundai Motor Group, South Korea</foaf:affil>
     <foaf:name>Hyun-Soo Ahn</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Akkubekov_P">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Akkubekov_PA">
     <foaf:affil>Krasnoyarsk, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Павел Аккубеков</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Павел А. Аккубеков</foaf:fullname>
     <foaf:name>Pavel Akkubekov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Altov_G">
@@ -227,10 +227,10 @@
     <foaf:fullname xml:lang="ru">Лев Григорьевич Буров</foaf:fullname>
     <foaf:name>Leo Burov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bystritskiy_A">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bystritskiy_AA">
     <foaf:affil>Irkutsk, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Александр Быстрицкий</foaf:fullname>
-    <foaf:name>Alexander Bystritskiy</foaf:name>
+    <foaf:fullname xml:lang="ru">Александр Анатольевич Быстрицкий</foaf:fullname>
+    <foaf:name>Alexander A: Bystritskiy</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cascini_G">
     <foaf:affil>Italia</foaf:affil>
@@ -397,6 +397,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fan_J">
     <foaf:name>Jiang Fan</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Farber_B">
+    <foaf:affil>TRIZBiopharma International, New York, USA</foaf:affil>
+    <foaf:name>Boris Farber</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fedosov_YI">
     <foaf:affil xml:lang="en">St. Petersburg, Russia</foaf:affil>
@@ -808,6 +812,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khovanov_S">
     <foaf:name>Sergej Khovanov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khronik_A">
+    <foaf:fullname xml:lang="ru">Алексей Хроник</foaf:fullname>
+    <foaf:name>Aleksej Khronik</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kiesel_M">
     <foaf:affil>Siemens AG, Germany</foaf:affil>
     <foaf:name>Martin Kiesel</foaf:name>
@@ -917,6 +925,10 @@
     <foaf:affil>Kasakhstan</foaf:affil>
     <foaf:fullname xml:lang="ru">Сергей Петрович Кравцов</foaf:fullname>
     <foaf:name>Sergei Kravzov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Krayev_OA">
+    <foaf:fullname xml:lang="ru">Олег Краев</foaf:fullname>
+    <foaf:name>Oleg A. Krayev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kriachko_VB">
     <foaf:affil>Russia</foaf:affil>
@@ -1090,6 +1102,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lok_A">
     <foaf:affil>China Institute for Innovation, China</foaf:affil>
     <foaf:name>Arthur Lok</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lopatin_S">
+    <foaf:fullname xml:lang="ru">Сергей Лопатин</foaf:fullname>
+    <foaf:name>Sergej Lopatin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lovich_A">
     <foaf:affil>Germany</foaf:affil>
@@ -1285,10 +1301,10 @@
     <foaf:fullname xml:lang="ru">Александр Иванович Никашин</foaf:fullname>
     <foaf:name>Aleksander Nikashin</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nikitin_V">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nikitin_VN">
     <foaf:affil>Irkutsk, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Владимир Никитин</foaf:fullname>
-    <foaf:name>Vladimir Nikitin</foaf:name>
+    <foaf:fullname xml:lang="ru">Владимир Николаевич Никитин</foaf:fullname>
+    <foaf:name>Vladimir N. Nikitin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nilov_AP">
     <foaf:affil>Russia</foaf:affil>
@@ -1540,7 +1556,7 @@
     <foaf:name>Johan Scheers</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schinnikov_A">
-    <foaf:affil xml:lang="ru">Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов</foaf:affil>
+    <foaf:affil>Saratov, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Алексей Щинников</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
     <foaf:name>Alexey Schinnikov</foaf:name>
