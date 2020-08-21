@@ -8,20 +8,21 @@ require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
-function thePeople($in) 
+function thePeople() 
 {
     EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
     EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
     EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
     $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/People/');
-    $graph->parseFile($in);
+    $graph->parseFile("rdf/People.rdf");
+    $graph->parseFile("rdf/MATRIZ-Certificates.rdf");
     $a=array();
-    $res = $graph->allOfType('foaf:Person');
-    foreach ($res as $autor) {
+    foreach ($graph->allOfType('foaf:Person') as $autor) {
         $b=array();
+        $cert=getCertificate($graph,$autor->getURI());
         foreach ($autor->all("foaf:name") as $e) {
-            $b[]='<span itemprop="name" class="foaf:name">'
-                .$e->getValue().'</span>';
+            $b[]='<strong><span itemprop="name" class="foaf:name">'
+                .$e->getValue().'</span></strong>';
         }
         foreach ($autor->all("foaf:affil") as $e) {
             $b[]='<span itemprop="affiliation" class="foaf:affil">'
@@ -30,6 +31,7 @@ function thePeople($in)
         foreach ($autor->all("foaf:homepage") as $e) {
             $b[]=createLink($e,$e);
         }
+        if (!empty($cert)) { $b[]="MATRIZ Certificates: $cert"; }
         $a[$autor->getUri()]=
             '<div itemscope itemtype="http://schema.org/Person" class="creator">'
             .join('<br/>',$b).'</p></div>';
@@ -42,6 +44,24 @@ function thePeople($in)
     return '<div class="container">'.$out.'</div>';
 }
 
-echo showpage(thePeople("rdf/People.rdf"));
+function getCertificate($graph,$author) {
+    $s=array();
+    foreach ($graph->allOfType('od:CertificateLevel4') as $c) {
+        if (strcmp($c->get("od:owner"),$author)==0) {
+            $s[]=str_replace("http://opendiscovery.org/rdf/Certificate/","",
+            $c->getURI());
+        }
+    }
+    foreach ($graph->allOfType('od:CertificateLevel5') as $c) {
+        if (strcmp($c->get("od:owner"),$author)==0) {
+            $s[]=str_replace("http://opendiscovery.org/rdf/Certificate/","",
+            $c->getURI());
+        }
+    }
+    return join(", ",$s);
+}
+
+
+echo showpage(thePeople());
 
 ?>
