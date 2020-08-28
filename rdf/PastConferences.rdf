@@ -16,8 +16,19 @@
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-24</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-23</ical:dtstart>
     <ical:location>Online</ical:location>
-    <ical:summary xml:lang="en">The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. </ical:summary>
+    <ical:summary xml:lang="en">The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encourage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. </ical:summary>
     <ical:url rdf:resource="http://www.biztriz.net/news/2-uncategorised/32-2020.html"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/GermanTRIZOnline-2020.rdf"/>
+    <rdfs:label xml:lang="de">1. Deutsche TRIZ-Konferenz Online 2020</rdfs:label>
+    <rdfs:label xml:lang="en">1. German TRIZ Online Coference 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-02</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-02</ical:dtstart>
+    <ical:location>Online, supported by Bayern Innovativ, Nuremburg, Germany</ical:location>
+    <ical:summary xml:lang="en">Caused by Corona we are breaking new ground and have developed the 1st German TRIZ Conference online. At this event we want to offer a platform for TRIZ relevant contributions from the academic field and also from the industrial sector that will also be published (Springer Verlag).</ical:summary>
+    <ical:summary xml:lang="de">Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag).</ical:summary>
+    <ical:url rdf:resource="https://www.bayern-innovativ.de/events-und-messen/veranstaltungen/veranstaltung/triz-konferenz-online-2020"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2001/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html"/>

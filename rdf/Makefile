@@ -9,6 +9,7 @@ all:
 	rapper -g ../../RDFData/Conferences/TRIZFest-2016.ttl -o rdfxml-abbrev >TRIZFest-2016.rdf
 	rapper -g ../../RDFData/Conferences/TRIZFest-2017.ttl -o rdfxml-abbrev >TRIZFest-2017.rdf
 	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2020.ttl -o rdfxml-abbrev >BusinessTRIZ-2020.rdf
+	rapper -g ../../RDFData/Conferences/GermanTRIZOnline-2020.ttl -o rdfxml-abbrev >GermanTRIZOnline-2020.rdf
 	rapper -g ../../RDFData/Glossary.ttl -o rdfxml-abbrev >Glossary.rdf
 	rapper -g ../../RDFData/Presentations.ttl -o rdfxml-abbrev >Presentations.rdf
 	rapper -g ../../RDFData/ThePrinciples.ttl -o rdfxml-abbrev >Principles.rdf

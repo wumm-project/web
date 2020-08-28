@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dbo="http://dbpedia.org/ontology/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
    xmlns:odp="http://opendiscovery.org/rdf/Person/"
@@ -54,7 +55,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amnuel_PR">
     <foaf:affil>Beit She'an, Israel</foaf:affil>
-    <foaf:fullname xml:lang="ru">Песах Рафаилович Амнуэль</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Песах Рафаэлович Амнуэль</foaf:fullname>
     <foaf:name>Pavel R. Amnuel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arel_AT">
@@ -85,10 +86,11 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:name>Mark Bakhrakh</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bakhturin_D">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bakhturin_DA">
     <foaf:affil>Rosatom, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Дмитрий Александрович Бахтурин</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/dmitriy.bakhturin"/>
-    <foaf:name>Dmitriy Bakhturin</foaf:name>
+    <foaf:name>Dmitri A. Bakhturin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Barkan_MG">
     <foaf:affil>Education for a New Era, USA</foaf:affil>
@@ -227,10 +229,10 @@
     <foaf:fullname xml:lang="ru">Лев Григорьевич Буров</foaf:fullname>
     <foaf:name>Leo Burov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bystritskiy_AA">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bystritsky_AA">
     <foaf:affil>Irkutsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Александр Анатольевич Быстрицкий</foaf:fullname>
-    <foaf:name>Alexander A: Bystritskiy</foaf:name>
+    <foaf:name>Alexander A. Bystritsky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cascini_G">
     <foaf:affil>Italia</foaf:affil>
@@ -398,9 +400,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fan_J">
     <foaf:name>Jiang Fan</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Farber_B">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Farber_BS">
     <foaf:affil>TRIZBiopharma International, New York, USA</foaf:affil>
-    <foaf:name>Boris Farber</foaf:name>
+    <foaf:fullname xml:lang="ru">Борис Славинович Фарбер</foaf:fullname>
+    <foaf:name>Boris S. Farber</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fedosov_YI">
     <foaf:affil xml:lang="en">St. Petersburg, Russia</foaf:affil>
@@ -597,7 +600,7 @@
     <foaf:name>Michal Halas</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hammer_J">
-    <foaf:affil>FAU Nürnberg, Germany</foaf:affil>
+    <foaf:affil>Herzogenaurach, Germany</foaf:affil>
     <foaf:name>Jens Hammer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_B">
@@ -744,6 +747,12 @@
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Николай Григорьевич Калошин</foaf:fullname>
     <foaf:name>Nikolai Kaloshin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kamayev_VA">
+    <dbo:birthDate>1940-05-30</dbo:birthDate>
+    <dbo:deathDate>2016-09-13</dbo:deathDate>
+    <foaf:fullname xml:lang="ru">Валерий Анатольевич Камаев</foaf:fullname>
+    <foaf:name>Valeri A. Kamayev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kanaan_H">
     <foaf:affil>St. Josephs Univ., Lebanon</foaf:affil>
@@ -930,14 +939,14 @@
     <foaf:fullname xml:lang="ru">Олег Краев</foaf:fullname>
     <foaf:name>Oleg A. Krayev</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kriachko_VB">
-    <foaf:affil>Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Валентина Борисовна Крячко</foaf:fullname>
-    <foaf:name>Valentina Kriachko</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kruglik_S">
     <foaf:affil>ICG Training &amp; Consulting</foaf:affil>
     <foaf:name>Serguei Krouglik</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kryachko_VB">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Валентина Борисовна Крячко</foaf:fullname>
+    <foaf:name>Valentina Kryachko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kucharavy_D">
     <foaf:affil xml:lang="ru">SeeCore Project, исследователь, преподаватель, консультант</foaf:affil>
@@ -1033,9 +1042,19 @@
     <foaf:name>Emanuel Leleito</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Leniashin_VA">
-    <foaf:affil>Russia,, South Korea</foaf:affil>
+    <foaf:affil>Russia - South Korea</foaf:affil>
     <foaf:fullname xml:lang="ru">Василий Алексеевич Леняшин</foaf:fullname>
     <foaf:name>Vassili Lenjaschin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/LeonhardPfleger_R">
+    <foaf:affil>Ingolstadt, Germany</foaf:affil>
+    <foaf:name>Raphaela Leonhard-Pfleger</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Levenchuk_A">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru"> Анатолий Левенчук</foaf:fullname>
+    <foaf:homepage rdf:resource="https://ailev.livejournal.com/"/>
+    <foaf:name>Anatoly Levenchuk</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_H">
     <foaf:affil xml:lang="ru">Санкт-Петербургский государственный инженерно-экономический университет, технический директор IMA-InnoCloud (Пекин) Technology Co., Ltd</foaf:affil>
@@ -1228,10 +1247,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Min_Y">
     <foaf:name>Yan Min</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Minaker_V">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Minaker_VE">
     <foaf:affil>Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Виктор Минакер</foaf:fullname>
-    <foaf:name>Viktor Minaker</foaf:name>
+    <foaf:fullname xml:lang="ru">Виктор Ефимович Минакер</foaf:fullname>
+    <foaf:name>Viktor E. Minaker</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mingqin_G">
     <foaf:name>Gu Mingqin</foaf:name>
@@ -1371,8 +1390,7 @@
     <foaf:name>Dmitrij Petrov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_VM">
-    <foaf:affil xml:lang="en">Innovation Technology</foaf:affil>
-    <foaf:affil>International TRIZ Association (MATRIZ)</foaf:affil>
+    <foaf:affil>Israel</foaf:affil>
     <foaf:fullname xml:lang="ru">Владимир Михайлович Петров</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/vladimir.petrov.triz"/>
     <foaf:name>Vladimir M. Petrov</foaf:name>
@@ -1547,10 +1565,18 @@
     <foaf:affil>WASEDA University, Japan</foaf:affil>
     <foaf:name>Manabu Sawaguchi</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schaper_S">
+    <foaf:affil>Tutzing, Germany</foaf:affil>
+    <foaf:name>Stefan Schaper</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Scharipov_RH">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Рашид Хамзович Шарипов</foaf:fullname>
     <foaf:name>Rashid Scharipov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schaumann_U">
+    <foaf:affil>Oberderdingen, Germany</foaf:affil>
+    <foaf:name>Uwe Schaumann</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Scheers_J">
     <foaf:name>Johan Scheers</foaf:name>
@@ -1842,11 +1868,6 @@
     <foaf:fullname xml:lang="ru">Виктор Иванович Тимохов</foaf:fullname>
     <foaf:name>Viktor I. Timochov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tjukov_AP">
-    <foaf:affil>Volgograd, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Антон Павлович Тюков</foaf:fullname>
-    <foaf:name>Anton P. Tjukov</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Toeters_M">
     <foaf:affil>by-wire.net, The Netherlands</foaf:affil>
     <foaf:name>Marina Toeters</foaf:name>
@@ -1870,6 +1891,11 @@
     <foaf:affil>Predizo LLC, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Валерий Михайлович Цуриков</foaf:fullname>
     <foaf:name>Valery M. Tsourikov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tyukov_AP">
+    <foaf:affil>Volgograd, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Антон Павлович Тюков</foaf:fullname>
+    <foaf:name>Anton P. Tyukov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ulan_P">
     <foaf:affil>USA</foaf:affil>
@@ -1913,9 +1939,9 @@
     <foaf:affil>Open TRIZ Second Wave Chile SpA, Chile</foaf:affil>
     <foaf:name>José Roberto Espinoza Villarroe</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vishnepolskaya_SV">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV">
     <foaf:affil>USA</foaf:affil>
-    <foaf:name>Svetlana V. Vishnepolskaya</foaf:name>
+    <foaf:name>Svetlana V. Vishnepolschi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Waldman_MK">
     <foaf:affil>USA</foaf:affil>
@@ -1932,7 +1958,7 @@
     <foaf:name>Wenlong Wang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Weber_O">
-    <foaf:affil>„Next Generation Education”, Berlin</foaf:affil>
+    <foaf:affil>Berlin, Germany</foaf:affil>
     <foaf:homepage rdf:resource="https://somales.de/"/>
     <foaf:name>Olaf Weber</foaf:name>
   </foaf:Person>
@@ -1941,6 +1967,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wenxin_C">
     <foaf:name>Chen Wenxin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wessner_J">
+    <foaf:affil>Gerlingen, Germany</foaf:affil>
+    <foaf:name>Jochen Wessner</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Won_SY">
     <foaf:affil>South Korea</foaf:affil>

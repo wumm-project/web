@@ -251,7 +251,7 @@
     <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4332"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=uUC6c8F8wfg"/>
     <dcterms:abstract xml:lang="ru">АРИП (алгоритм решения инженерных проблем) Г.И. Иванова – один из вариантов развития АРИЗ Г.С. Альтшуллера для производственно-технологических задач. Эксперт расскажет, почему возникла необходимость создания такого алгоритма, в чем его особенности и какова логика в его основе. А после представит выводы из практики применения АРИП для решения более 200 производственных задач и опишет дальнейшие шаги развития инструмента. </dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritskiy_AA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritsky_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_VN"/>
     <dcterms:title xml:lang="de">Geschichte der Erstellung, Logik und Praxis der ARIP-Anwendung</dcterms:title>
     <dcterms:title xml:lang="en">History of creation, logic and practice of ARIP application</dcterms:title>
@@ -298,7 +298,7 @@
     <od:urlPaper rdf:resource="https://r1.nubex.ru/s828-c8b/f3137_9d/Tyukov-TDS-2020.pdf"/>
     <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4336"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=uUC6c8F8wfg"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tyukov_AP"/>
     <dcterms:title xml:lang="de">Anwendung von TRIZ beim Entwurf der Architektur eines Steuerungssystems auf der Basis von Daten im Energiesektor</dcterms:title>
     <dcterms:title xml:lang="en">Application of TRIZ in the design of data-based control system architecture in the energy sector</dcterms:title>
     <dcterms:title xml:lang="ru">Применение ТРИЗ при проектировании архитектуры системы управления на основе данных в энергетике</dcterms:title>
@@ -393,7 +393,7 @@
     <od:urlVideo rdf:resource="https://communities.by/events/triz-summit-2020/talks/4489"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=sBBleaqUzFc"/>
     <dcterms:abstract xml:lang="ru">В статье мы описали наш подход синергетической комбинации S-кривой и перехода к системе более высокого уровня для спасения человечества от бактерий с множественной лекарственной устойчивостью. Проблема в том, что антибиотики не борются с бактериями с множественной лекарственной устойчивостью. Мы создали метод и провели исследования и разработки в нашей лаборатории для борьбы с MDR. Применяя метод ТРИЗ для разрешения противоречий, мы смогли создать новую парадигму борьбы с бактериями с множественной лекарственной устойчивостью. Наша синергетическая комбинация лекарств позволяет нам убивать то, что считалось «неубиваемыми» бактериями, устойчивыми к антибиотикам. Это также можно добиться результата, используя более низкие дозы антибиотиков, чем те, которые в настоящее время используются в качестве стандарта лечения. Таким образом, в результате изучения влияния активаторов (энхансеров) накопления цАМФ на микроорганизмы с множественной лекарственной устойчивостью мы установили, что быстрая стимуляция роста энхансерами во втором пассаже приводит к ингибированию роста бактерий при последующих пассажах до полного прекращения роста в пассажах 4-5. Мы также обнаружили, что энхансеры способствуют значительному увеличению чувствительности штаммов бактерий с множественной лекарственной устойчивостью к противомикробным препаратам. </dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Farber_B"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Farber_BS"/>
     <dcterms:title xml:lang="en">Synergetic combination of S-curve and transition to a supersystem for bacteria with multiple drug resistance</dcterms:title>
     <dcterms:title xml:lang="de">Synergische Kombination von S-Kurve und Übergang zu einem Obersystem für Bakterien mit multipler Arzneimittelresistenz</dcterms:title>
     <dcterms:title xml:lang="ru">Синергетическая комбинации S-образной кривой и перехода в надсистему для бактерий с множественной лекарственной устойчивостью</dcterms:title>

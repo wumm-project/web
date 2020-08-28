@@ -44,11 +44,11 @@
     <dcterms:title xml:lang="ru">ТРИЗ + Фасилитация: решаем технические и другие задачи с помощью обучения</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_105">
-    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Tyukov_AP"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chernych_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lukash_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orlyanskaya_A"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tjukov_AP"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tyukov_AP"/>
     <dcterms:title xml:lang="en">Experience in implementing a project to increase productivity in an agricultural enterprise</dcterms:title>
     <dcterms:title xml:lang="ru">Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии</dcterms:title>
   </od:Talk>
@@ -69,9 +69,9 @@
     <dcterms:title xml:lang="ru">Особенности и опыт организации изучения ТРИЗ в онлайн-формате</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_109">
-    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bystritskiy_AA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bystritsky_AA"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=HMMjgtSwVwE"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritskiy_AA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritsky_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_VN"/>
     <dcterms:title xml:lang="en">Methodology for formulating technical tasks of business modernization</dcterms:title>
     <dcterms:title xml:lang="ru">Методика формулирования технического задания на модернизацию бизнеса</dcterms:title>

@@ -1509,7 +1509,7 @@
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dc:publisher xml:lang="en">Ideation International Inc. 1999. — 86 p.</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaplan_S"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vishnepolskaya_SV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Visnepolski_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AV"/>
@@ -2516,19 +2516,19 @@
     <dcterms:title xml:lang="ru">Кривая всегда вывезет. Геометрия для изобретателей</dcterms:title>
     <rdfs:comment>pp. 71—175</rdfs:comment>
   </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Vishnepolskaya_1985_5c21cbbb6e9d4768ecd23d9b9acd0abd">
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Vishnepolschi_1985_5c21cbbb6e9d4768ecd23d9b9acd0abd">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK1/Verweis.7"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.D20"/>
     <dc:publisher xml:lang="ru">Кишинев, 1985. — 26 с. (рукопись) — Петрозаводск-85</dc:publisher>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vishnepolskaya_SV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
     <dcterms:issued>1985</dcterms:issued>
     <dcterms:title xml:lang="en">Use of Resources in Search for New Engineering Solutions</dcterms:title>
     <dcterms:title xml:lang="ru">Использование ресурсов при поиске новых технических решений</dcterms:title>
   </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Vishnepolskaya_1989_82f780f112cd68c6d3a536a60a81879c">
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Vishnepolschi_1989_82f780f112cd68c6d3a536a60a81879c">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.F17"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vishnepolskaya_SV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AV"/>
     <dcterms:issued>1989</dcterms:issued>
