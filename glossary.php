@@ -30,7 +30,11 @@ function theGlossary($input)
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
-    $out='<h2>The TRIZ Glossary</h2>
+    $out='<h2>The TRIZ Glossary in the VDI norm 4521 </h2>
+
+<p>This is a version of the glossary of the "VDI norm 4521 Blatt 1"
+transformed into RDF and enriched with a Russian version.</p>
+
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';

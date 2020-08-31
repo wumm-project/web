@@ -11,6 +11,7 @@ all:
 	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2020.ttl -o rdfxml-abbrev >BusinessTRIZ-2020.rdf
 	rapper -g ../../RDFData/Conferences/GermanTRIZOnline-2020.ttl -o rdfxml-abbrev >GermanTRIZOnline-2020.rdf
 	rapper -g ../../RDFData/Glossary.ttl -o rdfxml-abbrev >Glossary.rdf
+	rapper -g ../../RDFData/Ontology.ttl -o rdfxml-abbrev >Ontology.rdf
 	rapper -g ../../RDFData/Presentations.ttl -o rdfxml-abbrev >Presentations.rdf
 	rapper -g ../../RDFData/ThePrinciples.ttl -o rdfxml-abbrev >Principles.rdf
 	rapper -g ../../RDFData/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
