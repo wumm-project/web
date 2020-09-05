@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/MOF-2020/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/General">
+    <rdfs:label>MOF 2020 - MATRIZ Online Forum 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-27</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-24</ical:dtstart>
+    <ical:location>Online, supported by the Moscow TRIZ Club</ical:location>
+    <ical:summary xml:lang="en">MOF - spelled as "MATRIZ Online Forum" or "Moscow Online Forum" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. </ical:summary>
+    <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_100">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fey_VR"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="en">Is TRIZ a Science?</dcterms:title>
+    <dcterms:title xml:lang="de">Ist TRIZ eine Wissenschaft?</dcterms:title>
+    <dcterms:title xml:lang="zh">TRIZ是一門科學嗎？</dcterms:title>
+    <dcterms:title xml:lang="ru">Так наука ли ТРИЗ?</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_101">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="en">Hidden Excesses in Engineering Systems as a Resource for Improvement</dcterms:title>
+    <dcterms:title xml:lang="de">Versteckte Überschüsse in technischen Systemen als Ressource für Verbesserungen</dcterms:title>
+    <dcterms:title xml:lang="ru">Скрытая избыточность в технических системах как ресурс для их совершенствования</dcterms:title>
+    <dcterms:title xml:lang="zh">隱藏工程系統中的過剩作為改進資源</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_102">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Badura_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Leiner_DF"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="de">Inwieweit ist TRIZ / TIPS eine agile Methode?</dcterms:title>
+    <dcterms:title xml:lang="zh">TRIZ / TIPS是一種敏捷方法？</dcterms:title>
+    <dcterms:title xml:lang="en">To what extend is TRIZ/TIPS an agile method?</dcterms:title>
+    <dcterms:title xml:lang="ru">Насколько ТРИЗ есть agile - метод</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_103">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_S"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="en">Comparing and Contrasting MPV Analysis with Jobs-To-Be-Done Theory</dcterms:title>
+    <dcterms:title xml:lang="de">Vergleichen und Gegenüberstellen der MPV-Analyse mit der Theorie der zu erledigenden Aufgaben</dcterms:title>
+    <dcterms:title xml:lang="ru">Сравнение и сопоставление анализа ключевых параметров ценности (MPV) с теорией выполнения задач (Jobs-To-Be-Done Theory) </dcterms:title>
+    <dcterms:title xml:lang="zh">將MPV分析與即將完成的理論進行比較和對比</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_104">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="en">Instrumental Approach to Multi-Screen Scheme of Thinking</dcterms:title>
+    <dcterms:title xml:lang="de">Instrumenteller Ansatz für ein Multi-Screen-Denkschema</dcterms:title>
+    <dcterms:title xml:lang="ru">Инструментальный подход к многоэкранной схеме мышления</dcterms:title>
+    <dcterms:title xml:lang="zh">跨屏思維方案的儀器方法</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_105">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hong_KS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Won_SY"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="en">ETCH equipment cleaning time reduction</dcterms:title>
+    <dcterms:title xml:lang="de">Reduzierung der Reinigungszeit für ETCH-Geräte</dcterms:title>
+    <dcterms:title xml:lang="ru">Кейс: Сокращение времени очистки травильного оборудования (Англ)</dcterms:title>
+    <dcterms:title xml:lang="zh">減少ETCH設備清潔時間</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_106">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ghane_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kadir_RA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kok_WN"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mei_CA"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="en">Integrating Big Data Analytics with Trends of Engineering System Evolution (TESE) for Practical Patents Analysis</dcterms:title>
+    <dcterms:title xml:lang="de">Integration von Big Data Analytics in Trends der Engineering System Evolution (TESE) für die Praxis Patentanalyse </dcterms:title>
+    <dcterms:title xml:lang="ru">Интеграция аналитики больших данных с трендами развития инженерных систем (TESE) в практику патентного анализа</dcterms:title>
+    <dcterms:title xml:lang="zh">將大數據分析與工程系統演進趨勢（TESE）集成在一起專利分析</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_107">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="de">Besonderheiten beim Entfalten von Widersprüchen aus Problemsituationen</dcterms:title>
+    <dcterms:title xml:lang="en">Special Features of unfolding contradictions out of problem situations</dcterms:title>
+    <dcterms:title xml:lang="ru">Особенности разворачивания противоречий из проблемных ситуаций</dcterms:title>
+    <dcterms:title xml:lang="zh">從問題中解決矛盾的特殊功能</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_108">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_CE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Seo_SM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="en">Development of HPS (Hydrogen Plasma treatment System) using FOS (functional oriented search)</dcterms:title>
+    <dcterms:title xml:lang="de">Entwicklung von HPS (Wasserstoffplasmabehandlungssystem) unter Verwendung von FOS (funktional orientierte Suche) ) </dcterms:title>
+    <dcterms:title xml:lang="ru">Разработка HPS (системы водородной плазменной обработки) с использованием FOS (функционально-ориентированного поиска) </dcterms:title>
+    <dcterms:title xml:lang="zh">使用FOS（面向功能的搜索）開發HPS（氫等離子體處理系統） ）</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_109">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Turior_R"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="de">Patent Augmentation using TRIZ TM oder PAT</dcterms:title>
+    <dcterms:title xml:lang="en">Patent Augmentation using TRIZ TM or PAT</dcterms:title>
+    <dcterms:title xml:lang="ru">Прирост патентов с использованием ТРИЗ TM или PAT</dcterms:title>
+    <dcterms:title xml:lang="zh">使用TRIZ TM或PAT增強專利</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_110">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_Y"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="de">Besonderheiten der Analyse technologischer Prozesse bei der Durchführung von Funktions- und Stream-Analysen</dcterms:title>
+    <dcterms:title xml:lang="en">Special Features of technological processes analysis when performing functional and stream analysis</dcterms:title>
+    <dcterms:title xml:lang="ru">Особенности анализа технологических процессов при выполнении функционального и потокового анализа</dcterms:title>
+    <dcterms:title xml:lang="zh">執行功能和流分析時技術過程分析的特殊功能</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_111">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smirnova_E"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="de">Technologie-Scouting für die Behandlung fester Abfälle: TRIZ-Ansatz</dcterms:title>
+    <dcterms:title xml:lang="en">Technology Scouting for Solid Waste Treatment: TRIZ Approach</dcterms:title>
+    <dcterms:title xml:lang="ru">Поиск технологий по переработке твердых отходов: подход ТРИЗ</dcterms:title>
+    <dcterms:title xml:lang="zh">用於固體廢物處理的技術偵查：TRIZ方法</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_112">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Iarossi_M"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="de">Bereitstellen von TRIZ-Techniken für die Ursachenanalyse in Serviceorganisationen</dcterms:title>
+    <dcterms:title xml:lang="en">Deploying TRIZ Techniques for Causal Analysis in Service Organisations</dcterms:title>
+    <dcterms:title xml:lang="ru">Применение методов ТРИЗ для причинно-следственного анализа в сервисных организациях</dcterms:title>
+    <dcterms:title xml:lang="zh">在服務組織中部署TRIZ技術進行因果分析</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_113">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="en">Addressing Coronavirus Challenges with TRIZ</dcterms:title>
+    <dcterms:title xml:lang="de">Coronavirus-Herausforderungen mit TRIZ angehen</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ-ответы вызовам Коронавируса</dcterms:title>
+    <dcterms:title xml:lang="zh">使用TRIZ解決冠狀病毒挑戰</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_114">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zasedenets_I"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="en">Problem solving as the implementation of methods of information content management in systems</dcterms:title>
+    <dcterms:title xml:lang="de">Problemlösung als Implementierung von Methoden zur Verwaltung von Informationsinhalten in Systemen</dcterms:title>
+    <dcterms:title xml:lang="ru">Решение проблем как реализация способов управления содержанием информации в системах </dcterms:title>
+    <dcterms:title xml:lang="zh">解決問題作為系統中信息內容管理方法的實現</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_115">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="de">Einführung von Innovationstools und deren Wechselbeziehung zu KMU</dcterms:title>
+    <dcterms:title xml:lang="en">Introduction of Innovation tools and their interrelation to SMEs</dcterms:title>
+    <dcterms:title xml:lang="ru">Внедрение инновационных инструментов и их взаимосвязь с малыми и средними предприятиями (МСП)</dcterms:title>
+    <dcterms:title xml:lang="zh">介紹創新工具及其與中小型企業的關係</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_116">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fey_VR"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="en">How to Prepare for the Next Pandemic</dcterms:title>
+    <dcterms:title xml:lang="de">Vorbereitung auf die nächste Pandemie</dcterms:title>
+    <dcterms:title xml:lang="ru">Как подготовиться к следующей пандемии </dcterms:title>
+    <dcterms:title xml:lang="zh">如何為下一次大流行做好準備</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_117">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lesourd_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Savelli_S"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="en">TRIZ integration within the Value Management job plan</dcterms:title>
+    <dcterms:title xml:lang="de">TRIZ-Integration in den Value Management-Jobplan</dcterms:title>
+    <dcterms:title xml:lang="ru">Интеграция ТРИЗ в план Управления по Ценностям (Value Management)</dcterms:title>
+    <dcterms:title xml:lang="zh">在價值管理工作計劃中整合TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_118">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="en">Problem-oriented learning based on OTSM-TRIZ: current state and development prospects</dcterms:title>
+    <dcterms:title xml:lang="de">Problemorientiertes Lernen basierend auf OTSM-TRIZ: aktueller Stand und Entwicklungsperspektiven</dcterms:title>
+    <dcterms:title xml:lang="ru">Проблемно-ориентированное обучение на базе ОТСМ-ТРИЗ: актуальное состояние и перспективы развития</dcterms:title>
+    <dcterms:title xml:lang="zh">基於OTSM-TRIZ的面向問題的學習：現狀和發展前景</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_119">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pyao_Y"/>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:title xml:lang="de">Neue Struktur eines biologischen Forschungspapiers: Konvertierung traditioneller Schlüsselkonzepte für Fettleibigkeit -bezogene Studie unter Verwendung der TRIZ-Theorie </dcterms:title>
+    <dcterms:title xml:lang="en">New structure of a biological research paper: Converting traditional key concepts of an obesity-related study by using TRIZ theory</dcterms:title>
+    <dcterms:title xml:lang="ru">Новая структура научой статьи по биологическому исследованию: преобразование традиционных ключевых концепций при помощи использования теории ТРИЗ (на примере исследования, посвященного вопросам ожирения)</dcterms:title>
+    <dcterms:title xml:lang="zh">生物研究論文的新結構：轉變肥胖的傳統關鍵概念TRIZ理論進行相關研究</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_120">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Redkolis_EV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Savenkov_A"/>
+    <dcterms:language>ru</dcterms:language>
+    <dcterms:title xml:lang="zh"> TRIZ工具在戰略制定中的應用：TRIZ與戰略管理集成的經驗方法</dcterms:title>
+    <dcterms:title xml:lang="de">Anwendung von TRIZ-Tools in der Strategieentwicklung: Erfahrung der TRIZ-Integration mit strategischem Management Ansätze </dcterms:title>
+    <dcterms:title xml:lang="en">Application of TRIZ Tools in Strategy Development: Experience of TRIZ Integration with Strategic Management Approaches</dcterms:title>
+    <dcterms:title xml:lang="ru">Применение инструментов ТРИЗ при разработке стратегии: опыт интеграции ТРИЗ и подходов стратегического менеджмента</dcterms:title>
+  </od:Talk>
+</rdf:RDF>

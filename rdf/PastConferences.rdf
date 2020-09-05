@@ -19,6 +19,15 @@
     <ical:summary xml:lang="en">The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encourage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. </ical:summary>
     <ical:url rdf:resource="http://www.biztriz.net/news/2-uncategorised/32-2020.html"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020">
+    <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
+    <rdfs:label>Business TRIZ Online 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-27</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-24</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The conference MOF - spelled as "MATRIZ Online Forum 2020" or "Moscow Online Forum 2020" is a online conference format newly created by the MATRIZ with simultaneous translation of the talks to English, Russian and Chinese. </ical:summary>
+    <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/GermanTRIZOnline-2020.rdf"/>
     <rdfs:label xml:lang="de">1. Deutsche TRIZ-Konferenz Online 2020</rdfs:label>
@@ -29,6 +38,15 @@
     <ical:summary xml:lang="en">Caused by Corona we are breaking new ground and have developed the 1st German TRIZ Conference online. At this event we want to offer a platform for TRIZ relevant contributions from the academic field and also from the industrial sector that will also be published (Springer Verlag).</ical:summary>
     <ical:summary xml:lang="de">Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag).</ical:summary>
     <ical:url rdf:resource="https://www.bayern-innovativ.de/events-und-messen/veranstaltungen/veranstaltung/triz-konferenz-online-2020"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/MOF-2020.rdf"/>
+    <rdfs:label>MOF 2020 - MATRIZ Online Forum 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-27</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-24</ical:dtstart>
+    <ical:location>Online, supported by the Moscow TRIZ Club</ical:location>
+    <ical:summary xml:lang="en">MOF - spelled as "MATRIZ Online Forum" or "Moscow Online Forum" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. </ical:summary>
+    <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2001/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html"/>
@@ -286,7 +304,7 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
-    <rdfs:label>TSN: Past Conferences</rdfs:label>
+    <rdfs:label>TSN: Past TRIZ Conferences</rdfs:label>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/"/>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
   </owl:Ontology>
