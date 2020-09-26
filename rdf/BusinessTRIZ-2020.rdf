@@ -10,6 +10,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/General">
+    <od:theVideos rdf:resource="https://www.youtube.com/playlist?list=PLFgocOPCN0ydxxSwLXjQOaBUFR8XVOKxA"/>
     <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
     <rdfs:label>Business TRIZ Online 2020</rdfs:label>
     <ical:description xml:lang="ru">Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.

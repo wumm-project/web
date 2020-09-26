@@ -98,7 +98,7 @@
   <od:Presentation rdf:about="http://opendiscovery.org/rdf/Presentation/Lebedyev-20180128">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=UX3uEUZUn_k"/>
     <dcterms:abstract xml:lang="ru">Выступление Мастера ТРИЗ Юрия Лебедева на конференции «ТРИЗ. Практика применения и развитие методических инструментов» в Москве 10-11 ноября 2017г.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
     <dcterms:extent>01:12:42 h</dcterms:extent>
     <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/video/vnd.youtube.yt"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-01-28</dcterms:issued>

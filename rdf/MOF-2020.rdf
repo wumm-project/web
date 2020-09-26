@@ -15,7 +15,7 @@
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-27</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-24</ical:dtstart>
     <ical:location>Online, supported by the Moscow TRIZ Club</ical:location>
-    <ical:summary xml:lang="en">MOF - spelled as "MATRIZ Online Forum" or "Moscow Online Forum" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. </ical:summary>
+    <ical:summary xml:lang="en">MOF - spelled as "MATRIZ Online Forum" or "Moscow Online Forum" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. All materials of MOF 2020 to be disseminated for participants during 1 month after event, only for personal use, without permission for open publication. A publication of the talks is not intended.</ical:summary>
     <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_100">
@@ -45,7 +45,6 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_103">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_N"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_S"/>
     <dcterms:language>en</dcterms:language>
     <dcterms:title xml:lang="en">Comparing and Contrasting MPV Analysis with Jobs-To-Be-Done Theory</dcterms:title>
     <dcterms:title xml:lang="de">Vergleichen und Gegenüberstellen der MPV-Analyse mit der Theorie der zu erledigenden Aufgaben</dcterms:title>
@@ -53,6 +52,7 @@
     <dcterms:title xml:lang="zh">將MPV分析與即將完成的理論進行比較和對比</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_104">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
     <dcterms:language>ru</dcterms:language>
@@ -63,7 +63,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_105">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hong_KS"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Won_SY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
     <dcterms:language>en</dcterms:language>
     <dcterms:title xml:lang="en">ETCH equipment cleaning time reduction</dcterms:title>
     <dcterms:title xml:lang="de">Reduzierung der Reinigungszeit für ETCH-Geräte</dcterms:title>
@@ -82,6 +82,7 @@
     <dcterms:title xml:lang="zh">將大數據分析與工程系統演進趨勢（TESE）集成在一起專利分析</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_107">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
     <dcterms:language>ru</dcterms:language>
@@ -109,9 +110,9 @@
     <dcterms:title xml:lang="zh">使用TRIZ TM或PAT增強專利</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_110">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
     <dcterms:language>ru</dcterms:language>
-    <dcterms:title xml:lang="de">Besonderheiten der Analyse technologischer Prozesse bei der Durchführung von Funktions- und Stream-Analysen</dcterms:title>
+    <dcterms:title xml:lang="de">Besonderheiten der Analyse technologischer Prozesse bei der Durchführung von Funktions- und Fluss-Analysen</dcterms:title>
     <dcterms:title xml:lang="en">Special Features of technological processes analysis when performing functional and stream analysis</dcterms:title>
     <dcterms:title xml:lang="ru">Особенности анализа технологических процессов при выполнении функционального и потокового анализа</dcterms:title>
     <dcterms:title xml:lang="zh">執行功能和流分析時技術過程分析的特殊功能</dcterms:title>

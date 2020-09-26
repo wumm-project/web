@@ -631,7 +631,7 @@
   </od:CertificateLevel4>
   <od:CertificateLevel4 rdf:about="http://opendiscovery.org/rdf/Certificate/L4.97">
     <od:issued>2011-12</od:issued>
-    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_Y"/>
+    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
     <foaf:name>Yury Lebedev</foaf:name>
   </od:CertificateLevel4>
   <od:CertificateLevel4 rdf:about="http://opendiscovery.org/rdf/Certificate/L4.98">
@@ -673,7 +673,7 @@
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.102">
     <od:issued>2015-09-12</od:issued>
-    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_Y"/>
+    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
     <foaf:name>Yury Lebedev</foaf:name>
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.103">

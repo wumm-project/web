@@ -383,6 +383,14 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     <bibo:asin>B081D6VGFJ</bibo:asin>
     <bibo:isbn>9798622683022</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/9798688642292">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Independently published</dc:publisher>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
+    <dcterms:title xml:lang="en">Inventive Thinking: TRIZ</dcterms:title>
+    <bibo:isbn>9798688642292</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/Book/Altshuller_40Principles">
     <dc:publisher>Technical Innovation Center Inc.: Worcester, MA, USA.</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>

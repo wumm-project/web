@@ -162,10 +162,16 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bo_X">
     <foaf:name>Xu Bo</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bogatyrev_N">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bogatyrev_NR">
+    <foaf:affil>Bath, UK</foaf:affil>
     <foaf:fullname xml:lang="ru">Николай Ростиславович Богатырёв</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/nikolay.bogatyrev.1"/>
     <foaf:name>Nikolay Bogatyrev</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bogatyreva_OA">
+    <foaf:affil>Bath, UK</foaf:affil>
+    <foaf:fullname xml:lang="ru">Ольга Александровна Богатырева</foaf:fullname>
+    <foaf:name>Olga Bogatyreva</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boika_S">
     <foaf:name>Sergej Boika</foaf:name>
@@ -1031,9 +1037,9 @@
     <foaf:homepage rdf:resource="https://triz-water.de"/>
     <foaf:name>Sabine Lautenschläger</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lebedev_Y">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lebedev_YV">
     <foaf:affil>Russia/South Korea</foaf:affil>
-    <foaf:fullname xml:lang="ru">Юрий Лебедев</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Юрий Валентинович Лебедев</foaf:fullname>
     <foaf:name>Yury Lebedev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_A">
