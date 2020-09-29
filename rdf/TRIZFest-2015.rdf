@@ -223,7 +223,7 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_136">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Emmanuel_T"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jun_ZX"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_XJ"/>
     <dcterms:title>TRIZ-based Innovative Concept Design of a Small Mobile Horizontal Axis Wind Turbine</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_137">

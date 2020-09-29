@@ -35,6 +35,7 @@
     <dcterms:title xml:lang="zh">隱藏工程系統中的過剩作為改進資源</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_102">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Leiner_DF"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Badura_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Leiner_DF"/>
     <dcterms:language>en</dcterms:language>
@@ -118,6 +119,7 @@
     <dcterms:title xml:lang="zh">執行功能和流分析時技術過程分析的特殊功能</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MOF-2020/Talk_111">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smirnova_E"/>

@@ -26,4 +26,9 @@
     <rdfs:label>TRIZ Developers Summit</rdfs:label>
     <rdfs:seeAlso rdf:resource="https://triz-summit.ru/en/conference/"/>
   </od:ConferenceSeries>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon">
+    <od:description>This series of meetings is organized by the Isak Bukhman's Altshuller Institute.</od:description>
+    <rdfs:label>TRIZCon</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://www.aitriz.org/"/>
+  </od:ConferenceSeries>
 </rdf:RDF>

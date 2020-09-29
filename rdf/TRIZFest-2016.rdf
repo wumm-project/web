@@ -116,8 +116,8 @@
     <dcterms:title>Genrich Altshuller and Peter Drucker: alternative approaches to solving problems. A comparative analysis</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_119">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jun_ZX"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wu_Q"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_XJ"/>
     <dcterms:title>Innovation design of folding bicycle based on TRIZ theory</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_120">
@@ -257,9 +257,9 @@
     <dcterms:title>Types of psychological inertia</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_147">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jun_ZX"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tang_DM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ying_Z"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_XJ"/>
     <dcterms:title>Using the idealized design methods to realize product design</dcterms:title>
   </od:Paper>
 </rdf:RDF>

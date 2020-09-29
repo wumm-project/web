@@ -267,6 +267,26 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
     <ical:summary>TRIZ Summit 2020</ical:summary>
     <ical:url rdf:resource="https://community-z.com/events/triz-summit-2020"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZCon-2019/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZCon-2019.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon"/>
+    <rdfs:label>TRIZCon 2019</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-05-22</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-05-20</ical:dtstart>
+    <ical:location>Purdue Univ., West Lafayette, USA</ical:location>
+    <ical:summary>TRIZCon 2019, organized by the Altshuller Institute</ical:summary>
+    <ical:url rdf:resource="https://www.aitriz.org/trizcon2019"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZCon-2020/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZCon-2020.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon"/>
+    <rdfs:label>TRIZCon 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-07</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-06</ical:dtstart>
+    <ical:location>Purdue Univ., West Lafayette, USA</ical:location>
+    <ical:summary>TRIZCon 2020, organized by the Altshuller Institute</ical:summary>
+    <ical:url rdf:resource="https://www.aitriz.org/trizcon2020"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2015.rdf"/>
     <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf"/>
