@@ -118,6 +118,9 @@
     <foaf:affil>ASK Consulting, Poland</foaf:affil>
     <foaf:name>Antoni Baszczeski</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bayer_T">
+    <foaf:name>Tobias Bayer</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bdulenko_MK">
     <foaf:affil>Krasnogorsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Маргарита Капитоновна Бдуленко</foaf:fullname>

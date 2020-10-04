@@ -10,11 +10,6 @@
    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/">
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020">
-    <rdfs:comment>Presentations of the First German TRIZ Online Conference 2020</rdfs:comment>
-    <rdfs:label xml:lang="de">1. Deutsche TRIZ-Konferenz Online 2020</rdfs:label>
-    <rdfs:label xml:lang="en">1. German TRIZ Online Coference 2020</rdfs:label>
-  </owl:Ontology>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/General">
     <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
     <rdfs:label xml:lang="de">1. Deutsche TRIZ-Konferenz Online 2020</rdfs:label>
@@ -31,6 +26,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     <ical:url rdf:resource="https://www.bayern-innovativ.de/events-und-messen/veranstaltungen/veranstaltung/triz-konferenz-online-2020"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_100">
+    <od:urlPaper rdf:resource="http://dx.doi.org/10.14625/graebe_20200519"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:title xml:lang="en">Technical systems and their purposes</dcterms:title>
     <dcterms:title xml:lang="de">Technische Systeme und ihre Zwecke</dcterms:title>
@@ -49,6 +45,8 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     <dcterms:title xml:lang="ru">Создание цифровых бизнес-моделей на базе ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_103">
+    <od:presntedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bayer_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bayer_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hammer_J"/>
     <dcterms:title xml:lang="de">Der Einsatz von TRIZ im Design Thinking Prozess: Erfahrungen aus der Praxis</dcterms:title>
     <dcterms:title xml:lang="en">The use of TRIZ in the Design Thinking process: practical experience</dcterms:title>
@@ -73,7 +71,9 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     <dcterms:title xml:lang="ru">Поддержка бионического подхода с помощью ТРИЗ на примере разработки компонента для бытовой техники</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_107">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Kiesel_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hammer_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kiesel_M"/>
     <dcterms:title xml:lang="de">Anwendung von TRIZ-Werkzeugen in der Produktvorausschau und Technologieprognose: eine Fallstudie aus der Industrie</dcterms:title>
     <dcterms:title xml:lang="en">Applying TRIZ tools in product foresight and technology forecasting: a case study from industry</dcterms:title>
     <dcterms:title xml:lang="ru">Применение инструментов ТРИЗ в прогнозировании продукта и технологическом прогнозировании: пример из промышленности</dcterms:title>
