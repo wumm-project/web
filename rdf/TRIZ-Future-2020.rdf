@@ -440,7 +440,7 @@ The Conference aims at linking industrial companies, research centers, education
     <rdfs:label xml:lang="en">Computing TRIZ</rdfs:label>
   </swc:TrackEvent>
   <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM">
-    <rdfs:label xml:lang="en">Crodd-fertilization of TRIZ for Innovation Management</rdfs:label>
+    <rdfs:label xml:lang="en">Cross-fertilization of TRIZ for Innovation Management</rdfs:label>
   </swc:TrackEvent>
   <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote">
     <rdfs:label xml:lang="en">Keynote</rdfs:label>
