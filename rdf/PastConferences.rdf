@@ -235,6 +235,16 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
     <ical:summary>ETRIA World Conference TRIZ Future 2019. New opportunities for innovation breakthroughs for developing countries and emerging economies</ical:summary>
     <ical:url rdf:resource="http://tfc19.ovh"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/">
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
+    <rdfs:label>TRIZ Future 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-14</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-16</ical:dtstart>
+    <ical:location>online, supported by the university of Cluj-Napoca (Romania)</ical:location>
+    <ical:summary>The 20th edition of ETRIA World Conference “TRIZ Future” invites original papers and best practices that combine systematic invention generation, design and creative thinking, digital technologies and open innovation frameworks to solve complex problems in any field of human activity.
+The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.</ical:summary>
+    <ical:url rdf:resource="https://tfc20.eu/"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2007/">
     <od:theProceedings rdf:resource="https://www.trizland.ru/trizba/pdf-books/TRIZ-summit2007.pdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>

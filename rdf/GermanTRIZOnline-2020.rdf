@@ -46,7 +46,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     <dcterms:title xml:lang="ru">Создание цифровых бизнес-моделей на базе ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_103">
-    <od:presntedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bayer_T"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bayer_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bayer_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hammer_J"/>
     <dcterms:title xml:lang="de">Der Einsatz von TRIZ im Design Thinking Prozess: Erfahrungen aus der Praxis</dcterms:title>
@@ -82,13 +82,13 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_108">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wessner_J"/>
     <dcterms:title xml:lang="en">Resource Oriented Search (ROS) - The Role of the Human Being to Find the Right Resource </dcterms:title>
-    <dcterms:title xml:lang="de">Ressourcen-orientierte Suche (ROS) - Die Rolle des Menschen bei der Indetifizierung der richtigen Ressource</dcterms:title>
+    <dcterms:title xml:lang="de">Ressourcen-orientierte Suche (ROS) - Die Rolle des Menschen bei der Indentifizierung der richtigen Ressource</dcterms:title>
     <dcterms:title xml:lang="ru">Ресурсно-ориентированный поиск (ROS) - роль человека в поиске подходящего ресурса</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_109">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wessner_J"/>
     <dcterms:title xml:lang="en">Resource Oriented Search (ROS) - Efficiently Find the Right Resource for an Innovative Task </dcterms:title>
-    <dcterms:title xml:lang="de">Ressourcen-orientierte Suche (ROS) - die richtige Ressource für eine Innovationsaufgabe effizient finden</dcterms:title>
+    <dcterms:title xml:lang="de">Ressourcen-orientierte Suche (ROS) - Die richtige Ressource für eine Innovationsaufgabe effizient finden</dcterms:title>
     <dcterms:title xml:lang="ru">Ресурсно-ориентированный поиск (ROS) - эффективный поиск подходящего ресурса для инновационной задачи</dcterms:title>
   </od:Talk>
 </rdf:RDF>

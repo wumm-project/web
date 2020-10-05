@@ -144,7 +144,7 @@
     <dcterms:title>Organization innovation employing TRIZ under quality innovation management system framework</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_125">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Hu"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Liu_MJ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_J"/>
@@ -152,7 +152,7 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_126">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bukhman_IB"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Hu"/>
     <dcterms:title>Problems and countermeasures in promoting TRIZ in China</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_127">
@@ -230,7 +230,7 @@
     <dcterms:title>TRIZ in “copycatting” culture</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_141">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Hu"/>
     <dcterms:title>TRIZ innovation course for adolescents in Shanghai</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_142">

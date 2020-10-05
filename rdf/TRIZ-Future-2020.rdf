@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:track="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/General">
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
+    <rdfs:label>TRIZ Future 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-14</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-16</ical:dtstart>
+    <ical:location>online, supported by the university of Cluj-Napoca (Romania)</ical:location>
+    <ical:summary>The 20th edition of ETRIA World Conference “TRIZ Future” invites original papers and best practices that combine systematic invention generation, design and creative thinking, digital technologies and open innovation frameworks to solve complex problems in any field of human activity.
+The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.</ical:summary>
+    <ical:url rdf:resource="https://tfc20.eu/"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_100">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Routley_M"/>
+    <dcterms:title xml:lang="en">Consider It Solved^TM – How Emerson Makes Use of Systematic Methods to Innovate and Solve Problems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_101">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berdyugina_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:title xml:lang="en">Real-time Contradiction Matrix of a Given Field Using Unstructured Texts of Patent Contents and Natural Language Processing</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_102">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_N"/>
+    <dcterms:title xml:lang="en">Algorithmic Approach for Idea Landscaping and Prioritization</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_103">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Deder_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Peric_N"/>
+    <dcterms:title xml:lang="en">Conceptual Semantic Analysis of Patents and Scientific Publications Based on TRIZ Tools</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_104">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guarino_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nafi_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Samet_A"/>
+    <dcterms:title xml:lang="en">Summarization as a Denoising Extraction Tool</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_105">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zadesenets_I"/>
+    <dcterms:title xml:lang="en">Problem-Solving Tools as Methods for Managing the Information Content of Systems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_106">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ni_X"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Samet_A"/>
+    <dcterms:title xml:lang="en">Build Links between Problems and Solutions in the Patent</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_107">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_S"/>
+    <dcterms:title xml:lang="en">A Study on the Effect of Improved Collective Intelligence Combined with TRIZ Methodology for Solving Complex Technology Systems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_108">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
+    <dcterms:title xml:lang="en">Men and Their Technical Systems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_109">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zagos_A"/>
+    <dcterms:title xml:lang="en">Quantifying Sustainable Patents for Enhancing ESG Factors Using Bibliometric Indicators from Patent Portfolio Valuation</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_110">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Ha"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tan_RH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_FF"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_K"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_L"/>
+    <dcterms:title xml:lang="en">Innovative Method of Patent Design Around Guided by Technological Evolution</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_111">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Collan_M"/>
+    <dcterms:title xml:lang="en">Dynamization and Real Options – Discussing the Economic Success of Design Inventions</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_112">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Otava_E"/>
+    <dcterms:title xml:lang="en">TRIZ-based Approach for Improving the Adoption of Open Innovation 2.0</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_113">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Masterclass"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bukhman_IB"/>
+    <dcterms:title xml:lang="en">TRIZ-Driven Innovation in Renewable Energy Technology Design [hands on a Wind Turbine Project]</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_114">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:title xml:lang="en">TRIZ for Developing Innovative Businesses and Innovation Management Strategies</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_115">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Daxenberger_J"/>
+    <dcterms:title xml:lang="en">ArgumenText: Argument Classification and Clustering in a Generalized Search Scenario</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_116">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
+    <dcterms:title xml:lang="en">Excesses in Engineering Systems: A Helpful Resource</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_117">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sekaran_APC"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Udah_M"/>
+    <dcterms:title xml:lang="en">Learning Eco-Innovation from Nature: towards Identification of Solution Principles without Secondary Eco-Problems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_118">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gardoni_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mouatassim_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Silva_A"/>
+    <dcterms:title xml:lang="en">A Future Eco-design Framework Based on TRIZ’s Contradictions and Bio-Inspired Design</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_119">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_E"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stan_A"/>
+    <dcterms:title xml:lang="en">TRIZ to Solve Challenges for Designing Sustainable, Intelligent and Inclusive Buildings</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_120">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hanifi_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Houssin_R"/>
+    <dcterms:title xml:lang="en">Contribution to TRIZ Progress in Combining Lean and Inventive Design Method</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_121">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hoch_N"/>
+    <dcterms:title xml:lang="en">Managing AI Technologies in Earthwork Construction: A TRIZ-based Innovation Approach</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_122">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zinner_V"/>
+    <dcterms:title xml:lang="en">Mindful TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_123">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Junjg_YL"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_WK"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Memon_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pyao_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
+    <dcterms:title xml:lang="en">Innovative TRIZ-Based Approach to Prevent CLDE Symptoms in Silicone-Hydrogel Eye Contact Lenses</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_124">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Adima_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Echaabi_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mallil_EH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maziri_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ouezgan_A"/>
+    <dcterms:title xml:lang="en">A Novel Design of CRTM Mold by Using TRIZ Separation Principles</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_125">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jeon_YM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
+    <dcterms:title xml:lang="en">Solving Semiconductor Probe Card Problems Utilizing TRIZ and Data Analysis</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_126">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_JY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_KR"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shim_JM"/>
+    <dcterms:title xml:lang="en">Software Engineering Performance and Quality Assessment by TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_127">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Joo_JM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Oh_DS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Park_WB"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
+    <dcterms:title xml:lang="en">How SK Hynix Applies TRIZ to Industry Field Problems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_128">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Majchrzak_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Miadowicz_M"/>
+    <dcterms:title xml:lang="en">Network of Contradictions Analysis in Marketing Information Quality Management</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_129">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ghannad_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guio_RD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Parrend_P"/>
+    <dcterms:title xml:lang="en">Feature Selection-based Approach for Generalized Contradiction Recognition</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_130">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_CY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_XR"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_JH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_WX"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_RK"/>
+    <dcterms:title xml:lang="en">Flow Structure Information Model for Multiflow Problem Analysis of Complex Systems</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_131">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_CY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_XR"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_JH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_WX"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_XY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_RK"/>
+    <dcterms:title xml:lang="en">Multi-conflict Problem Resolution Process Model of Complex Technical System</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_132">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Du_YJ"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Ha"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_ZT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tan_RH"/>
+    <dcterms:title xml:lang="en">A Systematic Innovation Process Oriented to Inter-Discipline</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_133">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Florian_AV"/>
+    <dcterms:title xml:lang="en">TRIZ Driven Identification of AI Application to Improve Navigation of Mobile Autonomous Robots</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_134">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smirnova_E"/>
+    <dcterms:title xml:lang="en">Technology Scouting for Solid Waste Treatment: TRIZ Approach</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_135">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Adima_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Echaabi_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mallil_EH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maziri_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ouezgan_A"/>
+    <dcterms:title xml:lang="en">Development of a New Variant of Resin Film Infusion Process for Aeronautic and Automotive Industries Using Su-Field Models</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_136">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
+    <dcterms:title xml:lang="en">TRIZ for the Creation of Blue Oceans</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_137">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smirnov_EE"/>
+    <dcterms:title xml:lang="en">The First Level Algorithm for Finding Inventive Solutions Based on Function-Oriented Modeling of Conflicts and Analysis</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_138">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
+    <dcterms:title xml:lang="en">A TRIZ-Based Method for Smart Product Design</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_139">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Colibaly_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Houssin_R"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yehya_MI"/>
+    <dcterms:title xml:lang="en">Towards Evaluation of Solution Concepts in Inventive Design</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_140">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Masterclass"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bukhman_IB"/>
+    <dcterms:title xml:lang="en">Creative Person Development</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_141">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fowlkes_WY"/>
+    <dcterms:title xml:lang="en">Application of Artificial Intelligence to Creativity</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_142">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kayser_L"/>
+    <dcterms:title xml:lang="en">Radical Innovation in an Age of AI-based Engineering</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_143">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bielefeld_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Katzwinkel_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Loewer_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schleicht_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schlueter_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sizikov_V"/>
+    <dcterms:title xml:lang="en">Quantification of Influences between Components, Functions and Process Usage Stages by Linking TRIZ Methods and Systems Engineering</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_144">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
+    <dcterms:title xml:lang="en">Eliminating Disadvantages by Changing Transitions in a State Machine Cause-Effect Model</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_145">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Benmoussa_R"/>
+    <dcterms:title xml:lang="en">MOOCs vs Face to Face (F2F) Model: What Relevance for Creativity Development?</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_146">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Acker_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Braesch_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dumangin_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Essaid_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lauth_N"/>
+    <dcterms:title xml:lang="en">Understanding and Overcoming the Low Utilization Rate of ARIZ in TRIZ Practices</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_147">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Olariu_GV"/>
+    <dcterms:title xml:lang="en">Effective Improvement Solutions in Organizations Using Data Envelopment Analysis (DEA) and TRIZ: A Case Study in Higher Education</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_148">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dewulf_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nakagawa_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orloff_MA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">World TRIZ-Related Sites Project (WTSP) (3): World WTSP Catalogs of TRIZ and around-TRIZ Sites: First Edition (Oct. 2019) and Its Further Enhancement</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_149">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boca_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Botezatu_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ciobanu_DG"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Condrea_I"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ermolai_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Etcu_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Galmadi_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Oroian_B"/>
+    <dcterms:title xml:lang="en">Use of Some TRIZ Principles in the Case of Designing Research Equipment</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_150">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kang_SH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
+    <dcterms:title xml:lang="en">Study of a Methodology for Creating a Fantasy Story Using TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_151">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
+    <dcterms:title xml:lang="en">Easy-to-use Ideation Technique Based on Five Cross-Industry Analogies Enhances Engineering Creativity of Students and Specialists</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_152">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_ZT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tan_RH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_FF"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_L"/>
+    <dcterms:title xml:lang="en">An Approach of Product-type Process Trimming</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_153">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Belski_IV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Harlim_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tanoyo_T"/>
+    <dcterms:title xml:lang="en">Application of TRIZ Substance-Field Analysis and Situational Analysis for Risk Analysis and Development of Common Language among Stakeholders</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_154">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_C"/>
+    <dcterms:title xml:lang="en">How to Organize a Knowledge Base Using TRIZ Evolution Tree</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_155">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borgianni_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Concli_F"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maccioni_L"/>
+    <dcterms:title xml:lang="en">High Power Density Speed Reducers: A TRIZ Based Classification of Mechanical Solutions</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_156">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Solodkina_E"/>
+    <dcterms:title xml:lang="en">TRIZ: Innovation Opportunities for the Fashion Industry</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_157">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tamuzs_V"/>
+    <dcterms:title xml:lang="en">Formulation of the Definition of Life Using the ARIZ 85c Methodology</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_158">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Masterclass"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Garcell_E"/>
+    <dcterms:title xml:lang="en">Applying AI and TRIZ based Augmented Brainstorming to Your Problem</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_159">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Masterclass"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bukhman_IB"/>
+    <dcterms:title xml:lang="en">Magic Machine</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_160">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sidorovitch_D"/>
+    <dcterms:title xml:lang="en">Open Research and Innovation Platform Enabling the Next Big Thing</dcterms:title>
+  </od:Talk>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/CS">
+    <rdfs:label xml:lang="en">TRIZ Case Studies and Practices</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity">
+    <rdfs:label xml:lang="en">TRIZ and Complexity</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing">
+    <rdfs:label xml:lang="en">Computing TRIZ</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM">
+    <rdfs:label xml:lang="en">Crodd-fertilization of TRIZ for Innovation Management</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Keynote">
+    <rdfs:label xml:lang="en">Keynote</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Masterclass">
+    <rdfs:label xml:lang="en">Masterclass</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD">
+    <rdfs:label xml:lang="en">TRIZ and Sustainable Development</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE">
+    <rdfs:label xml:lang="en">TRIZ and System Engineering and Analysis</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT">
+    <rdfs:label xml:lang="en">Tools and Techniques of TRIZ for Enhancing Design and Education</rdfs:label>
+  </swc:TrackEvent>
+</rdf:RDF>

@@ -521,8 +521,8 @@
   </od:CertificateLevel4>
   <od:CertificateLevel4 rdf:about="http://opendiscovery.org/rdf/Certificate/L4.77">
     <od:issued>2005-09</od:issued>
-    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Belski_JV"/>
-    <foaf:name>Juri Belski</foaf:name>
+    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Belski_IV"/>
+    <foaf:name>Iouri Belski</foaf:name>
   </od:CertificateLevel4>
   <od:CertificateLevel4 rdf:about="http://opendiscovery.org/rdf/Certificate/L4.78">
     <od:issued>2006-01</od:issued>
@@ -1029,7 +1029,7 @@
     <foaf:name>Alexander Kashkarov</foaf:name>
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.75">
-    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Belski_JV"/>
+    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Belski_IV"/>
     <foaf:name>Iouri Belski</foaf:name>
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.76">
