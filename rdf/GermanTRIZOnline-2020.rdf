@@ -42,7 +42,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     <dcterms:title xml:lang="ru">Сравнение инновационных принципов ТРИЗ и навигатора бизнес-модели Санкт-Галлена</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/Talk_102">
-    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=voK9MN6Uk3w"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=CVWBMYJr0wY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
     <dcterms:title xml:lang="en">TRIZ inspired Creation of Digital Business Models</dcterms:title>
     <dcterms:title xml:lang="de">TRIZ-inspirierte Erzeugung digitaler Geschäftsmodelle</dcterms:title>
