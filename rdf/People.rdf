@@ -2334,6 +2334,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vikentiev_IL">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Игорь Леонардович Викентьев</foaf:fullname>
+    <foaf:homepage rdf:resource="https://vikent.ru"/>
     <foaf:name>Igor L. Vikentiev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Villarroe_JRE">
