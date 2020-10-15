@@ -237,6 +237,7 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2020.rdf"/>
+    <od:theProceedings rdf:resource="https://doi.org/10.1007/978-3-030-61295-5"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2020</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-14</ical:dtend>

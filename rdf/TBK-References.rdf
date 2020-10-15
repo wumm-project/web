@@ -1525,21 +1525,21 @@
     <dcterms:issued>1973</dcterms:issued>
     <dcterms:title xml:lang="ru">Перенос технических решений в изобретательском творчестве</dcterms:title>
   </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Khotimliansky_1974_2b7d26101eb136276eb66d35b5c5635e">
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Khotimlyansky_1974_2b7d26101eb136276eb66d35b5c5635e">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK1/Verweis.8"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.B21"/>
     <dc:publisher xml:lang="en">Baku: The Public Laboratory for the Innovation Methodology</dc:publisher>
     <dc:publisher xml:lang="ru">Баку: ОЛМИ, 1974. — 5 с. (рукопись).</dc:publisher>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khotimliansky_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khotimlyansky_Y"/>
     <dcterms:issued>1974</dcterms:issued>
     <dcterms:title xml:lang="en">The Reflectivity Principle and its Application for Inventive Problem Solving</dcterms:title>
     <dcterms:title xml:lang="ru">Принцип отзычивости и его применение при решении изобретательских задач. Для слушателей курса АзОИИТ</dcterms:title>
   </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Khotimliansky_1974_79a1a780d8b61badcb9107908bb53871">
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Khotimlyansky_1974_79a1a780d8b61badcb9107908bb53871">
     <od:Quelle>Хотимлянский Ю. Энергетический анализ технических систем. Баку, 1974. — 18 с. (рукопись).</od:Quelle>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/Verweis.B22"/>
     <dc:publisher xml:lang="ru">Баку, 1974. — 18 с. (рукопись).</dc:publisher>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khotimliansky_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khotimlyansky_Y"/>
     <dcterms:issued>1974</dcterms:issued>
     <dcterms:title xml:lang="ru">Энергетический анализ технических систем</dcterms:title>
   </od:Reference>

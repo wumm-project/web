@@ -12,13 +12,17 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/General">
+    <od:theProceedings rdf:resource="https://doi.org/10.1007/978-3-030-61295-5"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2020</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-14</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-16</ical:dtstart>
     <ical:location>online, supported by the university of Cluj-Napoca (Romania)</ical:location>
     <ical:summary>The 20th edition of ETRIA World Conference “TRIZ Future” invites original papers and best practices that combine systematic invention generation, design and creative thinking, digital technologies and open innovation frameworks to solve complex problems in any field of human activity.
-The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.</ical:summary>
+The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.
+The academic papers are published in “Systematic Problem Solving in the Age of  Digitalization and Open Innovation”, Denis Cavallucci, Stelian Brad, Pavel Livotov (Eds.), IFIP AITC 597, Springer, ISBN 978-3-030-61294-8, 2020.
+The papers on TRIZ case studies and practices are published in the Special Issue “Systematic Innovation for Engineering Complex Technical Systems” of “Acta Technica Napocensis Series: Applied Mathematics, Mechanics and Engineering”, Mihai Dragomir, Emilia Brad (Guest Eds.), Open Acces Journal, ISSN 1221-5872, 2020.
+</ical:summary>
     <ical:url rdf:resource="https://tfc20.eu/"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_100">
@@ -33,6 +37,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_101">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_3"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berdyugina_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:title xml:lang="de">Die Echtzeit-Widerspruchsmatrix eines bestimmten Feldes unter Verwendung unstrukturierter Texte von Patentinhalten und Verarbeitung natürlicher Sprache </dcterms:title>
@@ -42,6 +47,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_N"/>
     <dcterms:title xml:lang="en">Algorithmic Approach for Idea Landscaping and Prioritization</dcterms:title>
     <dcterms:title xml:lang="de">Algorithmischer Ansatz für die Gestaltung von Ideenlandschaften und deren Priorisierung</dcterms:title>
@@ -50,6 +56,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_103">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_5"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Deder_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
@@ -61,6 +68,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_104">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_7"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guarino_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nafi_A"/>
@@ -72,6 +80,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_8"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zadesenets_I"/>
     <dcterms:title xml:lang="fr">Les outils de résolution de problèmes comme méthodes de gestion du contenu informationnel des systèmes </dcterms:title>
     <dcterms:title xml:lang="en">Problem-Solving Tools as Methods for Managing the Information Content of Systems</dcterms:title>
@@ -80,6 +89,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_106">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Computing"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_6"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ni_X"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Samet_A"/>
@@ -90,6 +100,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_107">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_29"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_S"/>
     <dcterms:title xml:lang="en">A Study on the Effect of Improved Collective Intelligence Combined with TRIZ Methodology for Solving Complex Technology Systems</dcterms:title>
     <dcterms:title xml:lang="de">Eine Studie über den Effekt verbesserter kollektiver Intelligenz in Kombination mit der TRIZ-Methodik zur Lösung komplexer Technologiesysteme </dcterms:title>
@@ -98,14 +109,16 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_108">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_30"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
+    <dcterms:title xml:lang="en">Human and Their Technical Systems</dcterms:title>
     <dcterms:title xml:lang="fr">Les hommes et leurs systèmes techniques</dcterms:title>
-    <dcterms:title xml:lang="en">Men and Their Technical Systems</dcterms:title>
     <dcterms:title xml:lang="de">Menschen und ihre technischen Systeme</dcterms:title>
     <dcterms:title xml:lang="ru">Люды и их технические системы</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_109">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_31"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zagos_A"/>
     <dcterms:title xml:lang="fr">Quantifier les brevets durables pour améliorer les facteurs ESG à l'aide d'indicateurs bibliométriques issus de l'évaluation du portefeuille de brevets</dcterms:title>
@@ -115,8 +128,9 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_110">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_32"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Ha"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_JG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tan_RH"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_FF"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_K"/>
@@ -128,6 +142,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_111">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_33"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Collan_M"/>
     <dcterms:title xml:lang="fr">Dynamisation et options réelles - Discussion sur le succès économique des inventions en matière de design</dcterms:title>
@@ -137,6 +152,7 @@ The presentation will cover background information on Emerson’s innovation eco
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_112">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/IM"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_34"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Otava_E"/>
     <dcterms:title xml:lang="fr">Approche basée sur TRIZ pour améliorer l'adoption de l'innovation ouverte 2.0</dcterms:title>
@@ -176,6 +192,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_116">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_13"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:title xml:lang="en">Excesses in Engineering Systems: A Helpful Resource</dcterms:title>
     <dcterms:title xml:lang="fr">Excès dans les systèmes d'ingénierie : Une ressource utile</dcterms:title>
@@ -184,9 +201,10 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_117">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_14"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/MasUdah"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sekaran_APC"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Udah_M"/>
     <dcterms:title xml:lang="fr">Apprendre l'éco-innovation à partir de la nature: vers l'identification des principes de solution sans Eco-problèmes secondaires </dcterms:title>
     <dcterms:title xml:lang="en">Learning Eco-Innovation from Nature: towards Identification of Solution Principles without Secondary Eco-Problems</dcterms:title>
     <dcterms:title xml:lang="de">Öko-Innovation aus der Natur lernen: zur Identifizierung von Lösungsprinzipien ohne sekundäre Umweltprobleme </dcterms:title>
@@ -194,7 +212,10 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_118">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_15"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dammak_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dkhil_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gardoni_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mouatassim_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Silva_A"/>
@@ -205,6 +226,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_16"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_E"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stan_A"/>
     <dcterms:title xml:lang="fr">TRIZ pour relever les défis de la conception de bâtiments durables, intelligents et inclusifs</dcterms:title>
@@ -214,6 +236,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_120">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_23"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hanifi_M"/>
@@ -225,6 +248,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_121">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_1"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hoch_N"/>
     <dcterms:title xml:lang="fr">Gestion des technologies d'IA dans la construction de terrassements : Une approche de l'innovation basée sur TRIZ</dcterms:title>
@@ -297,6 +321,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_128">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_25"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Majchrzak_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Miadowicz_M"/>
     <dcterms:title xml:lang="en">Network of Contradictions Analysis in Marketing Information Quality Management</dcterms:title>
@@ -306,6 +331,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_129">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_26"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ghannad_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guio_RD"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Parrend_P"/>
@@ -316,6 +342,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_130">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_27"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_CY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_XR"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_JH"/>
@@ -328,6 +355,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_131">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_28"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_CY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_XR"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_JH"/>
@@ -341,10 +369,11 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_132">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_21"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Du_YJ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_Ha"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_ZT"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_JG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tan_RH"/>
     <dcterms:title xml:lang="en">A Systematic Innovation Process Oriented to Inter-Discipline</dcterms:title>
     <dcterms:title xml:lang="de">Ein systematischer Innovationsprozess, der auf Interdisziplinarität ausgerichtet ist</dcterms:title>
@@ -353,6 +382,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_133">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/Complexity"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_2"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Florian_AV"/>
     <dcterms:title xml:lang="fr">Identification de l'application d'IA pilotée par TRIZ pour améliorer la navigation des robots mobiles autonomes</dcterms:title>
@@ -449,6 +479,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_143">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_24"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bielefeld_O"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Katzwinkel_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Loewer_M"/>
@@ -462,6 +493,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_144">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_22"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
     <dcterms:title xml:lang="de">Beseitigung von Nachteilen durch Ändern von Übergängen in einem Ursache-Wirkungs-Modell einer Zustandsmaschine </dcterms:title>
     <dcterms:title xml:lang="en">Eliminating Disadvantages by Changing Transitions in a State Machine Cause-Effect Model</dcterms:title>
@@ -470,6 +502,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_145">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_10"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Benmoussa_R"/>
     <dcterms:title xml:lang="de">MOOCs und Face to Face (F2F) Modell im Vergleich: Welche Relevanz hat das für die Kreativitätsentwicklung? </dcterms:title>
     <dcterms:title xml:lang="en">MOOCs vs Face to Face (F2F) Model: What Relevance for Creativity Development?</dcterms:title>
@@ -478,6 +511,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_146">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_12"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Acker_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Braesch_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
@@ -491,6 +525,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_147">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/SE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_11"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Olariu_GV"/>
     <dcterms:title xml:lang="en">Effective Improvement Solutions in Organizations Using Data Envelopment Analysis (DEA) and TRIZ: A Case Study in Higher Education</dcterms:title>
@@ -537,6 +572,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_151">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_9"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
     <dcterms:title xml:lang="en">Easy-to-use Ideation Technique Based on Five Cross-Industry Analogies Enhances Engineering Creativity of Students and Specialists</dcterms:title>
     <dcterms:title xml:lang="de">Einfach zu nutzende Ideentechnik basierend auf fünf branchenübergreifenden Analogien, welche die technische Kreativität von Studenten und Spezialisten verbessern </dcterms:title>
@@ -545,8 +581,9 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_152">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_19"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_ZT"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_JG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tan_RH"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_FF"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_Y"/>
@@ -558,6 +595,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_153">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_17"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Belski_IV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Harlim_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tanoyo_T"/>
@@ -568,6 +606,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_154">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_18"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_C"/>
@@ -578,6 +617,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_155">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-61295-5_20"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borgianni_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Concli_F"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maccioni_L"/>
