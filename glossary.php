@@ -1,46 +1,89 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-04
+ * last update: 2020-10-28
  */
 
 require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
-function theGlossary($input) 
-{
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
-    EasyRdf_Namespace::set('skos', 'http://www.w3.org/2004/02/skos/core#');
-    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Glossary/');
-    $graph->parseFile($input);
+function theParts($a) {
+    $b=array();
+    foreach($a as $v) {
+        $b[]="<li>".showLanguage($v->all("skos:prefLabel"),", ")."</li>";
+    }
+    return "<ul>".join("\n",$b)."</ul>";
+}
+
+function displayGraph($graph) {
     $a=array();
-    $res = $graph->allOfType('skos:Concept');
+    $res = $graph->allOfType("skos:Concept");
     foreach ($res as $concept) {
-        $out="<h3>".showLanguage($concept->all("skos:prefLabel"),"<br/>")."</h3>";
-        $out.="<h4>Definition</h4>".showLanguage($concept->all("skos:definition"),"<br/>");
-        if ($concept->all("skos:note")) {
-            $out.="<h4>Notes</h4>".showLanguage($concept->all("skos:note"),"<br/>");
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
+        $types=join("<br/> ",$concept->all("rdf:type"));
+        $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $out="<h3>$uri</h3><h4>Types</h4>$types<h4>preferredLabel</h4>$preflabel";
+        if ($concept->all("od:hasPart")) {
+            $out.="<h4>Has Parts</h4>".theParts($concept->all("od:hasPart"));
         }
-        if ($concept->all("skos:example")) {
-            $out.="<h4>Examples</h4>".showLanguage($concept->all("skos:example"),"<br/>");
+        if ($concept->all("od:includes")) {
+            $out.="<h4>Includes</h4>".theParts($concept->all("od:includes"));
+        }
+        if ($concept->all("od:hasPartialCase")) {
+            $out.="<h4>Partial Case</h4>".theParts($concept->all("od:hasPartialCase"));
         }
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
-    $out='<h2>The TRIZ Glossary in the VDI norm 4521 </h2>
-
-<p>This is a version of the glossary of the "VDI norm 4521 Blatt 1"
-transformed into RDF and enriched with a Russian version.</p>
-
+    $out='<a href="glossary.php">Home</a>
+<h2>The Combined TRIZ Glossary Details Page</h2>
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
 }
 
-echo showpage(theGlossary("rdf/Glossary.rdf"));
+function displayEntry($graph,$entry) {
+}
+
+function generalOntologyInfo() {
+    $out='<h2>The Combined TRIZ Glossary Entry Page</h2>
+
+<p>This Combined Glossary joins concepts from dífferent sources:
+<ul>
+  <li>Thesaurus from the <a href="https://www.altshuller.ru/thesaur/thesaur.asp">GSA website</a></li>
+  <li>VDI Glossary</li>
+</ul>
+
+The concepts from the different glossaries are tagged with different rdf:type,
+that all are subtypes of skos:Concept.
+</p>
+
+<p><a href="glossary.php?rdf=show">Show the combined glossary</a></p>
+
+';
+    return '<div class="container">'.$out.'</div>';
+}
+
+function theGlossary($rdf=null,$entry=null) {
+    setNamespaces();
+    if (empty($rdf)) { $out=generalOntologyInfo(); }
+    else { 
+        // parse all information into one RDF graph
+        // different glossaries are tagges with different class names
+        $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Ontology/');
+        $graph->parseFile("rdf/Thesaurus.rdf"); // add more 
+        $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
+        if (empty($entry)) { $out=displayGraph($graph,$rdf); }
+        else { $out=displayEntry($graph,$entry); }
+    }
+    return '<div class="container">'.$out.'</div>';
+}
+
+
+$rdf=$_GET["rdf"]; // e.g. tc:GSAThesaurusEntry
+$entry=$_GET["entry"];
+echo showpage(theGlossary($rdf,$entry));
 
 ?>
