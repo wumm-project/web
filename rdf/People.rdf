@@ -34,6 +34,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ageed_S">
     <foaf:name>Sharaf Ageed</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ageev_I">
+    <foaf:name>Iurii Ageev</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/AguayoTellez_H">
     <foaf:affil>ITESM, Mexico</foaf:affil>
     <foaf:name>Humberto Aguayo Téllez</foaf:name>
@@ -43,6 +46,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Agulyansky_AA">
     <foaf:name>Alex Agulyansky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ahmed_SS">
+    <foaf:name>S.S. Ahmed</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ahn_HS">
     <foaf:affil>Hyundai Motor Group, South Korea</foaf:affil>
@@ -54,11 +60,15 @@
     <foaf:name>Pavel Akkubekov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Altov_G">
+    <dbo:birthDate>1926-10-15</dbo:birthDate>
+    <dbo:deathDate>1998-09-24</dbo:deathDate>
     <rdfs:comment>Altshuller's pseudonym as author of fantasy</rdfs:comment>
     <foaf:fullname xml:lang="ru">Г. Альтов</foaf:fullname>
     <foaf:name>Grigori Altov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Altshuller_GS">
+    <dbo:birthDate>1926-10-15</dbo:birthDate>
+    <dbo:deathDate>1998-09-24</dbo:deathDate>
     <foaf:fullname xml:lang="ru">Генрих Саулович Альтшуллер</foaf:fullname>
     <foaf:name>Genrich Saulowich Altshuller</foaf:name>
   </foaf:Person>
@@ -70,6 +80,9 @@
     <foaf:affil>Beit She'an, Israel</foaf:affil>
     <foaf:fullname xml:lang="ru">Песах Рафаэлович Амнуэль</foaf:fullname>
     <foaf:name>Pesakh R. Amnuel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Andersen_B">
+    <foaf:name>B. Andersen</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arel_AT">
     <foaf:name>A.T. Arel</foaf:name>
@@ -87,6 +100,10 @@
     <foaf:affil>Riga, Latvia</foaf:affil>
     <foaf:name>Aigars Atvars</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Avdeyev_Y">
+    <foaf:fullname xml:lang="ru">Юрий Авдеев</foaf:fullname>
+    <foaf:name>Jury Avdeyev</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Axelrod_BM">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Борис Моисеевич Аксельрод</foaf:fullname>
@@ -94,6 +111,11 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Azgaldov_G">
     <foaf:name>Garry Azgaldov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Azizova_I">
+    <foaf:affil>St. Petersburg, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Ирина Азизова</foaf:fullname>
+    <foaf:name>Irina Azizova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Baaijens_H">
     <foaf:affil>Philips Lighting, The Netherlnds</foaf:affil>
@@ -115,6 +137,10 @@
     <foaf:fullname xml:lang="ru">Дмитрий Александрович Бахтурин</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/dmitriy.bakhturin"/>
     <foaf:name>Dmitri A. Bakhturin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Balzer_D">
+    <foaf:affil>LIFIS, Berlin, Germany</foaf:affil>
+    <foaf:name>Dietrich Balzer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Barkan_MG">
     <foaf:affil>Education for a New Era, USA</foaf:affil>
@@ -169,7 +195,7 @@
     <foaf:name>Daria Berdyugina</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bertoncelli_T">
-    <foaf:affil>Germany</foaf:affil>
+    <foaf:affil>Danfoss Silicon Power, Ismaning, Germany</foaf:affil>
     <foaf:name>Tiziana Bertoncelli</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bezdel_ZV">
@@ -188,6 +214,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Biswas_A">
     <foaf:affil>GE Global Research, India</foaf:affil>
     <foaf:name>Anand Biswas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Blackburn_TD">
+    <foaf:name>T.D. Blackburn</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Blagich_A">
     <foaf:affil>Ekaterinburg, Russia</foaf:affil>
@@ -223,7 +252,6 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bolotovsky_VN">
     <foaf:fullname xml:lang="ru">В.Н. Болотовский</foaf:fullname>
-    <foaf:fullname xml:lang="ru">Николай Ростиславович Богатырёв</foaf:fullname>
     <foaf:name>Siarhei Boika</foaf:name>
     <foaf:name>V.N. Bolotovsky</foaf:name>
   </foaf:Person>
@@ -244,14 +272,24 @@
     <foaf:affil xml:lang="en">EPAM Systems, Director, User Experience Desing</foaf:affil>
     <foaf:name>Stanislav Borisevich</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Borisova_J">
+    <foaf:name>Julia Borisova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Borodastov_GV">
     <foaf:name>G.V. Borodastov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Botashev_A">
+    <foaf:fullname xml:lang="ru">Анвар Боташев</foaf:fullname>
+    <foaf:name>Anvar Botashev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Botezatu_C">
     <foaf:name>Carmen Botezatu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bourov_A">
     <foaf:name>Anatoly Bourov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boyko_I">
+    <foaf:name>Igor Boyko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bozhkov_V">
     <foaf:affil>EPAM, Minsk, Belarus</foaf:affil>
@@ -274,7 +312,7 @@
     <foaf:name>Antoine Braesch</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bragina_LM">
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>St. Petersburg, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Любовь Михайловна Брагина</foaf:fullname>
     <foaf:name>Ljubov Bragina</foaf:name>
   </foaf:Person>
@@ -360,7 +398,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chrzaszcz_J">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0003-3257-9726"/>
-    <foaf:affil>Warsaw, Poland</foaf:affil>
+    <foaf:affil>Pentacomp, Warsaw, Poland</foaf:affil>
     <foaf:name>Jerzy Chrząszcz</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chuang_CT">
@@ -381,6 +419,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Clarke_DW">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Dana W. Clarke</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cloutier_R">
+    <foaf:name>R. Cloutier</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Colibaly_A">
     <foaf:name>Amadou Colibaly</foaf:name>
@@ -405,6 +446,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cruise_DL">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Dustin L. Cruise</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Czinki_A">
+    <foaf:name>A. Czinki</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dammak_H">
     <foaf:affil>Montréal, Canada</foaf:affil>
@@ -482,7 +526,7 @@
     <foaf:name>E. Domb</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Domkin_KI">
-    <foaf:affil xml:lang="ru">Компания АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
+    <foaf:affil>NPK Consultants, Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Кирилл Иванович Домкин</foaf:fullname>
     <foaf:name>Kirill Domkin</foaf:name>
   </foaf:Person>
@@ -526,8 +570,12 @@
     <foaf:name>Jamal Echaabi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Eckardt_O">
-    <foaf:affil>Dortmund, Germany</foaf:affil>
+    <foaf:affil>Wilo, Dortmund, Germany</foaf:affil>
     <foaf:name>Olga Eckardt</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Eidloth_R">
+    <foaf:affil>Schaeffler Technologies, Herzogenaurach, Germany</foaf:affil>
+    <foaf:name>Rainer Eidloth</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Emmanuel_T">
     <foaf:name>Thursday Emmanuel</foaf:name>
@@ -546,6 +594,9 @@
     <foaf:affil>Academy of Troubleshooting, Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Сергей Фаер</foaf:fullname>
     <foaf:name>Sergey A. Faer</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fagerhaug_T">
+    <foaf:name>T. Fagerhaug</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Falkov_D">
     <foaf:name>Dmitrij Falkov</foaf:name>
@@ -595,6 +646,9 @@
     <foaf:fullname xml:lang="ru">Геннадий Леонидович Фильковский</foaf:fullname>
     <foaf:name>Gennady L. Filkovsky</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Filmore_P">
+    <foaf:name>P. Filmore</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fimin_P">
     <foaf:affil>St. Petersburg, Russia</foaf:affil>
     <foaf:name>Pavel Fimin</foaf:name>
@@ -628,13 +682,16 @@
     <foaf:affil>Vanguard International Semiconductor Corporation, Taiwan</foaf:affil>
     <foaf:name>Chan-Tang Fu</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fulbright_R">
+    <foaf:name>R. Fulbright</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gadjiev_C">
     <foaf:name>Ch. Gadjiev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gafitulin_MS">
     <foaf:affil>Zhukovskiy, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Марат Семенович Гафитулин</foaf:fullname>
-    <foaf:name>Marat Gafitulin</foaf:name>
+    <foaf:name>Marat S. Gafitulin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Galmadi_G">
     <foaf:name>Gheorghe Galmadi</foaf:name>
@@ -790,13 +847,16 @@
     <foaf:affil>GRUPA ODITK, Poland</foaf:affil>
     <foaf:name>Michal Halas</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Halchuk_I">
+    <foaf:name>Ihar Halchuk</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hammer_J">
     <foaf:affil>Herzogenaurach, Germany</foaf:affil>
     <foaf:name>Jens Hammer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_B">
     <foaf:affil>Tianjin, China</foaf:affil>
-    <foaf:name>Bing Han</foaf:name>
+    <foaf:name>Han Bing</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_HS">
     <foaf:name>Hak-Shon Han</foaf:name>
@@ -913,6 +973,9 @@
     <foaf:fullname xml:lang="ru">Илья Юрьевич Ильин</foaf:fullname>
     <foaf:name>Ilya Y. Ilyin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ishak_AA">
+    <foaf:name>A.A. Ishak</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ivanov_GI">
     <foaf:affil>Angarsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Геннадий Иванович Иванов</foaf:fullname>
@@ -932,8 +995,12 @@
     <foaf:name>Siho Jang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jantschgi_J">
-    <foaf:affil>Jantschgi C&amp;R, Austria</foaf:affil>
+    <foaf:affil>Graz, Austria</foaf:affil>
     <foaf:name>Jürgen Jantschgi</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jantschgi_P">
+    <foaf:affil>Graz, Austria</foaf:affil>
+    <foaf:name>Peter Jantschgi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jazwiecki_P">
     <foaf:affil>Sonion Polska, Poland</foaf:affil>
@@ -948,6 +1015,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jie_Y">
     <foaf:name>Yang Jie</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jirman_P">
+    <foaf:affil>Liberec, Chech Republic</foaf:affil>
+    <foaf:name>Pavel Jirman</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jizhong_Y">
     <foaf:name>Yang Jizhong</foaf:name>
@@ -975,6 +1046,13 @@
     <foaf:fullname xml:lang="ru">Эдуард Львович Каган</foaf:fullname>
     <foaf:name>Eduard L. Kagan</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaikov_I">
+    <foaf:name>Igor Kaikov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kalashnikov_DA">
+    <foaf:fullname xml:lang="ru">Дмитрий Андреевич Калашников</foaf:fullname>
+    <foaf:name>Dmitri A. Kalashnikov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kalish_VS">
     <foaf:name>V.S. Kalish</foaf:name>
   </foaf:Person>
@@ -991,6 +1069,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kamayev_VA">
     <dbo:birthDate>1940-05-30</dbo:birthDate>
     <dbo:deathDate>2016-09-13</dbo:deathDate>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:fullname xml:lang="ru">Валерий Анатольевич Камаев</foaf:fullname>
     <foaf:name>Valeri A. Kamayev</foaf:name>
   </foaf:Person>
@@ -998,10 +1077,10 @@
     <foaf:affil>St. Josephs Univ., Lebanon</foaf:affil>
     <foaf:name>Hadi Kanaan</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaner_VF">
-    <foaf:affil>St. Petersburg, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Вадим Фроимович Канер</foaf:fullname>
-    <foaf:name>Vadim Kaner</foaf:name>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kandelinsky_S">
+    <foaf:affil>Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Сергей Канделинский</foaf:fullname>
+    <foaf:name>Sergey Kandelinsky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kang_SH">
     <foaf:name>Seunghyun Kang</foaf:name>
@@ -1019,6 +1098,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_LA">
     <foaf:affil>OutCompete LLC, USA</foaf:affil>
+    <foaf:fullname xml:lang="ru">Леонид Каплан</foaf:fullname>
     <foaf:name>Leonid A. Kaplan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_S">
@@ -1037,8 +1117,12 @@
     <foaf:fullname xml:lang="ru">Александр Германович Кашкаров</foaf:fullname>
     <foaf:name>Alexander G. Kashkarov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kasravi_K">
+    <foaf:name>K. Kasravi</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kassou_R">
-    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:affil>NPK Consult, Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Рамез Кассу</foaf:fullname>
     <foaf:name>Ramez Kassou</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Katzwinkel_T">
@@ -1052,12 +1136,20 @@
     <foaf:fullname xml:lang="ru">Т.А. Кенгерли</foaf:fullname>
     <foaf:name>T.A. Kengerli</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kharitonov_A">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Антон Харитонов</foaf:fullname>
+    <foaf:name>Anton Kharitonov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kholkin_IN">
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Игорь Николаевич Холкин</foaf:fullname>
     <foaf:name>Igor Kholkin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khomenko_NN">
+    <dbo:birthDate>1954</dbo:birthDate>
+    <dbo:deathDate>2011</dbo:deathDate>
+    <rdfs:seeAlso rdf:resource="http://www.trizminsk.org/d/Khomenko_Heritage(EN).pdf"/>
     <foaf:fullname xml:lang="ru">Николай Николаевич Хоменко</foaf:fullname>
     <foaf:name>Nikolai Khomenko</foaf:name>
   </foaf:Person>
@@ -1070,6 +1162,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khovanov_S">
     <foaf:name>Sergej Khovanov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khrebtov_A">
+    <foaf:fullname xml:lang="ru">Александр Хребтов</foaf:fullname>
+    <foaf:name>Alexander Khrebtov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khronik_A">
     <foaf:fullname xml:lang="ru">Алексей Хроник</foaf:fullname>
@@ -1158,6 +1254,11 @@
     <foaf:fullname xml:lang="ru">Николай Петрович Колчев</foaf:fullname>
     <foaf:name>Nikolai Kolchev</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kolesnikov_N">
+    <foaf:affil>Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Никита Колесников</foaf:fullname>
+    <foaf:name>Nikita Kolesnikov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koltze_K">
     <foaf:affil>HS Niederrhein, Germany</foaf:affil>
     <foaf:name>Karl Koltze</foaf:name>
@@ -1166,7 +1267,8 @@
     <foaf:name>I.M. Kondrakov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korotkih_S">
-    <foaf:affil xml:lang="ru">Красноярский техникум промышленного сервиса, преподаватель</foaf:affil>
+    <foaf:affil>Krasnoyarsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Светлана Коротких</foaf:fullname>
     <foaf:name>Svetlana Korotkih</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kostin_A">
@@ -1228,6 +1330,11 @@
     <foaf:fullname xml:lang="ru">Сергей Васильевич Кукалев</foaf:fullname>
     <foaf:name>Sergei Kukalev</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kulakov_A">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Антон Кулаков</foaf:fullname>
+    <foaf:name>Anton Kulakov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kulakov_KE">
     <foaf:fullname xml:lang="ru">К.Э. Кулаков</foaf:fullname>
     <foaf:name>K.E. Kulakov</foaf:name>
@@ -1250,9 +1357,19 @@
     <foaf:homepage rdf:resource="https://trizofication.ru"/>
     <foaf:name>Yevgeni Kustov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kustova_E">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Эльвира Кустова</foaf:fullname>
+    <foaf:name>Elvira Kustova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kuzmin_AM">
     <foaf:fullname xml:lang="ru">А.М. Кузьмин</foaf:fullname>
     <foaf:name>A.M. Kuzmin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kuzmin_KI">
+    <foaf:affil>St. Petersburg, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Константин Иванович Кузьмин</foaf:fullname>
+    <foaf:name>Konstantin I. Kuzmin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kynin_AT">
     <foaf:affil>Russia</foaf:affil>
@@ -1266,6 +1383,11 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lai_KH">
     <foaf:name>Kim Hung Lai</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lampetova_NV">
+    <foaf:affil>Pensa, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Наталья Владимировна Лампетова</foaf:fullname>
+    <foaf:name>Natalya V. Lampetova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lasota_M">
     <foaf:affil>Novismo, Poland</foaf:affil>
@@ -1324,10 +1446,10 @@
     <foaf:affil>Nagoya University, Japan</foaf:affil>
     <foaf:name>Emanuel Leleito</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Leniashin_VA">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lenyashin_VA">
     <foaf:affil>Russia - South Korea</foaf:affil>
     <foaf:fullname xml:lang="ru">Василий Алексеевич Леняшин</foaf:fullname>
-    <foaf:name>Vassili Lenjaschin</foaf:name>
+    <foaf:name>Vassili Lenyaschin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/LeonhardPfleger_R">
     <foaf:affil>Ingolstadt, Germany</foaf:affil>
@@ -1392,6 +1514,9 @@
     <foaf:fullname xml:lang="ru">Нина Петровна Линькова</foaf:fullname>
     <foaf:name>Nina Linkova</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lippert_K">
+    <foaf:name>Karen Lippert</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Litvin_SS">
     <foaf:affil xml:lang="en">GEN TRIZ, Boston, USA</foaf:affil>
     <foaf:fullname xml:lang="ru">Семен Соломонович Литвин</foaf:fullname>
@@ -1411,6 +1536,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Loewer_M">
     <foaf:affil>Wuppertal, Germany</foaf:affil>
     <foaf:name>Manuel Löwer</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Loginovskaya_I">
+    <foaf:name>Irina Loginovskaya</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Logvinov_SA">
     <foaf:affil>Russia</foaf:affil>
@@ -1451,6 +1579,9 @@
     <foaf:affil>GEN TRIZ LLC, USA</foaf:affil>
     <foaf:fullname xml:lang="ru">Александр Львович Любомирский</foaf:fullname>
     <foaf:name>Alexander L. Lyubomirsky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/MacGran_E">
+    <foaf:name>E. MacGran</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Maccioni_L">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-2368-6821"/>
@@ -1499,6 +1630,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mansoor_M">
     <foaf:name>Muhammad Mansoor</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Marchenko_G">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:name>Galina Marchenko</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Markosov_SA">
     <foaf:affil>Russia</foaf:affil>
     <foaf:name>Sergey A. Markosov</foaf:name>
@@ -1530,6 +1665,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Maziri_A">
     <foaf:name>Aziz Maziri</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mazzuchi_TA">
+    <foaf:name>T.A. Mazzuchi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Medvedev_AV">
     <foaf:affil>Russia</foaf:affil>
@@ -1576,6 +1714,9 @@
     <foaf:fullname xml:lang="ru">Валерий Алексеевич Михайлов</foaf:fullname>
     <foaf:name>Valeri Mikhailov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mikhaylova_K">
+    <foaf:name>Kate Mikhaylova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Miller_J">
     <foaf:name>J. Miller</foaf:name>
   </foaf:Person>
@@ -1590,7 +1731,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mingqin_G">
     <foaf:name>Gu Mingqin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mishra_U">
+    <foaf:name>U. Mishra</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Misyuchenko_I">
+    <foaf:affil>Lithuania</foaf:affil>
     <foaf:fullname xml:lang="ru">Игорь Мисюченко</foaf:fullname>
     <foaf:name>Igor Misyuchenko</foaf:name>
   </foaf:Person>
@@ -1604,6 +1749,11 @@
     <foaf:fullname xml:lang="ru">Волюслав Владимирович Митрофанов</foaf:fullname>
     <foaf:name>Maciej Młynarski</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mosman_P">
+    <foaf:affil>Krasnoyarsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Петр Мосман</foaf:fullname>
+    <foaf:name>Piotr Mosman</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mouatassim_M">
     <foaf:affil>Montréal, Canada</foaf:affil>
     <foaf:name>Marouane Mouatassim</foaf:name>
@@ -1611,6 +1761,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Muenzberg_C">
     <foaf:affil>Institute of Product Development, Germany</foaf:affil>
     <foaf:name>C. Münzberg</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mulyarchik_K">
+    <foaf:affil>Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Константин Мулярчик</foaf:fullname>
+    <foaf:name>Konstantin Mulyarchik</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Murashkovska_IN">
     <foaf:affil>Latvia</foaf:affil>
@@ -1637,6 +1792,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nafi_A">
     <foaf:name>Amir Nafi</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nagappan_A">
+    <foaf:name>A. Nagappan</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nagashiresha_G">
     <foaf:name>G. Nagashiresha</foaf:name>
   </foaf:Person>
@@ -1655,6 +1813,11 @@
     <foaf:affil>Ukraina</foaf:affil>
     <foaf:fullname xml:lang="ru">Александр Федорович Нарбут</foaf:fullname>
     <foaf:name>Alexander Narbut</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nekhoroshkin_NI">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Николай Иванович Нехорошкин</foaf:fullname>
+    <foaf:name>Nikolay Nekhoroshkin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nesterenko_AA">
     <foaf:affil>Petrozavodsk, Russia</foaf:affil>
@@ -1676,7 +1839,7 @@
     <foaf:name>Aleksander Nikashin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nikitin_VN">
-    <foaf:affil>Irkutsk, Russia</foaf:affil>
+    <foaf:affil>Angarsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Владимир Николаевич Никитин</foaf:fullname>
     <foaf:name>Vladimir N. Nikitin</foaf:name>
   </foaf:Person>
@@ -1740,6 +1903,14 @@
     <foaf:affil>GE Global Research, Germany</foaf:affil>
     <foaf:name>Francesco Papini</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Paputin_A">
+    <foaf:affil>Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Александр Папутин</foaf:fullname>
+    <foaf:name>Alexander Paputin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Park_H">
+    <foaf:name>Haejo Park</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Park_S">
     <foaf:affil>LG Electronics, South Korea</foaf:affil>
     <foaf:name>Sansung Park</foaf:name>
@@ -1774,6 +1945,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_D">
     <foaf:name>Dmitrij Petrov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_P">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Павел Петров</foaf:fullname>
+    <foaf:name>Pavel Petrov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_VM">
     <foaf:affil>Israel</foaf:affil>
     <foaf:fullname xml:lang="ru">Владимир Михайлович Петров</foaf:fullname>
@@ -1783,10 +1959,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_VP">
     <foaf:name>V.P. Petrov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pevsner_LK">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pevzner_LK">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Лев Хатиевич Певзнер</foaf:fullname>
-    <foaf:name>Lev Pevsner</foaf:name>
+    <foaf:name>Lev Pevzner</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Phadnis_N">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0003-0003-561X"/>
@@ -1811,6 +1987,11 @@
     <foaf:fullname xml:lang="ru">Алексей Михайлович Пиняев</foaf:fullname>
     <foaf:name>Aleksey M. Pinyayev</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Plaksin_M">
+    <foaf:affil>Perm, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Михаил Плаксин</foaf:fullname>
+    <foaf:name>Michail Plaksin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Platek_R">
     <foaf:affil>ABB, Poland</foaf:affil>
     <foaf:name>Robert Płatek</foaf:name>
@@ -1818,6 +1999,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Platt_R">
     <foaf:affil>ABB, Poland</foaf:affil>
     <foaf:name>Richard Platt</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pobol_A">
+    <foaf:fullname xml:lang="ru">Анна Поболь</foaf:fullname>
+    <foaf:name>Anna Pobol</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Podkatilin_AV">
     <foaf:affil>Russia</foaf:affil>
@@ -1883,6 +2068,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Qin_L">
     <foaf:name>Liu Qin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rabchynskaya_K">
+    <foaf:name>Kseniya Rabchynskaya</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rahim_ZA">
     <foaf:affil>Proton Holding, Malaysia</foaf:affil>
     <foaf:name>Zulhasni Abdul Rahim</foaf:name>
@@ -1897,14 +2085,25 @@
     <foaf:affil>HELMO, Belgium</foaf:affil>
     <foaf:name>Bernard Rausin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rea_KC">
+    <foaf:name>K.C. Rea</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Redkolis_EV">
-    <foaf:affil xml:lang="ru">АО «Научно-промышленные консультанты», Руководитель проекта</foaf:affil>
+    <foaf:affil>NPK Consultants, Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Елена Валерьевна Редколис</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/eredkolis"/>
     <foaf:name>Elena Redkolis</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Regen_W">
+    <foaf:affil>LIFIS, Berlin, Germany</foaf:affil>
+    <foaf:name>Werner Regen</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rivin_E">
     <foaf:name>E. Rivin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rousselet_F">
+    <foaf:affil>Strasbourg, France</foaf:affil>
+    <foaf:name>Francois Rousselet</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Routley_M">
     <foaf:name>Michèle Routley</foaf:name>
@@ -1917,6 +2116,9 @@
     <foaf:affil>Moldova</foaf:affil>
     <foaf:fullname xml:lang="ru">Зиновий Ефимович Ройзен</foaf:fullname>
     <foaf:name>Zinovy Royzen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubanov_IS">
+    <foaf:name>Ivan Rubanov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubin_MS">
     <foaf:affil>St. Petersburg, Russia</foaf:affil>
@@ -1960,6 +2162,11 @@
     <foaf:fullname xml:lang="ru">Юрий Петрович Саламатов</foaf:fullname>
     <foaf:name>Yuri P. Salamatov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Salikhzyanov_R">
+    <foaf:affil>Nishnekamsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Радик Салихзянов</foaf:fullname>
+    <foaf:name>Radik Salikhzyanov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Samet_A">
     <foaf:affil>Strasbourg, France</foaf:affil>
     <foaf:name>Ahmed Samet</foaf:name>
@@ -1968,6 +2175,9 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Юрий Викторович Самохвалов</foaf:fullname>
     <foaf:name>Juri Samochvalov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sarkani_S">
+    <foaf:name>S. Sarkani</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Saunin_N">
     <foaf:affil>Moscow, Russia</foaf:affil>
@@ -2000,12 +2210,6 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Scheers_J">
     <foaf:name>Johan Scheers</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schinnikov_A">
-    <foaf:affil>Saratov, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Алексей Щинников</foaf:fullname>
-    <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
-    <foaf:name>Alexey Schinnikov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schleicht_A">
     <foaf:affil>Neunkirchen, Germany</foaf:affil>
@@ -2063,12 +2267,21 @@
     <foaf:fullname xml:lang="ru">Георгий Анатольевич Северинец</foaf:fullname>
     <foaf:name>Georgi Severinets</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shahrul_K">
+    <foaf:name>K. Shahrul</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shapiro_RB">
     <foaf:name>R.B. Shapiro</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchedrin_N">
     <foaf:fullname xml:lang="ru">Николай Щедрин</foaf:fullname>
     <foaf:name>Nikolai Shchedrin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchinnikov_A">
+    <foaf:affil>Saratov, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Алексей Юрьевич Щинников</foaf:fullname>
+    <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
+    <foaf:name>Alexey Shchinnikov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sheng_ILS">
     <foaf:affil>Monash University Malaysia, Malaysia</foaf:affil>
@@ -2149,6 +2362,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sidorovitch_D">
     <foaf:name>Dimitri Sidorovitch</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sieber_F">
+    <foaf:affil>LIFIS, Berlin, Germany</foaf:affil>
+    <foaf:name>Frieder Sieber</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sigalovsky_I">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Irina Sigalovsky</foaf:name>
@@ -2176,10 +2393,17 @@
     <foaf:fullname xml:lang="ru">Кирилл Афанасьевич Склобовский</foaf:fullname>
     <foaf:name>Kiril Sklobovsky</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Skorobogatova_L">
+    <foaf:fullname xml:lang="ru">Людмила Скоробогатова</foaf:fullname>
+    <foaf:name>Lyudmila Skorobogatova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Skuratovich_AI">
     <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Александр Иванович Скуратович</foaf:fullname>
     <foaf:name>Alexander Skuratovich</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Slocum_M">
+    <foaf:name>M. Slocum</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Slugin_GI">
     <foaf:fullname xml:lang="ru">Г.И. Слугин</foaf:fullname>
@@ -2192,6 +2416,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Smirnova_E">
     <foaf:name>Evgenia Smirnova</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Smirnova_S">
+    <foaf:affil>Kasan, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Светлана Смирнова</foaf:fullname>
+    <foaf:name>Svetlana Smirnova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Smolnik_M">
     <foaf:affil>AGH University of Science and Technology, Poland</foaf:affil>
     <foaf:name>Maksymilian Smolnik</foaf:name>
@@ -2201,11 +2430,11 @@
     <foaf:name>Alexander Sokol</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sokolov_S">
-    <foaf:affil xml:lang="ru">Преподаватель ТРИЗ</foaf:affil>
     <foaf:name>Sergej Sokolov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Solodkin_A">
     <foaf:affil>Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Александр Солодкин</foaf:fullname>
     <foaf:name>Alexander Solodkin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Solodkina_E">
@@ -2251,11 +2480,24 @@
     <foaf:affil>Old Polish University, Poland</foaf:affil>
     <foaf:name>Irena Stańczak</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stasyuk_I">
+    <foaf:name>Inna Stasyuk</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stepanchikova_M">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Марина Степанчикова</foaf:fullname>
+    <foaf:name>Marina Stepanchikova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stoop_M">
     <foaf:affil>Fontys, The Netherlands</foaf:affil>
     <foaf:name>Mandy Stoop</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Strelchenko_O">
+    <foaf:fullname xml:lang="ru">Олег Стрельченко</foaf:fullname>
+    <foaf:name>Oleg Strelchenko</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stroganov_B">
+    <foaf:fullname xml:lang="ru">Борис Строганов</foaf:fullname>
     <foaf:name>Boris Stroganov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stryken_E">
@@ -2341,6 +2583,9 @@
     <foaf:affil>HS Kaiserslautern, Germany</foaf:affil>
     <foaf:name>Christian M. Thurnes</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tillaart_R">
+    <foaf:name>R. van den Tillaart</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Timochov_VI">
     <foaf:affil>Gomel, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Виктор Иванович Тимохов</foaf:fullname>
@@ -2411,6 +2656,10 @@
     <foaf:fullname xml:lang="ru">Владимир Николаевич Вихорев</foaf:fullname>
     <foaf:name>Vladimir Nicolayevich Vihorev</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Viik_R">
+    <foaf:affil>Estonia</foaf:affil>
+    <foaf:name>Riho Viik</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vikentiev_IL">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Игорь Леонардович Викентьев</foaf:fullname>
@@ -2424,6 +2673,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Svetlana V. Vishnepolschi</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Volotkin_YI">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Юрий Иванович Волокитин</foaf:fullname>
+    <foaf:name>Yuri I. Volotkin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Waldman_MK">
     <foaf:affil>USA</foaf:affil>
@@ -2495,6 +2749,9 @@
     <foaf:affil>Gerlingen, Germany</foaf:affil>
     <foaf:name>Jochen Wessner</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wontorczyk_K">
+    <foaf:name>Katarzyna Wontorczyk</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wozniak_M">
     <foaf:affil>University of Gdansk, Poland</foaf:affil>
     <foaf:name>Monika Woźniak</foaf:name>
@@ -2537,7 +2794,7 @@
     <foaf:name>Yang He</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yatsunenko_S">
-    <foaf:affil>Poland</foaf:affil>
+    <foaf:affil>Novismo, Warsaw, Poland</foaf:affil>
     <foaf:name>Sergey Yatsunenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yefimov_AV">
@@ -2562,9 +2819,22 @@
     <foaf:affil>Malaysia TRIZ Innovation Association, Malaysia</foaf:affil>
     <foaf:name>Teong San Yeoh</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yeremin_VY">
+    <foaf:fullname xml:lang="ru">Владислав Еремин</foaf:fullname>
+    <foaf:name>Vladislav Yu. Yeremin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yermolov_KA">
     <foaf:fullname xml:lang="ru">К.А. Ермолов</foaf:fullname>
     <foaf:name>K.A. Yermolov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yevstifeyeva_O">
+    <foaf:affil>Pensa, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Ольга Евстифеева</foaf:fullname>
+    <foaf:name>Olga Yevstifeyeva</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yezersky_G">
+    <foaf:affil>Strategic Innovation, Hünfeld, Germany</foaf:affil>
+    <foaf:name>Greg Yezersky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yijun_W">
     <foaf:name>Wang Yijun</foaf:name>
@@ -2601,6 +2871,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zaleski_M">
     <foaf:name>Marek Zaleski</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zanni_C">
+    <foaf:affil>Strasbourg, France</foaf:affil>
+    <foaf:name>Cécilia Zanni</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zasedenets_I">
     <foaf:affil>Tel Aviv, Israel</foaf:affil>

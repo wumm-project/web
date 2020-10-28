@@ -2,10 +2,23 @@
 
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-06-29
+ * last update: 2020-10-28
  */
 
 /* ======= helper function ======== */
+
+function setNamespaces() {
+    EasyRdf_Namespace::set('bibo', 'http://purl.org/ontology/bibo/');
+    EasyRdf_Namespace::set('dc', 'http://purl.org/dc/elements/1.1/');
+    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
+    EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
+    EasyRdf_Namespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
+    EasyRdf_Namespace::set('skos', 'http://www.w3.org/2004/02/skos/core#');
+    EasyRdf_Namespace::set('swc', 'http://data.semanticweb.org/ns/swc/ontology#');
+    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
+    EasyRdf_Namespace::set('odp', 'http://opendiscovery.org/rdf/Person/');
+    EasyRdf_Namespace::set('tc', 'http://opendiscovery.org/rdf/Concept/');
+}
 
 function htmlEnv($out) 
 {
@@ -31,8 +44,9 @@ function showLanguage($a,$sep) {
     foreach($a as $v) {
         $l=$v->getLang();
         if (empty($l)) { $l='en'; }
-        $b[]="$l: $v";
+        $b[$l]="$l: $v";
     }
+    ksort($b);
     return join($sep,$b);
 }
 

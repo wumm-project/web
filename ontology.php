@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-08-31
+ * last update: 2020-10-28
  */
 
 require_once 'lib/EasyRdf.php';
@@ -16,18 +16,14 @@ function theParts($a) {
     return "<ul>".join("\n",$b)."</ul>";
 }
 
-function theGlossary($input) 
-{
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
-    EasyRdf_Namespace::set('skos', 'http://www.w3.org/2004/02/skos/core#');
-    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Glossary/');
-    $graph->parseFile($input);
+function displayGraph($graph) {
     $a=array();
-    $res = $graph->allOfType('skos:Concept');
+    $res = $graph->allOfType("skos:Concept");
     foreach ($res as $concept) {
-        $out="<h3>".showLanguage($concept->all("skos:prefLabel"),", ")."</h3>";
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
+        $types=join("<br/> ",$concept->all("rdf:type"));
+        $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $out="<h3>$uri</h3><h4>Types</h4>$types<h4>preferredLabel</h4>$preflabel";
         if ($concept->all("od:hasPart")) {
             $out.="<h4>Has Parts</h4>".theParts($concept->all("od:hasPart"));
         }
@@ -40,18 +36,55 @@ function theGlossary($input)
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
-    $out='<h2>The TRIZ Ontology</h2>
-
-<p>This is a RDF version of the main diagram of the <a
-href="https://triz-summit.ru/onto_triz/" >TRIZ Ontology Project</a> with labels
-in Russian, German and English. </p>
-
+    $out='<a href="ontology.php">Home</a>
+<h2>The Combined TRIZ Glossary Details Page</h2>
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
 }
 
-echo showpage(theGlossary("rdf/Ontology.rdf"));
+function displayEntry($graph,$entry) {
+}
+
+function generalOntologyInfo() {
+    $out='<h2>The Combined TRIZ Glossary Entry Page</h2>
+
+<p>This Combined Glossary joins concepts from dífferent sources:
+<ul>
+  <li>Thesaurus from the <a href="https://www.altshuller.ru/thesaur/thesaur.asp">GSA website</a></li>
+  <li>VDI Glossary</li>
+</ul>
+
+The concepts from the different glossaries are tagged with different rdf:type,
+that all are subtypes of skos:Concept.
+</p>
+
+<p><a href="ontology.php?rdf=show">Show the combined glossary</a></p>
+
+';
+    return '<div class="container">'.$out.'</div>';
+}
+
+function mainOntology($rdf=null,$entry=null) {
+    setNamespaces();
+    if (empty($rdf)) { $out=generalOntologyInfo(); }
+    else { 
+        // parse all information into one RDF graph
+        // different glossaries are tagges with different class names
+        $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Ontology/');
+        $graph->parseFile("rdf/Thesaurus.rdf"); // add more 
+        $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
+        if (empty($entry)) { $out=displayGraph($graph,$rdf); }
+        else { $out=displayEntry($graph,$entry); }
+    }
+    return '<div class="container">'.$out.'</div>';
+}
+
+
+$rdf=$_GET["rdf"]; // e.g. tc:GSAThesaurusEntry
+$entry=$_GET["entry"];
+echo showpage(mainOntology($rdf,$entry));
+//echo mainOntology($rdf);
 
 ?>

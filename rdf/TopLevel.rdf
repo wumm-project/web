@@ -1,67 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-   xmlns="http://opendiscovery.org/rdf/ThisOntology/">
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontology/">
-    <cc:attributionName>The Open Discovery Project</cc:attributionName>
-    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
-    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
-    <rdfs:comment>2020-07-13 graebe: project started</rdfs:comment>
-    <rdfs:comment>2020-08-31 graebe: English and Russian labels added</rdfs:comment>
-    <rdfs:label>TRIZ Database - Ontology Project</rdfs:label>
-  </owl:Ontology>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ARIZ">
+   xmlns:tc="http://opendiscovery.org/rdf/Concept/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ARIZ">
     <skos:prefLabel xml:lang="en">ARIZ - Algorithm for Solving Inventive Problems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">ARIZ - Algorithmus zum Lösen erfinderischer Probleme</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">АРИЗ - алгоритм решения изобретательских задач</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/Benchmarking">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/Benchmarking">
     <skos:prefLabel xml:lang="de">Benchmarking</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Benchmarking</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Бенчмаркинг</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/CausalAnalysis">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/CausalAnalysis">
     <skos:prefLabel xml:lang="en">Cause and Effect Analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Ursache-Wirkungs-Analyse</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Причинно-следственный анализ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/CertificationSystem">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/CertificationSystem">
     <skos:prefLabel xml:lang="en">Certification System</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Zertifikationssystem</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Система сертификации</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ComplexSystemDevelopmentTools">
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ARIZ"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/PrognosticTools"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/SF-AnalysisAndStandards"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZEnterpriseAnalysis"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRTSApplication"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ComplexSystemDevelopmentTools">
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/ARIZ"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/PrognosticTools"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/SF-AnalysisAndStandards"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZEnterpriseAnalysis"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/ZRTSApplication"/>
     <skos:prefLabel xml:lang="en">Complex tools for system development</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Komplexe Werkzeuge der Systementwicklung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Комплексные инструменты для разработки системы</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ComponentAnalysis">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ComponentAnalysis">
     <skos:prefLabel xml:lang="en">Component Analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Komponentenanalyse</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анализ компонентов</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ContradictionAnalysis">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionAnalysis">
     <skos:prefLabel xml:lang="de">Herausarbeiten und Analyse von Widersprüchen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Working out and analyzing contradictions</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Выработка и анализ противоречий</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ContradictionMatrix">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionMatrix">
     <skos:prefLabel xml:lang="de">Widerspruchsmatrix</skos:prefLabel>
     <skos:prefLabel xml:lang="en">contradiction matrix</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">матрица противоречий</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ContradictoryRequirements">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ContradictoryRequirements">
     <skos:prefLabel xml:lang="en">Conflicting requirements</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Contradictions of the requirements</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Widersprüche der Anforderungen</skos:prefLabel>
@@ -69,306 +60,314 @@
     <skos:prefLabel xml:lang="ru">Конфликтующие требования</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Противоречия требований</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/DevelopmentInventiveThinking">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/RTV"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/DevelopmentInventiveThinking">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/RTV"/>
     <skos:prefLabel xml:lang="en">Development of creative thinking</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Entwicklung des kreativen Denkens</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Развитие творческого мышления</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/Dialectics">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/Dialectics">
     <skos:prefLabel xml:lang="en">Dialectics</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Dialektik</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Диалектика</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/EvaluationOfConceptsTools">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/Benchmarking"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/EvaluationOfConceptsTools">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/Benchmarking"/>
     <skos:prefLabel xml:lang="en">Tools for evaluating and developing concepts</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Werkzeuge zur Evaluierung und Entwicklung von Konzepten</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Инструменты для оценки и разработки концепций</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/EvolutionalApproach">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/EvolutionalApproach">
     <skos:prefLabel xml:lang="en">Evolutionary Access</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Evolutionärer Zugang</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Эволюционный доступ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/FOS">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/FOS">
     <skos:prefLabel xml:lang="en">Function-oriented search (FOS)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Funktionsorientierte Suche (FOS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Функционально-ориентированный поиск (FOS)</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/FlowAnalysis">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/FlowAnalysis">
     <skos:prefLabel xml:lang="en">Flow analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Flussanalyse</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анализ потока</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/FunctionalAnalysis">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/StructuralAnalysis"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/FunctionalAnalysis">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/StructuralAnalysis"/>
     <skos:prefLabel xml:lang="en">Functional Analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Funktionale Analyse</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Функциональный анализ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/IFR">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/IFR">
     <skos:prefLabel xml:lang="en">Ideal end result (IER)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Ideales Endresultat (IER)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Идеальный конечный результат (IER)</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/InformationFondsofSystemDevelopment">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/InformationFondsofSystemDevelopment">
     <skos:prefLabel xml:lang="en">Information Fund for System Development</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Informationsfonds der Systementwicklung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Информационный фонд для развития системы</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/InventiveProblem">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ContradictoryRequirements"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/InventiveSolution"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblem">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictoryRequirements"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveSolution"/>
     <skos:prefLabel xml:lang="de">Erfindungsaufgabe</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Invention Task</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Задание на изобретение</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/InventiveSolution">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/InventiveSolution">
     <skos:prefLabel xml:lang="de">Lösung von Erfundungsaufgaben</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Solution of Invention Tasks</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Решение изобретательских задач</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/LawsOfZRS">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ContradictoryRequirements"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/LawsOfZRS">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictoryRequirements"/>
     <skos:prefLabel xml:lang="de">Gesetze im Komplex der Systementwicklung (ZRS)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Laws in the Complex of System Development (ZRS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Законы в комплексе системного развития (ЗРС)</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/Principles">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/Principles">
     <skos:prefLabel xml:lang="en">Principles of contradiction resolution</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzipien der Widerspruchslösung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Принципы разрешения противоречий</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ProfessionalInstitutions">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ProfessionalInstitutions">
     <skos:prefLabel xml:lang="de">Berufsorganisationen und Unternehmen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Professional organizations and companies</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Профессиональные организации и компании</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/PrognosticTools">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/PrognosticTools">
     <skos:prefLabel xml:lang="en">Forecasting tools</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prognose-Werkzeuge</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Инструменты прогнозирования</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/QualifyingSystem">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/CertificationSystem"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/QualifyingSystem">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/CertificationSystem"/>
     <skos:prefLabel xml:lang="de">System der Weiterbildung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">System of further education</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Система дополнительного образования</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/RTV">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/RTV">
     <skos:prefLabel xml:lang="en">Development of the creative imagination</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Entwicklung des kreativen Vorstellungsvermögens</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Развитие творческого воображения</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ResourceAnalysis">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ResourceAnalysis">
     <skos:prefLabel xml:lang="de">Analyse der Ressourcen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Analysis of resources</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анализ ресурсов</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/SF-AnalysisAndStandards">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/SF-AnalysisAndStandards">
     <skos:prefLabel xml:lang="en">SF analysis and application of the standards</skos:prefLabel>
     <skos:prefLabel xml:lang="de">SF-Analyse und Anwendung der Standards</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анализ SF и применение стандартов</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ScientificTRIZBase">
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/Dialectics"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/EvolutionalApproach"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/InformationFondsofSystemDevelopment"/>
-    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/ThisOntology/SystemFunctionApproach"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ScientificTRIZBase">
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/Dialectics"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/EvolutionalApproach"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/InformationFondsofSystemDevelopment"/>
+    <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/SystemFunctionApproach"/>
     <skos:prefLabel xml:lang="en">Scientific basis of TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Wissenschaftliche Basis der TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Научные основы ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/StructuralAnalysis">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ComponentAnalysis"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/StructuralAnalysis">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ComponentAnalysis"/>
     <skos:prefLabel xml:lang="en">Structure analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Strukturanalyse</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анализ структуры</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/SyntheseMethods">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ContradictionMatrix"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/FOS"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/IFR"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/Principles"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ResourceAnalysis"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/SyntheseMethods">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionMatrix"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/FOS"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/IFR"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/Principles"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ResourceAnalysis"/>
     <skos:prefLabel xml:lang="de">Methoden der Synthese</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Methods of Synthesis</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Методы синтеза</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/SystemAnalysisTools">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/CausalAnalysis"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ContradictionAnalysis"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/FlowAnalysis"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/FunctionalAnalysis"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/SystemOperator"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/SystemAnalysisTools">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/CausalAnalysis"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionAnalysis"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/FlowAnalysis"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/FunctionalAnalysis"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/SystemOperator"/>
     <skos:prefLabel xml:lang="de">Instrumente der Systemanalyse</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Systems Analysis Instruments</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Инструменты системного анализа</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/SystemFunctionApproach">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/SystemFunctionApproach">
     <skos:prefLabel xml:lang="en">Systemic-functional access</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Systemisch-funktionaler Zugang</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Системно-функциональный доступ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/SystemOperator">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/SystemOperator">
     <skos:prefLabel xml:lang="en">System operator</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Systemoperator</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Systemoperator</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZ">
-    <od:forms rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ScientificTRIZBase"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/DevelopmentInventiveThinking"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/InventiveProblem"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ProfessionalInstitutions"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/QualifyingSystem"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/RTV"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZApplicationDomains"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZHistory"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZModel"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZTrends"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRTL"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
+    <od:forms rdf:resource="http://opendiscovery.org/rdf/Concept/ScientificTRIZBase"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/DevelopmentInventiveThinking"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveProblem"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ProfessionalInstitutions"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/QualifyingSystem"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/RTV"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZApplicationDomains"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZHistory"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZModel"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZTrends"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRTL"/>
     <skos:prefLabel xml:lang="de">TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZApplicationDomains">
-    <od:specialCase rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZinInnovation"/>
-    <od:specialCase rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZinNontechnicalDomains"/>
-    <od:specialCase rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZinProductiveEnterprises"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZApplicationDomains">
+    <od:specialCase rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZinInnovation"/>
+    <od:specialCase rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZinNontechnicalDomains"/>
+    <od:specialCase rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZinProductiveEnterprises"/>
     <skos:prefLabel xml:lang="en">TRIZ applications in different domains</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Anwendungen in verschiedenen Domänen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приложения ТРИЗ в разных доменах</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZEnterpriseAnalysis">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZEnterpriseAnalysis">
     <skos:prefLabel xml:lang="en">TRIZ analysis of companies</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Analyse von Betrieben</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">ТРИЗ-анализ компаний</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZFounders">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZFounders">
     <skos:prefLabel xml:lang="en">TRIZ Founding Fathers</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Gründungsväter</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Отцы-основатели ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZHistory">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZFounders"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchools"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZHistory">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZFounders"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchools"/>
     <skos:prefLabel xml:lang="de">Geschichte der Entwicklung der TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="en">History of the development of TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">История развития ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZModel">
-    <od:composedFrom rdf:resource="http://opendiscovery.org/rdf/ThisOntology/InventiveSolution"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ComplexSystemDevelopmentTools"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/EvaluationOfConceptsTools"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/SyntheseMethods"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/SystemAnalysisTools"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZModel">
+    <od:composedFrom rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveSolution"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ComplexSystemDevelopmentTools"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/EvaluationOfConceptsTools"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/SyntheseMethods"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/SystemAnalysisTools"/>
     <skos:prefLabel xml:lang="en">Model of TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Modell der TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Модель ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolBaku">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolBaku">
     <skos:prefLabel xml:lang="en">TRIZ School in Baku</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Baku</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Баку</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolGorki">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolGorki">
     <skos:prefLabel xml:lang="en">TRIZ School in Gorki</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Gorki</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Горках</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolKishinev">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolKishinev">
     <skos:prefLabel xml:lang="en">TRIZ School In Kishinev</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule In Kischinjow</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Кишиневе</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolKrasnoyarsk">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolKrasnoyarsk">
     <skos:prefLabel xml:lang="en">TRIZ School in Krasnoyarsk</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule im Krasnojarsk</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Красноярске</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolLeningrad">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolLeningrad">
     <skos:prefLabel xml:lang="en">TRIZ School in Leningrad</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Leningrad</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Ленинграде</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolMinsk">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolMinsk">
     <skos:prefLabel xml:lang="en">TRIZ School in Minsk</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Minsk</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Минске</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZSchools">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolBaku"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolGorki"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolKishinev"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolKrasnoyarsk"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolLeningrad"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TRIZSchoolMinsk"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchools">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchoolBaku"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchoolGorki"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchoolKishinev"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchoolKrasnoyarsk"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchoolLeningrad"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZSchoolMinsk"/>
     <skos:prefLabel xml:lang="de">TRIZ Schulen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TRIZ schools</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школы ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZTrends">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRS"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRTS"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZTrends">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ZRS"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ZRTS"/>
     <skos:prefLabel xml:lang="de">Gesetze und Trends der TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TRIZ Laws and Trends</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Законы и тенденции ТРИЗ</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZinInnovation">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZinInnovation">
     <skos:prefLabel xml:lang="en">TRIZ applications for innovations</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Anwendungen für Innovationen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приложения ТРИЗ для инноваций</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZinNontechnicalDomains">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZinNontechnicalDomains">
     <skos:prefLabel xml:lang="en">TRIZ applications in non-technical areas</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Anwendungen in nicht-technischen Bereichen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приложения ТРИЗ в нетехнических областях</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRIZinProductiveEnterprises">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZinProductiveEnterprises">
     <skos:prefLabel xml:lang="en">TRIZ applications in production companies</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Anwendungen in Produktionsbetrieben</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приложения ТРИЗ в производственных компаниях</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TRTL">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRTL">
     <skos:prefLabel xml:lang="de">Theorie der Entwicklung kreativer Persönlichkeiten</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Theory of the Development of Creative Personalities</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Теория развития творческих личностей</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/TrendsOfSystemDevelopment">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TrendsOfSystemDevelopment">
     <skos:prefLabel xml:lang="de">Trends der Systementwicklung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Trends in system development</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Тенденции в развитии системы</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ZRS">
-    <od:hasPartialCase rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRTS"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/LawsOfZRS"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/TrendsOfSystemDevelopment"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ZRS">
+    <od:hasPartialCase rdf:resource="http://opendiscovery.org/rdf/Concept/ZRTS"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/LawsOfZRS"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsOfSystemDevelopment"/>
     <skos:prefLabel xml:lang="en">Complex of laws and trends in system development (ZRS)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Komplex der Gesetze und Trends der Systemenwicklung (ZRS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Комплекс законов и тенденций развития систем (ZRS)</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ZRTS">
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRTSLaws"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRTSTrends"/>
-    <od:relatedTo rdf:resource="http://opendiscovery.org/rdf/ThisOntology/ZRTSApplication"/>
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ZRTS">
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ZRTSLaws"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ZRTSTrends"/>
+    <od:relatedTo rdf:resource="http://opendiscovery.org/rdf/Concept/ZRTSApplication"/>
     <skos:prefLabel xml:lang="en">Complex of laws and trends in the development of technical systems (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Komplex der Gesetze und Trends der Entwicklung technischer Systeme (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Комплекс законов и тенденций развития технических систем (ZRTS)</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ZRTSApplication">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ZRTSApplication">
     <skos:prefLabel xml:lang="de">Anwendung der Gesetze der Entwicklung schöpferischer Persönlichkeiten</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Application of the Laws of the Development of Creative Personalities</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Применение законов развития творческих личностей</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ZRTSLaws">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ZRTSLaws">
     <skos:prefLabel xml:lang="de">Gesetze im Komplex der Entwicklung technischer Systeme (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Laws in the Complex of the Development of Technical Systems (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Законы в комплексе разработки технических систем (ЗРТС)</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/ThisOntology/ZRTSTrends">
+  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/ZRTSTrends">
     <skos:prefLabel xml:lang="de">Trends im Komplex der Entwicklung technischer Systeme (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Trends in the complex of the development of technical systems (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Тенденции в комплексе развития технических систем (ЗРТС)</skos:prefLabel>
   </skos:Concept>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/TopLevel/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <rdfs:comment>2020-07-13 graebe: extracted from the Ontopicture at those times available at &lt;https://triz-summit.ru/onto_triz/&gt;</rdfs:comment>
+    <rdfs:comment>2020-08-31 graebe: English and Russian labels added</rdfs:comment>
+    <rdfs:label>TRIZ Ontology Project - Onto Bird's Eye</rdfs:label>
+  </owl:Ontology>
 </rdf:RDF>

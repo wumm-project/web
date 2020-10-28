@@ -8,14 +8,6 @@ require_once 'lib/EasyRdf.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
-function setNamespaces() {
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
-    EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
-    EasyRdf_Namespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
-    EasyRdf_Namespace::set('swc', 'http://data.semanticweb.org/ns/swc/ontology#');
-}
-
 function theEvent($v,$graph) {
     $label=$v->get("rdfs:label");
     $summary=$v->get("ical:summary");
@@ -195,7 +187,7 @@ function abstracts($src,$graph) {
 ';
 }
 
-function generalInfo($graph) {
+function generalConferenceInfo($graph) {
     $graph->parseFile("rdf/PastConferences.rdf");
     $res = $graph->allOfType('swc:ConferenceEvent');
     $a=array();
@@ -219,19 +211,19 @@ conferences collected within our
     
 }
 
-function main() {
+function mainConferences() {
     setNamespaces();
     $conf=$_GET["conference"];
     $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Conference/');
     $graph->parseFile("rdf/People.rdf");
     $graph->parseFile("rdf/ConferenceSeries.rdf");
     $out='';
-    if (empty($conf)) { $out=generalInfo($graph); }
+    if (empty($conf)) { $out=generalConferenceInfo($graph); }
     else { $out=abstracts($conf,$graph); }
     return '<div class="container">'.$out.'</div>';
 }
 
-echo showpage(main());
+echo showpage(mainConferences());
 
 // conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf
 

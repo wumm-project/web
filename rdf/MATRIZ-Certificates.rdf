@@ -866,8 +866,8 @@
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.42">
     <od:issued>1998-09-27</od:issued>
-    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Pevsner_LK"/>
-    <foaf:name>Lev Pevsner</foaf:name>
+    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Pevzner_LK"/>
+    <foaf:name>Lev Pevzner</foaf:name>
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.43">
     <od:issued>1998-09-27</od:issued>
@@ -1088,8 +1088,8 @@
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.86">
     <od:issued>2012-05-28</od:issued>
-    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Leniashin_VA"/>
-    <foaf:name>Vasily Leniachin</foaf:name>
+    <od:owner rdf:resource="http://opendiscovery.org/rdf/Person/Lenyashin_VA"/>
+    <foaf:name>Vasily Lenyachin</foaf:name>
   </od:CertificateLevel5>
   <od:CertificateLevel5 rdf:about="http://opendiscovery.org/rdf/Certificate/L5.87">
     <od:issued>2012-05-28</od:issued>
