@@ -764,6 +764,8 @@
     <foaf:name>Aleksandr Gladkov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Goldovsky_BI">
+    <dbo:birthDate>1946-01-14</dbo:birthDate>
+    <dbo:deathDate>2020-10-28</dbo:deathDate>
     <foaf:affil>Nishnyi Novgorod, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Борис Израйлевич Голдовский</foaf:fullname>
     <foaf:name>Boris I. Goldovsky</foaf:name>
@@ -1807,6 +1809,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Narayan_PV">
     <foaf:affil>TRIZ Association of Asia, India</foaf:affil>
+    <foaf:homepage rdf:resource="http://trizassociation.org"/>
     <foaf:name>P.V. Narayan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Narbut_AF">
@@ -1945,10 +1948,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_D">
     <foaf:name>Dmitrij Petrov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_P">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_PA">
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Павел Петров</foaf:fullname>
-    <foaf:name>Pavel Petrov</foaf:name>
+    <foaf:name>Pavel A. Petrov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_VM">
     <foaf:affil>Israel</foaf:affil>
@@ -1966,11 +1969,13 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Phadnis_N">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0003-0003-561X"/>
-    <foaf:affil>Lappeenranta, Finland</foaf:affil>
+    <foaf:affil>TRIZ Association of Asia, India</foaf:affil>
+    <foaf:homepage rdf:resource="http://trizassociation.org"/>
     <foaf:name>Nikhil Phadnis</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Phadnis_S">
     <foaf:affil>TRIZ Association of Asia, India</foaf:affil>
+    <foaf:homepage rdf:resource="http://trizassociation.org"/>
     <foaf:name>Shree Phadnis</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pheunghua_T">
@@ -2674,7 +2679,7 @@
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Svetlana V. Vishnepolschi</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Volotkin_YI">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Volokitin_YI">
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Юрий Иванович Волокитин</foaf:fullname>
     <foaf:name>Yuri I. Volotkin</foaf:name>
@@ -2732,6 +2737,8 @@
     <foaf:name>Wang Yan-wei</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wankhade_SH">
+    <foaf:affil>TRIZ Association of Asia, India</foaf:affil>
+    <foaf:homepage rdf:resource="http://trizassociation.org"/>
     <foaf:name>Sandeep H. Wankhade</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Weber_O">
@@ -2827,9 +2834,9 @@
     <foaf:fullname xml:lang="ru">К.А. Ермолов</foaf:fullname>
     <foaf:name>K.A. Yermolov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yevstifeyeva_O">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yevstifeyeva_OA">
     <foaf:affil>Pensa, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Ольга Евстифеева</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Ольга Александровна Евстифеева</foaf:fullname>
     <foaf:name>Olga Yevstifeyeva</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yezersky_G">

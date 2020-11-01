@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:tc="http://opendiscovery.org/rdf/Concept/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/307080/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/307080/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Специализация в ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/307080/Skills/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/307080/Skills/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/307080/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Навыки и компетенции"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/307080/cert/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/307080/cert/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/307080/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Системы сертификации"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/307080/comp/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/307080/comp/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/307080/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Профессиональные объединения и компании"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/307080/study/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/307080/study/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/307080/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Обучение ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/Areas/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/Areas/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Области применения ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/Areas/Subject/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/Areas/Subject/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/Areas/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Предметные области применения ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/Areas/pro/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/Areas/pro/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/Areas/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Проектная деятельность на основе ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/history/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/history/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "История ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/history/authors/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/history/authors/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/history/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Основоположники ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/history/schools/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/history/schools/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/history/"/>
+    <skos:prefLabel xml:lang="ru">Онтологии "Школы ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/law/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/law/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Законы развития систем"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/law/drift/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/law/drift/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/law/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Линии (тенденции) развития систем"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/law/interaction/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/law/interaction/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/law/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Связь законов и тенденций с инструментами ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/law/trend/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/law/trend/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/law/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Линии (тенденции) развития технических систем"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/law/zrs/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/law/zrs/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/law/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Законы развития систем (ЗРС)"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/law/zrts/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/law/zrts/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/law/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Законы развития технических систем (ЗРТС)"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/mod/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/mod/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Модель ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/mod/metod/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/mod/metod/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/mod/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Методы в ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/mod/ob/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/mod/ob/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/mod/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Объекты модели ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/proj/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/proj/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">О проекте Онтология ТРИЗ</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Инструменты Развития Творческого Воображения (РТВ)"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/NFLklass/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/NFLklass/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/rtv/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Классификация и оценка НФ идей"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/Prognoz/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/Prognoz/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/rtv/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Прогнозирование и создание новых идей на основе НФ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/courses/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/courses/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/rtv/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Курсы РТВ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/metodTRIZ/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/metodTRIZ/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/rtv/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Методы развития творческого воображения на основе ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/metodpsico/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/metodpsico/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/rtv/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Методы психологической активизации изобретательского мышления"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/rtv/psychologicalbases/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/rtv/psychologicalbases/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/rtv/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Психологические основы развития творческого воображения"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Научные основы ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/Function_approach/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/Function_approach/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Функциональный подход"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/Psychology/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/Psychology/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Психология творческого мышления"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/TRIZ_ap/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/TRIZ_ap/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Подходы ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/dial/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/dial/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Диалектика"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/dial/dial/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/dial/dial"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/dial/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Диалектическое противоречие"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/evo/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/evo/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Эволюционный подход"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/inf/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/inf/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Информационные фонды развития систем"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/model/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/model/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Модельный подход"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/param_approach/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/param_approach/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Параметрический подход"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/science/sys/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/science/sys/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/science/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Системный подход"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/theory/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/theory/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Теории в ТРИЗ"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/theory/OTSM/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/theory/OTSM/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/theory/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Общая теория сильного мышления (ОТСМ-ТРИЗ)"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/theory/TIM/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/theory/TIM/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/theory/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Теория изобретательского мышления"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/theory/TRTL/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/theory/TRTL/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/theory/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Теория развития творческой личности (ТРТЛ)"</skos:prefLabel>
+  </tc:OntoCard>
+  <tc:OntoCard rdf:about="http://opendiscovery.org/rdf/Concept/theory/evos/">
+    <od:hasWebPage rdf:resource="https://triz-summit.ru/onto_triz/theory/evos/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/theory/"/>
+    <skos:prefLabel xml:lang="ru">Онтология "Эволюционное системоведение. Эволюциоведение."</skos:prefLabel>
+  </tc:OntoCard>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/OntoCards/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <rdfs:comment>2020-10-31 graebe: scraped from &lt;https://triz-summit.ru/onto_triz&gt;</rdfs:comment>
+    <rdfs:label>TRIZ Ontology Project - OntoCards</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>
