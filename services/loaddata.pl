@@ -36,7 +36,7 @@ sub createLoadCommand {
   return<<EOT;
 sparql clear graph <$graph> ;
 sparql create silent graph <$graph> ; 
-DB.DBA.TTLP_MT (file_to_string_output('$RDFData/$file'),'$graph'); 
+ld_dir ("$RDFData","$file","$graph"); 
 EOT
 }
 
