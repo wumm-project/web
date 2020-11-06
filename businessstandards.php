@@ -1,20 +1,17 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-08-02
+ * last update: 2020-11-06
  */
 
-require_once 'lib/EasyRdf.php';
+require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
 function theBusinessStandards($input) 
 {
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('odp', 'http://opendiscovery.org/rdf/Principle/');
-    EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
-    EasyRdf_Namespace::set('skos', 'http://www.w3.org/2004/02/skos/core#');
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/TheStandards/');
+    setNamespaces();
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/TheStandards/');
     $graph->parseFile($input);
     $a=array();
     $res = $graph->allOfType('od:TRIZ_Standard');

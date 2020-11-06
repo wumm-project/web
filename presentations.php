@@ -1,19 +1,17 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-01-04
+ * last update: 2020-11-06
  */
 
-require_once 'lib/EasyRdf.php';
+require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
 function thePresentations($src,$people) 
 {
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('dcterms', 'http://purl.org/dc/terms/');
-    EasyRdf_Namespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Presentations/');
+    setNamespaces();
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Presentations/');
     $graph->parseFile($src);
     $graph->parseFile($people);
     $out='';

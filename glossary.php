@@ -1,10 +1,10 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-10-28
+ * last update: 2020-11-06
  */
 
-require_once 'lib/EasyRdf.php';
+require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
@@ -72,7 +72,7 @@ function theGlossary($rdf=null,$entry=null) {
     else { 
         // parse all information into one RDF graph
         // different glossaries are tagges with different class names
-        $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Ontology/');
+        $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
         $graph->parseFile("rdf/Thesaurus.rdf"); // add more 
         $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
         if (empty($entry)) { $out=displayGraph($graph,$rdf); }

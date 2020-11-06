@@ -1,19 +1,17 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-07-12
+ * last update: 2020-11-06
  */
 
-require_once 'lib/EasyRdf.php';
+require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
 function thePrinciples($input) 
 {
-    EasyRdf_Namespace::set('od', 'http://opendiscovery.org/rdf/Model#');
-    EasyRdf_Namespace::set('odq', 'http://opendiscovery.org/rdf/Principle/');
-    EasyRdf_Namespace::set('owl', 'http://www.w3.org/2002/07/owl#');
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/ThePrinciples/');
+    setNamespaces();
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/ThePrinciples/');
     $graph->parseFile($input);
     $a=array();
     $res = $graph->allOfType('od:Principle');

@@ -1,10 +1,10 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-06-29
+ * last update: 2020-11-06
  */
 
-require_once 'lib/EasyRdf.php';
+require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
@@ -214,7 +214,7 @@ conferences collected within our
 function mainConferences() {
     setNamespaces();
     $conf=$_GET["conference"];
-    $graph = new EasyRdf_Graph('http://opendiscovery.org/rdf/Conference/');
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Conference/');
     $graph->parseFile("rdf/People.rdf");
     $graph->parseFile("rdf/ConferenceSeries.rdf");
     $out='';
@@ -227,6 +227,6 @@ echo showpage(mainConferences());
 
 // conferences.php?conference=rdf/TRIZ-Summit-2019.rdf&people=rdf/People.rdf
 
-//echo abstracts('../rdf/TRIZ-Summit-2019.rdf','../rdf/People.rdf'); // for testing
+// echo abstracts('../rdf/TRIZ-Summit-2019.rdf','../rdf/People.rdf'); // for testing
 
 ?>
