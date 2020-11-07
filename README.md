@@ -20,4 +20,4 @@ The _services_ directory contains Perl code for maintenance of that endpoint.
 
 ## Changes
 
-2020-11-06: Switched th EasyRDF 1.0 and composer.
+2020-11-06: Switched to EasyRDF 1.0 and composer.

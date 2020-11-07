@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-10-28
+ * last update: 2020-11-07
  */
 
 function pageHeader() {
@@ -40,7 +40,7 @@ function pageNavbar() {
             <li><a href="tbk.php">TRIZ Body of Knowledge</a></li>
             <li><a href="conferences.php">Past Conferences</a></li>
             <li><a href="presentations.php">TRIZ Presentations</a></li>
-            <li><a href="glossary.php">TRIZ Glossary</a></li>
+            <li><a href="ontology.php">TRIZ Ontology</a></li>
             <li><a href="principles.php">40 Principles</a></li>
             <li><a href="standards.php">Inventive Standards</a></li>
             <li><a href="businessstandards.php">Inventive Business Standards</a></li>
