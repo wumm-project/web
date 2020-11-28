@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Last Update: 2020-11-07
+ * Last Update: 2020-11-08
 
  * Display the properties and inverse properties of an URI exploring the WUMM
  * SPARQL Endpoint
@@ -28,7 +28,8 @@ LIMIT 100';
     $out=str_replace("href='http://opendiscovery.org/rdf/",
                      "href='displayuri.php?uri=http://opendiscovery.org/rdf/",
                      $out);
-    return $out;
+    $prefix='<p><a href="http://wumm.uni-leipzig.de">Home</a></p>';
+    return $prefix.$out;
 }
 
 $uri=$_GET["uri"]; // e.g.

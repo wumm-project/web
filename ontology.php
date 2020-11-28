@@ -20,6 +20,34 @@ function theThesaurus() {
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/Thesaurus.rdf"); // add more 
     $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
+    $graph->parseFile("rdf/OntoCards.rdf"); // add more 
+    $graph->parseFile("rdf/TopLevel.rdf"); // add more 
+    $a=array();
+    $res = $graph->allOfType("skos:Concept");
+    foreach ($res as $concept) {
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
+        $types=join("<br/> ",$concept->all("rdf:type"));
+        $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
+            .'<h5>Types</h5>'.$types
+            .'<h5>preferredLabel</h5>'.$preflabel;
+        $a[$concept->getUri()]="<div>\n$out\n</div>\n";
+    }
+    ksort($a);
+    $out=theTitle().'
+<h3>The Combined TRIZ Thesaurus</h2>
+<div class="concept">
+'.join("\n", $a).'
+</div> <!-- end concept list -->';
+    return '<div class="container">'.$out.'</div>';
+}
+
+// ------ the thesaurus
+
+function TopLevel() {
+    setNamespaces();
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
+    $graph->parseFile("rdf/TopLevel.rdf");  
     $a=array();
     $res = $graph->allOfType("skos:Concept");
     foreach ($res as $concept) {
@@ -76,6 +104,8 @@ Ontology"</a> (to be implemented) </li>
 function theOntologyPage($rdf) {
     setNamespaces();
     if ($rdf=='thesaurus') { $out=theThesaurus(); }
+    else if ($rdf=='TopLevel') { $out=TopLevel(); }
+    else if ($rdf=='OntoCards') { $out=OntoCards(); }
     else { $out=generalOntologyInfo(); }
     return '<div class="container">'.$out.'</div>';
 }
