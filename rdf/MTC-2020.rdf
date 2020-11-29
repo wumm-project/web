@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/MTC-2020/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/General">
+    <rdfs:label>Moscow TRIZ Conference 2020</rdfs:label>
+    <ical:description>Moscow TRIZ Conference 2020</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-28</ical:dtstart>
+    <ical:location>Online, supported by TRIZ Club, Moscow, Russia</ical:location>
+    <ical:url rdf:resource="https://triz-summit.ru/confer/tds-2020/"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_100">
+    <dcterms:abstract xml:lang="ru">Статья посвящена уточнению понятие система и ее компонентов, используемых в ТРИЗ.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:title xml:lang="en">Some aspects in the concept of a system</dcterms:title>
+    <dcterms:title xml:lang="ru">Некоторые аспекты в понятии система </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_101">
+    <dcterms:abstract xml:lang="ru">В докладе рассматриваются возможные варианты отнесения Систем к Техническим Системам, вопросы их классификации и достаточности известных инструментов ТРИЗ для выполнения эффективного анализа.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
+    <dcterms:title xml:lang="en">Systems and Technical Systems</dcterms:title>
+    <dcterms:title xml:lang="ru">Системы и Технические системы </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_102">
+    <dcterms:abstract xml:lang="ru"></dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_DA"/>
+    <dcterms:title xml:lang="en">Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club</dcterms:title>
+    <dcterms:title xml:lang="ru">Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_103">
+    <dcterms:abstract xml:lang="ru">В современной ТРИЗ описаны разные линии развития ТС, в частности, ее структуры, формы, энергетических потоков. Подавляющее большинство технических систем создаются в утилитарном контексте для реализации некоей надсистемной цели или ряда надсистемных целей. Удовлетворение целей в рамках требуемых условий и ограничений осуществляется через функции, реализуемые ТС. Совокупность таких функций определяет общую функциональность ТС, развитие которой зависит от этапа S-кривой, на которой находится ТС. Соответственно, развитие функциональности ТС коррелирует с развитием структуры ТС. Данная работа предлагает линию развития функциональности ТС, включающую 18 шагов, где каждый шаг иллюстрируется соответствующим изменением в структуре ТС.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Soushkov_VV"/>
+    <dcterms:title xml:lang="en">Development of the structure of a technical system in accordance with the lines of development of its functionality</dcterms:title>
+    <dcterms:title xml:lang="ru">Развитие структуры технической системы в соответствии с линией развития функциональности </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_104">
+    <dcterms:abstract xml:lang="ru">В работе показаны возможности применения закона в анализе (выделение ключевых компонентов в существующих системах) и решении задач (синтез систем путем последовательного навешивания функций на доступные компоненты).</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mogilin_AA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mogilina_MN"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Panchikhin_EV"/>
+    <dcterms:title xml:lang="en">In defense of the law of completeness of system parts. On the application of the law in practical projects</dcterms:title>
+    <dcterms:title xml:lang="ru">В защиту закона полноты частей системы. О применении закона в практических проектах</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_105">
+    <dcterms:abstract xml:lang="ru">Рассмотрено понятие комплексного предела развития системы, возможные варианты описания таких пределов. Показана взаимозаменяемость ресурсов при реализации функций.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
+    <dcterms:title xml:lang="en">Limiting state of technical systems. Classes of systems and trajectories of their development</dcterms:title>
+    <dcterms:title xml:lang="ru">Предельное состояние технических систем. Классы систем и траектории их развития </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_106">
+    <dcterms:abstract xml:lang="ru">В работе рассматривается вопрос о частях ТС: двигателе, трансмиссии и рабочем органе, как о каналах, через которые проходит поток энергии при функционировании технической системы. Определяются специфические функции частей системы, выполняющие определённую роль в отношении потока энергии. Также в работе сопоставляются функции частей системы с главными функциями технических систем, и на этой основе предлагается классификация ТС.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritsky_AA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_VN"/>
+    <dcterms:title xml:lang="en">Parts of a technical systems and their functions</dcterms:title>
+    <dcterms:title xml:lang="ru">Части технической системы и их функции </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_107">
+    <dcterms:abstract xml:lang="ru">В докладе предлагается классификация транспортных систем, рассматривается их устройство с точки зрения ЗРТС, обозначается методологическая проблема при выделении рабочего органа и предлагается её решение. Также эскизно даются вероятные линии развития транспортных систем.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_TM"/>
+    <dcterms:title xml:lang="en">On a new understanding of paths. Specifics of the mover as working body of a transport system</dcterms:title>
+    <dcterms:title xml:lang="ru">О новом понимании пути. Особенности движителя как рабочего органа транспортной системы </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_108">
+    <dcterms:abstract xml:lang="ru">Предложен механизм объединения Проведен поиск общего и предложена унифицированная схема проведения Функционального анализа изделия, и Функционального анализа Технологии.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_DA"/>
+    <dcterms:title xml:lang="en">Comparison of Functional Analysis of the Product and Functional Analysis of the Technology, some conclusions and recommendations</dcterms:title>
+    <dcterms:title xml:lang="ru">Сравнение Функционального анализа Продукта и Функционального анализа Технологии, некоторые выводы и рекомендации</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_109">
+    <dcterms:abstract xml:lang="ru">В практике разработки сложных программно-аппаратных комплексов опробованы разные подходы к определению структуры систем. Описана постепенная эволюция классической модели в сторону древовидной с явным выделением функциональных и обслуживающих подсистем, где последние играют роль адаптивной связующей прослойки. Рассмотрена эволюция характера рассматриваемых потоков между частями системы. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Olikevich_AA"/>
+    <dcterms:title xml:lang="en">Practical approach to the definition of the structure of a technical systems</dcterms:title>
+    <dcterms:title xml:lang="ru">Практический подход к определению структуры технических систем </dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_110">
+    <dcterms:abstract xml:lang="ru">Предлагается вариант формирования языка описания Систем, основанный на функциональном подходе. Рассматривается расширение количества видов технических систем и вариант описания систем из различных сфер применения. Приводятся примеры описания и использование этих описаний для задач создания, модернизации и прогноза развития.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tokarev_AS"/>
+    <dcterms:title xml:lang="en">Extended description of systems</dcterms:title>
+    <dcterms:title xml:lang="ru">Расширенное описание систем</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_111">
+    <dcterms:abstract xml:lang="ru">Исследуются закономерности развития вредных систем. Рассматривается вопрос множественности элементов вредных систем, когда одни и те же объекты являются элементами нескольких вредных систем.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Trostyansky_AG"/>
+    <dcterms:title xml:lang="en">Laws of development of harmful systems</dcterms:title>
+    <dcterms:title xml:lang="ru">Закономерности развития вредных систем </dcterms:title>
+  </od:Talk>
+</rdf:RDF>

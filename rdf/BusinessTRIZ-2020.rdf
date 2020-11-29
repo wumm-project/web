@@ -87,7 +87,7 @@
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=a9k_uEa4-o4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Trostyanski_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Trostyansky_AG"/>
     <dcterms:title xml:lang="en">Application of TRIZ tools to counter threats to commercial networks</dcterms:title>
     <dcterms:title xml:lang="ru">Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей</dcterms:title>
   </od:Talk>

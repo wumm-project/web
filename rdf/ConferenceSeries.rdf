@@ -11,6 +11,11 @@
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
     <rdfs:label>TSN: Conference Series</rdfs:label>
   </owl:Ontology>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/MTC">
+    <od:description>This series of conferences is organized by the Moscow TRIZ Club.</od:description>
+    <rdfs:label>Moscow TRIZ Conferences</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://metodolog.ru/"/>
+  </od:ConferenceSeries>
   <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest">
     <od:description>This series of meetings is organized by MATRIZ.</od:description>
     <rdfs:label>TRIZ-Fest</rdfs:label>

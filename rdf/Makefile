@@ -7,6 +7,7 @@ people:
 conferences:
 	rapper -g ../../RDFData/ConferenceSeries.ttl -o rdfxml-abbrev >ConferenceSeries.rdf
 	rapper -g ../../RDFData/PastConferences.ttl -o rdfxml-abbrev >PastConferences.rdf
+	rapper -g ../../RDFData/Conferences/MTC-2020.ttl -o rdfxml-abbrev >MTC-2020.rdf
 	rapper -g ../../RDFData/Conferences/TRIZCon-2019.ttl -o rdfxml-abbrev >TRIZCon-2019.rdf
 	rapper -g ../../RDFData/Conferences/TRIZCon-2020.ttl -o rdfxml-abbrev >TRIZCon-2020.rdf
 	rapper -g ../../RDFData/Conferences/TRIZ-Summit-2019.ttl -o rdfxml-abbrev >TRIZ-Summit-2019.rdf

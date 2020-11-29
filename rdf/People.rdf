@@ -796,6 +796,7 @@
     <foaf:name>S.L. Gorobchenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Graebe_HG">
+    <dbo:birthDate>1955-11-13</dbo:birthDate>
     <rdfs:seeAlso rdf:resource="https://orcid.org/0000-0002-3934-413X"/>
     <foaf:affil>Leipzig, Germany</foaf:affil>
     <foaf:homepage rdf:resource="http://informatik.uni-leipzig.de/~graebe"/>
@@ -2127,6 +2128,7 @@
     <foaf:name>Ivan Rubanov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubin_MS">
+    <dbo:birthDate>1954-11-12</dbo:birthDate>
     <foaf:affil>St. Petersburg, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Михаил Семенович Рубин</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/mihail.rubin"/>
@@ -2611,10 +2613,10 @@
     <foaf:fullname xml:lang="ru">Александр Васильевич Тригуб</foaf:fullname>
     <foaf:name>Alexander V. Trigub</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Trostyanski_A">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Trostyansky_AG">
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Андрей Тростянский</foaf:fullname>
-    <foaf:name>Andrei Trostyanski</foaf:name>
+    <foaf:name>Andrei G. Trostyansky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tsourikov_VM">
     <foaf:affil>Predizo LLC, Belarus</foaf:affil>

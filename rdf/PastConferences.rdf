@@ -48,6 +48,16 @@
     <ical:summary xml:lang="en">MOF - spelled as "MATRIZ Online Forum" or "Moscow Online Forum" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. </ical:summary>
     <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/MTC-2020.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/MTC"/>
+    <rdfs:label>Moscow TRIZ Conference 2020</rdfs:label>
+    <ical:description>Moscow TRIZ Conference 2020</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-28</ical:dtstart>
+    <ical:location>Online, supported by TRIZ Club, Moscow, Russia</ical:location>
+    <ical:url rdf:resource="https://metodolog.ru/node/2200"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2001/">
     <od:hasReports rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
