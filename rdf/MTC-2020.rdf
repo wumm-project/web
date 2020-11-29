@@ -13,9 +13,8 @@
     <rdfs:label>Moscow TRIZ Conference 2020</rdfs:label>
     <ical:description>Moscow TRIZ Conference 2020</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-28</ical:dtstart>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-28</ical:dtstart>
     <ical:location>Online, supported by TRIZ Club, Moscow, Russia</ical:location>
-    <ical:url rdf:resource="https://triz-summit.ru/confer/tds-2020/"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_100">
     <dcterms:abstract xml:lang="ru">Статья посвящена уточнению понятие система и ее компонентов, используемых в ТРИЗ.</dcterms:abstract>
@@ -30,7 +29,7 @@
     <dcterms:title xml:lang="ru">Системы и Технические системы </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_102">
-    <dcterms:abstract xml:lang="ru"></dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">В работе представлены и кратко охарактеризованы некоторые версии представлений о системах и технических системах из различных интеллектуальных традиций</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_DA"/>
     <dcterms:title xml:lang="en">Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club</dcterms:title>
     <dcterms:title xml:lang="ru">Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. </dcterms:title>

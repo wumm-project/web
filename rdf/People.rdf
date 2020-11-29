@@ -693,6 +693,11 @@
     <foaf:fullname xml:lang="ru">Марат Семенович Гафитулин</foaf:fullname>
     <foaf:name>Marat S. Gafitulin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gafitulin_TM">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Гафитулин Т.М.</foaf:fullname>
+    <foaf:name>T.M. Gafitulin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Galmadi_G">
     <foaf:name>Gheorghe Galmadi</foaf:name>
   </foaf:Person>
@@ -1072,7 +1077,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kamayev_VA">
     <dbo:birthDate>1940-05-30</dbo:birthDate>
     <dbo:deathDate>2016-09-13</dbo:deathDate>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:fullname xml:lang="ru">Валерий Анатольевич Камаев</foaf:fullname>
     <foaf:name>Valeri A. Kamayev</foaf:name>
   </foaf:Person>
@@ -1753,6 +1757,16 @@
     <foaf:fullname xml:lang="ru">Волюслав Владимирович Митрофанов</foaf:fullname>
     <foaf:name>Maciej Młynarski</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mogilin_AA">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Могилин А.А.</foaf:fullname>
+    <foaf:name>A.A. Mogilin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mogilina_MN">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Могилина М.Н.</foaf:fullname>
+    <foaf:name>M.N. Mogilina</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mosman_P">
     <foaf:affil>Krasnoyarsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Петр Мосман</foaf:fullname>
@@ -1877,6 +1891,11 @@
     <foaf:affil>Cluj-Napoca, Romania</foaf:affil>
     <foaf:name>Gabriela Vica Olariu</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Olikevich_AA">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Оликевич А.А.</foaf:fullname>
+    <foaf:name>A.A. Olikevich</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Orloff_MA">
     <foaf:affil>Academy of Instrumental Modern TRIZ, Germany</foaf:affil>
     <foaf:name>Michael A. Orloff</foaf:name>
@@ -1903,6 +1922,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Palcak_F">
     <foaf:affil>Civic Association TRIZ SK, Slovak Republic</foaf:affil>
     <foaf:name>František Palčák</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Panchikhin_EV">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Панчихин Е.В.</foaf:fullname>
+    <foaf:name>E.V. Panchikhin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Papini_F">
     <foaf:affil>GE Global Research, Germany</foaf:affil>
@@ -2030,6 +2054,11 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Polkovnikov_I">
     <foaf:name>Igor Polkovnikov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Polonsky_LM">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Леонид Моисеевич Полонский</foaf:fullname>
+    <foaf:name>L.M. Polonsky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pomeranets_MS">
     <foaf:fullname xml:lang="ru">М.С. Померанец</foaf:fullname>
@@ -2602,6 +2631,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Toeters_M">
     <foaf:affil>by-wire.net, The Netherlands</foaf:affil>
     <foaf:name>Marina Toeters</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tokarev_AS">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Александр Сергеевич Токарев</foaf:fullname>
+    <foaf:name>A.S. Tokarev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Torgashev_AS">
     <foaf:affil>Russia</foaf:affil>
