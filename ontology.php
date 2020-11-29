@@ -78,24 +78,34 @@ href="https://wumm-project.github.io/Ontology.html" >TRIZ Ontology
 Project</a>. It\'s a first hack, more detailed explanations will be comiled
 <a href="https://wumm-project.github.io/OntologyDetails">elsewhere</a>.</p>
 
-<p>For the moment we compiled
+<p>For the moment we compiled <a href="ontology.php?rdf=thesaurus">A combined
+Thesaurus</a> joining concepts from dífferent sources:
 <ul>
-<li> <a href="ontology.php?rdf=thesaurus">A combined Thesaurus</a> joining
-concepts from dífferent sources:
-<ul>
-  <li>Thesaurus from the <a href="https://www.altshuller.ru/thesaur/thesaur.asp">GSA website</a></li>
+  <li>Thesaurus from the <a
+  href="https://www.altshuller.ru/thesaur/thesaur.asp" >GSA website</a></li>
   <li>VDI Glossary</li>
+  <li>OntoCards and Top Level Concepts from the TRIZ Ontology Project</li>
 </ul> 
 The concepts from the different thesauri are tagged with different rdf:type,
-that all are subtypes of skos:Concept.</li>
+that all are subtypes of skos:Concept.</p> 
 
-<li> The <a href="ontology.php?rdf=toplevel">Top Level "TRIZ Overview
-Ontology"</a> (to be implemented) </li>
+<p>Concepts from different sources are tagged by different RDF types to follow
+up their provenience.  Some more efforts are required to unify the URIs of the
+concepts between the different sources.</p>
 
-<li> The <a href="ontology.php?rdf=ontocards"> Ontology Ontocards Atlas</a>
-(to be implemented)</li>
+<p>There is a link attached to each such concept that leads to the full
+information about that topic extracted from our <a
+href="http://wumm.uni-leipzig.de:8891/sparql">SPARQL Endpoint</a> including
+all direct successors (i.e. objects, where the given concept ist the subject)
+and predecessors (i.e. subjects, where the given concept ist the object".
+This allows for a first navigation through the full RDF Data stored so far.
+</p>
 
-</ul>
+<p>You can follow up secondary links in such a presentation to different
+concepts in the database to get a similar representation for those concepts.
+In particular you can get listed all instances of a given RDF type, calling
+the listing of that type, since the instances are predecessors of the type for
+the predicate <tt>rdf:type</tt>.</p>
 
 ';
     return '<div class="container">'.$out.'</div>';
