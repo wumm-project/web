@@ -54,7 +54,7 @@
     <rdfs:label>Moscow TRIZ Conference 2020</rdfs:label>
     <ical:description>Moscow TRIZ Conference 2020</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-28</ical:dtstart>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-28</ical:dtstart>
     <ical:location>Online, supported by TRIZ Club, Moscow, Russia</ical:location>
     <ical:url rdf:resource="https://metodolog.ru/node/2200"/>
   </swc:ConferenceEvent>
