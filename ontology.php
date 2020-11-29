@@ -102,10 +102,15 @@ This allows for a first navigation through the full RDF Data stored so far.
 </p>
 
 <p>You can follow up secondary links in such a presentation to different
-concepts in the database to get a similar representation for those concepts.
-In particular you can get listed all instances of a given RDF type, calling
-the listing of that type, since the instances are predecessors of the type for
-the predicate <tt>rdf:type</tt>.</p>
+concepts in the WUMM RDF database to get a similar representation for those
+concepts.  In particular you can get listed all instances of a given RDF type,
+calling the listing of that type, since the instances are predecessors of the
+type for the predicate <tt>rdf:type</tt>.</p>
+
+<p>Links to sources outside the WUMM RDF database issue show directly the
+target page. For the moment this mainly concerns links to web pages (in
+Russian) of the <a href="https://triz-summit.ru/onto_triz">TRIZ Ontology
+Project</a>.</p>
 
 ';
     return '<div class="container">'.$out.'</div>';
