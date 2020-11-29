@@ -36,7 +36,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_103">
     <dcterms:abstract xml:lang="ru">В современной ТРИЗ описаны разные линии развития ТС, в частности, ее структуры, формы, энергетических потоков. Подавляющее большинство технических систем создаются в утилитарном контексте для реализации некоей надсистемной цели или ряда надсистемных целей. Удовлетворение целей в рамках требуемых условий и ограничений осуществляется через функции, реализуемые ТС. Совокупность таких функций определяет общую функциональность ТС, развитие которой зависит от этапа S-кривой, на которой находится ТС. Соответственно, развитие функциональности ТС коррелирует с развитием структуры ТС. Данная работа предлагает линию развития функциональности ТС, включающую 18 шагов, где каждый шаг иллюстрируется соответствующим изменением в структуре ТС.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Soushkov_VV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title xml:lang="en">Development of the structure of a technical system in accordance with the lines of development of its functionality</dcterms:title>
     <dcterms:title xml:lang="ru">Развитие структуры технической системы в соответствии с линией развития функциональности </dcterms:title>
   </od:Talk>
