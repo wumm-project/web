@@ -96,9 +96,9 @@ concepts between the different sources.</p>
 <p>There is a link attached to each such concept that leads to the full
 information about that topic extracted from our <a
 href="http://wumm.uni-leipzig.de:8891/sparql">SPARQL Endpoint</a> including
-all direct successors (i.e. objects, where the given concept ist the subject)
-and predecessors (i.e. subjects, where the given concept ist the object".
-This allows for a first navigation through the full RDF Data stored so far.
+all direct successors (i.e. objects, where the given concept is the subject)
+and predecessors (i.e. subjects, where the given concept is the object).  This
+allows for a first navigation through the full WUMM RDF Data stored so far.
 </p>
 
 <p>You can follow up secondary links in such a presentation to different
@@ -107,9 +107,9 @@ concepts.  In particular you can get listed all instances of a given RDF type,
 calling the listing of that type, since the instances are predecessors of the
 type for the predicate <tt>rdf:type</tt>.</p>
 
-<p>Links to sources outside the WUMM RDF database issue show directly the
-target page. For the moment this mainly concerns links to web pages (in
-Russian) of the <a href="https://triz-summit.ru/onto_triz">TRIZ Ontology
+<p>Links to sources outside the WUMM RDF database call the target page
+directly. For the moment this mainly concerns links to web pages (in Russian)
+of the <a href="https://triz-summit.ru/onto_triz">TRIZ Ontology
 Project</a>.</p>
 
 ';
