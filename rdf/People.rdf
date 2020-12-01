@@ -2180,6 +2180,10 @@
     <foaf:affil>Bergamo, Italy</foaf:affil>
     <foaf:name>Davide Russo</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rutten_P">
+    <foaf:affil>IDC Technologies, Boston, MA, USA</foaf:affil>
+    <foaf:name>Peter Rutten</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ryabchuk_A">
     <foaf:affil>CTTIT, St. Peterburg, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Анна Евгеньевна Рябчук</foaf:fullname>

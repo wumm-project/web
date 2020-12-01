@@ -105,6 +105,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Barkan_MG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_AA"/>
     <dcterms:title>Developing creative and critical thinking skills in next generation workforce</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_117">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_DA"/>
@@ -173,6 +174,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kang_SW"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_JH"/>
     <dcterms:title>Solving the toner adhesion problem to cyclone in toner manufacturing plant</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_131">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dong_YF"/>
@@ -216,6 +218,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nanrudaiyan_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Simpson_M"/>
     <dcterms:title>TRIZ and value engineering: deeper integration as innovation enhancer</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_138">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Benjaboonyazit_T"/>

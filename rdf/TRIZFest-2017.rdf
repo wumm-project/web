@@ -45,6 +45,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ogievich_D"/>
     <dcterms:title>Application of TRIZ in business systems</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_106">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lui_K"/>
@@ -103,6 +104,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Son_DI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_MJ"/>
     <dcterms:title>Evolution map based in advance invention, process and case studies</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_116">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
@@ -134,6 +136,7 @@
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_122">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sun_YW"/>
     <dcterms:title>Initial disadvantages identification</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_123">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lyubomirskiy_AL"/>
@@ -162,6 +165,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Savelli_S"/>
     <dcterms:title>Nature as a source of function-leading areas for FOS-derived solutions</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_129">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
@@ -169,7 +173,9 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_130">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rutten_P"/>
     <dcterms:title>Open innovation: TRIZ approach vs. crowd sourcing</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Paper_131">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Villarroe_JRE"/>

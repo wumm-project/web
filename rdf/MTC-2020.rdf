@@ -17,30 +17,40 @@
     <ical:location>Online, supported by TRIZ Club, Moscow, Russia</ical:location>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_100">
+    <dcterms:abstract xml:lang="de">Der Artikel ist der Klärung des Konzepts des Systems und seiner Komponenten gewidmet, das in der TRIZ verwendet wird.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The article is dedicated to clarifying the concept of the system and its components used in TRIZ.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Статья посвящена уточнению понятие система и ее компонентов, используемых в ТРИЗ.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:title xml:lang="en">Some aspects in the concept of a system</dcterms:title>
     <dcterms:title xml:lang="ru">Некоторые аспекты в понятии система </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_101">
+    <dcterms:abstract xml:lang="de">Der Bericht befasst sich mit möglichen Varianten der Beziehungen zwischen allgemeinen und technischen Systemen, mit Fragen ihrer Klassifizierung und mit der Eignung bekannter TRIZ-Tools zur Durchführung einer effektiven Analyse.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The report discusses possible options for classifying general and technical Systems, discusses issues of their classification and the sufficiency of known TRIZ tools to perform an effective analysis.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В докладе рассматриваются возможные варианты отнесения Систем к Техническим Системам, вопросы их классификации и достаточности известных инструментов ТРИЗ для выполнения эффективного анализа.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
     <dcterms:title xml:lang="en">Systems and Technical Systems</dcterms:title>
     <dcterms:title xml:lang="ru">Системы и Технические системы </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_102">
-    <dcterms:abstract xml:lang="ru">В работе представлены и кратко охарактеризованы некоторые версии представлений о системах и технических системах из различных интеллектуальных традиций</dcterms:abstract>
+    <dcterms:abstract xml:lang="de">Das Werk präsentiert und beschreibt kurz einige Versionen der Ideen über Systeme und technische Systeme aus verschiedenen intellektuellen Traditionen.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The work presents and briefly describes some versions of the concepts of systems and technical systems from different intellectual traditions.</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">В работе представлены и кратко охарактеризованы некоторые версии представлений о системах и технических системах из различных интеллектуальных традиций.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_DA"/>
     <dcterms:title xml:lang="en">Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club</dcterms:title>
     <dcterms:title xml:lang="ru">Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_103">
+    <dcterms:abstract xml:lang="de">In der modernen TRIZ werden verschiedene Entwicklungslinien TS beschrieben, insbesondere ihre Struktur, Form, Energieflüsse. Die überwältigende Mehrheit der technischen Systeme wird in einem utilitaristischen Kontext für die Realisierung eines oder mehrerer übergeordneter Ziele geschaffen. Die Befriedigung der Ziele innerhalb der erforderlichen Bedingungen und Einschränkungen wird durch die vom TS implementierten Funktionen erreicht. Der Satz solcher Funktionen bestimmt die allgemeine Funktionalität der TS, deren Entwicklung von der Stufe der S-Kurve abhängt, auf welcher sich das TS befindet. Dementsprechend korreliert die Entwicklung der Funktionalität mit der Entwicklung der Struktur. Dieser Aufsatz schlägt eine Linie der TS-Funktionalitätsentwicklung vor, die 18 Schritte umfasst, wobei jeder Schritt durch eine entsprechende Änderung in der TS-Struktur veranschaulicht wird. </dcterms:abstract>
+    <dcterms:abstract xml:lang="en">Modern TRIZ describes the different lines of development of TS, in particular its structure, forms and energy flows. The overwhelming majority of technical systems are created in a utilitarian context for the implementation of a certain supersystem goal or a number of supersystem goals. The satisfaction of the objectives within the required conditions and restrictions is carried out through the functions implemented by the TS. The totality of such functions determines the general functionality of the TS, the development of which depends on the stage of the S-curve on which the TS is located. Accordingly, the development of the TS functionality correlates with the development of the TS structure. This paper proposes a line of development of the TS functionality, which includes 18 steps, where each step is illustrated by a corresponding change in the TS structure.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В современной ТРИЗ описаны разные линии развития ТС, в частности, ее структуры, формы, энергетических потоков. Подавляющее большинство технических систем создаются в утилитарном контексте для реализации некоей надсистемной цели или ряда надсистемных целей. Удовлетворение целей в рамках требуемых условий и ограничений осуществляется через функции, реализуемые ТС. Совокупность таких функций определяет общую функциональность ТС, развитие которой зависит от этапа S-кривой, на которой находится ТС. Соответственно, развитие функциональности ТС коррелирует с развитием структуры ТС. Данная работа предлагает линию развития функциональности ТС, включающую 18 шагов, где каждый шаг иллюстрируется соответствующим изменением в структуре ТС.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title xml:lang="en">Development of the structure of a technical system in accordance with the lines of development of its functionality</dcterms:title>
     <dcterms:title xml:lang="ru">Развитие структуры технической системы в соответствии с линией развития функциональности </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_104">
+    <dcterms:abstract xml:lang="de">In der Arbeit werden die Möglichkeiten der Anwendung des Gesetzes bei der Analyse (Hervorhebung von Schlüsselkomponenten in bestehenden Systemen) und der Problemlösung (Synthese von Systemen durch schrittweises Anhängen von Funktionen an verfügbaren Komponenten) gezeigt.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The paper shows how the law can be applied in analysis (highlighting key components in existing systems) and problem solving (synthesizing systems by successively hanging functions on available components).</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В работе показаны возможности применения закона в анализе (выделение ключевых компонентов в существующих системах) и решении задач (синтез систем путем последовательного навешивания функций на доступные компоненты).</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mogilin_AA"/>
@@ -50,12 +60,16 @@
     <dcterms:title xml:lang="ru">В защиту закона полноты частей системы. О применении закона в практических проектах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_105">
+    <dcterms:abstract xml:lang="de">Es wird das Konzept einer komplexen Grenze der Systementwicklung betrachtet, sowie mögliche Varianten der Beschreibung solcher Grenzen. Es wird die Austauschbarkeit von Ressourcen bei der Implementierung von Funktionen gezeigt.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The concept of a complex limit of the system's development has been considered, as well as possible options for describing such limits. The interchangeability of resources in the implementation of functions is shown.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Рассмотрено понятие комплексного предела развития системы, возможные варианты описания таких пределов. Показана взаимозаменяемость ресурсов при реализации функций.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
     <dcterms:title xml:lang="en">Limiting state of technical systems. Classes of systems and trajectories of their development</dcterms:title>
     <dcterms:title xml:lang="ru">Предельное состояние технических систем. Классы систем и траектории их развития </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_106">
+    <dcterms:abstract xml:lang="de">Die Arbeit befasst sich mit der Frage der Teile eines TS: Beweger, Transmission und Arbeitskörper, als Kanäle, durch die Energie während des Betriebs des technischen Systems fließt. Spezifische Funktionen von Teilen des Systems, die in Bezug auf den Energiefluss eine bestimmte Rolle spielen, werden definiert. Auch werden in der Arbeit Funktionen von Systemteilen mit den Hauptfunktionen technischer Systeme verglichen, und auf dieser Grundlage wird eine Klassifizierung TS vorgeschlagen. </dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The work deals with parts of a TS: engine, transmission and working body as channels through which energy flows when the technical system is in operation. It defines the specific functions of the parts of the system that have a specific role in relation to the energy flow. The functions of the system parts are also compared to the main functions of the technical systems, and on this basis the classification of the TS is proposed.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В работе рассматривается вопрос о частях ТС: двигателе, трансмиссии и рабочем органе, как о каналах, через которые проходит поток энергии при функционировании технической системы. Определяются специфические функции частей системы, выполняющие определённую роль в отношении потока энергии. Также в работе сопоставляются функции частей системы с главными функциями технических систем, и на этой основе предлагается классификация ТС.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bystritsky_AA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_VN"/>
@@ -63,24 +77,32 @@
     <dcterms:title xml:lang="ru">Части технической системы и их функции </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_107">
+    <dcterms:abstract xml:lang="de">Im Bericht wird eine Klassifizierung von Verkehrssystemen vorgeschlagen, ihre Struktur aus der Sicht des Gesetze der Entwicklung technischer Systeme  betrachtet, das methodische Problem bei der Zuweisung eines Arbeitsorgans benannt und eine Lösung vorgeschlagen. Auch wahrscheinliche Entwicklungslinien von Transportsystemen werden skizziert.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The report proposes the classification of transport systems, considers their arrangement from the point of view of the Laws of Development of Technical Systems, indicates the methodological problem in the allocation of the working body and proposes its solution. The probable lines of development of transport systems are also sketched out.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В докладе предлагается классификация транспортных систем, рассматривается их устройство с точки зрения ЗРТС, обозначается методологическая проблема при выделении рабочего органа и предлагается её решение. Также эскизно даются вероятные линии развития транспортных систем.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_TM"/>
     <dcterms:title xml:lang="en">On a new understanding of paths. Specifics of the mover as working body of a transport system</dcterms:title>
     <dcterms:title xml:lang="ru">О новом понимании пути. Особенности движителя как рабочего органа транспортной системы </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_108">
-    <dcterms:abstract xml:lang="ru">Предложен механизм объединения Проведен поиск общего и предложена унифицированная схема проведения Функционального анализа изделия, и Функционального анализа Технологии.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">A merger mechanism between both analyses is proposed. We search for common elements and propose an uniform scheme for the Functional Analysis of the Product and the Functional Analysis of Technology.</dcterms:abstract>
+    <dcterms:abstract xml:lang="de">Es wird der Mechanismus der Vereinigung beider Sichten vorgeschlagen. Es wird Gemeinsames herausgesucht und ein vereinheitlichtes Schema der Durchführung der Funktionsanalyse eines Produktes, sowie der Funktionsanalyse der Technologie vorgeschlagen.</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Предложен механизм объединения. Проведен поиск общего и предложена унифицированная схема проведения Функционального анализа изделия, и Функционального анализа Технологии.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bakhturin_DA"/>
     <dcterms:title xml:lang="en">Comparison of Functional Analysis of the Product and Functional Analysis of the Technology, some conclusions and recommendations</dcterms:title>
     <dcterms:title xml:lang="ru">Сравнение Функционального анализа Продукта и Функционального анализа Технологии, некоторые выводы и рекомендации</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_109">
+    <dcterms:abstract xml:lang="de">In der Praxis der Entwicklung komplexer Hardware-Software-Lösungen sind verschiedene Ansätze zur Definition der Struktur von Systemen getestet worden. Die schrittweise Entwicklung des klassischen Modells hin zu einem Baummodell mit einer expliziten Zuordnung von Funktions- und unterstützenden Systemen wird beschrieben, wobei letztere die Rolle der adaptiven Bindungsschicht spielen. Die Entwicklung des Charakters der betrachteten Ströme zwischen Teilen des Systems wird betrachtet. </dcterms:abstract>
+    <dcterms:abstract xml:lang="en">In the practice of developing complex hardware and software systems, different approaches to defining the structure of systems have been tested. The gradual evolution of the classical model towards a tree-like one is described, with a clear distinction between functional and service subsystems, where the latter play the role of an adaptive bonding layer. The evolution of the nature of the flows under consideration between parts of the system is considered. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В практике разработки сложных программно-аппаратных комплексов опробованы разные подходы к определению структуры систем. Описана постепенная эволюция классической модели в сторону древовидной с явным выделением функциональных и обслуживающих подсистем, где последние играют роль адаптивной связующей прослойки. Рассмотрена эволюция характера рассматриваемых потоков между частями системы. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Olikevich_AA"/>
     <dcterms:title xml:lang="en">Practical approach to the definition of the structure of a technical systems</dcterms:title>
     <dcterms:title xml:lang="ru">Практический подход к определению структуры технических систем </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_110">
+    <dcterms:abstract xml:lang="en">A functional approach is proposed to form a description language for systems. An expansion of the number of types of technical systems and a description of systems from various applications are considered. Examples of description and use of these descriptions for tasks of creation, modernisation and development forecasting are given.</dcterms:abstract>
+    <dcterms:abstract xml:lang="de">Es wird eine Beschreibungssprache für Systeme vorgeschlagen, die auf einem funktionalen Ansatz basiert. Die Erweiterung der Anzahl der Typen technischer Systeme und die Variante der Beschreibung von Systemen aus verschiedenen Anwendungsbereichen werden betrachtet. Es werden Beispiele für die Beschreibung und die Verwendung dieser Beschreibungen für Aufgaben der Schöpfung, Modernisierung und Entwicklungsprognose gegeben.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Предлагается вариант формирования языка описания Систем, основанный на функциональном подходе. Рассматривается расширение количества видов технических систем и вариант описания систем из различных сфер применения. Приводятся примеры описания и использование этих описаний для задач создания, модернизации и прогноза развития.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tokarev_AS"/>
@@ -88,6 +110,8 @@
     <dcterms:title xml:lang="ru">Расширенное описание систем</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/MTC-2020/Talk_111">
+    <dcterms:abstract xml:lang="de">Die Entwicklungsmuster schädlicher Systeme werden untersucht. Die Frage der Pluralität von Elementen schädlicher Systeme wird in Betracht gezogen, wenn die gleichen Objekte Elemente mehrerer schädlicher Systeme sind.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The development patterns of harmful systems are investigated. The question of plurality of elements of harmful systems is considered, when the same objects are elements of several harmful systems.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Исследуются закономерности развития вредных систем. Рассматривается вопрос множественности элементов вредных систем, когда одни и те же объекты являются элементами нескольких вредных систем.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>

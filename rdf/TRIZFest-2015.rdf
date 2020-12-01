@@ -36,6 +36,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
     <dcterms:title>Advanced Function Approach in Modern TRIZ</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_104">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hongyul_Y"/>
@@ -51,6 +52,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gardner_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
     <dcterms:title>Applying TRIZ Across Companies</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_107">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berdonosov_VD"/>
@@ -161,6 +163,7 @@
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_125">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title>Systematic Business Innovation: a Roadmap</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_126">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sheng_ILS"/>
@@ -231,6 +234,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaplan_LA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prevost_E"/>
     <dcterms:title>Universal Unsolvable Problem and Process of Resolving It</dcterms:title>
+    <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_138">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
