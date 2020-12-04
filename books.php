@@ -1,16 +1,19 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-11-06
+ * last update: 2020-12-04
  */
 
 require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
-function theBooks($src,$people) 
+function theBooks($author) 
 {
     setNamespaces();
+    echo "Author is $author";
+    $src="rdf/Books.rdf";
+    $people="rdf/People.rdf";
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Books/');
     $graph->parseFile($src);
     $graph->parseFile($people);
@@ -18,8 +21,11 @@ function theBooks($src,$people)
     $res = $graph->allOfType('od:TRIZ-Book');
     foreach ($res as $book) {
         $titel=showLanguage($book->all("dcterms:title"),"<br/>");
-        $id=join("",$book->all("dcterms:creator")).$book->get("dcterms:issued").$titel;
-        $thebooks[$id]=listBook($book);
+        $theAuthors=join("",$book->all("dcterms:creator"));
+        $id=$theAuthors.$book->get("dcterms:issued").$titel;
+        if (strpos($theAuthors,$author)) {
+            $thebooks[$id]=listBook($book);
+        }
     }
     ksort($thebooks);
     return '
@@ -32,8 +38,7 @@ function theBooks($src,$people)
 ';
 }
 
-$src="rdf/Books.rdf";
-$people="rdf/People.rdf";
-echo showpage(theBooks($src,$people));
+$author=$_GET["author"];
+echo showpage(theBooks($author));
 
 ?>
