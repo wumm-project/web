@@ -11,7 +11,7 @@ require_once 'layout.php';
 function theBooks($author) 
 {
     setNamespaces();
-    echo "Author is $author";
+    //echo "Author is $author";
     $src="rdf/Books.rdf";
     $people="rdf/People.rdf";
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Books/');
@@ -23,7 +23,7 @@ function theBooks($author)
         $titel=showLanguage($book->all("dcterms:title"),"<br/>");
         $theAuthors=join("",$book->all("dcterms:creator"));
         $id=$theAuthors.$book->get("dcterms:issued").$titel;
-        if (strpos($theAuthors,$author)) {
+        if (empty($author) or strpos($theAuthors,$author)) {
             $thebooks[$id]=listBook($book);
         }
     }
