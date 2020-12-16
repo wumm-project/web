@@ -89,6 +89,7 @@ function getAutoren($node) {
 }
 
 function listBook($book) {
+    $uri=str_replace("http://opendiscovery.org/rdf/","",$book->getURI());
     $autoren=getAutoren($book);
     $titel=showLanguage($book->all("dcterms:title"),"<br/>");
     $id=join("",$book->all("dcterms:creator")).$titel;
@@ -104,6 +105,7 @@ function listBook($book) {
     $out='
 <div itemscope itemtype="http://schema.org/Book" class="book">
 <!-- ID: '.$id.' -->
+  <h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>
   <h4><div itemprop="title" class="title">'.$titel.'</div></h4>
   <div class="author"><strong>Author(s):</strong> '. $autoren.'</div>';
     if ($lang) { 

@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-12-04
+ * last update: 2020-12-16
  */
 
 require 'vendor/autoload.php';
@@ -12,11 +12,10 @@ function theBooks($author)
 {
     setNamespaces();
     //echo "Author is $author";
-    $src="rdf/Books.rdf";
-    $people="rdf/People.rdf";
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Books/');
-    $graph->parseFile($src);
-    $graph->parseFile($people);
+    $graph->parseFile('rdf/Books.rdf');
+    $graph->parseFile('rdf/People.rdf');
+    $graph->parseFile('rdf/TBK-References.rdf');
     $thebooks=array(); 
     $res = $graph->allOfType('od:TRIZ-Book');
     foreach ($res as $book) {
