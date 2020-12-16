@@ -394,6 +394,31 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     <dcterms:title xml:lang="en">Inventive Thinking: TRIZ</dcterms:title>
     <bibo:isbn>9798688642292</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/Altshuller_1973_de">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Verlag Tribüne, Berlin</dc:publisher>
+    <dc:translationOf rdf:resource="http://opendiscovery.org/rdf/BIB/Book/BIB.102"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:title xml:lang="en">Erfinden - (k)ein Problem?</dcterms:title>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/Altshuller_1983_de">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Urania-Verlag, Leipzig, und MIR, Moskau</dc:publisher>
+    <dc:translationOf rdf:resource="http://opendiscovery.org/rdf/BIB/Book/BIB.120"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Selyutsky_AB"/>
+    <dcterms:issued>1983</dcterms:issued>
+    <dcterms:title xml:lang="de">Flügel für Ikarus</dcterms:title>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/Altshuller_1984_de">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">de</dc:language>
+    <dc:publisher>Verlag Technik, Berlin</dc:publisher>
+    <dc:translationOf rdf:resource="http://opendiscovery.org/rdf/BIB/Book/BIB.118"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1984</dcterms:issued>
+    <dcterms:title xml:lang="en">Erfinden. Wege zur Lösung technischer Probleme</dcterms:title>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/Altshuller_40Principles">
     <dc:language>en</dc:language>
     <dc:publisher>Technical Innovation Center Inc.: Worcester, MA, USA.</dc:publisher>
@@ -432,10 +457,9 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher>Moscow: Moskovsky Rabotchy</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:issued>1969</dcterms:issued>
     <dcterms:title xml:lang="en">The Invention Algorithm</dcterms:title>
     <dcterms:title xml:lang="ru">Алгоритм Изобретения</dcterms:title>
-    <rdfs:comment>2nd edition</rdfs:comment>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/BIB.103">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
@@ -524,10 +548,10 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/BIB.118">
     <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/zrts1.asp"/>
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
-    <dc:publisher>M: Sovietskoje radio</dc:publisher>
+    <dc:publisher>Moscow: Sovietskoje radio</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:issued>1979</dcterms:issued>
-    <dcterms:title xml:lang="en">Creativity as an Exact Science. Theory of Inventive Problem Solving</dcterms:title>
+    <dcterms:title xml:lang="en">Creativity as an Exact Science</dcterms:title>
     <dcterms:title xml:lang="ru">Творчество как точная наука</dcterms:title>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/BIB.119">
@@ -630,14 +654,14 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     <dcterms:title xml:lang="en">New Tools for Failure and Risk Analysis</dcterms:title>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/Shpakovsky_2010">
-    <dc:language>ru</dc:language>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher>Forum, Moscow</dc:publisher>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NN"/>
     <dcterms:issued>2010</dcterms:issued>
     <dcterms:title xml:lang="ru">ТРИЗ. Анализ технической и патентной информации и генерация новых идей</dcterms:title>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Book/Shpakovsky_2016">
-    <dc:language>en</dc:language>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NN"/>
     <dcterms:issued>2016</dcterms:issued>
     <dcterms:title xml:lang="en">Tree of Technology Evolution</dcterms:title>

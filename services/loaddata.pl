@@ -1,7 +1,7 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2020-11-28
+# lastModified: 2020-12-16
 
 # Changes:
 
@@ -29,6 +29,8 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/VDI-Glossary/","VDI-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TopLevel/","TopLevel.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/OntoCards/","OntoCards.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK-References/","TBK-References.rdf");
   return $out;
 }
 

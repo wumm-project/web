@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-11-07
+ * last update: 2020-12-16
  */
 
 require 'vendor/autoload.php';
@@ -29,8 +29,8 @@ function theThesaurus() {
         $types=join("<br/> ",$concept->all("rdf:type"));
         $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
         $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
-            .'<h5>Types</h5>'.$types
-            .'<h5>preferredLabel</h5>'.$preflabel;
+            .'<h5><strong>Types</strong></h5>'.$types
+            .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
@@ -42,26 +42,60 @@ function theThesaurus() {
     return '<div class="container">'.$out.'</div>';
 }
 
-// ------ the thesaurus
+// ------ the top level concepts
 
 function TopLevel() {
     setNamespaces();
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/TopLevel.rdf");  
     $a=array();
-    $res = $graph->allOfType("skos:Concept");
+    $res = $graph->allOfType("tc:TopLevelConcept");
     foreach ($res as $concept) {
         $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
         $types=join("<br/> ",$concept->all("rdf:type"));
         $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $parts=join($concept->all("od:hasPart"),"<br/>");
         $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
-            .'<h5>Types</h5>'.$types
-            .'<h5>preferredLabel</h5>'.$preflabel;
+            .'<h5><strong>Types</strong></h5>'.$types
+            .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
+        if(!empty($parts)) {
+            $out.='<h5><strong>Has Parts</strong></h5>'.$parts;
+        }
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
     $out=theTitle().'
-<h3>The Combined TRIZ Thesaurus</h2>
+<h3>The Top Level Concepts</h2>
+<div class="concept">
+'.join("\n", $a).'
+</div> <!-- end concept list -->';
+    return '<div class="container">'.$out.'</div>';
+}
+
+// ------ the ontocards
+
+function OntoCards() {
+    setNamespaces();
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
+    $graph->parseFile("rdf/OntoCards.rdf");  
+    $a=array();
+    $res = $graph->allOfType("tc:OntoCard");
+    foreach ($res as $concept) {
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
+        $types=join("<br/> ",$concept->all("rdf:type"));
+        $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $web=$concept->get("od:hasWebPage");
+        $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
+            .'<h5><strong>Types</strong></h5>'.$types
+            .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
+        if(!empty($web)) {
+            $out.='<div>'.createLink($web,'The Web Page').'</div>';
+        }
+        $a[$concept->getUri()]="<div>\n$out\n</div>\n";
+    }
+    ksort($a);
+    $out=theTitle().'
+<h3>The Top Level Concepts</h2>
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
@@ -78,20 +112,16 @@ href="https://wumm-project.github.io/Ontology.html" >TRIZ Ontology
 Project</a>. It\'s a first hack, more detailed explanations will be comiled
 <a href="https://wumm-project.github.io/OntologyDetails">elsewhere</a>.</p>
 
-<p>For the moment we compiled <a href="ontology.php?rdf=thesaurus">A combined
-Thesaurus</a> joining concepts from dífferent sources:
-<ul>
-  <li>Thesaurus from the <a
-  href="https://www.altshuller.ru/thesaur/thesaur.asp" >GSA website</a></li>
-  <li>VDI Glossary</li>
-  <li>OntoCards and Top Level Concepts from the TRIZ Ontology Project</li>
+<p>For the moment we compiled 
+<ul> 
+<li><a href="ontology.php?rdf=thesaurus">A combined Thesaurus</a> </li>
+<li><a href="ontology.php?rdf=TopLevel">Top Level Concepts</a> from the TRIZ Ontology Project</li> 
+  <li><a href="ontology.php?rdf=OntoCards">OntoCards</a> from the TRIZ Ontology Project</li>
 </ul> 
-The concepts from the different thesauri are tagged with different rdf:type,
-that all are subtypes of skos:Concept.</p> 
-
-<p>Concepts from different sources are tagged by different RDF types to follow
-up their provenience.  Some more efforts are required to unify the URIs of the
-concepts between the different sources.</p>
+The concepts from the different sources are tagged with different rdf:type,
+that all are subtypes of skos:Concept to follow up their provenience.  Some
+more efforts are required to unify the URIs of the concepts between the
+different sources.</p>
 
 <p>There is a link attached to each such concept that leads to the full
 information about that topic extracted from our <a
@@ -126,7 +156,7 @@ function theOntologyPage($rdf) {
 }
 
 
-$rdf=$_GET["rdf"]; // (thesaurus | toplevel | ontocards )
+$rdf=$_GET["rdf"]; // (thesaurus | TopLevel | OntoCards )
 echo showpage(theOntologyPage($rdf));
 
 ?>

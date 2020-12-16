@@ -98,6 +98,7 @@ function listBook($book) {
     $isbn=join(", ",$book->all("bibo:isbn"));
     $asin=$book->get("bibo:asin");
     $lang=$book->get("dc:language");
+    $externalLink=$book->get("rdfs:seeAlso");
     $url=join(", ",array_map('createUniLink',$book->all("od:relatedLinks")));
     $comment=$book->get("rdfs:comment");
     $out='
@@ -119,8 +120,14 @@ function listBook($book) {
     }
     if ($abstract) { 
         $out.='
-  <div itemprop="description" class="abstract"><p><strong>Description:</strong><br/> '
+  <div itemprop="description" class="abstract">
+    <p><strong>Description:</strong><br/> '
         . $abstract .'</p></div>';
+    }
+    if ($externalLink) { 
+        $out.='
+  <div itemprop="link"><strong>External Link:</strong> '
+        .createUniLink($externalLink).'</div>';
     }
     if ($url) { 
         $out.='

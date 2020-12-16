@@ -184,6 +184,7 @@
     <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/ChangePhysicalOrChemicalParameters_2"/>
+    <rdfs:label xml:lang="de">Aggregatzustände und deren Übergänge beherrschen</rdfs:label>
     <rdfs:label xml:lang="en">Principle of changing the physical or chemical parameters of an object</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts</rdfs:label>
     <rdfs:label xml:lang="ru">Приём изменения физико-химических параметров объекта</rdfs:label>
@@ -315,8 +316,8 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Dynamization_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Dynamization_3"/>
     <rdfs:label xml:lang="en">Principle of dynamization</rdfs:label>
-    <rdfs:label xml:lang="de">Prinzip der Anpassung</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Dynamisierung</rdfs:label>
+    <rdfs:label xml:lang="de">Prinzip der ständigen Anpassung</rdfs:label>
     <rdfs:label xml:lang="ru">Приём динамичности</rdfs:label>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Dynamization_1">
@@ -357,6 +358,7 @@
     <od:hasAltshuller84Id>34</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/EliminationAndRegenerationOfParts_2"/>
+    <rdfs:label xml:lang="de">Ballast abwerfen</rdfs:label>
     <rdfs:label xml:lang="en">Principle of elimination and regeneration of parts</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Beseitigung und Regenerierung von Teilen</rdfs:label>
     <rdfs:label xml:lang="ru">Приём отброса и регенерации частей</rdfs:label>
@@ -377,6 +379,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Equipotentiality_1"/>
     <rdfs:label xml:lang="en">Principle of Equipotentiality</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Äquipotenzialität</rdfs:label>
+    <rdfs:label xml:lang="de">Äquipotentieller Transport</rdfs:label>
     <rdfs:label xml:lang="ru">Приём эквипотенциальности</rdfs:label>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/Equipotentiality_1">
@@ -560,6 +563,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/PreferredAction_2"/>
     <rdfs:label xml:lang="en">Principle of the preferred action</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der vorherigen Wirkung</rdfs:label>
+    <rdfs:label xml:lang="de">Vorfertigung</rdfs:label>
     <rdfs:label xml:lang="ru">Приём предварительного действия (заранее выполненное действие)</rdfs:label>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Principle/PreferredAction_1">
@@ -679,6 +683,7 @@
     <od:hasAltshuller84Id>02</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Separation_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Principle/Separation_2"/>
+    <rdfs:label xml:lang="de">Gesonderte Behandlung</rdfs:label>
     <rdfs:label xml:lang="en">Principle of separation</rdfs:label>
     <rdfs:label xml:lang="de">Prinzip der Abtrennung</rdfs:label>
     <rdfs:label xml:lang="ru">Приём вынесения</rdfs:label>
