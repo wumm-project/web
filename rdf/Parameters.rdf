@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odr="http://opendiscovery.org/rdf/Parameter/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Parameter">
+    <rdfs:label>A TRIZ Parameter within the Matrix</rdfs:label>
+  </owl:Class>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Adaptability">
+    <od:description xml:lang="de">Adaptionsfähigkeit, Universalität</od:description>
+    <od:description xml:lang="en">The extent to which a system/object is appropriate for all situations or positively responds to external changes.</od:description>
+    <od:hasParameterNumber>35</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Adaptability, Universality</rdfs:label>
+    <rdfs:label xml:lang="de">Adaptionsfähigkeit, Universalität</rdfs:label>
+    <rdfs:label xml:lang="ru">Адаптивность, универсальность</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/BrightnessOfTheLighting">
+    <od:description xml:lang="de">Beleuchtungsverhältnisse</od:description>
+    <od:description xml:lang="en">Illumination characteristics of the system such as brightness, intensity, and color.</od:description>
+    <od:hasParameterNumber>18</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Beleuchtungsverhältnisse</rdfs:label>
+    <rdfs:label xml:lang="en">Brightness of the lighting</rdfs:label>
+    <rdfs:label xml:lang="ru">Видимость</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/ComplexityOfConstruction">
+    <od:description xml:lang="de">Kompliziertheit der Struktur</od:description>
+    <od:description xml:lang="en">The number and diversity of elements and element interrelationships comprising a system. Human interaction increases complexity.</od:description>
+    <od:hasParameterNumber>36</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Complexity of construction</rdfs:label>
+    <rdfs:label xml:lang="de">Kompliziertheit der Struktur</rdfs:label>
+    <rdfs:label xml:lang="ru">Сложность структуры</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/ComplexityOfInspectionAndMeasurements">
+    <od:description xml:lang="en">Demonstrated by measuring or monitoring systems that are complex, costly, require much time and labor to set up and use, or that have complex relationships between components or components that interfere with each other. Can also be indicated by the increasing cost of measuring to a satisfactory error.</od:description>
+    <od:description xml:lang="de">Kompliziertheit der Kontrolle und Messung</od:description>
+    <od:hasParameterNumber>37</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Complexity of inspection and measurements</rdfs:label>
+    <rdfs:label xml:lang="de">Kompliziertheit der Kontrolle und Messung</rdfs:label>
+    <rdfs:label xml:lang="ru">Сложность контроля и измерений</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/EaseOfManufacture">
+    <od:description xml:lang="de">Fertigungsfreundlichkeit</od:description>
+    <od:description xml:lang="en">The degree of facility or effortlessness in manufacturing or fabricating the object/system.</od:description>
+    <od:hasParameterNumber>32</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Ease of manufacture</rdfs:label>
+    <rdfs:label xml:lang="de">Fertigungsfreundlichkeit</rdfs:label>
+    <rdfs:label xml:lang="ru">Удобство изготовления</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/EaseOfRepair">
+    <od:description xml:lang="de">Instandsetzungsfreundlichkeit</od:description>
+    <od:description xml:lang="en">The degree of facility or effortlessness in the mending or fixing of the system. Encompasses convenience as well as time to repair faults, failures, or defects.</od:description>
+    <od:hasParameterNumber>34</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Ease of repair</rdfs:label>
+    <rdfs:label xml:lang="de">Instandsetzungsfreundlichkeit</rdfs:label>
+    <rdfs:label xml:lang="ru">Удобство обслуживания</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/EaseOfUse">
+    <od:description xml:lang="de">Bedienkomfort</od:description>
+    <od:description xml:lang="en">Simple, easy to understand and perform or utilize; accessible.</od:description>
+    <od:hasParameterNumber>33</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Bedienkomfort</rdfs:label>
+    <rdfs:label xml:lang="en">Ease of Use</rdfs:label>
+    <rdfs:label xml:lang="ru">Простота использования</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/EnergyUseOfTheFixedObject">
+    <od:description xml:lang="en">Consumption of energy resource(s) in order to perform the action or function of the stationary object.</od:description>
+    <od:description xml:lang="de">Energieverbrauch des unbeweglichen Objekts</od:description>
+    <od:hasParameterNumber>20</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Energieverbrauch des unbeweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="en">Energy use of the fixed object</rdfs:label>
+    <rdfs:label xml:lang="ru">Энергопотребление недвижимого объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/EnergyUseOfTheMovingObject">
+    <od:description xml:lang="en">Consumption of energy resource(s) in order to perform the action or function of the moving object.</od:description>
+    <od:description xml:lang="de">Energieverbrauch des beweglichen Objekts</od:description>
+    <od:hasParameterNumber>19</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Energieverbrauch des beweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="en">Energy use of the moving object</rdfs:label>
+    <rdfs:label xml:lang="ru">Энергопотребление движущегося объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/ExternalDamagingFactors">
+    <od:description xml:lang="en">Susceptibility of a system to externally generated (harmful) effects. A harmful effect is one that reduces the efficiency or quality of the functioning of the object or system.</od:description>
+    <od:description xml:lang="de">Von außen auf das Objekt wirkende schädliche Faktoren</od:description>
+    <od:hasParameterNumber>30</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">External damaging factors</rdfs:label>
+    <rdfs:label xml:lang="de">Externe schädliche Faktoren</rdfs:label>
+    <rdfs:label xml:lang="ru">Вредные факторы, действующие на объект извне</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Force">
+    <od:description xml:lang="en">Force measures the interaction between systems and is measured as the strength or energy of physical action or movement. It is any interaction that changes an object’s condition or environment.</od:description>
+    <od:description xml:lang="de">Kraft</od:description>
+    <od:hasParameterNumber>10</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Force</rdfs:label>
+    <rdfs:label xml:lang="de">Kraft</rdfs:label>
+    <rdfs:label xml:lang="ru">Сила</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/FunctionalTimeOfTheMovingObject">
+    <od:description xml:lang="de">Haltbarkeit des beweglichen Objekts</od:description>
+    <od:description xml:lang="en">The time that the moving object or system can correctly perform its action. Also referred to as service life or durability.</od:description>
+    <od:hasParameterNumber>15</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Functional time of the moving object</rdfs:label>
+    <rdfs:label xml:lang="de">Haltbarkeit des beweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Долговечность движущегося объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/FunctionalTimeOfTheStationaryObject">
+    <od:description xml:lang="de">Haltbarkeit des unbeweglichen Objekts</od:description>
+    <od:description xml:lang="en">The time that the stationary object or system can correctly perform its action. Also referred to as service life or durability.</od:description>
+    <od:hasParameterNumber>16</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Functional time of the stationary object</rdfs:label>
+    <rdfs:label xml:lang="de">Haltbarkeit des unbeweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Долговечность недвижимого объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/InternalDamagingFactors">
+    <od:description xml:lang="en">Harmful effects are generated by the object or system, as part of its operation.</od:description>
+    <od:description xml:lang="de">Vom Objekt selbst erzeugte schädliche Faktoren</od:description>
+    <od:hasParameterNumber>31</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Internal damaging factors</rdfs:label>
+    <rdfs:label xml:lang="de">Interne schädliche Faktoren</rdfs:label>
+    <rdfs:label xml:lang="ru">Вредные факторы, создаваемые самим объектом</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LengthOfTheMovingObject">
+    <od:description xml:lang="en">Any one linear dimension of the moving object, not necessarily the longest.</od:description>
+    <od:description xml:lang="de">Länge des beweglichen Objekts</od:description>
+    <od:hasParameterNumber>03</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Length of the moving object</rdfs:label>
+    <rdfs:label xml:lang="de">Länge des beweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Длина движущегося объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LengthOfTheStationaryObject">
+    <od:description xml:lang="en">Any one linear dimension of the fixed or stationary object, not necessarily the longest.</od:description>
+    <od:description xml:lang="de">Länge des unbeweglichen Objekts</od:description>
+    <od:hasParameterNumber>04</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Length of the stationary object</rdfs:label>
+    <rdfs:label xml:lang="de">Länge des unbeweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Длина недвижимого объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LevelOfAutomation">
+    <od:description xml:lang="de">Automatisierungsgrad</od:description>
+    <od:description xml:lang="en">The extent to which a system or object performs its functions without human assistance. At the highest level of operation, the system or object can determine what is needed, adapt to that need, and monitor its function.</od:description>
+    <od:hasParameterNumber>38</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Automatisierungsgrad</rdfs:label>
+    <rdfs:label xml:lang="en">Level of automation</rdfs:label>
+    <rdfs:label xml:lang="ru">Уровень автоматизации</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LossOfEnergy">
+    <od:description xml:lang="de">Energieverluste</od:description>
+    <od:description xml:lang="en">The waste of energy resource(s) through the function or movement of the object or system.</od:description>
+    <od:hasParameterNumber>22</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Energieverluste</rdfs:label>
+    <rdfs:label xml:lang="en">Loss of Energy</rdfs:label>
+    <rdfs:label xml:lang="ru">Потери энергии</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LossOfInformation">
+    <od:description xml:lang="de">Informationsverluste</od:description>
+    <od:description xml:lang="en">Partial or complete, permanent or temporary, loss of data or access to data in or by a system. Frequently includes sensory data such as aroma, texture, etc.</od:description>
+    <od:hasParameterNumber>24</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Informationsverluste</rdfs:label>
+    <rdfs:label xml:lang="en">Loss of information</rdfs:label>
+    <rdfs:label xml:lang="ru">Потеря информации</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LossOfMaterial">
+    <od:description xml:lang="de">Materialverluste</od:description>
+    <od:description xml:lang="en">Waste of a system’s materials, substances, parts, or subsystems during normal functioning.</od:description>
+    <od:hasParameterNumber>23</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Loss of material</rdfs:label>
+    <rdfs:label xml:lang="de">Materialverluste</rdfs:label>
+    <rdfs:label xml:lang="ru">Материальные потери</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/LossOfTime">
+    <od:description xml:lang="en">Time taken to perform the activity or function of the system or object. Improving the loss of time means reducing the time taken for the activity.</od:description>
+    <od:description xml:lang="de">Zeitverlust</od:description>
+    <od:hasParameterNumber>25</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Loss of time</rdfs:label>
+    <rdfs:label xml:lang="de">Zeitverlust</rdfs:label>
+    <rdfs:label xml:lang="ru">Потери времени</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Power">
+    <od:description xml:lang="en">Energy that is produced by mechanical, electrical, or other means. This characteristic refers to production not consumption.</od:description>
+    <od:description xml:lang="de">Leistung, Kapazität</od:description>
+    <od:hasParameterNumber>21</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Leistung, Kapazität</rdfs:label>
+    <rdfs:label xml:lang="en">Power</rdfs:label>
+    <rdfs:label xml:lang="ru">Производительность, производительность</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/PrecisionOfManufacture">
+    <od:description xml:lang="de">Fertigungsgenauigkeit</od:description>
+    <od:description xml:lang="en">The extent to which the actual characteristics of the system or object match the specified or required characteristics.</od:description>
+    <od:hasParameterNumber>29</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Fertigungsgenauigkeit</rdfs:label>
+    <rdfs:label xml:lang="en">Precision of manufacture</rdfs:label>
+    <rdfs:label xml:lang="ru">Точность производства</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/PrecisionOfMeasurements">
+    <od:description xml:lang="de">Messgenauigkeit</od:description>
+    <od:description xml:lang="en">The degree to which the result of a measurement of a property of a system conforms to the correct value or a standard.</od:description>
+    <od:hasParameterNumber>28</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Messgenauigkeit</rdfs:label>
+    <rdfs:label xml:lang="en">Precision of measurements</rdfs:label>
+    <rdfs:label xml:lang="ru">Точность измерений</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Productivity">
+    <od:description xml:lang="de">Produktivität</od:description>
+    <od:description xml:lang="en">The output of a system per unit time or per unit of input. The effectiveness of productive effort.</od:description>
+    <od:hasParameterNumber>39</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Productivity</rdfs:label>
+    <rdfs:label xml:lang="de">Produktivität</rdfs:label>
+    <rdfs:label xml:lang="ru">Производительность</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/QuantityOfMaterial">
+    <od:description xml:lang="de">Materialmenge</od:description>
+    <od:description xml:lang="en">The number or amount of a system’s materials, substances, parts, or subsystems which are altered (permanently or temporarily) or consumed (fully or partially) during normal functioning.</od:description>
+    <od:hasParameterNumber>26</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Materialmenge</rdfs:label>
+    <rdfs:label xml:lang="en">Quantity of material</rdfs:label>
+    <rdfs:label xml:lang="ru">Количество материала</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Reliability">
+    <od:description xml:lang="en">A system’s ability to perform its intended functions in consistent, predictable ways.</od:description>
+    <od:description xml:lang="de">Zuverlässigkeit</od:description>
+    <od:hasParameterNumber>27</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Reliability</rdfs:label>
+    <rdfs:label xml:lang="de">Zuverlässigkeit</rdfs:label>
+    <rdfs:label xml:lang="ru">Надежность</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Shape">
+    <od:description xml:lang="de">Form</od:description>
+    <od:description xml:lang="en">The external contours, form, or appearance of a system.</od:description>
+    <od:hasParameterNumber>12</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Form</rdfs:label>
+    <rdfs:label xml:lang="en">Shape</rdfs:label>
+    <rdfs:label xml:lang="ru">Форма</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Speed">
+    <od:description xml:lang="de">Geschwindigkeit</od:description>
+    <od:description xml:lang="en">The rate of a process or action, or the rate of movement of an object.</od:description>
+    <od:hasParameterNumber>09</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Geschwindigkeit</rdfs:label>
+    <rdfs:label xml:lang="en">Speed</rdfs:label>
+    <rdfs:label xml:lang="ru">Скорость</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/StabilityOfTheObjectsStructure">
+    <od:description xml:lang="de">Stabilität der Struktur des Objekts</od:description>
+    <od:description xml:lang="en">The standalone nature and immobility of the system or object.</od:description>
+    <od:hasParameterNumber>13</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Stability of the object’s structure</rdfs:label>
+    <rdfs:label xml:lang="de">Stabilität der Struktur des Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Устойчивость композиции объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Strength">
+    <od:description xml:lang="de">Festigkeit</od:description>
+    <od:description xml:lang="en">The extent to which the object can resist changing in response to force. Resistance to breaking.</od:description>
+    <od:hasParameterNumber>14</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Festigkeit</rdfs:label>
+    <rdfs:label xml:lang="en">Strength</rdfs:label>
+    <rdfs:label xml:lang="ru">Сила</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/SurfaceOfTheMovingObject">
+    <od:description xml:lang="de">Oberfläche des beweglichen Objekts</od:description>
+    <od:description xml:lang="en">The outermost or uppermost layer of the moving object.</od:description>
+    <od:hasParameterNumber>05</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Oberfläche des beweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="en">Surface of the moving object</rdfs:label>
+    <rdfs:label xml:lang="ru">Площадь движущегося объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/SurfaceOfTheStationaryObject">
+    <od:description xml:lang="de">Oberfläche des unbeweglichen Objekts</od:description>
+    <od:description xml:lang="en">The outermost or uppermost layer of the stationary object.</od:description>
+    <od:hasParameterNumber>06</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Oberfläche des unbeweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="en">Surface of the stationary object</rdfs:label>
+    <rdfs:label xml:lang="ru">Площадь недвижимого объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/Temperature">
+    <od:description xml:lang="de">Temperatur</od:description>
+    <od:description xml:lang="en">The thermal condition of the object or system. Includes other thermal parameters, such as heat capacity, that affect the rate of change of temperature.</od:description>
+    <od:hasParameterNumber>17</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Temperatur</rdfs:label>
+    <rdfs:label xml:lang="en">Temperature</rdfs:label>
+    <rdfs:label xml:lang="ru">Температура</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/TensionOrPressure">
+    <od:description xml:lang="de">Spannung oder Druck</od:description>
+    <od:description xml:lang="en">Technically, force per unit area but can also be a balance between, and interplay of, opposing objects or systems.</od:description>
+    <od:hasParameterNumber>11</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Spannung oder Druck</rdfs:label>
+    <rdfs:label xml:lang="en">Tension or Pressure</rdfs:label>
+    <rdfs:label xml:lang="ru">Напряжение или давление</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/VolumeOfTheMovingObject">
+    <od:description xml:lang="en">The cubic measure of space occupied by the moving object.</od:description>
+    <od:description xml:lang="de">Volumen des beweglichen Objekts</od:description>
+    <od:hasParameterNumber>07</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Volume of the moving object</rdfs:label>
+    <rdfs:label xml:lang="de">Volumen des beweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Объем движущегося объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/VolumeOfTheStationaryObject">
+    <od:description xml:lang="en">The cubic measure of space occupied by the stationary object.</od:description>
+    <od:description xml:lang="de">Volumen des unbeweglichen Objekts</od:description>
+    <od:hasParameterNumber>08</od:hasParameterNumber>
+    <rdfs:label xml:lang="en">Volume of the stationary object</rdfs:label>
+    <rdfs:label xml:lang="de">Volumen des unbeweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="ru">Объем недвижимого объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/WeightOfTheMovingObject">
+    <od:description xml:lang="de">Gewicht des beweglichen Objekts</od:description>
+    <od:description xml:lang="en">The mass of the object, in a gravitational field. The force that the body exerts on its support or suspension.</od:description>
+    <od:hasParameterNumber>01</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Gewicht des beweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="en">Weight of the moving object</rdfs:label>
+    <rdfs:label xml:lang="ru">Масса движущегося объекта</rdfs:label>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Parameter/WeightOfTheStationaryObject">
+    <od:description xml:lang="de">Gewicht des unbeweglichen Objekts</od:description>
+    <od:description xml:lang="en">The mass of the object, in a gravitational field. The force that the body exerts on the surface on which it rests.</od:description>
+    <od:hasParameterNumber>02</od:hasParameterNumber>
+    <rdfs:label xml:lang="de">Gewicht des unbeweglichen Objekts</rdfs:label>
+    <rdfs:label xml:lang="en">Weight of the stationary object</rdfs:label>
+    <rdfs:label xml:lang="ru">Масса недвижимого объекта</rdfs:label>
+  </od:Parameter>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/TheParameters/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <dcterms:source rdf:resource="http://www.i-sim.org/Altshuller_Matrix.xls"/>
+    <dcterms:source rdf:resource="https://www.triz-consulting.de/triz-matrix"/>
+    <rdfs:comment>2019-06-24 graebe: Extracted and transformed from the source</rdfs:comment>
+    <rdfs:comment>2019-07-08 graebe: english and russian language versions added</rdfs:comment>
+    <rdfs:comment>2020-04-15 graebe: Divided in Matrix and Parameters, Descriptions from Lippert-19 added</rdfs:comment>
+    <rdfs:comment>2020-04-16 graebe: namespace abbreviation and parameter names fixed</rdfs:comment>
+    <rdfs:label>TRIZ Parameters from the Matrix</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

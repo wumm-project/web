@@ -41,9 +41,10 @@ function pageNavbar() {
             <li><a href="conferences.php">Past Conferences</a></li>
             <li><a href="presentations.php">TRIZ Presentations</a></li>
             <li><a href="ontology.php">TRIZ Ontology</a></li>
-            <li><a href="principles.php">40 Principles</a></li>
-            <li><a href="standards.php">Inventive Standards</a></li>
-            <li><a href="businessstandards.php">Inventive Business Standards</a></li>
+            <li><a href="principles.php">Principles</a></li>
+            <li><a href="parameters.php">Parameters</a></li>
+            <li><a href="standards.php">Standards</a></li>
+            <li><a href="businessstandards.php">Business Standards</a></li>
             <li><a href="test.php">Test</a></li>
           </ul>
         </div><!-- navbar end -->

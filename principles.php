@@ -1,18 +1,18 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-11-06
+ * last update: 2020-12-18
  */
 
 require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
 
-function thePrinciples($input) 
+function thePrinciples() 
 {
     setNamespaces();
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/ThePrinciples/');
-    $graph->parseFile($input);
+    $graph->parseFile("rdf/Principles.rdf");
     $a=array();
     $res = $graph->allOfType('od:Principle');
     foreach ($res as $concept) {
@@ -37,6 +37,6 @@ function thePrinciples($input)
 
 
 
-echo showpage(thePrinciples("rdf/Principles.rdf"));
+echo showpage(thePrinciples());
 
 ?>
