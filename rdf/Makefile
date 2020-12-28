@@ -27,6 +27,7 @@ publications:
 
 ontologies:
 	rapper -g ../../RDFData/Ontologies/VDI-Glossary.ttl -o rdfxml-abbrev >VDI-Glossary.rdf
+	rapper -g ../../RDFData/Ontologies/Souchkov-Glossary.ttl -o rdfxml-abbrev >Souchkov-Glossary.rdf
 	rapper -g ../../RDFData/Ontologies/TopLevel.ttl -o rdfxml-abbrev >TopLevel.rdf
 	rapper -g ../../RDFData/Ontologies/Thesaurus.ttl -o rdfxml-abbrev >Thesaurus.rdf
 	rapper -g ../../RDFData/Ontologies/OntoCards.ttl -o rdfxml-abbrev >OntoCards.rdf

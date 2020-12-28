@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-12-16
+ * last update: 2020-12-28
  */
 
 require 'vendor/autoload.php';
@@ -18,9 +18,10 @@ function theTitle() {
 function theThesaurus() {
     setNamespaces();
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
-    $graph->parseFile("rdf/Thesaurus.rdf"); // add more 
-    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
-    $graph->parseFile("rdf/OntoCards.rdf"); // add more 
+    $graph->parseFile("rdf/Thesaurus.rdf"); 
+    $graph->parseFile("rdf/Souchkov-Glossary.rdf"); 
+    $graph->parseFile("rdf/VDI-Glossary.rdf"); 
+    $graph->parseFile("rdf/OntoCards.rdf"); 
     $graph->parseFile("rdf/TopLevel.rdf"); // add more 
     $a=array();
     $res = $graph->allOfType("skos:Concept");
