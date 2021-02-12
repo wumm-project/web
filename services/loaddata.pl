@@ -1,7 +1,7 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2020-12-28
+# lastModified: 2021-02-12
 
 # Changes:
 
@@ -24,7 +24,8 @@ EOT
 sub loaddata {
   my $out;
   $out.=createLoadCommand("http://opendiscovery.org/rdf/People/","People.rdf");
-  $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf"); 
+  #$out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf"); 
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","AllMATRIZCertificates.rdf"); 
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Thesaurus/","Thesaurus.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Souchkov-Glossary/","Souchkov-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/VDI-Glossary/","VDI-Glossary.rdf");

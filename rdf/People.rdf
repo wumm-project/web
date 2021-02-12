@@ -1115,6 +1115,10 @@
     <foaf:affil>Universiti Tenaga Nasional, Malaysia</foaf:affil>
     <foaf:name>Mohd Sufian Abdul Karim</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Karimi_M">
+    <foaf:affil>Teheran, Iran</foaf:affil>
+    <foaf:name>Mahmoud Karimi</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Karpunin_MG">
     <foaf:fullname xml:lang="ru">М.Г. Карпунин</foaf:fullname>
     <foaf:name>M.G. Karpunin</foaf:name>
@@ -1155,7 +1159,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khomenko_NN">
     <dbo:birthDate>1954</dbo:birthDate>
-    <dbo:deathDate>2011</dbo:deathDate>
+    <dbo:deathDate>2011-03-27</dbo:deathDate>
     <rdfs:seeAlso rdf:resource="http://www.trizminsk.org/d/Khomenko_Heritage(EN).pdf"/>
     <foaf:fullname xml:lang="ru">Николай Николаевич Хоменко</foaf:fullname>
     <foaf:name>Nikolai Khomenko</foaf:name>
@@ -1278,6 +1282,10 @@
     <foaf:fullname xml:lang="ru">Светлана Коротких</foaf:fullname>
     <foaf:name>Svetlana Korotkih</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korzun_A">
+    <foaf:fullname xml:lang="ru">Анна Корзун</foaf:fullname>
+    <foaf:name>Anna Kurzun</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kostin_A">
     <foaf:affil>Central Economics and Mathematics Institute RAS, Russia</foaf:affil>
     <foaf:name>Alexander Kostin</foaf:name>
@@ -1297,6 +1305,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozyreva_N">
     <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Нелли Козырева</foaf:fullname>
     <foaf:homepage rdf:resource="https://kozyreva.ucoz.ru/"/>
     <foaf:name>Nelly Kozyreva</foaf:name>
   </foaf:Person>
@@ -1788,7 +1797,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Murashkovska_IN">
     <foaf:affil>Latvia</foaf:affil>
     <foaf:fullname xml:lang="ru">Ингрида Николаевна Мурашковска</foaf:fullname>
-    <foaf:name>Ingrida Murashkovska</foaf:name>
+    <foaf:name>Ingrīda Muraškovska</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Murashkovsky_JS">
     <foaf:affil>Latvia</foaf:affil>

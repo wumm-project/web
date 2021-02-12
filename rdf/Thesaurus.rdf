@@ -8,7 +8,7 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:tc="http://opendiscovery.org/rdf/Concept/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ARIZ">
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ARIZ">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="rs">Algoritam rešavanja inventivnih problema (ARIZ)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Algorithm of Inventive Problem Solving (ARIZ)</skos:prefLabel>
@@ -27,8 +27,8 @@
     <skos:prefLabel xml:lang="by">Альгарытм разьвязаньня вынаходніцкіх задачаў (АРВЗ)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אלגוריתם לפתרון בעיות המצאתי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明級問題の解決手順（ＡＲＩＺ）</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/AdministrativeContradiction">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/AdministrativeContradiction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionTypes"/>
     <skos:prefLabel xml:lang="nl">Administratieve tegenstrijdigheid</skos:prefLabel>
@@ -48,8 +48,8 @@
     <skos:prefLabel xml:lang="by">Супярэчнасьць адмініс-тратыўная</skos:prefLabel>
     <skos:prefLabel xml:lang="he">סתירה מנהלתית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">組織レベルでの矛盾</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/AnalogousProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/AnalogousProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="nl">Analoge probleemstelling</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Analoges Problem</skos:prefLabel>
@@ -68,8 +68,8 @@
     <skos:prefLabel xml:lang="by">Задача-аналяг</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיה אנלוגית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">類似問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/AntiSystem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/AntiSystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Anti-Système</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Anti-sistem</skos:prefLabel>
@@ -88,8 +88,8 @@
     <skos:prefLabel xml:lang="by">Анты-сыстэма</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אנטי מערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">反システム</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/BankWorthyGoals">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/BankWorthyGoals">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Banca dati degli obiettivi prioritari</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Banco de metas dignas</skos:prefLabel>
@@ -108,8 +108,8 @@
     <skos:prefLabel xml:lang="ru">Фонд Достойных Целей</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אוסף הרעיונות הערכיים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">意義ある目標集</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiologicalEffect">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiologicalEffect">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Biological effect</skos:prefLabel>
     <skos:prefLabel xml:lang="cz">Biologický efekt</skos:prefLabel>
@@ -128,8 +128,8 @@
     <skos:prefLabel xml:lang="by">Біялягічны эфэкт</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תופעה ביולוגית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">生物学的効果</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Bisystem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Bisystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="rs">Bi-sistem</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Bi-sistem</skos:prefLabel>
@@ -148,8 +148,8 @@
     <skos:prefLabel xml:lang="by">Бісыстэма</skos:prefLabel>
     <skos:prefLabel xml:lang="he">דו-מערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">バイ・システム</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ChemicalEffect">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ChemicalEffect">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Chemical effect</skos:prefLabel>
     <skos:prefLabel xml:lang="cz">Chemický efekt</skos:prefLabel>
@@ -168,8 +168,8 @@
     <skos:prefLabel xml:lang="by">Хімічны эфэкт</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תופעה כימיקאלית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">化学的効果</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/CompletionSuField">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/CompletionSuField">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Completamento di un Su-Field</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Completion of a Su-Field</skos:prefLabel>
@@ -188,8 +188,8 @@
     <skos:prefLabel xml:lang="ru">Достройка веполя</skos:prefLabel>
     <skos:prefLabel xml:lang="he">השלמת חומר-שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場の完成</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/CompositeCardIndex">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/CompositeCardIndex">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it"> </skos:prefLabel>
     <skos:prefLabel xml:lang="jp"> </skos:prefLabel>
@@ -208,8 +208,8 @@
     <skos:prefLabel xml:lang="ua">Зведена картотека</skos:prefLabel>
     <skos:prefLabel xml:lang="by">Зводная картатэка</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Сводная картотека</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ConceptVerticalMobility">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ConceptVerticalMobility">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="jp"> </skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Conceito de máxima mobilidade vertical</skos:prefLabel>
@@ -228,8 +228,8 @@
     <skos:prefLabel xml:lang="ua">Концепцiя максимального руху угору</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Концепция максимального движения вверх</skos:prefLabel>
     <skos:prefLabel xml:lang="he">הרעיון של התמדת תנועה למעלה</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ConflictResolution">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ConflictResolution">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Conflict (contradiction) resolution</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Giải quyết mâu thuẫn</skos:prefLabel>
@@ -248,8 +248,8 @@
     <skos:prefLabel xml:lang="ua">Розв’язування протирiччя</skos:prefLabel>
     <skos:prefLabel xml:lang="he">יישוב הסתירה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">矛盾の解決</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ConflictingPair">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ConflictingPair">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="nl">Conflicterend paar</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Conflicting pair</skos:prefLabel>
@@ -268,8 +268,8 @@
     <skos:prefLabel xml:lang="by">Пара, якая канфліктуе</skos:prefLabel>
     <skos:prefLabel xml:lang="he">זוג אובייקטים המהווה ניגוד</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">矛盾対</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionMatrix">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionMatrix">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bảng các thủ thuật cơ bản dùng khắc phục các loại mâu thuẫn kỹ thuật mẫu (chuẩn)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Contradiction (conflict) matrix</skos:prefLabel>
@@ -288,8 +288,8 @@
     <skos:prefLabel xml:lang="by">Табліца асноўных прыёмаў дзеля разьвязаньня тыповых тэхнічных супярэчнасьцяў</skos:prefLabel>
     <skos:prefLabel xml:lang="he">טבלת התכסיסים העיקריים ליישוב סתירות טכנולוגיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">矛盾表</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionTypes">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionTypes">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">(Các loại) mâu thuẫn</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Contraddizione</skos:prefLabel>
@@ -308,8 +308,8 @@
     <skos:prefLabel xml:lang="by">Супярэчнасьці (віды)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">סוגי סתירות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">矛盾（タイプ）</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/DevelopmentCreativeImagination">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/DevelopmentCreativeImagination">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Desarrollo de la imaginación creativa</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Desenvolvimento da imaginação criativa</skos:prefLabel>
@@ -328,8 +328,8 @@
     <skos:prefLabel xml:lang="ua">Розвиток творчоi уяви</skos:prefLabel>
     <skos:prefLabel xml:lang="he">פיתוח דמיון יצירתי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">創造的発想力の開発</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/DiagramTechnicalContradiction">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/DiagramTechnicalContradiction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Diagram (model) of a technical contradiction</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Diagrama (modelo) de una contradicción del sistema</skos:prefLabel>
@@ -348,8 +348,8 @@
     <skos:prefLabel xml:lang="by">Графічная схема тэхнічнай супярэчнасьці (ТС)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תרשים גראפי של הסתירה הטכנולוגית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">技術的矛盾の図式モデル</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/DiagramsTypicalConflictsProblemModels">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/DiagramsTypicalConflictsProblemModels">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Các sơ đồ các loại xung đột hay xảy ra trong các mô hình bài toán</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Diagramas de conflitos típicos na modelagem de problemas</skos:prefLabel>
@@ -368,8 +368,8 @@
     <skos:prefLabel xml:lang="ru">Схемы типичных конфликтов в моделях задач</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תרשימי ניגודים אופייניים לבעיות מדגמיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">問題類型における典型的矛盾の図式モデル</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Effect">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Effect">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Efecto</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Efeito</skos:prefLabel>
@@ -388,8 +388,8 @@
     <skos:prefLabel xml:lang="by">Эфэкт</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תופעה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">科学的効果</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ElectricalField">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ElectricalField">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Campo Elettrico</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Campo eléctrico</skos:prefLabel>
@@ -408,8 +408,8 @@
     <skos:prefLabel xml:lang="by">Эполь (Электрыч-насьць + ПОЛе)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">נוסחת חומר-שדה עם שדה חשמלי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">電気の場</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/EngineeringProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/EngineeringProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bài toán kỹ thuật (của kỹ sư)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Engineering problem</skos:prefLabel>
@@ -428,8 +428,8 @@
     <skos:prefLabel xml:lang="by">Задача інжынерная</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיה הנדסית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">技術的問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/EvaluationTRIZDevelopments">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/EvaluationTRIZDevelopments">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="pt">Avaliação do desenvolvimento da TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="nl">Beoordeling van de ontwikkelingen in TRIZ</skos:prefLabel>
@@ -448,8 +448,8 @@
     <skos:prefLabel xml:lang="ua">Оцiнка розробок по ТВВЗ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Оценка разработок по ТРИЗ</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ＴＲＩＺ研究の評価</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ExternalConditions">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ExternalConditions">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Circonstances extérieures</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Condiciones externas</skos:prefLabel>
@@ -468,8 +468,8 @@
     <skos:prefLabel xml:lang="by">Зьнешнія абставіны</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תנאים חיצוניים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">外部環境</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Fantogram">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Fantogram">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Các bảng giúp tưởng tượng</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Fantogram</skos:prefLabel>
@@ -488,8 +488,8 @@
     <skos:prefLabel xml:lang="ru">Фантограмма</skos:prefLabel>
     <skos:prefLabel xml:lang="he">שימוש בניתוח מורפולוגי לחיפוש רעיונות לא שגרתיים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ファントグラム（空想アイデア分析）</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/FerromagnticField">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/FerromagnticField">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Campo ferromagnetico</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Campo ferromagnético</skos:prefLabel>
@@ -508,8 +508,8 @@
     <skos:prefLabel xml:lang="by">Фэполь (ФЭррамагнітнае рэчыва+ПОЛе)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">נוסחת חומר-שדה עם שדה פרומגנטי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">磁性場</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Field">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Field">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Alan</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Campo</skos:prefLabel>
@@ -528,8 +528,8 @@
     <skos:prefLabel xml:lang="ua">Поле</skos:prefLabel>
     <skos:prefLabel xml:lang="he">שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">場</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Forecast">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Forecast">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Dự báo</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Forecast, prediction</skos:prefLabel>
@@ -548,8 +548,8 @@
     <skos:prefLabel xml:lang="ua">Прогноз</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תחזית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">予測</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/FourLevelSchemeFantasticIdeas">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/FourLevelSchemeFantasticIdeas">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="rs">Algoritam od četiri nivoa za generisanje NF ideja</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Algoritmo a 4 livelli per la generazipne di idee tecnico  fanta - scientifiche</skos:prefLabel>
@@ -568,8 +568,8 @@
     <skos:prefLabel xml:lang="ua">Чотирьох-поверхова схема створення фантастичних iдей</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תוכנית ארבע שלבית ליצירת רעיונות דמיוניים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">空想科学アイデア発想の４段階構造</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/GeometricalEffect">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/GeometricalEffect">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Efectos geométricos</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Efeito geométrico</skos:prefLabel>
@@ -588,8 +588,8 @@
     <skos:prefLabel xml:lang="ru">Геометрический эффект</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תופעה גיאומטרית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">幾何学的効果</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/GreatSurprise">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/GreatSurprise">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Büyük sürpriz</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Bất ngờ lớn</skos:prefLabel>
@@ -608,8 +608,8 @@
     <skos:prefLabel xml:lang="by">Вялікая Нечаканасьць</skos:prefLabel>
     <skos:prefLabel xml:lang="he">הפתעה גדולה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">意外な状況</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Heuristics">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Heuristics">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Euristica</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Euristique</skos:prefLabel>
@@ -628,8 +628,8 @@
     <skos:prefLabel xml:lang="by">Эўрыстыка</skos:prefLabel>
     <skos:prefLabel xml:lang="he">יוריסטיקה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">解法</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealFinalResult">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealFinalResult">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="nl">Ideaal Eind Resultaat (IER)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Ideal Final Result (IFR)</skos:prefLabel>
@@ -648,8 +648,8 @@
     <skos:prefLabel xml:lang="ru">Идеальный конечный результат (ИКР)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">פתרון אידיאלי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">理想解</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealMachine">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealMachine">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Ideal machine</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Ideale Maschine</skos:prefLabel>
@@ -668,8 +668,8 @@
     <skos:prefLabel xml:lang="by">Машына ідэальная</skos:prefLabel>
     <skos:prefLabel xml:lang="he">המכונה האידיאלית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">理想機械</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IndexesEffects">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IndexesEffects">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="he">(אינדקס של תופעות מדעיות(פיזיקאליות,כימיות וכו’</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Bases des effets</skos:prefLabel>
@@ -688,8 +688,8 @@
     <skos:prefLabel xml:lang="by">Указальнік эфэктаў</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Указатели эффектов</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">科学的効果集</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InformationFonds">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InformationFonds">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="nl">Ariz-gegevensbank</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Bancos de informações (de TRIZ)</skos:prefLabel>
@@ -708,8 +708,8 @@
     <skos:prefLabel xml:lang="by">Фонд інфармацыйны</skos:prefLabel>
     <skos:prefLabel xml:lang="he">מאגר מידע</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ＴＲＩＺの知識ベース</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IntensificationContradiction">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IntensificationContradiction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Intensificación de la contradicción</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Intensification de la contradiction</skos:prefLabel>
@@ -728,8 +728,8 @@
     <skos:prefLabel xml:lang="ru">Обострение противоречия</skos:prefLabel>
     <skos:prefLabel xml:lang="he">התחדדות הסתירה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">矛盾の尖鋭化</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IntensifiedConflict">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/IntensifiedConflict">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Conflicto intensificado (contradicción)</skos:prefLabel>
     <skos:prefLabel xml:lang="fr">Conflit intensifié</skos:prefLabel>
@@ -748,8 +748,8 @@
     <skos:prefLabel xml:lang="ru">Усиленная формулировка конфликта</skos:prefLabel>
     <skos:prefLabel xml:lang="he">סתירה מועצמת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">矛盾状況の尖鋭化</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventivePrinciple">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventivePrinciple">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Inventive principle</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Kabul (prensip)</skos:prefLabel>
@@ -768,8 +768,8 @@
     <skos:prefLabel xml:lang="he">תכסיס</skos:prefLabel>
     <skos:prefLabel xml:lang="pl">„Chwyt”, zasada</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明原理</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bài toán sáng chế</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Erfinderisches Problem</skos:prefLabel>
@@ -788,8 +788,8 @@
     <skos:prefLabel xml:lang="ru">Задача изобретательская</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיה המצאתית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明級の問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveSituation">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveSituation">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="nl">De situatie van een uitvinder (uitgangspunt bij innovatie)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Erfinderische Situation</skos:prefLabel>
@@ -808,8 +808,8 @@
     <skos:prefLabel xml:lang="by">Сытуацыя вынаходніцкая</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תרחיש המצאתי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明級の問題状況</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawEnergyConductivity">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawEnergyConductivity">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz der Energieleitfähigkeit eines Systems</skos:prefLabel>
@@ -829,8 +829,8 @@
     <skos:prefLabel xml:lang="he">חוק “המוליכות האנרגטית“ הפנים מערכתית</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">“enerji iletkenliği” sistemi kanunu</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">エネルギー伝導性の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawEvolutionAlongScurve">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawEvolutionAlongScurve">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz der Entwicklung längs einer S-Kurve</skos:prefLabel>
@@ -850,8 +850,8 @@
     <skos:prefLabel xml:lang="ua">Закон S-образного розвитку</skos:prefLabel>
     <skos:prefLabel xml:lang="by">Закон S-падобнага разьвіцьця</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">Ｓ－カーブに沿った進化の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawHarmonizationRhythms">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawHarmonizationRhythms">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz der Harmonisierung der Rhythmik in einem System</skos:prefLabel>
@@ -871,8 +871,8 @@
     <skos:prefLabel xml:lang="ua">Закон узгодження  ритмiки частин системи</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק תאום תנודות חלקי המערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">システム各部リズム対応性の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawIncreasingIdeality">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawIncreasingIdeality">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz des wachsenden Grads der Idealität eines Systems</skos:prefLabel>
@@ -892,8 +892,8 @@
     <skos:prefLabel xml:lang="ru">Закон увеличения степени идеальности системы</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק הגדלת רמת האידיאליות של המערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">理想性増加の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawIncreasingSuFieldInteractions">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawIncreasingSuFieldInteractions">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz der Verstärkung der Stoff-Feld-Interaktionen</skos:prefLabel>
@@ -913,8 +913,8 @@
     <skos:prefLabel xml:lang="ru">Закон увеличения степени вепольности</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק הגדלת רמת מבני חומר-שדה במערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場高度化の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawNonuniformEvolutionSystemParts">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawNonuniformEvolutionSystemParts">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz der nicht-uniformen Entwicklung der Teile eines Systems</skos:prefLabel>
@@ -934,8 +934,8 @@
     <skos:prefLabel xml:lang="by">Закон нераўна-мернасьці разьвіцьця частак сыстэмы</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק ההתפתחות האי שוויונית של תת מערכות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">システム各部不均等進化の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawSystemCompleteness">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawSystemCompleteness">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz der Vollständigkeit der Systemteile</skos:prefLabel>
@@ -955,8 +955,8 @@
     <skos:prefLabel xml:lang="ru">Закон полноты частей системы</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק השלמות של מערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">システム完全性の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawTransitionMicrolevel">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawTransitionMicrolevel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz des Übergangs von der Makro- zur Mikroebene</skos:prefLabel>
@@ -976,8 +976,8 @@
     <skos:prefLabel xml:lang="ua">Закон переходу з макрорiвня на мiкрорiвень</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק המעבר מרמת מאקרו לרמת מיקרו</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">マクロからミクロへの移行の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawTransitionSupersystem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawTransitionSupersystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution"/>
     <skos:prefLabel xml:lang="de">Gesetz des Übergangs zum Obersystem</skos:prefLabel>
@@ -997,8 +997,8 @@
     <skos:prefLabel xml:lang="ua">Закон переходу в надсистему</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוק המעבר למערכת-על</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">上位システム移行の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Các quy luật phát triển của các hệ thống kỹ thuật</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Gesetze der Entwicklung technischer Systeme</skos:prefLabel>
@@ -1017,8 +1017,8 @@
     <skos:prefLabel xml:lang="by">Законы разьвіцьця тэхнічных сыстэмаў</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חוקי ההתפתחות של מערכות טכנולוגיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">技術システムの進化の法則</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LeadingFieldTechnology">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LeadingFieldTechnology">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Die führende Technik-Branche</skos:prefLabel>
     <skos:prefLabel xml:lang="nl">Het leidende domein van de Techniek</skos:prefLabel>
@@ -1037,8 +1037,8 @@
     <skos:prefLabel xml:lang="ru">Ведущая область техники</skos:prefLabel>
     <skos:prefLabel xml:lang="he">התחום המוביל בטכנולוגיה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">主要技術分野</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LevelInvention">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LevelInvention">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Grado di contenuto innovativo di un invenzione</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Level of invention</skos:prefLabel>
@@ -1057,8 +1057,8 @@
     <skos:prefLabel xml:lang="ru">Уровень изобретательских задач</skos:prefLabel>
     <skos:prefLabel xml:lang="he">דרוג הבעיות ההמצאתיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明のレベル</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LifeStrategyCreativePersonality">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/LifeStrategyCreativePersonality">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Chiến Lược Sống Của Nhân Cách Sáng Tạo</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Estrategia de una persona creativa</skos:prefLabel>
@@ -1077,8 +1077,8 @@
     <skos:prefLabel xml:lang="by">Жыцьцёвая Стратэгія Творчай Асобы</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אסטרטגית חיים של אישיות יצירתית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">創造的個性の人生戦略</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ListScienceFictionIdeas">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ListScienceFictionIdeas">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">A list of science fiction ideas</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Bilim-kurgu fikirlerinin kaydedilmesi</skos:prefLabel>
@@ -1097,8 +1097,8 @@
     <skos:prefLabel xml:lang="by">Рэгістар НФ-ідэяў</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אוסף רעיונות של מדע בדיוני</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ＳＦ小説アイデア集</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MainManufacturingProcess">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MainManufacturingProcess">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Ana üretim süreci</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Glavni proizvodni proces</skos:prefLabel>
@@ -1117,8 +1117,8 @@
     <skos:prefLabel xml:lang="ua">Головний виробничий процес</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תהליך היצור העיקרי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">基本生産プロセス</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MaximalProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MaximalProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bài toán cực đại (Bài toán maxi)</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Büyütülmüş problem (maksi-problem)</skos:prefLabel>
@@ -1137,8 +1137,8 @@
     <skos:prefLabel xml:lang="by">Задача максымальная (максы-задача)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיה מקסימלית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">最大問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MicroProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MicroProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bài toán vi mô</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Küçültülmüş problem (mikro-problem)</skos:prefLabel>
@@ -1157,8 +1157,8 @@
     <skos:prefLabel xml:lang="by">Задача мікра</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיית מיקרו</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ミクロ問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MiniProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MiniProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bài toán cực tiểu (Bài toán mini)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Mini-problem</skos:prefLabel>
@@ -1177,8 +1177,8 @@
     <skos:prefLabel xml:lang="by">Задача мінімальная (міні-задача)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיית מיני</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">最小問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ModelInventiveProblem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ModelInventiveProblem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="rs">Model inventivnog problema</skos:prefLabel>
     <skos:prefLabel xml:lang="cz">Model invenčního / vynálezcovského zadání</skos:prefLabel>
@@ -1197,8 +1197,8 @@
     <skos:prefLabel xml:lang="ru">Модель изобретательской задачи</skos:prefLabel>
     <skos:prefLabel xml:lang="he">דגם של בעיה המצאתית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明級問題のモデル</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ModelingSmartLittlePeople">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ModelingSmartLittlePeople">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="rs">Metod modelovanja “malim čovečuljcima”</skos:prefLabel>
     <skos:prefLabel xml:lang="cz">Metoda modelování malinkými človíčky</skos:prefLabel>
@@ -1217,8 +1217,8 @@
     <skos:prefLabel xml:lang="by">Мэтад мадэляваньня маленькімі чалавечкамі</skos:prefLabel>
     <skos:prefLabel xml:lang="he">שיטת הננסים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">小さな賢人法（スマート・リトル・ピープル）</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Monosystem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Monosystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Hệ đơn</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Mono-sistem</skos:prefLabel>
@@ -1237,8 +1237,8 @@
     <skos:prefLabel xml:lang="ua">Моносистема</skos:prefLabel>
     <skos:prefLabel xml:lang="he">המערכת הבודדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">モノ・システム</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MultiScreenDiagram">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/MultiScreenDiagram">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Diagrama multipantalla</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Diagramma multi-finestra</skos:prefLabel>
@@ -1257,8 +1257,8 @@
     <skos:prefLabel xml:lang="by">Шматэкранная схема</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תרשים מרובה מסכים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">マルチ・スクリーン</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/NonAlgorithmicMethods">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/NonAlgorithmicMethods">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Algoritmik olmayan yöntemler</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Các phương pháp phi algôrit</skos:prefLabel>
@@ -1277,15 +1277,15 @@
     <skos:prefLabel xml:lang="by">Неальгарытмі-чныя мэтады</skos:prefLabel>
     <skos:prefLabel xml:lang="he">שיטות בלתי אלגוריתמיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">非体系的方法</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/NonRoutineProblems">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/NonRoutineProblems">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="rs">Nestandardni problemi</skos:altLabel>
     <skos:altLabel xml:lang="cz">Nestandardní zadání</skos:altLabel>
     <skos:altLabel xml:lang="nl">Niet-standaard vraagstukken</skos:altLabel>
     <skos:altLabel xml:lang="ua">Задача нестандартна</skos:altLabel>
     <skos:altLabel xml:lang="ru">Задачи нестандартные</skos:altLabel>
     <skos:altLabel xml:lang="by">Задачы нестандартныя</skos:altLabel>
-    <skos:ltLabel xml:lang="rs">Nestandardni problemi</skos:ltLabel>
     <skos:prefLabel xml:lang="nl">Atypische vraagstukken</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Các bài toán không chuẩn</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Netipski problemi</skos:prefLabel>
@@ -1303,8 +1303,8 @@
     <skos:prefLabel xml:lang="by">Задачы нетыповыя</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיות בלתי שגרתיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">非標準的問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Object">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Object">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Nesne</skos:prefLabel>
     <skos:prefLabel xml:lang="pl">Obiekt, przedmiot</skos:prefLabel>
@@ -1323,8 +1323,8 @@
     <skos:prefLabel xml:lang="ru">Изделие</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אובייקט</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物体</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperationTime">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperationTime">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Betriebszeit</skos:altLabel>
     <skos:prefLabel xml:lang="pl">Czas operacyjny</skos:prefLabel>
@@ -1344,8 +1344,8 @@
     <skos:prefLabel xml:lang="ru">Оперативное время</skos:prefLabel>
     <skos:prefLabel xml:lang="he">זמן הפעילות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">作用時間</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperationalZone">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperationalZone">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Betriebsbereich</skos:altLabel>
     <skos:prefLabel xml:lang="tr">Kullanıma hazır bölge (çalışma bölgesi)</skos:prefLabel>
@@ -1365,8 +1365,8 @@
     <skos:prefLabel xml:lang="ru">Оперативная зона</skos:prefLabel>
     <skos:prefLabel xml:lang="he">אזור הפעילות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">作用領域</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperatorSizeTimeCost">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperatorSizeTimeCost">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="he">(מנגנון ג.ז.ע. (גודל-זמן-עלות</skos:prefLabel>
     <skos:prefLabel xml:lang="nl">ATK techniek (Afmetingen-Tijd-Kostprijs)</skos:prefLabel>
@@ -1385,8 +1385,8 @@
     <skos:prefLabel xml:lang="ru">Оператор РВС</skos:prefLabel>
     <skos:prefLabel xml:lang="ua">Оператор РЧВ</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">サイズ/時間/コスト・オペレータ</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalContradiction">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalContradiction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Naturgesetzlicher Widerspruch</skos:altLabel>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionTypes"/>
@@ -1407,8 +1407,8 @@
     <skos:prefLabel xml:lang="by">Супярэчнасьць фізычная</skos:prefLabel>
     <skos:prefLabel xml:lang="he">סתירה פיזיקאלית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物理的矛盾</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalEffect">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalEffect">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Naturgesetzlicher Effekt</skos:altLabel>
     <skos:prefLabel xml:lang="es">Efecto físico</skos:prefLabel>
@@ -1428,8 +1428,8 @@
     <skos:prefLabel xml:lang="by">Фізычны эфэкт</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תופעה פיזיקאלית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物理的効果</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Polysystem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Polysystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Poli sistema</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Poli-sistem</skos:prefLabel>
@@ -1448,8 +1448,8 @@
     <skos:prefLabel xml:lang="by">Полісыстэма</skos:prefLabel>
     <skos:prefLabel xml:lang="he">רב-מערכת</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ポリ・システム</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrincipleTransistionMacrolevel">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrincipleTransistionMacrolevel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="cz">Postup na makroúrovni</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Princip na makro-nivou</skos:prefLabel>
@@ -1468,8 +1468,8 @@
     <skos:prefLabel xml:lang="he">תכסיס ברמת מאקרו</skos:prefLabel>
     <skos:prefLabel xml:lang="pl">„Chwyt“ na makropoziomie</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">マクロレベルでの解法</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrincipleTransistionMicrolevel">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrincipleTransistionMicrolevel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="cz">Postup na mikroúrovni</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Princip na mikro-nivou</skos:prefLabel>
@@ -1488,8 +1488,8 @@
     <skos:prefLabel xml:lang="he">תכסיס ברמת מיקרו</skos:prefLabel>
     <skos:prefLabel xml:lang="pl">„Chwyt“ na mikropoziomie</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ミクロレベルでの解法</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ProblemStatement">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ProblemStatement">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Aufgabenstellung</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Definizione del problema</skos:prefLabel>
@@ -1508,8 +1508,8 @@
     <skos:prefLabel xml:lang="ua">Ставлення задачи</skos:prefLabel>
     <skos:prefLabel xml:lang="he">הגדרת הבעיה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">問題設定</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PsychologicalInertia">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/PsychologicalInertia">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Düşünce ataleti</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Inercia psicológica</skos:prefLabel>
@@ -1528,8 +1528,8 @@
     <skos:prefLabel xml:lang="ru">Инерция мышления</skos:prefLabel>
     <skos:prefLabel xml:lang="he">האינרציה הפסיכולוגית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">心理的惰性</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/QualitiesCreativePersonality">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/QualitiesCreativePersonality">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Cualidades de un individuo creativo</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Các Phẩm Chất Của Nhân Cách Sáng Tạo</skos:prefLabel>
@@ -1548,8 +1548,8 @@
     <skos:prefLabel xml:lang="ua">Якостi творчої особи</skos:prefLabel>
     <skos:prefLabel xml:lang="he">איכויות של אישיות יצירתית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">創造的個性の特質</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Resources">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Resources">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Các nguồn dự trữ</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Kaynaklar</skos:prefLabel>
@@ -1568,8 +1568,8 @@
     <skos:prefLabel xml:lang="by">Рэсурсы</skos:prefLabel>
     <skos:prefLabel xml:lang="he">משאבים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">資源</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/RhythmHarmonization">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/RhythmHarmonization">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="pt">Coordenação dos ritmos</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Coordinación del ritmo</skos:prefLabel>
@@ -1588,8 +1588,8 @@
     <skos:prefLabel xml:lang="ua">Узгодження ритмiки</skos:prefLabel>
     <skos:prefLabel xml:lang="he">התאמת התנודות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">リズムの一致</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Scurve">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Scurve">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Courbe «en S», S-courbe</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Curva S</skos:prefLabel>
@@ -1608,8 +1608,8 @@
     <skos:prefLabel xml:lang="by">S-падобная крывая</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Đường cong hình chữ S</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">Ｓ－カーブ</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SpecialTerm">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SpecialTerm">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Special (professional) term</skos:prefLabel>
     <skos:prefLabel xml:lang="nl">Speciale term (beroepsterminologie)</skos:prefLabel>
@@ -1628,8 +1628,8 @@
     <skos:prefLabel xml:lang="by">Спэцыяльны тэрмін (спэцтэрмін)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">מונח מיקצועי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">専門用語</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/StandardProblems">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/StandardProblems">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="rs">Standardni problemi</skos:altLabel>
     <skos:altLabel xml:lang="cz">Zadání standardní</skos:altLabel>
@@ -1653,8 +1653,8 @@
     <skos:prefLabel xml:lang="by">Задачы тыповыя</skos:prefLabel>
     <skos:prefLabel xml:lang="he">בעיות סטנדרטיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">標準的問題</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/StandardSolvingInventiveProblems">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/StandardSolvingInventiveProblems">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Chuẩn để giải các bài toán sáng chế</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Estándares para resolver problemas inventivo</skos:prefLabel>
@@ -1673,8 +1673,8 @@
     <skos:prefLabel xml:lang="ua">Стандарт на розв’язання  винахiдницьких задач</skos:prefLabel>
     <skos:prefLabel xml:lang="he">סטנדרט לפתרון בעיות המצאתיות</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">標準解</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/StepBackFromIFR">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/StepBackFromIFR">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Bước lùi khỏi KLC (Kết quả lý tưởng cuối cùng)</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Korak unazad od IKR</skos:prefLabel>
@@ -1693,8 +1693,8 @@
     <skos:prefLabel xml:lang="ru">Шаг назад от ИКР</skos:prefLabel>
     <skos:prefLabel xml:lang="he">נסיגה מפתרון אידיאלי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">理想解から一歩後退</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuField">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuField">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Stoff-Feld</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Su-Field</skos:prefLabel>
@@ -1713,8 +1713,8 @@
     <skos:prefLabel xml:lang="by">Вэполь</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חומר-שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuFieldBreakup">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuFieldBreakup">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="pl">Burzenie wepola</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Destrucción de sustancia-campo</skos:prefLabel>
@@ -1733,8 +1733,8 @@
     <skos:prefLabel xml:lang="ua">Руйнування вiполю</skos:prefLabel>
     <skos:prefLabel xml:lang="he">שבירת נוסחת חומר-שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場モデルの分解</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuFieldDiagram">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuFieldDiagram">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="pt">Diagrama substância-campo</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Diagrama sustancia-Campo</skos:prefLabel>
@@ -1753,8 +1753,8 @@
     <skos:prefLabel xml:lang="by">Графічная выява вэполю</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תצוגה גראפית של חומר-שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場モデル</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuFieldFormula">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SuFieldFormula">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Công thức Vepol</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Formula Su-Field</skos:prefLabel>
@@ -1773,8 +1773,8 @@
     <skos:prefLabel xml:lang="by">Вэпольная формула</skos:prefLabel>
     <skos:prefLabel xml:lang="he">נוסחת חומר-שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場の公式</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Substance">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Substance">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Chất</skos:prefLabel>
     <skos:prefLabel xml:lang="cz">Látka</skos:prefLabel>
@@ -1793,8 +1793,8 @@
     <skos:prefLabel xml:lang="by">Рэчыва</skos:prefLabel>
     <skos:prefLabel xml:lang="he">חומר</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldAnalysis">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldAnalysis">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Analisi Su-Field</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Analiza Supstanca-Polje (Su-Polje)</skos:prefLabel>
@@ -1813,8 +1813,8 @@
     <skos:prefLabel xml:lang="by">Аналіз вэпольны (вэпаналіз)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">ניתוח חומר-שדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場分析（ＳＦ分析）</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldResources">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldResources">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Các nguồn dự trữ chất-trường</skos:prefLabel>
     <skos:prefLabel xml:lang="cz">Látkově-energetické zdroje</skos:prefLabel>
@@ -1833,8 +1833,8 @@
     <skos:prefLabel xml:lang="by">Рэчыўна-палявыя рэсурсы</skos:prefLabel>
     <skos:prefLabel xml:lang="he">משאבי חומר ושדה</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">物質・場資源</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemInventivePrinciples">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemInventivePrinciples">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Hệ thống các thủ thuật</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Kabuller sistemi (yaratıcı prensipler sistemi)</skos:prefLabel>
@@ -1853,8 +1853,8 @@
     <skos:prefLabel xml:lang="by">Сыстэма прыёмаў</skos:prefLabel>
     <skos:prefLabel xml:lang="he">מערכת תכסיסים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">発明原理体系</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemicOperator">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemicOperator">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="pt">Operador de sistema</skos:prefLabel>
     <skos:prefLabel xml:lang="es">Operador del sistema</skos:prefLabel>
@@ -1873,8 +1873,8 @@
     <skos:prefLabel xml:lang="ru">Оператор системный</skos:prefLabel>
     <skos:prefLabel xml:lang="he">מנגנון מערכתי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">システム・オペレータ</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="cz">TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TRIZ</skos:prefLabel>
@@ -1893,8 +1893,8 @@
     <skos:prefLabel xml:lang="by">ТРВЗ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">ТРИЗ</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ＴＲＩＺ</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalContradiction">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalContradiction">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionTypes"/>
     <skos:prefLabel xml:lang="it">Contraddizione tecnica</skos:prefLabel>
@@ -1914,8 +1914,8 @@
     <skos:prefLabel xml:lang="by">Супярэчнасьць тэхнічная</skos:prefLabel>
     <skos:prefLabel xml:lang="he">סתירה טכנולוגית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">技術的矛盾</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalSystem">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalSystem">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="vn">Hệ kỹ thuật</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Sistema tecnico</skos:prefLabel>
@@ -1934,8 +1934,8 @@
     <skos:prefLabel xml:lang="by">Сыстэма тэхнічная</skos:prefLabel>
     <skos:prefLabel xml:lang="he">מערכת טכנולוגית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">技術システム</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TheoryDevelopmentCreativePersonality">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TheoryDevelopmentCreativePersonality">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="by"> </skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Lý Thuyết Phát Triển Nhân Cách Sáng Tạo</skos:prefLabel>
@@ -1954,8 +1954,8 @@
     <skos:prefLabel xml:lang="ru">Теория Развития Творческой Личности (ТРТЛ)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">תיאורית התפתחות אישיות יצירתית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">創造的個性開発理論</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ThermalField">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/ThermalField">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Campo Termico</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Campo termico</skos:prefLabel>
@@ -1974,8 +1974,8 @@
     <skos:prefLabel xml:lang="by">Тэполь (ТЭмпература + ПОЛе)</skos:prefLabel>
     <skos:prefLabel xml:lang="he">נוסחת חומר-שדה עם שדה חום</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">温度の場</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Tool">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Tool">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Araç</skos:prefLabel>
     <skos:prefLabel xml:lang="vn">Công cụ</skos:prefLabel>
@@ -1994,8 +1994,8 @@
     <skos:prefLabel xml:lang="ru">Инструмент</skos:prefLabel>
     <skos:prefLabel xml:lang="he">כלי</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">ツール</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TypicalConflicts">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/TypicalConflicts">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Conflictos típicos de los sistemas</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Conflitos típicos</skos:prefLabel>
@@ -2014,8 +2014,8 @@
     <skos:prefLabel xml:lang="ru">Конфликты типовые</skos:prefLabel>
     <skos:prefLabel xml:lang="he">הניגודים האופייניים</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">典型的技術矛盾</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Void">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/Void">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="it">Assenza Strutturale</skos:prefLabel>
     <skos:prefLabel xml:lang="tr">Boşluk</skos:prefLabel>
@@ -2034,8 +2034,8 @@
     <skos:prefLabel xml:lang="ru">Пустота</skos:prefLabel>
     <skos:prefLabel xml:lang="he">ריק</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">空隙（ボイド）</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/WorthyGoal">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/WorthyGoal">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="tr">Değer amaç (uğruna değer amaç)</skos:prefLabel>
     <skos:prefLabel xml:lang="rs">Dostojan cilj</skos:prefLabel>
@@ -2054,8 +2054,8 @@
     <skos:prefLabel xml:lang="ru">Достойная цель</skos:prefLabel>
     <skos:prefLabel xml:lang="he">מטרה ערכית</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">意義ある目標</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
-  <tc:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/XElement">
+  </od:GSAThesaurusEntry>
+  <od:GSAThesaurusEntry rdf:about="http://opendiscovery.org/rdf/Concept/XElement">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="es">Elemento X</skos:prefLabel>
     <skos:prefLabel xml:lang="pt">Elemento X</skos:prefLabel>
@@ -2074,12 +2074,13 @@
     <skos:prefLabel xml:lang="by">Ікс-элемэнт</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Икс-элемент</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">Ｘ要素</skos:prefLabel>
-  </tc:GSAThesaurusEntry>
+  </od:GSAThesaurusEntry>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Thesaurus/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
     <dcterms:source rdf:resource="https://www.altshuller.ru/thesaur/thesaur.asp"/>
+    <rdfs:comment>2021-01-25 graebe: tc:GSAThesaurusEntry changed to od:GSAThesaurusEntry</rdfs:comment>
     <rdfs:comment>Thesaurus compiled from the List of terms on the Altshuller website</rdfs:comment>
     <rdfs:label>TRIZ Ontology Project - Thesaurus</rdfs:label>
   </owl:Ontology>

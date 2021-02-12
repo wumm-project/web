@@ -8,7 +8,7 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:tc="http://opendiscovery.org/rdf/Concept/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ARIZ-85c">
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ARIZ-85c">
     <od:VDIGlossaryDefinition xml:lang="en">Last variant of the algorithm of inventive problem solving authorised by G. Altshuller dated 1985.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Letzte von G. Altschuller 1985 freigegebene Variante des Algorithmus des erfinderischen Problemlösens.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Последний вариант алгоритма решения изобретательских задач, утвержденный Г. Альтшуллером 1985 г.</od:VDIGlossaryDefinition>
@@ -16,8 +16,8 @@
     <skos:prefLabel xml:lang="de">ARIZ-85C</skos:prefLabel>
     <skos:prefLabel xml:lang="en">ARIZ-85C</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">АРИЗ-85C</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AdministrativeContradiction">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AdministrativeContradiction">
     <od:VDIGlossaryDefinition xml:lang="en">Problem situation in which neither a contradiction nor a solution is evident.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Problemsituation, bei der weder ein Widerspruch noch eine Lösung erkennbar ist.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Проблемная ситуация, в которой не видно ни противоречия, ни решения.</od:VDIGlossaryDefinition>
@@ -25,8 +25,8 @@
     <skos:prefLabel xml:lang="en">administrative contradiction</skos:prefLabel>
     <skos:prefLabel xml:lang="de">administrativer Widerspruch</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">административное противоречие</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AlgorithmInventiveProblemSolving">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AlgorithmInventiveProblemSolving">
     <od:VDIGlossaryDefinition xml:lang="en">Algorithm for the solution of a problem with various TRIZ tools which intensifies the problem by reformulating it in a series of steps.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Vorgehensweise, in der ein Problem schrittweise umformuliert und dadurch verstärkt wird, um dieses mit verschiedenen TRIZ-Werkzeugen und -Methoden zu lösen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Алгоритм решения проблемы с помощью различных инструментов ТРИЗ, усиливая проблему и переформулируя ее в несколько этапов.</od:VDIGlossaryDefinition>
@@ -34,8 +34,8 @@
     <skos:prefLabel xml:lang="de">Algorithmus zur erfinderischen Problemlösung (ARIZ)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">algorithm of inventive problem solving (ARIZ)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Алгоритм Решения Изобретательских Задач (АРИЗ)</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AltshullerMatrix">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AltshullerMatrix">
     <od:VDIGlossaryDefinition xml:lang="en">39x39 contradiction matrix generalised technical parameters.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">39x39 матрица противоречий с обобщенными техническими параметрами.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Widerspruchsmatrix mit 39x39 abstrakten technischen Parametern.</od:VDIGlossaryDefinition>
@@ -46,8 +46,8 @@
     <skos:prefLabel xml:lang="en">Altshuller matrix</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Widerspruchsmatrix nach Altschuller</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Матрица Альтшуллера</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AnticipatoryFailureDetermination">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AnticipatoryFailureDetermination">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ method for identifying possible system failures, their causes and ways for failure elimination, which also includes failures unobserved so far, future failures, and failures with unknown causes.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur Identifikation möglicher Systemfehler, ihrer Ursachen und Beseitigungsmöglichkeiten, die auch bisher nicht beobachtete, zukünftige und schwer erklärbare Fehler einschließt.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для определения возможных сбоев системы, их причин и способов устранения, включая ненаблюдаемые до настоящего времени сбои, будущие сбои и сбои с неизвестными причинами.</od:VDIGlossaryDefinition>
@@ -55,8 +55,8 @@
     <skos:prefLabel xml:lang="de">Antizipierende Fehlererkennung (AFE)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">anticipatory failure determination (AFD)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Определение ожидаемого сбоя (AFD)</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CatalogueEffects">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CatalogueEffects">
     <od:VDIGlossaryDefinition xml:lang="en">Catalogue of physical, chemical, geometrical, biological, or other effects which may be selected and applied to solve physical contradictions and to fulfil functions.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Datenbank physikalischer, chemischer, geometrischer, biologischer oder anderer Effekte, die zur Überwindung von Widersprüchen und Erfüllung von Funktionen ausgewählt und angewendet werden können.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Каталог физических, химических, геометрических, биологических или других эффектов, которые могут быть выбраны и применены для разрешения физических противоречий и выполнения функций.</od:VDIGlossaryDefinition>
@@ -64,8 +64,8 @@
     <skos:prefLabel xml:lang="de">Effektedatenbank</skos:prefLabel>
     <skos:prefLabel xml:lang="en">catalogue of effects</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">каталог эффектов</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CauseEffectChainsAnalysis">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CauseEffectChainsAnalysis">
     <od:VDIGlossaryDefinition xml:lang="de">Analysemethode, mit der über die Bildung von Ursache-Wirkungs-Ketten die grundlegenden Ursachen für Nachteile eines technischen Systems identifiziert werden können.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Analysis method which permits identifying the basic causes for disadvantages of a technical system via cause-effect chains.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод анализа, позволяющий выявить основные причины недостатков технической системы с помощью причинно-следственных цепочек.</od:VDIGlossaryDefinition>
@@ -73,8 +73,8 @@
     <skos:prefLabel xml:lang="de">Ursachen-Wirkungs-Analyse</skos:prefLabel>
     <skos:prefLabel xml:lang="en">cause-effect-chains analysis (CECA)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">анализ причинно-следственных связей</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CauseEffectDiagram">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CauseEffectDiagram">
     <od:VDIGlossaryDefinition xml:lang="de">Modell eines Systems, das Ursache-Wirkungs-Beziehungen zwischen Funktionen, Komponenten, Ereignissen und Parametern des Systems oder seiner Komponenten und seiner Umgebung grafisch darstellt.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">System model which graphically represents cause-effect relations between functions, components, events, and parameters of the system and its environment</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Системная модель, которая графически представляет причинно-следственные связи между функциями, компонентами, событиями и параметрами системы и ее среды</od:VDIGlossaryDefinition>
@@ -82,8 +82,8 @@
     <skos:prefLabel xml:lang="de">Ursache-Wirkungs-Ketten-Modell</skos:prefLabel>
     <skos:prefLabel xml:lang="en">cause-effect diagram (cause-effect-chain diagram)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">причинно-следственная схема</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ClassicalTRIZ">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ClassicalTRIZ">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ methods and tools by G. Altshuller. founder of TRIZ</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methoden und -Werkzeuge, die auf den Begründer der TRIZ, G. Altschuller, zurückgehen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Методы и инструменты ТРИЗ разработанные Г. Альтшуллером, основателем ТРИЗ.</od:VDIGlossaryDefinition>
@@ -91,8 +91,8 @@
     <skos:prefLabel xml:lang="de">Klassische TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="en">classical TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">классический ТРИЗ</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Contradiction">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Contradiction">
     <od:VDIGlossaryDefinition xml:lang="en">Situation at which two contrary demands to a system have to be met.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Situation, in der zwei konträre Anforderungen an ein System erfüllt werden müssen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Ситуация, когда необходимо выполнить два противоположных требования к системе.</od:VDIGlossaryDefinition>
@@ -103,8 +103,8 @@
     <skos:prefLabel xml:lang="de">Widerspruch</skos:prefLabel>
     <skos:prefLabel xml:lang="en">contradiction</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">противоречие</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionMatrix">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionMatrix">
     <od:VDIGlossaryDefinition xml:lang="de">Tabelle, die zu technischen Widersprüchen zwischen häufig auftretenden abstrakten technischen Parametern eine Auswahl von Innovationsprinzipien empfiehlt.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Table which recommends a selection of inventive principles to engineering contradictions between common generalised engineering parameters.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Таблица, которая рекомендует выбор изобретательских принципов для противоречий между обобщенными техническими параметрами.</od:VDIGlossaryDefinition>
@@ -112,8 +112,8 @@
     <skos:prefLabel xml:lang="de">Widerspruchsmatrix (Widerspruchstabelle)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">contradiction matrix</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">матрица противоречий</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Disadvantage">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Disadvantage">
     <od:VDIGlossaryDefinition xml:lang="en">Undesired property of a technical system or process.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Unerwünschte Eigenschaft eines technischen Systems oder Prozesses.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Нежелательное свойство технической системы или процесса.</od:VDIGlossaryDefinition>
@@ -121,8 +121,8 @@
     <skos:prefLabel xml:lang="de">Nachteil</skos:prefLabel>
     <skos:prefLabel xml:lang="en">disadvantage</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">недостаток</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FeatureTransfer">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FeatureTransfer">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ method for improving a technical system which uses transferring properties, characteristics, or features from an alternative technical system to the one examined.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur Verbesserung eines technischen Systems, bei der Eigenschaften, Charakteristika oder Merkmale von einem alternativen technischen System auf das betrachtete übertragen werden.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для улучшения технической системы, которая использует передачу свойств, характеристик или особенности альтернативной технической системы в исследуемую.</od:VDIGlossaryDefinition>
@@ -130,8 +130,8 @@
     <skos:prefLabel xml:lang="de">Feature Transfer</skos:prefLabel>
     <skos:prefLabel xml:lang="en">feature transfer</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">передача функций</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Field">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Field">
     <od:VDIGlossaryDefinition xml:lang="en">Effect onto an object which influences, i.e. changes or maintains, properties of the object.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Wirkung auf ein Objekt, die Eigenschaften des Objekts beeinflusst, d.h. ändert oder konstant hält.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Воздействие на объект, которое влияет, то есть изменяет или поддерживает свойства объекта.</od:VDIGlossaryDefinition>
@@ -145,8 +145,8 @@
     <skos:prefLabel xml:lang="de">Feld</skos:prefLabel>
     <skos:prefLabel xml:lang="en">field</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">поле</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Forecasting">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Forecasting">
     <od:VDIGlossaryDefinition xml:lang="en">Procedure to forecast the evolution of technical systems with TRIZ methods.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Vorgehensweise zur Vorhersage der Evolution technischer Systeme mit TRIZ-Methoden.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Процедура прогнозирования развития технических систем с использованием методов ТРИЗ.</od:VDIGlossaryDefinition>
@@ -154,8 +154,8 @@
     <skos:prefLabel xml:lang="en">TRIZ forecasting</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Vorhersage</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">прогнозирование ТРИЗ</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Function">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Function">
     <od:VDIGlossaryDefinition xml:lang="en">Effect from a system or a system component upon one or more others which changes, eliminates, or maintains a parameter of the other component or system.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Wirkung eines Systems oder einer Systemkomponente auf andere, welche dort einen Parameter verändert, eliminiert oder erhält.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Эффект системы или системного компонента на один или несколько других, который изменяет, исключает или поддерживает параметр другого компонента или системы. </od:VDIGlossaryDefinition>
@@ -163,8 +163,8 @@
     <skos:prefLabel xml:lang="de">Funktion</skos:prefLabel>
     <skos:prefLabel xml:lang="en">function</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">функция</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FunctionAnalysis">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FunctionAnalysis">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ method for the analysis of a system or its environment by means of a function model.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur Analyse eines Systems oder seiner Umgebung mithilfe eines Funktionsmodells.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для анализа системы или ее среды с помощью функциональной модели.</od:VDIGlossaryDefinition>
@@ -172,8 +172,8 @@
     <skos:prefLabel xml:lang="de">Funktionsanalyse</skos:prefLabel>
     <skos:prefLabel xml:lang="en">function analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">анализ функций</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FunctionModel">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FunctionModel">
     <od:VDIGlossaryDefinition xml:lang="en">Model of a technical system which represents the components of the technical system and of the system's environment together with their functional relations in graphical, tabular, or other forms.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Modell eines technischen Systems, das die Komponenten des technischen Systems und seiner Umgebung mit ihren funktionalen Beziehungen grafisch, tabellarisch oder in anderer Weise darstellt. </od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Модель технической системы, которая представляет компоненты технической системы и надсистемы вместе с их функциональными отношениями в графическом, табличном, или ином виде. </od:VDIGlossaryDefinition>
@@ -181,8 +181,8 @@
     <skos:prefLabel xml:lang="de">Funktionsmodell</skos:prefLabel>
     <skos:prefLabel xml:lang="en">function model</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">функциональная модель</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealFinalResult">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealFinalResult">
     <od:VDIGlossaryDefinition xml:lang="en">Model of the best solution of an inventory problem</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Modell der besten Lösung eines erfinderischen Problems</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Модель наилучшего решения изобретательской проблемы</od:VDIGlossaryDefinition>
@@ -193,8 +193,8 @@
     <skos:prefLabel xml:lang="en">Ideal Final Result (IFR)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Ideales Endresultat (IER)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">идеальный конечный результат (ИКР)</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealTechnicalSystem">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/IdealTechnicalSystem">
     <od:VDIGlossaryDefinition xml:lang="en">Technical system which fulfils the main useful function without existing by itself and without any harmful side effects.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Technisches System, das die nützliche Hauptfunktion zur Verfüung stellt, ohne selbst zu existieren und ohne schädliche Nebenwirkungen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Техническая система, которая выполняет основную полезную функцию, не существуя сама по себе и без каких-либо вредных побочных эффектов.</od:VDIGlossaryDefinition>
@@ -205,8 +205,8 @@
     <skos:prefLabel xml:lang="de">Ideales technisches System</skos:prefLabel>
     <skos:prefLabel xml:lang="en">ideal technical system</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">идеальная техническая система</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Ideality">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Ideality">
     <od:VDIGlossaryDefinition xml:lang="en">dimensionless ratio of benefit and expenses</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">dimensionsloser Quotient aus Nutzen und Aufwand</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">безразмерное соотношение выгод и расходов</od:VDIGlossaryDefinition>
@@ -217,8 +217,8 @@
     <skos:prefLabel xml:lang="de">Idealität</skos:prefLabel>
     <skos:prefLabel xml:lang="en">ideality</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">идеальность</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InnovationChecklist">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InnovationChecklist">
     <od:VDIGlossaryDefinition xml:lang="en">Collection of questions and directives which help to analyse the situation of the innovation problem.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Sammlung von Fragen und Anweisungen, um die Innovationssituation kennenzulernen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Сборник вопросов и директив, помогающих проанализировать ситуацию с инновационной проблемой.</od:VDIGlossaryDefinition>
@@ -229,8 +229,8 @@
     <skos:prefLabel xml:lang="de">Innovations-Checkliste</skos:prefLabel>
     <skos:prefLabel xml:lang="en">innovation checklist</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">контрольный список инноваций</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventivePrinciples">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventivePrinciples">
     <od:VDIGlossaryDefinition xml:lang="en">Basic solutions for technical problems.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Prinzipien zur Lösungen technischer Probleme.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Основы решения технических проблем.</od:VDIGlossaryDefinition>
@@ -241,8 +241,8 @@
     <skos:prefLabel xml:lang="de">erfinderische Prinzipien</skos:prefLabel>
     <skos:prefLabel xml:lang="en">inventive principles</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">изобретательские принципы</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblem">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblem">
     <od:VDIGlossaryDefinition xml:lang="de">Aufgabenstellung, welche die Konzeption eines neuartigen technischen Systems verlangt, um eine Struktur zu realisieren oder eine Funktion zu erfüllen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Problem requiring the conception of a completely or partially new system in order to implement a structure or fulfil a function.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Проблема, требующая концепции полностью или частично новой системы для реализации структуры или выполнения функции.</od:VDIGlossaryDefinition>
@@ -256,8 +256,8 @@
     <skos:prefLabel xml:lang="de">erfinderisches Problem</skos:prefLabel>
     <skos:prefLabel xml:lang="en">inventive problem</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">изобретательская проблема</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblemSolving">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveProblemSolving">
     <od:VDIGlossaryDefinition xml:lang="en">Process of problem solving which produces novel solutions not apparent to the expert by the state of the art and which are considered as novelty.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Vorgehen zum Lösen eines Problems unter Entwicklung von Lösungen, die sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergeben und damit als neuartig gelten.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Процесс решения проблем, который приводит к новым решениям, не очевидным для специалиста в данной области техники и которые рассматриваются как новизна.</od:VDIGlossaryDefinition>
@@ -265,8 +265,8 @@
     <skos:prefLabel xml:lang="de">erfinderische Problemlösung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">inventive problem solving</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">решение изобретательских задач</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveStandard">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InventiveStandard">
     <od:VDIGlossaryDefinition xml:lang="de">Allgemeines Muster für die Änderung der Stoff-Feld-Struktur eines technischen Systems zur Problemlösung.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">General directive for the modification of a substance-field structure for problem solution</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Общая директива для модификации структуры вещества-поля для решения проблемы.</od:VDIGlossaryDefinition>
@@ -274,8 +274,8 @@
     <skos:prefLabel xml:lang="de">Standardlösung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">inventive standard</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">изобретательский стандарт</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution">
     <od:VDIGlossaryDefinition xml:lang="de">Allgemeine Muster, die die Evolution aller Arten technischer Systeme beschreiben. </od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">General patterns which describe the evolution of all kinds of technical systems.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Общие схемы, которые описывают эволюцию всех видов технических систем. </od:VDIGlossaryDefinition>
@@ -286,8 +286,8 @@
     <skos:prefLabel xml:lang="de">Gesetze der Evolution technischer Systeme</skos:prefLabel>
     <skos:prefLabel xml:lang="en">laws of engineering systems evolution</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Законы эволюции технических систем</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/LevelInvention">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/LevelInvention">
     <od:VDIGlossaryDefinition xml:lang="en">Characteristic number for the assessment of the intellectual level of an invention compared to the state of the art at the time of the invention.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Kennzahl zur Bewertung der Erfindungshöhe auf Basis des zum Zeitpunkt der Erfindung existierenden Stands der Technik.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Характерное число для оценки интеллектуального уровня изобретения по сравнению с современным уровнем на момент изобретения.</od:VDIGlossaryDefinition>
@@ -295,8 +295,8 @@
     <skos:prefLabel xml:lang="de">Erfindungsniveau</skos:prefLabel>
     <skos:prefLabel xml:lang="en">level of invention</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">уровень изобретательности</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Method">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Method">
     <od:VDIGlossaryDefinition xml:lang="de">Ablauf der Anwendung eines oder mehrerer TRIZ-Werkzeuge.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Way of application of one or more TRIZ tools.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Способ применения одного или нескольких инструментов ТРИЗ.</od:VDIGlossaryDefinition>
@@ -304,8 +304,8 @@
     <skos:prefLabel xml:lang="en">TRIZ method</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Methode</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">метод ТРИЗ</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ModelSmartLittlePeople">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ModelSmartLittlePeople">
     <od:VDIGlossaryDefinition xml:lang="en">Model for system analysis and for idea creation in which the system and possible solutions are represented by the actions of elements (so called little people, also known as dwarfs) who can possess any ability and perform any desired behaviour.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Modell zur Analyse eines Systems und zur Ideenfindung durch die Darstellung des Systems und möglicher Lösungen in Form von Elementen (sogenannten Zwergen), die beliebige gewünschte Eigenschaften besitzen und beliebiges Verhalten zeigen können.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Модель для системного анализа и создания идеи, в которой система и возможные решения представлены действиями элементов (так называемые маленькие люди, также известный как гномы), которые могут обладать любой способностью и показать любое желаемое поведение.</od:VDIGlossaryDefinition>
@@ -313,8 +313,8 @@
     <skos:prefLabel xml:lang="de">Zwergemodell</skos:prefLabel>
     <skos:prefLabel xml:lang="en">smart-little-people model</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">модель умных маленьких людей</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Operator">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Operator">
     <od:VDIGlossaryDefinition xml:lang="en">Directive for generation or specification of a solution.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Handlungsanweisung zum Generieren oder Konkretisieren einer Lösung.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Директива для генерации или спецификации решения.</od:VDIGlossaryDefinition>
@@ -322,8 +322,8 @@
     <skos:prefLabel xml:lang="de">Operator</skos:prefLabel>
     <skos:prefLabel xml:lang="en">operator</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">оператор</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperatorSizeTimeCost">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperatorSizeTimeCost">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ method for overcoming the inventor's psychological bias by means of a thought experiment which varies system properties related to dimensions, time, and tost to their extremes.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode, welche die mentale Voreingenommenheit durch ein Gedankenexperiment mit extremer Variation der System- oder Prozesseigenschaften Maße, Zeit und Kosten überwindet.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для преодоления психологического смещения изобретателя с помощью мысленного эксперимента, который изменяет свойства системы, связанные с размерами, временем и стоимостью крайным способом </od:VDIGlossaryDefinition>
@@ -331,8 +331,8 @@
     <skos:prefLabel xml:lang="de">Operator MZK</skos:prefLabel>
     <skos:prefLabel xml:lang="en">size-time-cost operator</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">оператор размера-времени-стоимости</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalContradiction">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalContradiction">
     <od:VDIGlossaryDefinition xml:lang="en">Situation which requires a parameter to take opposing values in order to meet contradictory demands to a system.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Situation, in der ein Parameter entgegengesetzte Werte annehmen muss, um widersprüchliche Anforderungen an das System zu erfüllen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Ситуация, в которой требуется, чтобы параметр принимал противоположные значения для удовлетворения противоречивых требований к системе.</od:VDIGlossaryDefinition>
@@ -340,8 +340,8 @@
     <skos:prefLabel xml:lang="en">physical contradiction</skos:prefLabel>
     <skos:prefLabel xml:lang="de">physikalischer Widerspruch</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">физическое противоречие</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrinciplesSeparatingContradictoryDemands">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrinciplesSeparatingContradictoryDemands">
     <od:VDIGlossaryDefinition xml:lang="de">Lösungprinzipien für physikalische Widersprüche, die die geforderten widersprüchlichen Anforderungen durch deren Aufteilung (Separation) erfüllen.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Principles for the solution of physical contradictions which meet the contradictory demands by their separation.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Принципы решения физических противоречий, которые удовлетворяют противоречивые требования путем их разделения.</od:VDIGlossaryDefinition>
@@ -349,8 +349,8 @@
     <skos:prefLabel xml:lang="de">Separationsprinzipien</skos:prefLabel>
     <skos:prefLabel xml:lang="en">principles of separating contradictory demands</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">принципы разделения противоречивых требований</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ProblemFormulation">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ProblemFormulation">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ method for analysing a system and its environment by means of a special cause-and-effect chain model.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur Analyse eines Systems und seiner Umgebung mittels eines speziellen Ursache-Wirkungs-Ketten-Modells.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для анализа системы и ее среды с помощью специальной модели причинно-следственной цепочки.</od:VDIGlossaryDefinition>
@@ -358,8 +358,8 @@
     <skos:prefLabel xml:lang="de">Problemformulierung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">problem formulation</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">постановка проблемы</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PsychologicalInertia">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PsychologicalInertia">
     <od:VDIGlossaryDefinition xml:lang="en">A person's inability to find a solution to a problem outside of his mental focusing affected by personal experience, knowledge, associations, etc.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Unfähigkeit einer Person, außerhalb ihrer mentalen Ausrichtung (geprägt durch persönliche Erfahrungen, Wissen und Assoziationen usw.) eine Lösung für eine Aufgabe zu finden.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Неспособность человека найти решение проблемы вне его психической сосредоточенности, на которую влияют личный опыт, знания, ассоциации и т. д.</od:VDIGlossaryDefinition>
@@ -367,8 +367,8 @@
     <skos:prefLabel xml:lang="en">psychological inertia</skos:prefLabel>
     <skos:prefLabel xml:lang="de">psychologische Trägheit</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">психологическая инерция</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Resource">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Resource">
     <od:VDIGlossaryDefinition xml:lang="en">Mean suitable for the solution of a problem.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Mittel, das zur Lösung eines Problems genutzt werden kann.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Средство, подходящее для решения проблемы.</od:VDIGlossaryDefinition>
@@ -379,8 +379,8 @@
     <skos:prefLabel xml:lang="de">Ressource</skos:prefLabel>
     <skos:prefLabel xml:lang="en">resource</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">ресурс</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ResourceAnalysis">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ResourceAnalysis">
     <od:VDIGlossaryDefinition xml:lang="en">Search for and description of available and developable resources in the system itself and its environment.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Suche nach und Beschreibung von vorhandenen und entwickelbaren Ressourcen im System und seiner Umgebung.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Поиск и описание доступных и развиваемых ресурсов в самой системе и ее среде.</od:VDIGlossaryDefinition>
@@ -388,8 +388,8 @@
     <skos:prefLabel xml:lang="de">Ressourcenanalyse</skos:prefLabel>
     <skos:prefLabel xml:lang="en">resource analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">анализ ресурсов</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/RootConflictAnalysis">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/RootConflictAnalysis">
     <od:VDIGlossaryDefinition xml:lang="en">Cause-effect-chains analysis which permits complete identification of contradictions.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Ursachen-Wirkungs-Analyse, welche die vollständige Identifikation von Widersprüchen erlaubt.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Анализ причинно-следственных связей, который позволяет полностью выявить противоречия.</od:VDIGlossaryDefinition>
@@ -397,8 +397,8 @@
     <skos:prefLabel xml:lang="de">Root-Conflict-Analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="en">root-conflict-analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">анализ корневых конфликтов</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ScurveAnalysis">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ScurveAnalysis">
     <od:VDIGlossaryDefinition xml:lang="de">Abschätzung des Weiterentwicklungspotenzials eines technischen Systems oder einer Technologie durch Bestimmen seiner/ihrer aktuellen Position auf der S-Kurve der technischen Evolution.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Estimation of the potential future evolution of a system or a technology by determining its current position on the S curve of technical evolution.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Оценка потенциального будущего развития технической системы или технологии путем определения ее текущего положения на S-кривой технического развития.</od:VDIGlossaryDefinition>
@@ -406,8 +406,8 @@
     <skos:prefLabel xml:lang="de">S-Kurven-Analyse</skos:prefLabel>
     <skos:prefLabel xml:lang="en">s-curve analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">анализ s-кривой</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ScurveTechnicalEvolution">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ScurveTechnicalEvolution">
     <od:VDIGlossaryDefinition xml:lang="de">S-förmige Kurve, die den Verlauf eines nützlichen Systemparameters über die Zeit darstellt und typische Entwicklungsphasen beinhaltet.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">S-shaped curve which depicts the trend of a useful system parameter over time and features typical development phases.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">S-образная кривая, которая отображает тенденцию изменения полезного параметра системы во времени и имеет типичные фазы развития.</od:VDIGlossaryDefinition>
@@ -418,8 +418,8 @@
     <skos:prefLabel xml:lang="de">S-Kurve der technischen Entwicklung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">S-образная кривая технического развития</skos:prefLabel>
     <skos:prefLabel xml:lang="en">s-curve of technical evolution</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Substance">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Substance">
     <od:VDIGlossaryDefinition xml:lang="en">mass-bound object</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">massebehaftetes Objekt</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">объект с массой</od:VDIGlossaryDefinition>
@@ -430,8 +430,8 @@
     <skos:prefLabel xml:lang="de">Stoff</skos:prefLabel>
     <skos:prefLabel xml:lang="en">substance</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">вещество</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldAnalysis">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldAnalysis">
     <od:VDIGlossaryDefinition xml:lang="en">Abstract representation of a problem situation by means of a substance-field-model.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur abstrahierten Darstellung einer Problemsituation mittels eines Stoff-Feld-Modells.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Абстрактное представление проблемной ситуации с помощью вепольной модели.</od:VDIGlossaryDefinition>
@@ -439,8 +439,8 @@
     <skos:prefLabel xml:lang="de">Stoff-Feld-Analyse</skos:prefLabel>
     <skos:prefLabel xml:lang="en">substance-field (su-field) analysis</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">вещество-полевой (вепольный) анализ</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldModel">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SubstanceFieldModel">
     <od:VDIGlossaryDefinition xml:lang="en">Abstract graphical representation of a problem situation or a problem solution (e.g. many standard solutions) using substances and fields as elements.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Abstrakte grafische Darstellung einer Problemsituation oder einer Problemlösung (z.B. viele Standardlösungen) mittels Stoffen und Feldern.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Абстрактное графическое представление проблемной ситуации или решения проблемы (например, множество стандартных решений) используя вещества и поля в качестве элементов.</od:VDIGlossaryDefinition>
@@ -448,8 +448,8 @@
     <skos:prefLabel xml:lang="de">Stoff-Feld-Modell</skos:prefLabel>
     <skos:prefLabel xml:lang="en">substance-field (su-field) model</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">вещество-полевая (вепольная) модель</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Subsystem">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Subsystem">
     <od:VDIGlossaryDefinition xml:lang="en">Subordinate system which is part of the examined system.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Untergeordnetes System, das Teil des betrachteten Systems ist.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Подсистема, которая является частью рассматриваемой системы.</od:VDIGlossaryDefinition>
@@ -457,8 +457,8 @@
     <skos:prefLabel xml:lang="de">Untersystem</skos:prefLabel>
     <skos:prefLabel xml:lang="en">subsystem</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">подсистема</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Supersystem">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Supersystem">
     <od:VDIGlossaryDefinition xml:lang="en">Superior system that contains the examined system as component.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Übergeordnetes System, welches das betrachtete System beinhaltet.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Надсистема, которая содержит исследуемую систему как компонент.</od:VDIGlossaryDefinition>
@@ -466,8 +466,8 @@
     <skos:prefLabel xml:lang="de">Obersystem</skos:prefLabel>
     <skos:prefLabel xml:lang="en">supersystem</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">надсистема</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemInventiveStandards">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemInventiveStandards">
     <od:VDIGlossaryDefinition xml:lang="en">Classification of 76 standard solutions, grouped into five classes of typical problems.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Systematik von 76 Standardlösungen, die in fünf problembezogene Klassen eingeteilt sind.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Классификация 76 стандартных приёмов, сгруппированных в пять классов типичных проблем.</od:VDIGlossaryDefinition>
@@ -475,8 +475,8 @@
     <skos:prefLabel xml:lang="de">System der Standardlösungen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">system of inventive standards</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">система изобретательских стандартов</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemicOperator">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemicOperator">
     <od:VDIGlossaryDefinition xml:lang="de">Schema zur Analyse eines Systems, zur Problemlösung und zur Abschätzung seiner zukünftigen Weiterentwicklung.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Scheme for system analysis or for problem solution and for estimation of the future system evolution.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Схема для анализа системы или для решения проблемы и для оценки будущего развития системы.</od:VDIGlossaryDefinition>
@@ -487,8 +487,8 @@
     <skos:prefLabel xml:lang="de">System-Operator</skos:prefLabel>
     <skos:prefLabel xml:lang="en">system operator</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">системный оператор</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
     <od:VDIGlossaryDefinition xml:lang="en">Scientific and application-oriented discipline which comprises studying directions of engineering systems evolution and the process of inventive problem solving in order to develop methods and tools to support innovative improvement of engineering systems based on a systematic and knowledge-based approach.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Wissenschaftliche und anwendungsorientierte Disziplin, welche die Entwicklung technischer Systeme sowie den Prozess erfinderischer Problemlösung untersucht, um systematische und wissensbasierte Methoden und Werkzeuge zur Unterstützung der innovativen Verbesserung technischer Systeme zu entwickeln.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Научная и прикладная дисциплина, которая включает в себя изучение направлений эволюции инженерных систем и процесса решения изобретательских задач с целью разработки методов и инструментов поддерживать которые поддерживают инновационное совершенствование инженерных систем на основе системного подхода, основанного на научных методах.</od:VDIGlossaryDefinition>
@@ -502,8 +502,8 @@
     <skos:prefLabel xml:lang="de">TRIZ (Theorie des erfinderischen Problemlösens)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TRIZ (theory of inventive problem solving, TIPS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">ТРИЗ (Теория Решения Изобретательских Задач)</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalContradiction">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalContradiction">
     <od:VDIGlossaryDefinition xml:lang="en">Situation at which solution of the problem one parameter (first target parameter) is to be improved but worsening another parameter (second target parameter) of the same system.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Situation, in der zur Lösung eines Problems ein Parameter (Zielgröße) verbessert wird, aber sich dadurch ein anderer Parameter (andere Zielgröße) desselben Systems inakzeptabel verschlechtert.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Ситуация, при которой один параметр (первый целевой параметр) улучшается, но ухудшается другой параметр (второй целевой параметр) той же системы не допускаемым путем.</od:VDIGlossaryDefinition>
@@ -511,8 +511,8 @@
     <skos:prefLabel xml:lang="de">Technischer Widerspruch</skos:prefLabel>
     <skos:prefLabel xml:lang="en">engineering contradiction</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">техническое противоречие</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalSystem">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalSystem">
     <od:VDIGlossaryDefinition xml:lang="en">Man-made assembly of several interacting elements which meets a purpose.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Menschengemachte Gesamtheit aus mehreren miteinander wechselwirkenden Elementen, die einen Zweck erfüllt.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Искусственная сборка из нескольких взаимодействующих элементов, которая преследует цель.</od:VDIGlossaryDefinition>
@@ -520,8 +520,8 @@
     <skos:prefLabel xml:lang="de">Technisches System</skos:prefLabel>
     <skos:prefLabel xml:lang="en">engineering system</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">техническая система</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TheInventivePrinciples">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TheInventivePrinciples">
     <od:VDIGlossaryDefinition xml:lang="en">Last collection of Inventive Principles authorised by G. Altshuller as published in (Altshuller,Sludyak,Rodman 1997).</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Letzte von G. Altschuller autorisierte Sammlung von Innovationsprinzipien, wie in (Altshuller, Sludyak, Rodman 1997) veröffentlicht.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Последняя коллекция изобретательских принципов, утвержденных Г. Альтшуллером, как опубликовано в (Altshuller, Sludyak, Rodman 1997).</od:VDIGlossaryDefinition>
@@ -529,8 +529,8 @@
     <skos:prefLabel xml:lang="de">40 Innovationsprinzipien</skos:prefLabel>
     <skos:prefLabel xml:lang="en">40 inventive principles</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">40 изобретательских принципов</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Tool">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Tool">
     <od:VDIGlossaryDefinition xml:lang="en">Element of TRIZ for processing inventory problems.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">Element von TRIZ zur Bearbeitung erfinderischer Aufgaben.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Элемент ТРИЗ для обработки изобретательских задач.</od:VDIGlossaryDefinition>
@@ -538,8 +538,8 @@
     <skos:prefLabel xml:lang="en">TRIZ tool</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ-Werkzeug</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">инструмент ТРИЗ</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
-  <tc:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Trimming">
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Trimming">
     <od:VDIGlossaryDefinition xml:lang="en">TRIZ method for increasing ideality of a technical system by means of elimination of single components.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur Erhöhung der Idealität eines technischen Systems durch Elimination einzelner Komponenten.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для повышения идеальности технической системы за счет устранения отдельных компонент.</od:VDIGlossaryDefinition>
@@ -550,7 +550,7 @@
     <skos:prefLabel xml:lang="de">Trimmen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">trimming</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">обрезка</skos:prefLabel>
-  </tc:VDIGlossaryEntry>
+  </od:VDIGlossaryEntry>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/VDI-Glossary/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
@@ -558,6 +558,7 @@
     <rdfs:comment>2019-07-08 graebe: Extracted and transformed from the VDI standard</rdfs:comment>
     <rdfs:comment>2019-10-28 graebe: Adjusted to the new general standard</rdfs:comment>
     <rdfs:comment>2020-12-26 graebe: skos:definition, skos:note and skos:example changed to narrower predicates</rdfs:comment>
+    <rdfs:comment>2021-01-25 graebe: tc:VDIGlossaryEntry changed to od:VDIGlossaryEntry</rdfs:comment>
     <rdfs:label>TRIZ VDI-Glossary</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>
