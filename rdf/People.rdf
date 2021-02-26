@@ -537,6 +537,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dongyan_S">
     <foaf:name>Shi Dongyan</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dou_EX">
+    <foaf:affil xml:lang="en">Peking, PR China</foaf:affil>
+    <foaf:name>Dou Erxiang</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Doubrov_VY">
     <foaf:name>V.Yu. Doubrov</foaf:name>
   </foaf:Person>
@@ -571,7 +575,7 @@
     <foaf:name>Jamal Echaabi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Eckardt_O">
-    <foaf:affil>Wilo, Dortmund, Germany</foaf:affil>
+    <foaf:affil>Wilo SE, Sparkling Spring GmbH, Germany</foaf:affil>
     <foaf:name>Olga Eckardt</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Eidloth_R">
@@ -740,6 +744,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gawdzinska_K">
     <foaf:name>Katarzyna Gawdzińska</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gekeler_M">
+    <foaf:affil>ZMI Strategy Consulting, Germany</foaf:affil>
+    <foaf:name>Moritz Gekeler</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gerasimov_OM">
     <foaf:affil>St. Petersburg, Russia</foaf:affil>
@@ -970,6 +978,7 @@
     <foaf:name>Morgan Hunt</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Iarossi_M">
+    <foaf:affil>Redshift Consulting, Australia</foaf:affil>
     <foaf:name>Michael Iarossi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ikovenko_SA">
@@ -1356,6 +1365,10 @@
     <foaf:fullname xml:lang="ru">Кулаков К.Э.</foaf:fullname>
     <foaf:name>K.E. Kulakov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N">
+    <foaf:affil>Sarawak, Malaysia</foaf:affil>
+    <foaf:name>Narayanan Kulathuramaiyer</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kurgi_EE">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Курги Эдуард Эйнович</foaf:fullname>
@@ -1410,6 +1423,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lasota_M">
     <foaf:affil>Novismo, Poland</foaf:affil>
     <foaf:name>Maciej Lasota</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Laue_R">
+    <foaf:affil>Zwickau, Germany</foaf:affil>
+    <foaf:name>Ralf Laue</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lautenschlaeger_S">
     <foaf:affil>Leipzig University, Germany</foaf:affil>
@@ -1519,12 +1536,16 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_A">
     <foaf:name>Alp Lin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_SJ">
+    <foaf:affil xml:lang="en">Taiwan, China</foaf:affil>
+    <foaf:name>Show-Jane Lin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_Y">
     <foaf:affil>Peoples Republic of China</foaf:affil>
     <foaf:name>Yue Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_YJ">
-    <foaf:affil xml:lang="en">Minghsin University, Professor, TRIZ trainer</foaf:affil>
+    <foaf:affil xml:lang="en">Minghsin University, Taiwan, China</foaf:affil>
     <foaf:name>Youn-Jan Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Linkova_NP">
@@ -1605,6 +1626,10 @@
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-2368-6821"/>
     <foaf:affil>Bolzano, Italy</foaf:affil>
     <foaf:name>Lorenzo Maccioni</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Maddalena_R">
+    <foaf:affil>ZMI Strategy Consulting, Germany</foaf:affil>
+    <foaf:name>Roberta Maddalena</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Magidenko_VY">
     <foaf:affil>Russia</foaf:affil>
@@ -1776,6 +1801,10 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">М.Н. Могилина</foaf:fullname>
     <foaf:name>M.N. Mogilina</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mohd-Nor_R">
+    <foaf:affil>Sarawak, Malaysia</foaf:affil>
+    <foaf:name>Rohaya Mohd-Nor</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mosman_P">
     <foaf:affil>Krasnoyarsk, Russia</foaf:affil>
@@ -1983,6 +2012,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_D">
     <foaf:name>Dmitrij Petrov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_De">
+    <foaf:affil>Kazakhstan</foaf:affil>
+    <foaf:name>Denys Petrov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_PA">
     <foaf:affil>Moscow, Russia</foaf:affil>
@@ -2278,6 +2311,10 @@
     <foaf:affil>Second Negation, Berlin, Germany</foaf:affil>
     <foaf:name>Justus Schollmeyer</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schueler-Hainsch_E">
+    <foaf:affil>ZMI Strategy Consulting, Germany</foaf:affil>
+    <foaf:name>Eckhard Schueler-Hainsch</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schusterman_MN">
     <foaf:affil>Norilsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Шустерман Михаил Наумович</foaf:fullname>
@@ -2560,6 +2597,10 @@
     <foaf:fullname xml:lang="ru">Ступникер Юрий Иосифович</foaf:fullname>
     <foaf:name>Yuri Stupniker</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Suaidi_MK">
+    <foaf:affil>Sarawak, Malaysia</foaf:affil>
+    <foaf:name>Mohamad Kadim Suaidi</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sun_JG">
     <foaf:affil>Tianjin, China</foaf:affil>
     <foaf:name>Jianguang Sun</foaf:name>
@@ -2771,6 +2812,10 @@
     <foaf:affil>Harbin, PR China</foaf:affil>
     <foaf:name>Wang Tian</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_WF">
+    <foaf:affil xml:lang="en">Tianjin, PR China</foaf:affil>
+    <foaf:name>Wang Wenfu</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_WL">
     <foaf:name>Wenlong Wang</foaf:name>
   </foaf:Person>
@@ -2953,6 +2998,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_P">
     <foaf:name>Peng Zhang</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_T">
+    <foaf:affil xml:lang="en">Chongqing, PR China</foaf:affil>
+    <foaf:name>Zhang Ting</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_W">
     <foaf:affil>Tsinghua University, China</foaf:affil>
     <foaf:name>Wucheng Zhang</foaf:name>
@@ -2999,6 +3048,10 @@
     <foaf:affil>Northeastern University, Shenyang, PR China</foaf:affil>
     <foaf:name>Zhong Yingb</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_ZL">
+    <foaf:affil xml:lang="en">Hubei, PR China</foaf:affil>
+    <foaf:name>Zhou Zaolin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhuckov_RF">
     <foaf:name>R.F. Zhuckov</foaf:name>
   </foaf:Person>
@@ -3031,5 +3084,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zusman_AV">
     <foaf:fullname xml:lang="ru">Зусман Алла Вениаминовна</foaf:fullname>
     <foaf:name>Alla V. Zusman</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/deSaeger_I">
+    <foaf:affil xml:lang="en">P41, Belgium</foaf:affil>
+    <foaf:name>Ives de Saeger</foaf:name>
   </foaf:Person>
 </rdf:RDF>

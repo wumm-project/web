@@ -6,6 +6,7 @@ people:
 	rapper -g ../../RDFData/AllMATRIZCertificates.ttl -o rdfxml-abbrev >AllMATRIZCertificates.rdf
 
 conferences:
+	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2021.ttl -o rdfxml-abbrev >BusinessTRIZ-2021.rdf
 	rapper -g ../../RDFData/ConferenceSeries.ttl -o rdfxml-abbrev >ConferenceSeries.rdf
 	rapper -g ../../RDFData/PastConferences.ttl -o rdfxml-abbrev >PastConferences.rdf
 	rapper -g ../../RDFData/Conferences/MTC-2020.ttl -o rdfxml-abbrev >MTC-2020.rdf
