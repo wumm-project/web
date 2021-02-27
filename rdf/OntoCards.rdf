@@ -350,7 +350,7 @@
     <skos:prefLabel xml:lang="en">Ontology of Evolutionary system science. Evolutionary studies. </skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Онтология "Эволюционное системоведение. Эволюциоведение."</skos:prefLabel>
   </od:OntoCard>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/OntoCards/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/OntoCards/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>

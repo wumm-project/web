@@ -28,6 +28,7 @@ publications:
 	rapper -g ../../RDFData/TBK-References.ttl -o rdfxml-abbrev >TBK-References.rdf
 
 ontologies:
+	rapper -g ../../RDFData/Ontologies/Lippert-Glossary.ttl -o rdfxml-abbrev >Lippert-Glossary.rdf
 	rapper -g ../../RDFData/Ontologies/VDI-Glossary.ttl -o rdfxml-abbrev >VDI-Glossary.rdf
 	rapper -g ../../RDFData/Ontologies/Souchkov-Glossary.ttl -o rdfxml-abbrev >Souchkov-Glossary.rdf
 	rapper -g ../../RDFData/Ontologies/TopLevel.ttl -o rdfxml-abbrev >TopLevel.rdf

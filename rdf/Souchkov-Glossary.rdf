@@ -3124,7 +3124,7 @@
     <skos:altLabel xml:lang="en">X-Factor</skos:altLabel>
     <skos:prefLabel xml:lang="en">X-Element</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/VDI-Glossary/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/Souchkov-Glossary/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>

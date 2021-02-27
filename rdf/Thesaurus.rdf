@@ -2075,7 +2075,7 @@
     <skos:prefLabel xml:lang="ru">Икс-элемент</skos:prefLabel>
     <skos:prefLabel xml:lang="jp">Ｘ要素</skos:prefLabel>
   </od:GSAThesaurusEntry>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Thesaurus/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/Thesaurus/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>

@@ -420,7 +420,7 @@
     <skos:prefLabel xml:lang="en">Trends in the complex of the development of technical systems (ZRTS)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Тенденции в комплексе развития технических систем (ЗРТС)</skos:prefLabel>
   </skos:Concept>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/TopLevel/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/TopLevel/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>

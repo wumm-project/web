@@ -551,7 +551,7 @@
     <skos:prefLabel xml:lang="en">trimming</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">обрезка</skos:prefLabel>
   </od:VDIGlossaryEntry>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/VDI-Glossary/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/VDI-Glossary/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>

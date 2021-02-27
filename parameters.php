@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-12-18
+ * last update: 2021-02-27
  */
 
 require 'vendor/autoload.php';
@@ -17,13 +17,13 @@ function theParameters()
     $a=array();
     $res = $graph->allOfType('od:Parameter');
     foreach ($res as $concept) {
-        $name=str_replace("http://opendiscovery.org/rdf/Parameter/","",$concept->getUri());
-        $label=showLanguage($concept->all("rdfs:label"),"<br/>");
-        $description=showLanguage($concept->all("od:description"),"<br/>");
+        $name=str_replace("http://opendiscovery.org/rdf/Concept/","",$concept->getUri());
+        $label=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $description=showLanguage($concept->all("skos:definition"),"<br/>");
         $nr=$concept->get("od:hasParameterNumber");
         $out="<h3> Parameter $nr: $name </h3>";
         $out.="<h4> $label </h4>";
-        if ($description) { $out.="<h4> $description </h4>"; }
+        if ($description) { $out.="<h5> $description </h5>"; }
         $a["$nr"]=$out;
         }
     ksort($a);

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:tc="http://opendiscovery.org/rdf/Concept/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Availability">
+    <od:hasLippertNote xml:lang="en">The simplest representation of availability is as a ratio of the expected value (E) of the uptime of a system to the aggregate of the expected values of up and down time:
+A = E_{uptime}/(E_{uptime} + E_{downtime}) (1)
+Classification of availability is based on the span of time to which the availability refers and to the type of downtime used. 
+Common classifications include instantaneous, mean, steady state, inherent, achieved, and operational.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Availability</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Capacity">
+    <od:hasLippertNote xml:lang="en">The highest rate at which information can be reliably transmitted over a communication channel is a measure of its capacity.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Capacity</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ComplexityOfControl">
+    <od:hasLippertNote xml:lang="en">Complexity is determined by the number of integrated factors being dealt with simultaneously.
+When applied to the control of a system, it is the number and interrelations of the functions of a system that adjusts its operations as required.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Complexity of control</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/DataRate">
+    <od:hasLippertNote xml:lang="en">The speed with which data can be transmitted from one device to another. 
+Data rates are often measured in megabits (million bits) or megabytes (million bytes) per second.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Data rate</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/DigitalSize">
+    <od:hasLippertNote xml:lang="en">The size of a digital system can be measured in several ways but is often expressed as a measure of how much storage it consumes. 
+Typically, storage size is expressed in units of measurement based on the byte.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Digital size</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/EcologicalImpact">
+    <od:hasLippertNote xml:lang="en">Ecological impact is the effect of system activities on living organisms and their nonliving environment. 
+Digital systems have ecological impact through their power and cooling needs, as well as their component production and disposal.
+</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Ecological impact</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Efficiency">
+    <od:hasLippertNote xml:lang="en">Efficiency is a measurable concept, quantitatively determined by the ratio of useful output to total input. It indicates the system’s ability to avoid waste of materials, energy, and time in operation.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Efficiency</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Elegance">
+    <od:hasLippertNote xml:lang="en">In general, elegance is unusual effectiveness, simplicity, and consistency of design. 
+In engineering, a solution may be considered elegant if it uses a nonobvious method to produce a solution which is highly effective and simple. 
+An elegant solution may solve multiple problems at once, especially problems not thought to be inter-related.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Elegance</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FidelityOfData">
+    <od:hasLippertNote xml:lang="en">Fidelity refers to the degree to which a model or simulation reproduces the state and behavior of a real-world object, feature or condition. 
+Fidelity is therefore a measure of the realism of a model or simulation, outputs of digital systems.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Fidelity of data</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Latency">
+    <od:hasLippertNote xml:lang="en">The time delay experienced by a system during data communication is its latency.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Latency</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/MeanTimeBetweenFailure">
+    <od:hasLippertNote xml:lang="en">Mean time between failures (MTBF) is the predicted elapsed time between inherent failures of a mechanical or electronic system during normal system operation. 
+MTBF can be calculated as the average time between failures of a system. 
+The term is used for repairable systems, while mean time to failure (MTTF) denotes the expected time to failure for a nonrepairable system. 
+The definition of MTBF depends on the definition of what is considered a failure for the system.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Mean time between failure</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/MeanTimeToRepair">
+    <od:hasLippertNote xml:lang="en">Mean time to repair (MTTR) is a basic measure of the maintainability of repairable items.
+It represents the average time required to repair a failed component or device. 
+Expressed mathematically, the MTTR formula is the total maintenance time divided by the total number of maintenance actions over a specific period.
+MTTR = total maintenance time/number of repairs (2)</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Mean time to repair</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/MemoryCapacity">
+    <od:hasLippertNote xml:lang="en">The memory capacity is the maximum or minimum amount of memory a computer or hardware device can have, or the required amount of memory required to run a process or program.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Memory capacity</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/MemoryEfficiency">
+    <od:hasLippertNote xml:lang="en">This metric represents how efficiently the memory subsystem is used by the digital system. 
+It is a component of algorithmic efficiency which can be thought of as analogous to engineering productivity for a repeating or continuous process.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Memory efficiency</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/NumberOfDependencies">
+    <od:hasLippertNote xml:lang="en">In software engineering, coupling is the degree of interdependence between software modules. 
+It is a measure of how closely connected two routines or modules are and indicates the strength of the relationships between modules. 
+In digital systems, the number of dependencies can be measured as physical interdependence or as coupling. 
+Low coupling is often a sign of a well-structured computer system and a good design.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Number of dependencies</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrecisionOfOperation">
+    <od:hasLippertNote xml:lang="en">Precision in operations is a measure of reproducibility. 
+Variance can be introduced into systems through random numbers, varying levels of precision of calculations, and precision of inputs.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Precision of operation</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PrecisionOfOutput">
+    <od:hasLippertNote xml:lang="en">Precision of output in a digital system is a measure of the numerical precision required, as higher precision requires more capacity in communication, storage, and display.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Precision of output</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ResourceConsumption">
+    <od:hasLippertNote xml:lang="en">Resource intensity is a measure of the quantity of resources (e.g., time, energy, materials) needed for the completion of a process or activity.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Resource consumption</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Scalability">
+    <od:hasLippertNote xml:lang="en">Scalability a measure of the capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Scalability</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Security">
+    <od:hasLippertNote xml:lang="en">Security is freedom from, or resilience against, potential harm (or other unwanted coercive change) from external forces. It refers to protection from hostile forces, but it has a wide range of application.
+Security also includes secrecy and containment of information when applied to digital system.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Security</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Throughput">
+    <od:hasLippertNote xml:lang="en">In a digital system, the throughput is the maximum rate at which data can be processed.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Throughput</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <od:LippertGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/UsefulLife">
+    <od:hasLippertNote xml:lang="en">Useful life is the estimated lifespan of any component of a digital system. 
+Useful life may be impacted by dependencies between system components.</od:hasLippertNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Useful life</skos:prefLabel>
+  </od:LippertGlossaryEntry>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/Lippert-Glossary/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>2021-02-27 graebe: Extracted and transformed from the paper doi:10.3390/systems7030039</rdfs:comment>
+    <rdfs:label>Glossary from (Lippert/Cloutier 2019)</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>
