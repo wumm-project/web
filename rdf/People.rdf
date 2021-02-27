@@ -1537,15 +1537,15 @@
     <foaf:name>Alp Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_SJ">
-    <foaf:affil xml:lang="en">Taiwan, China</foaf:affil>
+    <foaf:affil xml:lang="en">Taipeh, Taiwan</foaf:affil>
     <foaf:name>Show-Jane Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_Y">
-    <foaf:affil>Peoples Republic of China</foaf:affil>
+    <foaf:affil>PR China</foaf:affil>
     <foaf:name>Yue Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_YJ">
-    <foaf:affil xml:lang="en">Minghsin University, Taiwan, China</foaf:affil>
+    <foaf:affil xml:lang="en">Ming-Hsin University, Taiwan</foaf:affil>
     <foaf:name>Youn-Jan Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Linkova_NP">

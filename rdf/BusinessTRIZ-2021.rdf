@@ -36,12 +36,16 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     <dcterms:title xml:lang="en">Getting started on a business problem</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_104">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Mohd-Nor_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mohd-Nor_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Suaidi_MK"/>
     <dcterms:title xml:lang="en">Constructing an ecosystem for a sustainable innovation culture using TRIZ tools</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_105">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Gekeler_M"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Maddalena_R"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Schueler-Hainsch_E"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gekeler_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maddalena_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schueler-Hainsch_E"/>
@@ -61,14 +65,14 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     <dcterms:title xml:lang="en">The Power of the Ideal Final Result for Identifying Process Optimization Potential</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_109">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Lin_SJ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_SJ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_YJ"/>
     <dcterms:title xml:lang="en">Resolving the Dilemma of Monitors in Kindergartens by Business TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_110">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dou_EX"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhou_ZL"/>
-    <dcterms:title xml:lang="en">Application of "TRIZ Field and TIF Field" Method in Financial Innovation</dcterms:title>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">TRIZ in Financial Industry</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_111">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_B"/>
