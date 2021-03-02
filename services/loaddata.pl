@@ -27,6 +27,7 @@ sub loaddata {
   #$out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf"); 
   $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","AllMATRIZCertificates.rdf"); 
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Thesaurus/","Thesaurus.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/TOP-Glossary/","TOP-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Lippert-Glossary/","Lippert-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Souchkov-Glossary/","Souchkov-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/VDI-Glossary/","VDI-Glossary.rdf");
