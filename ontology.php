@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-12-28
+ * last update: 2021-03-02x
  */
 
 require 'vendor/autoload.php';
@@ -20,6 +20,7 @@ function theThesaurus() {
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/Thesaurus.rdf"); 
     $graph->parseFile("rdf/Souchkov-Glossary.rdf"); 
+    $graph->parseFile("rdf/TOP-Glossary.rdf"); 
     $graph->parseFile("rdf/VDI-Glossary.rdf"); 
     $graph->parseFile("rdf/OntoCards.rdf"); 
     $graph->parseFile("rdf/TopLevel.rdf"); // add more 
@@ -50,7 +51,7 @@ function TopLevel() {
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/TopLevel.rdf");  
     $a=array();
-    $res = $graph->allOfType("tc:TopLevelConcept");
+    $res = $graph->allOfType("od:TopLevelConcept");
     foreach ($res as $concept) {
         $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
         $types=join("<br/> ",$concept->all("rdf:type"));
@@ -80,7 +81,7 @@ function OntoCards() {
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/OntoCards.rdf");  
     $a=array();
-    $res = $graph->allOfType("tc:OntoCard");
+    $res = $graph->allOfType("od:OntoCard");
     foreach ($res as $concept) {
         $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
         $types=join("<br/> ",$concept->all("rdf:type"));
