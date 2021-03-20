@@ -24,7 +24,7 @@ EOT
 sub loaddata {
   my $out;
   $out.=createLoadCommand("http://opendiscovery.org/rdf/People/","People.rdf");
-  #$out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf"); 
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf"); 
   $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","AllMATRIZCertificates.rdf"); 
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Thesaurus/","Thesaurus.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TOP-Glossary/","TOP-Glossary.rdf");
