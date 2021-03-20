@@ -2201,13 +2201,13 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubin_MS">
     <dbo:birthDate>1954-11-12</dbo:birthDate>
-    <foaf:affil>St. Petersburg, Russia</foaf:affil>
+    <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Рубин Михаил Семенович</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/mihail.rubin"/>
     <foaf:name>Mikhail S. Rubin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubina_NV">
-    <foaf:affil>St. Petersburg, Russia</foaf:affil>
+    <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Рубина Наталия Викторовна</foaf:fullname>
     <foaf:name>Natalja Rubina</foaf:name>
   </foaf:Person>
@@ -2362,6 +2362,7 @@
     <foaf:name>R.B. Shapiro</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchedrin_N">
+    <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Щедрин Николай</foaf:fullname>
     <foaf:name>Nikolai Shchedrin</foaf:name>
   </foaf:Person>

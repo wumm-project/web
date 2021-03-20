@@ -18,6 +18,7 @@
     <od:hasAltshuller84Id>04</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Asymmetry_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Asymmetry_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of asymmetry</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Asymmetrie</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём асимметрии</skos:prefLabel>
@@ -45,6 +46,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangeColorAndTransparency_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangeColorAndTransparency_3"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangeColorAndTransparency_4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Color and transparency change principle</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Veränderung von Farbe und Transparenz</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём изменения окраски и прозрачности</skos:prefLabel>
@@ -74,6 +76,7 @@
     <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Aggregatzustände und deren Übergänge beherrschen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Principle of changing the physical or chemical parameters of an object</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts</skos:prefLabel>
@@ -97,6 +100,7 @@
     <od:LippertGlossaryNote xml:lang="en">This principle is the opposite of homogeneity.</od:LippertGlossaryNote>
     <od:hasAltshuller84Id>40</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/CompositeMaterials_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of the application of composite materials</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Verwendung von Verbundstoffen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём применения составных материалов</skos:prefLabel>
@@ -113,6 +117,7 @@
     <od:LippertGlossaryNote xml:lang="en">These principles can be extended into data flows and other material and energy flows within a system.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This is demonstrated in the world of computer systems through synchronized processes, parallelization, and integration.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">While consolidation implies colocation, it can also be done by making time homogeneous or making operations contiguous.</od:LippertGlossaryNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Consolidation</skos:prefLabel>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/ContinuityOfUsefulAction">
@@ -125,6 +130,7 @@
     <od:hasAltshuller84Id>20</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ContinuityOfUsefulAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ContinuityOfUsefulAction_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Uninterrupted Useful Action</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of continuity of the useful action</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Kontinuität der nützlichen Wirkung</skos:prefLabel>
@@ -151,6 +157,7 @@
     <od:hasAltshuller84Id>26</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Copying_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Copying_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Arbeit mit Modellen</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Kopierens</skos:prefLabel>
     <skos:prefLabel xml:lang="en">principle of copying</skos:prefLabel>
@@ -177,6 +184,7 @@
     <od:hasAltshuller84Id>08</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Countermass_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Countermass_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Counterbalance (Counter-Weight)</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of the countermass</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Gegengewichts</skos:prefLabel>
@@ -196,6 +204,7 @@
     <od:hasAltshuller73Id>05</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>05</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Coupling_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Kombination</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Principle of coupling</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Kopplung</skos:prefLabel>
@@ -220,6 +229,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Dynamization_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Dynamization_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Dynamization_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of dynamization</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Dynamisierung</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der ständigen Anpassung</skos:prefLabel>
@@ -258,6 +268,7 @@
     <od:hasAltshuller73Id>09</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>09</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Cushion in Advance</skos:altLabel>
     <skos:altLabel xml:lang="en">Preliminary Counteraction</skos:altLabel>
     <skos:altLabel xml:lang="de">Prinzip der Vorspannung</skos:altLabel>
@@ -285,6 +296,7 @@
     <od:hasAltshuller84Id>34</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EliminationAndRegenerationOfParts_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EliminationAndRegenerationOfParts_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Discard and Renewal of Parts</skos:altLabel>
     <skos:altLabel xml:lang="en">Rejecting and Regeneration of Parts</skos:altLabel>
     <skos:prefLabel xml:lang="de">Ballast abwerfen</skos:prefLabel>
@@ -318,6 +330,7 @@
     <od:hasAltshuller73Id>12</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>12</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Equipotentiality_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of Equipotentiality</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Äquipotenzialität</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Äquipotentieller Transport</skos:prefLabel>
@@ -337,6 +350,7 @@
     <od:hasAltshuller84Id>23</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Feedback_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Feedback_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of feedback</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Rückkopplung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём обратной связи</skos:prefLabel>
@@ -361,6 +375,7 @@
     <od:hasAltshuller84Id>30</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of using flexible covers or thin films</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Anwendung biegsamer Hüllen oder dünner Folien</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём использования гибких оболочек или тонких плёнок</skos:prefLabel>
@@ -386,6 +401,7 @@
     <od:hasAltshuller73Id>33</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>33</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Homogeneity_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of homogeneity</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Gleichartigkeit (Homogenität)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём однородности</skos:prefLabel>
@@ -399,6 +415,7 @@
     <od:hasAltshuller84Id>39</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of using an inert medium</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Verwendung eines inerten Mediums</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём применения инертной среды</skos:prefLabel>
@@ -422,6 +439,7 @@
     <od:hasAltshuller73Id>27</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>27</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InexpensiveShortLifeObject_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Inexpensive Short-Life Object (Disposable)</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of inexpensive short-life object instead of expensive longevity</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit</skos:prefLabel>
@@ -444,6 +462,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InverseAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InverseAction_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InverseAction_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Inversion</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of inverse action</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Funktionsumkehr (Inversion)</skos:prefLabel>
@@ -477,6 +496,7 @@
     <od:hasAltshuller84Id>03</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/LocalQuality_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/LocalQuality_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of Local Quality</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der örtlichen Qualität</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Schaffen optimaler Bedingungen</skos:prefLabel>
@@ -503,6 +523,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_3"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_4"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Mechanical Oscillations</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of exploitation of mechanical vibrations</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Ausnutzung mechanischer Schwingungen</skos:prefLabel>
@@ -542,6 +563,7 @@
     <od:hasAltshuller84Id>24</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Mediator_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Mediator_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Prinzip des Vermittlers</skos:prefLabel>
     <skos:prefLabel xml:lang="en">principle of the mediator</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">принцип посредника</skos:prefLabel>
@@ -571,6 +593,7 @@
     <od:hasAltshuller84Id>07</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Nesting_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Nesting_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Nested dolls</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of nesting (matryoshka)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Integration (Matrjoschka-Prinzip)</skos:prefLabel>
@@ -587,6 +610,7 @@
     <od:description xml:lang="ru">Объект проходит через или заполняет полость другого объекта.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/NoPrinciple">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Keine Empfehlung in der Matrix.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">No recommendation within the matrix.</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Нет рекомендаций в матрице.</skos:prefLabel>
@@ -604,6 +628,7 @@
     <od:hasAltshuller73Id>16</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>16</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PartialOrExcessiveEffect_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Prinzip der nicht vollständigen Lösung</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of partial or excessive effect</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der partiellen oder überschüssigen Wirkung</skos:prefLabel>
@@ -626,6 +651,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PeriodicAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PeriodicAction_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PeriodicAction_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Prinzip der Impuls-Arbeitsweise</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of periodic action</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der periodischen Wirkung</skos:prefLabel>
@@ -652,6 +678,7 @@
     <od:LippertGlossaryNote xml:lang="en">Phase transitions are accommodated by alteration of other properties of the material, alterations which include volume changes and altered heat capacity which can be captured for benefit to the system.</od:LippertGlossaryNote>
     <od:hasAltshuller84Id>36</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PhaseTransition_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of applying phase transitions</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Anwendung von Phasenübergängen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём применения фазовых переходов</skos:prefLabel>
@@ -670,6 +697,7 @@
     <od:hasAltshuller73Id>29</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>29</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PneumaticOrHydraulicConstructions_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of the application of pneumatic or hydraulic constructions</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Anwendung pneumatischer oder hydraulischer Konstruktionen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём применения пневмо- и гидросооружений</skos:prefLabel>
@@ -688,6 +716,7 @@
     <od:hasAltshuller84Id>31</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PorousMaterials_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PorousMaterials_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of using porous materials</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Verwendung poröser Werkstoffe</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём использования пористых материалов</skos:prefLabel>
@@ -707,6 +736,7 @@
     <od:hasAltshuller84Id>10</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreferredAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreferredAction_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of the preferred action</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der vorherigen Wirkung</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Vorfertigung</skos:prefLabel>
@@ -732,6 +762,7 @@
     <od:hasAltshuller84Id>11</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreliminaryAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreliminaryAction_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Vorbeugen</skos:altLabel>
     <skos:altLabel xml:lang="en">prevention</skos:altLabel>
     <skos:prefLabel xml:lang="en">Preliminary Action</skos:prefLabel>
@@ -759,6 +790,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of the replacement of mechanical schemes</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Austauschs mechanischer Wirkschemata</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём замены механической схемы</skos:prefLabel>
@@ -786,6 +818,7 @@
     <od:hasAltshuller73Id>21</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>21</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/RushingThrough_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of rushing through</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Durcheilens</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём проскока</skos:prefLabel>
@@ -812,6 +845,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Segmentation_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Segmentation_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Segmentation_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of decomposition or segmentation</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Zerlegung bzw. Segmentierung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём дробления</skos:prefLabel>
@@ -845,6 +879,7 @@
     <od:hasAltshuller84Id>25</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SelfService_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SelfService_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of self-service</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Selbstbedienung</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Von-Selbst-Arbeitsweise</skos:prefLabel>
@@ -872,6 +907,7 @@
     <od:hasAltshuller84Id>02</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Separation_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Separation_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Extraction</skos:altLabel>
     <skos:prefLabel xml:lang="de">Gesonderte Behandlung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Principle of separation</skos:prefLabel>
@@ -902,6 +938,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SphericalShape_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SphericalShape_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SphericalShape_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of the ball similarity</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der sphärischen Form</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём сфероидальности</skos:prefLabel>
@@ -933,6 +970,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/StrongOxidants_3"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/StrongOxidants_4"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/StrongOxidants_5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Accelerated Oxidation</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of the application of strong oxidants</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Anwendung starker Oxidationsmittel</skos:prefLabel>
@@ -970,6 +1008,7 @@
     <od:hasAltshuller84Id>37</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ThermalExpansion_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ThermalExpansion_2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of application of thermal expansion</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Anwendung von Wärmeausdehnung</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём применения термического расширения</skos:prefLabel>
@@ -995,6 +1034,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Transform Damage into Use</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of Transformation of Harmful into Useful</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Umwandlung von Schädlichem in Nützliches</skos:prefLabel>
@@ -1020,6 +1060,7 @@
     <od:LippertGlossaryNote xml:lang="en">The transformation can be to a physical state, a change in concentration or density, or a change in the degree of flexibility. Additionally, changes in geometry or configuration can be transformations.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The use of parameters to dynamically customize a computer program supports this principle.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Transforming or changing a property can accommodate useful benefits.</od:LippertGlossaryNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Transformation of Properties</skos:prefLabel>
   </od:Principle>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension">
@@ -1035,6 +1076,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_3"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of transition to another dimension</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Übergangs in eine andere Dimension</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём перехода в другое измерение</skos:prefLabel>
@@ -1071,6 +1113,7 @@
     <od:hasAltshuller73Id>06</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>06</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Universality_1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Mehrzwecknutzung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Principle of universality</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Universalität</skos:prefLabel>
@@ -1094,7 +1137,7 @@
     <rdfs:label xml:lang="de">Ein TRIZ Prinzip</rdfs:label>
     <rdfs:label xml:lang="ru">ТРИЗ приём</rdfs:label>
   </owl:Class>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/ThePrinciples/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Principles/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>

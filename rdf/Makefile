@@ -35,7 +35,7 @@ ontologies:
 	rapper -g ../../RDFData/Ontologies/TopLevel.ttl -o rdfxml-abbrev >TopLevel.rdf
 	rapper -g ../../RDFData/Ontologies/Thesaurus.ttl -o rdfxml-abbrev >Thesaurus.rdf
 	rapper -g ../../RDFData/Ontologies/OntoCards.ttl -o rdfxml-abbrev >OntoCards.rdf
-	rapper -g ../../RDFData/ThePrinciples.ttl -o rdfxml-abbrev >Principles.rdf
-	rapper -g ../../RDFData/TheParameters.ttl -o rdfxml-abbrev >Parameters.rdf
-	rapper -g ../../RDFData/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
-	rapper -g ../../RDFData/TheBusinessStandards.ttl -o rdfxml-abbrev >TheBusinessStandards.rdf
+	rapper -g ../../RDFData/Ontologies/Principles.ttl -o rdfxml-abbrev >Principles.rdf
+	rapper -g ../../RDFData/Ontologies/Parameters.ttl -o rdfxml-abbrev >Parameters.rdf
+	rapper -g ../../RDFData/Ontologies/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
+	rapper -g ../../RDFData/Ontologies/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf

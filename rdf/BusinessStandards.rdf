@@ -246,7 +246,7 @@
   <skos:ConceptScheme rdf:about="http://opendiscovery.org/rdf/BusinessStandard/theTRIZBusinessStandards">
     <skos:prefLabel xml:lang="de">TRIZ Business Standards</skos:prefLabel>
   </skos:ConceptScheme>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/TheBusinessStandards/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/BusinessStandards/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>

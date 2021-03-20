@@ -19,7 +19,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/ARIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A term (word or phrase) which describes a generic feature, property or a function that can be instantiated to a number or more specific terms by adding relevant context. There is no strict dividing line between specific and abstract terms.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">The term "separate" can be considered as abstract while the term "to cut through" is specific.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">The term "separate" can be considered as abstract while the term "to cut through" is specific.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Abstract Term</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Абстрактный термин</skos:prefLabel>
@@ -95,14 +95,14 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AntiFunction">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZTools"/>
     <od:SouchkovDefinition xml:lang="en">A function which is opposite to a function given. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">"To accelerate" vs. "to decelerate".</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">"To accelerate" vs. "to decelerate".</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Anti-Function</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анти-функция</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/AntiPrinciple">
     <od:SouchkovDefinition xml:lang="en">An Inventive Principle that contains a problem solving recommendation opposite to a recommendation given in one of the known Inventive Principles known. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">"Principle of Taking Away" can be considered as anti-principle with respect to the "Principle of Merging".</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">"Principle of Taking Away" can be considered as anti-principle with respect to the "Principle of Merging".</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Anti-Principle</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анти-прием</skos:prefLabel>
@@ -111,8 +111,8 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovComments xml:lang="en">The use of "anti-process" helps to formulate physical contradictions.</od:SouchkovComments>
     <od:SouchkovDefinition xml:lang="en">A process which has its direction opposite to a process given.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">"Cooling" vs. "heating"</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">"assembly" vs. "disassembly"</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">"Cooling" vs. "heating"</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">"assembly" vs. "disassembly"</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Opposite Process</skos:altLabel>
     <skos:prefLabel xml:lang="en">Anti-Process</skos:prefLabel>
@@ -123,7 +123,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/MultiScreenDiagramofThinking"/>
     <od:SouchkovComments xml:lang="en">In some references, the term "anti-system" is used to describe a system which is competitive to a system given.</od:SouchkovComments>
     <od:SouchkovDefinition xml:lang="en">A technical system whose main useful function is opposite to a function of the technical system given.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">A cooler vs. a heater.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">A cooler vs. a heater.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Anti-System</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Анти-система</skos:prefLabel>
@@ -140,10 +140,10 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovComments xml:lang="en">Examples include electrical conductivity, viscosity, or strength. </od:SouchkovComments>
     <od:SouchkovDefinition xml:lang="en">A fundamental quality of a material object that characterizes its interaction with other material objects. An attribute can always be associated with a value which can be either linear, non-linear, or discrete. A parameter is a subset of an attribute.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Color</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">Complexity</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">Phase state</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">Weight</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Color</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">Complexity</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">Phase state</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">Weight</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Attribute</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Аттрибут</skos:prefLabel>
@@ -159,7 +159,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TheoryofCreativeIndividualDevelopment"/>
     <od:SouchkovDefinition xml:lang="en">A database of specifically expressed goals that would considerably contribute to the development of society and solving large-scale problems once achieved.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) To find a cure for cancer, 2) To develop means for instant transportation.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) To find a cure for cancer, 2) To develop means for instant transportation.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">The Bank of Worthy Goals</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Фонд Достойных Целей</skos:prefLabel>
@@ -199,8 +199,8 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiSystemwithBiasedParameters">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">A technical system which includes two components with biased functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two complete technical systems with biased parameters can form a bi-system in case if they produce synergetic effect.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">An electric bicycle that can also be driven by pedals.</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">An electric switch which consists of two metal plates with different coefficients of thermal expansion.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">An electric bicycle that can also be driven by pedals.</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">An electric switch which consists of two metal plates with different coefficients of thermal expansion.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Bi-system with similar parameters</skos:altLabel>
     <skos:prefLabel xml:lang="en">Bi-System with Biased Parameters</skos:prefLabel>
@@ -209,8 +209,8 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiSystemwithIdenticalParameters">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">A technical system which includes two components with identical functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two identical complete technical systems can form a bi-system as well in case if they produce synergetic effect. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">A catamaran consisting of two identical boats provides stability of the ride unachievable by a single boat.</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">Spectacles consisting of two lens provide stereoscopic vision</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">A catamaran consisting of two identical boats provides stability of the ride unachievable by a single boat.</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">Spectacles consisting of two lens provide stereoscopic vision</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Homogeneous bi-system</skos:altLabel>
     <skos:prefLabel xml:lang="en">Bi-system with Identical Parameters</skos:prefLabel>
@@ -219,8 +219,8 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiSystemwithInverseParameters">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">A technical system which includes two components with inverse functions or values of the same attribute to create a positive synergetic effect:  either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two complete technical systems with inverse functions (anti-systems) can form a bi-system as well in case if they produce synergetic effect. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">A pencil with an attached rubber</od:SouchkovExamples>
-    <od:SouchkovExamples xml:lang="en">An air conditioner consists of a refrigerator and a heater.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">A pencil with an attached rubber</od:SouchkovExample>
+    <od:SouchkovExample xml:lang="en">An air conditioner consists of a refrigerator and a heater.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Inverse bi-system</skos:altLabel>
     <skos:prefLabel xml:lang="en">Bi-system with Inverse Parameters</skos:prefLabel>
@@ -229,7 +229,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiologicalEffect">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
     <od:SouchkovDefinition xml:lang="en">An effect produced by a biological object (animal, microbe, insect, plant) or combination of such that could be used for inventive problem solving. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Biological Effect</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Биологический эффект</skos:prefLabel>
@@ -267,7 +267,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZKnowledgeBases"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZTools"/>
     <od:SouchkovDefinition xml:lang="en">A natural phenomenon known in science of chemistry or combination of such that could be used for inventive problem solving by providing a change required at molecular level.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">To extract certain types of substances from environment, electrolytic chemical reaction can be used.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">To extract certain types of substances from environment, electrolytic chemical reaction can be used.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Chemical Effect</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Химический эффект</skos:prefLabel>
@@ -296,7 +296,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CompetitiveTechnicalSystem">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A technical system that provides the same technical function as a technical system being analyzed but differs either slightly or radically from the technical system being analyzed. The concept of a competitive technical system is similar to the concept of alternative technical system.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Both a car and a bicycle are used to transport a passenger or a cargo.  </od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Both a car and a bicycle are used to transport a passenger or a cargo.  </od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Competing Technical system</skos:altLabel>
     <skos:prefLabel xml:lang="en">Competitive Technical System</skos:prefLabel>
@@ -488,7 +488,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Convolution">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnical"/>
     <od:SouchkovDefinition xml:lang="en">An interval on the timeline of a technical system evolution according to the Bell-curve of evolution which follows the phase of the system's Expansion. During Convolution, innovative changes of the technical system result in the decrease of the overall complication of the system, decrease of its dimensions and energy consumption; and decrease of costs required to deliver the system's main useful function or provide the main parameter of value required while still ensuring that the required degrees of quality and performance do not degrade. Three possible scenarios of covolution are possible: 1) Minimal, when all subsystems still remain independent; 2) Partial, when a number of subsystems become a single subsystem; 3) Full, when all subsystems may not work independently. In many cases, partial and full convolution require change of operational principles.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">An electronic circuit which consists of independent electronic devices is replaced by a microchip.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">An electronic circuit which consists of independent electronic devices is replaced by a microchip.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Convolution</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
@@ -568,7 +568,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Demand">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">An expression of necessity of producing a change or preventing something from a change usually expressed in engineering or physical terms.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) Cargo must be moved. 2) Temperature has to increase. 3) Weight of a load must not change.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) Cargo must be moved. 2) Temperature has to increase. 3) Weight of a load must not change.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Demand</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Требование</skos:prefLabel>
@@ -577,7 +577,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/ARIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">New substances, fields, their properties and parameters that can be obtained on the basis of the existing substance-field resources by subjecting the latter to certain actions.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Such actions can be heating, cooling, decomposition, changing phase state, etc. </od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Such actions can be heating, cooling, decomposition, changing phase state, etc. </od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Derivative Resource</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Производный ресурс</skos:prefLabel>
@@ -683,7 +683,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionMatrix"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A variable dimensional or dimensionless measurable factor, either specific or aggregated, that participates in the definition of an attribute of a technical system, its subsystem, or supersystem and is expressed in terms related to technology (physical, chemical, etc.)  </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Specific level of conductivity, specific level of viscosity measured in Pascal seconds.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Specific level of conductivity, specific level of viscosity measured in Pascal seconds.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Technical Parameter</skos:altLabel>
     <skos:prefLabel xml:lang="en">Engineering Parameter</skos:prefLabel>
@@ -863,7 +863,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/SuFieldAnalysis"/>
     <od:SouchkovComments xml:lang="en">In Substance-Field Analysis definition of a field varies from definition of a field in physics. More specific terms presenting different types of energy exchange can be used. For example, such terms can be used as "acoustic field" or "thermal field", or "friction forces".</od:SouchkovComments>
     <od:SouchkovDefinition xml:lang="en">A material object without rest mass that transmits interaction between components (subsystems) of a technical system that are represented as substances. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Examples of fields in TRIZ include the following fields: mechanical, acoustic, thermal, magnetic, electric, electromagnetic. Sometime additional fileds like intermolecular, biological, informational are added.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Examples of fields in TRIZ include the following fields: mechanical, acoustic, thermal, magnetic, electric, electromagnetic. Sometime additional fileds like intermolecular, biological, informational are added.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Field</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Поле</skos:prefLabel>
@@ -885,7 +885,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/FlowDisadvantage">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/FlowAnalysis"/>
     <od:SouchkovDefinition xml:lang="en">A disadvantage of a technical system being analyzed identified during Flow Analysis.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Bottlenecks, "Gray Zones", "Stagnation Zones", etc.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Bottlenecks, "Gray Zones", "Stagnation Zones", etc.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Flow Disadvantage</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Недостаток потока</skos:prefLabel>
@@ -1015,7 +1015,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/GeneralizedFunction">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
     <od:SouchkovDefinition xml:lang="en">An abstract function for which a specific object and associated action are reduced to universal terms.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Specific function "remove water" can be generalized to "transport liquid".</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Specific function "remove water" can be generalized to "transport liquid".</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Generalized Function</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Обобщенная функция</skos:prefLabel>
@@ -1023,7 +1023,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/GenericEngineeringFunction">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionMatrix"/>
     <od:SouchkovDefinition xml:lang="en">An abstract engineering function that can be instantiated to a multitude of more specific engineering functions.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">The generalized technical function "transport liquid" can be instantiated to such functions as "remove water", "absorb vapor", etc.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">The generalized technical function "transport liquid" can be instantiated to such functions as "remove water", "absorb vapor", etc.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Generic Engineering Function</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Обобщенная техническая функция</skos:prefLabel>
@@ -1039,7 +1039,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/GeometricalEffect">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A specific shape or combination of shapes that can be used for inventive problem solving. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">The use of hyperbolic shape helps to improve displacement of solid bodies.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">The use of hyperbolic shape helps to improve displacement of solid bodies.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Geometrical Effect</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Геометрический эффект</skos:prefLabel>
@@ -1259,7 +1259,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/InnovativeTask">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A specific category of a goal that has to be reached by performing an inventive process. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) To eliminate negative effect, 2) to increase performance, 3) to radically cut costs, etc.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) To eliminate negative effect, 2) to increase performance, 3) to radically cut costs, etc.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Innovative Task</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Инновационная задача</skos:prefLabel>
@@ -1896,7 +1896,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalEffect">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A natural phenomenon known in science of physics or combination of such that could be used for inventive problem solving.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. </od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. </od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Physical Effect</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Физический эффект</skos:prefLabel>
@@ -1918,7 +1918,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PolySystemwithBiasedParameters">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">A technical system which includes three of more components with biased functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. A poly-system can be formed by three or more complete technical systems with biased functions or values of the same attribute. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) A pen containing several rods filled by ink of different colors. 2) Set of crayons of different colors. </od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) A pen containing several rods filled by ink of different colors. 2) Set of crayons of different colors. </od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Poly-system with similar parameters</skos:altLabel>
     <skos:prefLabel xml:lang="en">Poly-system with Biased Parameters</skos:prefLabel>
@@ -1927,7 +1927,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PolySystemwithIdenticalParameters">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">A technical system which includes three of more components with identical functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function Three or more complete technical systems can form a poly-system as well in case if they produce a synergetic effect. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) A propeller with three or more blades. 2) A computer network that consists of identical computers.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) A propeller with three or more blades. 2) A computer network that consists of identical computers.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Poly-system with Identical Parameters</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Полисистема с одинаковыми характеристиками</skos:prefLabel>
@@ -1935,7 +1935,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PolySystemwithInverseParameters">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">A technical system which includes three of more components with inverse functions or values of the same attribute to create a synergetic effect. Three or more complete technical systems with inverse functions (anti-systems) can form a poly-system as well in case if they produce a synergetic effect. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) An electronic component which consists of a number of electricty conducting and isolating components. 2)</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) An electronic component which consists of a number of electricty conducting and isolating components. 2)</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Poly-system with Inverse Parameters</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Полисистема с противоположными характеристиками</skos:prefLabel>
@@ -2060,7 +2060,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveStandards"/>
     <od:SouchkovDefinition xml:lang="en">An attribute of a material object that represents one of its specific abilities which can be used for producing either a positive or a negative effect. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Fragility of the glass can be used to break the glass.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Fragility of the glass can be used to break the glass.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Property</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Свойство</skos:prefLabel>
@@ -2191,7 +2191,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZEvolutionTrends"/>
     <od:SouchkovDefinition xml:lang="en">An S-curve presenting evolution of a specific technical system or its subsystem based on the same operational principle.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">S-curve of evolution of a hammer based exclusively on a mechanical principle.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">S-curve of evolution of a hammer based exclusively on a mechanical principle.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="ru">S-образная кривая технической системы</skos:prefLabel>
     <skos:prefLabel xml:lang="en">System S-Curve</skos:prefLabel>
@@ -2446,7 +2446,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/SuFieldAnalysis"/>
     <od:SouchkovComments xml:lang="en">In Substance-Field Analysis and Inventive Standards the use of the term "substance" is not limited to describing types of materials only. It can be a part of technical system of the entire technical system. </od:SouchkovComments>
     <od:SouchkovDefinition xml:lang="en">Type of discrete matter which possesses rest mass. Substance can be in gaseous, liquid, solid and plasma states. In certain cases and TRIZ Tools, the term "substance" can be considered in a broader sense, for example, a material component or an assembly of material components can be called "substance" in the Inventive Standards or ARIZ.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) Water, 2) Sand, 3) Oxygen, 4) Concrete, 5) A cutting tool, 6) A brick.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) Water, 2) Sand, 3) Oxygen, 4) Concrete, 5) A cutting tool, 6) A brick.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Substance</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Вещество</skos:prefLabel>
@@ -2560,7 +2560,7 @@
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemsEvolution">
     <od:SouchkovDefinition xml:lang="en">Свертывание</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) Folding, 2) Trimming</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) Folding, 2) Trimming</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Systems Evolution</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
@@ -2642,7 +2642,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovComments xml:lang="en">Most of the TRIZ Schools were founded in the cities of the former USSR.</od:SouchkovComments>
     <od:SouchkovDefinition xml:lang="en">Usually an informal training, research and development center in a certain geographic location that provides (or provided in the past) significant contribution to the development of TRIZ theories, methods and tools.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">St. Petersburg TRIZ School, Krasnoyarsk TRIZ School, Kishinev TRIZ School, etc.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">St. Petersburg TRIZ School, Krasnoyarsk TRIZ School, Kishinev TRIZ School, etc.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">TRIZ School</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ</skos:prefLabel>
@@ -2707,7 +2707,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/ContradictionMatrix"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A situation which emerges when an attempt to solve an inventive problem by improving a certain attribute (parameter) of a technical system leads to unacceptable degradation of another attribute (parameter) of the same system.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">Improving the strength (one parameter) of the airplane wing leads to the increased weight (another parameter) of its wing.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">Improving the strength (one parameter) of the airplane wing leads to the increased weight (another parameter) of its wing.</od:SouchkovExample>
     <od:SouchkovTerms xml:lang="en">inventive problem, technical system, improving parameter, degraded parameter</od:SouchkovTerms>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Technical Contradiction</skos:prefLabel>
@@ -2725,7 +2725,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/FunctionAnalysisandModeling"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A specific type of a function which deals with an attribute of a technical system or its supersystem.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">1) Change temperature, 2) Measure distance, 3) Accumulate heat.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">1) Change temperature, 2) Measure distance, 3) Accumulate heat.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Technical Function</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Техническая функция</skos:prefLabel>
@@ -2765,7 +2765,7 @@
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZEvolutionTrends"/>
     <od:SouchkovDefinition xml:lang="en">An S-curve presenting a number of more specific S-curves demonstrating evolution of different means based on different operational principles to provide the same main parameter of value.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">S-curve of evolution of a hammer technology including various operation principles of the hammer's head: mechanical, hydraulic, electromagnetic.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">S-curve of evolution of a hammer technology including various operation principles of the hammer's head: mechanical, hydraulic, electromagnetic.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="ru">S-образная кривая технической области</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Technology S-Curve</skos:prefLabel>
@@ -2801,7 +2801,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TransformableSubstance">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveStandards"/>
     <od:SouchkovDefinition xml:lang="en">A substance (usually presented by a material) that can be transformed in order to obtain new properties required for solving a problem by subjecting the substance to external action.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">A liquid substance converts to gaseous when heated to certain degree.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">A liquid substance converts to gaseous when heated to certain degree.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Transformable Substance</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Модифицируемое вещество</skos:prefLabel>
@@ -3069,7 +3069,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Void">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/ARIZ"/>
     <od:SouchkovDefinition xml:lang="en">A part of space that is not occupied by solid substance.</od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">A part of space filled with gas can be considered as void.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">A part of space filled with gas can be considered as void.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Void</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Пустота</skos:prefLabel>
@@ -3102,7 +3102,7 @@
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/WorthyGoal">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TheoryofCreativeIndividualDevelopment"/>
     <od:SouchkovDefinition xml:lang="en">A goal that is set up by a creative person that he/she would like to achieve. There are a number of features which identify the worthy goal, for example: a) novelty, b) social value, c) independence, d) scale, e) practicality, f) heresy g) impossibility to achieve at a given moment of time. The worthy goal has to mean a certain specific result with a large technological and social impact rather than an abstract wish. </od:SouchkovDefinition>
-    <od:SouchkovExamples xml:lang="en">The goal "to make life better" cannot be considered as a worthy goal while the goal "to develop a method for interstellar travel" can be considered as worthy.</od:SouchkovExamples>
+    <od:SouchkovExample xml:lang="en">The goal "to make life better" cannot be considered as a worthy goal while the goal "to develop a method for interstellar travel" can be considered as worthy.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Ultimate Goal</skos:altLabel>
     <skos:prefLabel xml:lang="en">Worthy Goal</skos:prefLabel>

@@ -56,6 +56,7 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     <dcterms:title xml:lang="en">Remote work challenges</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_107">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_De"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_De"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:title xml:lang="en">Analysis and practice of solving business problems</dcterms:title>
