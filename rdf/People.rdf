@@ -1287,6 +1287,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kondrakov_IM">
     <foaf:name>I.M. Kondrakov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korolev_VA">
+    <foaf:fullname xml:lang="ru">Королёв В. А.</foaf:fullname>
+    <foaf:name>V. A. Korolev</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korotkih_S">
     <foaf:affil>Krasnoyarsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Коротких Светлана</foaf:fullname>
@@ -1691,6 +1695,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/MasUdah">
     <foaf:affil>Malang, Indonesia</foaf:affil>
     <foaf:name>Mas'Udah</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Matvienko_NN">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Матвиенко Н. Н.</foaf:fullname>
+    <foaf:name>N. N. Matvienko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Matyushenko_AV">
     <foaf:affil>Russia</foaf:affil>

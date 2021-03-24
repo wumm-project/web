@@ -1,7 +1,7 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2021-02-12
+# lastModified: 2021-03-24
 
 # Changes:
 
@@ -29,8 +29,11 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Thesaurus/","Thesaurus.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TOP-Glossary/","TOP-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Lippert-Glossary/","Lippert-Glossary.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/Matvienko-Glossary/","Matvienko-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Souchkov-Glossary/","Souchkov-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/VDI-Glossary/","VDI-Glossary.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/Parameters/","Parameters.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/Principles/","Principles.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TopLevel/","TopLevel.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/OntoCards/","OntoCards.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");
