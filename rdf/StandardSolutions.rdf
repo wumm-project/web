@@ -452,10 +452,10 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.1"/>
     <skos:example xml:lang="en">To protect an electric motor from overheating, a temperature sensor must measure the temperature and initiate actions, and make the poles of the engine from an alloy Curie point just at the temperature where the overheating begins, then the engine stops by itself. </skos:example>
-    <skos:example xml:lang="de">Um einen Elektromotor vor Überhitzung zu schützen, muß ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst.</skos:example>
+    <skos:example xml:lang="de">Um einen Elektromotor vor Überhitzung zu schützen, muss ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst.</skos:example>
     <skos:example xml:lang="ru">Чтобы защитить электродвигатель от перегрева, датчик температуры должен измерять температуру и инициировать действия, а также изготавливать опоры двигателя из сплава. Кюри указывает только на температуру, где начинается перегрев, а затем двигатель останавливается сам по себе. </skos:example>
     <skos:prefLabel xml:lang="en">Learn Detect and Measure</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Umgehe Erkennen und Messen</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Lerne Erkennen und Messen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Учиться обнаруживать и измерять</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.1.2">
@@ -472,7 +472,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.1"/>
     <skos:example xml:lang="en">To measure temperature, you can use thermochromic substances that have a different color depending on the temperature, but are only interested in exceeding a temperature limit, then only two distinct color states are the more efficient way. </skos:example>
-    <skos:example xml:lang="de">Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind ausschließlich zwei sicher unterscheidbare Farbzustände der effizientere Weg.</skos:example>
+    <skos:example xml:lang="de">Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind zwei sicher unterscheidbare Farbzustände der effizientere Weg.</skos:example>
     <skos:example xml:lang="ru">Для измерения температуры можно использовать термохромные вещества, которые имеют разные цвета в зависимости от температуры, но заинтересованы только в превышении температурного предела, тогда только два различных цветовых состояния являются более эффективным способом. </skos:example>
     <skos:prefLabel xml:lang="de">Ersetze Messen durch zwei aufeinanderfolgende Erkennungsvorgänge</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Replace measurement with two consecutive detection processes</skos:prefLabel>
@@ -536,9 +536,12 @@
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.3.2">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.3"/>
-    <skos:prefLabel xml:lang="de">Nutze Resonanzphänomene zur Messung z.B.: Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt.</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Use resonance phenomena to measure, for example: To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. </skos:prefLabel>
-    <skos:prefLabel xml:lang="ru">Используйте резонансные явления для измерения, например: для определения массы твердого тела в закрытом контейнере возбуждаются механические колебания, их частота зависит от массы зависит. </skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nutze Resonanzphänomene zur Messung.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. </skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use resonance phenomena to measure. </skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Для определения массы твердого тела в закрытом контейнере возбуждаются механические колебания, их частота зависит от массы зависит. </skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте резонансные явления для измерения. </skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.3.3">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -585,15 +588,15 @@
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.4.5">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4.4"/>
-    <skos:prefLabel xml:lang="de">Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.).</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc.).</skos:prefLabel>
-    <skos:prefLabel xml:lang="ru">Используйте базу данных эффектов (точка Кюри, эффект Хопкинса и Баркгаузена), магнитоупругие эффекты и т. д.).</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc.</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Используйте базу данных эффектов (точка Кюри, эффект Хопкинса и Баркгаузена), магнитоупругие эффекты и т. д.</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.5">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
     <skos:prefLabel xml:lang="en">Evolution of Recognize and Measure</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Evolution von Erkenn und Messen</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Evolution von Erkennen und Messen</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Эволюция распознавания и измерения</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4.5.1">
@@ -644,7 +647,7 @@
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.1.3">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.1"/>
-    <skos:example xml:lang="de">Der temporär eingeführte Stoff erfällt nach erfolgreicher Aktion oder wird chemisch zersetzt.</skos:example>
+    <skos:example xml:lang="de">Der temporär eingeführte Stoff zerfällt nach erfolgreicher Aktion oder wird chemisch zersetzt.</skos:example>
     <skos:example xml:lang="en">The temporarily introduced substance will fail after a successful action or will be chemically decomposed.</skos:example>
     <skos:example xml:lang="ru">Временно введенное вещество выйдет из строя после успешного действия или будет химически разложено.</skos:example>
     <skos:prefLabel xml:lang="de">Nutze die Selbstelimination von Stoffen</skos:prefLabel>
@@ -655,7 +658,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.1"/>
     <skos:example xml:lang="en">By using foams, it is possible to meet both demands for low mass and high volume of material (volume) (voids in excess).</skos:example>
-    <skos:example xml:lang="de">Lässt sich durch Nutzung von Schaumstoffen beiden Forderungen nach wenig Masse und viel Stoffmenge (Volumen) Rechnung tragen (Hohlräume im Überschuss).</skos:example>
+    <skos:example xml:lang="de">Durch Nutzung von Schaumstoffen lässt sich beiden Forderungen nach wenig Masse und viel Volumen Rechnung tragen (Hohlräume im Überschuss).</skos:example>
     <skos:example xml:lang="ru">Используя пенопласт, можно удовлетворить как потребности в малой массе и большом объеме материала (объем) (пустоты в избытке).</skos:example>
     <skos:prefLabel xml:lang="de">Nutze Stoffe im Überschuss</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use substances in excess</skos:prefLabel>
@@ -685,9 +688,9 @@
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5.2.3">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.2"/>
-    <skos:example xml:lang="en">magnetic materials.</skos:example>
-    <skos:example xml:lang="de">magnetische Stoffe.</skos:example>
-    <skos:example xml:lang="ru">магнитные материалы</skos:example>
+    <skos:example xml:lang="en">Magnetic materials.</skos:example>
+    <skos:example xml:lang="de">Magnetische Stoffe.</skos:example>
+    <skos:example xml:lang="ru">Магнитные материалы</skos:example>
     <skos:prefLabel xml:lang="de">Nutze felderzeugende Stoffe</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use field-generating substances</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Использовать вещества, генерирующие поле</skos:prefLabel>
@@ -710,8 +713,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/Standard/S_5.3"/>
     <skos:example xml:lang="de">Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius.</skos:example>
-    <skos:example xml:lang="en">Water and ice together fix the temperature at exactly 0 ° Celsius.</skos:example>
-    <skos:example xml:lang="ru">Вода и лед вместе устанавливают температуру ровно 0 ° по Цельсию.</skos:example>
+    <skos:example xml:lang="en">Water and ice together fix the temperature at exactly 0° Celsius.</skos:example>
+    <skos:example xml:lang="ru">Вода и лед вместе устанавливают температуру ровно 0° по Цельсию.</skos:example>
     <skos:prefLabel xml:lang="de">Nutze verschiedene Aggregatzustände oder Phasen eines Stoffes in Abhängigkeit von den Arbeitsbedingungen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use different states of matter or phases of a substance depending on the working conditions</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Использовать два состояния вещества или фазы вещества</skos:prefLabel>

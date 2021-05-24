@@ -132,7 +132,7 @@ Beim Vergleich von ARIZ-Modifikationen untereinander wird eine Erhöhung des Anw
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Eckardt_O"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shchedrin_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shchedrin_NA"/>
     <dcterms:title xml:lang="de">TRIZ Ontologie</dcterms:title>
     <dcterms:title xml:lang="en">TRIZ Ontology</dcterms:title>
     <dcterms:title xml:lang="ru">Онтология ТРИЗ</dcterms:title>
@@ -357,7 +357,7 @@ Im Vortrag wird über Gesetzmäßigkeiten der Stadtentwicklung, die Entwicklung 
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Krayev_OA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lopatin_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shchedrin_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shchedrin_NA"/>
     <dcterms:title xml:lang="en">Development of TRIZ infrastructure at industrial enterprises. Experience of RUSAL</dcterms:title>
     <dcterms:title xml:lang="de">Entwicklung der TRIZ-Infrastruktur in Industrieunternehmen. Erfahrung von RUSAL</dcterms:title>
     <dcterms:title xml:lang="ru">Развитие инфраструктуры ТРИЗ на промышленных предприятиях. Опыт РУСАЛ</dcterms:title>

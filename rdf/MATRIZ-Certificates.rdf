@@ -13,9 +13,9 @@
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>2021-03-20 graebe: MATRIZ certificates level 4..5 od
-    people in the WUMM People database, aligned with the lit of all certificates</rdfs:comment>
-    <rdfs:label>TRIZ Database - Selected MATRIZ Certificates</rdfs:label>
+    <rdfs:comment>2021-03-20 graebe: MATRIZ certificates level 4..5</rdfs:comment>
+    <rdfs:comment>2021-03-26 graebe: aligned with People.ttl</rdfs:comment>
+    <rdfs:label>TRIZ Database - MATRIZ Certificates Level 4 and 5</rdfs:label>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
   </owl:Ontology>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Abramov_OY">
@@ -298,6 +298,10 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Ilovaisky_IV">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_20"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Ilyin_IY">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_36"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -344,12 +348,10 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_L">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_19"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_LA">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_19"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_80"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kashkarov_AG">
@@ -386,24 +388,19 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kim_M">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_91"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kim_MS">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_91"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_103"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kim_SC">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_103"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kim_Y">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_67"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kim_YS">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_107"/>
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_67"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kislov_AV">
@@ -472,6 +469,10 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_102"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Lee_A">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_135"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Lee_HC">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_92"/>
@@ -552,12 +553,10 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Medvedev_AV">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_40"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Medvedyev_AV">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_40"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_95"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Meerovich_MI">
@@ -572,12 +571,10 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_96"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Minaker_V">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_102"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Minaker_VE">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_102"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_91"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
     <org:memberOf rdf:resource="http://opendiscovery.org/rdf/Model#TRIZMasterCouncil"/>
   </rdf:Description>
@@ -601,6 +598,10 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Narbut_AF">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_38"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Narbut_NN">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_39"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Nesterenko_AA">
@@ -693,6 +694,10 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
     <org:memberOf rdf:resource="http://opendiscovery.org/rdf/Model#TRIZMasterCouncil"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Salnikov_VN">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_50"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Samochvalov_JV">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_10"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -720,6 +725,10 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
     <org:memberOf rdf:resource="http://opendiscovery.org/rdf/Model#TRIZMasterCouncil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Sharapov_MI">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_64"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Shin_DL">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_59"/>
@@ -857,6 +866,10 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_29"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Wessner_J">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_129"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Yatsunenko_S">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_125"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -885,6 +898,10 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Zlotin_BL">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_15"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Zlotina_ES">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_17"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Zusman_AV">

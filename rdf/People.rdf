@@ -986,6 +986,10 @@
     <foaf:fullname xml:lang="ru">Иковенко Сергей Александрович</foaf:fullname>
     <foaf:name>Sergey Ikovenko</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ilovaisky_IV">
+    <foaf:fullname xml:lang="ru">Иловайский Игорь Вячеславович</foaf:fullname>
+    <foaf:name>Igor V. Ilovaisky</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ilyin_IY">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Ильин Илья Юрьевич</foaf:fullname>
@@ -1099,6 +1103,11 @@
     <foaf:fullname xml:lang="ru">Канделинский Сергей</foaf:fullname>
     <foaf:name>Sergey Kandelinsky</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaner_VF">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Канер Вадим Фроимович</foaf:fullname>
+    <foaf:name>Vadim F. Kaner</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kang_SH">
     <foaf:name>Seunghyun Kang</foaf:name>
   </foaf:Person>
@@ -1111,7 +1120,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kang_YJ">
     <foaf:affil>South Korea</foaf:affil>
-    <foaf:name>Young–Ju Kang</foaf:name>
+    <foaf:name>Young-Ju Kang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_LA">
     <foaf:affil>OutCompete LLC, USA</foaf:affil>
@@ -1209,6 +1218,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JY">
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Jae Yeon Kim</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JinY">
+    <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Jinyong Kim</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_MS">
@@ -1721,7 +1733,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mazzuchi_TA">
     <foaf:name>T.A. Mazzuchi</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Medvedev_AV">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Medvedyev_AV">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Медведев Александр Витальевич</foaf:fullname>
     <foaf:name>Alexander V. Medvedev</foaf:name>
@@ -1798,7 +1810,6 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mlynarski_M">
     <foaf:affil>Poland</foaf:affil>
-    <foaf:fullname xml:lang="ru">Митрофанов Волюслав Владимирович</foaf:fullname>
     <foaf:name>Maciej Młynarski</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mogilin_AA">
@@ -1879,7 +1890,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Narbut_AF">
     <foaf:affil>Ukraina</foaf:affil>
     <foaf:fullname xml:lang="ru">Нарбут Александр Федорович</foaf:fullname>
-    <foaf:name>Alexander Narbut</foaf:name>
+    <foaf:name>Alexander F. Narbut</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Narbut_NN">
+    <foaf:fullname xml:lang="ru">Нарбут Наталья Николаевна</foaf:fullname>
+    <foaf:name>Natalya N. Narbut</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nekhoroshkin_NI">
     <foaf:affil>Moscow, Russia</foaf:affil>
@@ -2260,6 +2275,10 @@
     <foaf:fullname xml:lang="ru">Салихзянов Радик</foaf:fullname>
     <foaf:name>Radik Salikhzyanov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Salnikov_VN">
+    <foaf:fullname xml:lang="ru">Сальников Вадим Николаевич</foaf:fullname>
+    <foaf:name>Vadim N. Salnikov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Samet_A">
     <foaf:affil>Strasbourg, France</foaf:affil>
     <foaf:name>Ahmed Samet</foaf:name>
@@ -2324,11 +2343,6 @@
     <foaf:affil>ZMI Strategy Consulting, Germany</foaf:affil>
     <foaf:name>Eckhard Schueler-Hainsch</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schusterman_MN">
-    <foaf:affil>Norilsk, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Шустерман Михаил Наумович</foaf:fullname>
-    <foaf:name>Michail Schusterman</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sedykh_P">
     <foaf:affil>Algorithm Ltd., Russia</foaf:affil>
     <foaf:name>Pavel Sedykh</foaf:name>
@@ -2370,9 +2384,13 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shapiro_RB">
     <foaf:name>R.B. Shapiro</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchedrin_N">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sharapov_MI">
+    <foaf:fullname xml:lang="ru">Шарапов Михаил Иванович</foaf:fullname>
+    <foaf:name>Mikhail Sharapov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchedrin_NA">
     <foaf:affil>Moscow, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Щедрин Николай</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Щедрин Николай Александрович</foaf:fullname>
     <foaf:name>Nikolai Shchedrin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchinnikov_A">
@@ -2551,7 +2569,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Song_YW">
     <foaf:affil>South Korea</foaf:affil>
-    <foaf:name>Yongwon Song</foaf:name>
+    <foaf:name>Yong Won Song</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Song_ZT">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-5496-2374"/>
@@ -3078,8 +3096,8 @@
     <foaf:name>Boris L. Zlotin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zlotina_ES">
-    <foaf:fullname xml:lang="ru">Злотина Э.С.</foaf:fullname>
-    <foaf:name>E.S. Zlotina</foaf:name>
+    <foaf:fullname xml:lang="ru">Злотина Эсфирь Семеновна</foaf:fullname>
+    <foaf:name>Esther S. Zlotina</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zobel_D">
     <foaf:affil>Ingenieurbüro für Systemtechnik, Wittenberg</foaf:affil>

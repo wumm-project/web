@@ -1,10 +1,13 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Last Update: 2020-11-08
+ * Last Update: 2021-03-26
 
  * Display the properties and inverse properties of an URI exploring the WUMM
  * SPARQL Endpoint
+
+ * 2021-03-26: URIs containing "Model#" fixed, since # has special
+ * interpretation by GET.
 
  */
 
@@ -26,8 +29,9 @@ LIMIT 100';
     $result=$sparql->query($query);
     $out=$result->dump("html");
     $out=str_replace("href='http://opendiscovery.org/rdf/",
-                     "href='displayuri.php?uri=http://opendiscovery.org/rdf/",
+                     "href='displayuri.php?uri=",
                      $out);
+    $out=str_replace('Model#', '', $out);
     $prefix='<p><a href="http://wumm.uni-leipzig.de">Home</a></p>';
     return $prefix.$out;
 }
