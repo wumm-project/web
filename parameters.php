@@ -19,11 +19,13 @@ function theParameters()
     foreach ($res as $concept) {
         $name=str_replace("http://opendiscovery.org/rdf/Concept/","",$concept->getUri());
         $label=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $altlabel=showLanguage($concept->all("skos:altLabel"),"<br/>");
         $description=showLanguage($concept->all("skos:definition"),"<br/>");
         $nr=$concept->get("od:hasParameterNumber");
         $out="<h3> Parameter $nr: $name </h3>";
         $out.="<h4> $label </h4>";
-        if ($description) { $out.="<h5> $description </h5>"; }
+        if ($altlabel) { $out.="<p><strong>Alternative Label:</strong> <br/> $altlabel</p>"; }
+        if ($description) { $out.="<p><strong>Description:</strong> <br/> $description </p>"; }
         $a["$nr"]=$out;
         }
     ksort($a);
