@@ -9,15 +9,22 @@
    xmlns:tc="http://opendiscovery.org/rdf/Concept/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Adaptability">
-    <od:hasParameterNumber>35</od:hasParameterNumber>
+    <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>32</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The extent to which a system or object is appropriate for all situations or positively responds to external changes.</skos:definition>
     <skos:prefLabel xml:lang="en">Adaptability, Universality</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Adaptionsfähigkeit, Universalität</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Адаптация, универсальность</skos:prefLabel>
   </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AestheticsOrAppearance">
+    <od:hasMatrix2003Id>39</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Aesthetics or Appearance</skos:prefLabel>
+  </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AmountOfSubstance">
-    <od:hasParameterNumber>26</od:hasParameterNumber>
+    <od:hasAltshuller84Id>26</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>10</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The number or amount of a system’s materials, substances, parts, or subsystems which are altered (permanently or temporarily) or consumed (fully or partially) during normal functioning.</skos:definition>
     <skos:prefLabel xml:lang="en">Amount of substance</skos:prefLabel>
@@ -25,7 +32,8 @@
     <skos:prefLabel xml:lang="ru">Количество вещества</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AreaOfTheMovingObject">
-    <od:hasParameterNumber>05</od:hasParameterNumber>
+    <od:hasAltshuller84Id>05</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>05</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The outermost or uppermost layer of the object.</skos:definition>
     <skos:prefLabel xml:lang="en">Area of the moving object</skos:prefLabel>
@@ -33,15 +41,36 @@
     <skos:prefLabel xml:lang="ru">Площадь подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AreaOfTheStationaryObject">
-    <od:hasParameterNumber>06</od:hasParameterNumber>
+    <od:hasAltshuller84Id>06</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>06</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The outermost or uppermost layer of the object.</skos:definition>
     <skos:prefLabel xml:lang="en">Area of the stationary object</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Fläche des unbewegten Objekts</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Площадь неподвижного объекта</skos:prefLabel>
   </od:Parameter>
+  <od:ParameterClass rdf:about="http://opendiscovery.org/rdf/Concept/AssemblyCost">
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/ComplexityOfControl"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/DeviceComplexity"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/EaseOfManufacturing"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LevelOfAutomation"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/ManufacturingPrecision"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Productivity"/>
+    <skos:prefLabel xml:lang="en">Assembly Cost</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Fertigungskosten</skos:prefLabel>
+  </od:ParameterClass>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/CompatitbilityOrConnectability">
+    <od:hasMatrix2003Id>33</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Compatitbility Or Connectability</skos:prefLabel>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/ComplexityOfControl">
+    <od:hasMatrix2003Id>46</od:hasMatrix2003Id>
+    <skos:prefLabel xml:lang="en">Complexity Of Control</skos:prefLabel>
+  </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DeviceComplexity">
-    <od:hasParameterNumber>36</od:hasParameterNumber>
+    <od:hasAltshuller84Id>36</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>45</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Complexity of the structure</skos:altLabel>
     <skos:altLabel xml:lang="de">Kompliziertheit der Struktur</skos:altLabel>
@@ -51,7 +80,8 @@
     <skos:prefLabel xml:lang="ru">Сложность устройства</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DifficultyOfDetecting">
-    <od:hasParameterNumber>37</od:hasParameterNumber>
+    <od:hasAltshuller84Id>37</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>47</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Complexity of control and measurement</skos:altLabel>
     <skos:definition xml:lang="en">Demonstrated by measuring or monitoring systems that are complex, costly, require much time and labor to set up and use, or that have complex relationships between components or components that interfere with each other. Can also be indicated by the increasing cost of measuring to a satisfactory error.</skos:definition>
@@ -60,7 +90,8 @@
     <skos:prefLabel xml:lang="ru">Сложность контроля и измерения</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DurabilityOfTheMovingObject">
-    <od:hasParameterNumber>15</od:hasParameterNumber>
+    <od:hasAltshuller84Id>15</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>12</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The time that the object or system can correctly perform its action. Also referred to as service life or durability.</skos:definition>
     <skos:prefLabel xml:lang="en">Durability of the moving object</skos:prefLabel>
@@ -68,7 +99,8 @@
     <skos:prefLabel xml:lang="ru">Время действия подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DurabilityOfTheStationaryObject">
-    <od:hasParameterNumber>16</od:hasParameterNumber>
+    <od:hasAltshuller84Id>16</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>13</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The time that the object or system can correctly perform its action. Also referred to as service life or durability.</skos:definition>
     <skos:prefLabel xml:lang="en">Durability of the stationary object</skos:prefLabel>
@@ -76,7 +108,8 @@
     <skos:prefLabel xml:lang="ru">Время действия неподвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EaseOfManufacturing">
-    <od:hasParameterNumber>32</od:hasParameterNumber>
+    <od:hasAltshuller84Id>32</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>41</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Convenience of manufacturing</skos:altLabel>
     <skos:definition xml:lang="en">The degree of facility or effortlessness in manufacturing or fabricating the object or system.</skos:definition>
@@ -85,7 +118,8 @@
     <skos:prefLabel xml:lang="ru">Удобство изготовления</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EaseOfOperation">
-    <od:hasParameterNumber>33</od:hasParameterNumber>
+    <od:hasAltshuller84Id>33</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>34</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Convenience of use</skos:altLabel>
     <skos:definition xml:lang="en">Simple, easy to understand and perform or utilize; accessible.</skos:definition>
@@ -94,7 +128,8 @@
     <skos:prefLabel xml:lang="ru">Удобство эксплуатации</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EaseOfRepair">
-    <od:hasParameterNumber>34</od:hasParameterNumber>
+    <od:hasAltshuller84Id>34</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>36</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Convenience of repair</skos:altLabel>
     <skos:definition xml:lang="en">The degree of facility or effortlessness in the mending or fixing of the system. Encompasses convenience as well as time to repair faults, failures, or defects.</skos:definition>
@@ -102,8 +137,21 @@
     <skos:prefLabel xml:lang="de">Reparaturfreundlichkeit</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Удобство ремонта</skos:prefLabel>
   </od:Parameter>
+  <od:ParameterClass rdf:about="http://opendiscovery.org/rdf/Concept/Efficiency">
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/FunctionEfficiency"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/HarmfulEmissions"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/InternalHarmfulFactors"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LossOfEnergy"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LossOfInformation"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LossOfSubstance"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LossOfTime"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Noise"/>
+    <skos:prefLabel xml:lang="en">Efficiency</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Effizienz</skos:prefLabel>
+  </od:ParameterClass>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EnergyUseOfTheMovingObject">
-    <od:hasParameterNumber>19</od:hasParameterNumber>
+    <od:hasAltshuller84Id>19</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>16</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Consumption of energy resource(s) in order to perform the action or function of the object.</skos:definition>
     <skos:prefLabel xml:lang="de">Energieverbrauch des bewegten Objekts</skos:prefLabel>
@@ -111,7 +159,8 @@
     <skos:prefLabel xml:lang="ru">Затрата энергии подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EnergyUseOfTheStationaryObject">
-    <od:hasParameterNumber>20</od:hasParameterNumber>
+    <od:hasAltshuller84Id>20</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>17</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Consumption of energy resource(s) in order to perform the action or function of the object.</skos:definition>
     <skos:prefLabel xml:lang="de">Energieverbrauch des unbewegten Objekts</skos:prefLabel>
@@ -119,7 +168,8 @@
     <skos:prefLabel xml:lang="ru">Затрата энергии неподвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/ExternalHarmfulFactors">
-    <od:hasParameterNumber>30</od:hasParameterNumber>
+    <od:hasAltshuller84Id>30</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>40</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Susceptibility of a system to externally generated (harmful) effects. A harmful effect is one that reduces the efficiency or quality of the functioning of the object or system.</skos:definition>
     <skos:definition xml:lang="de">Von außen auf das Objekt wirkende schädliche Faktoren</skos:definition>
@@ -128,15 +178,27 @@
     <skos:prefLabel xml:lang="ru">Вредные факторы, действующие на объект извне</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Force">
-    <od:hasParameterNumber>10</od:hasParameterNumber>
+    <od:hasAltshuller84Id>10</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>15</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Force measures the interaction between systems and is measured as the strength or energy of physical action or movement. It is any interaction that changes an object’s condition or environment.</skos:definition>
     <skos:prefLabel xml:lang="en">Force (Intensity)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Kraft</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Сила</skos:prefLabel>
   </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/FunctionEfficiency">
+    <od:hasMatrix2003Id>24</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Function Efficiency</skos:prefLabel>
+  </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/HarmfulEmissions">
+    <od:hasMatrix2003Id>30</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Harmful Emissions</skos:prefLabel>
+  </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/IlluminationIntensity">
-    <od:hasParameterNumber>18</od:hasParameterNumber>
+    <od:hasAltshuller84Id>18</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>23</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Illumination characteristics of the system such as brightness, intensity, and color.</skos:definition>
     <skos:prefLabel xml:lang="de">Beleuchtungsintensität</skos:prefLabel>
@@ -144,7 +206,8 @@
     <skos:prefLabel xml:lang="ru">Освещённость</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/InternalHarmfulFactors">
-    <od:hasParameterNumber>31</od:hasParameterNumber>
+    <od:hasAltshuller84Id>31</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>31</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Harmful effects are generated by the object or system, as part of its operation.</skos:definition>
     <skos:definition xml:lang="de">Vom Objekt selbst erzeugte schädliche Faktoren</skos:definition>
@@ -153,7 +216,8 @@
     <skos:prefLabel xml:lang="ru">Вредные факторы самого объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LengthOfTheMovingObject">
-    <od:hasParameterNumber>03</od:hasParameterNumber>
+    <od:hasAltshuller84Id>03</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>03</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Any one linear dimension of the object, not necessarily the longest.</skos:definition>
     <skos:prefLabel xml:lang="en">Length of the moving object</skos:prefLabel>
@@ -161,7 +225,8 @@
     <skos:prefLabel xml:lang="ru">Длина подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LengthOfTheStationaryObject">
-    <od:hasParameterNumber>04</od:hasParameterNumber>
+    <od:hasAltshuller84Id>04</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>04</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Any one linear dimension of the object, not necessarily the longest.</skos:definition>
     <skos:prefLabel xml:lang="en">Length of the stationary object</skos:prefLabel>
@@ -169,7 +234,8 @@
     <skos:prefLabel xml:lang="ru">Длина неподвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LevelOfAutomation">
-    <od:hasParameterNumber>38</od:hasParameterNumber>
+    <od:hasAltshuller84Id>38</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>43</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The extent to which a system or object performs its functions without human assistance. At the highest level of operation, the system or object can determine what is needed, adapt to that need, and monitor its function.</skos:definition>
     <skos:prefLabel xml:lang="de">Automatisierungsgrad</skos:prefLabel>
@@ -177,7 +243,8 @@
     <skos:prefLabel xml:lang="ru">Степень автоматизации</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfEnergy">
-    <od:hasParameterNumber>22</od:hasParameterNumber>
+    <od:hasAltshuller84Id>22</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>27</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The waste of energy resource(s) through the function or movement of the object or system.</skos:definition>
     <skos:prefLabel xml:lang="de">Energieverluste</skos:prefLabel>
@@ -185,7 +252,8 @@
     <skos:prefLabel xml:lang="ru">Потери энергии</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfInformation">
-    <od:hasParameterNumber>24</od:hasParameterNumber>
+    <od:hasAltshuller84Id>24</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>28</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Partial or complete, permanent or temporary, loss of data or access to data in or by a system. Frequently includes sensory data such as aroma, texture, etc.</skos:definition>
     <skos:prefLabel xml:lang="de">Informationsverluste</skos:prefLabel>
@@ -193,7 +261,8 @@
     <skos:prefLabel xml:lang="ru">Потери информации</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfSubstance">
-    <od:hasParameterNumber>23</od:hasParameterNumber>
+    <od:hasAltshuller84Id>23</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>25</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Waste of a system’s materials, substances, parts, or subsystems during normal functioning.</skos:definition>
     <skos:prefLabel xml:lang="en">Loss of substance</skos:prefLabel>
@@ -201,7 +270,8 @@
     <skos:prefLabel xml:lang="ru">Потери вещества</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfTime">
-    <od:hasParameterNumber>25</od:hasParameterNumber>
+    <od:hasAltshuller84Id>25</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>26</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Time taken to perform the activity or function of the system or object. Improving the loss of time means reducing the time taken for the activity.</skos:definition>
     <skos:prefLabel xml:lang="en">Loss of time</skos:prefLabel>
@@ -209,23 +279,81 @@
     <skos:prefLabel xml:lang="ru">Потери времени</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/ManufacturingPrecision">
-    <od:hasParameterNumber>29</od:hasParameterNumber>
+    <od:hasAltshuller84Id>29</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>42</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The extent to which the actual characteristics of the system or object match the specified or required characteristics.</skos:definition>
     <skos:prefLabel xml:lang="de">Fertigungsgenauigkeit</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Manufacturing precision</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Точность изготовления</skos:prefLabel>
   </od:Parameter>
+  <od:ParameterClass rdf:about="http://opendiscovery.org/rdf/Concept/Measurement">
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/DifficultyOfDetecting"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/MeasurementAccuracy"/>
+    <skos:prefLabel xml:lang="en">Measurement</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Messung</skos:prefLabel>
+  </od:ParameterClass>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/MeasurementAccuracy">
-    <od:hasParameterNumber>28</od:hasParameterNumber>
+    <od:hasAltshuller84Id>28</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>48</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The degree to which the result of a measurement of a property of a system conforms to the correct value or a standard.</skos:definition>
     <skos:prefLabel xml:lang="en">Measurements accuracy</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Messgenauigkeit</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Точность измерения</skos:prefLabel>
   </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Noise">
+    <od:hasMatrix2003Id>29</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Noise</skos:prefLabel>
+  </od:Parameter>
+  <od:ParameterClass rdf:about="http://opendiscovery.org/rdf/Concept/Non-Functionality">
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Adaptability"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/AestheticsOrAppearance"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/CompatitbilityOrConnectability"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/EaseOfOperation"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/EaseOfRepair"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/ExternalHarmfulFactors"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Reliability"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Security"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Vulnerability"/>
+    <skos:prefLabel>Nicht-Funktionale Parameter</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Non-Functionality</skos:prefLabel>
+  </od:ParameterClass>
+  <od:ParameterClass rdf:about="http://opendiscovery.org/rdf/Concept/Performance">
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/DurabilityOfTheMovingObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/DurabilityOfTheStationaryObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/EnergyUseOfTheMovingObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/EnergyUseOfTheStationaryObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Force"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/IlluminationIntensity"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Power"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Speed"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/StabilityOfTheObjectsStructure"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Strength"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/StressOrPressure"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Temperature"/>
+    <skos:prefLabel xml:lang="de">Leistungsfähigkeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Performance</skos:prefLabel>
+  </od:ParameterClass>
+  <od:ParameterClass rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalParameters">
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/AmountOfSubstance"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/AreaOfTheMovingObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/AreaOfTheStationaryObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LengthOfTheMovingObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/LengthOfTheStationaryObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/QuantityofInformation"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/Shape"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/VolumeOfTheMovingObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/VolumeOfTheStationaryObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/WeightOfTheMovingObject"/>
+    <od:contains rdf:resource="http://opendiscovery.org/rdf/Concept/WeightOfTheStationaryObject"/>
+    <skos:prefLabel xml:lang="en">Physical Parameters</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Physikalische Parameter</skos:prefLabel>
+  </od:ParameterClass>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Power">
-    <od:hasParameterNumber>21</od:hasParameterNumber>
+    <od:hasAltshuller84Id>21</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>18</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Energy that is produced by mechanical, electrical, or other means. This characteristic refers to production not consumption.</skos:definition>
     <skos:prefLabel xml:lang="de">Leistung, Kapazität</skos:prefLabel>
@@ -233,23 +361,36 @@
     <skos:prefLabel xml:lang="ru">Мощность</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Productivity">
-    <od:hasParameterNumber>39</od:hasParameterNumber>
+    <od:hasAltshuller84Id>39</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>44</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The output of a system per unit time or per unit of input. The effectiveness of productive effort.</skos:definition>
     <skos:prefLabel xml:lang="en">Productivity</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Produktivität</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Производительность</skos:prefLabel>
   </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/QuantityofInformation">
+    <od:hasMatrix2003Id>11</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Quantity Of Information</skos:prefLabel>
+  </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Reliability">
-    <od:hasParameterNumber>27</od:hasParameterNumber>
+    <od:hasAltshuller84Id>27</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>35</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">A system’s ability to perform its intended functions in consistent, predictable ways.</skos:definition>
     <skos:prefLabel xml:lang="en">Reliability</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Zuverlässigkeit</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Надёжность</skos:prefLabel>
   </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Security">
+    <od:hasMatrix2003Id>37</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Security</skos:prefLabel>
+  </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Shape">
-    <od:hasParameterNumber>12</od:hasParameterNumber>
+    <od:hasAltshuller84Id>12</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>09</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The external contours, form, or appearance of a system.</skos:definition>
     <skos:prefLabel xml:lang="de">Form</skos:prefLabel>
@@ -257,7 +398,8 @@
     <skos:prefLabel xml:lang="ru">Форма</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Speed">
-    <od:hasParameterNumber>09</od:hasParameterNumber>
+    <od:hasAltshuller84Id>09</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>14</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The rate of a process or action, or the rate of movement of an object.</skos:definition>
     <skos:prefLabel xml:lang="de">Geschwindigkeit</skos:prefLabel>
@@ -265,7 +407,8 @@
     <skos:prefLabel xml:lang="ru">Скорость</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/StabilityOfTheObjectsStructure">
-    <od:hasParameterNumber>13</od:hasParameterNumber>
+    <od:hasAltshuller84Id>13</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>21</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The standalone nature and immobility of the system or object.</skos:definition>
     <skos:prefLabel xml:lang="en">Stability of the object’s structure</skos:prefLabel>
@@ -273,7 +416,8 @@
     <skos:prefLabel xml:lang="ru">Устойчивость состава объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Strength">
-    <od:hasParameterNumber>14</od:hasParameterNumber>
+    <od:hasAltshuller84Id>14</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>20</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The extent to which the object can resist changing in response to force. Resistance to breaking.</skos:definition>
     <skos:prefLabel xml:lang="de">Festigkeit</skos:prefLabel>
@@ -281,7 +425,8 @@
     <skos:prefLabel xml:lang="ru">Прочность</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/StressOrPressure">
-    <od:hasParameterNumber>11</od:hasParameterNumber>
+    <od:hasAltshuller84Id>11</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>19</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Technically, force per unit area but can also be a balance between, and interplay of, opposing objects or systems.</skos:definition>
     <skos:prefLabel xml:lang="de">Spannung, Druck</skos:prefLabel>
@@ -289,7 +434,8 @@
     <skos:prefLabel xml:lang="ru">Напряжение, давление</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Temperature">
-    <od:hasParameterNumber>17</od:hasParameterNumber>
+    <od:hasAltshuller84Id>17</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>22</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The thermal condition of the object or system. Includes other thermal parameters, such as heat capacity, that affect the rate of change of temperature.</skos:definition>
     <skos:prefLabel xml:lang="de">Temperatur</skos:prefLabel>
@@ -297,7 +443,8 @@
     <skos:prefLabel xml:lang="ru">Температура</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/VolumeOfTheMovingObject">
-    <od:hasParameterNumber>07</od:hasParameterNumber>
+    <od:hasAltshuller84Id>07</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>07</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The cubic measure of space occupied by the object.</skos:definition>
     <skos:prefLabel xml:lang="en">Volume of the moving object</skos:prefLabel>
@@ -305,7 +452,8 @@
     <skos:prefLabel xml:lang="ru">Объем подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/VolumeOfTheStationaryObject">
-    <od:hasParameterNumber>08</od:hasParameterNumber>
+    <od:hasAltshuller84Id>08</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>08</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The cubic measure of space occupied by the object.</skos:definition>
     <skos:definition xml:lang="de">Volumen des unbewegten Objekts</skos:definition>
@@ -313,8 +461,14 @@
     <skos:prefLabel xml:lang="de">Volumen des unbewegten Objekts</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Объем неподвижного объекта</skos:prefLabel>
   </od:Parameter>
+  <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Vulnerability">
+    <od:hasMatrix2003Id>38</od:hasMatrix2003Id>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Vulnerability</skos:prefLabel>
+  </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/WeightOfTheMovingObject">
-    <od:hasParameterNumber>01</od:hasParameterNumber>
+    <od:hasAltshuller84Id>01</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>01</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The weight of the object, in a gravitational field. The force that the body exerts on its support or suspension.</skos:definition>
     <skos:prefLabel xml:lang="de">Gewicht des bewegten Objekts</skos:prefLabel>
@@ -322,7 +476,8 @@
     <skos:prefLabel xml:lang="ru">Вес подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/WeightOfTheStationaryObject">
-    <od:hasParameterNumber>02</od:hasParameterNumber>
+    <od:hasAltshuller84Id>02</od:hasAltshuller84Id>
+    <od:hasMatrix2003Id>02</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">The weight of the object, in a gravitational field. The force that the body exerts on the surface on which it rests.</skos:definition>
     <skos:prefLabel xml:lang="de">Gewicht des unbewegten Objekts</skos:prefLabel>
@@ -331,6 +486,9 @@
   </od:Parameter>
   <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Parameter">
     <rdfs:label>A TRIZ Parameter within the Matrix</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#ParameterClass">
+    <rdfs:label>A TRIZ Parameter Class first introduced with Matrix2003</rdfs:label>
   </owl:Class>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Parameters/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
@@ -344,6 +502,8 @@
     <rdfs:comment>2020-04-16 graebe: namespace abbreviation and parameter names fixed</rdfs:comment>
     <rdfs:comment>2021-02-27 graebe: changes to skos:, skos:Concept added as RDF type</rdfs:comment>
     <rdfs:comment>2021-05-24 graebe: fixed Russian and English terms and some URIs</rdfs:comment>
+    <rdfs:comment>2021-07-17 graebe: Matrix 2003 added</rdfs:comment>
+    <rdfs:comment>2021-07-17 graebe: od:hasParameterNumber changed to od:hasAltshuller84Id</rdfs:comment>
     <rdfs:label>TRIZ Parameters from the Matrix</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

@@ -13,9 +13,9 @@
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/General">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
     <rdfs:label>TRIZ Summit 2020 Online</rdfs:label>
-    <ical:description>TRIZ Summit 2020 in Minsk</ical:description>
+    <ical:description>TRIZ Summit 2020 Online</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-21</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-17</ical:dtstart>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-17</ical:dtstart>
     <ical:location>Online, supported by EPAM, Minsk, Belarus</ical:location>
     <ical:url rdf:resource="https://triz-summit.ru/confer/tds-2020/"/>
   </swc:ConferenceEvent>

@@ -195,10 +195,24 @@
     <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/EvolutionalApproach"/>
     <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/InformationFondsofSystemDevelopment"/>
     <od:hasPart rdf:resource="http://opendiscovery.org/rdf/Concept/SystemFunctionApproach"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/DevelopmentInventiveThinking"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveProblem"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ProfessionalInstitutions"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/QualifyingSystem"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/RTV"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZApplicationDomains"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZHistory"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZModel"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZTrends"/>
+    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRTL"/>
     <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Scientific basis of TRIZ</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">TRIZ</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Wissenschaftliche Basis der TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Научные основы ТРИЗ</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">ТРИЗ</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/StructuralAnalysis">
     <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ComponentAnalysis"/>
@@ -241,23 +255,6 @@
     <skos:prefLabel xml:lang="de">Systemoperator</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Systemoperator</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
-    <od:forms rdf:resource="http://opendiscovery.org/rdf/Concept/ScientificTRIZBase"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/DevelopmentInventiveThinking"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveProblem"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/ProfessionalInstitutions"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/QualifyingSystem"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/RTV"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZApplicationDomains"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZHistory"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZModel"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZTrends"/>
-    <od:includes rdf:resource="http://opendiscovery.org/rdf/Concept/TRTL"/>
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
-    <skos:prefLabel xml:lang="de">TRIZ</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">TRIZ</skos:prefLabel>
-    <skos:prefLabel xml:lang="ru">ТРИЗ</skos:prefLabel>
-  </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZApplicationDomains">
     <od:specialCase rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZinInnovation"/>
     <od:specialCase rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZinNontechnicalDomains"/>
@@ -299,37 +296,37 @@
     <skos:prefLabel xml:lang="ru">Модель ТРИЗ</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolBaku">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZSchool"/>
     <skos:prefLabel xml:lang="en">TRIZ School in Baku</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Baku</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Баку</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolGorki">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZSchool"/>
     <skos:prefLabel xml:lang="en">TRIZ School in Gorki</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Gorki</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Горках</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolKishinev">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZSchool"/>
     <skos:prefLabel xml:lang="en">TRIZ School In Kishinev</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule In Kischinjow</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Кишиневе</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolKrasnoyarsk">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZSchool"/>
     <skos:prefLabel xml:lang="en">TRIZ School in Krasnoyarsk</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule im Krasnojarsk</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Красноярске</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolLeningrad">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZSchool"/>
     <skos:prefLabel xml:lang="en">TRIZ School in Leningrad</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Leningrad</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Ленинграде</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://opendiscovery.org/rdf/Concept/TRIZSchoolMinsk">
-    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TopLevelConcept"/>
+    <rdf:type rdf:resource="http://opendiscovery.org/rdf/Model#TRIZSchool"/>
     <skos:prefLabel xml:lang="en">TRIZ School in Minsk</skos:prefLabel>
     <skos:prefLabel xml:lang="de">TRIZ Schule in Minsk</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Школа ТРИЗ в Минске</skos:prefLabel>

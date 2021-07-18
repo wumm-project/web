@@ -74,12 +74,12 @@ function TopLevel() {
         $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
         $types=join("<br/> ",$concept->all("rdf:type"));
         $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
-        $parts=join($concept->all("od:hasPart"),"<br/>");
+        $parts=$concept->all("od:includes");
         $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
             .'<h5><strong>Types</strong></h5>'.$types
             .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
         if(!empty($parts)) {
-            $out.='<h5><strong>Has Parts</strong></h5>'.$parts;
+            $out.='<h5><strong>Has SubConcepts</strong></h5>'.displaySubconcepts($parts);
         }
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
@@ -91,6 +91,15 @@ function TopLevel() {
 </div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
 }
+
+function displaySubconcepts($s) {
+    $a=array();
+    foreach ($s as $key => $entry) {
+        $a[]='<li><a href="displayuri.php?uri='.$entry.'">'.$entry.'</a><li>';
+    }
+    return '<ul>'.join("\n",$a).'</ul>';
+}
+
 
 // ------ the ontocards
 

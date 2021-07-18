@@ -14,6 +14,7 @@
     <od:LippertGlossaryNote xml:lang="en">In manufacturing, asymmetry in parts reduces errors in assembly [39]. This exemplifies changing the shape of the object or system to suit external asymmetries.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Making something asymmetrical can be challenging, but it is accomplished in many solutions such as dynamic load balancing and resource allocation.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Since engineers seem to have an unconscious bias towards symmetrical design [4], changing symmetry will often result in new innovation.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>04</od:Matrix2003Id>
     <od:hasAltshuller73Id>04</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>04</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Asymmetry_1"/>
@@ -40,6 +41,7 @@
     <od:LippertGlossaryNote xml:lang="en">In nature at least, the ability to change color can insure survival [8].</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">It can also be used to improve measurement or improve visibility.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">State change or status can easily be represented by alteration of color, translucency, and or size.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>32</od:Matrix2003Id>
     <od:hasAltshuller73Id>32</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>32</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangeColorAndTransparency_1"/>
@@ -72,6 +74,7 @@
     <od:description xml:lang="ru">Если такие условия уже применяются, используйте люминофоры.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters">
+    <od:Matrix2003Id>35</od:Matrix2003Id>
     <od:hasAltshuller73Id>35</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_1"/>
@@ -98,6 +101,7 @@
     <od:LippertGlossaryNote xml:lang="en">Such a replacement often results in layering.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The emerging process of mash-ups in the digital domain is an implementation of this principle.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle is the opposite of homogeneity.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>40</od:Matrix2003Id>
     <od:hasAltshuller84Id>40</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/CompositeMaterials_1"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -126,6 +130,7 @@
     <od:LippertGlossaryNote xml:lang="en">Having a constant, continuous flow can eliminate system idleness and sometimes intermediate actions. This principle avoids starting and stopping an action as well as the elimination of nondynamic parts of a flow. It leads to balanced utilization and is also a part of lean manufacturing.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">In computer science, continuity of useful action can be extrapolated to the adage “don’t fix what isn’t broken” with regards to upgrading systems.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">On the other hand, the continuous action might not be of the system, but of the user of the system which would be the case with software.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>20</od:Matrix2003Id>
     <od:hasAltshuller73Id>20</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>20</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ContinuityOfUsefulAction_1"/>
@@ -153,6 +158,7 @@
     <od:LippertGlossaryNote xml:lang="en">Copies can be abstractions, images, dimensional models, or simulations.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">For example, approximately 10% of the Vatican library holdings have been digitized so that scholars may “examine” minute details on computer generated images of the originals. (According to the Vatican librarian, the ability to magnify any area of the digitized image has revealed an amazing quantity of information for scholars who would not otherwise be allowed to handle the original materials.)</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Utilizing a copy can allow adjustments in scale and material.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>26</od:Matrix2003Id>
     <od:hasAltshuller73Id>26</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>26</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Copying_1"/>
@@ -180,6 +186,7 @@
     <od:LippertGlossaryNote xml:lang="en">The act of counterbalancing is compensation, or opposition, to bring into balance an environmental force.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The encouragement with this principle is to examine the environment to find existing opposing forces that can be applied.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This can be achieved through a more uniform distribution, or it can be achieved by use of a contrary action or force to alleviate an effect.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>08</od:Matrix2003Id>
     <od:hasAltshuller73Id>08</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>08</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Countermass_1"/>
@@ -201,6 +208,7 @@
     <od:description xml:lang="ru">Вес объекта должен быть компенсирован взаимодействием со средой.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/Coupling">
+    <od:Matrix2003Id>05</od:Matrix2003Id>
     <od:hasAltshuller73Id>05</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>05</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Coupling_1"/>
@@ -224,6 +232,7 @@
     <od:LippertGlossaryNote xml:lang="en">One means of implementing this principle is to make the stationary and moveable dimensions interchangeable.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The focus is to change characteristics of the object or environment to achieve optimal performance or action.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle focuses on change and adaptability. A system, state, or property is made ephemeral, temporary, moveable, adaptive, flexible, or changeable.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>15</od:Matrix2003Id>
     <od:hasAltshuller73Id>15</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>15</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Dynamization_1"/>
@@ -265,6 +274,7 @@
     <od:LippertGlossaryNote xml:lang="en">These steps are all examples of preliminary counteraction.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Throttling is a mechanism that can control a flow which could overwhelm the receiving system.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">releases to prevent blocking in resource access, as well as input handlers that eliminate error [40].</od:LippertGlossaryNote>
+    <od:Matrix2003Id>09</od:Matrix2003Id>
     <od:hasAltshuller73Id>09</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>09</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_1"/>
@@ -292,6 +302,7 @@
     <od:LippertGlossaryNote xml:lang="en">In network communications, packet headers are handled according to this principle.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Regeneration is the repair or restoration of a part so that it might be reused.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Rejecting is removing, discarding, dissolving, or evaporating, a part of an object or system that is no longer needed.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>34</od:Matrix2003Id>
     <od:hasAltshuller73Id>34</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>34</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EliminationAndRegenerationOfParts_1"/>
@@ -327,6 +338,7 @@
     <od:LippertGlossaryNote xml:lang="en">This is an integral part of lean manufacturing: eliminating undesirable or wasteful action.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Ultimately, the condition of the work is changed so that it will not require unnecessary movement such as lifting and lowering.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Within a computer, memory swapping helps create uniformity in the access of information.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>12</od:Matrix2003Id>
     <od:hasAltshuller73Id>12</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>12</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Equipotentiality_1"/>
@@ -347,6 +359,7 @@
     <od:LippertGlossaryNote xml:lang="en">If a system is already using feedback, the frequency or amplitude of the feedback can be altered, or new sources of feedback can be sought.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">In systems engineering, feedback is used as an improvement driver and incremental development of systems relies heavily on feedback.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This output can be a useful or a harmful output.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>23</od:Matrix2003Id>
     <od:hasAltshuller84Id>23</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Feedback_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Feedback_2"/>
@@ -371,6 +384,7 @@
     <od:LippertGlossaryNote xml:lang="en">In computer systems, middleware can be considered a thin film that separates the algorithms and display from the databases.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">These membranes can be layered to achieve the protection desired.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Wrappers (for functions or data) can also be considered as thin films or flexible membranes.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>30</od:Matrix2003Id>
     <od:hasAltshuller73Id>30</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>30</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_1"/>
@@ -398,6 +412,7 @@
     <od:LippertGlossaryNote xml:lang="en">In the digital domain, this principle can be implemented by combining functions that access the same data into a single application.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Marginal homogeneity can also be employed where there are inconsequential differences between the objects or substances.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">These interactions can be through action, features, functions or objects.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>33</od:Matrix2003Id>
     <od:hasAltshuller73Id>33</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>33</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Homogeneity_1"/>
@@ -412,6 +427,13 @@
     <od:description xml:lang="ru">Объекты, взаимодействующие с данным объектом, должны быть изготовлены из того же материала или материала с примерно такими же характеристиками.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/InertMedium">
+    <od:LippertGlossaryNote xml:lang="en">A clean room is a good example of an inert environment.</od:LippertGlossaryNote>
+    <od:LippertGlossaryNote xml:lang="en">A test environment (harness) for system testing and a virtual sandbox are both examples of inert environments.</od:LippertGlossaryNote>
+    <od:LippertGlossaryNote xml:lang="en">An inert environment is a neutral atmosphere or environment that supports a desired function.</od:LippertGlossaryNote>
+    <od:LippertGlossaryNote xml:lang="en">Implementation of this principle requires first the determination of what it is which is preventing the desired function and then requires the creation of the inert environment to protect or enable that function.</od:LippertGlossaryNote>
+    <od:LippertGlossaryNote xml:lang="en">In operational environments, this would be the removal of extraneous electromagnetic emissions from the environment of the system.</od:LippertGlossaryNote>
+    <od:LippertGlossaryNote xml:lang="en">This is often achieved through shielding.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>39</od:Matrix2003Id>
     <od:hasAltshuller84Id>39</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_2"/>
@@ -436,6 +458,7 @@
     <od:LippertGlossaryNote xml:lang="en">Disposability often requires a change from complication to simplicity or the replacement of a high cost material with something of lower cost.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Implementing this principle requires a tradeoff of one or more properties.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">System and software engineering uses this principle in the development of prototypes that can help improve the actual system being created.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>27</od:Matrix2003Id>
     <od:hasAltshuller73Id>27</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>27</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InexpensiveShortLifeObject_1"/>
@@ -457,6 +480,7 @@
     <od:LippertGlossaryNote xml:lang="en">In computer systems, sorting is approached in this fashion in databases where the indices can be inverted for faster search time.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">It is important to understand that there are two possibilities for reverse — one where there is nothing, and one where the opposite is taken.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle is focused on thinking of the opposite. In place of a direct action, the opposite action is implemented.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>13</od:Matrix2003Id>
     <od:hasAltshuller73Id>13</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>13</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InverseAction_1"/>
@@ -492,6 +516,7 @@
     <od:LippertGlossaryNote xml:lang="en">Optimum functions can be achieved by varying interactions over time for various characteristics of the system.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Such improvement can result from the transition of a homogeneous to a heterogeneous structure for the object or its environment. This may result in the use of a gradient as that being created to produce multistate memory [38] which can replace binary memory for computer systems.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Systems engineering is working to achieve local quality of systems through localization techniques. One such system that has automated this principle is self-positioning solar panels that can track the movement of the sun and reposition to optimize their energy producing ability.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>03</od:Matrix2003Id>
     <od:hasAltshuller73Id>03</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>03</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/LocalQuality_1"/>
@@ -517,6 +542,7 @@
     <od:LippertGlossaryNote xml:lang="en">Mechanical vibration requires understanding that a stable system is not always best and recognizes that there is a place for controlled instability or variation.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Scheduling, queue handling, and randomness in systems demonstrate this principle.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle is concerned with the use of vibration or oscillation to involve a regular, periodic variation in value about a mean.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>18</od:Matrix2003Id>
     <od:hasAltshuller84Id>18</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_2"/>
@@ -560,6 +586,7 @@
     <od:LippertGlossaryNote xml:lang="en">In system and software engineering, interface engineering accomplishes mediation using wrappers, mappings, and middleware.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">It uses an intermediate carrier, a blocker or a process, and any of these can easily be removed once the link is no longer needed.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Mediators exist at interfaces, and they can manifest themselves in many ways.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>24</od:Matrix2003Id>
     <od:hasAltshuller84Id>24</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Mediator_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Mediator_2"/>
@@ -589,6 +616,7 @@
     <od:LippertGlossaryNote xml:lang="en">Steganography, the hiding of information within digital images, can also be considered a special form of matrioshka.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">These wrappers allow ease of movement of information through a system that might reject the native form. Such wrappers are common in digital communications.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Wrappers are another common artifact of computer data processing systems.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>07</od:Matrix2003Id>
     <od:hasAltshuller73Id>07</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>07</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Nesting_1"/>
@@ -625,6 +653,7 @@
     <skos:altLabel xml:lang="en">Partial or Excessive Effect or Action</skos:altLabel>
   </rdf:Description>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/PartialOrExcessiveEffect">
+    <od:Matrix2003Id>16</od:Matrix2003Id>
     <od:hasAltshuller73Id>16</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>16</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PartialOrExcessiveEffect_1"/>
@@ -646,6 +675,7 @@
     <od:LippertGlossaryNote xml:lang="en">In transmission of images, layers of the image are transmitted through bursts of data transmission providing an increasingly sharper image.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Some major examples of this principle are: burst-mode transmissions, batch processing, and image projection.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Variation can be introduced by changing the frequency or amplitude of the periodic action.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>19</od:Matrix2003Id>
     <od:hasAltshuller73Id>19</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>19</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PeriodicAction_1"/>
@@ -676,6 +706,7 @@
     <od:LippertGlossaryNote xml:lang="en">A change from physical to digital can also be considered a phase transition and is exemplified by the transition from postal mail to electronic mail.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Materials that change phase (gas to liquid, liquid to solid, solid to gas) can be used to implement an effect on an object or system.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Phase transitions are accommodated by alteration of other properties of the material, alterations which include volume changes and altered heat capacity which can be captured for benefit to the system.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>36</od:Matrix2003Id>
     <od:hasAltshuller84Id>36</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PhaseTransition_1"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -694,6 +725,7 @@
     <od:LippertGlossaryNote xml:lang="en">System properties that can be considered for replacement include compressibility, flow, turbulence, springiness, and energy absorption.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The energy absorption property of water is superior to that of air, and water has replaced air to cool microelectronics especially in large computers and data centers [10].</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle replaces a solid part of an object with gas or liquid (air or water commonly).</od:LippertGlossaryNote>
+    <od:Matrix2003Id>29</od:Matrix2003Id>
     <od:hasAltshuller73Id>29</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>29</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PneumaticOrHydraulicConstructions_1"/>
@@ -713,6 +745,7 @@
     <od:LippertGlossaryNote xml:lang="en">It should not be limited just to materials as it can be applied equally as well to space, time, fields, functions, and information.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Materials (gasses, solids, and liquids) can be made more porous by creating voids. Such voids change the condition of the materials and increase their surface area.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle can be utilized to increase air flow or achieve filtering.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>31</od:Matrix2003Id>
     <od:hasAltshuller84Id>31</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PorousMaterials_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PorousMaterials_2"/>
@@ -732,6 +765,7 @@
     <od:description xml:lang="ru">Если объект уже пористый, заполните поры подходящим веществом.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/PreferredAction">
+    <od:Matrix2003Id>10</od:Matrix2003Id>
     <od:hasAltshuller73Id>10</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>10</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreferredAction_1"/>
@@ -758,6 +792,7 @@
     <od:LippertGlossaryNote xml:lang="en">Preliminary action can be used to increase performance and safety, as well as to support correct actions and outcomes.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The principle of preliminary action refers to the performance of an action earlier in time than the occurrence of another event.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle should not be confused with preliminary counteraction that requires an opposing action.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>11</od:Matrix2003Id>
     <od:hasAltshuller73Id>11</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>11</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreliminaryAction_1"/>
@@ -786,6 +821,7 @@
     <od:LippertGlossaryNote xml:lang="en">The replacement of mechanical systems with digital systems, such as the replacement of the punched paper tape reader with a computer file system, has been taking place for many years.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">These substitutions change or replace the principle of operation.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle deals with the substitution of interactions, devices, mechanisms, and systems with physical fields or other forms, actions, and states.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>28</od:Matrix2003Id>
     <od:hasAltshuller84Id>28</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_2"/>
@@ -815,6 +851,7 @@
     <od:LippertGlossaryNote xml:lang="en">There is no analogy to this in the digital systems domain.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This is why running over hot coals does less damage to the soles of the feet than walking over them would.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle is useful when overcoming something that goes wrong at one given speed.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>21</od:Matrix2003Id>
     <od:hasAltshuller73Id>21</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>21</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/RushingThrough_1"/>
@@ -840,6 +877,7 @@
     <od:LippertGlossaryNote xml:lang="en">Segmentation has already been implemented within computer systems in transitioning from mainframes to personal computers.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Segmentation is the process of dividing a system into parts. Such a division permits the isolation of system properties.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The divisions applied can be real or artificial, psychological, or physical.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>01</od:Matrix2003Id>
     <od:hasAltshuller73Id>01</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>01</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Segmentation_1"/>
@@ -875,6 +913,7 @@
     <od:LippertGlossaryNote xml:lang="en">The object services itself, repairs itself, or carries out supplementary useful actions.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The self-service can be the result of physical, chemical, geometric, spatial, or temporal arrangement of actions or objects.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle refers to the ability of an object or system to process related functions in conjunction with its primary function.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>25</od:Matrix2003Id>
     <od:hasAltshuller73Id>25</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>25</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SelfService_1"/>
@@ -903,6 +942,7 @@
     <od:LippertGlossaryNote xml:lang="en">In contrast to segmentation, extraction involves the removal of things from the system. Extraction requires the separation of useful or harmful parts or properties from the whole system. This allows what is needed, or conversely what is not needed, to be taken from the system. This can be achieved by extracting the cause of the undesirable property or function.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">In process improvement, extraction is achieved by the application of Lean principles [37].</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Similarly, extraction of the disturbing part or property from an object is seen in the development of an X-ray shield that has cut-outs in the shape of the lungs to better protect the parts of the body that do not need to be exposed.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>02</od:Matrix2003Id>
     <od:hasAltshuller73Id>02</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>02</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Separation_1"/>
@@ -933,6 +973,7 @@
     <od:LippertGlossaryNote xml:lang="en">Spheroidality is achieved by replacing linear attributes with curved or spherical ones.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This can be a change from linear to nonlinear, or it can be a change in a coordinate system (Cartesian to polar).</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">arrangements (e.g., hierarchical) to more circular ones (e.g., graphs).</od:LippertGlossaryNote>
+    <od:Matrix2003Id>14</od:Matrix2003Id>
     <od:hasAltshuller73Id>14</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>14</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SphericalShape_1"/>
@@ -964,6 +1005,7 @@
     <od:LippertGlossaryNote xml:lang="en">Optimization of functions can be achieved in several ways in the digital environment.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The various states of oxygen can be leveraged as a catalyst for change, improving an action or function. Catalysts can be used to accelerate or decelerate an action and support optimization of functions.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Visualization is another catalyst for understanding.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>38</od:Matrix2003Id>
     <od:hasAltshuller84Id>38</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/StrongOxidants_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/StrongOxidants_2"/>
@@ -1005,6 +1047,7 @@
     <od:LippertGlossaryNote xml:lang="en">In systems where there is a heat-induced change, the heat can be used to benefit the system, or it can be negated.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The principle can be extended to other phenomena such as gravity, light, and pressure.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This principle uses the conversion of heat energy into mechanical energy.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>37</od:Matrix2003Id>
     <od:hasAltshuller84Id>37</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ThermalExpansion_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ThermalExpansion_2"/>
@@ -1029,6 +1072,7 @@
     <od:LippertGlossaryNote xml:lang="en">The conversion of harm into benefit for a system requires a change in attitude.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The conversion of waste heat to power using a turbine is an example of this principle.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">The system must be examined for wasted materials, energy, information, functions, space, time, etc. to find the harmful factors. Once identified, they can be dealt with.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>22</od:Matrix2003Id>
     <od:hasAltshuller73Id>22</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>22</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_1"/>
@@ -1071,6 +1115,7 @@
     <od:LippertGlossaryNote xml:lang="en">Format changes, such as binary to hex, can also be considered dimensional changes.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">These transitions can be applied multiple times and in either (or all) directions.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">This change in dimension allows their undetected maturation.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>17</od:Matrix2003Id>
     <od:hasAltshuller84Id>17</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_2"/>
@@ -1110,6 +1155,7 @@
     <od:LippertGlossaryNote xml:lang="en">This universality can refer to a feature, an action or a condition of the system over space and/or time as well as the use of an object for different purposes.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">To achieve this result, a system can be made more dynamic, with interchangeable elements, or the system can use adjustable features.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Universality addresses making a system more uniform and more comprehensive in its function.</od:LippertGlossaryNote>
+    <od:Matrix2003Id>06</od:Matrix2003Id>
     <od:hasAltshuller73Id>06</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>06</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Universality_1"/>
@@ -1124,14 +1170,6 @@
     <od:description xml:lang="en">The object fulfills several different functions, which makes additional separate objects superfluous.</od:description>
     <od:description xml:lang="ru">Объект выполняет несколько различных функций, что делает ненужными дополнительные объекты.</od:description>
   </od:Recommendation>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/UseInertMedium">
-    <od:LippertGlossaryNote xml:lang="en">A clean room is a good example of an inert environment.</od:LippertGlossaryNote>
-    <od:LippertGlossaryNote xml:lang="en">A test environment (harness) for system testing and a virtual sandbox are both examples of inert environments.</od:LippertGlossaryNote>
-    <od:LippertGlossaryNote xml:lang="en">An inert environment is a neutral atmosphere or environment that supports a desired function.</od:LippertGlossaryNote>
-    <od:LippertGlossaryNote xml:lang="en">Implementation of this principle requires first the determination of what it is which is preventing the desired function and then requires the creation of the inert environment to protect or enable that function.</od:LippertGlossaryNote>
-    <od:LippertGlossaryNote xml:lang="en">In operational environments, this would be the removal of extraneous electromagnetic emissions from the environment of the system.</od:LippertGlossaryNote>
-    <od:LippertGlossaryNote xml:lang="en">This is often achieved through shielding.</od:LippertGlossaryNote>
-  </rdf:Description>
   <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Principle">
     <rdfs:label xml:lang="en">A TRIZ Principle</rdfs:label>
     <rdfs:label xml:lang="de">Ein TRIZ Prinzip</rdfs:label>
@@ -1148,6 +1186,7 @@
     <rdfs:comment>2020-04-16 graebe: namespace abbreviation and principle names fixed</rdfs:comment>
     <rdfs:comment>2020-07-12 graebe: od:hasRecommendation split off, Altshuller73 Ids added</rdfs:comment>
     <rdfs:comment>2021-02-27 graebe: Lippert-2019 Glossary added, URIs translated to namespace tc:</rdfs:comment>
+    <rdfs:comment>2021-07-17 graebe: Matrix2003 Ids from Stelzle's work added</rdfs:comment>
     <rdfs:label>TRIZ Database - The 40 Principles</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

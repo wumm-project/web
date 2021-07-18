@@ -1311,8 +1311,7 @@
     <skos:prefLabel xml:lang="ru">Развертывание систем</skos:prefLabel>
   </od:TOPGlossaryEntry>
   <od:TOPGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TRIZ">
-    <od:TOPExplanation xml:lang="ru">
-Область знаний о законах и тенденциях развития технических 
+    <od:TOPExplanation xml:lang="ru">Область знаний о законах и тенденциях развития технических 
 систем, методах и инструментах прогнозирования, выявления, анализа и 
 решения противоречий развития систем. В основе ТРИЗ лежат законы 
 диалектики, используется эволюционный, системный, функциональный, 
