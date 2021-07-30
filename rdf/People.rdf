@@ -607,6 +607,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Etcu_M">
     <foaf:name>Mihaela Ețcu</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Faber_B">
+    <foaf:affil>TRIZ Biopharma International Corp</foaf:affil>
+    <foaf:name>Boris Faber</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Faer_SA">
     <foaf:affil>Academy of Troubleshooting, Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Фаер Сергей</foaf:fullname>

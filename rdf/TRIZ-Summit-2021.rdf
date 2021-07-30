@@ -12,8 +12,8 @@
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/General">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
-    <rdfs:label>TRIZ Summit 2021 Online</rdfs:label>
-    <ical:description>TRIZ Summit 2021 Online</ical:description>
+    <rdfs:label>TRIZ Summit 2021 Online, Main</rdfs:label>
+    <ical:description>TRIZ Summit 2021 Online, Main</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-10</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-09</ical:dtstart>
     <ical:location>Online, supported by EPAM, Minsk, Belarus</ical:location>

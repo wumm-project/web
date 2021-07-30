@@ -181,7 +181,7 @@
     <skos:prefLabel xml:lang="ru">Основная функция</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/BasicPrinciple">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguestoEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">see Operational Principle</od:SouchkovDefinition>
@@ -227,7 +227,7 @@
     <skos:prefLabel xml:lang="ru">Би-система с противоположными характеристиками</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/BiologicalEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">An effect produced by a biological object (animal, microbe, insect, plant) or combination of such that could be used for inventive problem solving. </od:SouchkovDefinition>
     <od:SouchkovExample xml:lang="en">To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -255,7 +255,7 @@
     <skos:prefLabel xml:lang="en">Cause-Effect Chain</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Причинно-следственная цепочка недостатков</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
-  <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CauseEffectChainsAnalysis">
+  <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CauseEffectChainAnalysis">
     <od:SouchkovAbbreviation xml:lang="en">CECA</od:SouchkovAbbreviation>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TRIZTools"/>
     <od:SouchkovDefinition xml:lang="en">An analytical tool that identifies the Key Disadvantages of the analyzed Technical system. This is accomplished by building cause-effect chains of disadvantages that link the Target Disadvantage to its fundamental causes.</od:SouchkovDefinition>
@@ -471,8 +471,8 @@
     <skos:prefLabel xml:lang="ru">Таблица основных приемов для устранения типовых технических противоречий (Таблица Альтшуллера)</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ContradictionsTree">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseandEffectChainAnalysis"/>
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/Root-ConflictAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseEffectChainAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/RootConflictAnalysis"/>
     <od:SouchkovDefinition xml:lang="en">A tree which relates different contradictions causing a problem. A contradiction tree is obtained as a result of top-down decomposition of the main negative or undesired effect to a number of inter-related causing contradictions.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Contradictions Tree</skos:prefLabel>
@@ -486,7 +486,7 @@
     <skos:prefLabel xml:lang="ru">Орган управления</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Convolution">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnical"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/TrendsofTechnicalSystemsEvolution"/>
     <od:SouchkovDefinition xml:lang="en">An interval on the timeline of a technical system evolution according to the Bell-curve of evolution which follows the phase of the system's Expansion. During Convolution, innovative changes of the technical system result in the decrease of the overall complication of the system, decrease of its dimensions and energy consumption; and decrease of costs required to deliver the system's main useful function or provide the main parameter of value required while still ensuring that the required degrees of quality and performance do not degrade. Three possible scenarios of covolution are possible: 1) Minimal, when all subsystems still remain independent; 2) Partial, when a number of subsystems become a single subsystem; 3) Full, when all subsystems may not work independently. In many cases, partial and full convolution require change of operational principles.</od:SouchkovDefinition>
     <od:SouchkovExample xml:lang="en">An electronic circuit which consists of independent electronic devices is replaced by a microchip.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -650,7 +650,7 @@
     <skos:prefLabel xml:lang="ru">Эполь</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/EffectDisadvantage">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseandEffectChainAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseEffectChainAnalysis"/>
     <od:SouchkovDefinition xml:lang="en">Disadvantage in the Cause-Effect Chain that is directly caused by a given disadvantage.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Effect Disadvantage</skos:prefLabel>
@@ -1013,7 +1013,7 @@
     <skos:prefLabel xml:lang="ru">Функциональность</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/GeneralizedFunction">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">An abstract function for which a specific object and associated action are reduced to universal terms.</od:SouchkovDefinition>
     <od:SouchkovExample xml:lang="en">Specific function "remove water" can be generalized to "transport liquid".</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1037,7 +1037,7 @@
     <skos:prefLabel xml:lang="ru">Обобщенный технический параметр</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/GeometricalEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A specific shape or combination of shapes that can be used for inventive problem solving. </od:SouchkovDefinition>
     <od:SouchkovExample xml:lang="en">The use of hyperbolic shape helps to improve displacement of solid bodies.</od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1311,7 +1311,7 @@
     <skos:prefLabel xml:lang="ru">Матрица взаимодействий</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/IntermediateDisadvantage">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseandEffectChainAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseEffectChainAnalysis"/>
     <od:SouchkovDefinition xml:lang="en">A disadvantage in the Cause-Effect Chain that is not a Target or a Key Disadvantage.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Intermediate Disadvantage</skos:prefLabel>
@@ -1598,7 +1598,7 @@
     <skos:prefLabel xml:lang="ru">Задача максимальная (макси-задача)</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/MeasurementFunction">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A providing Function that reveals information about components.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Measurement Function</skos:prefLabel>
@@ -1790,7 +1790,7 @@
     <skos:prefLabel xml:lang="ru">Операция</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/OperationalPrinciple">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguestoEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">An abstract concept presenting how a required function can be obtained on the basis of a scientific effect or combination of scientific effects. Operational Principle can be instantiated into a multitude of different designs of technical systems or components.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1894,7 +1894,7 @@
     <skos:prefLabel xml:lang="ru">Физическое противоречие</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PhysicalEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A natural phenomenon known in science of physics or combination of such that could be used for inventive problem solving.</od:SouchkovDefinition>
     <od:SouchkovExample xml:lang="en">Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. </od:SouchkovExample>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1949,8 +1949,8 @@
     <skos:prefLabel xml:lang="ru">Плохо регулируемое взаимодействие</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/PositiveEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseandEffectChainAnalysis"/>
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/Root-ConflictAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseEffectChainAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/RootConflictAnalysis"/>
     <od:SouchkovDefinition xml:lang="en">A situation when a function, action, or interaction leads to the result required.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Positive Effect</skos:prefLabel>
@@ -2013,7 +2013,7 @@
     <skos:prefLabel xml:lang="ru">Постановка задачи</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ProblemofChange">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguestoEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveStandards"/>
     <od:SouchkovDefinition xml:lang="en">An inventive problem which requires to improve performance or quality of a technical system, to add a new feature, or to eliminate a negative effect. Solutions to such problems mostly result from changing a technical system given.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2021,7 +2021,7 @@
     <skos:prefLabel xml:lang="ru">Задача на изменение</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ProblemofMeasurementorDetection">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguestoEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/InventiveStandards"/>
     <od:SouchkovDefinition xml:lang="en">A problem which requires to measure value of a specific parameter or detect presence or a change in a specific attribute of a component at a moment given. Most often solutions to such problems result from creating new technical systems or improvement of the existing technical systems for measurement or detection.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -2197,7 +2197,7 @@
     <skos:prefLabel xml:lang="en">System S-Curve</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ScientificEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A natural phenomenon or combination of such that can be used for inventive problem solving or generation of a new technical system or its subsystem based on a new operational principle.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Scientific Effect</skos:prefLabel>
@@ -2453,7 +2453,7 @@
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Subsystem">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/Multi-ScreenDiagramofThinking"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/MultiScreenDiagramofThinking"/>
     <od:SouchkovDefinition xml:lang="en">A component or a set of interacting components limited by specific borders that belong to a technical system. Both a separate material object and a larger system's part combining several components (material objects) can be regarded as a subsystem.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Sub-system</skos:altLabel>
@@ -2491,7 +2491,7 @@
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Supersystem">
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/Multi-ScreenDiagramofThinking"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/MultiScreenDiagramofThinking"/>
     <od:SouchkovDefinition xml:lang="en">A system that includes a technical system given as its part (sub-system). </od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Higher System</skos:altLabel>
@@ -2714,14 +2714,14 @@
     <skos:prefLabel xml:lang="ru">Техническое противоречие</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovDefinition xml:lang="en">A specific engineering solution that can provide a delivery of an technical function in various technology areas.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Technical Effect</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Технический эффект</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/TechnicalFunction">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CataloguesofEffects"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CatalogueofEffects"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/FunctionAnalysisandModeling"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
     <od:SouchkovDefinition xml:lang="en">A specific type of a function which deals with an attribute of a technical system or its supersystem.</od:SouchkovDefinition>
@@ -3021,9 +3021,9 @@
     <skos:prefLabel xml:lang="ru">Типовой параметр</skos:prefLabel>
   </od:SouchkovGlossaryEntry>
   <od:SouchkovGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/UndesiredEffect">
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseandEffectChainAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/CauseEffectChainAnalysis"/>
     <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/GeneralTRIZ"/>
-    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/Root-ConflictAnalysis"/>
+    <od:SouchkovCategory rdf:resource="http://opendiscovery.org/rdf/Concept/RootConflictAnalysis"/>
     <od:SouchkovDefinition xml:lang="en">A result which occurs during functioning of a technical system and which leads to either decrease of the degree of ideality of the system and its perceived value or produces a negative impact on a product or the rest of the supersystem.</od:SouchkovDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Undesired Effect</skos:prefLabel>
