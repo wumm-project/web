@@ -212,8 +212,8 @@
     <od:urlVideo rdf:resource="https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Saunin-Fomenko-2019/"/>
     <dcterms:abstract xml:lang="en">Experience of TRIZ for organizational and managerial tasks: 12 months, 29 projects. Main conclusions.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Опыт применения ТРИЗ для решения организационно-управленческих задач: 12 месяцев, 29 проектов. Основные выводы.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_A"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_AY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_NY"/>
     <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2019-ru/talks/578"/>
     <dcterms:title xml:lang="en">TRIZ. Solving inventive problems is a new integral function of the company</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ. Решение изобретательских задач - новая неотъемлемая функция компании</dcterms:title>

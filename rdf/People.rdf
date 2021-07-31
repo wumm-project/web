@@ -688,10 +688,10 @@
     <foaf:affil>Cluj-Napoca, Romania</foaf:affil>
     <foaf:name>Andrei Vlad Florian</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fomenko_A">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fomenko_AY">
     <foaf:affil>Moscow, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Фоменко Алексей</foaf:fullname>
-    <foaf:name>Aleksej Fomenko</foaf:name>
+    <foaf:fullname xml:lang="ru">Фоменко Алексей Юрьевич</foaf:fullname>
+    <foaf:name>Aleksey Y. Fomenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fowlkes_WY">
     <foaf:name>William Y. Fowlkes</foaf:name>
@@ -2313,10 +2313,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sarkani_S">
     <foaf:name>S. Sarkani</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Saunin_N">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Saunin_NY">
     <foaf:affil>Moscow, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Саунин Николай</foaf:fullname>
-    <foaf:name>Nikolaj Saunin</foaf:name>
+    <foaf:fullname xml:lang="ru">Саунин Николай Евгеньевич</foaf:fullname>
+    <foaf:name>Nikolay Y. Saunin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Savelli_S">
     <foaf:affil>MP Solving, Belgium</foaf:affil>
