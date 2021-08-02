@@ -92,7 +92,7 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     <dcterms:title xml:lang="en">How to use TRIZ on information flow management</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_114">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/deSaeger_I"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeSaeger_I"/>
     <dcterms:title xml:lang="en">Smart Cases for Business TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/Talk_115">

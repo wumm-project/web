@@ -266,6 +266,16 @@ including keynote talks and presentations at plenary sessions. </ical:summary>
 The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.</ical:summary>
     <ical:url rdf:resource="https://tfc20.eu/"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2021.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
+    <rdfs:label>TRIZ Future 2021</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-24</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-22</ical:dtstart>
+    <ical:location>online, supported by the Free University of Bozen-Bolzano (Italy)</ical:location>
+    <ical:summary>The 21st edition of ETRIA World Conference “TRIZ Future” invites the submission of original papers and best practices that combine systematic invention generation, creative design, and digital technologies to solve complex problems in any field of human activity with a particular focus on advanced systems for tackling environmental issues and other global challenges. Therefore, the conference welcomes scientific and practitioners’ contributions, as well as posters, about the main issues summarized in the list below, which however should not be considered exhaustive.</ical:summary>
+    <ical:url rdf:resource="https://tfc21.events.unibz.it/"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2007/">
     <od:theProceedings rdf:resource="https://www.trizland.ru/trizba/pdf-books/TRIZ-summit2007.pdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
