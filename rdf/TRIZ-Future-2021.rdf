@@ -124,7 +124,7 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Deder_A"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevskii_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Peric_N"/>
     <dcterms:title xml:lang="en">Concept extraction based on semantic models using big amount of patents and scientific publications data</dcterms:title>
   </od:Talk>
@@ -154,7 +154,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_121">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/Keynote"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prushinskiy_VO"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prushinsky_VO"/>
     <dcterms:title xml:lang="en">How much TRIZ in recent creative developments of smart products?</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_122">
