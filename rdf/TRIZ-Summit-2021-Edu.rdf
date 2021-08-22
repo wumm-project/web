@@ -42,7 +42,7 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020-Edu/Talk_104">
     <dcterms:abstract xml:lang="en">The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов.</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Korotkih_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Korotkikh_SN"/>
     <dcterms:title xml:lang="en">TRIZ technologies in high-quality training of specialists</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ-технологии в качественной подготовке специалистов</dcterms:title>
   </od:Talk>

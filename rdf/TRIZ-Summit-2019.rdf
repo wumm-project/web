@@ -326,7 +326,7 @@
     <dcterms:abstract xml:lang="en">The educational environment for the development of inventive abilities of older preschoolers and younger schoolchildren is considered as an educational system built into the general system of creative education of children. The report will consider general approaches to the construction of an educational environment as systems: functions, structure, components, communications with super-systems, and also problems that need to be solved in order to create such an environment. Special attention will be paid to the method of implementing distance support for students, teachers and parents. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Образовательная среда для развития изобретательских способностей старших дошкольников и младших школьников рассматривается как образовательная система, встроенная в общую систему творческого образования детей. В докладе будут рассмотрены общие подходы к построению образовательной среды как системы: функции, структура, компоненты, связи с надсистемами, а также поставлены проблемы, которые необходимо решить для создания такой среды. Отдельное внимание будет уделено способом реализации дистанционной поддержки учеников, педагогов и родителей.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Terekhova_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Terekhova_GV"/>
     <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2019-ru/talks/588"/>
     <dcterms:title xml:lang="en">"Trizoventor" - an environment for the development of inventive abilities of children 6-12 years old</dcterms:title>
     <dcterms:title xml:lang="ru">"Тризобретатель" - среда для развития изобретательских способностей детей 6-12 лет</dcterms:title>
@@ -495,7 +495,7 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/Edu"/>
     <od:urlPaper rdf:resource="http://triz-summit.ru/file.php/id/f304838-file-original.pdf"/>
     <od:urlVideo rdf:resource="https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Korotkih-2019/"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Korotkih_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Korotkikh_SN"/>
     <dcterms:source rdf:resource="https://communities.by/events/triz-summit-2019-ru/talks/729"/>
     <dcterms:title xml:lang="en">Using TRIZ-technology in high-quality training of woodworking specialists</dcterms:title>
     <dcterms:title xml:lang="ru">Использование ТРИЗ-технологии в качественной подготовке специалистов деревообрабатывающего профиля</dcterms:title>

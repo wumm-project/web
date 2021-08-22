@@ -62,7 +62,7 @@ Die Autorinnen stellen ihr System pädagogischer Experimente des forschenden und
     <dcterms:abstract xml:lang="ru">Одна из проблем детского изобретательства — отсутствие у ребят практического опыта, необходимого для получения новой идеи. В среде «Тризобретатель», направленной на развитие изобретательских способностей младших школьников, он формируется с помощью экспериментов и закрепляется специальными дидактическими инструментами, основанных на моделях из ОТСМ-ТРИЗ.
 Авторы представят свою систему учебных экспериментов исследовательского и изобретательского типа, которая позволяет сформировать у ребенка необходимые научные представления на основе собственных экспериментов, учитывая его возрастные особенности и согласование цифровой и естественной экспериментальной среды. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Terekhova_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Terekhova_GV"/>
     <dcterms:title xml:lang="en">Modeling an experiment in children's invention (project of the digital laboratory "Tridentor")</dcterms:title>
     <dcterms:title xml:lang="de">Modellierung eines Experiments zur Erfindung von Kindern (Projekt des digitalen Labors "Tridentor")</dcterms:title>
     <dcterms:title xml:lang="ru">Моделирование эксперимента в детском изобретательстве (проект цифровой лаборатории "Тризобретатель")</dcterms:title>

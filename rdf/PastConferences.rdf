@@ -378,8 +378,18 @@ The Conference aims at linking industrial companies, research centers, education
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-16</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-14</ical:dtstart>
     <ical:location>Kraków, Poland</ical:location>
-    <ical:summary>TRIZ Fest 2016 in Kraków, Poland</ical:summary>
+    <ical:summary>TRIZ Fest 2017 in Kraków, Poland</ical:summary>
     <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2021.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
+    <rdfs:label>TRIZ Fest 2021</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-18</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-15</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary>TRIZ Fest 2021 Online</ical:summary>
+    <ical:url rdf:resource="https://matriz.org"/>
   </swc:ConferenceEvent>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/PastConferences/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
