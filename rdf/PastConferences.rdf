@@ -381,6 +381,28 @@ The Conference aims at linking industrial companies, research centers, education
     <ical:summary>TRIZ Fest 2017 in Kraków, Poland</ical:summary>
     <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2018.rdf"/>
+    <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2018/12/TRIZfest-2018-Proceedings.pdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
+    <rdfs:label>TRIZ Fest 2018</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-15</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-13</ical:dtstart>
+    <ical:location>Heilbronn, Germany</ical:location>
+    <ical:summary>TRIZ Fest 2018 in Lisbon, Portugal</ical:summary>
+    <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2019.rdf"/>
+    <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
+    <rdfs:label>TRIZ Fest 2019</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-14</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-11</ical:dtstart>
+    <ical:location>Heilbronn, Germany</ical:location>
+    <ical:summary>TRIZ Fest 2019 in Heilbronn, Germany</ical:summary>
+    <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2021.rdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>

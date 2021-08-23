@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/General">
+    <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2019/01/TRIZfest-2018-Proceedings.pdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
+    <bibo:isbn>978-0-942442-95-3</bibo:isbn>
+    <bibo:issn>2374-2275</bibo:issn>
+    <rdfs:label>TRIZ Fest 2018</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-15</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-13</ical:dtstart>
+    <ical:location>Lisbon, Portugal</ical:location>
+    <ical:summary>TRIZ Fest 2018 in Lisbon, Portugal</ical:summary>
+    <ical:url rdf:resource="https://matriz.org/trizfest-proceedings/"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_100">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guedes_LC"/>
+    <dcterms:title xml:lang="en">TRIZ and Software Evolution</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_101">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bertoncelli_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cozzini_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudielka_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
+    <dcterms:title xml:lang="en">TRIZ Modelling of X-Ray Phase Contrast System for Medical Applications</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_102">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
+    <dcterms:title xml:lang="en">Indicating System Vulnerabilities Within Ceca Model</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_103">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bertoncelli_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudielka_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
+    <dcterms:title xml:lang="en">Application of TRIZ Methods for Alternatives in Cardiac Activity Detection in Magnetic Resonance Imaging</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_104">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
+    <dcterms:title xml:lang="en">Identification and Utilization of the Most Efficient Resources Among Those Available</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_105">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Savelli_S"/>
+    <dcterms:title xml:lang="en">Identifying Key Problems and Conceptual Directions: Using the Analytical Tools of Modern TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_106">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Heesen_R"/>
+    <dcterms:title xml:lang="en">Paradigming TRIZ as Design Frames in Philosophy Education</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_107">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mewani_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nagashiresha_G"/>
+    <dcterms:title xml:lang="en">Identifying Key Problems and Conceptual Directions Using the Analytical Tools of Modern TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_108">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mewani_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pande_I"/>
+    <dcterms:title xml:lang="en">Contact Lens Technology Evolution - A Study of Correlation Between Patents and TRIZ Trends</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_109">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Markosov_SA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Medvedyev_AV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rychagov_VY"/>
+    <dcterms:title xml:lang="en">Innovation Funnel of Modern Triz: Experimental Study to Show the Efficacy of the TRIZ-Assisted Stage-Gate Process</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_110">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rychagov_VY"/>
+    <dcterms:title xml:lang="en">Su-field Analysis in Optics: Research and Practice</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_111">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Joao_IM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Muiambo_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Navas_H"/>
+    <dcterms:title xml:lang="en">The Integration of TRIZ Methods With Eco-design and Lean Design: A Literature Review and Future Research Directions to the Development of a New Model</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_112">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hiltmann_K"/>
+    <dcterms:title xml:lang="en">The Fast Diagram for Triz</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_113">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prokofiev_A"/>
+    <dcterms:title xml:lang="en">TRIZ Approach to Internet of Things</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_114">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lok_A"/>
+    <dcterms:title xml:lang="en">Selecting and Validating Key Problems in TRIZ Projects</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_115">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Baaijens_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rovers_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Upperman_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vennix_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vermeijlen_A"/>
+    <dcterms:title xml:lang="en">Triz in Schoolproject Sensus</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_116">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Barkan_MG"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Faer_SA"/>
+    <dcterms:title xml:lang="en">Taking Human Factor Out of Equation. A Technical Remedy for a Managerial Challenge</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_117">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Barkan_MG"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Faer_SA"/>
+    <dcterms:title xml:lang="en">Method of Paradoxes. For Those Who Have Mastered the Basic Concepts of Classical Triz: Ideality, IFRs, Resources, Contradictions.</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_118">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Konovalenko_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ruin_A"/>
+    <dcterms:title xml:lang="en">Automating TRIZ for Crowdsourcing Applications</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_119">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Baek_K"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_K"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Heo_CR"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Song_MJ"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yeo_HS"/>
+    <dcterms:title xml:lang="en">Study of Evolution Patterns of Display and TSP Technology</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_120">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Villarroel_JRE"/>
+    <dcterms:title xml:lang="en">Triz&amp;Toc Tool Innovation: Vibration Sensory (Vs) Language for Deaf</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_121">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prushinskiy_VO"/>
+    <dcterms:title xml:lang="en">Contradictions of User Interface (UI)</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_122">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lok_A"/>
+    <dcterms:title xml:lang="en">A Theoretical Model and Roadmap for Applying TRIZ in an R&amp;D Organization</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_123">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jizhong_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lianjun_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xiaoyan_Z"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yongxing_W"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhigang_Y"/>
+    <dcterms:title xml:lang="en">Research on Seismic Structure of High Pier Railway Bridge Based on TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_124">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jiao_L"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pooneeth_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_HH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xu_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_Z"/>
+    <dcterms:title xml:lang="en">Design for Innovative Hydraulic Valve Structure Based on TRIZ and Multi-element Coupled Biomimetic Method</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_125">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sharma_K"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_HH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xu_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_W"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhou_X"/>
+    <dcterms:title xml:lang="en">Design of Flexible Arm Based on Biotriz and Multi-Factor Coupled Bionic Technology</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_126">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schoewel_M"/>
+    <dcterms:title xml:lang="en">Feedback to Intermediate Steps in Practical Substance-Field Generation</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_127">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Obojski_J"/>
+    <dcterms:title xml:lang="en">Trends of Engineering System Evolution in Toy/Kids Industry</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_128">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_A"/>
+    <dcterms:title xml:lang="en">Research on Cultivation Mode of Consultants in TRIZ Methodology</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/Talk_129">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_NB"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_AY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kondrat_SA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Krayev_OA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvak_YN"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Logvinov_SA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nikitin_VN"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Panchikhin_EV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Redkolis_EV"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rozhnov_AB"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_NY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schedrin_NA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Scherbakov_MA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tarasov_AA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tkachev_BI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yakovenko_SA"/>
+    <dcterms:title xml:lang="en">The TRIZ Introduction at the Enterprises of the Group of Companies Basic Element </dcterms:title>
+  </od:Talk>
+</rdf:RDF>

@@ -96,7 +96,7 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_115">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_C"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Heo_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Heo_CR"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jang_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jang_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_B"/>
@@ -178,7 +178,7 @@
     <rdfs:comment>Republished in TRIZ Review 1, Febr. 2019</rdfs:comment>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_131">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Villarroe_JRE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Villarroel_JRE"/>
     <dcterms:title>Open TRIZ second wave. TRIZ &amp; toc tool</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_132">

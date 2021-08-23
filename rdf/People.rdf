@@ -122,7 +122,7 @@
     <foaf:name>Irina Azizova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Baaijens_H">
-    <foaf:affil>Philips Lighting, The Netherlnds</foaf:affil>
+    <foaf:affil>Eindhoven, The Netherlnds</foaf:affil>
     <foaf:name>Hans Baaijens</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Babko_A">
@@ -132,6 +132,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Badura_A">
     <foaf:affil>Landshut, Germany</foaf:affil>
     <foaf:name>Andrea Badura</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Baek_K">
+    <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
+    <foaf:name>Kunwoo Baek</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Baharom_MZ">
     <foaf:name>Mohamad Zairi Baharom</foaf:name>
@@ -166,6 +170,7 @@
     <foaf:name>Matthias Bauch</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bayer_T">
+    <foaf:name>Thomas Bayer</foaf:name>
     <foaf:name>Tobias Bayer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bdulenko_MK">
@@ -416,8 +421,17 @@
     <foaf:affil>LUT School of Engineering Science, Lappeenranta, Finland</foaf:affil>
     <foaf:name>Leonid Chechurin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chen_JL">
+    <foaf:name>Junlong Chen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chen_SQ">
+    <foaf:name>Siqing Chen</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chen_Y">
     <foaf:name>Yinuo Chen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cheng_M">
+    <foaf:name>Min Cheng</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chernyak_VS">
     <foaf:affil>Russia</foaf:affil>
@@ -448,6 +462,13 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cho_C">
     <foaf:name>Chi-Hyun Cho</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cho_G">
+    <foaf:name>Gukhyun Cho</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cho_K">
+    <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
+    <foaf:name>Kyuhyun Cho</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cho_S">
     <foaf:affil>Gyeong-Do, South Korea</foaf:affil>
@@ -509,12 +530,19 @@
     <foaf:affil>USA</foaf:affil>
     <foaf:name>David Worrell Conley</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cooke_J">
+    <foaf:name>John Cooke</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cornella_A">
     <foaf:name>Alessia Cornella</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Coulibaly_A">
     <foaf:affil>INSA Strasbourg, France</foaf:affil>
     <foaf:name>Amadou Coulibaly</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cozzini_C">
+    <foaf:affil>GE Healthcare, Germany</foaf:affil>
+    <foaf:name>Cristina Cozzini</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cruise_DL">
     <foaf:affil>USA</foaf:affil>
@@ -603,6 +631,9 @@
     <foaf:fullname xml:lang="ru">Дмитриев Владимир Анатольевич</foaf:fullname>
     <foaf:name>Vladimir A. Dmitriev</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Doan_MD">
+    <foaf:name>Minh-Dang Doan</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dobrusskin_C">
     <foaf:affil xml:lang="en">Philips Innovation Services, The Netherlands</foaf:affil>
     <foaf:homepage rdf:resource="https://innovationorigins.com/nl/tag/christoph-dobrusskin/"/>
@@ -684,6 +715,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Emmanuel_T">
     <foaf:name>Thursday Emmanuel</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Engelhard_S">
+    <foaf:affil>IHK Heilbronn, Germany</foaf:affil>
+    <foaf:name>Stefan Engelhard</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ermolai_V">
     <foaf:name>Vasile Ermolai</foaf:name>
   </foaf:Person>
@@ -750,7 +785,7 @@
     <foaf:name>Naum B. Feygenson</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Feygenson_ON">
-    <foaf:affil>International TRIZ Association, South Korea</foaf:affil>
+    <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
     <foaf:fullname xml:lang="ru">Фейгенсон Олег Наумович</foaf:fullname>
     <foaf:name>Oleg N. Feygenson</foaf:name>
   </foaf:Person>
@@ -778,6 +813,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Flickstein_IM">
     <foaf:name>I.M. Flickstein</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Flohr_AM">
+    <foaf:name>Aljoscha Michael Flohr</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Florescu_RS">
     <foaf:fullname xml:lang="ru">Флореску Р.С.</foaf:fullname>
     <foaf:name>R.S. Florescu</foaf:name>
@@ -789,7 +827,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fomenko_AY">
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Фоменко Алексей Юрьевич</foaf:fullname>
-    <foaf:name>Aleksey Y. Fomenko</foaf:name>
+    <foaf:name>Alexey Y. Fomenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fowlkes_WY">
     <foaf:name>William Y. Fowlkes</foaf:name>
@@ -815,6 +853,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fulbright_R">
     <foaf:name>R. Fulbright</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gabor_M">
+    <foaf:name>Markus Gabor</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gadjiev_C">
     <foaf:name>Ch. Gadjiev</foaf:name>
@@ -956,6 +997,9 @@
     <foaf:homepage rdf:resource="https://www.facebook.com/hg.graebe"/>
     <foaf:name>Hans-Gert Gräbe</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Graf_M">
+    <foaf:name>Michael Graf</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gredynarov_I">
     <foaf:affil xml:lang="en">Ukrainian TRIZ Association, Ukraina</foaf:affil>
     <foaf:name>Igor Gredynarov</foaf:name>
@@ -980,6 +1024,10 @@
     <foaf:affil>Novosibirsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Губанов Сергей Николаевич</foaf:fullname>
     <foaf:name>Sergei Gubanov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guedes_LC">
+    <foaf:affil>Brazil</foaf:affil>
+    <foaf:name>Luiz Carlos Guedes</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guenther_S">
     <foaf:name>Swen Günther</foaf:name>
@@ -1033,6 +1081,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_WP">
     <foaf:name>Wie-pei Han</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_Y">
+    <foaf:name>Yusin Han</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_YS">
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>You-Shin Han</foaf:name>
@@ -1065,6 +1116,10 @@
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Cho Jun Hee</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Heesen_R">
+    <foaf:affil>Varendonck College, The Netherlands</foaf:affil>
+    <foaf:name>Ruud Heesen</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hellberg_L">
     <foaf:name>Lars Hellberg</foaf:name>
   </foaf:Person>
@@ -1075,7 +1130,8 @@
     <foaf:affil>HTW Berlin, Germany</foaf:affil>
     <foaf:name>Claudia Hentschel</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Heo_C">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Heo_CR">
+    <foaf:affil>Samsung, South Korea</foaf:affil>
     <foaf:name>Chang-Ryong Heo</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Herrlich_M">
@@ -1085,6 +1141,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
     <foaf:affil>Coburg University of Applied Sciences, Germany</foaf:affil>
     <foaf:name>Kai Hiltmann</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_N">
+    <foaf:name>Hiltmann Nadiya</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hipple_J">
     <foaf:affil>Tampa, Florida, USA</foaf:affil>
@@ -1208,15 +1267,30 @@
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Jin-Ha Jeong</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jeong_W">
+    <foaf:name>Wanseok Jeong</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jiao_L">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Liye Jiao</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jie_Y">
     <foaf:name>Yang Jie</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jing_Z">
+    <foaf:name>Zhang Jing</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jirman_P">
     <foaf:affil>Liberec, Chech Republic</foaf:affil>
     <foaf:name>Pavel Jirman</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jizhong_Y">
+    <foaf:affil>China Railway Engineering Group, China</foaf:affil>
     <foaf:name>Yang Jizhong</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Joao_IM">
+    <foaf:affil>Lisboa, Portugal</foaf:affil>
+    <foaf:name>Isabel M. João</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Joo_JM">
     <foaf:name>Jae-Man Joo</foaf:name>
@@ -1240,6 +1314,9 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Каган Эдуард Львович</foaf:fullname>
     <foaf:name>Eduard L. Kagan</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kai_G">
+    <foaf:name>Guo Kai</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaikov_I">
     <foaf:name>Igor Kaikov</foaf:name>
@@ -1377,6 +1454,9 @@
     <foaf:fullname xml:lang="ru">Хроник Алексей</foaf:fullname>
     <foaf:name>Aleksej Khronik</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kiesel_AK">
+    <foaf:name>Anne-Kathrin Kiesel</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kiesel_M">
     <foaf:affil>Siemens AG, Germany</foaf:affil>
     <foaf:name>Martin Kiesel</foaf:name>
@@ -1386,6 +1466,13 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_CE">
     <foaf:name>Kim Chang Eun</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_H">
+    <foaf:affil>Samsung, South Korea</foaf:affil>
+    <foaf:name>Harksang Kim</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_J">
+    <foaf:name>Jungin Kim</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JH">
     <foaf:affil>South Korea</foaf:affil>
@@ -1398,6 +1485,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JinY">
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Jinyong Kim</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_M">
+    <foaf:affil>Samsung, South Korea</foaf:affil>
+    <foaf:name>Minuk Kim</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_MS">
     <foaf:affil>South Korea</foaf:affil>
@@ -1439,6 +1530,9 @@
     <foaf:affil>ABB, Poland</foaf:affil>
     <foaf:name>Paweł Kłys</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kneisel_BO">
+    <foaf:name>Boris Oliver Kneisel</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koblenc_P">
     <foaf:affil xml:lang="ru">EPAM Systems, Проектный менеджер</foaf:affil>
     <foaf:name>Pavel Koblenc</foaf:name>
@@ -1477,6 +1571,13 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kondrakov_IM">
     <foaf:name>I.M. Kondrakov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kondrat_SA">
+    <foaf:name>Sergey A. Kondrat</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Konovalenko_A">
+    <foaf:affil>Ukraine</foaf:affil>
+    <foaf:name>Andrii Konovalenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korolev_VA">
     <foaf:fullname xml:lang="ru">Королёв В. А.</foaf:fullname>
@@ -1549,8 +1650,12 @@
     <foaf:affil xml:lang="ru">SeeCore Project, исследователь, преподаватель, консультант</foaf:affil>
     <foaf:name>Dmitry Kucharavy</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kudielka_G">
+    <foaf:affil>GE Healthcare, Germany</foaf:affil>
+    <foaf:name>Guido Kudielka</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV">
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>RUSAL, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Кудрявцев Александр Владимирович</foaf:fullname>
     <foaf:name>Aleksander V. Kudryavtsev</foaf:name>
   </foaf:Person>
@@ -1630,6 +1735,10 @@
     <foaf:affil>Novismo, Poland</foaf:affil>
     <foaf:name>Maciej Lasota</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lau_A">
+    <foaf:affil>Schaeffler, Herzogenaurach, Germany</foaf:affil>
+    <foaf:name>Armin Lau</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Laue_R">
     <foaf:affil>Zwickau, Germany</foaf:affil>
     <foaf:name>Ralf Laue</foaf:name>
@@ -1649,7 +1758,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lebedev_YV">
     <foaf:affil>Russia/South Korea</foaf:affil>
     <foaf:fullname xml:lang="ru">Лебедев Юрий Валентинович</foaf:fullname>
-    <foaf:name>Yury Lebedev</foaf:name>
+    <foaf:name>Yuri V. Lebedev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_A">
     <foaf:name>Ahreum Lee</foaf:name>
@@ -1667,7 +1776,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_JY">
     <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
-    <foaf:name>Jun–Young Lee</foaf:name>
+    <foaf:name>Jun-Young Lee</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_KR">
     <foaf:name>Kangrok Lee</foaf:name>
@@ -1681,6 +1790,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_WK">
     <foaf:name>Woon Kyu Lee</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lee_YJ">
+    <foaf:name>Yong Joon Lee</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Leiner_DF">
     <foaf:affil>Landshut, Germany</foaf:affil>
@@ -1734,6 +1846,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_L">
     <foaf:name>Li Li</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_P">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Peng Li</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_Y">
     <foaf:name>Yang Li</foaf:name>
   </foaf:Person>
@@ -1741,6 +1857,7 @@
     <foaf:name>Zhen Li</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lianjun_H">
+    <foaf:affil>China Railway Engineering Group, China</foaf:affil>
     <foaf:name>Hu Lianjun</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lichachev_AY">
@@ -1753,6 +1870,7 @@
     <foaf:name>Anatoli Limarenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_A">
+    <foaf:affil>China</foaf:affil>
     <foaf:name>Alp Lin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lin_SJ">
@@ -1774,6 +1892,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lippert_K">
     <foaf:name>Karen Lippert</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Litvak_YN">
+    <foaf:name>Yuri N. Litvak</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Litvin_SS">
     <foaf:affil xml:lang="en">GEN TRIZ, Boston, USA</foaf:affil>
@@ -1810,6 +1931,9 @@
     <foaf:affil>China Institute for Innovation, China</foaf:affil>
     <foaf:name>Arthur Lok</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Long_Y">
+    <foaf:name>Yinhua Long</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lopatin_S">
     <foaf:fullname xml:lang="ru">Лопатин Сергей</foaf:fullname>
     <foaf:name>Sergej Lopatin</foaf:name>
@@ -1833,6 +1957,9 @@
     <foaf:fullname xml:lang="ru">Лукаш Антон</foaf:fullname>
     <foaf:name>Anton Lukash</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lv_L">
+    <foaf:name>Li Lv</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lymarenko_AA">
     <foaf:name>A.A. Lymarenko</foaf:name>
   </foaf:Person>
@@ -1840,6 +1967,9 @@
     <foaf:affil>GEN TRIZ LLC, USA</foaf:affil>
     <foaf:fullname xml:lang="ru">Любомирский Александр Львович</foaf:fullname>
     <foaf:name>Alexander L. Lyubomirsky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ma_S">
+    <foaf:name>Shaodan Ma</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/MacGran_E">
     <foaf:name>E. MacGran</foaf:name>
@@ -1904,7 +2034,7 @@
     <foaf:name>Galina Marchenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Markosov_SA">
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>Algorithm Ltd., Russia</foaf:affil>
     <foaf:name>Sergey A. Markosov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Martinovskij_G">
@@ -1950,7 +2080,7 @@
     <foaf:name>T.A. Mazzuchi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Medvedyev_AV">
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>Algorithm Ltd., Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Медведев Александр Витальевич</foaf:fullname>
     <foaf:name>Alexander V. Medvedev</foaf:name>
   </foaf:Person>
@@ -1977,7 +2107,7 @@
     <foaf:name>Rajesh Menon</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mewani_V">
-    <foaf:affil>GE Global Research, India</foaf:affil>
+    <foaf:affil>GE Global Operations, India</foaf:affil>
     <foaf:name>Vinodh Mewani</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Miadowicz_M">
@@ -2008,7 +2138,7 @@
     <foaf:name>Yan Min</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Minaker_VE">
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>RUSAL, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Минакер Виктор Ефимович</foaf:fullname>
     <foaf:name>Viktor E. Minaker</foaf:name>
   </foaf:Person>
@@ -2074,6 +2204,10 @@
     <foaf:affil>Institute of Product Development, Germany</foaf:affil>
     <foaf:name>C. Münzberg</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Muiambo_C">
+    <foaf:affil>Lisboa, Portugal</foaf:affil>
+    <foaf:name>Claudia Muiambo</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mulyarchik_K">
     <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Мулярчик Константин</foaf:fullname>
@@ -2108,7 +2242,11 @@
     <foaf:name>A. Nagappan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nagashiresha_G">
+    <foaf:affil>GE Aviation, India</foaf:affil>
     <foaf:name>G. Nagashiresha</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nagel_T">
+    <foaf:name>Thomas Nagel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nakagawa_T">
     <foaf:affil>Osaka Gakuin University, Japan</foaf:affil>
@@ -2130,6 +2268,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Narbut_NN">
     <foaf:fullname xml:lang="ru">Нарбут Наталья Николаевна</foaf:fullname>
     <foaf:name>Natalya N. Narbut</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Navas_H">
+    <foaf:affil>Lisboa, Portugal</foaf:affil>
+    <foaf:name>Helena Navas</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Negny_S">
     <foaf:affil>Toulouse Graduate School, France</foaf:affil>
@@ -2182,7 +2324,7 @@
     <foaf:name>Tomasz Nowak</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Obojski_J">
-    <foaf:affil>ABB, Poland</foaf:affil>
+    <foaf:affil>Novismo, Poland</foaf:affil>
     <foaf:name>Jerzy Michał Obojski</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ogievich_D">
@@ -2236,8 +2378,12 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Panchikhin_EV">
     <foaf:affil>Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Е.В. Панчихин</foaf:fullname>
-    <foaf:name>E.V. Panchikhin</foaf:name>
+    <foaf:fullname xml:lang="ru">Евгений В. Панчихин</foaf:fullname>
+    <foaf:name>Evgeni V. Panchikhin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pande_I">
+    <foaf:affil>GE Global Operations, India</foaf:affil>
+    <foaf:name>Indrajit Pande</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Papini_F">
     <foaf:affil>GE Global Research, Germany</foaf:affil>
@@ -2275,6 +2421,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pchelkina_E">
     <foaf:name>Ekaterina Pchelkina</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Peddi_S">
+    <foaf:name>Srinivas Peddi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Peri_P">
     <foaf:name>Paolo Peri</foaf:name>
@@ -2388,6 +2537,10 @@
     <foaf:fullname xml:lang="ru">Померанец М.С.</foaf:fullname>
     <foaf:name>M.S. Pomeranets</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pooneeth_V">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Vishwanath Pooneeth</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Popova_SL">
     <foaf:name>Silvia Liubenova Popova</foaf:name>
   </foaf:Person>
@@ -2406,6 +2559,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Priven_A">
     <foaf:affil>Corning Korea, South Korea</foaf:affil>
     <foaf:name>Alexander Priven</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Prokofiev_A">
+    <foaf:affil>Algorithm Ltd., Russia</foaf:affil>
+    <foaf:name>Andrey Prokofiev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Proseanic_V">
     <foaf:affil>USA</foaf:affil>
@@ -2426,6 +2583,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pyao_Y">
     <foaf:name>Yuliya Pyao</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Qiang_F">
+    <foaf:name>Feng Qiang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Qiao_A">
     <foaf:affil>Northeastern University, Shenyang, PR China</foaf:affil>
@@ -2495,6 +2655,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Routley_M">
     <foaf:name>Michèle Routley</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rovers_M">
+    <foaf:affil>Eindhoven, The Netherlands</foaf:affil>
+    <foaf:name>Maritza Rovers</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Roxas_JPB">
     <foaf:affil>University of the Philippines, Philippines</foaf:affil>
     <foaf:name>Joseph Patrick B. Roxas</foaf:name>
@@ -2504,6 +2668,9 @@
     <foaf:fullname xml:lang="ru">Ройзен Зиновий Ефимович</foaf:fullname>
     <foaf:name>Zinovy Royzen</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rozhnov_AB">
+    <foaf:name>Andrej B. Rozhnov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubanov_IS">
     <foaf:name>Ivan Rubanov</foaf:name>
   </foaf:Person>
@@ -2512,7 +2679,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rubin_MS">
     <dbo:birthDate>1954-11-12</dbo:birthDate>
-    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:affil>RUSAL, Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Рубин Михаил Семенович</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/mihail.rubin"/>
     <foaf:name>Mikhail S. Rubin</foaf:name>
@@ -2627,6 +2794,9 @@
     <foaf:affil>Technische Hochschule Nürnberg, Germany</foaf:affil>
     <foaf:name>Bruno Scherb</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Scherbakov_MA">
+    <foaf:name>Mikhail A. Scherbakov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schleicht_A">
     <foaf:affil>Neunkirchen, Germany</foaf:affil>
     <foaf:name>Arthur Schleicht</foaf:name>
@@ -2638,6 +2808,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schmidt_A">
     <foaf:affil>Continental Automotive GmbH, Germany</foaf:affil>
     <foaf:name>A. Schmidt</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schoewel_M">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Michael Schöwel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schollmeyer_J">
     <foaf:affil>Second Negation, Berlin, Germany</foaf:affil>
@@ -2691,6 +2865,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sharapov_MI">
     <foaf:fullname xml:lang="ru">Шарапов Михаил Иванович</foaf:fullname>
     <foaf:name>Mikhail Sharapov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sharma_K">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Kundan Sharma</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shchedrin_NA">
     <foaf:affil>Moscow, Russia</foaf:affil>
@@ -2814,6 +2992,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sirdar_K">
     <foaf:affil>University of Warwick, UK</foaf:affil>
     <foaf:name>Kayhan Sirdar</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sire_P">
+    <foaf:name>Pascal Sire</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sizikov_V">
     <foaf:affil>Siegenia Group, Neunkirchen, Germany</foaf:affil>
@@ -2952,9 +3133,15 @@
     <foaf:fullname xml:lang="ru">Ступникер Юрий Иосифович</foaf:fullname>
     <foaf:name>Yuri Stupniker</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Su_XF">
+    <foaf:name>Xiaofang Su</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Suaidi_MK">
     <foaf:affil>Sarawak, Malaysia</foaf:affil>
     <foaf:name>Mohamad Kadim Suaidi</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sun_F">
+    <foaf:name>Feng Sun</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sun_JG">
     <foaf:affil>Tianjin, China</foaf:affil>
@@ -3018,6 +3205,9 @@
     <foaf:affil>University of Nottingham, Malaysia</foaf:affil>
     <foaf:name>Mariam Altaf Tarar</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tarasov_AA">
+    <foaf:name>Andrey A. Tarasov</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Terekhova_GV">
     <foaf:affil>Chelyabinsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Терехова Галина Владимировна</foaf:fullname>
@@ -3044,6 +3234,9 @@
     <foaf:affil>Gomel, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Тимохов Виктор Иванович</foaf:fullname>
     <foaf:name>Viktor I. Timochov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tkachev_BI">
+    <foaf:name>Boris I. Tkachev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Toeters_M">
     <foaf:affil>by-wire.net, The Netherlands</foaf:affil>
@@ -3097,6 +3290,10 @@
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Peter Ulan</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Upperman_C">
+    <foaf:affil>Lyzeum, The Netherlands</foaf:affil>
+    <foaf:name>Carla Upperman</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Urazajev_VG">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Уразаев Владимир Георгиевич</foaf:fullname>
@@ -3114,10 +3311,18 @@
     <foaf:affil>Association for TRIZ and Technical Innovation (ATTI), India</foaf:affil>
     <foaf:name>Tito Kishan Vemuri</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vennix_A">
+    <foaf:affil xml:lang="en">Herrbeeck College, The Netherlands</foaf:affil>
+    <foaf:name>Annemieke Vennix</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Verbitsky_MJ">
     <foaf:affil>USA</foaf:affil>
     <foaf:fullname xml:lang="ru">Вербицкий Михаил Яковлевич</foaf:fullname>
     <foaf:name>Mihail Verbitsky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vermeijlen_A">
+    <foaf:affil>Lyceum, The Netherlands</foaf:affil>
+    <foaf:name>Annemieke Vermeijlen</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vertkin_IM">
     <foaf:affil>Baku, Azerbaidshan</foaf:affil>
@@ -3143,9 +3348,9 @@
     <foaf:homepage rdf:resource="https://vikent.ru"/>
     <foaf:name>Igor L. Vikentiev</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Villarroe_JRE">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Villarroel_JRE">
     <foaf:affil>Open TRIZ Second Wave Chile SpA, Chile</foaf:affil>
-    <foaf:name>José Roberto Espinoza Villarroe</foaf:name>
+    <foaf:name>José Roberto Espinoza Villarroel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV">
     <foaf:affil>USA</foaf:affil>
@@ -3175,6 +3380,10 @@
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-3399-2419"/>
     <foaf:affil>Tianjin, China</foaf:affil>
     <foaf:name>Fanfan Wang</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_HH">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Haihang Wang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_J">
     <foaf:name>Jian Wang</foaf:name>
@@ -3209,6 +3418,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_Y">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0003-0452-1359"/>
     <foaf:affil>Tianjin, PR China</foaf:affil>
+    <foaf:name>Ye Wang</foaf:name>
     <foaf:name>Yu Wang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_YW">
@@ -3258,16 +3468,21 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xi_DZ">
     <foaf:name>Dao-zheng Xi</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xiangmin_Z">
+    <foaf:name>Zhang Xiangmin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xiaofeng_S">
     <foaf:name>Sun Xiaofeng</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xiaoyan_Z">
+    <foaf:affil>China Railway Engineering Group, China</foaf:affil>
     <foaf:name>Zheng Xiaoyan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xu_DS">
     <foaf:name>Dongshuang Xu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xu_H">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
     <foaf:name>He Xu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xuemei_L">
@@ -3311,6 +3526,7 @@
     <foaf:name>Muhammad Irshad Yehya</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yeo_HS">
+    <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
     <foaf:name>Hyung-Seok Yeo</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yeoh_TS">
@@ -3344,12 +3560,22 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ying_Z">
     <foaf:name>Zhang Ying</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yongxing_W">
+    <foaf:affil>China Railway Engineering Group, China</foaf:affil>
+    <foaf:name>Wei Yongxing</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yoon_H">
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Hongyul Yoon</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_F">
     <foaf:name>Fei Yu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_FS">
+    <foaf:name>Fengshu Yu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_N">
+    <foaf:name>Na Yu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yudin_YA">
     <foaf:fullname xml:lang="ru">Юдин Ю.А.</foaf:fullname>
@@ -3394,6 +3620,7 @@
     <foaf:name>Zhang Jianhui</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_K">
+    <foaf:name>Kai Zhang</foaf:name>
     <foaf:name>Karl Zhang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_L">
@@ -3420,6 +3647,9 @@
     <foaf:affil>Tianjin, China</foaf:affil>
     <foaf:name>Xinyu Zhang</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_YH">
+    <foaf:name>Yonghui Zhang</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_MM">
     <foaf:affil>TRIZ Research Council of China Association of Inventions, China</foaf:affil>
     <foaf:name>Mike Min Zhao</foaf:name>
@@ -3428,12 +3658,20 @@
     <foaf:affil>Tianjin, China</foaf:affil>
     <foaf:name>Ruikai Zhao</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_W">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Wanda Zhao</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_XJ">
     <foaf:affil>Northeastern University, Shenyang, PR China</foaf:affil>
     <foaf:name>Zhao Xin-jun</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Y">
     <foaf:name>Yan Zhao</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Z">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Zitong Zhao</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhen_L">
     <foaf:affil>Harbin, PR China</foaf:affil>
@@ -3443,7 +3681,7 @@
     <foaf:name>Leping Zheng</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhigang_Y">
-    <foaf:affil>China Railway Eryuan Engineering Group Co, China</foaf:affil>
+    <foaf:affil>China Railway Engineering Group, China</foaf:affil>
     <foaf:name>Yuan Zhigang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhijun_Z">
@@ -3456,9 +3694,16 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhong_P">
     <foaf:name>Peng Zhong</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhong_XL">
+    <foaf:name>Zhong Xingli</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhong_Y">
     <foaf:affil>Northeastern University, Shenyang, PR China</foaf:affil>
     <foaf:name>Zhong Yingb</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_X">
+    <foaf:affil>Harbin Engieering University, China</foaf:affil>
+    <foaf:name>Xueshan Zhou</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_ZL">
     <foaf:affil xml:lang="en">Hubei, PR China</foaf:affil>
