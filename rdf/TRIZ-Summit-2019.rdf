@@ -606,6 +606,81 @@
     <dcterms:title xml:lang="en">Panel discussion</dcterms:title>
     <dcterms:title xml:lang="ru">Панельная дискуссия</dcterms:title>
   </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E101">
+    <dcterms:abstract xml:lang="en">TRIZ Summit Cup is an annual TRIZ correspondence competition for schoolchildren and students. For half a year, participants can try themselves in various Cup nominations. "Invention" - solving inventional tasks; "Fantasy" - composing fantastic stories, fairy tales; "TRIZ Tools" - possession of TRIZ tools; "Research in TRIZ" - defense of a research project; "Videos on TRIZ" - try yourself in film profession. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Кубок ТРИЗ Саммита - ежегодный заочный конкурс по ТРИЗ для школьников и студентов. В течение полугода участники могут попробовать себя в различных номинациях Кубка. "Изобретательство" - решение изобретательских задач; "Фантазирование" - сочинение фантастических рассказов, сказок; "Инструменты ТРИЗ" - владение инстрементами ТРИЗ; "Исследования в ТРИЗ" - защита исследовательского проекта; "Видео-ролики по ТРИЗ" - попробовать себя в кинопрофессии. .</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubina_NV"/>
+    <dcterms:title xml:lang="en">TRIZ Summit Cup 2021</dcterms:title>
+    <dcterms:title xml:lang="ru">Кубок ТРИЗ Саммита 2021</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E102">
+    <dcterms:abstract xml:lang="en">G.S. Altshuller is the founder of the direction of application of TRIZ in non-technical systems. TRIZ methods are universal, they can be applied both to the improvement of a specific technical system and to forecast development of genres of music or cinema. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Г.С. Альтушеллер - основатель направления применение ТРИЗ в нетехнических системах. Методы ТРИЗ - универсальны, они могут быть применимы как к совершенствованию конкретной технической системы, так и к прогнозированию развития жанров музыки или кино.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <dcterms:title xml:lang="en">TRIZ beyond technology. Anniversary of G.S. Altshuller</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ вне техники. Юбилей ГСА</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E103">
+    <dcterms:abstract xml:lang="en">Research work with senior schoolchildren and students dies before it starts for several reasons. When interviewing the leaders of such projects, most often they mention poor motivation of adolescents, lack of sufficient technical base and budget. Groups gather and disintegrate faster than the first results can be demonstrated. In the report, the author shows the contradictions underlying such problems and ways to eliminate them. Resources and opportunities for development are offered. The use of new socio-technical opportunities provides a variety of resources for resolving these contradictions. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Исследовательская работа со старшими школьниками и студентами умирает не начавшись по нескольким причинам. При опросе руководителей таких проектов чаще всего упоминается - слабая мотивация подростков, отсутсвие достаточной технической базы и бюджета. Группы собираются и распадаются быстрее чем первые результаты можно демонстрировать. В докладе автор показывает противоречия лежащие в основе таких проблем и пути их устранения. Предлагаются ресурсы и возможности развития. Применение новых социально-технических возможностей даёт разнообразие ресурсов для решения этих противоречий.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Eckardt_O"/>
+    <dcterms:title xml:lang="en">New approaches in organizing research activities using TRIZ methods among schoolchildren and students</dcterms:title>
+    <dcterms:title xml:lang="ru">Новые подходы в организации исследовательской деятельности методами ТРИЗ у школьников и студентов</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E104">
+    <dcterms:abstract xml:lang="en">The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented.</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Korotkikh_SN"/>
+    <dcterms:title xml:lang="en">TRIZ technologies in high-quality training of specialists</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ-технологии в качественной подготовке специалистов</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E105">
+    <dcterms:abstract xml:lang="en">The experience of using educational experiments to form scientific ideas and get ideas for children's inventions are presented.</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">В докладе представлен опыт использования учебных экспериментов для формирования научных представлений и получения идей для детского изобретательства.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
+    <dcterms:title xml:lang="en">Digital Laboratory "Triz Inventor"</dcterms:title>
+    <dcterms:title xml:lang="ru">Цифровая лаборатория "Тризобретатель"</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E106">
+    <dcterms:abstract xml:lang="en">The purpose of the report is to outline the possibilities of OTSM-TRIZ to solve main issues of education in the 21st century. We characterise the situation of the modern educational system and draw on its main problems. The need for the ability to manage problems at different levels of the education system is emphasized. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Целью доклада является обозначить возможности ОТСМ-ТРИЗ для решения актуальных вопросов образования 21-го века. В докладе с точки зрения ОТСМ-ТРИЗ дана характеристика состояния современной системы образования и выявлены основные проблемы. Акцентируется необходимость в умении управлять проблемами на разных уровнях системы образования.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Murashkovska_IN"/>
+    <dcterms:title xml:lang="en">OTSM-TRIZ: within and beyond educational innovations of the third millennium</dcterms:title>
+    <dcterms:title xml:lang="ru">ОТСМ-ТРИЗ: в рамках и за пределами образовательных инноваций третьего тысячелетия</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E107">
+    <dcterms:abstract xml:lang="en">Forecast of the development of civilization, which is characterized by the fact that algorithms and machines are used to inhibit the natural aggression of people, which are included in civilization processes as full members of the community, and which is characterized by the description of models are which use anti-elemental fields of braking and destruction. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Прогноз развития цивилизации, отличающийся тем, что для торможения природной агрессии людей используются алгоритмы и машины, которые входят в цивилизационные процессы как полноправные члены сообщества, отличающийся тем, что описания таких моделей предлагается использовать анти-элеполи торможения и разрушения.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubin_MS"/>
+    <dcterms:title xml:lang="en">"Traffic lights" of a smart civilization</dcterms:title>
+    <dcterms:title xml:lang="ru">"Светофоры" смарт-цивилизации</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E108">
+    <dcterms:abstract xml:lang="en">The problem of the "black box" of civilization is a large research project proposed by G.S. Altshuller, which includes both purely technical solutions and the solution of social problems. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Задача о "черном ящике" цивилизации - большой исследовательский проект, предложенный Г.С. Альтшуллером, включающий в себя как чисто технические решения, так и решение социальных проблем.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubina_NV"/>
+    <dcterms:title xml:lang="en">The problem of the "black box" of civilization at the TRIZ Summit Cup</dcterms:title>
+    <dcterms:title xml:lang="ru">Задача о "черном ящике" цивилизации на Кубке ТРИЗ-Саммита</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E109">
+    <dcterms:abstract xml:lang="en">The TRIZ model reflects both the process of solving inventive problems using various tools, and the process of transforming systems, including transformations using RTV tools. The report discusses the features of application of the TRIZ model to RTV tools, as well as the classification of RTV methods and techniques based on the TRIZ model. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Модель ТРИЗ отражает как процесс решения изобретательских задач с использованием различных инструментов, так и процесс преобразования систем, в том числе и с помощью инструментов РТВ. В докладе обсуждаются особенности применения модели ТРИЗ к инструментам РТВ, а также классификация методов и приемов РТВ на оснвое модели ТРИЗ.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubina_NV"/>
+    <dcterms:title xml:lang="en">Development of creative imaging (RTV) ontology and TRIZ model</dcterms:title>
+    <dcterms:title xml:lang="ru">Онтология РТВ и модель ТРИЗ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E110">
+    <dcterms:abstract xml:lang="en">The report is devoted to the evolution of SciFi ideas, illustrated with the example of specific SciFi ideas. Addressed to all those interested in science fiction and teaching RTV and TRIZ.</dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Доклад посвящен эволюции НФ идей, проиллюстрирована на примере конкретных НФ идей. Адресована всем интересующимся фантастикой и преподаванием РТВ и ТРИЗ.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Amnuel_PR"/>
+    <dcterms:title xml:lang="en">Using SciFi Ideas in the RTV Course</dcterms:title>
+    <dcterms:title xml:lang="ru">Использование НФ идей в курсе РТВ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E111">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Faber_B"/>
+    <dcterms:title xml:lang="en">TRIZ Training System</dcterms:title>
+    <dcterms:title xml:lang="ru">Система обучения ТРИЗ</dcterms:title>
+  </od:Talk>
   <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/track/Business">
     <rdfs:label>TRIZ and Business</rdfs:label>
     <rdfs:label xml:lang="ru">ТРИЗ в бизнесе</rdfs:label>

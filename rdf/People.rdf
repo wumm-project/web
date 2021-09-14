@@ -1030,6 +1030,8 @@
     <foaf:name>Luiz Carlos Guedes</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guenther_S">
+    <foaf:affil>HTW Dresden, Germany</foaf:affil>
+    <foaf:homepage rdf:resource="https://www.htw-dresden.de/hochschule/fakultaeten/wirtschaftswissenschaften/personen/prof-swen-guenther"/>
     <foaf:name>Swen Günther</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guin_AA">
@@ -1104,6 +1106,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hartmann_R">
     <foaf:name>Rainer Hartmann</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hasan_M">
+    <foaf:name>Mohammad Hasan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hausmann_B">
     <foaf:name>Bernd Hausmann</foaf:name>
@@ -1220,6 +1225,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ishak_AA">
     <foaf:name>A.A. Ishak</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ishrat_I">
+    <foaf:name>Irna Ishrat</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ivanov_A">
     <foaf:affil>Minsk, Belarus</foaf:affil>
@@ -1418,6 +1426,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kengerli_TA">
     <foaf:fullname xml:lang="ru">Кенгерли Т.А.</foaf:fullname>
     <foaf:name>T.A. Kengerli</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khan_FM">
+    <foaf:name>Fateh Mohd Khan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kharitonov_AS">
     <foaf:affil>Moscow, Russia</foaf:affil>
@@ -2620,7 +2631,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Redkolis_EV">
     <foaf:affil>NPK Consultants, Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Редколис Елена Валерьевна</foaf:fullname>
-    <foaf:homepage rdf:resource="https://www.facebook.com/eredkolis"/>
+    <foaf:homepage rdf:resource="https://redkolis.com"/>
     <foaf:name>Elena Redkolis</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Regen_W">
@@ -3620,7 +3631,6 @@
     <foaf:name>Zhang Jianhui</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_K">
-    <foaf:name>Kai Zhang</foaf:name>
     <foaf:name>Karl Zhang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_L">

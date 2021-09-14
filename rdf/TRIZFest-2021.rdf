@@ -150,7 +150,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_124">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xu_DS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_Y"/>
     <dcterms:title xml:lang="en">Research on Enterprise Product Research and Development Based on Customer Demand - The Practice Record of Innovative Methods in Enterprise Product R&amp;D</dcterms:title>
@@ -169,6 +169,13 @@
     <dcterms:title xml:lang="en">TRIZ Reverse: A Systematic Review And Comparison With Existing Knowledge And</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_127">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hasan_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ishrat_I"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khan_FM"/>
+    <dcterms:title xml:lang="en">Benefits Of TRIZ Approach To Enable Proper Holistic Education</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_128">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Palcak_F"/>
     <dcterms:title xml:lang="en">Benefits Of TRIZ Approach To Enable Proper Holistic Education</dcterms:title>
