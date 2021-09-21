@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-12-18
+ * last update: 2021-09-21
  */
 
 require 'vendor/autoload.php';
@@ -17,8 +17,13 @@ function thePrinciples()
     $res = $graph->allOfType('od:Principle');
     foreach ($res as $concept) {
         $name=str_replace("http://opendiscovery.org/rdf/Concept/","",$concept->getUri());
+        $out="<h3> $name </h3>";
+        $nr73=$concept->get("od:hasAltshuller73Id");
         $nr=$concept->get("od:hasAltshuller84Id");
-        $out="<h3> Principle $nr: $name </h3>";
+        $nr03=$concept->get("od:Matrix2003Id");
+        if (!empty($nr73)) {$out.="Principle $nr in Matrix-73 <br/>"; }
+        if (!empty($nr)) {$out.="Principle $nr in Matrix-84 <br/>"; }
+        if (!empty($nr03)) {$out.="Principle $nr in Matrix-2003 <br/>"; }
         $out.="<h4>".showLanguage($concept->all("skos:prefLabel"),"<br/>")."</h4>";
         $out.="<h5>".showLanguage($concept->all("skos:altLabel"),"<br/>")."</h5>";
         $b=array();

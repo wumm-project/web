@@ -167,6 +167,7 @@
     <foaf:name>Antoni Baszczeski</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bauch_M">
+    <foaf:affil>HTW Dresden, Germany</foaf:affil>
     <foaf:name>Matthias Bauch</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bayer_T">
@@ -334,6 +335,7 @@
     <foaf:name>Vitaliy Bozhkov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Brabek_W">
+    <foaf:affil>Austria</foaf:affil>
     <foaf:name>Walter Brabek</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Brad_E">
@@ -911,6 +913,7 @@
     <foaf:name>A.N. Garina-Domchenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Garzon_S">
+    <foaf:affil>HTW Dresden, Germany</foaf:affil>
     <foaf:name>Sergio Garzon</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gasanov_AI">
@@ -2553,6 +2556,7 @@
     <foaf:name>Vishwanath Pooneeth</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Popova_SL">
+    <foaf:affil>HTW Dresden, Germany</foaf:affil>
     <foaf:name>Silvia Liubenova Popova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Prada_A">
@@ -3729,6 +3733,10 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Зиновкина Милослава Михайловна</foaf:fullname>
     <foaf:name>Miloslava Zinovkina</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zippl_G">
+    <foaf:affil>Austria</foaf:affil>
+    <foaf:name>Günther Zippl</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zlotin_BL">
     <foaf:fullname xml:lang="ru">Злотин Борис Львович</foaf:fullname>

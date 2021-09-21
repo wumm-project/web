@@ -30,6 +30,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Popova_SL"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bauch_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Garzon_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
@@ -91,6 +92,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_113">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_K"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hao_Z"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_K"/>
     <dcterms:title xml:lang="en">Patent Circumvention and Strengthening in Wind Turbine Blade Noise Reduction</dcterms:title>
@@ -99,9 +101,11 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mohammadi_A"/>
     <dcterms:title xml:lang="en">Application of TRIZ in Designing a Simple Monitoring Device for Checking Electrical Grounding Connections</dcterms:title>
+    <rdfs:comment>was not presented</rdfs:comment>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_115">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Strempel_T"/>
     <dcterms:title xml:lang="en">Semantic Web Modelling of TRIZ System Evolution Concepts</dcterms:title>
@@ -120,6 +124,7 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
     <dcterms:title xml:lang="en">TRIZ Application to Successful Startups Development</dcterms:title>
+    <rdfs:comment>was not presented</rdfs:comment>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
@@ -128,8 +133,8 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_120">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
-    <dcterms:title xml:lang="en">Modern Tools for Business TRIZ</dcterms:title>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
+    <dcterms:title xml:lang="en">Horological TRIZ Ruminations</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_121">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
@@ -157,11 +162,12 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_125">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
-    <dcterms:title xml:lang="en">Horological TRIZ Ruminations</dcterms:title>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">Modern Tools for Business TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_126">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bauch_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Garzon_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
@@ -170,6 +176,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_127">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Ishrat_I"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hasan_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ishrat_I"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khan_FM"/>

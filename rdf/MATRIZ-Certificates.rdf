@@ -140,12 +140,10 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_88"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Danilovski_YE">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_75"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Danilovsky_YE">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_75"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_85"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Devojno_IG">
@@ -309,10 +307,6 @@
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Ivanov_GI">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_19"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Jefimov_AV">
-    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_62"/>
-    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Jeong_JH">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_65"/>
@@ -875,7 +869,9 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Yefimov_AV">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_62"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_81"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Yoon_H">

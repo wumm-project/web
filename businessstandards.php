@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-11-06
+ * last update: 2021-09-21
  */
 
 require 'vendor/autoload.php';
@@ -18,9 +18,10 @@ function theBusinessStandards($input)
     foreach ($res as $concept) {
         $uri=str_replace('http://opendiscovery.org/rdf/BusinessStandard/','',$concept->getURI());
         $out="<h3> Standard ".$uri."</h3>";
-        $out.="<p>".showLanguage($concept->all("skos:preflabel"),"<br/>")."</p>";
+        $out.="<p>".showLanguage($concept->all("skos:prefLabel"),"<br/>")."</p>";
         if ($concept->all("skos:narrower")) {
-            $out.="<p> Belongs to Group ".$concept->get("skos:narrower")->get("skos:preflabel")."</p>";
+            $out.="<p> Belongs to Group <em>"
+                .$concept->get("skos:narrower")->get("skos:prefLabel")."</em></p>";
         }
         if ($concept->all("skos:example")) {
             $out.="<h4>Example</h4>".showLanguage($concept->all("skos:example"),"<br/>");
@@ -35,6 +36,6 @@ function theBusinessStandards($input)
     return '<div class="container">'.$out.'</div>';
 }
 
-echo showpage(theBusinessStandards("rdf/TheBusinessStandards.rdf"));
+echo showpage(theBusinessStandards("rdf/BusinessStandards.rdf"));
 
 ?>
