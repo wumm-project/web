@@ -452,6 +452,9 @@
     <foaf:affil>INSA Strasbourg, France</foaf:affil>
     <foaf:name>Hicham Chibane</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Childs_PRN">
+    <foaf:name>Peter R. N. Childs</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chinghatam_T">
     <foaf:affil>Kaetsart Univ., Thailand</foaf:affil>
     <foaf:name>Thongchai Chinghatam</foaf:name>
@@ -570,7 +573,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/DeCarvalho_MA">
     <foaf:affil>UTFP, Brazil</foaf:affil>
-    <foaf:name>Marco Aurelio De Carvalho</foaf:name>
+    <foaf:name>Marco Aurélio de Carvalho</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/DePaiva_CL">
     <foaf:name>Cassiano Lemanski de Paiva</foaf:name>
@@ -2784,10 +2787,10 @@
     <foaf:name>Manabu Sawaguchi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schaefer_C">
-    <foaf:name>Carmen Schaefer</foaf:name>
+    <foaf:name>Carmen Schäfer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schaefer_T">
-    <foaf:name>Tobias Schaefer</foaf:name>
+    <foaf:name>Tobias Schäfer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schaper_S">
     <foaf:affil>Tutzing, Germany</foaf:affil>

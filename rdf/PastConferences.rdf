@@ -268,6 +268,8 @@ The Conference aims at linking industrial companies, research centers, education
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2021.rdf"/>
+    <od:theProceedings rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/issue/view/56"/>
+    <od:theProceedings rdf:resource="https://doi.org/10.1007/978-3-030-86614-3"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2021</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-24</ical:dtend>

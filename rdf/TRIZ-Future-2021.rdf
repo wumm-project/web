@@ -12,6 +12,8 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/General">
+    <od:theProceedings rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/issue/view/56"/>
+    <od:theProceedings rdf:resource="https://doi.org/10.1007/978-3-030-86614-3"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2021</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-24</ical:dtend>
@@ -22,12 +24,14 @@
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_101">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_1"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borgianni_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maccioni_L"/>
     <dcterms:title xml:lang="en">An ideality-based map to describe sustainable design initiatives</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_2"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cornella_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gargano_ER"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sacco_P"/>
@@ -35,6 +39,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_103">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_3"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/MasUdah"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rubianto_L"/>
@@ -44,12 +49,14 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_104">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeAraujo_RGM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeCarvalho_MA"/>
     <dcterms:title xml:lang="en">Comparative Analysis of Methods for Identifying Opportunities for Reusing Solid Waste</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_5"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_CH"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhong_P"/>
@@ -64,11 +71,13 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_107">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_6"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_S"/>
     <dcterms:title xml:lang="en">Concept Design of Appropriate Technology Based on Circular Economy for Sustainable Development Inferred from Korea Traditional Heating System</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_108">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_7"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bionda_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carmosino_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ratti_A"/>
@@ -76,6 +85,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_109">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1618"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Morandi_W"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tandoi_E"/>
@@ -83,6 +93,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_110">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1620"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bouwkamp_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wijnoltz_L"/>
@@ -90,6 +101,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_111">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_8"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Baratieri_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prada_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Roccatello_E"/>
@@ -97,6 +109,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_112">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1621"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeCarvalho_MA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DePaiva_CL"/>
     <dcterms:title xml:lang="en">Reducing the Effects of Ice Accumulation in Evaporators Using TRIZ</dcterms:title>
@@ -109,12 +122,14 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_114">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_9"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_M"/>
     <dcterms:title xml:lang="en">Identifying new application fields of a given technology</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_115">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_10"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cao_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gao_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_WP"/>
@@ -125,6 +140,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_116">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_11"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Deder_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
@@ -133,12 +149,14 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_117">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_12"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berdyugina_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:title xml:lang="en">Automatic extraction of potentially contradictory parameters from specific field patent texts</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_118">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_13"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guarino_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Samet_A"/>
@@ -146,11 +164,14 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_14"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Childs_PRN"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dewulf_S"/>
     <dcterms:title xml:lang="en">Patent Data Driven Innovation Logic: Textual pattern exploration to identify innovation logic data</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_120">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_15"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bersano_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_M"/>
     <dcterms:title xml:lang="en">Patent intelligence analysis to support technology roadmap on the sector of renewable energy</dcterms:title>
@@ -163,11 +184,13 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_122">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_16"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
     <dcterms:title xml:lang="en">Matrix 2022: Re-Imagining The Contradiction Matrix</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_123">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_17"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Laoh_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vaneker_THJ"/>
     <dcterms:title xml:lang="en">Improving the construction of RCA+ contradiction trees</dcterms:title>
@@ -183,11 +206,13 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_125">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_18"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
     <dcterms:title xml:lang="en">Indicating and assessing quality criteria for cause-effect models</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_126">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_19"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hanifi_M"/>
@@ -196,6 +221,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_127">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_20"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bryksin_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
@@ -210,24 +236,28 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_129">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_21"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bietresato_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mazzetto_F"/>
     <dcterms:title xml:lang="en">A reasoned evolutionary study on the actual design of farm tractors</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_130">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1625"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_De"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
-    <dcterms:title xml:lang="en">Practice of solving business problems using TRIZ</dcterms:title>
+    <dcterms:title xml:lang="en">Practice of solving business problems using TRIZ tools</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_131">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_22"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Majchrzak_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/WiecekJanka_E"/>
     <dcterms:title xml:lang="en">TRIZ contradiction modelling in family business succession process management: quantitative approach with an application of Grey Incidence Analysis.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_132">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1617"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Campagiorni_V"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Morandi_W"/>
@@ -236,6 +266,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_133">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_23"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeglInnocenti_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Frigo_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Peri_P"/>
@@ -245,6 +276,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_134">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1622"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cherrafi_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/ElYoussoufi_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Haroufi_A"/>
@@ -259,6 +291,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_136">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_24"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chen_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feng_LJ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_K"/>
@@ -269,6 +302,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_137">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1619"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borgianni_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavaliere_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaefer_C"/>
@@ -284,11 +318,13 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_139">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_25"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
     <dcterms:title xml:lang="en">Method for formulation, selection and application of elementary TRIZ inventive principles for automated idea generation</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_140">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_26"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ni_X"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Samet_A"/>
@@ -296,6 +332,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_141">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_27"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boufeloussen_O"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:title xml:lang="en">Bringing together engineering problems and basic science knowledge, one step closer to systematic invention</dcterms:title>
@@ -308,23 +345,27 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_143">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_28"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Soosay_AER"/>
     <dcterms:title xml:lang="en">Triz-based Remodelling of Multiple True-False Questions</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_144">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1622"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
     <dcterms:title xml:lang="en">TRIZ for problems of classical physics on the experience of the European project based on nanowires research.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_145">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1624"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jantschgi_P"/>
     <dcterms:title xml:lang="en">Simplified Trend system for TRIZ beginners</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_146">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_29"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Becattini_N"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nolte_H"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Singh_H"/>
@@ -332,6 +373,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_147">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_30"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Belski_IV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Harlim_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tanoyo_T"/>
@@ -339,6 +381,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_148">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1626"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dewulf_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
@@ -349,6 +392,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_149">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_31"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Medvedyev_AV"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tomashevskaya_N"/>
@@ -356,6 +400,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_150">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_32"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dubois_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hafer_L"/>
@@ -364,6 +409,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_151">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_33"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fiorineschi_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Frillici_FS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rotini_F"/>
@@ -371,21 +417,32 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_152">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_34"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
     <dcterms:title xml:lang="en">Domain analysis with TRIZ to define an effective “design for excellence” framework </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_153">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_35"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wessner_J"/>
     <dcterms:title xml:lang="en">The Efficient Work with Resources in TRIZ - Resource-Oriented Search (ROS)</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_154">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_36"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Coulibaly_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Houssin_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yehya_MI"/>
     <dcterms:title xml:lang="en">Solution Concept Modeling and Evaluation Based on Function-Structure and Behavior Approach in the Context of Inventive Design</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_155">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/ID"/>
+    <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1627"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stan_A"/>
+    <dcterms:title xml:lang="en">Applying TRIZ and CMFD to design sustainable, intelligent, and inclusive buildings</dcterms:title>
+    <rdfs:comment>not in  the program but in the proceedings in Acta Napocensis</rdfs:comment>
   </od:Talk>
   <od:Workshop rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Workshop_100">
     <dcterms:abstract xml:lang="de">Im Workshop wird die “Handregel” vermittelt, die man sich sehr leicht merken kann, die sehr schnell Erfolge aufweist und die man auch sehr einfach an Mitarbeiter vermitteln kann.</dcterms:abstract>
@@ -458,7 +515,7 @@ Interventi confermati:
     <rdfs:label xml:lang="en">TRIZ in non-conventional fields of application</rdfs:label>
   </swc:TrackEvent>
   <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD">
-    <rdfs:label xml:lang="en">Sustainable Development through Innovative approaches</rdfs:label>
+    <rdfs:label xml:lang="en">Inventiveness and TRIZ for Sustainable Development</rdfs:label>
   </swc:TrackEvent>
   <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TE">
     <rdfs:label xml:lang="en">TRIZ training, education and divulgation</rdfs:label>
