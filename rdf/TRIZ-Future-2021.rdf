@@ -24,6 +24,7 @@
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_101">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Maccioni_L"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_1"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borgianni_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Maccioni_L"/>
@@ -31,6 +32,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Sacco_P"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_2"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cornella_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gargano_ER"/>
@@ -39,6 +41,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_103">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/MasUdah"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_3"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/MasUdah"/>
@@ -49,6 +52,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_104">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/DeAraujo_RGM"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeAraujo_RGM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeCarvalho_MA"/>
@@ -56,6 +60,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/SD"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Li_L"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_5"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_CH"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_L"/>
@@ -77,6 +82,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_108">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Carmosino_G"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_7"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bionda_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carmosino_G"/>
@@ -85,6 +91,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_109">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Morandi_W"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1618"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Morandi_W"/>
@@ -93,6 +100,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_110">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1620"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bouwkamp_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
@@ -101,6 +109,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_111">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Roccatello_E"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_8"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Baratieri_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prada_A"/>
@@ -109,6 +118,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_112">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/DeCarvalho_MA"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1621"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeCarvalho_MA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DePaiva_CL"/>
@@ -122,6 +132,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_114">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_M"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_9"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_M"/>
@@ -129,6 +140,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_115">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Sun_Y"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_10"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cao_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gao_C"/>
@@ -140,6 +152,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_116">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_11"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Deder_A"/>
@@ -149,6 +162,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_117">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Berdyugina_D"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_12"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berdyugina_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
@@ -156,6 +170,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_118">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Guarino_G"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_13"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guarino_G"/>
@@ -164,6 +179,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Dewulf_S"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_14"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Childs_PRN"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dewulf_S"/>
@@ -171,6 +187,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_120">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/IP"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bersano_G"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_15"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bersano_G"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_M"/>
@@ -197,6 +214,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_124">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <od:urlPaper rdf:resource="http://dx.doi.org/10.14625/graebe_20210815"/>
     <od:urlSlides rdf:resource="https://hg-graebe.de/EigeneTexte/TFC21-ProHEAL.pdf"/>
     <od:urlVideo rdf:resource="https://hg-graebe.de/Videos/TFC2021-GraebeThiel-ProHEAL.mp4"/>
@@ -212,6 +230,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_126">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Hanifi_M"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_19"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
@@ -221,6 +240,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_127">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_20"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bryksin_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
@@ -236,6 +256,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_129">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Bietresato_M"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_21"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bietresato_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mazzetto_F"/>
@@ -243,6 +264,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_130">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_De"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1625"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_De"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
@@ -250,6 +272,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_131">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Majchrzak_J"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_22"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Majchrzak_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/WiecekJanka_E"/>
@@ -257,6 +280,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_132">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1617"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Campagiorni_V"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Carrara_P"/>
@@ -266,6 +290,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_133">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_23"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/DeglInnocenti_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Frigo_N"/>
@@ -276,6 +301,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_134">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/NA"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/ElYoussoufi_S"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1622"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cherrafi_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/ElYoussoufi_S"/>
@@ -291,6 +317,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_136">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Niu_Y"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_24"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chen_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feng_LJ"/>
@@ -302,6 +329,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_137">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Cavaliere_G"/>
     <od:urlPaper rdf:resource="https://atna-mam.utcluj.ro/index.php/Acta/article/view/1619"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borgianni_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavaliere_G"/>
@@ -324,6 +352,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_140">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Ni_X"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_26"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ni_X"/>
@@ -332,6 +361,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_141">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/AI"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Boufeloussen_O"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_27"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boufeloussen_O"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>

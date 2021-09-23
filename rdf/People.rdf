@@ -1203,6 +1203,12 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hu_J">
     <foaf:name>Jun Hu</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_HC">
+    <foaf:name>Huan-Chu Huang</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_Y">
+    <foaf:name>Huang Yan</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huber_N">
     <foaf:affil>HS Weihenstephan-Triesdorf, Germany</foaf:affil>
     <foaf:name>Norbert Huber</foaf:name>
@@ -1494,6 +1500,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JH">
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Jung-Hyeon Kim</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JHk">
+    <foaf:name>Kim JaiHak</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kim_JY">
     <foaf:affil>South Korea</foaf:affil>
@@ -2957,6 +2966,10 @@
     <foaf:fullname xml:lang="ru">Жуков Р.Ф.</foaf:fullname>
     <foaf:name>R.F. Shukov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shulyak_LA">
+    <foaf:fullname xml:lang="ru">Шуляк Лев Абрамович</foaf:fullname>
+    <foaf:name>Lev Shulyak</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shuqin_W">
     <foaf:name>Wu Shuqin</foaf:name>
   </foaf:Person>
@@ -3100,6 +3113,7 @@
     <foaf:name>Valeri V. Souchkov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spasic_I">
+    <foaf:affil>Cardiff University, UK</foaf:affil>
     <foaf:name>Irena Spasić</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spreafico_C">
@@ -3108,6 +3122,7 @@
     <foaf:name>Christian Spreafico</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spreafico_M">
+    <foaf:affil>Dalmine, Belgium</foaf:affil>
     <foaf:name>Matteo Spreafico</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stan_A">
@@ -3495,6 +3510,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xiaoyan_Z">
     <foaf:affil>China Railway Engineering Group, China</foaf:affil>
     <foaf:name>Zheng Xiaoyan</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xing_F">
+    <foaf:name>Xing Fenglei</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xu_DS">
     <foaf:name>Dongshuang Xu</foaf:name>

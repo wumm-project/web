@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2021-03-24
+ * last update: 2021-09-23
  */
 
 require 'vendor/autoload.php';
@@ -10,12 +10,12 @@ require_once 'layout.php';
 
 function theTitle() {
     return '<a href="ontology.php">Home</a>
-    <h2>The TRIZ Ontology Project Companion</h2>';
+    <h2>The WUMM Ontology Project</h2>';
 }
 
-// ------ the thesaurus
+// ------ helper ---- 
 
-function queryThesaurus() {
+function queryConcepts() {
     $query='
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
 PREFIX od: <http://opendiscovery.org/rdf/Model#>
@@ -33,13 +33,40 @@ where { ?a a skos:Concept ; ?b ?c . }';
     return $results;
 }
 
-function theThesaurus() {
+function theGlossaries() {
+    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
+    $graph->parseFile("rdf/Souchkov-Glossary.rdf"); 
+    $graph->parseFile("rdf/TOP-Glossary.rdf"); 
+    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
+    $graph->parseFile("rdf/Matvienko-Glossary.rdf");
+    $graph->parseFile("rdf/Lippert-Glossary.rdf");
+    return $graph;
+}
+
+function displayThesaurus() {
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/Thesaurus.rdf"); 
     $graph->parseFile("rdf/Souchkov-Glossary.rdf"); 
     $graph->parseFile("rdf/TOP-Glossary.rdf"); 
-    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
-    return $graph;
+    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more
+    $a=array();
+    $res = $graph->allOfType("skos:Concept");
+    foreach ($res as $concept) {
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
+        $types=join("<br/> ",$concept->all("rdf:type"));
+        $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
+            .'<h5><strong>Types</strong></h5>'.$types
+            .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
+        $a[$concept->getUri()]="<div>\n$out\n</div>\n";
+    }
+    ksort($a);
+    $out=theTitle().'
+<h3>The Combined TRIZ Thesaurus</h2>
+<div class="concept">
+'.join("\n", $a).'
+</div> <!-- end concept list -->';
+    return '<div class="container">'.$out.'</div>';
 }
 
 function displayGlossary($graph) {
@@ -52,6 +79,16 @@ function displayGlossary($graph) {
         $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
             .'<h5><strong>Types</strong></h5>'.$types
             .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
+        $u=showLanguage($concept->all("od:TOPExplanation"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>TOP Explanation:</strong></h5>'.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:SouchkovDefinition"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Souchkov\'s Definition:</strong></h5> '.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:MatvienkoDefinition"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Matvienko\'s Definition:</strong></h5> '.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:VDIGlossaryDefinition"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Definition in the VDI Glossary:</strong></h5> '.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:hasLippertNote"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Note in Lippert/Cloutier:</strong></h5> '.$u.'</p>'; }
         $a[$concept->getUri()]="<div>\n$out\n</div>\n";
     }
     ksort($a);
@@ -162,7 +199,8 @@ Project</a>. It\'s a first hack, more detailed explanations will be comiled
 <p>For the moment we compiled 
 <ul> 
 <li><a href="ontology.php?rdf=thesaurus">A combined Thesaurus</a> from the files </li>
-<li><a href="ontology.php?rdf=sparql">A combined Thesaurus</a> from SPAQRL</li>
+<li><a href="ontology.php?rdf=glossaries">A combined Glossary</a> from the files </li>
+<li><a href="ontology.php?rdf=sparql">A combined Glossary</a> from SPAQRL</li>
 <li><a href="ontology.php?rdf=TopLevel">Top Level Concepts</a> from the TRIZ Ontology Project</li> 
 <li><a href="ontology.php?rdf=OntoCards">OntoCards</a> from the TRIZ Ontology Project</li>
 </ul> 
@@ -196,8 +234,10 @@ Project</a>.</p>
 
 function theOntologyPage($rdf) {
     setNamespaces();
-    if ($rdf=='thesaurus') { $out=displayGlossary(theThesaurus()); }
-    else if ($rdf=='sparql') { $out=displayGlossary(queryThesaurus()); }
+    #echo $rdf;
+    if ($rdf=='thesaurus') { $out=displayThesaurus(); }
+    else if ($rdf=='glossaries') { $out=displayGlossary(theGlossaries()); }
+    else if ($rdf=='sparql') { $out=displayGlossary(queryConcepts()); }
     else if ($rdf=='TopLevel') { $out=TopLevel(); }
     else if ($rdf=='OntoCards') { $out=OntoCards(); }
     else { $out=generalOntologyInfo(); }
@@ -205,10 +245,10 @@ function theOntologyPage($rdf) {
 }
 
 
-$rdf=$_GET["rdf"]; // (thesaurus | sparql | TopLevel | OntoCards )
+$rdf=$_GET["rdf"]; // (thesaurus | glossaries | sparql | TopLevel | OntoCards )
 echo showpage(theOntologyPage($rdf));
 
-#echo displayGlossary(queryThesaurus());
+#echo displayThesaurus();
 #setNamespaces(); echo OntoCards();
 
 

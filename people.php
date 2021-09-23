@@ -16,8 +16,14 @@ function thePeople()
     $graph->parseFile("rdf/MATRIZ-Certificates.rdf");
     $a=array();
     foreach ($graph->allOfType('foaf:Person') as $autor) {
-        $b=array();
-        $cert=getCertificate($graph,$autor->getURI());
+        $c=array();        
+        foreach ($autor->all("od:hasCertificate") as $v) {
+            $v=str_replace("http://opendiscovery.org/rdf/Certificate/","Level ",$v);
+            $v=str_replace("_"," no. ",$v);
+            $c[]=$v;
+        }
+        $cert='<strong>MATRIZ Certificates:</strong> '.join(", ",$b);
+        $b=array();                
         foreach ($autor->all("foaf:name") as $e) {
             $b[]='<strong><span itemprop="name" class="foaf:name">'
                 .$e->getValue().'</span></strong>';
@@ -29,7 +35,7 @@ function thePeople()
         foreach ($autor->all("foaf:homepage") as $e) {
             $b[]=createLink($e,$e);
         }
-        if (!empty($cert)) { $b[]="MATRIZ Certificates: $cert"; }
+        if (!empty($c)) { $b[]=$cert='MATRIZ Certificates: '.join(", ",$c); }
         $a[$autor->getUri()]=
             '<div itemscope itemtype="http://schema.org/Person" class="creator">'
             .join('<br/>',$b).'</p></div>';
@@ -61,5 +67,5 @@ function getCertificate($graph,$author) {
 
 
 echo showpage(thePeople());
-
+    
 ?>
