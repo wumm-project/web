@@ -16,7 +16,8 @@
     <rdfs:comment>2021-03-20 graebe: MATRIZ certificates level 4..5</rdfs:comment>
     <rdfs:comment>2021-03-26 graebe: aligned with People.ttl</rdfs:comment>
     <rdfs:comment>2021-09-23 graebe: update to 4_139 and 5_108</rdfs:comment>
-    <rdfs:label>TRIZ Database - MATRIZ Certificates Level 4 and 5</rdfs:label>
+    <rdfs:comment>2021-09-24 graebe: MATRIZ Champions added</rdfs:comment>
+    <rdfs:label>TRIZ Database - MATRIZ Certificates Level 4 and 5 and MATRIZ Awards</rdfs:label>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
   </owl:Ontology>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Abramov_OY">
@@ -173,6 +174,9 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_111"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Domb_E">
+    <od:hasMATRIZAward>TRIZ Champion 2016</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Faer_SA">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_100"/>
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_90"/>
@@ -279,6 +283,9 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_131"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Gredynarova_O">
+    <od:hasMATRIZAward>TRIZ Champion 2018</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Gronauer_B">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_119"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -291,6 +298,9 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_13"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Han_N">
+    <od:hasMATRIZAward>TRIZ Champion 2021</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Han_YS">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_93"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -298,6 +308,9 @@
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Hee_CJ">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_115"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
+    <od:hasMATRIZAward>TRIZ Champion 2021</od:hasMATRIZAward>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Huang_HC">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_134"/>
@@ -325,13 +338,22 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_19"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Jantschgi_J">
+    <od:hasMATRIZAward>TRIZ Champion 2018</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Jeong_JH">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_65"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Jirman_P">
+    <od:hasMATRIZAward>TRIZ Champion 2018</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/June_KH">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_60"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Jung_KJ">
+    <od:hasMATRIZAward>TRIZ Champion 2020</od:hasMATRIZAward>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Juravlev_YF">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_46"/>
@@ -339,6 +361,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kagan_EL">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_6"/>
+    <od:hasMATRIZAward>TRIZ Champion 2016</od:hasMATRIZAward>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kaloshin_NG">
@@ -440,6 +463,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kozhevnikova_LA">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_1"/>
+    <od:hasMATRIZAward>TRIZ Champion 2016</od:hasMATRIZAward>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Krasnoslobodtsev_VJ">
@@ -478,6 +502,9 @@
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Ladoshkin_VS">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_30"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Langevin_R">
+    <od:hasMATRIZAward>TRIZ Champion 2019</od:hasMATRIZAward>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Lebedev_YV">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_97"/>
@@ -615,6 +642,12 @@
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Nakagawa_T">
+    <od:hasMATRIZAward>TRIZ Champion 2021</od:hasMATRIZAward>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Narayan_PV">
+    <od:hasMATRIZAward>TRIZ Champion 2021</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Narbut_AF">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_38"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
@@ -625,6 +658,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Nesterenko_AA">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_5"/>
+    <od:hasMATRIZAward>TRIZ Champion 2017</od:hasMATRIZAward>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Nikashin_AI">
@@ -638,6 +672,9 @@
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Pavlov_VV">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_41"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Pchelkina_E">
+    <od:hasMATRIZAward>TRIZ Champion 2020</od:hasMATRIZAward>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Petiy_II">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_58"/>
@@ -683,6 +720,9 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_87"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Rantanen_K">
+    <od:hasMATRIZAward>TRIZ Champion 2017</od:hasMATRIZAward>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Redkolis_EV">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_124"/>
@@ -740,6 +780,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Seredinski_AV">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_2"/>
+    <od:hasMATRIZAward>TRIZ Champion 2016</od:hasMATRIZAward>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Severinets_GA">
@@ -885,6 +926,9 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_5"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Vintman_Z">
+    <od:hasMATRIZAward>TRIZ Champion 2017</od:hasMATRIZAward>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Visnepolschi_S">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_17"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -900,6 +944,9 @@
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Xing_F">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_139"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Yakovenko_SA">
+    <od:hasMATRIZAward>TRIZ Champion 2020</od:hasMATRIZAward>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Yatsunenko_S">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_125"/>

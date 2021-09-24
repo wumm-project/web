@@ -486,7 +486,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chrzaszcz_J">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0003-3257-9726"/>
-    <foaf:affil>Warsaw University of Technology, Warsaw, Poland</foaf:affil>
+    <foaf:affil>University of Technology, Warsaw, Poland</foaf:affil>
     <foaf:name>Jerzy Chrząszcz</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chuang_CT">
@@ -645,7 +645,8 @@
     <foaf:name>Christoph Dobrusskin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Domb_E">
-    <foaf:name>E. Domb</foaf:name>
+    <foaf:affil>USA</foaf:affil>
+    <foaf:name>Ellen Domb</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Domkin_KI">
     <foaf:affil>NPK Consultants, Moscow, Russia</foaf:affil>
@@ -1086,6 +1087,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_HS">
     <foaf:name>Hak-Shon Han</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_N">
+    <foaf:name>Nan Han</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Han_WP">
     <foaf:name>Wie-pei Han</foaf:name>
   </foaf:Person>
@@ -1319,6 +1323,10 @@
     <foaf:affil>South Korea</foaf:affil>
     <foaf:name>Kim Hyo June</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jung_KJ">
+    <foaf:affil>South Korea</foaf:affil>
+    <foaf:name>Kyujin Jung</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Junjg_YL">
     <foaf:name>Ye Lin Junjg</foaf:name>
   </foaf:Person>
@@ -1331,7 +1339,7 @@
     <foaf:name>Rabiah Abdul Kadir</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kagan_EL">
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>Israel</foaf:affil>
     <foaf:fullname xml:lang="ru">Каган Эдуард Львович</foaf:fullname>
     <foaf:name>Eduard L. Kagan</foaf:name>
   </foaf:Person>
@@ -1753,6 +1761,10 @@
     <foaf:affil>Pensa, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Лампетова Наталья Владимировна</foaf:fullname>
     <foaf:name>Natalya V. Lampetova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Langevin_R">
+    <foaf:affil>USA</foaf:affil>
+    <foaf:name>Richard Langevin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Laoh_S">
     <foaf:name>Sascha Láoh</foaf:name>
@@ -2346,6 +2358,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nolte_H">
     <foaf:name>Hannah Nolte</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nowak_R">
+    <foaf:name>Robert Nowak</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nowak_T">
     <foaf:name>Tomasz Nowak</foaf:name>
   </foaf:Person>
@@ -2446,6 +2461,7 @@
     <foaf:name>Valeri V. Pavlov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pchelkina_E">
+    <foaf:affil>Russia</foaf:affil>
     <foaf:name>Ekaterina Pchelkina</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Peddi_S">
@@ -2632,7 +2648,8 @@
     <foaf:name>Suresh Rajan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rantanen_K">
-    <foaf:name>K. Rantanen</foaf:name>
+    <foaf:affil>Finland</foaf:affil>
+    <foaf:name>Kalevi Rantanen</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ratti_A">
     <foaf:name>Andrea Ratti</foaf:name>
@@ -3104,6 +3121,7 @@
     <foaf:name>Zhitao Song</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Soosay_AER">
+    <foaf:affil>Sarawak University, Malaysia</foaf:affil>
     <foaf:name>Ashley Edward Roy Soosay</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Souchkov_VV">
@@ -3384,6 +3402,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Villarroel_JRE">
     <foaf:affil>Open TRIZ Second Wave Chile SpA, Chile</foaf:affil>
     <foaf:name>José Roberto Espinoza Villarroel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vintman_Z">
+    <foaf:affil>Ukraine</foaf:affil>
+    <foaf:name>Zakhar Vintman</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vishnepolschi_SV">
     <foaf:affil>USA</foaf:affil>

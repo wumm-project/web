@@ -207,6 +207,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/Talk_123">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/TT"/>
+    <od:urlPaper rdf:resource="http://essay.utwente.nl/86183/"/>
     <od:urlPaper rdf:resource="https://doi.org/10.1007/978-3-030-86614-3_17"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Laoh_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Vaneker_THJ"/>

@@ -22,7 +22,7 @@ function thePeople()
             $v=str_replace("_"," no. ",$v);
             $c[]=$v;
         }
-        $cert='<strong>MATRIZ Certificates:</strong> '.join(", ",$b);
+        $d=$autor->all("od:hasMATRIZAward");
         $b=array();                
         foreach ($autor->all("foaf:name") as $e) {
             $b[]='<strong><span itemprop="name" class="foaf:name">'
@@ -36,6 +36,7 @@ function thePeople()
             $b[]=createLink($e,$e);
         }
         if (!empty($c)) { $b[]=$cert='MATRIZ Certificates: '.join(", ",$c); }
+        if (!empty($d)) { $b[]=$cert='MATRIZ Awards: '.join(", ",$d); }
         $a[$autor->getUri()]=
             '<div itemscope itemtype="http://schema.org/Person" class="creator">'
             .join('<br/>',$b).'</p></div>';
