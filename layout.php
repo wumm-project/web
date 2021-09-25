@@ -45,6 +45,7 @@ function pageNavbar() {
             <li><a href="parameters.php">Parameters</a></li>
             <li><a href="standards.php">Standards</a></li>
             <li><a href="businessstandards.php">Business Standards</a></li>
+            <li><a href="wtsp.php">WTSP Metadata</a></li>
             <!--<li><a href="test.php">Test</a></li>-->
           </ul>
         </div><!-- navbar end -->

@@ -3,6 +3,7 @@ all: people conferences ontologies publications
 people:
 	rapper -g ../../RDFData/People.ttl -o rdfxml-abbrev >People.rdf
 	rapper -g ../../RDFData/MATRIZ-Certificates.ttl -o rdfxml-abbrev >MATRIZ-Certificates.rdf
+	rapper -g ../../RDFData/WTSP.ttl -o rdfxml-abbrev >WTSP.rdf
 
 conferences:
 	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2021.ttl -o rdfxml-abbrev >BusinessTRIZ-2021.rdf

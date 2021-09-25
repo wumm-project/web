@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/WTSP/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <dcterms:source rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-A1-Policies.html"/>
+    <rdfs:comment>2021-09-25 graebe: A first extract of metadata from the website</rdfs:comment>
+    <rdfs:label>Metadata from the WTSP of Toru Nakagawa</rdfs:label>
+  </owl:Ontology>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/CN-01">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-D-cn/Sites-CN.html#CN-01"/>
+    <rdfs:label>National Engineering Research Center for Technological Innovation Method and tool</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/JP-01">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-D-jp/Sites-JP.html#JP-01"/>
+    <rdfs:label>TRIZ Home Page in Japan (Toru Nakagawa)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/MY-01">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-D-my/Sites-MY.html#MY-01"/>
+    <rdfs:label>MyTRIZ (Malaysia TRIZ Innovation Association) Official Website</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-01">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-01"/>
+    <rdfs:label>The official foundation of G.S. Altshuller</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-02">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-02"/>
+    <rdfs:label>OTSM by Nikolai Khomenko</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-03">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-03"/>
+    <rdfs:label>Methodologist</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-04">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-04"/>
+    <rdfs:label>MATRIZ (The International TRIZ Association)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-05">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-05"/>
+    <rdfs:label>Education for a New Era</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-07">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-07"/>
+    <rdfs:label>GRAMTRIZ (Global Russian Academy of Modern TRIZ) by Prof. Michael Orloff</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-12">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-12"/>
+    <rdfs:label>Institute of Innovative Design</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-20">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-20"/>
+    <rdfs:label>TRIZ-Art school of Roman Florescu "TRIZ-CREATIVITY"</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-30">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-30"/>
+    <rdfs:label>TRIZ Master Leonard Vikentjev</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/RUL-36">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-36"/>
+    <rdfs:label>TRIZ Developer Summit / TDS</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2A-03">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-03"/>
+    <rdfs:label>ETRIA (The European TRIZ Association)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2A-04">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-04"/>
+    <rdfs:label>TJ (The TRIZ Journal)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2A-06">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2A-06"/>
+    <rdfs:label>ICG (ICG Training and Consulting)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2A-12">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-12"/>
+    <rdfs:label>Wikipedia</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2A-47">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-47"/>
+    <rdfs:label>Systematic Innovation Inc.</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2A-48">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-48"/>
+    <rdfs:label>AULIVE</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2F-02">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2F-02"/>
+    <rdfs:label>AI (The Altshuller Institute for TRIZ Studies)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2F-04">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2F-04"/>
+    <rdfs:label>Ideation International, Inc. (Where Innovation Begins)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2F-06">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2F-06"/>
+    <rdfs:label>TRIZ Power Tools (OpenSourceTRIZ.com)</rdfs:label>
+  </od:WSTPEntry>
+  <od:WSTPEntry rdf:about="https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/TN2F-07">
+    <od:hasLink rdf:resource="https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2F-07"/>
+    <rdfs:label>GEN-TRIZ</rdfs:label>
+  </od:WSTPEntry>
+</rdf:RDF>
