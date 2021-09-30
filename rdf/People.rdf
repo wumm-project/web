@@ -838,6 +838,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fowlkes_WY">
     <foaf:name>William Y. Fowlkes</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fradkova_L">
+    <foaf:name>Ludmila Fradkova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fresner_J">
     <foaf:affil xml:lang="en">TRIZ Campus Vienna, Vienna, Austria</foaf:affil>
     <foaf:name>J. Fresner</foaf:name>
@@ -1613,6 +1616,11 @@
     <foaf:affil>Ukraine</foaf:affil>
     <foaf:name>Andrii Konovalenko</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korneev_SG">
+    <rdfs:comment>Died in 1964</rdfs:comment>
+    <foaf:fullname xml:lang="ru">Корнеев Станислав Георгиевич</foaf:fullname>
+    <foaf:name>Stanislav Korneev</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korolev_VA">
     <foaf:fullname xml:lang="ru">Королёв В. А.</foaf:fullname>
     <foaf:name>V. A. Korolev</foaf:name>
@@ -1643,14 +1651,14 @@
     <foaf:fullname xml:lang="ru">Кожевникова Любовь Анатольевна</foaf:fullname>
     <foaf:name>Ljubov Kozhevnikova</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozyreva_N">
-    <foaf:affil>Moscow, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Козырева Нелли</foaf:fullname>
-    <foaf:homepage rdf:resource="https://kozyreva.ucoz.ru/"/>
-    <foaf:name>Nelly Kozyreva</foaf:name>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozin_A">
+    <foaf:fullname xml:lang="ru">Козин Александр</foaf:fullname>
+    <foaf:name>Alexander Kozin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozyreva_NA">
+    <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Козырева Нелли Арнольдовна</foaf:fullname>
+    <foaf:homepage rdf:resource="https://kozyreva.ucoz.ru/"/>
     <foaf:name>Nelli A. Kozyreva</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Krasnoslobodtsev_VJ">
@@ -1841,9 +1849,10 @@
     <foaf:name>Emanuel Leleito</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lenyashin_VA">
+    <rdfs:comment>Died already</rdfs:comment>
     <foaf:affil>Russia - South Korea</foaf:affil>
     <foaf:fullname xml:lang="ru">Леняшин Василий Алексеевич</foaf:fullname>
-    <foaf:name>Vassili Lenyaschin</foaf:name>
+    <foaf:name>Vasily Lenyaschin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/LeonhardPfleger_R">
     <foaf:affil>Ingolstadt, Germany</foaf:affil>
@@ -2287,7 +2296,7 @@
     <foaf:name>Thomas Nagel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nakagawa_T">
-    <foaf:affil>Osaka Gakuin University, Japan</foaf:affil>
+    <foaf:affil>Professor Emeritus at Osaka Gakuin University, Japan</foaf:affil>
     <foaf:name>Toru Nakagawa</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nanrudaiyan_N">
@@ -2434,6 +2443,10 @@
     <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Папутин Александр</foaf:fullname>
     <foaf:name>Alexander Paputin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Parenchik_GI">
+    <foaf:fullname xml:lang="ru">Паренчик Геннадий Иванович</foaf:fullname>
+    <foaf:name>Gennadi Parenchik</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Park_H">
     <foaf:name>Haejo Park</foaf:name>
@@ -2904,7 +2917,8 @@
     <foaf:name>K. Shahrul</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shapiro_RB">
-    <foaf:name>R.B. Shapiro</foaf:name>
+    <foaf:fullname xml:lang="ru">Шапиро Рафаэль Борисович</foaf:fullname>
+    <foaf:name>Rafael Shapiro</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sharapov_MI">
     <foaf:fullname xml:lang="ru">Шарапов Михаил Иванович</foaf:fullname>
@@ -3075,6 +3089,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Smirnova_E">
     <foaf:name>Evgenia Smirnova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Smirnova_I">
+    <foaf:name>Irina Smirnova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Smirnova_S">
     <foaf:affil>Kasan, Russia</foaf:affil>
