@@ -12,6 +12,7 @@
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/General">
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt"/>
     <rdfs:label>TRIZ Fest 2021</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-18</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-15</ical:dtstart>
@@ -31,6 +32,7 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Popova_SL"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=07dBmo75nE4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bauch_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Garzon_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
@@ -39,11 +41,14 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_103">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=1j9pUh6FTEw"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
     <dcterms:title xml:lang="en">Imperceptible Detection of Fluorescence – Using TRIZ to See the Invisible</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_104">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=YAaLCm6RWh4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Emanuilov_E"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lesourd_J"/>
@@ -52,47 +57,56 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=fH9kEZ71ry0"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Logvinov_SA"/>
     <dcterms:title xml:lang="en">The Issues of Transition to Supersystem</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_106">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=SXCqQxckxpA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Belfiore_J"/>
     <dcterms:title xml:lang="en">ISO Standards for Innovation and their Impacts to the TRIZ Community</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_107">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Pedagogy"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=HrJGKZLClmY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Evgenia"/>
     <dcterms:title xml:lang="en">What Can TRIZ Bring to Pedagogy?</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_108">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Pedagogy"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=iVLGoB4qIok"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_MS"/>
     <dcterms:title xml:lang="en">Non-ordinary View of Ordinary Things</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_109">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Pedagogy"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=wYgshhpRIko"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pchelkina_E"/>
     <dcterms:title xml:lang="en">Approaches to TRIZ-Pedagogy at RA TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_110">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Pedagogy"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=nwiyLJ6AXsU"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
     <dcterms:title xml:lang="en">Integration of TRIZ to Education: Issues and Approaches</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_111">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Pedagogy"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=86aZMqnpecA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozyreva_NA"/>
     <dcterms:title xml:lang="en">Using TRIZ to Designing Toys and Games with Pedagogy Students</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_112">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Pedagogy"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=yQZSprcMZLA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sokol_A"/>
     <dcterms:title xml:lang="en">TRIZ and Thinking Skills: Can There Bee Added Value and Where Should We Look for It?</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_113">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_K"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=t2n-KPoBfrE"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hao_Z"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_K"/>
     <dcterms:title xml:lang="en">Patent Circumvention and Strengthening in Wind Turbine Blade Noise Reduction</dcterms:title>
@@ -106,17 +120,20 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_115">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=6TPKrumFehY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Strempel_T"/>
     <dcterms:title xml:lang="en">Semantic Web Modelling of TRIZ System Evolution Concepts</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_116">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=GX9fVN_bcSY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_YJ"/>
     <dcterms:title xml:lang="en">Apply Functional Analysis and Inventive Standards of TRIZ for Business And Management To Solve Teaching Problems</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_117">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=_2FmAPx1Ew4"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kassou_R"/>
     <dcterms:title xml:lang="en">Architecture and Design Implementation of Innometric System</dcterms:title>
   </od:Talk>
@@ -128,16 +145,19 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=qQBH2SBCqtI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
     <dcterms:title xml:lang="en">How To Hold Strategic Sessions Via TRIZ Tools</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_120">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=reO4J5Po2H8"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
     <dcterms:title xml:lang="en">Horological TRIZ Ruminations</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_121">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=A7PEU7PSlUc"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hausmann_B"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Keiper_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaefer_T"/>
@@ -145,16 +165,19 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_122">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ALVzz-6pFW0"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
     <dcterms:title xml:lang="en">Big Data Analysis: A Component / Resource to be Considered in TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_123">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=S_b42TlIKMc"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
     <dcterms:title xml:lang="en">Implementing TRIZ at a Company with Solving Mill Software (Samsung Case)</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_124">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=4noEo95ZvoQ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xu_DS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_Y"/>
@@ -162,12 +185,14 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_125">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=19BOeEjbA-w"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title xml:lang="en">Modern Tools for Business TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_126">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=cZ70-bdJyFQ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bauch_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Garzon_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
@@ -177,6 +202,7 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_127">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Ishrat_I"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IzfjQWSVCcw"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hasan_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ishrat_I"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khan_FM"/>
@@ -184,6 +210,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_128">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=vRTlsicWEKY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Palcak_F"/>
     <dcterms:title xml:lang="en">Benefits Of TRIZ Approach To Enable Proper Holistic Education</dcterms:title>
   </od:Talk>

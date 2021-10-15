@@ -79,7 +79,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amnuel_PR">
     <foaf:affil>Beit She'an, Israel</foaf:affil>
-    <foaf:fullname xml:lang="ru">Амнуэль Песах Рафаэлович</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Амнуэль Павел Рафаэлович</foaf:fullname>
     <foaf:name>Pesakh R. Amnuel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Andersen_B">
@@ -276,7 +276,9 @@
     <foaf:fullname xml:lang="ru">Богатырева Ольга Александровна</foaf:fullname>
     <foaf:name>Olga Bogatyreva</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boika_S">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boiko_SS">
+    <foaf:affil>EPAM, Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Бойко Сергей Сергеевич</foaf:fullname>
     <foaf:name>Siarhei Boika</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Boko_A">
@@ -285,7 +287,6 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bolotovsky_VN">
     <foaf:fullname xml:lang="ru">Болотовский В.Н.</foaf:fullname>
-    <foaf:name>Siarhei Boika</foaf:name>
     <foaf:name>V.N. Bolotovsky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/BoratynskaSala_A">
@@ -2084,9 +2085,10 @@
     <foaf:affil>Algorithm Ltd., Russia</foaf:affil>
     <foaf:name>Sergey A. Markosov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Martinovskij_G">
-    <foaf:affil xml:lang="ru">EPAM Systems, Главный бизнес консультант</foaf:affil>
-    <foaf:name>Georgii Marsinovskii</foaf:name>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Martsinovskii_GA">
+    <foaf:affil>EPAM Systems, Minsk, Belarus</foaf:affil>
+    <foaf:fullname xml:lang="ru">Марциновский Георгий Артемьевич</foaf:fullname>
+    <foaf:name>Georgi A. Martsinovskii</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Martynov_A">
     <foaf:name>Artur Martynov</foaf:name>

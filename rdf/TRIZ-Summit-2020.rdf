@@ -309,7 +309,7 @@ Beim Vergleich von ARIZ-Modifikationen untereinander wird eine Erhöhung des Anw
 Im Vortrag wird über Gesetzmäßigkeiten der Stadtentwicklung, die Entwicklung ihrer Funktionen und darüber gesprochen, wie im Verlauf dieser Veränderungen erfinderische Probleme identifiziert und gelöst wurden. </dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Технологии «умного города» заметно улучшают качество нашей жизни. Датчики местоположения и скорости общественного транспорта, автоматизированное уличное освещение – все это лишь малая часть, и ТРИЗ помогает создать еще больше возможностей для нашего комфорта.
 В докладе эксперты расскажут о закономерностях развития городов, эволюции их функций и как в процессе всех изменений возникали и решались изобретательские задачи. </dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boika_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Boiko_SS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:title xml:lang="en">TRIZ in SmartCity systems</dcterms:title>
     <dcterms:title xml:lang="de">TRIZ in SmartCity-Systemen</dcterms:title>

@@ -31,7 +31,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Falkov_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khorenyan_RG"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Koblenc_P"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Martsinovskii_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Martsinovskii_GA"/>
     <dcterms:title xml:lang="en">Solving non-digital problems for digital transformation</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_519">
