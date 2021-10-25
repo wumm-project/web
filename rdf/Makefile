@@ -6,7 +6,9 @@ people:
 	rapper -g ../../RDFData/WTSP.ttl -o rdfxml-abbrev >WTSP.rdf
 
 conferences:
+	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2020.ttl -o rdfxml-abbrev >BusinessTRIZ-2020.rdf
 	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2021.ttl -o rdfxml-abbrev >BusinessTRIZ-2021.rdf
+	rapper -g ../../RDFData/Conferences/BTO-2021.ttl -o rdfxml-abbrev >BTO-2021.rdf
 	rapper -g ../../RDFData/ConferenceSeries.ttl -o rdfxml-abbrev >ConferenceSeries.rdf
 	rapper -g ../../RDFData/PastConferences.ttl -o rdfxml-abbrev >PastConferences.rdf
 	rapper -g ../../RDFData/Conferences/MTC-2020.ttl -o rdfxml-abbrev >MTC-2020.rdf
@@ -21,7 +23,6 @@ conferences:
 	rapper -g ../../RDFData/Conferences/TRIZFest-2018.ttl -o rdfxml-abbrev >TRIZFest-2018.rdf
 	rapper -g ../../RDFData/Conferences/TRIZFest-2019.ttl -o rdfxml-abbrev >TRIZFest-2019.rdf
 	rapper -g ../../RDFData/Conferences/TRIZFest-2021.ttl -o rdfxml-abbrev >TRIZFest-2021.rdf
-	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2020.ttl -o rdfxml-abbrev >BusinessTRIZ-2020.rdf
 	rapper -g ../../RDFData/Conferences/GermanTRIZOnline-2020.ttl -o rdfxml-abbrev >GermanTRIZOnline-2020.rdf
 	rapper -g ../../RDFData/Conferences/MOF-2020.ttl -o rdfxml-abbrev >MOF-2020.rdf
 	rapper -g ../../RDFData/Conferences/TRIZ-Future-2020.ttl -o rdfxml-abbrev >TRIZ-Future-2020.rdf

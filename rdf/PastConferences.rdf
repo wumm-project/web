@@ -7,6 +7,15 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2021.rdf"/>
+    <rdfs:label>Business TRIZ Online Autumn 2021</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community.</ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020">
     <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
     <rdfs:label>Business TRIZ Online 2020</rdfs:label>

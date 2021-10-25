@@ -1640,8 +1640,7 @@
     <foaf:name>Alexander Kostin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozhemyako_A">
-    <foaf:affil>Business Association TRIZ</foaf:affil>
-    <foaf:affil>Russia</foaf:affil>
+    <foaf:affil>Business Association TRIZ, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Кожемяко Антон</foaf:fullname>
     <foaf:homepage rdf:resource="http://batriz.ru/"/>
     <foaf:homepage rdf:resource="http://bmtriz.ru/"/>
@@ -1726,7 +1725,7 @@
     <foaf:name>Eduard Kurgi</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kuryan_AG">
-    <foaf:affil>Minsk, Belarus</foaf:affil>
+    <foaf:affil>EPAM Gdansk, Poland</foaf:affil>
     <foaf:fullname xml:lang="ru">Курьян Андрей Георгиевич</foaf:fullname>
     <foaf:homepage rdf:resource="https://www.facebook.com/andrew.kuryan"/>
     <foaf:name>Andrei G. Kuryan</foaf:name>
@@ -2605,6 +2604,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Prada_A">
     <foaf:name>Alessandro Prada</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pravkin_D">
+    <foaf:affil>InGosStrach, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Правкин Даниил</foaf:fullname>
+    <foaf:name>Daniil Pravkin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Prevost_E">
     <foaf:affil>TRIZ France, France</foaf:affil>
     <foaf:name>Eric Prévost</foaf:name>
@@ -2918,6 +2922,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shahrul_K">
     <foaf:name>K. Shahrul</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shapiro_A">
+    <foaf:affil>Byndyusoft, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Шапиро Андрей</foaf:fullname>
+    <foaf:name>Andrey Shapiro</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shapiro_RB">
     <foaf:fullname xml:lang="ru">Шапиро Рафаэль Борисович</foaf:fullname>
     <foaf:name>Rafael Shapiro</foaf:name>
@@ -3024,6 +3033,11 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Сидорчук Татьяна Александровна</foaf:fullname>
     <foaf:name>Tatjana Sidorchuk</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sidoretz_A">
+    <foaf:affil>Cognizant, Switzerland</foaf:affil>
+    <foaf:fullname xml:lang="ru">Сидорецс Алекс</foaf:fullname>
+    <foaf:name>Alex Sidoretz</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sidorovitch_D">
     <foaf:name>Dimitri Sidorovitch</foaf:name>
@@ -3329,6 +3343,11 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Трантин Александр Владимирович</foaf:fullname>
     <foaf:name>Alexander V. Trantin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tregubov_AN">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Трегубов Александр Наумович</foaf:fullname>
+    <foaf:name>Alexander N. Tregubov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Trigub_AV">
     <foaf:affil>Russia</foaf:affil>
