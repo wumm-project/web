@@ -69,7 +69,7 @@ function theEvent($v,$graph) {
 <li><strong>Conference Fotos: </strong>'
         .join("<br/> ",array_map('createLink',$fotos,$fotos)).'</li>';
     }
-    if ($fotos) { 
+    if ($videos) { 
         $out.='
 <li><strong>Conference Videos: </strong>'
         .join("<br/> ",array_map('createLink',$videos,$videos)).'</li>';

@@ -10,7 +10,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/BTO-2021/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/General">
-    <rdfs:comment>Presentations of the Business TRIZ Online Autumn 2021</rdfs:comment>
+    <rdfs:comment>Presentations of the Business TRIZ Online Fall 2021</rdfs:comment>
     <rdfs:label>Business TRIZ Online Autumn 2021</rdfs:label>
     <ical:description xml:lang="en">One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
 
@@ -64,6 +64,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     <dcterms:title xml:lang="ru">Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_107">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
@@ -76,7 +77,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     <dcterms:title xml:lang="ru">Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_109">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sidoretz_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sidorec_A"/>
     <dcterms:title xml:lang="en">TRIZ in Supply Chain Management. Basics</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ в Управлении Цепями Поставок. Основы</dcterms:title>
   </od:Talk>
@@ -89,13 +90,6 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Redkolis_EV"/>
     <dcterms:title xml:lang="en">Practice of TRIZ application in non-industrial businesses</dcterms:title>
     <dcterms:title xml:lang="ru">Практика применения ТРИЗ в непромышленных бизнесах</dcterms:title>
-  </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_112">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Trostyansky_AG"/>
-    <dcterms:title xml:lang="en">Using "Solving Mill" for solving business problems - a case study</dcterms:title>
-    <dcterms:title xml:lang="ru">Использование "Солвинг Милл" для решения бизнес задач (разбор кейса)</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_113">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>

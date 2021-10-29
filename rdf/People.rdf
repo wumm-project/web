@@ -3034,10 +3034,10 @@
     <foaf:fullname xml:lang="ru">Сидорчук Татьяна Александровна</foaf:fullname>
     <foaf:name>Tatjana Sidorchuk</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sidoretz_A">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sidorec_A">
     <foaf:affil>Cognizant, Switzerland</foaf:affil>
     <foaf:fullname xml:lang="ru">Сидорецс Алекс</foaf:fullname>
-    <foaf:name>Alex Sidoretz</foaf:name>
+    <foaf:name>Alex Sidorec</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sidorovitch_D">
     <foaf:name>Dimitri Sidorovitch</foaf:name>

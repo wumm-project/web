@@ -9,7 +9,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2021.rdf"/>
-    <rdfs:label>Business TRIZ Online Autumn 2021</rdfs:label>
+    <rdfs:label>Business TRIZ Online Fall 2021</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtstart>
     <ical:location>Online</ical:location>
