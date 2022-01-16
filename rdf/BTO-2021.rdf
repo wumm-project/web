@@ -10,8 +10,9 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/BTO-2021/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/General">
+    <od:theVideos rdf:resource="https://youtube.com/playlist?list=PLFgocOPCN0yeQRXSl3E4jSYwMBBnM87g"/>
     <rdfs:comment>Presentations of the Business TRIZ Online Fall 2021</rdfs:comment>
-    <rdfs:label>Business TRIZ Online Autumn 2021</rdfs:label>
+    <rdfs:label>Business TRIZ Online Fall 2021</rdfs:label>
     <ical:description xml:lang="en">One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
 
 Technology and tools for systems innovation thinking based on TRIZ - Theory of Inventive Problem Solving - are now being actively implemented in various organisations around the world. Originally developed to support technical innovation and used by many global companies, TRIZ has found application in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
@@ -29,42 +30,50 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_100">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=6r9ecJtHHfk"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title xml:lang="en">Opening. Business TRIZ: current state and development prospects.</dcterms:title>
     <dcterms:title xml:lang="ru">Открытие. Бизнес-ТРИЗ: современное состояние и перспективы развития.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_101">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=YjNE_83DErY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
     <dcterms:title xml:lang="en">Conducting strategic sessions using TRIZ tools</dcterms:title>
     <dcterms:title xml:lang="ru">Проведение стратегических сессий с применением инструментов ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_102">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=QaF3Py58W6E"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kustov_Y"/>
     <dcterms:title xml:lang="en">Sociocracy and TRIZ</dcterms:title>
     <dcterms:title xml:lang="ru">Социократия и ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_103">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=fwhfSNzmgk8"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
     <dcterms:title xml:lang="en">How to increase your podcast audience by a million people in just one month and no cost</dcterms:title>
     <dcterms:title xml:lang="ru">Как увеличить аудиторию подкаста на миллион человек всего за один месяц и без затрат</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_104">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=NL_hLsd4NBQ"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
     <dcterms:title xml:lang="en">Money as a source of contradictions</dcterms:title>
     <dcterms:title xml:lang="ru">Деньги как источник противоречий</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_105">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IKRSE0MhspE"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shapiro_A"/>
     <dcterms:title xml:lang="en">Product/Service growth tree as a strategic tool</dcterms:title>
     <dcterms:title xml:lang="ru">Дерево роста продукта/услуги как стратегический инструмент</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_106">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IICMVX-Hm5M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pravkin_D"/>
     <dcterms:title xml:lang="en">Application of IFR and resource approach to the task of finding and retaining specialists in a federal company.</dcterms:title>
     <dcterms:title xml:lang="ru">Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_107">
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=1Vy-ICuBuhs"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
@@ -72,26 +81,31 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     <dcterms:title xml:lang="ru">Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_108">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=1RLxF1HOebs"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
     <dcterms:title xml:lang="en">Business Model Navigator: How contradictions in products and business models arise and are eliminated</dcterms:title>
     <dcterms:title xml:lang="ru">Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_109">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=r3IXRZbjw-U"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sidorec_A"/>
     <dcterms:title xml:lang="en">TRIZ in Supply Chain Management. Basics</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ в Управлении Цепями Поставок. Основы</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_110">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=USZLGN1vhuo"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_NY"/>
     <dcterms:title xml:lang="en">TRIZ for managers: a methodology for making effective decisions. Implementation of TRIZ in the GAZ Group through training of leaders on use cases.</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ для руководителей: методика принятия эффективных решений (МПЭР). Внедрение ТРИЗ в Группе ГАЗ через обучение руководителей на примере кейсов.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_111">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=m8e2PVSfltI"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Redkolis_EV"/>
     <dcterms:title xml:lang="en">Practice of TRIZ application in non-industrial businesses</dcterms:title>
     <dcterms:title xml:lang="ru">Практика применения ТРИЗ в непромышленных бизнесах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_113">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=eKoc5_Zcj_o"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:title xml:lang="en">Results of Business TRIZ application in real projects</dcterms:title>
     <dcterms:title xml:lang="ru">Результаты применения Бизнес-ТРИЗ в реальных проектах</dcterms:title>

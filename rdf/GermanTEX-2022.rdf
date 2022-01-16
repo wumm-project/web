@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/General">
+    <rdfs:label>German TRIZ Experts Meeting 2022</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-14</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-13</ical:dtstart>
+    <ical:location>Sulzbach-Rosenberg, Germany</ical:location>
+    <ical:summary xml:lang="de">Das TRIZ-Expertentreffen wurde exklusiv für TRIZ-Ausgebildete geschaffen. Um an diesem Treffen teilnehmen zu können, sollten Sie zumindest eine Basisschulung besucht haben oder die TRIZ-Methoden schon erfolgreich auf eigene Problemstellungen angewendet haben. Am besten beides.</ical:summary>
+    <ical:summary xml:lang="en">The TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. Preferably both.</ical:summary>
+    <ical:summary xml:lang="ru">Встреча экспертов ТРИЗ специально обращается к ТРИЗ-стажерам. Чтобы принять участие в этой встрече, вы, по крайней мере, прош9ли базовый курс обучения или уже успешно применяли методы ТРИЗ к собственным проблемам. </ical:summary>
+    <ical:url rdf:resource="https://www.triz-consulting.de/angebote/triz-schulungen-kurse/triz-expertentreffen-2022/"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/Talk_100">
+    <dcterms:abstract xml:lang="de">Nachhaltigkeit ist das kommende MUSS für Unternehmen. Wir müssen in eine Circular Economy. Es gibt auch schon viele Tools, die zeigen, wie ein Nachhaltigkeitsstatement auf C-Level Ebene formuliert werden kann. Aber wie bekomme ich Nachhaltigkeit in ein Produkt designed? Hier kann die Funktionsanalyse von TRIZ helfen. In der Kombination mit PESTLE Feldern, lässt sich ein System zielgerichtet mit Nachhaltigkeit verbinden und dadurch konkrete Entwicklungsaufträge ableiten. </dcterms:abstract>
+    <dcterms:abstract xml:lang="en">Sustainability is the upcoming MUST for companies. We have to move into a circular economy. There are already many tools that show how a sustainability statement can be formulated at C-level. But how do I get sustainability designed in a product? Here TRIZ functional analysis  can help. In combination with PESTLE fields, a system can be connected with sustainability in a targeted manner and concrete development orders can be derived from this. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Направление на устойчивость в будущем является ОБЯЗАТЕЛЬНЫМ требованием для компаний. Мы должны перейти к экономике замкнутого цикла. Уже существует множество инструментов, которые показывают, как заявление об устойчивом развитии может быть выражено на уровне высшего руководства. Но как интегрировать устойчивость в разработку продуктa? Здесь может помочь функциональный анализ ТРИЗ. В сочетании с полями PESTLE система может быть связана с устойчивостью целенаправленным образом, и конкретные заказы на разработку могут быть получены из это.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaumann_U"/>
+    <dcterms:title xml:lang="en">TRIZ and Sustainability</dcterms:title>
+    <dcterms:title xml:lang="de">TRIZ und Nachhaltigkeit</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ и устойчивость</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/Talk_101">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wessner_J"/>
+    <dcterms:title xml:lang="de">Erweiterung der 9-Felder und Verknüpfung mit Ressourcen</dcterms:title>
+    <dcterms:title xml:lang="en">Expanding 9 fields and linking to resources</dcterms:title>
+    <dcterms:title xml:lang="ru">Расширение 9 полей и связь с ресурсами</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/Talk_102">
+    <dcterms:abstract xml:lang="en">Customer benefits: More yield, easier work and more time! Meeting the highest quality requirements by combining the functional analysis of TRIZ with an increase in process capability through Six Sigma. </dcterms:abstract>
+    <dcterms:abstract xml:lang="de">Kunden-Nutzen: Mehr Ertrag, einfachere Arbeit und mehr Zeit! Höchsten Qualitäts-Anforderungen gerecht werden durch die Kombination der Funktions-Analyse von TRIZ mit Steigerung der Prozessfähigkeit durch Six-Sigma. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Преимущества для клиентов: больше прибыли, более простая работа и больше времени! Удовлетворение самых высоких требований к качеству за счет сочетания функционального анализа ТРИЗ с повышением производительности процесса с помощью Six Sigm . </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hierl_R"/>
+    <dcterms:title xml:lang="en">Extreme Quality</dcterms:title>
+    <dcterms:title xml:lang="de">Extreme Qualität</dcterms:title>
+    <dcterms:title xml:lang="ru">Экстремальное качество</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/Talk_103">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerundt_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wagner_L"/>
+    <dcterms:title xml:lang="en">TRIZ trends for business model development</dcterms:title>
+    <dcterms:title xml:lang="de">TRIZ-Trends für Businessmodell-Entwicklung</dcterms:title>
+    <dcterms:title xml:lang="ru">Тренды ТРИЗ для разработки бизнес-моделей</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/Talk_104">
+    <dcterms:abstract xml:lang="en">Many "optimizers" face this exact equation, and often see the greatest leverage in reducing costs. This is also a tried and tested means to increase ideality (or "value" in value analysis). At the same time, market companions/competitors come and offer comparable benefits at unattainable prices. Two methods, cleverly combined with one another, could open up additional possibilities here.
+How can the DFMA and TRIZ methods be used in working groups? How can the two methods be used to complement each other? Which indicators are provided in the DFMA as a starting point for optimization? Which indicators are made available in TRIZ, whether and how to work with DFMA ...
+These and other questions will be discussed and answered in the presentation. </dcterms:abstract>
+    <dcterms:abstract xml:lang="de">Viele „Optimierer“ sehen sich vor genau dieser Gleichung, und sehen oft den größten Hebel in der Reduzierung der Kosten. Dies ist auch ein probates Mittel, um die Idealität (oder in der Wertanalyse den „Wert“) zu erhöhen. Gleichzeitig kommen Marktbegleiter/Wettbewerber und bieten vergleichbaren Nutzen zu unerreichbaren Preisen an. Zwei Methoden, geschickt miteinander kombiniert, könnten hierbei zusätzliche Möglichkeiten eröffnen.
+Wie können die DFMA- und die TRIZ Methode in Arbeitsgruppen angewendet werden? Wie können die beiden Methoden als Ergänzung zueinander eingesetzt werden? Welche Indikatoren werden in der DFMA als Ausgangspunkt für Optimierung geliefert? Welche Indikatoren werden in der TRIZ zur Verfügung gestellt, ob und wie mit DFMA zu arbeiten…
+Diese und weitere Fragen werden im Vortrag behandelt und beantwortet. </dcterms:abstract>
+    <dcterms:abstract xml:lang="ru">Многие "оптимизаторы" сталкиваются именно с этим уравнением и часто видят наибольший эффект в снижении затрат. Это также проверенный метод повышения идеальности (или «ценности» в стоимостном анализе). В то же время приходят компаньоны или конкуренты на рынок и предлагают сопоставимую выгоду по недостижимым ценам. Два метода, умело объединенные друг с другом, могут открыть здесь дополнительные возможности.
+Как можно использовать методы DFMA и ТРИЗ в рабочих группах? Как эти два метода могут быть использованы для дополнения друг друга? Какие индикаторы предусмотрены в DFMA в качестве отправной точки для оптимизации? Какие индикаторы используются в ТРИЗ, можно ли и как работать с DFMA ...
+Эти и другие вопросы будут обсудждены в презентации. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Haussmann_B"/>
+    <dcterms:title xml:lang="en">DFMA and TRIZ - Brothers in spirit ... - Possibilities and delimitation of the two methods</dcterms:title>
+    <dcterms:title xml:lang="de">DFMA und TRIZ – Brüder im Geiste… – Möglichkeiten und Abgrenzung der beiden Methoden</dcterms:title>
+    <dcterms:title xml:lang="ru">ДФМА и ТРИЗ - Братья по духу... - Возможности и разграничение двух методов</dcterms:title>
+  </od:Talk>
+</rdf:RDF>

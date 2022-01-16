@@ -28,7 +28,7 @@
     <foaf:name>Said Adima</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Adunka_R">
-    <foaf:affil>TRIZ Consulting Group, Germany</foaf:affil>
+    <foaf:affil>TRIZ Consulting Group, Sulzbach-Rosenberg, Germany</foaf:affil>
     <foaf:homepage rdf:resource="http://www.adunka.de/"/>
     <foaf:name>Robert Adunka</foaf:name>
   </foaf:Person>
@@ -955,6 +955,10 @@
     <foaf:fullname xml:lang="ru">Гершман Михаил Давидович</foaf:fullname>
     <foaf:name>Michael Gershman</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gerundt_O">
+    <foaf:affil>Bosch, Stuttgart, Germany</foaf:affil>
+    <foaf:name>Oliver Gerundt</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ghane_M">
     <foaf:name>Mostafa Ghane</foaf:name>
   </foaf:Person>
@@ -1009,6 +1013,7 @@
     <foaf:name>Hans-Gert Gräbe</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Graf_M">
+    <foaf:affil>Schubert Packaging, Crailsheim, Germany</foaf:affil>
     <foaf:name>Michael Graf</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gredynarov_I">
@@ -1124,8 +1129,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hasan_M">
     <foaf:name>Mohammad Hasan</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hausmann_B">
-    <foaf:name>Bernd Hausmann</foaf:name>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Haussmann_B">
+    <foaf:affil>Konzept:Werk, Ulm, Germany</foaf:affil>
+    <foaf:name>Bernd Haussmann</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/He_XZ">
     <foaf:affil>Harbin, PR China</foaf:affil>
@@ -1156,6 +1162,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Herrlich_M">
     <foaf:affil>Erfinder-Akademie, Leipzig, Germany</foaf:affil>
     <foaf:name>Michael Herrlich</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hierl_R">
+    <foaf:affil>Leadership Service, Freudenberg, Germany</foaf:affil>
+    <foaf:name>Robert Hierl</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hiltmann_K">
     <foaf:affil>Coburg University of Applied Sciences, Germany</foaf:affil>
@@ -2112,7 +2122,7 @@
     <foaf:name>Nikolai Maximov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mayer_O">
-    <foaf:affil>Bayern Innovativ, Germany</foaf:affil>
+    <foaf:affil>Bayern Innovativ, Nürnberg, Germany</foaf:affil>
     <foaf:name>Oliver Mayer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Maziri_A">
@@ -2418,6 +2428,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ouezgan_A">
     <foaf:name>Ahmed Ouezgan</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Paasche_N">
+    <foaf:affil>Mittweida, Germany</foaf:affil>
+    <foaf:name>Norman Paasche</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pai_T">
     <foaf:affil>Ming-Hsin University of Science and Technology, Taiwan</foaf:affil>
@@ -2752,6 +2766,10 @@
     <foaf:fullname xml:lang="ru">Рубина Наталия Викторовна</foaf:fullname>
     <foaf:name>Natalja Rubina</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ruck_J">
+    <foaf:affil>Linz, Austria</foaf:affil>
+    <foaf:name>Joachim Ruck</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rui_Z">
     <foaf:name>Zhang Rui</foaf:name>
   </foaf:Person>
@@ -2918,6 +2936,10 @@
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Северинец Георгий Анатольевич</foaf:fullname>
     <foaf:name>Georgi Severinets</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Seydlitz_T">
+    <foaf:affil>FH Westküste, Heide, Germany</foaf:affil>
+    <foaf:name>Thomas Seydlitz</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shahrul_K">
     <foaf:name>K. Shahrul</foaf:name>
@@ -3163,7 +3185,12 @@
     <foaf:homepage rdf:resource="https://www.facebook.com/valeri.souchkov"/>
     <foaf:name>Valeri V. Souchkov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spaeth_A">
+    <foaf:affil>FAU Erlangen, Germany</foaf:affil>
+    <foaf:name>Andreas Späth</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spasic_I">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:affil>Cardiff University, UK</foaf:affil>
     <foaf:name>Irena Spasić</foaf:name>
   </foaf:Person>
@@ -3454,6 +3481,10 @@
     <foaf:fullname xml:lang="ru">Волокитин Юрий Иванович</foaf:fullname>
     <foaf:name>Yuri I. Volotkin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wagner_L">
+    <foaf:affil>Bosch, Stuttgart, Geremany</foaf:affil>
+    <foaf:name>Luisa Wagner</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Waldman_MK">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>Michael K. Waldman</foaf:name>
@@ -3531,11 +3562,19 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Weigang_S">
     <foaf:name>Shi Weigang</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Weigert_S">
+    <foaf:affil>Oberhaching, Germany</foaf:affil>
+    <foaf:name>Siegfried Weigert</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wenxin_C">
     <foaf:name>Chen Wenxin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Werninghaus_E">
+    <foaf:affil>Kolbenschmidt, Heilbronn, Germany</foaf:affil>
+    <foaf:name>Edward Werninghaus</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wessner_J">
-    <foaf:affil>Gerlingen, Germany</foaf:affil>
+    <foaf:affil>Bosch, Gerlingen, Germany</foaf:affil>
     <foaf:name>Jochen Wessner</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/WiecekJanka_E">

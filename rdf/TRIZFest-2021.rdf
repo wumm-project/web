@@ -158,7 +158,7 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_121">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=A7PEU7PSlUc"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hausmann_B"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Haussmann_B"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Keiper_D"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaefer_T"/>
     <dcterms:title xml:lang="en">What TRIZ Tools Where Used in the Pre-TRIZ Age? - a Study of an Aircraft Engineering Project</dcterms:title>
