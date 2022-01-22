@@ -45,7 +45,6 @@
     <foaf:phone>(0562)-96-71-25</foaf:phone>
   </od:MATRIZMember>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_004">
-    <od:Verification>министерство юстиции РФ Управление юстиции СПб 12 апреля 1999 г. свидетельство №3350-ЮР</od:Verification>
     <od:createdAt>1999</od:createdAt>
     <od:hasChair xml:lang="ru">Кислов Александр Васильевич</od:hasChair>
     <od:hasMemberNumber>4</od:hasMemberNumber>
@@ -81,6 +80,7 @@
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_007">
     <od:address>GEN3 Partners, Ten Post Office Square 9th Floor, South Boston, MA 02109</od:address>
     <od:createdAt>2000</od:createdAt>
+    <od:hasChair>Simon Litvin</od:hasChair>
     <od:hasMemberNumber>7</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Boston, USA</od:location>
@@ -784,7 +784,6 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:hasMemberNumber>72</od:hasMemberNumber>
     <od:location>Brno, Czech Republic</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-    <rdfs:comment>No more active due to health reasons</rdfs:comment>
     <skos:prefLabel>TRIZing, Public Association</skos:prefLabel>
     <foaf:mbox>Busov@feec.vutbr.cz</foaf:mbox>
     <foaf:phone>+420 541 146 734</foaf:phone>
