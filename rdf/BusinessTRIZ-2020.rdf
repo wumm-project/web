@@ -79,7 +79,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/Talk_110">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=2UdgZTf9Keg"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
     <dcterms:title xml:lang="en">Objectives and ways to formulate contradictions in organizational and management tasks</dcterms:title>
     <dcterms:title xml:lang="ru">Цели и способы формулирования противоречий в организационно-управленческих задачах</dcterms:title>
   </od:Talk>

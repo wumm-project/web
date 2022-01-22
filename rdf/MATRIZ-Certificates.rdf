@@ -457,7 +457,7 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_26"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kozhemyako_A">
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kozhemyako_AP">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_120"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>

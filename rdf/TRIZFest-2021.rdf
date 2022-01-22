@@ -146,7 +146,7 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/Main"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=qQBH2SBCqtI"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
     <dcterms:title xml:lang="en">How To Hold Strategic Sessions Via TRIZ Tools</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Talk_120">

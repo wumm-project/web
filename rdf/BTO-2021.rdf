@@ -37,7 +37,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/Talk_101">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=YjNE_83DErY"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
     <dcterms:title xml:lang="en">Conducting strategic sessions using TRIZ tools</dcterms:title>
     <dcterms:title xml:lang="ru">Проведение стратегических сессий с применением инструментов ТРИЗ</dcterms:title>
   </od:Talk>

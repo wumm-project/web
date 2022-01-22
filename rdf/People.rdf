@@ -1649,9 +1649,9 @@
     <foaf:affil>Central Economics and Mathematics Institute RAS, Russia</foaf:affil>
     <foaf:name>Alexander Kostin</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozhemyako_A">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kozhemyako_AP">
     <foaf:affil>Business Association TRIZ, Russia</foaf:affil>
-    <foaf:fullname xml:lang="ru">Кожемяко Антон</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Кожемяко Антон Петрович</foaf:fullname>
     <foaf:homepage rdf:resource="http://batriz.ru/"/>
     <foaf:homepage rdf:resource="http://bmtriz.ru/"/>
     <foaf:name>Anton Kozhemyako</foaf:name>

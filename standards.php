@@ -14,10 +14,11 @@ function theStandards($input)
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/TheStandards/');
     $graph->parseFile($input);
     $a=array();
-    $res = $graph->allOfType('od:StandardSolution');
+    $res = $graph->allOfType('od:StandardSolutionx');
     foreach ($res as $concept) {
         $uri=str_replace('http://opendiscovery.org/rdf/Standard/','',$concept->getURI());
         $out="<h3> Standard Solution ".$uri."</h3>";
+        echo $concept->get("skos:prefLabel");
         $out.="<p>".showLanguage($concept->all("skos:prefLabel"),"<br/>")."</p>";
         if ($concept->all("skos:broader")) {
             $noout.="<p> Belongs to Class "

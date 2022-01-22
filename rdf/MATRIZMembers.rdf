@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_001">
+    <od:address xml:lang="ru">г. Петрозаводск, а/я 134</od:address>
+    <od:createdAt>1999</od:createdAt>
+    <od:hasMemberNumber>1</od:hasMemberNumber>
+    <od:location>Petrozavodsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">ООО «ТРИЗ Карелия»</rdfs:label>
+    <foaf:mbox>selioutski@psu.karelia.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Селюцкий Александр Борисович</foaf:name>
+    <foaf:phone>7-(814-2)-767-641185031</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_002">
+    <od:address xml:lang="ru">630049 Новосибирск-49, а/я 463</od:address>
+    <od:createdAt>1999</od:createdAt>
+    <od:hasMemberNumber>2</od:hasMemberNumber>
+    <od:location>Novosibirsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">НГОО «Ключевые технологии»</rdfs:label>
+    <foaf:mbox>trizdiol@mail.ru</foaf:mbox>
+    <foaf:mbox>viss@online.nsk.su</foaf:mbox>
+    <foaf:name xml:lang="ru">Сибиряков Виссарион Григорьевич</foaf:name>
+    <foaf:phone>(383-2)-256058</foaf:phone>
+    <foaf:phone>(3832)-25-60-58</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_003">
+    <od:address xml:lang="ru">49080, Украина, Днепропетровск, ул. Донское шоссе, 3 кв. 97</od:address>
+    <od:createdAt>1999</od:createdAt>
+    <od:hasMemberNumber>3</od:hasMemberNumber>
+    <od:location>Dnepropetrovsk, Ukraina</od:location>
+    <rdfs:label xml:lang="ru">ОО «ДнепроТРИЗ»</rdfs:label>
+    <foaf:mbox>dn_triz@ukr.net</foaf:mbox>
+    <foaf:mbox>ocntt@a-teleport.com</foaf:mbox>
+    <foaf:name xml:lang="ru">Резник Николай Антонович</foaf:name>
+    <foaf:phone>(0562)-96-71-25</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_004">
+    <od:Verification>министерство юстиции РФ Управление юстиции СПб 12 апреля 1999 г. свидетельство №3350-ЮР</od:Verification>
+    <od:createdAt>1999</od:createdAt>
+    <od:hasMemberNumber>4</od:hasMemberNumber>
+    <od:location>St. Petersburg, Russia</od:location>
+    <rdfs:label xml:lang="ru">РОО «ТРИЗ-Петербург»</rdfs:label>
+    <foaf:homepage>http://www.triz-spb.ru/</foaf:homepage>
+    <foaf:mbox>av_kislov@mail.ru</foaf:mbox>
+    <foaf:mbox>kptriz@mail.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Кислов Александр Васильевич</foaf:name>
+    <foaf:phone>8-(812)-316-37-49</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_005">
+    <od:address xml:lang="ru">140160 г. Жуковский, МО, а/я 272</od:address>
+    <od:createdAt>1999</od:createdAt>
+    <od:hasMemberNumber>5</od:hasMemberNumber>
+    <od:location>Shukovsky, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «Восхождение»</rdfs:label>
+    <foaf:mbox>marat@zhukovskiy.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Гафитулин Марат Семенович</foaf:name>
+    <foaf:phone>(09648)-31020</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_006">
+    <od:createdAt>2000</od:createdAt>
+    <od:hasMemberNumber>6</od:hasMemberNumber>
+    <od:location>Gomel, Belarus</od:location>
+    <rdfs:label xml:lang="ru">«БелООТРИЗ»</rdfs:label>
+    <foaf:homepage>http://www.trizland.ru/</foaf:homepage>
+    <foaf:mbox>tim@trizland.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Тимохов Виктор Иванович</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_007">
+    <od:address>GEN3 Partners, Ten Post Office Square 9th Floor, South Boston, MA 02109</od:address>
+    <od:createdAt>2000</od:createdAt>
+    <od:hasMemberNumber>7</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Boston, USA</od:location>
+    <rdfs:label>New England TRIZ Organization</rdfs:label>
+    <foaf:homepage>http://www.GEN3Partners.com</foaf:homepage>
+    <foaf:mbox>slitvin@gen-triz.com</foaf:mbox>
+    <foaf:phone>1 (617) 728-7011</foaf:phone>
+    <foaf:phone>1 (617) 728-7500</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_008">
+    <od:address xml:lang="ru">663305, г. Норильск, ул. Талнахская д.6, кв. 8</od:address>
+    <od:createdAt>2000</od:createdAt>
+    <od:hasMemberNumber>8</od:hasMemberNumber>
+    <od:location>Norilsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ - Норильск»</rdfs:label>
+    <foaf:mbox>m4852@norcom.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Шустерман Михаил Наумович</foaf:name>
+    <foaf:phone>(3919)-410-028</foaf:phone>
+    <foaf:phone>(3919)-42-91-12</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_009">
+    <od:address>6/4 Klauzner St. Raanana 43367 Israel</od:address>
+    <od:createdAt>2000</od:createdAt>
+    <od:hasMemberNumber>9</od:hasMemberNumber>
+    <od:location>Tel Aviv, Israel</od:location>
+    <rdfs:label xml:lang="ru">Ассоциация ТРИЗ Израиля «АТИ»</rdfs:label>
+    <foaf:mbox>ATrI@bigfoot.com</foaf:mbox>
+    <foaf:mbox>vladpetr@netvision.net.il</foaf:mbox>
+    <foaf:name xml:lang="ru">Петров Владимир Михайлович</foaf:name>
+    <foaf:phone>+972-(0)9-7481667</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_010">
+    <od:address xml:lang="ru">Дмитриев Сергея Анатольевич. 660037, г. Красноярск, ул. Мичурина 7-10</od:address>
+    <od:createdAt>2000</od:createdAt>
+    <od:hasMemberNumber>10</od:hasMemberNumber>
+    <od:location>Krasnoyarsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ-Красноярск»</rdfs:label>
+    <foaf:mbox>ysal@siberianet.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Саламатов Юрий Петрович</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_011">
+    <od:address xml:lang="ru">173023, Великий Новгород, ул. Зелинского, 22/1-7</od:address>
+    <od:createdAt>2001</od:createdAt>
+    <od:hasMemberNumber>11</od:hasMemberNumber>
+    <od:location>Velikij Novgorod, Russia</od:location>
+    <rdfs:label xml:lang="ru">«НООО ТРИЗ»</rdfs:label>
+    <foaf:mbox>irand@mail.natm.ru</foaf:mbox>
+    <foaf:mbox>tamberg@novgorod.net</foaf:mbox>
+    <foaf:name xml:lang="ru">Тамберг Юрий Гергардович</foaf:name>
+    <foaf:phone>(8-81622)-20261</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_012">
+    <od:address xml:lang="ru">428015, Россия, Чувашия, Чебоксары-15, А.я. 16, Михайлову В.А.</od:address>
+    <od:createdAt>2001</od:createdAt>
+    <od:hasMemberNumber>12</od:hasMemberNumber>
+    <od:location>Cheboksary, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ Чебоксары»</rdfs:label>
+    <foaf:mbox>mikhailov30@mail.ru</foaf:mbox>
+    <foaf:mbox>mikhilov@chuvsu.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Михайлов Валерий Алексеевич</foaf:name>
+    <foaf:phone>(8352)-25-93-23</foaf:phone>
+    <foaf:phone>(8352)-30-57-22</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_013">
+    <od:address xml:lang="ru">LV-3001 Латвия, г. Елгава, ул. Паста 34-68</od:address>
+    <od:createdAt>2001</od:createdAt>
+    <od:hasMemberNumber>13</od:hasMemberNumber>
+    <od:location>Jelgava, Latvia</od:location>
+    <rdfs:label xml:lang="ru">ОО «Альтернатива»</rdfs:label>
+    <foaf:mbox>julijsmur@inbox.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Мурашковский Юлий Самойлович</foaf:name>
+    <foaf:phone>(30)-24966</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_014">
+    <od:address>394077, г. Воронеж, а/я 72</od:address>
+    <od:createdAt>2001</od:createdAt>
+    <od:hasMemberNumber>14</od:hasMemberNumber>
+    <od:location>Voronesh, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО при ТРИЗ Тренинг Центр «ОО ТТЦ»</rdfs:label>
+    <foaf:mbox>master@triztc.vrn.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Белильцев Валерий Константинович</foaf:name>
+    <foaf:phone>(8-0732)-73-77-68</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_015">
+    <od:createdAt>2001</od:createdAt>
+    <od:hasMemberNumber>15</od:hasMemberNumber>
+    <od:location>Detroit, USA</od:location>
+    <rdfs:label>Ideation TRIZ Research Lab (ITRL) of International TRIZ Association</rdfs:label>
+    <foaf:homepage>http://www.ideationtriz.com</foaf:homepage>
+    <foaf:mbox>bzlotin@ideationtriz.com</foaf:mbox>
+    <foaf:name xml:lang="ru">Злотин Борис Львович</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_016">
+    <od:address xml:lang="ru">Москва 115142, ул. Затонная д.10,к.1, кв.14</od:address>
+    <od:createdAt>2002</od:createdAt>
+    <od:hasMemberNumber>16</od:hasMemberNumber>
+    <od:location>Moscow, Russia</od:location>
+    <rdfs:label xml:lang="ru">«Московская ОО ТРИЗ»</rdfs:label>
+    <foaf:mbox>bubenzow@yandex.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Бубенцов Владимир Юрьевич</foaf:name>
+    <foaf:phone>8-499-616-60-21</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_017">
+    <od:createdAt>2002</od:createdAt>
+    <od:hasMemberNumber>17</od:hasMemberNumber>
+    <od:location>Paris, France</od:location>
+    <rdfs:label>TRIZ-France</rdfs:label>
+    <foaf:homepage>http://www.triz-ensais.com</foaf:homepage>
+    <foaf:mbox>denis.cavallucci@ensais.u-strasbg.fr</foaf:mbox>
+    <foaf:mbox>ghislain.grevy@ema.fr</foaf:mbox>
+    <foaf:name>Grevy Ghislain</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_018">
+    <od:address xml:lang="ru">320635 Украина, Днепропетровск, пр. Гагарина 4</od:address>
+    <od:createdAt>2002</od:createdAt>
+    <od:hasMemberNumber>18</od:hasMemberNumber>
+    <od:location>Dnepropetrovsk, Ukraina</od:location>
+    <rdfs:label xml:lang="ru">Украинский Центр ТРИЗ общественное объединение «ОО УЦТРИЗ»</rdfs:label>
+    <foaf:mbox>dmeti@dmeti.dp.ua</foaf:mbox>
+    <foaf:name xml:lang="ru">Пигоров Георгий Семенович</foaf:name>
+    <foaf:phone>(0562)-410028</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_019">
+    <od:address xml:lang="ru">109289, Москва, ул. Автозаводская, 16</od:address>
+    <od:createdAt>2002</od:createdAt>
+    <od:hasMemberNumber>19</od:hasMemberNumber>
+    <od:location>Moscow, Russia</od:location>
+    <rdfs:label xml:lang="ru">ООО «ТРИЗ МНОЦИТ МГИУ»</rdfs:label>
+    <foaf:mbox>mkc@msiu.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Зиновкина Милослава Михайловна</foaf:name>
+    <foaf:phone>(095)-312-10-26</foaf:phone>
+  </od:MATRIZMember>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/MATRIZMember_020">
+    <od:hasMemberNumber>20</od:hasMemberNumber>
+    <rdfs:comment>Left MATRIZ by own decision 01.06.2008</rdfs:comment>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ-педагогика Украины»</rdfs:label>
+  </rdf:Description>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_021">
+    <od:address xml:lang="ru">432045 г. Ульяновск, ул. Рябикова. д. 38А</od:address>
+    <od:createdAt>2003</od:createdAt>
+    <od:hasMemberNumber>21</od:hasMemberNumber>
+    <od:location>Ulyanovsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «Волга ТРИЗ»</rdfs:label>
+    <foaf:mbox>sid@sid.ul.ru</foaf:mbox>
+    <foaf:mbox>sidlj@mv.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Гуткович Ирина Яковлевна</foaf:name>
+    <foaf:phone>(8422)-61-29-59</foaf:phone>
+    <foaf:phone>(8422)-63-07-01</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_022">
+    <od:address xml:lang="ru">443087 г. Самара, пр.Кирова, д.240, кв.24</od:address>
+    <od:createdAt>2003</od:createdAt>
+    <od:hasMemberNumber>22</od:hasMemberNumber>
+    <od:location>Samara, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ Самара»</rdfs:label>
+    <foaf:mbox>shrh567@yandex.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Шарипов Рашид Хамзович</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_023">
+    <od:address>Mustamae-tee 141-46 Estonia, Tallinn</od:address>
+    <od:createdAt>2003</od:createdAt>
+    <od:hasMemberNumber>23</od:hasMemberNumber>
+    <od:location>Tallinn, Estonia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ Таллин»</rdfs:label>
+    <foaf:mbox>ecsd@stv.ee</foaf:mbox>
+    <foaf:name>Mark Luchin</foaf:name>
+    <foaf:phone>(372) 6543001</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_024">
+    <od:address xml:lang="ru">634034 г. Томск, ул. Пирогова, 19-19</od:address>
+    <od:createdAt>2003</od:createdAt>
+    <od:hasMemberNumber>24</od:hasMemberNumber>
+    <od:location>Tomsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ Томск»</rdfs:label>
+    <foaf:mbox>kpf@ct.ectpu.edu.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Коробко Петр Федорович</foaf:name>
+    <foaf:phone>(83822) 410-372</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_025">
+    <od:address xml:lang="ru">690065, Приморский край, г. Владивосток-65, ул. Стрельникова, д.12 кв.29</od:address>
+    <od:createdAt>2003</od:createdAt>
+    <od:hasMemberNumber>25</od:hasMemberNumber>
+    <od:location>Vladivostok, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ Владивосток»</rdfs:label>
+    <foaf:mbox>alimar@mail.primorye.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Лимаренко Анатолий Васильевич</foaf:name>
+  </od:MATRIZMember>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/MATRIZMember_026">
+    <od:hasMemberNumber>26</od:hasMemberNumber>
+    <rdfs:comment>Is not a member</rdfs:comment>
+    <rdfs:label>European TRIZ Association (ETRIA)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/MATRIZMember_027">
+    <od:hasMemberNumber>27</od:hasMemberNumber>
+    <rdfs:comment>Organisation left MATRIZ by own decision 10.09.2008</rdfs:comment>
+    <rdfs:label>COMCON*TRIZ</rdfs:label>
+  </rdf:Description>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_028">
+    <od:createdAt>2003</od:createdAt>
+    <od:hasMemberNumber>28</od:hasMemberNumber>
+    <od:location>Saratov, Russia</od:location>
+    <rdfs:label xml:lang="ru">СГОБО «Исток»</rdfs:label>
+    <foaf:mbox>vicsasha@rol.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Ширяева Виктория Александровна</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_029">
+    <od:createdAt>2004</od:createdAt>
+    <od:hasMemberNumber>29</od:hasMemberNumber>
+    <od:location>Lima, Peru</od:location>
+    <rdfs:label>«TRIZ LATINOAMERICA</rdfs:label>
+    <foaf:mbox>e_cieza@yahoo.com</foaf:mbox>
+    <foaf:name>Eduardo Cieza de Leon</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_030">
+    <od:address>VIP Center Samsung Electronics 129
+	 Samsung-ro Yeongtong-gu Suwon-si Gyeonggi-do Korea</od:address>
+    <od:createdAt>2004</od:createdAt>
+    <od:hasMemberNumber>30</od:hasMemberNumber>
+    <od:location>Suwon, South Korea</od:location>
+    <rdfs:label>Samsung TRIZ Association (STA)</rdfs:label>
+    <foaf:mbox>bang@samsung.com</foaf:mbox>
+    <foaf:mbox>trizlee@daum.net</foaf:mbox>
+    <foaf:name>Jun-Young Lee</foaf:name>
+    <foaf:phone>82-10-2408-6047</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_031">
+    <od:address>#502 Iroom-bldg,  7,
+	 Hakdong-ro 33-gil, Gangnam-gu, Seoul, 135- 010,
+	 Republic of Korea</od:address>
+    <od:createdAt>2004</od:createdAt>
+    <od:hasMemberNumber>31</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>The Korea TRIZ Association</rdfs:label>
+    <foaf:mbox>prettymike@naver.com</foaf:mbox>
+    <foaf:name>Kim, Mansoo</foaf:name>
+    <foaf:phone>+82-2-3442-5526</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_032">
+    <od:address>#100 Kalsan Ri, Tangjeong Myon, Asan Si, Choong Nam, 336-708, Rep. of Korea</od:address>
+    <od:createdAt>2004</od:createdAt>
+    <od:hasMemberNumber>32</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>NFTM-TRIZ Sunmoon University</rdfs:label>
+    <foaf:mbox>khj@sunmoon.ac.kr</foaf:mbox>
+    <foaf:name>Hyun-Jong, Kwon</foaf:name>
+    <foaf:phone>82-41-530-2831</foaf:phone>
+    <foaf:phone>82-41-541-8604</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_033">
+    <od:address xml:lang="ru">681013, г. Комсомольск на Амуре, пр. Ленина, 27</od:address>
+    <od:createdAt>2004</od:createdAt>
+    <od:hasMemberNumber>33</od:hasMemberNumber>
+    <od:location>Komsomolsk on Amur, Russia</od:location>
+    <rdfs:label xml:lang="ru">«ТРИЗ Амур»</rdfs:label>
+    <foaf:mbox>ktriz@knastu.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">В.Д. Бердоносов</foaf:name>
+    <foaf:phone>(42172)-3-52-59</foaf:phone>
+    <foaf:phone>(42172)-4-68-54</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_034">
+    <od:address>
+Chair of The Professional Society of TRIZ Korea
+215 Industry-University Cooperation Center, AJOU University,
+Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
+    <od:createdAt>03.2005</od:createdAt>
+    <od:hasMemberNumber>34</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>The Professional Society of TRIZ Korea (TRIZ Korea)</rdfs:label>
+    <foaf:mbox>marino@triz.co.kr</foaf:mbox>
+    <foaf:name>Youngil Kim</foaf:name>
+    <foaf:phone>+82.31.214.1740</foaf:phone>
+    <foaf:phone>+82.31.217.1746</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_035">
+    <od:createdAt>03.2005</od:createdAt>
+    <od:hasMemberNumber>35</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>TRIZ Association at SDI</rdfs:label>
+    <foaf:mbox>bdsuh@samsung.co.kr</foaf:mbox>
+    <foaf:mbox>bdsuh@samsung.com</foaf:mbox>
+    <foaf:name>Suh, Byung-Do</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_036">
+    <od:createdAt>03.2006</od:createdAt>
+    <od:hasMemberNumber>36</od:hasMemberNumber>
+    <od:location>Rome, Italy</od:location>
+    <rdfs:label>Apeiron the Italian TRIZ Association</rdfs:label>
+    <foaf:mbox>cascini@ing.unifi.it</foaf:mbox>
+    <foaf:mbox>gaetano.cascini@unifi.it</foaf:mbox>
+    <foaf:name>Gaetano Cascini</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_037">
+    <od:address>LS Cable Co., Ltd. 555, Hogye-dong, Dongan-gu, Anyang-si, Kyungki-do, 431-080, Republic of Korea</od:address>
+    <od:createdAt>03.2006</od:createdAt>
+    <od:hasMemberNumber>37</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>LS-LG TRIZ Association, the Korean Public TRIZ Organization</rdfs:label>
+    <foaf:mbox>ischoi@lscable.com</foaf:mbox>
+    <foaf:name>In-Sik Choi</foaf:name>
+    <foaf:phone>+82.31.450.8290</foaf:phone>
+    <foaf:phone>+82.31.450.8331</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_038">
+    <od:createdAt>03.2007</od:createdAt>
+    <od:hasMemberNumber>38</od:hasMemberNumber>
+    <od:location>Angarsk, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «Ангарск ТРИЗ»</rdfs:label>
+    <foaf:mbox>aleksey_3802@mail.ru</foaf:mbox>
+    <foaf:mbox>ivano@irmail.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Игнатьева Альбина Георгиевна</foaf:name>
+    <foaf:phone>(3951) 51-21-47</foaf:phone>
+    <foaf:phone>(3951) 67-25-58</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_039">
+    <od:address xml:lang="ru">119019, г. Москва, ул. Знаменка, д. 13, стр. 1, офис 15.</od:address>
+    <od:createdAt>03.2007</od:createdAt>
+    <od:hasMemberNumber>39</od:hasMemberNumber>
+    <od:location>Moscow, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ-профи»</rdfs:label>
+    <foaf:mbox>tim@trizland.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Тимохов Виктор Иванович</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_040">
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>40</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Boston, USA</od:location>
+    <rdfs:label>Intel Corporate TRIZ Chapter</rdfs:label>
+    <foaf:mbox>vendetta.s.holz@intel.com</foaf:mbox>
+    <foaf:name>Vendetta Holtz</foaf:name>
+    <foaf:phone>972-8-6666968</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_041">
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>41</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Vienna, Austria</od:location>
+    <rdfs:label>TRIZ Campus</rdfs:label>
+    <foaf:mbox>j.fresner@stenum.at</foaf:mbox>
+    <foaf:name>J. Fresner</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_042">
+    <od:address xml:lang="ru">445057, Самарская обл., г.Тольятти, ул.Юбилейная, 73-109</od:address>
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>42</od:hasMemberNumber>
+    <od:location>Togliatti, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ - Тольятти»</rdfs:label>
+    <foaf:mbox>triz@bk.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Абрамкина Олеся Юрьевна</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_043">
+    <od:address>TRIZ4U, PO Box 12775, Melbourne Victoria 8006, Australia</od:address>
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>43</od:hasMemberNumber>
+    <od:location>Melbourne, Australia</od:location>
+    <rdfs:label>Asia-Pacific TRIZ Association (APTA)</rdfs:label>
+    <foaf:mbox>Iouri.belski@triz4u.com</foaf:mbox>
+    <foaf:name>Iouri Belski</foaf:name>
+    <foaf:phone>613 9467 4424</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_044">
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>44</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Beijing, PR China</od:location>
+    <rdfs:label>Innovation Technology Institute</rdfs:label>
+    <foaf:mbox>alp.lin@iwintall.com</foaf:mbox>
+    <foaf:name>Yue Lin</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_045">
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>45</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>My Guru Tao-TRIZ Association</rdfs:label>
+    <foaf:mbox>davidlee@myguru.co.kr</foaf:mbox>
+    <foaf:name>Myoung Soo Han</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_046">
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>46</od:hasMemberNumber>
+    <od:location>Boston,  USA</od:location>
+    <rdfs:label>Iowa TRIZ Association</rdfs:label>
+    <foaf:name>Timothy P. Schweizer</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_047">
+    <od:address>#511 TIP, Korea Polytechnic University, Jeongwang-Dong, Siheung-City, Kyungki Province, Korea Post code:429-793</od:address>
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>47</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>TRIZ Design Innovation Center</rdfs:label>
+    <foaf:mbox>lkw@kpu.ac.kr</foaf:mbox>
+    <foaf:name>Lee Kyung Won</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_048">
+    <od:address>Via Enrico Fermi 134, 36100 Vicenza, Italia</od:address>
+    <od:address>с/o C.C.I.A.A. Vicenza. Corso Fogazzaro 37, 36100 Vicenza, Italia</od:address>
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>48</od:hasMemberNumber>
+    <od:location>Vicenza, Italy</od:location>
+    <rdfs:label>Fondazione Giacomo Rumor Centro Producttivià Veneto (FGR CPV)</rdfs:label>
+    <foaf:homepage>http://www.cpv.org/</foaf:homepage>
+    <foaf:mbox>info@cpv.org</foaf:mbox>
+    <foaf:name xml:lang="ru">Дмитрий Вульфсон</foaf:name>
+    <foaf:phone>39 0444 994 700</foaf:phone>
+    <foaf:phone>39 0444 994 710</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_049">
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>49</od:hasMemberNumber>
+    <od:location>Stary Oskol, Russia</od:location>
+    <rdfs:label xml:lang="ru">ОО «ТРИЗ-Оскол»</rdfs:label>
+    <foaf:mbox>boranshe@front.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Шевченко Борис Андреевич</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_050">
+    <od:address>261 East Vinedo Lane, Tempe, Arizona, 85284</od:address>
+    <od:createdAt>03.2008</od:createdAt>
+    <od:hasMemberNumber>50</od:hasMemberNumber>
+    <od:location>Tempe, USA</od:location>
+    <rdfs:label>Arizona TRIZ Association</rdfs:label>
+    <foaf:mbox>camshie@cox.net</foaf:mbox>
+    <foaf:name>Gordon Cameron</foaf:name>
+    <foaf:phone>480-831-9903</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_051">
+    <od:createdAt>09.2008</od:createdAt>
+    <od:hasMemberNumber>51</od:hasMemberNumber>
+    <od:location>St. Petersburg, Russia</od:location>
+    <rdfs:label xml:lang="ru">Российская ассоциация ТРИЗ</rdfs:label>
+    <foaf:homepage>http://www.ratriz.ru</foaf:homepage>
+    <foaf:mbox>ratriz@mail.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Кислов Александр Васильевич</foaf:name>
+    <foaf:phone>(812) 316-3749</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_052">
+    <od:createdAt>09.2008</od:createdAt>
+    <od:hasMemberNumber>52</od:hasMemberNumber>
+    <od:location>South Korea</od:location>
+    <rdfs:label>“Hynix TRIZ Creativity Center” (Hynix-TCC)</rdfs:label>
+    <foaf:homepage>http://www.hynix.com</foaf:homepage>
+    <foaf:mbox>jeongseon.kim@hynix.com</foaf:mbox>
+    <foaf:name>JeongSeon Kim</foaf:name>
+    <foaf:phone>+82-016-359-1229</foaf:phone>
+    <foaf:phone>+82-31-639-0644</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_053">
+    <od:address>Shree Phadnis, BLD#1/34, Vijay Enclave, Ghodbundar Road, Opp Dalal Engg, Thane (W), 400601 India</od:address>
+    <od:createdAt>06.2009</od:createdAt>
+    <od:hasMemberNumber>53</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>New Delhi, India</od:location>
+    <rdfs:label>TRIZ ASSOCIATION OF ASIA (TAA)</rdfs:label>
+    <foaf:mbox>shreephadnis@usa.net</foaf:mbox>
+    <foaf:name>Shree Phadnis</foaf:name>
+    <foaf:phone>+91-22-65077453</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_054">
+    <od:createdAt>06.2009</od:createdAt>
+    <od:hasMemberNumber>54</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>St. Petersburg, Russia</od:location>
+    <rdfs:label>St. Petersburg Innovative Technology</rdfs:label>
+    <foaf:mbox>fedosov@matriz.org</foaf:mbox>
+    <foaf:name xml:lang="ru">Федосов Ю.И</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_055">
+    <od:address>6th Fl., # 352, Sec. 2, Kuan-Fu Rd Hsinchu, Taiwan, R.O.C. 300</od:address>
+    <od:createdAt>06.2009</od:createdAt>
+    <od:hasMemberNumber>55</od:hasMemberNumber>
+    <od:location>Taiwan</od:location>
+    <rdfs:label>The Society of Systematic Innovation</rdfs:label>
+    <foaf:mbox>dsheu@systematic-innovation.org</foaf:mbox>
+    <foaf:mbox>sheu.daniel@gmail.com</foaf:mbox>
+    <foaf:name>D. Daniel Sheu</foaf:name>
+    <foaf:phone>+886-572-3200 x 11</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_056">
+    <od:address>Orion Syswork Inc.
+4F. Asia Bldg. 11-2 Jamwon-dong,
+Seocho-gu, Seoul, Korea</od:address>
+    <od:createdAt>06.2009</od:createdAt>
+    <od:hasMemberNumber>56</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>PTA - Posco TRIZ Association</rdfs:label>
+    <foaf:mbox>prettymike@paran.com</foaf:mbox>
+    <foaf:name>Hee-Choon Lee</foaf:name>
+    <foaf:phone>82-11-9029-3701</foaf:phone>
+    <foaf:phone>82-2-3472-9001</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_057">
+    <od:createdAt>09.2009</od:createdAt>
+    <od:hasMemberNumber>57</od:hasMemberNumber>
+    <od:location>Moscow,  Russia</od:location>
+    <rdfs:label xml:lang="ru">Ассоциация центров решения проблем</rdfs:label>
+    <foaf:mbox>metodolog1@yandex.ru</foaf:mbox>
+    <foaf:name xml:lang="ru">Кудрявцев Александр Владимирович</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_058">
+    <od:createdAt>09.2009</od:createdAt>
+    <od:hasMemberNumber>58</od:hasMemberNumber>
+    <od:location>Taipei, Taiwan</od:location>
+    <rdfs:label>Taiwan TRIZ Association (TTA)</rdfs:label>
+    <foaf:mbox>eugene@triz.tw</foaf:mbox>
+    <foaf:name>Dr. D.Y. Sha</foaf:name>
+    <foaf:phone>886-02-2368-8882</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_059">
+    <od:createdAt>10.2010</od:createdAt>
+    <od:hasMemberNumber>59</od:hasMemberNumber>
+    <od:location>Heilongjiang, China</od:location>
+    <rdfs:label>Heilongjiang TRIZ Association</rdfs:label>
+    <foaf:mbox>hhkjqxj@gmail.com</foaf:mbox>
+    <foaf:name>Qin Xiaojian</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_060">
+    <od:createdAt>02.2011</od:createdAt>
+    <od:hasMemberNumber>60</od:hasMemberNumber>
+    <od:location>Seoul, Korea</od:location>
+    <rdfs:label>KMAC TRIZ Association</rdfs:label>
+    <foaf:mbox>jjclub8281@kmac.co.kr</foaf:mbox>
+    <foaf:name>Kim Jong-Lib</foaf:name>
+    <foaf:phone>82-2-3786-0345</foaf:phone>
+    <foaf:phone>82-2-3786-0472</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_061">
+    <od:address>KSA, 13th Floor, Ace-highend tower 3rd, 371-50, Gasan-dong, Geumcheon-gu, Seoul, South Korea</od:address>
+    <od:createdAt>05.2011</od:createdAt>
+    <od:hasMemberNumber>61</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>Korean Standards Association (KSA)</rdfs:label>
+    <foaf:homepage>http://www.ksa.or.kr</foaf:homepage>
+    <foaf:mbox>m@ksa.or.kr</foaf:mbox>
+    <foaf:name>Changryong Kim</foaf:name>
+    <foaf:phone>(82)-2-2624-0180~5</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_062">
+    <od:address>Samhwan Hipex A-601, 240, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</od:address>
+    <od:createdAt>07.2011</od:createdAt>
+    <od:hasMemberNumber>62</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Seongnam, South Korea</od:location>
+    <rdfs:label>Product Development Management Association-Korea (PDMA-Korea)</rdfs:label>
+    <foaf:mbox>mbdhsoo@gmail.com</foaf:mbox>
+    <foaf:name>Minsoo Shin</foaf:name>
+    <foaf:phone>(82) 02-562-1552</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_063">
+    <od:address>Block D1B, Flat 19C, DDA Flats, Opp. Pankha Road, Janakpuri, New Delhi - 110058 India</od:address>
+    <od:createdAt>09.2011</od:createdAt>
+    <od:hasMemberNumber>63</od:hasMemberNumber>
+    <od:location>New Delhi, India</od:location>
+    <rdfs:label>TRIZ Asia Forum</rdfs:label>
+    <foaf:mbox>adityabhalla@yahoo.com</foaf:mbox>
+    <foaf:name>Aditya Bhalla</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_064">
+    <od:address>20, Jalan USJ 11/1B, Subang Jaya 47620 langor, Malaysia</od:address>
+    <od:createdAt>12.2011</od:createdAt>
+    <od:hasMemberNumber>64</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Selangor, Malaysia</od:location>
+    <rdfs:label>Malaysia TRIZ Innovation Association</rdfs:label>
+    <foaf:mbox>tsyeoh@yahoo.com</foaf:mbox>
+    <foaf:name>Dr. Teong San Yeoh</foaf:name>
+    <foaf:phone>+6012-4717120</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_065">
+    <od:address>PO Box 72094, Kowloon Central Post Office, Hong Kong</od:address>
+    <od:createdAt>02.2012</od:createdAt>
+    <od:hasMemberNumber>65</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Hong Kong, China </od:location>
+    <rdfs:label>Institute of Systematic Innovation - ISI-HK</rdfs:label>
+    <foaf:mbox>dwkwanhk@gmail.com</foaf:mbox>
+    <foaf:name>Dr. Victor Lo</foaf:name>
+    <foaf:phone>852-90147209</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_066">
+    <od:createdAt>03.2013</od:createdAt>
+    <od:hasMemberNumber>66</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Germany</od:location>
+    <rdfs:label>Siemens TRIZ Association SiTrA</rdfs:label>
+    <foaf:mbox>martin.kiesel@siemens.com</foaf:mbox>
+    <foaf:name>Martin Kiesel</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_067">
+    <od:address>Korea Polytechnic University P-208 2121, Jungwang-dong, Siheung-city, Gyeonggi-do, 423-793, Korea</od:address>
+    <od:createdAt>03.2013</od:createdAt>
+    <od:hasMemberNumber>67</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>South Korea</od:location>
+    <rdfs:label>TRIZ Innovation Institute (TII)</rdfs:label>
+    <foaf:mbox>ywsong82@gmail.com</foaf:mbox>
+    <foaf:name>Prof. Yong Won Song</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_068">
+    <od:address>GE Global Research, Freisinger Landstr. 50, 87548 Garching b. München, Germany</od:address>
+    <od:createdAt>03.2013</od:createdAt>
+    <od:hasMemberNumber>68</od:hasMemberNumber>
+    <od:location>Garching, Germany</od:location>
+    <rdfs:label>GETRA-M GE TRIZ Association Munich</rdfs:label>
+    <foaf:mbox>lynass@ge.com</foaf:mbox>
+    <foaf:name>Dr. Mark Lynass</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_069">
+    <od:address>#95 Samsung 2-ro, Giheung-gu, Youngin-City, Gyeonggi-Do, 446-711 South Korea</od:address>
+    <od:createdAt>03.2013</od:createdAt>
+    <od:hasMemberNumber>69</od:hasMemberNumber>
+    <od:location>South Korea</od:location>
+    <rdfs:label>Samsung Display TRIZ Association</rdfs:label>
+    <foaf:name>Tae Wook Kang</foaf:name>
+  </od:MATRIZMember>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/MATRIZMember_070">
+    <od:address>National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, China</od:address>
+    <od:createdAt>01.2014</od:createdAt>
+    <od:hasMemberNumber>70</od:hasMemberNumber>
+    <od:location>Beijing, China</od:location>
+    <rdfs:comment>Expelled in 2021, all gradings revoked</rdfs:comment>
+    <rdfs:label>China TRIZ Club</rdfs:label>
+    <foaf:mbox>matriz@matrizchina.cn</foaf:mbox>
+    <foaf:mbox>ywsun@yeah.net</foaf:mbox>
+    <foaf:name>Yongwei Sun</foaf:name>
+    <foaf:phone>+86-136-119-32321</foaf:phone>
+  </rdf:Description>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_071">
+    <od:address>Kofomo Tower 509, 16-3 Sunae-dong, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea, 463-825</od:address>
+    <od:createdAt>02.2014</od:createdAt>
+    <od:hasMemberNumber>71</od:hasMemberNumber>
+    <od:location>South Korea</od:location>
+    <rdfs:label>QM&amp;E TRIZ Consulting &amp; Education Center (TC&amp;EC)</rdfs:label>
+    <foaf:mbox>kjjung@gme.co.kr</foaf:mbox>
+    <foaf:name>Kyu Jin Jung</foaf:name>
+    <foaf:phone>+8210-394-01960</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_072">
+    <od:address>Technicka  10,  616  00  Brno, Czech Republic</od:address>
+    <od:createdAt>02.2014</od:createdAt>
+    <od:hasMemberNumber>72</od:hasMemberNumber>
+    <od:location>Brno, Czech Republic</od:location>
+    <rdfs:comment>No more active due to health reasons</rdfs:comment>
+    <rdfs:label>TRIZing, Public Association</rdfs:label>
+    <foaf:mbox>Busov@feec.vutbr.cz</foaf:mbox>
+    <foaf:name>Dr. Bohuslav Busov</foaf:name>
+    <foaf:phone>+420 541 146 734</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_073">
+    <od:address>Tacenska 125b 1000 Ljubljana Slovenia</od:address>
+    <od:createdAt>05.2014</od:createdAt>
+    <od:hasMemberNumber>73</od:hasMemberNumber>
+    <od:location>Ljubljana, Slovenia</od:location>
+    <rdfs:label>South East Europe TRIZ Association</rdfs:label>
+    <foaf:mbox>Matej.hohnjec@3zen.si</foaf:mbox>
+    <foaf:name>Matej Hohnjec</foaf:name>
+    <foaf:phone>+386 31 663 110</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_074">
+    <od:address>68/131SOI-NAWAMIN40, NAWAMIN ROAD, BUENGKUMDISTRICT, BANGKOK 10240, THAILAND</od:address>
+    <od:createdAt>09.2014</od:createdAt>
+    <od:hasMemberNumber>74</od:hasMemberNumber>
+    <od:location>Thailand</od:location>
+    <rdfs:label>TRIZ Institute Thailand</rdfs:label>
+    <foaf:mbox>TriZit@gmail.com</foaf:mbox>
+    <foaf:name>TriZit Benjaboonyazit</foaf:name>
+    <foaf:phone>+6685-955-3031</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_075">
+    <od:address xml:lang="ru">Украина, г. Запорожье,69091, ул.Нижнеднепровская, 4-а, Школа «ЭйдоС»</od:address>
+    <od:createdAt>10.2014</od:createdAt>
+    <od:hasMemberNumber>75</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Ukraina</od:location>
+    <rdfs:label>Ukrainian TRIZ Association</rdfs:label>
+    <foaf:mbox>gredinarova.eidos@gmail.com</foaf:mbox>
+    <foaf:name>Igor Gredynarov</foaf:name>
+    <foaf:phone>+38-061-220-02-13</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_076">
+    <od:address>Hanyang TRIZ Center, B102 HIT, 222 Wangsimni-ro, Seongdong-gu Seoul Korea (133-791)</od:address>
+    <od:createdAt>01.2015</od:createdAt>
+    <od:hasMemberNumber>76</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>HanYang TRIZ Center - HTC</rdfs:label>
+    <foaf:mbox>itriz@hanyang.ac.kr</foaf:mbox>
+    <foaf:name>Jinho Ahn</foaf:name>
+    <foaf:phone>+82-2-2220-2978</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_077">
+    <od:address>Suite A, 1310, East Hope Building, No.3 Gaopeng Road, Gaoxin District, Chengdu, P.R.C.</od:address>
+    <od:createdAt>01.2015</od:createdAt>
+    <od:hasMemberNumber>77</od:hasMemberNumber>
+    <od:location>Chengdu, China</od:location>
+    <rdfs:label>Global Engineering Technology Group, GET Group</rdfs:label>
+    <foaf:mbox>michael.liu@get-technologys.com</foaf:mbox>
+    <foaf:mbox>yongmou.liu@ima-cax.com</foaf:mbox>
+    <foaf:name>Yongmou Liu</foaf:name>
+    <foaf:phone>+86-139-080-39515</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_078">
+    <od:address>5/F,Building 1,No. 100 QinZhou Road, XuHui District, ShangHai, PR China</od:address>
+    <od:createdAt>01.2015</od:createdAt>
+    <od:hasMemberNumber>78</od:hasMemberNumber>
+    <od:location>Shanghai, China</od:location>
+    <rdfs:label>ShangHai Intellectual Property Training Center SIPTC</rdfs:label>
+    <foaf:mbox>siptc@siptc.com</foaf:mbox>
+    <foaf:mbox>yihongd@sh163.net</foaf:mbox>
+    <foaf:name>YiHong  Dong</foaf:name>
+    <foaf:phone>+86-21-54703918</foaf:phone>
+    <foaf:phone>13916639528</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_079">
+    <od:address>National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, PR China</od:address>
+    <od:createdAt>01.2015</od:createdAt>
+    <od:hasMemberNumber>79</od:hasMemberNumber>
+    <od:location>Beijing, China</od:location>
+    <rdfs:label>Shenhua TRIZ Association, STA</rdfs:label>
+    <foaf:mbox>yhlong023@sina.com</foaf:mbox>
+    <foaf:name>Dr.  Yinhua Long</foaf:name>
+    <foaf:phone>86-139-1009-1896</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_080">
+    <od:address>No.999, Tuopai Avenue, Tuopai Town, Shehong County, Suining City, Sichuan, P.R. China</od:address>
+    <od:createdAt>01.2015</od:createdAt>
+    <od:hasMemberNumber>80</od:hasMemberNumber>
+    <od:location>Sichuan, China</od:location>
+    <rdfs:label>Tuopai shede TRIZ Association, TSTA</rdfs:label>
+    <foaf:mbox>651204349@qq.com</foaf:mbox>
+    <foaf:name>Jiamin Li</foaf:name>
+    <foaf:phone>+86-0825 6618786</foaf:phone>
+    <foaf:phone>15828981806</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_081">
+    <od:address>Room 1116, Science and Technology Building, No. 1001, Shangbu Road, Futian District, Shenzhen City</od:address>
+    <od:createdAt>04.2015</od:createdAt>
+    <od:hasMemberNumber>81</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Shenzhen, China</od:location>
+    <rdfs:comment>Nr. 79 in the 2021 member list</rdfs:comment>
+    <rdfs:label>Shenzhen Intellectual Property Society</rdfs:label>
+    <foaf:mbox>Chinayinxfzl@126.com</foaf:mbox>
+    <foaf:name>Yin Hanfan</foaf:name>
+    <foaf:phone>+86-139-0291-0801</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_082">
+    <od:address>101-1702, 417 Samsung-ro, Gangnam-gu, Seoul, Korea, 135-841</od:address>
+    <od:createdAt>04.2015</od:createdAt>
+    <od:hasMemberNumber>82</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>VE-TRIZ Association</rdfs:label>
+    <foaf:mbox>bsktriz@naver.com</foaf:mbox>
+    <foaf:name>Kang, Bong Sup</foaf:name>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_083">
+    <od:address># 301, Chang-lim Building, Dogok-ro 175, Gangnam-gu, Seoul, Korea 135-930</od:address>
+    <od:createdAt>04.2015</od:createdAt>
+    <od:hasMemberNumber>83</od:hasMemberNumber>
+    <od:location>Seoul, South Korea</od:location>
+    <rdfs:label>Korean Academic TRIZ Association - KATA</rdfs:label>
+    <foaf:mbox>koreatriz@daum.net</foaf:mbox>
+    <foaf:name>Dong-Yol Yang</foaf:name>
+    <foaf:phone>82-2-574-2207</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_084">
+    <od:address>558-8 Uratakaomachi, Hachioji-shi Tokyo 193-0841 JAPAN</od:address>
+    <od:createdAt>04.2015</od:createdAt>
+    <od:hasMemberNumber>84</od:hasMemberNumber>
+    <od:location>Japan</od:location>
+    <rdfs:label>Japan TRIZ society (JTS)</rdfs:label>
+    <foaf:mbox>info@triz-japan.org</foaf:mbox>
+    <foaf:name>Yuji Mihara</foaf:name>
+    <foaf:phone>81-0426-73-3417</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_085">
+    <od:address>High Tech Campus 7 5656 AE Eindhoven The Netherlands</od:address>
+    <od:createdAt>09.2013</od:createdAt>
+    <od:hasMemberNumber>85</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>The Netherlands</od:location>
+    <rdfs:label>Philips TRIZ Association</rdfs:label>
+    <foaf:mbox>c.dobrusskin@philips.com</foaf:mbox>
+    <foaf:name>Christoph Dobrusskin</foaf:name>
+    <foaf:phone>+31 40 2740827</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_086">
+    <od:createdAt>09.2015</od:createdAt>
+    <od:hasMemberNumber>86</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Poland</od:location>
+    <rdfs:label>Association TRIZ Poland</rdfs:label>
+    <foaf:mbox>j.boratynski@triz-innowacje.pl</foaf:mbox>
+    <foaf:name>Lukasz Syska</foaf:name>
+    <foaf:phone>797-590-974</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_087">
+    <od:addess>#301B May Flower Gardens, 91/6, Naravarapalya, Main Road, C.V Raman, Nagar Post, Bangalore 560093, Karnataka, India</od:addess>
+    <od:createdAt>09.2015</od:createdAt>
+    <od:hasMemberNumber>87</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Bangalore, India</od:location>
+    <rdfs:label>Association for TRIZ and Technical Innovation</rdfs:label>
+    <foaf:mbox>titokishan@proinnconsultancy.com</foaf:mbox>
+    <foaf:name>Tito Kishan Vemuri</foaf:name>
+    <foaf:phone>+91 895 135 9774</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_088">
+    <od:address>222 LG-ro Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-713, South Korea</od:address>
+    <od:createdAt>02.2016</od:createdAt>
+    <od:hasMemberNumber>88</od:hasMemberNumber>
+    <od:location>South Korea</od:location>
+    <rdfs:label>LG TRIZ EXPERT ASSOCIATION - LTEA</rdfs:label>
+    <foaf:mbox>yshin.han@lge.com</foaf:mbox>
+    <foaf:name>Youshin Han</foaf:name>
+    <foaf:phone>82-10-4662-2843</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_089">
+    <od:address>Room 715, Building 53, No.195, Sec. 4, Zhongxing Rd. Zhudong Township, Hsinchu County 310, Taiwan (R.O.C.)</od:address>
+    <od:createdAt>05.2016</od:createdAt>
+    <od:hasMemberNumber>89</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Taiwan</od:location>
+    <rdfs:label>TRIZ Innovation and Development Association - TIDA</rdfs:label>
+    <foaf:mbox>innopatman@gmail.com</foaf:mbox>
+    <foaf:mbox>yjlin@must.edu.tw</foaf:mbox>
+    <foaf:name>Youn-Jan Lin</foaf:name>
+    <foaf:phone>886-3-5593142#3593</foaf:phone>
+    <foaf:phone>886-3-5912621</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_090">
+    <od:createdAt>06.2016</od:createdAt>
+    <od:hasMemberNumber>90</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Poland</od:location>
+    <rdfs:label>Scientific-Industry Society TRIZ Poland</rdfs:label>
+    <foaf:mbox>sergey.yatsunenko@novismo.com</foaf:mbox>
+    <foaf:name>Sergey Yatsunenko</foaf:name>
+    <foaf:phone>+48 697 404 957</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_091">
+    <od:createdAt>07.2017</od:createdAt>
+    <od:hasMemberNumber>91</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Taiwan</od:location>
+    <rdfs:label>TRIZ Innovation Value Association</rdfs:label>
+    <foaf:mbox>innopatman@gmail.com</foaf:mbox>
+    <foaf:name>Jou-Li Wang</foaf:name>
+    <foaf:phone>886-2-28372349</foaf:phone>
+    <foaf:phone>886-938738976</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_092">
+    <od:address>Przasnyska 20a/31, 01-756 Warsaw, Poland</od:address>
+    <od:createdAt>09.2017</od:createdAt>
+    <od:hasMemberNumber>92</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Poland</od:location>
+    <rdfs:label>NOVISMO TRIZ-Lab Center</rdfs:label>
+    <foaf:mbox>sergey.yatsunenko@novismo.com</foaf:mbox>
+    <foaf:name>Sergey Yatsunenko</foaf:name>
+    <foaf:phone>+48 697404956</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_093">
+    <od:address>School of Energy Research, Xiamen University, South Xiang’an Road, Xiamen, China</od:address>
+    <od:createdAt>2018</od:createdAt>
+    <od:hasMemberNumber>93</od:hasMemberNumber>
+    <od:location>Xiamen, China</od:location>
+    <rdfs:label>Fujian TRIZ Association, FTA</rdfs:label>
+    <foaf:mbox>zbb@xmu.edu.cn</foaf:mbox>
+    <foaf:name>Zhang Binbin</foaf:name>
+    <foaf:phone>+86-138-0602-7243</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_094">
+    <od:createdAt>8.2017</od:createdAt>
+    <od:hasMemberNumber>94</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Russia</od:location>
+    <rdfs:label>TRIZ Practitioners Association</rdfs:label>
+    <foaf:mbox>anton.kojemyako@yandex.ru</foaf:mbox>
+    <foaf:person xml:lang="ru">Кожемяко Антон Петрович</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_095">
+    <od:address>San Martin 1175 Campana, Argentina, 2804</od:address>
+    <od:createdAt>2019</od:createdAt>
+    <od:hasMemberNumber>95</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Argentina</od:location>
+    <rdfs:label>UTN TRIZ Association</rdfs:label>
+    <foaf:mbox>Ing.jproma@gmail.com</foaf:mbox>
+    <foaf:name>Juan Pablo Roma</foaf:name>
+    <foaf:phone>+54 9 3489 15655385</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_096">
+    <od:createdAt>8.2019</od:createdAt>
+    <od:hasMemberNumber>96</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Midea TRIZ Association</rdfs:label>
+    <foaf:mbox>13653957@,qq.eom</foaf:mbox>
+    <foaf:person>Fenglei Xing</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_097">
+    <od:address>150 Bogenbay Batyra str., Almaty Kazakhstan, Business Center “Kadam Invest”, ELITE GROUP</od:address>
+    <od:createdAt>10.2019</od:createdAt>
+    <od:hasMemberNumber>97</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Kazakhstan</od:location>
+    <rdfs:label>Qazaqstan GEN TRIZ Association</rdfs:label>
+    <foaf:mbox>info@pmikz.org</foaf:mbox>
+    <foaf:person>Niyetakuna Gaukhar</foaf:person>
+    <foaf:phone>+7 7761742167</foaf:phone>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_098">
+    <od:createdAt>12.2019</od:createdAt>
+    <od:hasMemberNumber>98</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Chongqing TRIZ Institute</rdfs:label>
+    <foaf:mbox>zhangting.tim@gmail.com</foaf:mbox>
+    <foaf:person>Yu Xiang</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_099">
+    <od:createdAt>1.2020</od:createdAt>
+    <od:hasMemberNumber>99</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Russia</od:location>
+    <rdfs:label>Public organization «Creatime-TRIZ»</rdfs:label>
+    <foaf:person>Anatoly Guin</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_100">
+    <od:createdAt>6.2020</od:createdAt>
+    <od:hasMemberNumber>100</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>TRIZ Practitioners Inno-Aliance</rdfs:label>
+    <foaf:mbox>claire_han2011@hotmail.com</foaf:mbox>
+    <foaf:mbox>claire_han@matrizchina.cn</foaf:mbox>
+    <foaf:person>Nan Han</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_101">
+    <od:createdAt>6.2020</od:createdAt>
+    <od:hasMemberNumber>101</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>TJUT TRIZ Association</rdfs:label>
+    <foaf:mbox>wenpengma@sina.com</foaf:mbox>
+    <foaf:person>Wenpeng Ma</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_102">
+    <od:createdAt>7.2020</od:createdAt>
+    <od:hasMemberNumber>102</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>TRIZ Workshop of DMU</rdfs:label>
+    <foaf:mbox>Slh686996@126.com</foaf:mbox>
+    <foaf:person>Lihong Shi</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_103">
+    <od:createdAt>8.2020</od:createdAt>
+    <od:hasMemberNumber>103</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Beijing Innovation Association</rdfs:label>
+    <foaf:mbox>gltzhangfeng@buu.edu.cn</foaf:mbox>
+    <foaf:person>Feng Zhang</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_104">
+    <od:createdAt>8.2020</od:createdAt>
+    <od:hasMemberNumber>104</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>TRIZ Workshop of SDU</rdfs:label>
+    <foaf:mbox>caolh89@sdu.edu.cn</foaf:mbox>
+    <foaf:person>Lihia Cao</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_105">
+    <od:createdAt>8.2020</od:createdAt>
+    <od:hasMemberNumber>105</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>MASTEEL TRIZ Association</rdfs:label>
+    <foaf:mbox>430082877@qq.com</foaf:mbox>
+    <foaf:person>YUAN Junfang</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_106">
+    <od:createdAt>8.2020</od:createdAt>
+    <od:hasMemberNumber>106</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Innovation Method and Technology Transfer</rdfs:label>
+    <foaf:mbox>zhxm1197@163.com</foaf:mbox>
+    <foaf:person>Xiangmin Zhang</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_107">
+    <od:createdAt>8.2020</od:createdAt>
+    <od:hasMemberNumber>107</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Meerkat TRIZ Association</rdfs:label>
+    <foaf:mbox>Arthur.Lok@innoenterprise.com</foaf:mbox>
+    <foaf:person>Jia Luo</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_108">
+    <od:createdAt>12.2020</od:createdAt>
+    <od:hasMemberNumber>108</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Jinzhou Innovation Method Society</rdfs:label>
+    <foaf:mbox>ylc94@163.com</foaf:mbox>
+    <foaf:person>Liancheng Yang</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_109">
+    <od:createdAt>10.2021</od:createdAt>
+    <od:hasMemberNumber>109</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>Belarus</od:location>
+    <rdfs:label>Target Innovation</rdfs:label>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_110">
+    <od:createdAt>10.2021</od:createdAt>
+    <od:hasMemberNumber>110</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>QualiSys Consultancy</rdfs:label>
+    <foaf:mbox>servicesz@qualisysgroup.com</foaf:mbox>
+    <foaf:person>Esrnie Lam</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_111">
+    <od:createdAt>10.2021</od:createdAt>
+    <od:hasMemberNumber>111</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>School of Innovation &amp; Entrepreneurship, Lanzhou University of Technology</rdfs:label>
+    <foaf:mbox>cxcyxylut@163.com</foaf:mbox>
+    <foaf:person>Huixia Feng</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_112">
+    <od:createdAt>10.2021</od:createdAt>
+    <od:hasMemberNumber>112</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>South China Agricultural University Institute of Innovation Methods</rdfs:label>
+    <foaf:mbox>317854393@qq.com</foaf:mbox>
+    <foaf:person>Jianqiu Lyu</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_113">
+    <od:createdAt>10.2021</od:createdAt>
+    <od:hasMemberNumber>113</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Information and Communication Technology TRIZ innovation center</rdfs:label>
+    <foaf:mbox>ChenJie@cqupt.edu.cn</foaf:mbox>
+    <foaf:person>Hongbo Li</foaf:person>
+  </od:MATRIZMember>
+  <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_114">
+    <od:createdAt>11.2021</od:createdAt>
+    <od:hasMemberNumber>114</od:hasMemberNumber>
+    <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
+    <od:location>PR China</od:location>
+    <rdfs:label>Innovation Method and Technology Transfer</rdfs:label>
+    <foaf:mbox>info@hb-pipeclean.com</foaf:mbox>
+    <foaf:person>Shuguo Fei</foaf:person>
+  </od:MATRIZMember>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/MATRIZMembers/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>2019-09-08 graebe: Extracted and transformed from https://matriz.org/wp-content/uploads/2019/08/2019-08-List-of-MATRIZ-members.docx</rdfs:comment>
+    <rdfs:comment>2022-01-21 graebe: consolidated</rdfs:comment>
+    <rdfs:label>MATRIZ Members</rdfs:label>
+  </owl:Ontology>
+  <od:Status rdf:about="http://opendiscovery.org/rdf/Model#goodStanding2021">
+    <rdfs:label>2021 in good standing</rdfs:label>
+  </od:Status>
+</rdf:RDF>

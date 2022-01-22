@@ -1,7 +1,7 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2021-03-24
+# lastModified: 2022-01-22
 
 # Changes:
 
@@ -24,8 +24,9 @@ EOT
 sub loaddata {
   my $out;
   $out.=createLoadCommand("http://opendiscovery.org/rdf/People/","People.rdf");
-  $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf"); 
-  $out.=createLoadCommand("http://opendiscovery.org/rdf/AllMATRIZCertificates/","AllMATRIZCertificates.rdf"); 
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZ-Certificates/","MATRIZ-Certificates.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/MATRIZMembers/","MATRIZMembers.rdf");
+  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Thesaurus/","Thesaurus.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TOP-Glossary/","TOP-Glossary.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Lippert-Glossary/","Lippert-Glossary.rdf");
@@ -36,6 +37,7 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Principles/","Principles.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TopLevel/","TopLevel.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/OntoCards/","OntoCards.rdf");
+
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK-References/","TBK-References.rdf");
   return $out;
