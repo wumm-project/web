@@ -7,7 +7,7 @@
 
 /* ======= Sparql Endpoint as global variable ======== */
 
-$sparql="http://wumm.uni-leipzig.de:8891/sparql";
+$sparql = new \EasyRdf\Sparql\Client('http://wumm.uni-leipzig.de:8891/sparql');
 
 /* ======= helper function ======== */
 

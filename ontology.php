@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2021-09-23
+ * last update: 2022-02-11
  */
 
 require 'vendor/autoload.php';
@@ -16,15 +16,15 @@ function theTitle() {
 // ------ helper ---- 
 
 function queryConcepts() {
+    global $sparql;
     $query='
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
 PREFIX od: <http://opendiscovery.org/rdf/Model#>
 PREFIX tc: <http://opendiscovery.org/rdf/Concept/> 
 
-construct { ?a ?b ?c . }
-where { ?a a skos:Concept ; ?b ?c . }';
+describe ?a
+where { ?a a skos:Concept . }';
 
-    $sparql = new \EasyRdf\Sparql\Client("http://wumm.uni-leipzig.de:8891/sparql");
     try {
         $results = $sparql->query($query);
     } catch (Exception $e) {

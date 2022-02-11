@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Last Update: 2021-03-26
+ * Last Update: 2022-02-11
 
  * Display the properties and inverse properties of an URI exploring the WUMM
  * SPARQL Endpoint
@@ -17,7 +17,7 @@ require_once 'layout.php';
 
 function displayURI($uri) {
     setNamespaces();
-    $sparql = new \EasyRdf\Sparql\Client('http://wumm.uni-leipzig.de:8891/sparql');
+    global $sparql;
     $query = '
 construct { ?s ?p ?o . ?s1 ?p1 ?o1 . } 
 where 
