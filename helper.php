@@ -11,6 +11,7 @@ function setNamespaces() {
     \EasyRdf\RdfNamespace::set('bibo', 'http://purl.org/ontology/bibo/');
     \EasyRdf\RdfNamespace::set('dc', 'http://purl.org/dc/elements/1.1/');
     \EasyRdf\RdfNamespace::set('dcterms', 'http://purl.org/dc/terms/');
+    \EasyRdf\RdfNamespace::set('dbo', 'http://dbpedia.org/ontology/');
     \EasyRdf\RdfNamespace::set('foaf', 'http://xmlns.com/foaf/0.1/');
     \EasyRdf\RdfNamespace::set('ical', 'http://www.w3.org/2002/12/cal/ical#');
     \EasyRdf\RdfNamespace::set('owl', 'http://www.w3.org/2002/07/owl#');

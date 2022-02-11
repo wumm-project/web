@@ -2,6 +2,7 @@
 <rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
    xmlns:org="http://www.w3.org/ns/org#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -12,6 +13,7 @@
     <od:address xml:lang="ru">г. Петрозаводск, а/я 134</od:address>
     <od:createdAt>1999</od:createdAt>
     <od:hasChair xml:lang="ru">Селюцкий Александр Борисович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Selyutsky_AB"/>
     <od:hasMemberNumber>1</od:hasMemberNumber>
     <od:location>Petrozavodsk, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -23,6 +25,7 @@
     <od:address xml:lang="ru">630049 Новосибирск-49, а/я 463</od:address>
     <od:createdAt>1999</od:createdAt>
     <od:hasChair xml:lang="ru">Сибиряков Виссарион Григорьевич</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Sibiryakov_VG"/>
     <od:hasMemberNumber>2</od:hasMemberNumber>
     <od:location>Novosibirsk, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -47,6 +50,7 @@
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_004">
     <od:createdAt>1999</od:createdAt>
     <od:hasChair xml:lang="ru">Кислов Александр Васильевич</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kislov_AV"/>
     <od:hasMemberNumber>4</od:hasMemberNumber>
     <od:location>St. Petersburg, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -60,6 +64,7 @@
     <od:address xml:lang="ru">140160 г. Жуковский, МО, а/я 272</od:address>
     <od:createdAt>1999</od:createdAt>
     <od:hasChair xml:lang="ru">Гафитулин Марат Семенович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_MS"/>
     <od:hasMemberNumber>5</od:hasMemberNumber>
     <od:location>Shukovsky, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -70,6 +75,7 @@
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_006">
     <od:createdAt>2000</od:createdAt>
     <od:hasChair xml:lang="ru">Тимохов Виктор Иванович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Timochov_VI"/>
     <od:hasMemberNumber>6</od:hasMemberNumber>
     <od:location>Gomel, Belarus</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -81,6 +87,7 @@
     <od:address>GEN3 Partners, Ten Post Office Square 9th Floor, South Boston, MA 02109</od:address>
     <od:createdAt>2000</od:createdAt>
     <od:hasChair>Simon Litvin</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
     <od:hasMemberNumber>7</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Boston, USA</od:location>
@@ -95,6 +102,7 @@
     <od:address xml:lang="ru">663305, г. Норильск, ул. Талнахская д.6, кв. 8</od:address>
     <od:createdAt>2000</od:createdAt>
     <od:hasChair xml:lang="ru">Шустерман Михаил Наумович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Shusterman_MN"/>
     <od:hasMemberNumber>8</od:hasMemberNumber>
     <od:location>Norilsk, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -107,6 +115,7 @@
     <od:address>6/4 Klauzner St. Raanana 43367 Israel</od:address>
     <od:createdAt>2000</od:createdAt>
     <od:hasChair xml:lang="ru">Петров Владимир Михайлович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <od:hasMemberNumber>9</od:hasMemberNumber>
     <od:location>Tel Aviv, Israel</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -119,6 +128,7 @@
     <od:address xml:lang="ru">Дмитриев Сергея Анатольевич. 660037, г. Красноярск, ул. Мичурина 7-10</od:address>
     <od:createdAt>2000</od:createdAt>
     <od:hasChair xml:lang="ru">Саламатов Юрий Петрович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Salamatov_YP"/>
     <od:hasMemberNumber>10</od:hasMemberNumber>
     <od:location>Krasnoyarsk, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -141,6 +151,7 @@
     <od:address xml:lang="ru">428015, Россия, Чувашия, Чебоксары-15, А.я. 16, Михайлову В.А.</od:address>
     <od:createdAt>2001</od:createdAt>
     <od:hasChair xml:lang="ru">Михайлов Валерий Алексеевич</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Mikhailov_VA"/>
     <od:hasMemberNumber>12</od:hasMemberNumber>
     <od:location>Cheboksary, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -154,6 +165,7 @@
     <od:address xml:lang="ru">LV-3001 Латвия, г. Елгава, ул. Паста 34-68</od:address>
     <od:createdAt>2001</od:createdAt>
     <od:hasChair xml:lang="ru">Мурашковский Юлий Самойлович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Murashkovsky_JS"/>
     <od:hasMemberNumber>13</od:hasMemberNumber>
     <od:location>Jelgava, Latvia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -165,6 +177,7 @@
     <od:address>394077, г. Воронеж, а/я 72</od:address>
     <od:createdAt>2001</od:createdAt>
     <od:hasChair xml:lang="ru">Белильцев Валерий Константинович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Beliltsev_VK"/>
     <od:hasMemberNumber>14</od:hasMemberNumber>
     <od:location>Voronesh, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -175,6 +188,7 @@
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_015">
     <od:createdAt>2001</od:createdAt>
     <od:hasChair xml:lang="ru">Злотин Борис Львович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
     <od:hasMemberNumber>15</od:hasMemberNumber>
     <od:location>Detroit, USA</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -186,6 +200,7 @@
     <od:address xml:lang="ru">Москва 115142, ул. Затонная д.10,к.1, кв.14</od:address>
     <od:createdAt>2002</od:createdAt>
     <od:hasChair xml:lang="ru">Бубенцов Владимир Юрьевич</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Bubenzov_VY"/>
     <od:hasMemberNumber>16</od:hasMemberNumber>
     <od:location>Moscow, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -208,6 +223,7 @@
     <od:address xml:lang="ru">320635 Украина, Днепропетровск, пр. Гагарина 4</od:address>
     <od:createdAt>2002</od:createdAt>
     <od:hasChair xml:lang="ru">Пигоров Георгий Семенович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Pigorov_GS"/>
     <od:hasMemberNumber>18</od:hasMemberNumber>
     <od:location>Dnepropetrovsk, Ukraina</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -219,6 +235,7 @@
     <od:address xml:lang="ru">109289, Москва, ул. Автозаводская, 16</od:address>
     <od:createdAt>2002</od:createdAt>
     <od:hasChair xml:lang="ru">Зиновкина Милослава Михайловна</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Zinovkina_MM"/>
     <od:hasMemberNumber>19</od:hasMemberNumber>
     <od:location>Moscow, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -248,6 +265,7 @@
     <od:address xml:lang="ru">443087 г. Самара, пр.Кирова, д.240, кв.24</od:address>
     <od:createdAt>2003</od:createdAt>
     <od:hasChair xml:lang="ru">Шарипов Рашид Хамзович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Scharipov_RH"/>
     <od:hasMemberNumber>22</od:hasMemberNumber>
     <od:location>Samara, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -280,6 +298,7 @@
     <od:address xml:lang="ru">690065, Приморский край, г. Владивосток-65, ул. Стрельникова, д.12 кв.29</od:address>
     <od:createdAt>2003</od:createdAt>
     <od:hasChair xml:lang="ru">Лимаренко Анатолий Васильевич</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Limarenko_AV"/>
     <od:hasMemberNumber>25</od:hasMemberNumber>
     <od:location>Vladivostok, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -319,6 +338,7 @@
 	 Samsung-ro Yeongtong-gu Suwon-si Gyeonggi-do Korea</od:address>
     <od:createdAt>2004</od:createdAt>
     <od:hasChair>Jun-Young Lee</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Lee_JY"/>
     <od:hasMemberNumber>30</od:hasMemberNumber>
     <od:location>Suwon, South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -332,7 +352,8 @@
 	 Hakdong-ro 33-gil, Gangnam-gu, Seoul, 135- 010,
 	 Republic of Korea</od:address>
     <od:createdAt>2004</od:createdAt>
-    <od:hasChair>Kim, Mansoo</od:hasChair>
+    <od:hasChair>Mansoo Kim</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kim_MS"/>
     <od:hasMemberNumber>31</od:hasMemberNumber>
     <od:location>Seoul, South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -356,6 +377,7 @@
     <od:address xml:lang="ru">681013, г. Комсомольск на Амуре, пр. Ленина, 27</od:address>
     <od:createdAt>2004</od:createdAt>
     <od:hasChair xml:lang="ru">В.Д. Бердоносов</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Berdonosov_VD"/>
     <od:hasMemberNumber>33</od:hasMemberNumber>
     <od:location>Komsomolsk on Amur, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -392,6 +414,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_036">
     <od:createdAt>03.2006</od:createdAt>
     <od:hasChair>Gaetano Cascini</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Cascini_G"/>
     <od:hasMemberNumber>36</od:hasMemberNumber>
     <od:location>Rome, Italy</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -427,6 +450,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
     <od:address xml:lang="ru">119019, г. Москва, ул. Знаменка, д. 13, стр. 1, офис 15.</od:address>
     <od:createdAt>03.2007</od:createdAt>
     <od:hasChair xml:lang="ru">Тимохов Виктор Иванович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Timochov_VI"/>
     <od:hasMemberNumber>39</od:hasMemberNumber>
     <od:location>Moscow, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -436,6 +460,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_040">
     <od:createdAt>03.2008</od:createdAt>
     <od:hasChair>Vendetta Holtz</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Holtz_V"/>
     <od:hasMemberNumber>40</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Boston, USA</od:location>
@@ -447,6 +472,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_041">
     <od:createdAt>03.2008</od:createdAt>
     <od:hasChair>J. Fresner</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Fresner_J"/>
     <od:hasMemberNumber>41</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Vienna, Austria</od:location>
@@ -468,6 +494,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
     <od:address>TRIZ4U, PO Box 12775, Melbourne Victoria 8006, Australia</od:address>
     <od:createdAt>03.2008</od:createdAt>
     <od:hasChair>Iouri Belski</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Belski_IV"/>
     <od:hasMemberNumber>43</od:hasMemberNumber>
     <od:location>Melbourne, Australia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -478,6 +505,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_044">
     <od:createdAt>03.2008</od:createdAt>
     <od:hasChair>Yue Lin</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Lin_Y"/>
     <od:hasMemberNumber>44</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Beijing, PR China</od:location>
@@ -516,7 +544,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
     <od:address>Via Enrico Fermi 134, 36100 Vicenza, Italia</od:address>
     <od:address>с/o C.C.I.A.A. Vicenza. Corso Fogazzaro 37, 36100 Vicenza, Italia</od:address>
     <od:createdAt>03.2008</od:createdAt>
-    <od:hasChair xml:lang="ru">Дмитрий Вульфсон</od:hasChair>
+    <od:hasChair>Dmitri Wulfsson</od:hasChair>
     <od:hasMemberNumber>48</od:hasMemberNumber>
     <od:location>Vicenza, Italy</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -549,6 +577,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_051">
     <od:createdAt>09.2008</od:createdAt>
     <od:hasChair xml:lang="ru">Кислов Александр Васильевич</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kislov_AV"/>
     <od:hasMemberNumber>51</od:hasMemberNumber>
     <od:location>St. Petersburg, Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -559,7 +588,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   </od:MATRIZMember>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_052">
     <od:createdAt>09.2008</od:createdAt>
-    <od:hasChair>JeongSeon Kim</od:hasChair>
+    <od:hasChair>Jeong Seon Kim</od:hasChair>
     <od:hasMemberNumber>52</od:hasMemberNumber>
     <od:location>South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -573,6 +602,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
     <od:address>Shree Phadnis, BLD#1/34, Vijay Enclave, Ghodbundar Road, Opp Dalal Engg, Thane (W), 400601 India</od:address>
     <od:createdAt>06.2009</od:createdAt>
     <od:hasChair>Shree Phadnis</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_S"/>
     <od:hasMemberNumber>53</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>New Delhi, India</od:location>
@@ -584,6 +614,7 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_054">
     <od:createdAt>06.2009</od:createdAt>
     <od:hasChair xml:lang="ru">Федосов Ю.И</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Fedosov_YI"/>
     <od:hasMemberNumber>54</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>St. Petersburg, Russia</od:location>
@@ -608,7 +639,8 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea</od:address>
 4F. Asia Bldg. 11-2 Jamwon-dong,
 Seocho-gu, Seoul, Korea</od:address>
     <od:createdAt>06.2009</od:createdAt>
-    <od:hasChair>Hee-Choon Lee</od:hasChair>
+    <od:hasChair>Hee Choon Lee</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Lee_HC"/>
     <od:hasMemberNumber>56</od:hasMemberNumber>
     <od:location>Seoul, South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -620,6 +652,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_057">
     <od:createdAt>09.2009</od:createdAt>
     <od:hasChair xml:lang="ru">Кудрявцев Александр Владимирович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
     <od:hasMemberNumber>57</od:hasMemberNumber>
     <od:location>Moscow,  Russia</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -671,7 +704,8 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_062">
     <od:address>Samhwan Hipex A-601, 240, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</od:address>
     <od:createdAt>07.2011</od:createdAt>
-    <od:hasChair>Minsoo Shin</od:hasChair>
+    <od:hasChair>Min-soo Shin</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Shin_MS"/>
     <od:hasMemberNumber>62</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Seongnam, South Korea</od:location>
@@ -693,7 +727,8 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_064">
     <od:address>20, Jalan USJ 11/1B, Subang Jaya 47620 langor, Malaysia</od:address>
     <od:createdAt>12.2011</od:createdAt>
-    <od:hasChair>Dr. Teong San Yeoh</od:hasChair>
+    <od:hasChair>Teong San Yeoh</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Yeoh_TS"/>
     <od:hasMemberNumber>64</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Selangor, Malaysia</od:location>
@@ -717,6 +752,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_066">
     <od:createdAt>03.2013</od:createdAt>
     <od:hasChair>Martin Kiesel</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kiesel_M"/>
     <od:hasMemberNumber>66</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Germany</od:location>
@@ -727,7 +763,8 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_067">
     <od:address>Korea Polytechnic University P-208 2121, Jungwang-dong, Siheung-city, Gyeonggi-do, 423-793, Korea</od:address>
     <od:createdAt>03.2013</od:createdAt>
-    <od:hasChair>Prof. Yong Won Song</od:hasChair>
+    <od:hasChair>Yong Won Song</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Song_YW"/>
     <od:hasMemberNumber>67</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>South Korea</od:location>
@@ -738,7 +775,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_068">
     <od:address>GE Global Research, Freisinger Landstr. 50, 87548 Garching b. München, Germany</od:address>
     <od:createdAt>03.2013</od:createdAt>
-    <od:hasChair>Dr. Mark Lynass</od:hasChair>
+    <od:hasChair>Mark Lynass</od:hasChair>
     <od:hasMemberNumber>68</od:hasMemberNumber>
     <od:location>Garching, Germany</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -749,6 +786,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>#95 Samsung 2-ro, Giheung-gu, Youngin-City, Gyeonggi-Do, 446-711 South Korea</od:address>
     <od:createdAt>03.2013</od:createdAt>
     <od:hasChair>Tae Wook Kang</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kang_TW"/>
     <od:hasMemberNumber>69</od:hasMemberNumber>
     <od:location>South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -758,6 +796,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, China</od:address>
     <od:createdAt>01.2014</od:createdAt>
     <od:hasChair>Yongwei Sun</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Sun_YW"/>
     <od:hasMemberNumber>70</od:hasMemberNumber>
     <od:location>Beijing, China</od:location>
     <rdfs:comment>Expelled in 2021, all gradings revoked</rdfs:comment>
@@ -770,6 +809,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>Kofomo Tower 509, 16-3 Sunae-dong, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea, 463-825</od:address>
     <od:createdAt>02.2014</od:createdAt>
     <od:hasChair>Kyu Jin Jung</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Jung_KJ"/>
     <od:hasMemberNumber>71</od:hasMemberNumber>
     <od:location>South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -780,7 +820,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_072">
     <od:address>Technicka  10,  616  00  Brno, Czech Republic</od:address>
     <od:createdAt>02.2014</od:createdAt>
-    <od:hasChair>Dr. Bohuslav Busov</od:hasChair>
+    <od:hasChair>Bohuslav Busov</od:hasChair>
     <od:hasMemberNumber>72</od:hasMemberNumber>
     <od:location>Brno, Czech Republic</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -802,7 +842,8 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_074">
     <od:address>68/131SOI-NAWAMIN40, NAWAMIN ROAD, BUENGKUMDISTRICT, BANGKOK 10240, THAILAND</od:address>
     <od:createdAt>09.2014</od:createdAt>
-    <od:hasChair>TriZit Benjaboonyazit</od:hasChair>
+    <od:hasChair>Trizit Benjaboonyazit</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Benjaboonyazit_T"/>
     <od:hasMemberNumber>74</od:hasMemberNumber>
     <od:location>Thailand</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -814,6 +855,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address xml:lang="ru">Украина, г. Запорожье,69091, ул.Нижнеднепровская, 4-а, Школа «ЭйдоС»</od:address>
     <od:createdAt>10.2014</od:createdAt>
     <od:hasChair>Igor Gredynarov</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarov_I"/>
     <od:hasMemberNumber>75</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Ukraina</od:location>
@@ -837,6 +879,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>Suite A, 1310, East Hope Building, No.3 Gaopeng Road, Gaoxin District, Chengdu, P.R.C.</od:address>
     <od:createdAt>01.2015</od:createdAt>
     <od:hasChair>Yongmou Liu</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Liu_MY"/>
     <od:hasMemberNumber>77</od:hasMemberNumber>
     <od:location>Chengdu, China</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -848,7 +891,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_078">
     <od:address>5/F,Building 1,No. 100 QinZhou Road, XuHui District, ShangHai, PR China</od:address>
     <od:createdAt>01.2015</od:createdAt>
-    <od:hasChair>YiHong  Dong</od:hasChair>
+    <od:hasChair>YiHong Dong</od:hasChair>
     <od:hasMemberNumber>78</od:hasMemberNumber>
     <od:location>Shanghai, China</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -861,7 +904,8 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_079">
     <od:address>National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, PR China</od:address>
     <od:createdAt>01.2015</od:createdAt>
-    <od:hasChair>Dr.  Yinhua Long</od:hasChair>
+    <od:hasChair>Yinhua Long</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Long_Y"/>
     <od:hasMemberNumber>79</od:hasMemberNumber>
     <od:location>Beijing, China</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -930,6 +974,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>High Tech Campus 7 5656 AE Eindhoven The Netherlands</od:address>
     <od:createdAt>09.2013</od:createdAt>
     <od:hasChair>Christoph Dobrusskin</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Dobrusskin_C"/>
     <od:hasMemberNumber>85</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>The Netherlands</od:location>
@@ -953,6 +998,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:addess>#301B May Flower Gardens, 91/6, Naravarapalya, Main Road, C.V Raman, Nagar Post, Bangalore 560093, Karnataka, India</od:addess>
     <od:createdAt>09.2015</od:createdAt>
     <od:hasChair>Tito Kishan Vemuri</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Vemuri_TK"/>
     <od:hasMemberNumber>87</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Bangalore, India</od:location>
@@ -965,6 +1011,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>222 LG-ro Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-713, South Korea</od:address>
     <od:createdAt>02.2016</od:createdAt>
     <od:hasChair>Youshin Han</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Han_YS"/>
     <od:hasMemberNumber>88</od:hasMemberNumber>
     <od:location>South Korea</od:location>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
@@ -976,6 +1023,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>Room 715, Building 53, No.195, Sec. 4, Zhongxing Rd. Zhudong Township, Hsinchu County 310, Taiwan (R.O.C.)</od:address>
     <od:createdAt>05.2016</od:createdAt>
     <od:hasChair>Youn-Jan Lin</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Lin_YJ"/>
     <od:hasMemberNumber>89</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Taiwan</od:location>
@@ -989,6 +1037,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_090">
     <od:createdAt>06.2016</od:createdAt>
     <od:hasChair>Sergey Yatsunenko</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Yatsunenko_S"/>
     <od:hasMemberNumber>90</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Poland</od:location>
@@ -1013,6 +1062,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <od:address>Przasnyska 20a/31, 01-756 Warsaw, Poland</od:address>
     <od:createdAt>09.2017</od:createdAt>
     <od:hasChair>Sergey Yatsunenko</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Yatsunenko_S"/>
     <od:hasMemberNumber>92</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Poland</od:location>
@@ -1035,6 +1085,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_094">
     <od:createdAt>8.2017</od:createdAt>
     <od:hasChair xml:lang="ru">Кожемяко Антон Петрович</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
     <od:hasMemberNumber>94</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Russia</od:location>
@@ -1057,6 +1108,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_096">
     <od:createdAt>8.2019</od:createdAt>
     <od:hasChair>Fenglei Xing</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Xing_FL"/>
     <od:hasMemberNumber>96</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>PR China</od:location>
@@ -1089,6 +1141,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_099">
     <od:createdAt>1.2020</od:createdAt>
     <od:hasChair>Anatoly Guin</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Guin_AA"/>
     <od:hasMemberNumber>99</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>Russia</od:location>
@@ -1098,6 +1151,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_100">
     <od:createdAt>6.2020</od:createdAt>
     <od:hasChair>Nan Han</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Han_N"/>
     <od:hasMemberNumber>100</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>PR China</od:location>
@@ -1148,7 +1202,7 @@ Seocho-gu, Seoul, Korea</od:address>
   </od:MATRIZMember>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_105">
     <od:createdAt>8.2020</od:createdAt>
-    <od:hasChair>YUAN Junfang</od:hasChair>
+    <od:hasChair>Yuan Junfang</od:hasChair>
     <od:hasMemberNumber>105</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>PR China</od:location>
@@ -1159,6 +1213,7 @@ Seocho-gu, Seoul, Korea</od:address>
   <od:MATRIZMember rdf:about="http://opendiscovery.org/rdf/MATRIZMember_106">
     <od:createdAt>8.2020</od:createdAt>
     <od:hasChair>Xiangmin Zhang</od:hasChair>
+    <od:hasChairURI rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_XM"/>
     <od:hasMemberNumber>106</od:hasMemberNumber>
     <od:hasStatus rdf:resource="http://opendiscovery.org/rdf/Model#goodStanding2021"/>
     <od:location>PR China</od:location>
@@ -1249,7 +1304,7 @@ Seocho-gu, Seoul, Korea</od:address>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>2019-09-08 graebe: Extracted and transformed from https://matriz.org/wp-content/uploads/2019/08/2019-08-List-of-MATRIZ-members.docx</rdfs:comment>
-    <rdfs:comment>2022-01-22 graebe: consolidated and https://matriz.org/wp-content/uploads/2021/11/2021-11-MATRIZ-members-in-good-standing.xlsx incorporated</rdfs:comment>
+    <rdfs:comment>2022-01-22 graebe: consolidated and https://matriz.org/wp-content/uploads/2021/11/2021-11-MATRIZ-members-in-good-standing.xlsx incorporated, links to People database added</rdfs:comment>
     <rdfs:label>MATRIZ Members</rdfs:label>
   </owl:Ontology>
   <od:Status rdf:about="http://opendiscovery.org/rdf/Model#goodStanding2021">

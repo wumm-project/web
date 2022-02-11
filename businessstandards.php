@@ -14,8 +14,7 @@ function theBusinessStandards($input)
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/TheStandards/');
     $graph->parseFile($input);
     $a=array();
-    $res = $graph->allOfType('od:TRIZ_Standard');
-    foreach ($res as $concept) {
+    foreach($graph->allOfType('od:TRIZ_Standard') as $concept) {
         $uri=str_replace('http://opendiscovery.org/rdf/BusinessStandard/','',$concept->getURI());
         $out="<h3> Standard ".$uri."</h3>";
         $out.="<p>".showLanguage($concept->all("skos:prefLabel"),"<br/>")."</p>";

@@ -1,4 +1,4 @@
-all: people conferences ontologies publications
+all: people conferences ontologies publications more
 
 people:
 	rapper -g ../../RDFData/People.ttl -o rdfxml-abbrev >People.rdf
@@ -48,3 +48,6 @@ ontologies:
 	rapper -g ../../RDFData/Matrix/Parameters.ttl -o rdfxml-abbrev >Parameters.rdf
 	rapper -g ../../RDFData/Ontologies/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
 	rapper -g ../../RDFData/Ontologies/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf
+
+more:
+	rapper -g ../../RDFData/BusinessTrends-Wagner.ttl -o rdfxml-abbrev >BusinessTrends-Wagner.rdf

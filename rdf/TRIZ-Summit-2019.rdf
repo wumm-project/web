@@ -677,7 +677,7 @@
     <dcterms:title xml:lang="ru">Использование НФ идей в курсе РТВ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/Talk_E111">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Faber_B"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Farber_BS"/>
     <dcterms:title xml:lang="en">TRIZ Training System</dcterms:title>
     <dcterms:title xml:lang="ru">Система обучения ТРИЗ</dcterms:title>
   </od:Talk>

@@ -15,8 +15,8 @@
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>2021-03-20 graebe: MATRIZ certificates level 4..5</rdfs:comment>
     <rdfs:comment>2021-03-26 graebe: aligned with People.ttl</rdfs:comment>
-    <rdfs:comment>2021-09-23 graebe: update to 4_139 and 5_108</rdfs:comment>
     <rdfs:comment>2021-09-24 graebe: MATRIZ Champions added</rdfs:comment>
+    <rdfs:comment>2022-01-22 graebe: update to 4_143 and 5_108</rdfs:comment>
     <rdfs:label>TRIZ Database - MATRIZ Certificates Level 4 and 5 and MATRIZ Awards</rdfs:label>
     <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
   </owl:Ontology>
@@ -112,6 +112,10 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Bystritsky_A">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_101"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Cao_GZ">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_140"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Cascini_G">
@@ -404,6 +408,10 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Khorenyan_RG">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_94"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kiesel_M">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_142"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Kim_JH">
@@ -761,6 +769,10 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_10"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Savelli_S">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_143"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Schaper_S">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_132"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
@@ -890,6 +902,10 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_54"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Tony_TW">
+    <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_141"/>
+    <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Torgashev_AS">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/5_55"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel5"/>
@@ -941,7 +957,7 @@
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_129"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Xing_F">
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Person/Xing_FL">
     <od:hasCertificate rdf:resource="http://opendiscovery.org/rdf/Certificate/4_139"/>
     <od:theLevel rdf:resource="http://opendiscovery.org/rdf/Concept/CertificateLevel4"/>
   </rdf:Description>

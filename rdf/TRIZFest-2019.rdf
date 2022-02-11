@@ -98,7 +98,7 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/track/Main"/>
     <od:urlPaper rdf:resource="https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_G"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_YS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jeong_W"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_A"/>
@@ -109,7 +109,7 @@
     <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Lee_A"/>
     <od:urlPaper rdf:resource="https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cho_G"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_Y"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_YS"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jeong_W"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kim_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lee_A"/>
@@ -119,7 +119,7 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/track/Main"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jing_Z"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kai_G"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xiangmin_Z"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_XM"/>
     <dcterms:title xml:lang="en">Study on the TESE application roadmap under the strategic development of S-curve</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/Talk_114">

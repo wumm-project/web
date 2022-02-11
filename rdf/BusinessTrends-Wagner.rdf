@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/ns/skos#"
+   xmlns:tc="http://opendiscovery.org/rdf/Concept/"
+   xmlns="http://opendiscovery.org/rdf/BusinessTrend/">
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01">
+    <od:Provocation xml:lang="en">How can the existing business model be supplemented or extended with
+further ideas, products, processes, services, business models?</od:Provocation>
+    <od:Provocation xml:lang="en">How can the existing offer be supplemented by further offers?</od:Provocation>
+    <od:Provocation xml:lang="en">How to extend the existing offer with a new Business model or combine it
+with another Business model?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie kann das bestehende Angebot durch ein neues Geschäftsmodell erweitert
+bzw. mit einem weiteren Geschäftsmodell kombiniert werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie kann das bestehende Angebot durch weitere Angebote ergänzt
+werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie kann das bestehende Geschäftsmodell mit weiteren Ideen, Produkten,
+Prozessen, Dienstleistungen, Geschäftsmodellen, etc. ergänzt bzw. erweitert
+werden?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как дополнить существующее предложение другими предложениями?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно дополнить или расширить существующую бизнес-модель новыми идеями,
+продуктами, процессами, услугами, бизнес-модельями и т.д.?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как расширить существующее предложение новым бизнес-модельем или объедить с
+другой бизнес-моделью?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der zunehmenden Systemvollständigkeit</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Increasing System Completeness</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция к увеличению полноты системы</rdfs:label>
+    <skos:definition xml:lang="en">Business models complement each other</skos:definition>
+    <skos:definition xml:lang="de">Geschäftsmodelle ergänzen sich gegenseitig</skos:definition>
+    <skos:definition xml:lang="ru">Бизнес-модели дополняют друг друга</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_01"/>
+    <skos:example xml:lang="de">Häufig vervollständigen Steuerkanzleien ihr Geschäftsmodell mit
+Rechtsanwaltskanzleien.  Dabei basieren beide Geschäftsmodelle auf einem
+identischen Kundenstamm (Zielgruppe).  Wenn eines der Geschäftsmodelle allein
+nicht profitabel genug wäre, so kann die Kombination aus Steuer- und
+Rechtsanwaltskanzlei dazu führen, dass das kombinierte Geschäftsmodell
+profitabel wird.</skos:example>
+    <skos:example xml:lang="en">Tax firms often complete their business model with law firms. Both business
+models are based on an identical customer base (target group). If one of the
+business models alone would not be profitable enough, in the combination of
+tax and law firm the combined business model becomes profitable.</skos:example>
+    <skos:example xml:lang="ru">Налоговые фирмы часто расширяют свою бизнес-модель с юридическими фирмами.
+Обе бизнес-модели основаны на идентичной базе клиентов (целевая группа). Если
+одна из бизнес-моделей недостаточно прибыльна, сочетание налоговой и
+юридической фирмы в комбинированную бизнес-модель становится
+прибыльным.</skos:example>
+    <skos:note xml:lang="en">As business models evolve, they become frequently completed. For
+completion, others business models can be used (combination). The other
+business models are often based on "smaller" ideas that cannot survive on
+their own.</skos:note>
+    <skos:note xml:lang="de">Bei der Weiterentwicklung von Geschäftsmodellen werden diese häufig
+vervollständigt. Zur Vervollständigung können dabei andere Geschäftsmodelle
+(Kombination) dienen. Die anderen Geschäftsmodelle basieren häufig auf
+„kleineren“ Ideen, die eigenständig nicht überlebensfähig wären.</skos:note>
+    <skos:note xml:lang="ru">По мере развития бизнес-моделей они часто уполняются. Для этого могут
+служить другие бизнес-модели (комбинация). Эти дригие бизнес-модели часто
+основаны на "меньших" идеях, которые не могут выжить сами по себе.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_01"/>
+    <skos:example xml:lang="en">Commonly within a company coexist different business models. For example,
+Spotify combines at least 3 business models (freemium, hidden revenue,
+subscription), PayPal at least 2 business models (Cash Machine and Layer
+Player) and Netflix also at least 2 business models (digitization, flat rate).
+For example, for Netflix the flat rate business model serves the element
+revenue mechanics and the digitalization business model could be used both in
+the customer channels (via the Internet) or attributed to the value
+proposition.</skos:example>
+    <skos:example xml:lang="de">Häufig finden sich innerhalb eines Unternehmens unterschiedliche
+Geschäftsmodelle. So hat z.B. Spotify mind. 3 Geschäftsmodelle (Freemium,
+Hidden Revenue, Subscription), PayPal mind. 2 Geschäftsmodelle (Cash Machine
+und Layer Player) und Netflix auch mind. 2 Geschäftsmodelle (Digitalisation,
+Flatrate) vereint. Am Beispiel von Netflix dient das Geschäftsmodell Flatrate
+dem Element Erlösmechanik und das Geschäftsmodell Digitalisation könnte sowohl
+den Kundenkanälen (per Internet) oder der Value Proposition zugeschrieben
+werden.</skos:example>
+    <skos:example xml:lang="ru">Обычно в компании сосуществуют разные бизнес-модели. Например, Spotify
+имеет как минимум 3 бизнес-модели (фримиум, скрытый доход, подписка), PayPal
+не менее 2 бизнес-модели (Cash Machine и Layer Player) и Netflix также как
+минимум 2 бизнес-модели (оцифровка, фиксированная ставка).  Например для
+Netflix бизнес-модель с фиксированной ставкой обслуживает элемент механики
+доходов, и бизнес-модель цифровизации используется как в клиентских каналах
+(через Интернет), так и связана с ценностным предложением.</skos:example>
+    <skos:note xml:lang="de">Die neuen Geschäftsmodelle bedienen in den meisten Fällen unterschiedliche
+Elemente des Kern-Geschäftsmodells.</skos:note>
+    <skos:note xml:lang="en">The new business models serve in most cases different elements of the core
+business model.</skos:note>
+    <skos:note xml:lang="ru">Новые бизнес-модели обслуживают в большинстве случаев различные элементы
+корневой бизнес-модели.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_3">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_01"/>
+    <skos:example xml:lang="en">Ryanair is offers through the add-on business model many complementary
+extras and demands additional charges from the customer. Payback completes the
+offer with the business model Customer Loyalty and offers additional programs
+to the existing offer which ultimately bind the customer to the
+company.</skos:example>
+    <skos:example xml:lang="de">Ryanair schafft es mithilfe des Geschäftsmodells Add-on durch viele
+komplementäre Extras zusätzliche Gebühren beim Kunden zu verlangen. Payback
+vervollständigt das Angebot durch das Geschäftsmodell Customer Loyality und
+bietet über das bestehende Angebot zusätzliche Programme an, welche
+letztendlich den Kunden an das Unternehmen binden.</skos:example>
+    <skos:example xml:lang="ru">Ryanair, используя бизнес-модель дополнения предлагает клиенту многие
+дополнительные услуги за дополнительную плату. Payback дополняет предложение
+бизнес-моделью лояльность клиентов и предлагает дополнительные программы сверх
+существующего предложения, которые в конечном итоге связывают клиента с
+компанией.</skos:example>
+    <skos:note xml:lang="en">In many cases, new business models also mean that existing offers are
+extended and completed.</skos:note>
+    <skos:note xml:lang="de">In vielen Fällen führen neue Geschäftsmodelle auch dazu, dass das
+bestehende Angebot erweitert und vervollständigt wird.</skos:note>
+    <skos:note xml:lang="ru">Во многих случаях новые бизнес-модели также ведут к тому, что существующее
+предложение расширяется и дополняется.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02">
+    <od:Provocation xml:lang="en">How could the business model be further developed, when important elements
+like customers, stakeholders, etc. are trimmed out?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Elemente des bisherigen Geschäftsmodells könnten herausgetrimmt
+werden?  Welche anderen Elemente könnten die Funktion des getrimmten Elements
+übernehmen?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Schritte im bisherigen Kaufprozess könnte der Kunde als lästig
+empfinden?  Welche Schritte sind kritisch?  Was würde passieren, wenn genau
+diese Schritte herausgelöscht würden?</od:Provocation>
+    <od:Provocation xml:lang="en">What elements of the previous business model could get trimmed? Which other
+elements could take over the function of the trimmed elements?</od:Provocation>
+    <od:Provocation xml:lang="en">What would the business model look like if important actors,
+e.g. stakeholders, etc. are trimmed? Which actors could take over the function
+of the missing actors?</od:Provocation>
+    <od:Provocation xml:lang="en">What would the business model look like if important process steps such as
+financing, direct sales, etc. are trimmed? How could the corresponding process
+step be taken over by another place?</od:Provocation>
+    <od:Provocation xml:lang="en">Which steps in the existing purchase process the customer could find
+annoying? Which steps are critical? What would happen, if exactly these steps
+were deleted?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das Geschäftsmodell weiter entwickelt werden, wenn wichtige
+Elemente wie Kunden, Stakeholder, etc. herausgetrimmt werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie würde das Geschäftsmodell aussehen, wenn wichtige Akteure,
+z.B. Stakeholder, etc. herausgetrimmt werden?  Welche Akteure könnten die
+Funktion der fehlenden Akteure übernehmen?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie würde das Geschäftsmodell aussehen, wenn wichtige Prozessschritte wie
+z.B. Finanzierung, Direktverkauf, etc.  herausgetrimmt werden?  Wie könnte der
+entsprechende Prozessschritt von einer anderen Stelle übernommen
+werden?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как бы выглядела бизнес-модель, если бы важные актеры, например
+заинтересованные стороны и т.д., свертывались? Какие актеры могли взять на
+себя функции свернутых элементов?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как бы выглядела бизнес-модель, если бы важные шаги процесса, как
+финансирование, прямые продажи и т.д. свертывались? Как можно было выполнить
+соответствующий шаг процесса в другом месте?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно дальше развивать бизнес-модель, когда важные элементы, такие как
+клиенты, заинтересованные стороны и т.д., свертывались?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие шаги в существующем процессе покупки клиент мог принимать
+раздражающим?  Какие шаги являются критическими? Что случилось бы, если бы
+были удалены именно эти шаги?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы существующей бизнес-модели можно свертывать? Какие другие
+элементы могут выполнять функцию свернутые элементы?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend des zunehmenden Trimmgrades</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Increasing Degee of Trimming</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция повышения уровня свертывания</rdfs:label>
+    <skos:definition xml:lang="en">Less is more</skos:definition>
+    <skos:definition xml:lang="de">Weniger ist mehr</skos:definition>
+    <skos:definition xml:lang="en">Меньше значит больше</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_02"/>
+    <skos:example xml:lang="en">Companies like YouTube enable customers to become producers and thus trim
+out their own producers. (Prosumer business model)</skos:example>
+    <skos:example xml:lang="de">Unternehmen wie YouTube ermöglichen es den Kunden, selbst zu Produzenten zu
+werden und trimmen damit eigene Produzenten heraus.  (Geschäftsmodell
+Prosumer)</skos:example>
+    <skos:example xml:lang="ru">Компании, как YouTube, позволяют клиентам стать производителями и таким
+образом свернуть своих собственных производителей (бизнес-модель
+Prosumer).</skos:example>
+    <skos:note xml:lang="en">Many existing business models are characterized by a strong marked
+complexity. But in many cases, less is more. In order to reduce complexity, in
+many cases it is helpful to trim (delete) elements. The function of the
+deleted element has to be transferred to another element within (or outside)
+the business model (e.g. customers, competitors, stakeholders).</skos:note>
+    <skos:note xml:lang="de">Viele bestehende Geschäftsmodelle sind durch eine starke Komplexität
+gekennzeichnet. Doch in vielen Fällen ist weniger mehr. Um die Komplexität
+reduzieren zu können, ist es in vielen Fällen hilfreich, Elemente
+herauszutrimmen (löschen). Die Funktion, die das herausgelöschte Element
+übernommen hat, wird dann an ein anderes Element innerhalb (oder außerhalb)
+des Geschäftsmodells (z.B. Kunden, Wettbewerber, Stakeholder)
+übergeben.</skos:note>
+    <skos:note xml:lang="ru">Многие существующие бизнес-модели характеризуются большой сложностью. Но во
+многих случаях меньше значит больше. Чтобы уменьшить сложность, во многих
+случаях полезно свернуть элементы (стереть их).  Функция, которую выполнял
+свернутый элемент, при этом переносится на другой элемент внутри (или вне)
+бизнес-модели (например, на клиенты, конкуренты, заинтересованные
+стороны).</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_02"/>
+    <skos:example xml:lang="de">Amazon hat früh erkannt, dass zu viele Klicks beim Kauf dazu führen, dass
+Kunden bei jedem weiteren Klick den Kauf erneut überdenken und ggf. den
+Kaufvorgang frühzeitig beenden. Diese Komplexität konnte Amazon umgehen, indem
+„1-Click“-Bestellungen ermöglicht werden. Dadurch können Kunden mit nur einem
+Klick das Produkt erwerben. Amazon konnte damit „unnötige“ Klicks
+herauslöschen.</skos:example>
+    <skos:example xml:lang="en">Amazon recognized early on that too many clicks result in customers
+reconsidering the purchase order with each additional click and in the bad end
+cancel the purchase process early. Amazon was able to bypass this complexity
+by enabling "1-Click" orders. This allows customers to purchase the product
+with just one click. Amazon was able to delete "unnecessary" clicks.</skos:example>
+    <skos:example xml:lang="ru">Amazon рано понял, что слишком много кликов приводит к тому, что клиенты
+пересматривают покупку с каждым дополнительным кликом и часто отменяют процесс
+покупки досрочно. Amazon смогла справиться с этой сложностью, введя ордера с
+одним кликом. Это позволяет клиентам приобрести товар в один клик. Amazon
+удалось удалить "лишние" клики.</skos:example>
+    <skos:note xml:lang="de">Andere Unternehmen profitieren davon, das Angebot durch ihr Geschäftsmodell
+mit so wenigen Komponenten bzw. Elementen wie möglich auszuführen.</skos:note>
+    <skos:note xml:lang="en">Other companies benefit if the offer is executed within a business model
+with as few components or elements as possible.</skos:note>
+    <skos:note xml:lang="ru">Другие компании получат выгоду от бизнес-модели которая выполняет процесс с
+минимальным количеством компонентов или элементов.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_3">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_02"/>
+    <skos:example xml:lang="en">Due to the Hidden Revenue business model, Twitter demands no fees from
+users for accessing the platform or use the app. But advertisements are
+displayed, causing brands to pay to Twitter a fee to place the ads and thus to
+reach the users of the platform. Thus, the missing user fees are replaced by
+fundings from the ads.</skos:example>
+    <skos:example xml:lang="de">Durch das Geschäftsmodell Hidden Revenue verlangt Twitter keine Gebühren
+von den Nutzern für den Zugriff auf die Plattform oder die Nutzung der App.
+Aber es werden Werbeanzeigen eingeblendet, wodurch Marken an Twitter eine
+Gebühr zahlen, um die Werbung zu schalten und die Nutzer der Plattform zu
+erreichen. Somit werden die fehlenden Nutzungsgebühren der Kunden über die
+Werbeanzeigen finanziert.</skos:example>
+    <skos:example xml:lang="ru">Используя бизнес-модели скрытого дохода Twitter требует никаких сборов с
+пользователей за доступ к платформе или использование приложения. Но
+показывается реклама, заставляя бренды Twitter платит за размещение рекламы и
+дойти до пользователей платформы. Таким образом, отсутствие платежа клиентов
+комспенсируется финансированием рекламы.</skos:example>
+    <skos:note xml:lang="de">Einige Unternehmen überdenken auch ihr Einnahmesystem und trimmen in diesem
+Fall z.B. die Logik, dass Kunden für die Einnahmen des Unternehmens
+verantwortlich sind, heraus.</skos:note>
+    <skos:note xml:lang="en">Some companies are also rethinking their revenue systems in this case and
+trim e.g. the logic that the customers are responsible for the revenue of the
+company.</skos:note>
+    <skos:note xml:lang="ru">Некоторые компании также передумают свою систему доходов и свертывают,
+например, логику, что для дохода компании клиенты несут ответственность.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03">
+    <od:Provocation xml:lang="en">How could elements of the environment be used to fulfill or take over tasks
+or processes of the existing business model?</od:Provocation>
+    <od:Provocation xml:lang="en">How could the existing business model be further developed if the
+Environment such as society, customers, companies, the Internet, competition,
+etc. is used? Which tasks could be taken over by the environment?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Aufgaben, Leistungen bzw. Elemente des bestehenden Geschäftsmodells
+könnten von Elementen des Umfelds übernommen werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Elemente des Umfelds wie z.B. Wettbewerb, Internet, etc. sind für
+das Geschäftsmodell noch relevant und wie könnten diese Elemente des Umfelds
+zur Generierung von Mehrwert genutzt werden?</od:Provocation>
+    <od:Provocation xml:lang="en">What elements of the environment such as competition, internet, etc. is
+still relevant for the business model and how could this environment be used
+to generate added value?</od:Provocation>
+    <od:Provocation xml:lang="en">What tasks, deliverables or elements of the existing Business model could
+be adopted by the environment?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das bisherige Geschäftsmodell weiterentwickelt werden, wenn das
+Umfeld wie z.B. Gesellschaft, Kunden, Unternehmen, Internet, Wettbewerb,
+etc. genutzt wird?  Welche Aufgaben könnten vom Umfeld übernommen
+werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnten Elemente des Umfelda des bestehenden Geschäftsmodells genutzt
+werden, um Aufgaben zu erfüllen bzw. oder Prozesse übernehmen?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно дальше развивать существующую бизнес-модель если использовть
+элементы окружающей среды, как общество, клиенты, компании, интернет,
+конкуренция и т.д.? Какие задачи может взять на себя окружающая среда?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие задачи, результаты или элементы существующей бизнес-модели могут быть
+выполнены окружающей средой?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы окружающей среды существующей бизнес-модели можно
+использовать для выполнения задач или процессов?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы окружающей среды, как конкуренция, интернет и т.д., всё ещё
+существены для бизнес-модели и как эта среда может быть использована для
+создания добавочной стоимости?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend des Übergangs zum Supersystem</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Transition to the Supersystem</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция перехода к надсистеме</rdfs:label>
+    <skos:definition xml:lang="de">Nutzung des Umfeldes</skos:definition>
+    <skos:definition xml:lang="en">Use of the environment</skos:definition>
+    <skos:definition xml:lang="ru">Использование окружающей среды</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_03"/>
+    <skos:example xml:lang="de">Bis 2014 hat Spotify ein Partnerprogramm angeboten. Es ermöglichte
+Benutzern, ihre Freunde für den Dienst zu werben. Nachdem sich fünf ihrer
+Freunde bei Spotify angemeldet hatten, erhielt der werbende Benutzer einen
+kostenlosen Monat Spotify. Spotify hat die Nutzer/Kunden dafür genutzt,
+weitere Kunden zu bekommen (Geschäftsmodell Affiliation).</skos:example>
+    <skos:example xml:lang="en">Until 2014, Spotify offered an affiliate program. It allowed users to win
+their friends for the service. If five of their friends had signed up for
+Spotify the advertiser recieved a free month of Spotify. Spotify has used the
+customers to get more customers (affiliation business model).</skos:example>
+    <skos:example xml:lang="ru">До 2014 года Spotify предлагал партнерскую программу.  Разрешили
+пользователям привлекать своих друзей к сервису. После того как пятеро их
+друзей подписались на Spotify, пользователь получил бесплатный месяц. Spotify
+использовал пользователи/клиенты для привлечения большего количества клиентов
+(бизнес-модель аффилиации).</skos:example>
+    <skos:note xml:lang="en">Many business models rely on the environment of the company for the value
+proposition and the offer. The environment may include physical objects,
+people (customers, competitors, Stakeholders, ...).</skos:note>
+    <skos:note xml:lang="de">Viele Geschäftsmodelle basieren darauf, dass die Umgebung des Unternehmens
+für das Werteversprechen und das Angebot genutzt werden. Die Umgebung kann
+hierbei physische Gegenstände, Personen (Kunden, Wettbewerber, Stakeholder, …)
+umfassen.</skos:note>
+    <skos:note xml:lang="ru">Многие бизнес-модели основаны на том, что окружающая среда компании
+используется для ценностного предложения. Окружающей средой могут быть
+физические объекты, люди (клиенты, конкуренты, заинтересованные стороны,
+...).</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_03"/>
+    <skos:example xml:lang="de">Durch die Nutzung des Internets konnte LinkedIn die Möglichkeit, sich zu
+vernetzen und nach relevanten Branchenkontakten zu suchen, online verfügbar
+machen. Dies ermöglicht es, mithilfe des Digitalisation Geschäftsmodells über
+die unmittelbare physische Reichweite hinauszugehen.</skos:example>
+    <skos:example xml:lang="en">Using the Internet, LinkedIn made available online the opportunity to
+network and seek relevant industry contacts. This allows using the
+Digitization business model to go beyond the immediate physical reach.</skos:example>
+    <skos:example xml:lang="ru">Используя интернет, LinkedIn сделал доступным возможность налаживания
+связей и поиска соответствующих отраслевых контактов через Интернет.
+Бизнес-модели оцифровки позволяет выйти за пределы непосредственной физической
+досягаемости.</skos:example>
+    <skos:note xml:lang="de">Die Umgebung umfasst auch digitale bzw. nicht direkt greifbare Dinge wie
+z.B. das Internet.</skos:note>
+    <skos:note xml:lang="en">The environment includes also digital and other intangible things such as
+e.g. the Internet.</skos:note>
+    <skos:note xml:lang="ru">Окружающая среда включает цифровые или другие нематериальные вещи как
+Интернет.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_3">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_03"/>
+    <skos:example xml:lang="en">Airbnb and Uber do not have hotel rooms or beds themselves or vehicles.
+Both companies use the products from their environment and thus use, for
+example, free apartments or vehicles from people in the environment. Both
+companies take over in this case more the role of a platform operator. </skos:example>
+    <skos:example xml:lang="de">Airbnb und Uber verfügen selbst über keine Hotelzimmer, Betten oder
+Fahrzeuge.  Beide Unternehmen bedienen sich der Produkte aus ihrer Umgebung
+und nutzen so z.B. frei stehende Wohnungen oder Fahrzeuge von Menschen aus dem
+Umfeld.  Beide Unternehmen übernehmen in diesem Fall mehr die Rolle eines
+Plattform-Betreibers.</skos:example>
+    <skos:example xml:lang="ru">У Airbnb и Uber нет гостиничных номеров, кроватей или транспортных средств.
+Обе компании используют продукты своей окружающей среды и, таким образом,
+используют, например, свободные квартиры или транспортные средства людей из
+окружающей среды. В этом случае обе компании берут больше на себя роль
+оператора платформы. </skos:example>
+    <skos:note xml:lang="en">Today many of the successful business models are based on products which
+are no longer available within the own company, but are used or obtained from
+the environment.</skos:note>
+    <skos:note xml:lang="de">Viele der erfolgreichen Geschäftsmodelle basieren heute darauf, dass
+Produkte nicht mehr innerhalb des eigenen Unternehmens vorhanden sind, sondern
+aus der Umgebung genutzt bzw. bezogen werden.</skos:note>
+    <skos:note xml:lang="ru">Многие современные успешные бизнес-модели основаны на том, что продукты
+больше не производятся в собственной компании, но используются или получаются
+из окружающей среды.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04">
+    <od:Provocation xml:lang="en">How changes the internal coordination of the business model when certain
+elements are changed?</od:Provocation>
+    <od:Provocation xml:lang="en">How does the existing business model change when specific elements such as
+customers and partners, revenue and sales, etc. are more or less aligned and
+coordinated with each other?</od:Provocation>
+    <od:Provocation xml:lang="en">How single elements of the existing business model can be changed, but
+still remain coordinable?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Auswirkung hat eine Änderung eines Elements des bestehenden
+Geschäftsmodells auf die Koordinierung mit anderen Elementen?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Elemente des Geschäftsmodells könnten verändert bzw.
+weiterentwickelt werden, ohne dass sich die interne Koordinierung des
+Geschäftsmodells allzu stark ändert?</od:Provocation>
+    <od:Provocation xml:lang="en">What is the effect of changing an element of the existing business model to
+the coordination of others elements?</od:Provocation>
+    <od:Provocation xml:lang="en">Which elements of the business model could be changed or be further
+developed without changing the internal coordination of the business model too
+much?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie können einzelne Elemente des bestehenden Geschäftsmodells verändert
+werden, aber dennoch weiterhin koordinierbar bleiben?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie verändert sich die interne Koordinierung des Geschäftsmodells, wenn
+bestimmte Elemente geändert werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie ändert sich das bestehende Geschäftsmodell, wenn bestimmte Elemente wie
+z.B. Kunden und Partner, Einnahmen und Umsatz, etc.  stärker oder schwächer
+aufeinander abgestimmt und koordiniert werden?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как влияет изменение элемента существующей бизнес-модели на координацию
+остальных элементов?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как меняется внутренняя координация бизнес-модели при изменении
+определенных элементов?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как меняется существующая бизнес-модель при изменении конкретные элементы,
+как клиенты и партнеры, доходы и денежный оборот и т.д. согласованы друг с
+другом в большей или меньшей степени?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как отдельные элементы существующей бизнес-модели можно изменить, сохранив
+согласованность?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы бизнес-модели можно изменить или развить дальнше не слишком
+меняв внутренную координацию бизнес-модели?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der zunehmenden Koordinierung</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Increasing Coordination</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция усиления координации</rdfs:label>
+    <skos:definition xml:lang="en">Stronger coordination</skos:definition>
+    <skos:definition xml:lang="de">Stärkere Koordinierung</skos:definition>
+    <skos:definition xml:lang="ru">Более тесная координация</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_04"/>
+    <skos:example xml:lang="de">Dell nutzt das Geschäftsmodell Cash Machine, mit welchem in den
+1980er-Jahren die erste Built-to-Order-Strategie eingeführt wird, welche zu
+einem stark negativen Geldumschlag für das Unternehmen führte.  Durch
+Fertigung nach Auftragseingang konnte Dell zusätzliche Liquidität
+freisetzen.</skos:example>
+    <skos:example xml:lang="en">Dell uses the Cash Machine business model, with which the first
+built-to-order strategy was introduced in the 1980s, which led to a strongly
+negative cash turnover for the company. Manufacturing after order allowed Dell
+to release additional liquidity.</skos:example>
+    <skos:example xml:lang="ru">Dell использует бизнес-модель Cash Machine, с которой в 1980-х годах была
+введена первая стратегия "построения по заказу".  Это привело к резко
+отрицательному денежному обороту компании. Производство после заказов
+позволило Dell получить дополнительную ликвидность.</skos:example>
+    <skos:note xml:lang="en">A successful business model interacts with its environment (customers,
+society, economy, etc.) more and more smoothly and achieves thus a higher
+value (ideality). The individual elements which interact with each other can
+be very diverse. For example, many service providers interact in a very
+coordinated manner with their customers and maintain computers or equipment if
+the customers do not use them (e.g. during holiday periods or after work).
+Also sales and revenue streams should be coordinated with each other.</skos:note>
+    <skos:note xml:lang="de">Ein erfolgreiches Geschäftsmodell interagiert mit dem Umfeld (Kunden,
+Gesellschaft, Wirtschaft, etc.) immer reibungsloser und erreicht dadurch einen
+höheren Wert (Idealität). Die einzelnen Elemente, welche miteinander
+interagieren, können dabei sehr divers sein. So interagieren bspw. viele
+Service-Anbieter in sehr koordinierter Art und Weise mit ihren Kunden und
+warten entsprechend Computer oder Anlagen, wenn die Kunden diese nicht nutzen
+(z.B. in Ferienzeiten oder nach Feierabend).  Auch Umsätze und Erlösströme
+sollten miteinander koordiniert werden.</skos:note>
+    <skos:note xml:lang="ru">Успешная бизнес-модель взаимодействует с окружающей средой (клиенты,
+общество, экономика и т.д.) все более и более плавно и достигает таким
+образом, более высокую ценность (идеальность). Отдельные элементы, которые
+взаимодействуют друг с другом могут быть самыми разнообразными. Например,
+взаимодействуют многие поставщики услуг очень скоординированы со своими
+клиентами и соответствующим образом обслуживают компьютеры или оборудование,
+если клиенты их не используют (например, во время отпуска или после работы).
+Также продажи и потоки доходов должны быть согласованы друг с другом.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_04"/>
+    <skos:example xml:lang="en">An example of this is the business model of the Swiss company Hapimag.  In
+the sense of the Fractionalized Ownership business model its customers acquire
+shares and thus the right to use almost 60 Hapimag holiday resorts. For
+Hapimag as provider this distribution of property increases the demand on
+coordination of availability.</skos:example>
+    <skos:example xml:lang="de">Ein Beispiel hierfür ist das Geschäftsmodell des Schweizer Unternehmens
+Hapimag, bei welchem Kunden im Sinne des Fractionalized
+Ownership Geschäftsmodells Aktien erwerben und somit Recht zur Nutzung von
+knapp 60 Hapimag-Ferienressorts erhalten.  Durch die Verteilung des Eigentums
+erhöht sich für den Anbieter Hapimag jedoch die Koordinierung der
+Verfügbarkeit.</skos:example>
+    <skos:example xml:lang="ru">Примером этого является бизнес-модель швейцарской компания Hapimag, с
+которой клиенты в смысле бизнес-модели дробной собственности приобретает акции
+и, следовательно, право на использование почти 60 туристических центров
+Hapimag.  Через раздел имущества тем не менее, нужда координации увеличивается
+для Hapimag как поставщика.</skos:example>
+    <skos:note xml:lang="de">In anderen Fällen können Kunden nur bestimmte Teile des Angebots erwerben,
+was auf der Seite des Geschäftsmodells eine entsprechende Koordinierung
+erfordert.</skos:note>
+    <skos:note xml:lang="en">In other cases, customers can only acquire certain parts of the offer thus
+requiring appropriate coordination on the side of the business model.</skos:note>
+    <skos:note xml:lang="ru">В других случаях клиенты могут выбирать только определенные части
+предложения, что требует на стороне бизнес-модели дополнительного
+согласования.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_05">
+    <od:Provocation xml:lang="en">How can the existing business model be further developed by placing the
+focus on creating value for customers?</od:Provocation>
+    <od:Provocation xml:lang="de">Was ist der tatsächliche Mehrwert des Geschäftsmodells beim Kunden und wie
+kann dieser genutzt werden, um (zusätzliche) Umsätze zu generieren?</od:Provocation>
+    <od:Provocation xml:lang="en">What is the real value of the business model for the customers and how
+this can be used to generate (additional) sales?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie kann das bestehende Geschäftsmodell weiterentwickelt werden, indem der
+Fokus auf die Schaffung von Wert bei Kunden gelegt wird?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно дальше развивать существующую бизнес-модель сосредоточив внимание
+на создании ценности у клиента?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какова фактическая ценность бизнес-модели у клиента и как это можно
+использовать для создания (дополнительных) продаж?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der zunehmenden Kontrollierbarkeit</rdfs:label>
+    <rdfs:label xml:lang="en">Trend towards increasing controllability</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция к повышению управляемости</rdfs:label>
+    <skos:definition xml:lang="en">Focus on adding value to customers</skos:definition>
+    <skos:definition xml:lang="de">Fokus auf Mehrwert bei Kunden</skos:definition>
+    <skos:definition xml:lang="ru">Сосредоточьтесь на повышении ценности для клиентов</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_05_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_05"/>
+    <skos:example xml:lang="de">Starbucks konnte durch die Nutzung eben dieses Geschäftsmodells die Kunden
+einladen, Kaffee in einer gemütlichen Umgebung zu genießen und verkauft diesen
+damit ein Erlebnis. Damit konnte es das Unternehmen schaffen, sowohl
+Popularität als auch Umsätze zu steigern (Geschäftsmodell Experience
+Selling).</skos:example>
+    <skos:example xml:lang="en">Starbucks used this business model inviting customers to enjoy coffee in a
+cozy environment and thus sells them an experience. With that it managed to
+increase both popularity and sales (Business model Experience Selling).</skos:example>
+    <skos:example xml:lang="ru">Starbucks смогла использовать эту бизнес-модель, приглашающая клиентов
+выпить кофе в уютной обстановке и, таким образом, продает им переживание. Так
+компании удалось увеличить как популярность, так и продажи (Бизнес-модель
+продажа переживания).</skos:example>
+    <skos:note xml:lang="en">Many of the traditional companies neglect the relevance of added value
+creation for customers and focus primarily on generating sales. It is
+increasingly important to pick up customers through a generated added value
+and thus indirectly generate sales. For example, through the business model
+Experience Selling above all, the perceptible environment of the customers is
+actively influenced. Based on this, a higher differentiation to competitors
+and above all a higher customer retention and higher sales due to a higher
+willingness to pay are reached.</skos:note>
+    <skos:note xml:lang="de">Viele der traditionellen Unternehmen vernachlässigen die Relevanz der
+Schaffung von Mehrwert bei den Kunden und konzentrieren sich primär darauf,
+Umsatz zu generieren. Dabei ist es zunehmend von Bedeutung, Kunden durch einen
+gestifteten Mehrwert abzuholen und somit indirekt Umsatz zu generieren.  So
+kann z.B. durch das Geschäftsmodell Experience Selling vor allem die
+wahrnehmbare Umwelt der Kunden aktiv beeinflusst werden, womit darauf
+aufbauend eine höhere Differenzierung zu Wettbewerbern und vor allem eine
+höhere Kundenbindung und höhere Umsätze aufgrund einer höheren
+Zahlungsbereitschaft verbunden sind.</skos:note>
+    <skos:note xml:lang="ru">Многие традиционные компании пренебрегают актуальностью создания добавочной
+стоимости для клиентов и ориентируются в первую очередь на генерацию продаж.
+Все важнее станет создать добавочную стоимость, которую видит клиент и, таким
+образом, косвенно генерировать продажи. Например, через бизнес-модель
+Experience Selling прежде всего, активно воздействуют на воспринимаемую
+клиентом среду. На основе этого достигаются более высокое различение от
+конкурентов и прежде всего более высокое удержание клиентов и более высокие
+продажи за счет более высокой готовности платить.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06">
+    <od:Provocation xml:lang="en">How could the business model be divided into different elements?  How could
+these elements be (re)assembled, to make the business model more
+flexible?</od:Provocation>
+    <od:Provocation xml:lang="en">How does the business model change if individual segments or elements are
+*spatially* separated from each other, e.g. are processed at different
+locations?</od:Provocation>
+    <od:Provocation xml:lang="en">How does the business model change if individual segments or elements are
+separated *in time* from each other, e.g are processed at different
+times?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Elemente des bestehenden Geschäftsmodells können mehrere Funktionen
+übernehmen, um dadurch von nur einer Funktion zu Multifunktionalität zu
+gelangen?</od:Provocation>
+    <od:Provocation xml:lang="en">What elements of the existing business model can take over *several*
+functions and thus move to multifunctionality?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das Geschäftsmodell in unterschiedliche Elemente aufgeteilt
+werden?  Wie könnten diese Elemente (neu) zusammengesetzt werden, um das
+Geschäftsmodell flexibler zu gestalten?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie verändert sich das Geschäftsmodell, wenn einzelne Segmente bzw.
+Elemente *räumlich* voneinander getrennt sind, z.B. an unterschiedlichen Orten
+ablaufen?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie verändert sich das Geschäftsmodell, wenn einzelne Segmente bzw.
+Elemente *zeitlich* voneinander getrennt sind, z.B. zu unterschiedlichen
+Zeiten ablaufen?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как меняется бизнес-модель, если отдельные сегменты или элементы отделяются
+*по времени* друг от друга, например проводятся в разное время?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как меняется бизнес-модель, если сегменты или элементы *пространственно*
+отделяются друг от друга, например проводятся в разных местах?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно разделить бизнес-модель на разные элементы? Как эти элементы
+могут быть (по другому) собраны, чтобы сделать бизнес-модель более
+гибкой?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы существующей бизнес-модели могут взять на себя несколько
+функций и тем самым переходить от одной функции к
+многофункциональности?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der zunehmenden Dynamisierung</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Increasing Dynamization</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция увеличения динамизации</rdfs:label>
+    <skos:definition xml:lang="de">Mehr Flexibilität</skos:definition>
+    <skos:definition xml:lang="en">More flexibility</skos:definition>
+    <skos:definition xml:lang="ru">Больше гибкости</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_06"/>
+    <skos:example xml:lang="en">A franchise business model has allowed McDonald's to combine rigid and
+standardized processes with flexible individual entrepreneurs. The individual
+entrepreneurs can open their own McDonald's restaurant. They are responsible
+for running their own (or several) restaurants, but must adhere to all
+standards set by the company, e.g. purchasing, product range and corporate
+identity.</skos:example>
+    <skos:example xml:lang="de">Durch ein Franchise-Geschäftsmodell konnte McDonald‘s starre und
+standardisierte Prozesse mit flexiblen Einzelunternehmern verbinden.  Die
+Einzelunternehmer können ihr eigenes McDonald-Restaurant eröffnen. Sie sind
+für den Betrieb ihres eigenen (oder mehrerer) Restaurants verantwortlich,
+müssen sich aber an alle vom Unternehmen festgelegten Standards halten,
+z.B. Einkauf, Produktangebot und Corporate Identity.</skos:example>
+    <skos:example xml:lang="ru">Бизнес-модель франчайзинга позволила McDonald's объединить жесткие и
+стандартизированные процессы с гибкими индивидуальными предпринимателями.
+Индивидуальные предприниматели могут открыть собственный ресторан McDonald's.
+Они отвечает за управление собственными (или несколькими) ресторанами, но
+должны соблюдать все стандарты, установленные компанией, например, покупка,
+ассортимент продукции и фирменный стиль.</skos:example>
+    <skos:note xml:lang="en">Traditional business models are often very rigid and inflexible. To gain
+more flexibility and agility, it can be worth to divide the business model
+into smaller units or elements. As a result, the actually rigid and inflexible
+model gains in flexibility.</skos:note>
+    <skos:note xml:lang="de">Traditionelle Geschäftsmodelle sind oftmals sehr starr und unflexibel. Um
+mehr Flexibilität und Agilität zu erlangen, kann es lohnenswert sein, das
+Geschäftsmodell in kleinere Einheiten bzw. Elemente zu teilen.  Dadurch
+gewinnt das eigentlich starre und unflexible Modell an Flexibilität.</skos:note>
+    <skos:note xml:lang="ru">Традиционные бизнес-модели часто очень жесткие и негибкие. Чтобы получить
+больше гибкости и маневренности, может быть полезным разделить бизнес-модель
+на более мелкие единицы или элементы.  В результате жесткая и негибкая модель
+приобретает все большее гибкости.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_06"/>
+    <skos:example xml:lang="de">Die Mode-Marke Zara beschäftigt weltweit Hunderte von Designern und
+Modebeobachtern, um das frühzeitige Erkennen von Modetrends und Entwicklungen
+zu gewährleisten. Neue Entwürfe, die von diesen Scouts stammen, können von
+Zaras integrierter Wertschöpfungskette in nur wenigen Wochen produziert werden
+(From-Push-to-Pull-Geschäftsmodell)</skos:example>
+    <skos:example xml:lang="en">Fashion brand Zara employs worldwide hundreds of designers and fashion
+watchers to ensure early recognition of fashion trends and developments. New
+designs coming from these scouts, can be produced by Zara's integrated value
+chain in just a few weeks (from push to pull business model)</skos:example>
+    <skos:example xml:lang="ru">В модном бренде Zara работают сотни дизайнеры и наблюдатели за модой по
+всему миру, чтобы рано распознавать модные тенденции и развития.  Новые
+наброски, исходящие от этих разведчиков, Zara может производиться из-за
+интегрированной цепочки создания стоимости всего за несколько недель
+(бизнес-модели push-to-pull)</skos:example>
+    <skos:note xml:lang="en">In many cases also a decentralization of processes leads to more
+flexibility and thus to a stronger customer orientation. To react quickly and
+flexibly to new customer needs, each part of the value chain including
+production or even research and development may be concerned.</skos:note>
+    <skos:note xml:lang="de">In vielen Fällen führt auch eine Dezentralisierung von Prozessen zu mehr
+Flexibilität und dadurch zu stärkerer Kundenorientierung. Um schnell und
+flexibel auf neue Kundenbedürfnisse zu reagieren, kann jeder Teil der
+Wertschöpfungskette einschließlich der Produktion oder sogar der Forschung und
+Entwicklung betroffen sein.</skos:note>
+    <skos:note xml:lang="ru">Во многих случаях также децентрализация процессов приводит к большей
+гибкости и, таким образом, к более сильной ориентации на клиента. Чтобы быстро
+и гибко реагировать на новые потребности клиентов, каждая часть цепочки
+создания стоимости может быть затронутой, включая производство или даже
+исследования и разработка.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07">
+    <od:Provocation xml:lang="en">How could the existing business model be further developed when human tasks
+are digitized?</od:Provocation>
+    <od:Provocation xml:lang="en">How could the existing business model work, when there is no human
+interaction? How the new business model has to be designed?</od:Provocation>
+    <od:Provocation xml:lang="en">How could the existing offer or the existing service be fully automated?
+How does that change the business model?</od:Provocation>
+    <od:Provocation xml:lang="en">How would the business model change if different elements or process steps
+such as customer channels, payment, etc. are designed without human
+interaction?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Elemente eines Geschäftsmodells könnten ohne menschliche Interaktion
+funktionieren?  Welche Prozessschritte könnten ohne menschliche Interaktion
+funktionieren?</od:Provocation>
+    <od:Provocation xml:lang="en">What elements of a business model could be operated without human
+interaction?  Which process steps could be executed without human
+interaction?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das bestehende Angebot bzw. die bestehende Dienstleistung
+vollkommen automatisiert werden?  Wie verändert sich dadurch das
+Geschäftsmodell?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das bestehende Geschäftsmodell funktionieren, wenn keine
+menschliche Interaktion stattfindet?  Wie müsste das neue Geschäftsmodell
+gestaltet sein?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das bestehende Geschäftsmodell weiterentwickelt werden, wenn
+menschliche Aufgaben digitalisiert werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie würde sich das Geschäftsmodell ändern, wenn unterschiedliche Elemente
+bzw.  Prozessschritte wie z.B. Kundenkanäle, Zahlung, etc. ohne menschliche
+Interaktion ausgestaltet sind?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как изменится бизнес-модель, если различные элементы или этапы процесса,
+такие как каналы к клиентам, платежи и т.д. разработаны без участия
+человека?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как может работать существующая бизнес-модель, когда нет человеческого
+взаимодействия? Как должен работать такая бизнес-модель?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно существующее предложение или существующий сервис полностью
+автоматизировать? Как это меняет бизнес-модель?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно улучшить существующую бизнес-модель, когда человеческие задачи
+будут оцифрованы?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы бизнес-модели могут работать без человеческого
+взаимодействия?  Какие этапы процесса можно выполнить без человеческого
+вмешения?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der abnehmenden Einbeziehung von Menschen</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Decreasing Human Involvement</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция сокращения человеческого взаимодействия</rdfs:label>
+    <skos:definition xml:lang="de">Abnehmende menschliche Interaktion</skos:definition>
+    <skos:definition xml:lang="en">Declining Human Interaction</skos:definition>
+    <skos:definition xml:lang="en">Снижение человеческого взаимодействия</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_07"/>
+    <skos:example xml:lang="en">PayPal could due to decreasing human interaction radically innovate
+transactions in the financial world. With PayPal transactions are fully
+automated.</skos:example>
+    <skos:example xml:lang="de">PayPal konnte durch eine abnehmende menschliche Interaktion bei
+Transaktionen zu einer radikalen Innovation im Finanzbereich sorgen. Die
+Transaktionen laufen bei PayPal vollautomatisiert ab.</skos:example>
+    <skos:example xml:lang="ru">Из-за уменьшения взаимодействия с человеком PayPal радикально мог обновить
+финансовый мир транзакций. PayPal полностью автоматизировал транзакции.</skos:example>
+    <skos:note xml:lang="de">Die immer stärkere Digitalisierung macht auch vor Geschäftsmodellen keinen
+Halt. Viele Prozesse werden digitalisiert und laufen zunehmend ohne
+menschliche Interaktion.</skos:note>
+    <skos:note xml:lang="en">Increasing digitization also influences the design of business models. Many
+processes are digitized and run increasingly without human interaction.</skos:note>
+    <skos:note xml:lang="ru">Все более полная цифровизация также меняет бизнес-модели. Многие процессы
+оцифрованы и все чаще работают без участия человека.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_07"/>
+    <skos:example xml:lang="de">Die Bäckereikette BackWerk hat in ihrem Geschäftsmodell auf Mitarbeiter
+verzichtet, welche die Kunden bedienen. Kunden bedienen sich durch das
+Self-Service-Geschäftsmodell selbst.</skos:example>
+    <skos:example xml:lang="en">The bakery chain BackWerk dispensed in its business model employees who
+serve the customers. Within the self-service business model customers serve
+themselves.</skos:example>
+    <skos:example xml:lang="ru">Сеть пекарен BackWerk не использует в своей бизнес-модели сотрудников,
+обслуживающих клиентов. Клиенты обслуживают сами себе, применяется
+бизнес-модель самообслуживания.</skos:example>
+    <skos:note xml:lang="de">Je geringer die menschliche Interaktion, desto vollautomatisierter wird das
+Geschäftsmodell.  Menschliche Interaktion kann hierbei von unterschiedlichen
+Personengruppen ausgehen: von den Mitarbeitern des Unternehmens, von Kunden,
+Stakeholdern, etc.</skos:note>
+    <skos:note xml:lang="en">The less human interaction, the more the business model becomes automated.
+Human interaction can emanate from different groups of people: employees of
+the company, customers, stakeholders, etc.</skos:note>
+    <skos:note xml:lang="ru">Чем меньше человеческого взаимодействия, тем бизнес-модель станет более
+полностью автоматизированной. Взаимодействие человека может изходить от разных
+групп людей: сотрудники компании, клиенты, заинтересованные стороны и
+т.д.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_3">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_07"/>
+    <skos:example xml:lang="de">Der Einsatz von Sensoren ermöglicht zusätzliche Dienstleistungen für
+physische Angebote oder ganz neue eigenständige Services. So hat Procter &amp;
+Gamble seine Lieferkette flächendeckend mit RFID-Sensoren ausgestattet. Die
+Sensoren bieten Datenzugriff und Verfolgungsmöglichkeiten in Echtzeit und
+optimieren so die eigene Lieferkette von P&amp;G (Geschäftsmodell Sensor As A
+Service).</skos:example>
+    <skos:example xml:lang="en">The use of sensors enables additional services for physical offerings or
+very new standalone services. In this way, Procter &amp; Gamble equipped its
+entire supply chain with RFID sensors. The sensors provide data access and
+tracking options in real time and thus optimize the supply chain of P&amp;G
+(business model Sensor As A Service).</skos:example>
+    <skos:example xml:lang="ru">Использование датчиков позволяет дополнительные услуги для физических
+предложений или совсем новые самостоятельные сервисы. Например, Procter &amp;
+Gamble оборудовал всю цепочку поставок датчиками RFID. Датчики обеспечивают
+доступ к данным и отслеживание вариантов в режиме реального времени и, таким
+образом, оптимизацию собственной цепочки поставок P&amp;G (бизнес-модель сенсор
+как сервис).</skos:example>
+    <skos:note xml:lang="de">Durch die abnehmende menschliche Interaktion kommt es zu einem zunehmenden
+Einsatz von digitalen Ersatzprodukten, welche die Aufgaben des Menschen
+übernehmen.</skos:note>
+    <skos:note xml:lang="en">With decreasing human interaction, there is a increasing use of digital
+replacement products that take over the tasks of the people.</skos:note>
+    <skos:note xml:lang="ru">Уменьшение человеческого взаимодействия сопровождается все более широким
+использованием цифровых продуктов, которые берут задачи людей на себя.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08">
+    <od:Provocation xml:lang="en">How can differently developed elements or products generate additional
+sales? How does this change the earnings mechanics?</od:Provocation>
+    <od:Provocation xml:lang="en">How does the business model change if an element is considered under
+extreme conditions such as extremely much/little available funds, extremely
+much/little available time etc.?</od:Provocation>
+    <od:Provocation xml:lang="en">How would the business model change if individual elements are developed
+differently, e.g. customer channels are digitized, etc.?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Elemente des Geschäftsmodells lassen sich schneller oder langsamer
+entwickeln?  Wie verändert sich dadurch das Geschäftsmodell?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Widersprüche entstehen durch ungleiche Entwicklung?  Wie können
+diese Widersprüche durch TRIZ-Werkzeuge gelöst werden?</od:Provocation>
+    <od:Provocation xml:lang="en">What contradictions arise from unequal development?  How can these
+contradictions be solved by TRIZ tools?</od:Provocation>
+    <od:Provocation xml:lang="en">What elements of the business model could be developed faster or more
+slowly? How does this change the business model?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie können unterschiedlich entwickelte Elemente bzw. Produkte zusätzliche
+Einnahmen generieren?  Wie verändern diese die Ertragsmechanik?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie würde sich das Geschäftsmodell ändern, wenn ein Element unter
+Extrembedingungen wie z.B. extrem viel/wenig verfügbare Geldmittel, extrem
+viel/wenig verfügbare Zeit etc. betrachtet wird?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie würde sich das Geschäftsmodell ändern, wenn einzelne Elemente
+unterschiedlich entwickelt werden, z.B. Kundenkanäle digitalisiert werden,
+etc.?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как изменится бизнес-модель, если отдельные элементы разрабатываются
+по-разному, например, каналы клиентов оцифровываются и т.д.</od:Provocation>
+    <od:Provocation xml:lang="ru">Как изменится бизнес-модель, если элемент действует в экстремальных
+условиях, как очень много/мало доступных средств, чрезвычайно много/мало
+доступного времени и т.д.?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как могут по-разному развитые элементы или продукты приносить
+дополнительный доход? Как они изменяют механику доходов?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие противоречия возникают из-за неравномерного развития?  Как эти
+противоречия могут быть разрешены средствами ТРИЗ?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие элементы бизнес-модели могут развиваться быстрее или медленнее?  Как
+это меняет бизнес-модель?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der ungleichen Entwicklung von Systemkomponenten</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Uneven Development of System Components</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция неравномерного развития компонентов системы</rdfs:label>
+    <skos:definition xml:lang="de">Ungleiche Entwicklung</skos:definition>
+    <skos:definition xml:lang="en">unequal development</skos:definition>
+    <skos:definition xml:lang="ru">неравное развитие</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_08"/>
+    <skos:example xml:lang="de">Mymuesli schafft es durch das Geschäftsmodell Mass Customization (dt.
+Individualisierung von Massenprodukten), dass aus Basis-Zutaten individuelle
+Müslivarianten entwickelt werden können.  Der Kunde erhält somit jederzeit
+sein individuelles Müsliangebot. Im Fall von Mymuesli werden die Basis-Zutaten
+selbst nicht weiter entwickelt, durch die individuelle Zusammenstellung der
+Kunden können diese jedoch unterschiedlich weiterentwickelt werden.</skos:example>
+    <skos:example xml:lang="ru">Mymuesli преуспевает через бизнес-модель Mass Customization, что из
+основных ингредиентов можно разработать индивидуальные варианты мюслей. Клиент
+таким образом получает индивидуальное предложение мюсли в любое время. В
+случае с Mymuesli сами основные ингредиенты далее не разрабатываются. Через
+ндивидуальную подборку клиентов, однако варияции дальше развивются.</skos:example>
+    <skos:example xml:lang="en">Through the Mass Customization business model Mymuesli does it manage to
+develop individual muesli variants from basic ingredients. The customer thus
+receives an individual muesli offer at any time. In the case of Mymuesli the
+basic ingredients themselves are not further developed.  By the individual
+compilation of customers, however, they can further develop the
+variations.</skos:example>
+    <skos:note xml:lang="en">A business model consists of different elements. However, the elements
+themselves are not always equally far or strong developed and therefore
+sometimes require different treatment or further development. Some business
+models are based just on this different development of their individual
+elements.</skos:note>
+    <skos:note xml:lang="de">Ein Geschäftsmodell besteht aus unterschiedlichen Elementen. Die Elemente
+selbst sind dabei jedoch nicht immer gleich weit bzw. stark entwickelt und
+bedürfen daher teilweise einer unterschiedlichen Behandlung bzw.
+Weiterentwicklung.  Einige Geschäftsmodelle basieren genau auf dieser
+unterschiedlichen Entwicklung ihrer einzelnen Elemente.</skos:note>
+    <skos:note xml:lang="ru">Бизнес-модель состоит из различных элементов.  Однако сами элементы не
+всегда одинаково далеко и прочно развиты и поэтому иногда требуют
+дифференцированного подхода и дальнейшего развития. Некоторые бизнес-модели
+основаны именно на таком различном развитии их отдельных элементов.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_08"/>
+    <skos:example xml:lang="de">Bei Mercedes-Benz oder BMW sind AddOn-Muster in vielen Fällen ein
+profitabler Weg, um den Kunden individuell zugeschnittene Produkte, teilweise
+auch weiter oder weniger weit entwickelte Produkte (z.B. zusätzliche digitale
+Angebote oder im Gegenzug einen Rückgang zu analogen Angeboten) anbieten zu
+können und darüber hohe Margen zu erzielen.  Ebenso nutzt Bosch das
+Add-On-Muster, um als Zusatzservice zu standardisierten Hardwareprodukten auch
+maßgeschneiderte Softwarelösungen anzubieten.</skos:example>
+    <skos:example xml:lang="en">With Mercedes-Benz or BMW add-on patterns are in many cases a profitable
+way to offer customers individually tailored products, partly also more or
+less developed products (e.g. additional digital offers or, on the opposite, a
+decline compared to analogue offers) thereby to achieve high margins.
+Likewise, Bosch uses the add-on pattern, to offer to standardized hardware
+products additionally tailored software solutions.</skos:example>
+    <skos:example xml:lang="ru">Шаблоны надстройки для Mercedes-Benz или BMW во многих случаях являются
+выгодным способом предложить клиентам индивидуально подобранные продукты,
+частично также более или менее развитые продукты (например, дополнительные
+цифровые предложения или, взамен, отказ от аналоговых предложений) и тем самым
+добиться высокой маржи. Аналогичным образом Bosch использует шаблон
+надстройки, чтобы предлагать к стандартизированным аппаратным продуктам
+дополнительные услуги как индивидуальные программные решения.</skos:example>
+    <skos:note xml:lang="en">Products and offerings that are faster or more advanced can lead within a
+new business model to additional new revenue.</skos:note>
+    <skos:note xml:lang="de">Produkte und Angebote, die schneller oder weiter entwickelt sind, können
+mithilfe eines neuen Geschäftsmodells zusätzlich zu neuen Einnahmen
+führen.</skos:note>
+    <skos:note xml:lang="ru">Продукты и предложения, которые работают быстрее или более развиты, могут
+быть использованы в новой бизнес-модели для дополнительных доходов.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09">
+    <od:Provocation xml:lang="en">How can problems or harmful steps in the process be *circumvented* such as by
+relocating the harmful step to make the process more fluid?</od:Provocation>
+    <od:Provocation xml:lang="en">How can problems or harmful steps in the process be *eliminated* to make the
+process more fluent and design it more efficiently?</od:Provocation>
+    <od:Provocation xml:lang="en">How can the flow of information between customers and the company be
+increased such as by increasing the number of channels to customers, through
+combination of process steps, etc.?</od:Provocation>
+    <od:Provocation xml:lang="de">Welche Schritte in der Interaktion zwischen Kunden und Unternehmen
+funktionieren nicht problemlos?  Welche Probleme treten auf?</od:Provocation>
+    <od:Provocation xml:lang="en">Which steps in the interaction between customers and company do not work
+smoothly? What problems arise?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie kann der Informationsfluss zwischen Kunden und Unternehmen erhöht
+werden wie z.B. durch Erhöhung die Zahl der Kanäle zum Kunden, durch
+Kombination von Prozessschritten, etc.?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie können Probleme bzw. schädliche Schritte im Prozess *eliminiert*
+werden, um den Prozess fließender und effizienter zu gestalten?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie können Probleme bzw. schädliche Schritte im Prozess *umgangen* werden
+wie z.B. durch Verlagern des schädlichen Schrittes, um den Prozess fließender
+zu gestalten?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно *исключить* проблемы или вредные шаги в процессе, чтобы сделать
+процесс более плавным и эффективным?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как можно *обойти* проблемы или вредные шаги в процессе, например,
+переместить вредный шаг, чтобы сделать процесс более плавным?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как увеличивать поток информации между клиентами и компании, например, за
+счет расширения число каналов к клиенту, через комбинацию шагов процесса и
+т.д.?</od:Provocation>
+    <od:Provocation xml:lang="ru">Какие этапы взаимодействия между клиентами и Бизнес не работает гладко?
+Какие проблемы возникают?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der Flussverstärkung</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Flow Enhancement</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция улучшения потока</rdfs:label>
+    <skos:definition xml:lang="de">Bessere Zusammenarbeit</skos:definition>
+    <skos:definition xml:lang="en">Better collaboration</skos:definition>
+    <skos:definition xml:lang="ru">Лучшее сотрудничество</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_09"/>
+    <skos:example xml:lang="en">Hardly any other company appears in this context as relevant as Google. By
+analyzing customer data, Google earns revenues through personalized
+advertising.  Through Google Analytics ist was also able to provide analysis
+tools for other advertisers (business model Leverage Customer Data).</skos:example>
+    <skos:example xml:lang="de">In diesem Zusammenhang erscheint kaum ein anderes Unternehmen so relevant
+wie Google. Durch die Analyse von Kundendaten kann Google an personalisierter
+Werbung verdienen und konnte durch Google Analytics dieses Analysewerkzeug
+auch für Werbetreibende zur Verfügung stellen (Geschäftsmodell Leverage
+Customer Data).</skos:example>
+    <skos:example xml:lang="ru">В таком контексте вряд ли какая-либо другая компания выглядит столь же
+уместной как Google. Анализируя данные клиентов, Google зарабатывает на
+персонализированной рекламе.  Google и смог заработать на этом с помощью
+Google Analytics предоставив инструменты анализа для рекламодателей
+(бизнес-модель Использовать данные клиентов).</skos:example>
+    <skos:note xml:lang="en">Abstracted to the business context, this trend can be understood as better
+use of the flow of information, data, etc. from the customer to the company
+and vice versa. Many companies use customer data within their business model,
+to be used in turn for tailored offers for customers.</skos:note>
+    <skos:note xml:lang="de">Auf den Business-Kontext abstrahiert kann dieser Trend im Sinne einer
+besseren Nutzung des Flusses an Informationen, Daten, etc. von Kundenseite zu
+Unternehmensseite und vice versa verstanden werden.  So erheben viele
+Unternehmen mithilfe ihres Geschäftsmodells Kundendaten, die wiederum für
+maßgeschneiderte Angebote für die Kunden genutzt werden.</skos:note>
+    <skos:note xml:lang="ru">Если абстрагироваться на деловый контекст, эту тенденцию можно понимать как
+более эффективное использование потока информации, данных и т.д. от клиента к
+компании и наоборот. Так многие компании собирают и используют данные о
+клиентах в своих бизнес-моделях, что, в свою очередь, используется для
+индивидуальных предложений клиентам.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_09"/>
+    <skos:example xml:lang="en">Based on the Self-Service business model, IKEA customers take out their
+furniture from the warehouse, carry it to the checkout and also assemble it
+themselves assemble. Thus IKEA can not only avoid problems in the supply chain
+or warehousing, but also significantly save cost in sales and
+production.</skos:example>
+    <skos:example xml:lang="de">Indem Kunden getreu dem Self-Service-Geschäftsmodell ihre Möbel selbst aus
+dem Lager holen, zur Kasse bringen und darüber hinaus selbst zusammenbauen,
+kann IKEA damit nicht nur Probleme in der Lieferkette oder Lagerhaltung
+umgehen, sondern darüber hinaus auch signifikante Kosteneinsparungen in
+Vertrieb und Produktion realisieren.</skos:example>
+    <skos:example xml:lang="de">Pinterest nutzt das Geschäftsmodell Affiliation, wodurch es zusätzliche
+Flüsse zu neuen Nutzern durch Empfehlungen durch das eigene soziale Netzwerk
+generiert.  Verstärkt wird dieser Effekt durch Vermittlungsprovisionen.</skos:example>
+    <skos:example xml:lang="en">Pinterest uses the Affiliation business model, which means to generate
+additional flows to new users through recommendations within their own social
+network. This effect is reinforced by brokerage commissions.</skos:example>
+    <skos:example xml:lang="ru">Pinterest использует бизнес-модель аффилиации, что означает создать
+дополнительные потоки к новым пользователям через рекомендации в социальных
+сетьях.  Этот эффект усиливают комиссионные сборы.</skos:example>
+    <skos:example xml:lang="ru">На базе бизнес-модели самообслуживания, клиенты IKEA самостоятельно
+забирают свою мебель со склада, отнесут на кассу и тоже сделают ссборку воими
+руками. Так IKEA не только обоидет проблемы в цепочке поставок или избегает
+складирования, но также значительно экономит на продажах и
+производстве.</skos:example>
+    <skos:note xml:lang="en">Another way to improve the flow of e.g. information or data is to reduce
+the negative impact of harmful flows, e.g. by eliminating bottlenecks in the
+process. In many cases, weak points in the process, e.g. in direct sales, are
+circumvented by precisely analyzing these bottlenecks or weak points and
+resolve them accordingly.</skos:note>
+    <skos:note xml:lang="de">Eine weitere Möglichkeit, den Fluss z.B. an Informationen oder Daten, zu
+verbessern ist die Reduzierung von negativen Auswirkungen schädlicher Flüsse,
+z.B. indem Engpässe im Prozess eliminiert werden. So werden in vielen Fällen
+Schwachstellen im Prozess, z.B. beim Direktverkauf umgangen, indem eben diese
+Engpässe oder Schwachstellen analysiert und entsprechend gelöst werden.</skos:note>
+    <skos:note xml:lang="ru">Другой способ улучить поток, например, информации или данных, состоит в
+снижении негативного воздействия вредных потоков, например, путем устранения
+узких мест в процессе. Так во многих случаях можно обойти слабые места в
+процессе, например, в прямых продажах, путем точного анализа этих узких или
+слабых мест и устранения соответствующим образом.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10">
+    <od:Provocation xml:lang="en">How can the human senses (hearing, tasting, smelling, feeling, seeing) be
+integrated into the business model? In what way does this change the existing
+business model?</od:Provocation>
+    <od:Provocation xml:lang="en">How could the existing business model be expanded or newly developed
+concerning the use of AR/VR?</od:Provocation>
+    <od:Provocation xml:lang="en">How will the business model change if certain human needs such as security
+feeling is addressed particularly strong or weak?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie können die menschlichen Sinne (hören, schmecken, riechen, fühlen,
+sehen) in das Geschäftsmodell integriert werden?  Inwiefern ändert sich das
+bestehende Geschäftsmodell dadurch?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie könnte das bestehende Geschäftsmodell mit Blick auf AR/VR erweitert
+oder neu entwickelt werden?</od:Provocation>
+    <od:Provocation xml:lang="de">Wie verändert sich das Geschäftsmodell, wenn bestimmte menschliche
+Bedürfnisse wie z.B. Sicherheitsbedürfnisse besonders stark oder schwach
+adressiert werden?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как будет расширяться или разрабатываться заново существующая
+бизнес-модель, если использовать AR/VR ?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как изменится бизнес-модель, если определенная человеческие потребности,
+такие как потребность в безопасности, рассматриваются особенно сильно или
+наоборот, особеннно слабо?</od:Provocation>
+    <od:Provocation xml:lang="ru">Как могут органы чувств человека (слух, вкус, обоняние, осязание, зрение)
+быть интегрированы в бизнес-модель? В каком смысле изменяет это существующую
+бизнес-модель?</od:Provocation>
+    <rdfs:label xml:lang="de">Trend der zunehmenden Integration menschlicher Sinne</rdfs:label>
+    <rdfs:label xml:lang="en">Trend of Increasing Integration of Human Senses</rdfs:label>
+    <rdfs:label xml:lang="ru">Тенденция к увеличению интеграции человеческих чувств</rdfs:label>
+    <skos:definition xml:lang="en">Focus on people</skos:definition>
+    <skos:definition xml:lang="de">Fokus auf den Menschen</skos:definition>
+    <skos:definition xml:lang="en">Сосредоточьтесь на людях</skos:definition>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10_1">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_10"/>
+    <skos:example xml:lang="de">Tchibo konnte so z.B. durch Cross Selling das eigene Angebot sukzessive um
+NichtKaffee-Produkte erweitern und dadurch weitere Bedürfnisse bzw.
+Kundenwünsche ansprechen.</skos:example>
+    <skos:example xml:lang="en">Tchibo was able to gradually expand its own offers, e.g. through
+cross-selling, to include non-coffee products and thus to address further
+needs or customer requests.</skos:example>
+    <skos:example xml:lang="ru">Tchibo смог расширять свой собственный сортимент через перекрестные
+продажи, например за счет продуктов, не содержащих кофе, и, таким образом,
+реагировать на запросы клиентов.</skos:example>
+    <skos:note xml:lang="en">As systems evolve, more and more of them human senses, such as sight or
+hearing, will be integrated into the technical system. It is recommended to
+expand the term human senses to human needs. At the level of business models
+this can be designed, e.g. if different needs are satisfied through the same
+business model.</skos:note>
+    <skos:note xml:lang="de">Mit zunehmender Entwicklung von Systemen werden zunehmend mehr menschliche
+Sinne, wie u.a. das Sehen oder Hören, in das technische System integriert
+werden. Es wird empfohlen, den Begriff menschliche Sinne auf menschliche
+Bedürfnisse zu erweitern.  Auf Ebene der Geschäftsmodelle kann dies
+z.B. ausgestaltet sein, indem unterschiedliche Bedürfnisse durch ein
+Geschäftsmodell befriedigt werden.</skos:note>
+    <skos:note xml:lang="ru">По мере развития систем интегрируются все больше и больше человеческие
+чувства, такие как зрение или слух, в техническую систему. Рекомендуется
+использовать термин "человеческие чувства" в расширенном понимании как
+потребности человека. На уровне бизнес-модели это может быть разработано,
+например, если учитывать различные потребности посредством одной
+бизнес-модели.</skos:note>
+  </tc:Trend>
+  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10_2">
+    <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_10"/>
+    <skos:example xml:lang="en">Hilti, for example, takes care of this with the so-called Hilti Fleet
+Management using the Guaranteed Availability business model for customer's to
+secure access to functional devices at any time can.</skos:example>
+    <skos:example xml:lang="ru">Hilti, например, заботится о безопасности клиентов с помощью так
+называемого Hilti Fleet Management, который гарантирует доступ к
+функциональным устройствам в любое время можно.</skos:example>
+    <skos:example xml:lang="de">So sorgt z.B. Hilti durch das sog. Hilti Fleet Management mithilfe des
+Geschäftsmodells Guaranteed Availability für Sicherheit bei den Kunden, indem
+diese jederzeit auf funktionsfähige Geräte zurückgreifen können.</skos:example>
+    <skos:note xml:lang="de">Andere Geschäftsmodelle adressieren darüber hinaus ganz speziell bestimmte
+Bedürfnisse, häufig Sicherheitsbedürfnisse.</skos:note>
+    <skos:note xml:lang="en">Other business models also address very specific issues specific needs,
+often security needs.</skos:note>
+    <skos:note xml:lang="ru">Другие бизнес-модели также решают специфические потребности, часто
+потребности в безопасности.</skos:note>
+  </tc:Trend>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/BusinessTrends-Wagner/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Business trends proposed by Luisa Wagner in her master's thesis https://wumm-project.github.io/Texts/WagnerLuisa-2021.pdf.</rdfs:comment>
+    <rdfs:comment>Extracted and transformed by HGG, 2022-02-10</rdfs:comment>
+    <rdfs:label>TRIZ Database - Business Trends</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

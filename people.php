@@ -22,7 +22,6 @@ function thePeople()
             $v=str_replace("_"," no. ",$v);
             $c[]=$v;
         }
-        $d=$autor->all("od:hasMATRIZAward");
         $b=array();                
         foreach ($autor->all("foaf:name") as $e) {
             $b[]='<strong><span itemprop="name" class="foaf:name">'
@@ -35,8 +34,11 @@ function thePeople()
         foreach ($autor->all("foaf:homepage") as $e) {
             $b[]=createLink($e,$e);
         }
-        if (!empty($c)) { $b[]=$cert='MATRIZ Certificates: '.join(", ",$c); }
-        if (!empty($d)) { $b[]=$cert='MATRIZ Awards: '.join(", ",$d); }
+        $f=$autor->all("dbo:deathDate");
+        if (!empty($f)) { $b[]='Died on '.join(", ",$f) ; }
+        if (!empty($c)) { $b[]='MATRIZ Certificates: '.join(", ",$c); }
+        $d=$autor->all("od:hasMATRIZAward");
+        if (!empty($d)) { $b[]='MATRIZ Awards: '.join(", ",$d); }
         $a[$autor->getUri()]=
             '<div itemscope itemtype="http://schema.org/Person" class="creator">'
             .join('<br/>',$b).'</p></div>';
