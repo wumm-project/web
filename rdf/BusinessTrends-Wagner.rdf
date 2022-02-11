@@ -4,7 +4,7 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/ns/skos#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:tc="http://opendiscovery.org/rdf/Concept/"
    xmlns="http://opendiscovery.org/rdf/BusinessTrend/">
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01">
@@ -32,7 +32,7 @@ werden?</od:Provocation>
     <skos:definition xml:lang="de">Geschäftsmodelle ergänzen sich gegenseitig</skos:definition>
     <skos:definition xml:lang="ru">Бизнес-модели дополняют друг друга</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_01"/>
     <skos:example xml:lang="de">Häufig vervollständigen Steuerkanzleien ihr Geschäftsmodell mit
 Rechtsanwaltskanzleien.  Dabei basieren beide Geschäftsmodelle auf einem
@@ -60,8 +60,8 @@ vervollständigt. Zur Vervollständigung können dabei andere Geschäftsmodelle
     <skos:note xml:lang="ru">По мере развития бизнес-моделей они часто уполняются. Для этого могут
 служить другие бизнес-модели (комбинация). Эти дригие бизнес-модели часто
 основаны на "меньших" идеях, которые не могут выжить сами по себе.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_01"/>
     <skos:example xml:lang="en">Commonly within a company coexist different business models. For example,
 Spotify combines at least 3 business models (freemium, hidden revenue,
@@ -92,8 +92,8 @@ Elemente des Kern-Geschäftsmodells.</skos:note>
 business model.</skos:note>
     <skos:note xml:lang="ru">Новые бизнес-модели обслуживают в большинстве случаев различные элементы
 корневой бизнес-модели.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_3">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_01_3">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_01"/>
     <skos:example xml:lang="en">Ryanair is offers through the add-on business model many complementary
 extras and demands additional charges from the customer. Payback completes the
@@ -116,7 +116,7 @@ extended and completed.</skos:note>
 bestehende Angebot erweitert und vervollständigt wird.</skos:note>
     <skos:note xml:lang="ru">Во многих случаях новые бизнес-модели также ведут к тому, что существующее
 предложение расширяется и дополняется.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02">
     <od:Provocation xml:lang="en">How could the business model be further developed, when important elements
 like customers, stakeholders, etc. are trimmed out?</od:Provocation>
@@ -166,7 +166,7 @@ werden?</od:Provocation>
     <skos:definition xml:lang="de">Weniger ist mehr</skos:definition>
     <skos:definition xml:lang="en">Меньше значит больше</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_02"/>
     <skos:example xml:lang="en">Companies like YouTube enable customers to become producers and thus trim
 out their own producers. (Prosumer business model)</skos:example>
@@ -194,8 +194,8 @@ des Geschäftsmodells (z.B. Kunden, Wettbewerber, Stakeholder)
 свернутый элемент, при этом переносится на другой элемент внутри (или вне)
 бизнес-модели (например, на клиенты, конкуренты, заинтересованные
 стороны).</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_02"/>
     <skos:example xml:lang="de">Amazon hat früh erkannt, dass zu viele Klicks beim Kauf dazu führen, dass
 Kunden bei jedem weiteren Klick den Kauf erneut überdenken und ggf. den
@@ -219,8 +219,8 @@ mit so wenigen Komponenten bzw. Elementen wie möglich auszuführen.</skos:note>
 with as few components or elements as possible.</skos:note>
     <skos:note xml:lang="ru">Другие компании получат выгоду от бизнес-модели которая выполняет процесс с
 минимальным количеством компонентов или элементов.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_3">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_02_3">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_02"/>
     <skos:example xml:lang="en">Due to the Hidden Revenue business model, Twitter demands no fees from
 users for accessing the platform or use the app. But advertisements are
@@ -246,7 +246,7 @@ trim e.g. the logic that the customers are responsible for the revenue of the
 company.</skos:note>
     <skos:note xml:lang="ru">Некоторые компании также передумают свою систему доходов и свертывают,
 например, логику, что для дохода компании клиенты несут ответственность.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03">
     <od:Provocation xml:lang="en">How could elements of the environment be used to fulfill or take over tasks
 or processes of the existing business model?</od:Provocation>
@@ -286,7 +286,7 @@ werden, um Aufgaben zu erfüllen bzw. oder Prozesse übernehmen?</od:Provocation
     <skos:definition xml:lang="en">Use of the environment</skos:definition>
     <skos:definition xml:lang="ru">Использование окружающей среды</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_03"/>
     <skos:example xml:lang="de">Bis 2014 hat Spotify ein Partnerprogramm angeboten. Es ermöglichte
 Benutzern, ihre Freunde für den Dienst zu werben. Nachdem sich fünf ihrer
@@ -313,8 +313,8 @@ umfassen.</skos:note>
 используется для ценностного предложения. Окружающей средой могут быть
 физические объекты, люди (клиенты, конкуренты, заинтересованные стороны,
 ...).</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_03"/>
     <skos:example xml:lang="de">Durch die Nutzung des Internets konnte LinkedIn die Möglichkeit, sich zu
 vernetzen und nach relevanten Branchenkontakten zu suchen, online verfügbar
@@ -333,8 +333,8 @@ z.B. das Internet.</skos:note>
 e.g. the Internet.</skos:note>
     <skos:note xml:lang="ru">Окружающая среда включает цифровые или другие нематериальные вещи как
 Интернет.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_3">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_03_3">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_03"/>
     <skos:example xml:lang="en">Airbnb and Uber do not have hotel rooms or beds themselves or vehicles.
 Both companies use the products from their environment and thus use, for
@@ -359,7 +359,7 @@ aus der Umgebung genutzt bzw. bezogen werden.</skos:note>
     <skos:note xml:lang="ru">Многие современные успешные бизнес-модели основаны на том, что продукты
 больше не производятся в собственной компании, но используются или получаются
 из окружающей среды.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04">
     <od:Provocation xml:lang="en">How changes the internal coordination of the business model when certain
 elements are changed?</od:Provocation>
@@ -403,7 +403,7 @@ aufeinander abgestimmt und koordiniert werden?</od:Provocation>
     <skos:definition xml:lang="de">Stärkere Koordinierung</skos:definition>
     <skos:definition xml:lang="ru">Более тесная координация</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_04"/>
     <skos:example xml:lang="de">Dell nutzt das Geschäftsmodell Cash Machine, mit welchem in den
 1980er-Jahren die erste Built-to-Order-Strategie eingeführt wird, welche zu
@@ -441,8 +441,8 @@ sollten miteinander koordiniert werden.</skos:note>
 клиентами и соответствующим образом обслуживают компьютеры или оборудование,
 если клиенты их не используют (например, во время отпуска или после работы).
 Также продажи и потоки доходов должны быть согласованы друг с другом.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_04_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_04"/>
     <skos:example xml:lang="en">An example of this is the business model of the Swiss company Hapimag.  In
 the sense of the Fractionalized Ownership business model its customers acquire
@@ -468,7 +468,7 @@ requiring appropriate coordination on the side of the business model.</skos:note
     <skos:note xml:lang="ru">В других случаях клиенты могут выбирать только определенные части
 предложения, что требует на стороне бизнес-модели дополнительного
 согласования.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_05">
     <od:Provocation xml:lang="en">How can the existing business model be further developed by placing the
 focus on creating value for customers?</od:Provocation>
@@ -489,7 +489,7 @@ Fokus auf die Schaffung von Wert bei Kunden gelegt wird?</od:Provocation>
     <skos:definition xml:lang="de">Fokus auf Mehrwert bei Kunden</skos:definition>
     <skos:definition xml:lang="ru">Сосредоточьтесь на повышении ценности для клиентов</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_05_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_05_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_05"/>
     <skos:example xml:lang="de">Starbucks konnte durch die Nutzung eben dieses Geschäftsmodells die Kunden
 einladen, Kaffee in einer gemütlichen Umgebung zu genießen und verkauft diesen
@@ -528,7 +528,7 @@ Experience Selling прежде всего, активно воздейству�
 клиентом среду. На основе этого достигаются более высокое различение от
 конкурентов и прежде всего более высокое удержание клиентов и более высокие
 продажи за счет более высокой готовности платить.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06">
     <od:Provocation xml:lang="en">How could the business model be divided into different elements?  How could
 these elements be (re)assembled, to make the business model more
@@ -570,7 +570,7 @@ Zeiten ablaufen?</od:Provocation>
     <skos:definition xml:lang="en">More flexibility</skos:definition>
     <skos:definition xml:lang="ru">Больше гибкости</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_06"/>
     <skos:example xml:lang="en">A franchise business model has allowed McDonald's to combine rigid and
 standardized processes with flexible individual entrepreneurs. The individual
@@ -602,8 +602,8 @@ gewinnt das eigentlich starre und unflexible Modell an Flexibilität.</skos:note
 больше гибкости и маневренности, может быть полезным разделить бизнес-модель
 на более мелкие единицы или элементы.  В результате жесткая и негибкая модель
 приобретает все большее гибкости.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_06_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_06"/>
     <skos:example xml:lang="de">Die Mode-Marke Zara beschäftigt weltweit Hunderte von Designern und
 Modebeobachtern, um das frühzeitige Erkennen von Modetrends und Entwicklungen
@@ -633,7 +633,7 @@ Entwicklung betroffen sein.</skos:note>
 и гибко реагировать на новые потребности клиентов, каждая часть цепочки
 создания стоимости может быть затронутой, включая производство или даже
 исследования и разработка.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07">
     <od:Provocation xml:lang="en">How could the existing business model be further developed when human tasks
 are digitized?</od:Provocation>
@@ -680,7 +680,7 @@ Interaktion ausgestaltet sind?</od:Provocation>
     <skos:definition xml:lang="en">Declining Human Interaction</skos:definition>
     <skos:definition xml:lang="en">Снижение человеческого взаимодействия</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_07"/>
     <skos:example xml:lang="en">PayPal could due to decreasing human interaction radically innovate
 transactions in the financial world. With PayPal transactions are fully
@@ -697,8 +697,8 @@ menschliche Interaktion.</skos:note>
 processes are digitized and run increasingly without human interaction.</skos:note>
     <skos:note xml:lang="ru">Все более полная цифровизация также меняет бизнес-модели. Многие процессы
 оцифрованы и все чаще работают без участия человека.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_07"/>
     <skos:example xml:lang="de">Die Bäckereikette BackWerk hat in ihrem Geschäftsmodell auf Mitarbeiter
 verzichtet, welche die Kunden bedienen. Kunden bedienen sich durch das
@@ -720,8 +720,8 @@ the company, customers, stakeholders, etc.</skos:note>
 полностью автоматизированной. Взаимодействие человека может изходить от разных
 групп людей: сотрудники компании, клиенты, заинтересованные стороны и
 т.д.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_3">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_07_3">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_07"/>
     <skos:example xml:lang="de">Der Einsatz von Sensoren ermöglicht zusätzliche Dienstleistungen für
 physische Angebote oder ganz neue eigenständige Services. So hat Procter &amp;
@@ -747,7 +747,7 @@ Einsatz von digitalen Ersatzprodukten, welche die Aufgaben des Menschen
 replacement products that take over the tasks of the people.</skos:note>
     <skos:note xml:lang="ru">Уменьшение человеческого взаимодействия сопровождается все более широким
 использованием цифровых продуктов, которые берут задачи людей на себя.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08">
     <od:Provocation xml:lang="en">How can differently developed elements or products generate additional
 sales? How does this change the earnings mechanics?</od:Provocation>
@@ -790,7 +790,7 @@ etc.?</od:Provocation>
     <skos:definition xml:lang="en">unequal development</skos:definition>
     <skos:definition xml:lang="ru">неравное развитие</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_08"/>
     <skos:example xml:lang="de">Mymuesli schafft es durch das Geschäftsmodell Mass Customization (dt.
 Individualisierung von Massenprodukten), dass aus Basis-Zutaten individuelle
@@ -823,8 +823,8 @@ unterschiedlichen Entwicklung ihrer einzelnen Elemente.</skos:note>
 всегда одинаково далеко и прочно развиты и поэтому иногда требуют
 дифференцированного подхода и дальнейшего развития. Некоторые бизнес-модели
 основаны именно на таком различном развитии их отдельных элементов.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_08_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_08"/>
     <skos:example xml:lang="de">Bei Mercedes-Benz oder BMW sind AddOn-Muster in vielen Fällen ein
 profitabler Weg, um den Kunden individuell zugeschnittene Produkte, teilweise
@@ -853,7 +853,7 @@ mithilfe eines neuen Geschäftsmodells zusätzlich zu neuen Einnahmen
 führen.</skos:note>
     <skos:note xml:lang="ru">Продукты и предложения, которые работают быстрее или более развиты, могут
 быть использованы в новой бизнес-модели для дополнительных доходов.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09">
     <od:Provocation xml:lang="en">How can problems or harmful steps in the process be *circumvented* such as by
 relocating the harmful step to make the process more fluid?</od:Provocation>
@@ -890,7 +890,7 @@ zu gestalten?</od:Provocation>
     <skos:definition xml:lang="en">Better collaboration</skos:definition>
     <skos:definition xml:lang="ru">Лучшее сотрудничество</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_09"/>
     <skos:example xml:lang="en">Hardly any other company appears in this context as relevant as Google. By
 analyzing customer data, Google earns revenues through personalized
@@ -920,8 +920,8 @@ maßgeschneiderte Angebote für die Kunden genutzt werden.</skos:note>
 компании и наоборот. Так многие компании собирают и используют данные о
 клиентах в своих бизнес-моделях, что, в свою очередь, используется для
 индивидуальных предложений клиентам.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_09_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_09"/>
     <skos:example xml:lang="en">Based on the Self-Service business model, IKEA customers take out their
 furniture from the warehouse, carry it to the checkout and also assemble it
@@ -962,7 +962,7 @@ Engpässe oder Schwachstellen analysiert und entsprechend gelöst werden.</skos:
 узких мест в процессе. Так во многих случаях можно обойти слабые места в
 процессе, например, в прямых продажах, путем точного анализа этих узких или
 слабых мест и устранения соответствующим образом.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10">
     <od:Provocation xml:lang="en">How can the human senses (hearing, tasting, smelling, feeling, seeing) be
 integrated into the business model? In what way does this change the existing
@@ -994,7 +994,7 @@ adressiert werden?</od:Provocation>
     <skos:definition xml:lang="de">Fokus auf den Menschen</skos:definition>
     <skos:definition xml:lang="en">Сосредоточьтесь на людях</skos:definition>
   </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10_1">
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10_1">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_10"/>
     <skos:example xml:lang="de">Tchibo konnte so z.B. durch Cross Selling das eigene Angebot sukzessive um
 NichtKaffee-Produkte erweitern und dadurch weitere Bedürfnisse bzw.
@@ -1022,8 +1022,8 @@ Geschäftsmodell befriedigt werden.</skos:note>
 потребности человека. На уровне бизнес-модели это может быть разработано,
 например, если учитывать различные потребности посредством одной
 бизнес-модели.</skos:note>
-  </tc:Trend>
-  <tc:Trend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10_2">
+  </tc:SubTrend>
+  <tc:SubTrend rdf:about="http://opendiscovery.org/rdf/BusinessTrend/Trend_10_2">
     <od:isSubtrendOf rdf:resource="http://opendiscovery.org/rdf/BusinessTrend/Trend_10"/>
     <skos:example xml:lang="en">Hilti, for example, takes care of this with the so-called Hilti Fleet
 Management using the Guaranteed Availability business model for customer's to
@@ -1040,7 +1040,7 @@ Bedürfnisse, häufig Sicherheitsbedürfnisse.</skos:note>
 often security needs.</skos:note>
     <skos:note xml:lang="ru">Другие бизнес-модели также решают специфические потребности, часто
 потребности в безопасности.</skos:note>
-  </tc:Trend>
+  </tc:SubTrend>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/BusinessTrends-Wagner/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>

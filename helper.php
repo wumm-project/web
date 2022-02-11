@@ -2,8 +2,12 @@
 
 /**
  * User: Hans-Gert Gräbe
- * last update: 2020-11-06
+ * last update: 2022-02-11
  */
+
+/* ======= Sparql Endpoint as global variable ======== */
+
+$sparql="http://wumm.uni-leipzig.de:8891/sparql";
 
 /* ======= helper function ======== */
 

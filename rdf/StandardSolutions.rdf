@@ -2,21 +2,21 @@
 <rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
-   xmlns:owl="http://www.w3org/2002/07/owl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3org/2004/02/skos/core#"
-   xmlns:xsd="http://www.w3org/2001/XMLSchema#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Standard/">
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_0">
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Das Wurzelkonzept</skos:prefLabel>
     <skos:prefLabel xml:lang="en">The Root Concept</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Концепция корня</skos:prefLabel>
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_1">
     <od:hasAltshullerLabel xml:lang="ru">Построение и разрушение вепольных систем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
     <skos:prefLabel xml:lang="de">Aufbau und Zerlegung vollständiger SF-Modelle</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Construction and deconstruction of complete su-field models</skos:prefLabel>
@@ -24,7 +24,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_11">
     <od:hasAltshullerLabel xml:lang="ru">Синтез веполей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_1"/>
     <skos:prefLabel xml:lang="de">Aufbau von SF-Modellen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Building su-field models</skos:prefLabel>
@@ -32,7 +32,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_111">
     <od:hasAltshullerLabel xml:lang="ru">Синтез веполя</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">To separate air or water (S1) from solid particles (S2), centrifuge (F, centrifugal force).</skos:example>
     <skos:example xml:lang="de">Um Luft oder Wasser (S1) von festen Partikeln (S2) abzutrennen, wird zentrifugiert (F, Zentrifugalkraft).</skos:example>
     <skos:example xml:lang="ru">Для отделения воздуха или воды (S1) от твердых частиц (S2), центрифуга (F, центробежная сила).</skos:example>
@@ -43,7 +43,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_112">
     <od:hasAltshullerLabel xml:lang="ru">Переход к внутреннему комплексному веполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Kleine Flüssigkeitstropfen lassen sich leicht durch Zugabe eines Fluoreszenzfarbstoffes detektieren.</skos:example>
     <skos:example xml:lang="en">Small drops of liquid are easily detected by adding a fluorescent dye.</skos:example>
     <skos:example xml:lang="ru">Маленькие капли жидкости легко обнаруживаются при добавлении флуоресцентного красителя.</skos:example>
@@ -54,7 +54,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_113">
     <od:hasAltshullerLabel xml:lang="ru">Переход к внешнему комплексному веполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Gas leak detection by soap spray from the outside onto a pipe.</skos:example>
     <skos:example xml:lang="de">Gasleck-Detektion durch Seifenspray von außen auf ein Rohr.</skos:example>
     <skos:example xml:lang="ru">Обнаружение утечки газа с помощью мыльного спрея снаружи на трубу.</skos:example>
@@ -65,7 +65,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_114">
     <od:hasAltshullerLabel xml:lang="ru">Переход к веполю на внешней среде</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_11"/>
     <skos:prefLabel xml:lang="de">Nutze Ressourcen zur Vervollständigung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use resources to complete</skos:prefLabel>
@@ -73,7 +73,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_115">
     <od:hasAltshullerLabel xml:lang="ru">Переход к веполю на внешней среде с добавками</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_11"/>
     <skos:prefLabel xml:lang="en">Create more resources by changing the system environment</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Erzeuge weitere Ressourcen durch Veränderung der Systemumgebung</skos:prefLabel>
@@ -81,7 +81,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_116">
     <od:hasAltshullerLabel xml:lang="ru">Минимальный режим действия на вещество</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_11"/>
     <skos:prefLabel xml:lang="de">Nutze überschüssige Aktionen zur Vervollständigung und eliminiere den Überschuß</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use Excessive Action to Complete and Eliminate Excess</skos:prefLabel>
@@ -89,7 +89,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_117">
     <od:hasAltshullerLabel xml:lang="ru">Максимальный режим действия на вещество</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_11"/>
     <skos:prefLabel xml:lang="en">If the excess action is harmful, try to redirect it to another component in the system</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Ist die überschüssige Aktion schädlich, dann versuche sie auf eine andere Komponente im System zu lenken</skos:prefLabel>
@@ -97,7 +97,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_118">
     <od:hasAltshullerLabel xml:lang="ru">Избирательно-максимальный режим</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Glasampullen werden beim Zuschmelzen in einem Wasserbad von unten her gekühlt, um Überhitzung des thermisch empfindlichen Inhalts zu vermeiden.</skos:example>
     <skos:example xml:lang="en">Glass ampoules are cooled from below when melted in a water bath to avoid overheating the thermally sensitive contents.</skos:example>
     <skos:example xml:lang="ru">Стеклянные ампулы охлаждают снизу при расплавлении на водяной бане, чтобы избежать перегрева термочувствительного содержимого.</skos:example>
@@ -108,7 +108,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_12">
     <od:hasAltshullerLabel xml:lang="ru">Разрушение веполей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_1"/>
     <skos:prefLabel xml:lang="en">Dissecting Fabric Field Models</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Zerlegung von Stoff-Feld-Modellen</skos:prefLabel>
@@ -116,7 +116,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_121">
     <od:hasAltshullerLabel xml:lang="ru">Устранение вредной связи введением постороннего вещества</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_12"/>
     <skos:prefLabel xml:lang="en">Eliminate Adverse Interactions by Introducing a Third Substance S3</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3</skos:prefLabel>
@@ -124,7 +124,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_122">
     <od:hasAltshullerLabel xml:lang="ru">Устранение вредной связи видоизменением имеющихся веществ</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Die oberflächliche Zerstörung von Rümpfen bei Schnellbooten durch Kavitation des Wassers kann durch Kühlung des Rumpfes und Ausbildung einer Eisschicht vermieden werden.</skos:example>
     <skos:example xml:lang="en">The superficial destruction of hulls in speedboats by cavitation of the water can be avoided by cooling the hull and forming a layer of ice.</skos:example>
     <skos:example xml:lang="ru">Поверхностного разрушения корпусов скоростных катеров путем кавитации воды можно избежать, охлаждая корпус и формируя слой льда.</skos:example>
@@ -135,7 +135,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_123">
     <od:hasAltshullerLabel xml:lang="ru">Оттягивание вредного действия поля</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_12"/>
     <skos:prefLabel xml:lang="de">Lenke die schädliche Wirkung auf einen weniger wichtigen Stoff S3 z.B.: Wände von Behältern (S1), in denen Wasser (S2) gefriert, werden mit elastischen Materialien (S3) ausgekleidet, um die thermische Ausdehnung abzufangen und ein Beschädigen der Behälterwand auszuschließen.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Reduce the harmful effect on a less important substance S3 eg: Walls of containers (S1) where water (S2) freezes lined with elastic materials (S3) to absorb the thermal expansion and to prevent damaging the container wall. </skos:prefLabel>
@@ -143,7 +143,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_124">
     <od:hasAltshullerLabel xml:lang="ru">Противодействие вредным связям с помощью поля</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">For pollination of flowers an air current is used, which unfortunately also causes the flowers to close, eliminating this negative effect by electrostatically charging the flowers which keeps them open. </skos:example>
     <skos:example xml:lang="de">Zur Bestäubung von Blumen wird eine Luftströmung eingesetzt, die leider auch zum Schließen der Blüten führt. Diesen negativen Effekt eliminiert man durch elektrostatische Aufladung der Blüten, wodurch sie offen bleiben.</skos:example>
     <skos:example xml:lang="ru">Для опыления цветов используется воздушный поток, который, к сожалению, также вызывает закрытие цветов, устраняя этот негативный эффект за счет электростатической зарядки цветов который держит их открытыми. </skos:example>
@@ -154,7 +154,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_125">
     <od:hasAltshullerLabel xml:lang="ru">"Отключение" магнитных связей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_12"/>
     <skos:prefLabel xml:lang="de">Nutze die Möglichkeit, Magnetfelder ein- und ausschalten zu können</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Take the opportunity to turn magnetic fields on and off</skos:prefLabel>
@@ -162,7 +162,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2">
     <od:hasAltshullerLabel xml:lang="ru">Развитие вепольных систем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
     <skos:prefLabel xml:lang="en">Enhancing Fabric Field Models</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verbesserung von Stoff-Feld-Modellen</skos:prefLabel>
@@ -170,7 +170,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_21">
     <od:hasAltshullerLabel xml:lang="ru">Переход к сложным веполям</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
     <skos:prefLabel xml:lang="en">Transitioning to More Complex Fabric Field Models</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Übergang zu komplexeren Stoff-Feld-Modellen</skos:prefLabel>
@@ -178,7 +178,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_211">
     <od:hasAltshullerLabel xml:lang="ru">Переход к цепному веполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Hilti principle, drive beats on heavy intermediate chisel, this on the actual chisel, this on the rock to be smashed (= impulse transmission and Reinforcement over several stages). </skos:example>
     <skos:example xml:lang="de">Hilti-Prinzip, Antrieb schlägt auf schweren Zwischenmeißel, dieser auf den eigentlichen Meißel, dieser auf den zu zerschlagenden Fels (= Impuls-Übertragung und -Verstärkung über mehrere Stufen).</skos:example>
     <skos:example xml:lang="ru">Принцип Hilti, приводные удары по тяжелому промежуточному долоту, это на фактическом долоте, это на скале, которая будет разбита (= импульсная передача и Армирование в несколько этапов). </skos:example>
@@ -189,7 +189,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_212">
     <od:hasAltshullerLabel xml:lang="ru">Переход к двойному веполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_21"/>
     <skos:prefLabel xml:lang="en">Double a Cloth-Field Model</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verdopple ein Stoff-Feld-Modell</skos:prefLabel>
@@ -197,7 +197,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_22">
     <od:hasAltshullerLabel xml:lang="ru">Форсирование веполей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
     <skos:prefLabel xml:lang="en">Further Development of a Substance Field Model</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Weiterentwicklung eines Stoff-Feld-Modells</skos:prefLabel>
@@ -205,7 +205,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_221">
     <od:hasAltshullerLabel xml:lang="ru">Переход к более управляемым полям</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_22"/>
     <skos:prefLabel xml:lang="en">Put in better taxable fields</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Setze besser steuerbare Felder ein</skos:prefLabel>
@@ -213,7 +213,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_222">
     <od:hasAltshullerLabel xml:lang="ru">Дробление инструмента</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Knife - Knife with serration - Mirkowellenschliff - targeted roughened blade.</skos:example>
     <skos:example xml:lang="de">Messer - Messer mit Zahnung - Mirkowellenschliff - gezielt angerauhte Klinge.</skos:example>
     <skos:example xml:lang="ru">Нож - нож с зазубринами - Mirkowellenschliff - направленный шероховатый клинок.</skos:example>
@@ -224,7 +224,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_223">
     <od:hasAltshullerLabel xml:lang="ru">Переход к капиллярно-пористому веществу</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Mehrere kleine Düsen dosieren Klebstoff präziser als eine große Öffnung.</skos:example>
     <skos:example xml:lang="en">Several small nozzles dose glue more precisely than a large opening.</skos:example>
     <skos:example xml:lang="ru">Несколько маленьких насадок дозируют клей более точно, чем большое отверстие</skos:example>
@@ -235,7 +235,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_224">
     <od:hasAltshullerLabel xml:lang="ru">Динамизация веполя</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Dividing a door leaf into several flexibly connected segments, roller shutter, shutters.</skos:example>
     <skos:example xml:lang="de">Unterteilen eines Türblattes in mehrere flexibel verbundene Segmente, Rolltor, Rolladen.</skos:example>
     <skos:example xml:lang="ru">Разделение полотна ворот на несколько гибко соединенных сегментов, рольставни, жалюзи.</skos:example>
@@ -246,7 +246,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_225">
     <od:hasAltshullerLabel xml:lang="ru">Структуризация поля</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_22"/>
     <skos:prefLabel xml:lang="en">Structured Fields</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Strukturierte Felder</skos:prefLabel>
@@ -254,7 +254,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_226">
     <od:hasAltshullerLabel xml:lang="ru">Структуризация вещества</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_22"/>
     <skos:prefLabel xml:lang="en">Structured fabrics</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Strukturierte Stoffe</skos:prefLabel>
@@ -262,7 +262,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_23">
     <od:hasAltshullerLabel xml:lang="ru">Форсирование согласования ритмики</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
     <skos:prefLabel xml:lang="en">Rhythm Coordination</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Rhythmus-Koordination</skos:prefLabel>
@@ -270,7 +270,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_231">
     <od:hasAltshullerLabel xml:lang="ru">Согласование ритмики поля и изделия (или инструмента)</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Bei der Massage versucht man, den Rhythmus der äußeren Einwirkung mit dem Puls des Patienten in Übereinstimmung zu bringen.z. B.: Gezielte Asymmetrie in Getrieben verhindert laute Geräusche bzw. starke Eigenresonanz.</skos:example>
     <skos:example xml:lang="en">During the massage, you try to match the rhythm of the external impact with the pulse of the patient, such as: targeted asymmetry in gears prevents loud noises or strong self-resonance. </skos:example>
     <skos:example xml:lang="ru">Во время массажа вы пытаетесь согласовать ритм внешнего воздействия с пульсом пациента, например: целевая асимметрия в передачах предотвращает громкие шумы или сильный резонанс. </skos:example>
@@ -281,7 +281,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_232">
     <od:hasAltshullerLabel xml:lang="ru">Согласование ритмики используемых полей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_23"/>
     <skos:prefLabel xml:lang="de">Synchronisiere den Rhythmus, die Frequenz von Feldern</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Synchronize the rhythm, the frequency of fields</skos:prefLabel>
@@ -289,7 +289,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_233">
     <od:hasAltshullerLabel xml:lang="ru">Согласование несовместимых или ранее независимых действий</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Nutze die Pausen im Ablauf einer nützlichen Funktion, um eine andere Funktion auszuführen, beispielsweise eine Mess- oder Regelaktion.</skos:example>
     <skos:example xml:lang="en">Use the pauses in a useful function to perform another function, such as a measurement or rule action.</skos:example>
     <skos:example xml:lang="ru">Используйте паузы в полезной функции для выполнения другой функции, такой как измерение или действие правила.</skos:example>
@@ -300,7 +300,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_24">
     <od:hasAltshullerLabel xml:lang="ru">Феполи (Комплексно-форсированные веполи)</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_2"/>
     <skos:prefLabel xml:lang="en">Complex Enhanced Fabric Field Models</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Komplex verbesserte Stoff-Feld-Modelle</skos:prefLabel>
@@ -308,7 +308,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_241">
     <od:hasAltshullerLabel xml:lang="ru">Переход к "протофеполю"</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Nutze ferromagnetische Stoffe und Magnetfelder</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use ferromagnetic materials and magnetic fields</skos:prefLabel>
@@ -316,7 +316,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2410">
     <od:hasAltshullerLabel xml:lang="ru">Согласование ритмики в феполе</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Stimme die Rhythmen ab</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Void the rhythms</skos:prefLabel>
@@ -324,7 +324,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2411">
     <od:hasAltshullerLabel xml:lang="ru">Переход к эполю - веполю с взаимодействующими токами</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Nutze elektrische Felder</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use Electric Fields</skos:prefLabel>
@@ -332,7 +332,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_2412">
     <od:hasAltshullerLabel xml:lang="ru">Использование электрореологической жидкости</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Nutze Elektrorheologie</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use Electrorheology</skos:prefLabel>
@@ -340,7 +340,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_242">
     <od:hasAltshullerLabel xml:lang="ru">Переход к феполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Nutze ferromagnetische Partikel, Granulate, Pulver</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use ferromagnetic particles, granules, powders</skos:prefLabel>
@@ -348,7 +348,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_243">
     <od:hasAltshullerLabel xml:lang="ru">Использование магнитной жидкости</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Ferromagnetic particles suspended in water, kerosene, etc.</skos:example>
     <skos:example xml:lang="de">Ferromagnetische Partikel, die in Wasser, Kerosion etc. suspendiert sind.</skos:example>
     <skos:example xml:lang="ru">Ферромагнитные частицы, взвешенные в воде, керосине и т. д.</skos:example>
@@ -359,7 +359,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_244">
     <od:hasAltshullerLabel xml:lang="ru">Использование капиллярно-пористой структуры феполя</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Nutze Kapillar-Strukturen in Zusammensetzung mit Ferromagnetismus</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use Capillary Structures in Composition with Ferromagnetism</skos:prefLabel>
@@ -367,7 +367,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_245">
     <od:hasAltshullerLabel xml:lang="ru">Переход к комплексному феполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Nutze komplexe ferromagnetische SFM, beispielsweise externe Magnetfelder, ferromagnetische Additive etc.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use complex ferromagnetic SFMs, such as external magnetic fields, ferromagnetic additives, etc.</skos:prefLabel>
@@ -375,7 +375,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_246">
     <od:hasAltshullerLabel xml:lang="ru">Переход к феполю на внешней среде</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Führe Ferromagnetismus in das Systemumfeld ein und nutze daraus resultierende Effekte.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Introduce ferromagnetism into the system environment and exploit the resulting effects.</skos:prefLabel>
@@ -383,7 +383,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_247">
     <od:hasAltshullerLabel xml:lang="ru">Использование физэффектов</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="en">Improve the controllability of ferromagnetic systems by using the effects database</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verbessere die Kontrollierbarkeit ferromagnetischer Systeme durch Nutzen der Effekte-Datenbank</skos:prefLabel>
@@ -391,7 +391,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_248">
     <od:hasAltshullerLabel xml:lang="ru">Динамизация феполя</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="de">Erhöhe den Grad an Dynamik in einem komplexen Stoff-Feld-Modell</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Increase the level of dynamics in a complex fabric-field model</skos:prefLabel>
@@ -399,7 +399,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_249">
     <od:hasAltshullerLabel xml:lang="ru">Структуризация феполя</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_24"/>
     <skos:prefLabel xml:lang="en">Structure and Subdivide Fields and Substances into Complex Fabric Field Models</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Strukturiere und unterteile Felder und Stoffe in komplexe Stoff-Feld-Modelle</skos:prefLabel>
@@ -407,7 +407,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_3">
     <od:hasAltshullerLabel xml:lang="ru">Переход к надсистеме и на микроуровень</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
     <skos:prefLabel xml:lang="en">Transition to Super and Subsystem (Macro and Microlevel)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Übergang ins Super- und Subsystem (Makro- und Mikrolevel)</skos:prefLabel>
@@ -415,7 +415,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_31">
     <od:hasAltshullerLabel xml:lang="ru">Переход к бисистемам и полисистемам</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_3"/>
     <skos:prefLabel xml:lang="en">Transition to Bi- and Poly-Systems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Übergang zu Bi- und Poly-Systemen</skos:prefLabel>
@@ -423,7 +423,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_311">
     <od:hasAltshullerLabel xml:lang="ru">Переход к бисистемам и полисистемам</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">To process the edges of thin glass plates, several plates are stacked together to form a stable stack.</skos:example>
     <skos:example xml:lang="de">Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt.</skos:example>
     <skos:example xml:lang="ru">Для обработки краев тонких стеклянных пластин несколько пластин складываются вместе, образуя устойчивую стопку.</skos:example>
@@ -434,7 +434,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_312">
     <od:hasAltshullerLabel xml:lang="ru">Развитие связей в бисистемах и полисистемах</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_312"/>
     <skos:prefLabel xml:lang="en">Create or intensify the links between the individual elements in bi and poly systems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Schaffe oder intensiviere die Verbindungen zwischen den Einzelelementen in Bi- und Poly-Systemen</skos:prefLabel>
@@ -442,7 +442,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_313">
     <od:hasAltshullerLabel xml:lang="ru">Увеличение различия между элементами бисистем и полисистем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Similar components (individual pencils of different colors) are enhanced into different components (a set of drawing instruments) and eventually become combinations of conflicting functions (pencil with eraser). </skos:example>
     <skos:example xml:lang="de">Ähnliche Komponenten (einzelne Bleistifte verschiedener Farben) werden verbessert zu verschiedenen Komponenten (ein Satz an Zeicheninstrumenten) und werden schließlich zu Kombinationen gegensätzlicher Funktionen (Bleistift mit Radierer).</skos:example>
     <skos:example xml:lang="ru">Подобные компоненты (отдельные карандаши разных цветов) превращаются в разные компоненты (набор инструментов для рисования) и в конечном итоге становятся комбинациями конфликтующих функций (карандаш с ластиком). </skos:example>
@@ -453,7 +453,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_314">
     <od:hasAltshullerLabel xml:lang="ru">Свертывание бисистем и полисистем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Many devices today only have one LED, which indicates green ON, and red off means OFF, in the past two lights were needed for this information.</skos:example>
     <skos:example xml:lang="de">Viele Geräte besitzen heutzutage nur noch ein LED, das grünleuchtend EIN anzeigt und rotleuchtend AUS bedeutet, früher waren zwei Lämpchen für diese Information notwendig.</skos:example>
     <skos:example xml:lang="ru">На многих устройствах в настоящее время имеется только один светодиод, который указывает на зеленый свет, а красный на выключенный означает выключение, в прошлых двух источниках для этой информации требовалось</skos:example>
@@ -464,7 +464,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_315">
     <od:hasAltshullerLabel xml:lang="ru">Несовместимые свойства системы и ее частей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_31"/>
     <skos:prefLabel xml:lang="en">Improve the Efficiency of Bi- and Poly Systems by Distributing Disruptive or Harmful Effects on Different Components</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verbessere die Effizienz von Bi- und Poly-Systemen durch Verteilen sich behindernder oder schädlicher Effekte auf verschiedene Komponenten</skos:prefLabel>
@@ -472,7 +472,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_32">
     <od:hasAltshullerLabel xml:lang="ru">Переход на микроуровень</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_3"/>
     <skos:prefLabel xml:lang="en">Transition to Microsystems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Übergang zu Mikro-Systemen</skos:prefLabel>
@@ -480,7 +480,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_321">
     <od:hasAltshullerLabel xml:lang="ru">Переход на микроуровень</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_32"/>
     <skos:prefLabel xml:lang="de">Miniaturisiere Komponenten oder ganze Systeme</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Miniaturize components or whole systems</skos:prefLabel>
@@ -489,7 +489,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_4">
     <od:hasAltshullerLabel xml:lang="ru">Стандарты на обнаружение и измерение систем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
     <skos:prefLabel xml:lang="de">Erkennen und Messen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Recognize and Measure</skos:prefLabel>
@@ -497,7 +497,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_41">
     <od:hasAltshullerLabel xml:lang="ru">Обходные пути</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
     <skos:prefLabel xml:lang="en">Indirect Methods</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Indirekte Methoden</skos:prefLabel>
@@ -505,7 +505,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_411">
     <od:hasAltshullerLabel xml:lang="ru">Вместо обнаружения и измерения - изменение системы</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">To protect an electric motor from overheating, a temperature sensor must measure the temperature and initiate actions, and make the poles of the engine from an alloy Curie point just at the temperature where the overheating begins, then the engine stops by itself. </skos:example>
     <skos:example xml:lang="de">Um einen Elektromotor vor Überhitzung zu schützen, muss ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst.</skos:example>
     <skos:example xml:lang="ru">Чтобы защитить электродвигатель от перегрева, датчик температуры должен измерять температуру и инициировать действия, а также изготавливать опоры двигателя из сплава. Кюри указывает только на температуру, где начинается перегрев, а затем двигатель останавливается сам по себе. </skos:example>
@@ -516,7 +516,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_412">
     <od:hasAltshullerLabel xml:lang="ru">Использование копий</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Measuring snakes lengthwise is dangerous, but better with a true-to-scale photo of the snake.</skos:example>
     <skos:example xml:lang="de">Schlangen der Länge nach zu vermessen ist gefährlich. Besser geht das mit einem maßstabsgerechten Foto der Schlange.</skos:example>
     <skos:example xml:lang="ru">Измерять змей по длине опасно, но лучше с реалистичной фотографией змеи.</skos:example>
@@ -527,7 +527,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_413">
     <od:hasAltshullerLabel xml:lang="ru">Последовательное обнаружение изменений</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">To measure temperature, you can use thermochromic substances that have a different color depending on the temperature, but are only interested in exceeding a temperature limit, then only two distinct color states are the more efficient way. </skos:example>
     <skos:example xml:lang="de">Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind zwei sicher unterscheidbare Farbzustände der effizientere Weg.</skos:example>
     <skos:example xml:lang="ru">Для измерения температуры можно использовать термохромные вещества, которые имеют разные цвета в зависимости от температуры, но заинтересованы только в превышении температурного предела, тогда только два различных цветовых состояния являются более эффективным способом. </skos:example>
@@ -538,7 +538,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_42">
     <od:hasAltshullerLabel xml:lang="ru">Синтез измерительных систем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
     <skos:prefLabel xml:lang="de">Aufbau von Mess-Stoff-Feld-Modellen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Building Measured Substance Field Models</skos:prefLabel>
@@ -546,7 +546,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_421">
     <od:hasAltshullerLabel xml:lang="ru">Синтез измерительного веполя</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">To detect the boiling of water, an electrical current is passed through it, and as it begins to boil, vapor formation increases electrical resistance significantly.</skos:example>
     <skos:example xml:lang="de">Um das Kochen von Wasser zu detektieren, wird ein elektrischer Strom hindurchgeleitet. Bei beginnendem Sieden steigt durch die Dampfblasenbildung der elektrische Widerstand deutlich an.</skos:example>
     <skos:example xml:lang="ru">Чтобы обнаружить кипение воды, через нее пропускают электрический ток, и, когда он начинает кипеть, образование пара значительно увеличивает электрическое сопротивление</skos:example>
@@ -557,7 +557,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_422">
     <od:hasAltshullerLabel xml:lang="ru">Переход к комплексному измерительному веполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">To detect a leak in the refrigeration circuit of a refrigerator, a luminescent dye is added to the refrigerant.</skos:example>
     <skos:example xml:lang="de">Um ein Leck im Kühlkreislauf eines Kühlschrankes zu entdecken, wird dem Kühlmittel ein Lumineszenz-Farbstoff zugemischt.</skos:example>
     <skos:example xml:lang="ru">Чтобы обнаружить утечку в контуре охлаждения холодильника, в хладагент добавляется люминесцентный краситель.</skos:example>
@@ -568,7 +568,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_423">
     <od:hasAltshullerLabel xml:lang="ru">Переход к измерительному веполю на внешней среде</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_42"/>
     <skos:prefLabel xml:lang="de">Füge einfach zu detektierende oder zu messende Felder in die Systemumgebung hinzu</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Simply add fields to be detected or measured to the system environment</skos:prefLabel>
@@ -576,7 +576,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_424">
     <od:hasAltshullerLabel xml:lang="ru">Получение добавок во внешней среде</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_42"/>
     <skos:prefLabel xml:lang="en">Add easily detectable or measurable additives or substances into the system environment</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Füge einfach zu detektierende oder zu messende Additive oder Stoffe in die Systemumgebung hinzu</skos:prefLabel>
@@ -584,7 +584,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_43">
     <od:hasAltshullerLabel xml:lang="ru">Форсирование измерительных веполей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
     <skos:prefLabel xml:lang="en">Improving Measurement Systems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verbesserung von Mess-Systemen</skos:prefLabel>
@@ -592,7 +592,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_431">
     <od:hasAltshullerLabel xml:lang="ru">Использование физэффектов</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_43"/>
     <skos:prefLabel xml:lang="de">Nutze die Effekte-Datenbank zur Verbesserung von Mess-Systemen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use the Effects Database to Improve Measurement Systems</skos:prefLabel>
@@ -600,7 +600,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_432">
     <od:hasAltshullerLabel xml:lang="ru">Использование резонанса контролируемого объекта</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_43"/>
     <skos:prefLabel xml:lang="de">Nutze Resonanzphänomene zur Messung.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. </skos:prefLabel>
@@ -611,7 +611,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_433">
     <od:hasAltshullerLabel xml:lang="ru">Использование резонанса присоединенного объекта</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_43"/>
     <skos:prefLabel xml:lang="de">Nutze Resonanzphänomene verknüpfter Objekte zur (indirekten) Messung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use resonant phenomena of linked objects for (indirect) measurement</skos:prefLabel>
@@ -619,7 +619,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_44">
     <od:hasAltshullerLabel xml:lang="ru">Переход к фепольным измерительным системам</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
     <skos:prefLabel xml:lang="en">Transition to Ferromagnetic Measurement Systems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Übergang zu ferromagnetischen Mess-Systemen</skos:prefLabel>
@@ -627,7 +627,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_441">
     <od:hasAltshullerLabel xml:lang="ru">Переход к измерительному "протофеполю"</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_44"/>
     <skos:prefLabel xml:lang="de">Setze ferromagnetische Stoffe und Magnetfelder ein</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use ferromagnetic materials and magnetic fields</skos:prefLabel>
@@ -635,7 +635,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_442">
     <od:hasAltshullerLabel xml:lang="ru">Переход к измерительному феполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_44"/>
     <skos:prefLabel xml:lang="de">Ersetze Stoffe durch ferromagnetische Stoffe und detektiere oder messe via Magnetfeld</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Substitute substances through ferromagnetic materials and detect or measure via magnetic field</skos:prefLabel>
@@ -643,7 +643,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_443">
     <od:hasAltshullerLabel xml:lang="ru">Переход к комплексному измерительному феполю</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_44"/>
     <skos:prefLabel xml:lang="en">Create Complex, Linked Fibrous-Field Models with Ferromagnetic Components</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Erzeuge komplexe, verknüpfte Stoff-Feld-Modelle mit ferromagnetischen Bestandteilen</skos:prefLabel>
@@ -651,7 +651,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_444">
     <od:hasAltshullerLabel xml:lang="ru">Переход к измерительному феполю на внешней среде</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_44"/>
     <skos:prefLabel xml:lang="de">Führe ferromagnetische Materialien in die Systemumgebung ein</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Introduce ferromagnetic materials into the system environment</skos:prefLabel>
@@ -659,7 +659,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_445">
     <od:hasAltshullerLabel xml:lang="ru">Использование физэффектов</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_44"/>
     <skos:prefLabel xml:lang="de">Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc.</skos:prefLabel>
@@ -667,7 +667,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_45">
     <od:hasAltshullerLabel xml:lang="ru">Направление развития измерительных систем</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_4"/>
     <skos:prefLabel xml:lang="en">Evolution of Recognize and Measure</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Evolution von Erkennen und Messen</skos:prefLabel>
@@ -675,7 +675,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_451">
     <od:hasAltshullerLabel xml:lang="ru">Переход к измерительным бисистемам и полисистемам</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_45"/>
     <skos:prefLabel xml:lang="en">Create Bi and Poly Systems</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Erzeuge Bi- und Poly-Systeme</skos:prefLabel>
@@ -683,7 +683,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_452">
     <od:hasAltshullerLabel xml:lang="ru">Переход к измерению производных</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_45"/>
     <skos:prefLabel xml:lang="de">Erkenne und messe die (mathematische) Ableitung anstatt der Originalfunktion</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Recognize and measure the (mathematical) derivative instead of the original function</skos:prefLabel>
@@ -691,7 +691,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_5">
     <od:hasAltshullerLabel xml:lang="ru">Стандарты на применение стандартов</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_0"/>
     <skos:prefLabel xml:lang="en">Help</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Hilfen</skos:prefLabel>
@@ -699,7 +699,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_51">
     <od:hasAltshullerLabel xml:lang="ru">Особенности введения веществ</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
     <skos:prefLabel xml:lang="de">Einführen von Stoffen</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Introducing fabrics</skos:prefLabel>
@@ -707,7 +707,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_511">
     <od:hasAltshullerLabel xml:lang="ru">Обходные пути</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Führe Leerräume oder Hohlräume als Stoff ein, benutze hochaktive Additive in kleinen Mengen oder nur lokal, erzeuge den benötigten Stoff erst bei Bedarf ("in situ", beispielsweise durch Elektrolyse, Katalyse, ....).</skos:example>
     <skos:example xml:lang="en">Introduce voids or voids as a substance, use highly active additives in small amounts or only locally, do not produce the required substance until needed (in situ, for example by electrolysis, catalysis, ....). </skos:example>
     <skos:example xml:lang="ru">Вводить пустоты или пустоты в качестве вещества, использовать высокоактивные добавки в небольших количествах или только локально, не производить необходимое вещество до тех пор, пока оно не потребуется (на месте, например, электролизом, катализом, ....). </skos:example>
@@ -718,7 +718,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_512">
     <od:hasAltshullerLabel xml:lang="ru">Разделение изделия на взаимодействующие части</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_51"/>
     <skos:prefLabel xml:lang="en">Parts of fabrics, use fragments</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Zerteile Stoffe, nutze Fragmente</skos:prefLabel>
@@ -726,7 +726,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_513">
     <od:hasAltshullerLabel xml:lang="ru">Самоустранение отработанных веществ</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Der temporär eingeführte Stoff zerfällt nach erfolgreicher Aktion oder wird chemisch zersetzt.</skos:example>
     <skos:example xml:lang="en">The temporarily introduced substance will fail after a successful action or will be chemically decomposed.</skos:example>
     <skos:example xml:lang="ru">Временно введенное вещество выйдет из строя после успешного действия или будет химически разложено.</skos:example>
@@ -737,7 +737,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_514">
     <od:hasAltshullerLabel xml:lang="ru">Использование надувных конструкций и пены</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">By using foams, it is possible to meet both demands for low mass and high volume of material (volume) (voids in excess).</skos:example>
     <skos:example xml:lang="de">Durch Nutzung von Schaumstoffen lässt sich beiden Forderungen nach wenig Masse und viel Volumen Rechnung tragen (Hohlräume im Überschuss).</skos:example>
     <skos:example xml:lang="ru">Используя пенопласт, можно удовлетворить как потребности в малой массе и большом объеме материала (объем) (пустоты в избытке).</skos:example>
@@ -748,7 +748,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_52">
     <od:hasAltshullerLabel xml:lang="ru">Введение полей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
     <skos:prefLabel xml:lang="de">Einführung von Feldern</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Introduction of Fields</skos:prefLabel>
@@ -756,7 +756,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_521">
     <od:hasAltshullerLabel xml:lang="ru">Использование поля по совместительству</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_52"/>
     <skos:prefLabel xml:lang="de">Nutze im Sinne von Ressourcen alle vorhandenen Felder</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Utilize all existing fields in the sense of resources</skos:prefLabel>
@@ -764,7 +764,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_522">
     <od:hasAltshullerLabel xml:lang="ru">Использование поля внешней среды</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_52"/>
     <skos:prefLabel xml:lang="de">Nutze Felder aus der Systemumgebung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use Fields from System Environment</skos:prefLabel>
@@ -772,7 +772,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_523">
     <od:hasAltshullerLabel xml:lang="ru">Использование веществ-источников полей</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Magnetic materials.</skos:example>
     <skos:example xml:lang="de">Magnetische Stoffe.</skos:example>
     <skos:example xml:lang="ru">Магнитные материалы</skos:example>
@@ -783,7 +783,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_53">
     <od:hasAltshullerLabel xml:lang="ru">Использование фазовых переходов</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
     <skos:prefLabel xml:lang="en">Phase transitions</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Phasenübergänge</skos:prefLabel>
@@ -791,7 +791,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_531">
     <od:hasAltshullerLabel xml:lang="ru">Замена фазового состояния вещества</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_53"/>
     <skos:prefLabel xml:lang="en">Change the state of matter or the phase of a part of the system or supersystem</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verändere den Aggregatzustand oder die Phase von Teilen des Systems oder Obersystems</skos:prefLabel>
@@ -799,7 +799,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_532">
     <od:hasAltshullerLabel xml:lang="ru">"Двойственное" фазовое состояние вещества</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="de">Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius.</skos:example>
     <skos:example xml:lang="en">Water and ice together fix the temperature at exactly 0° Celsius.</skos:example>
     <skos:example xml:lang="ru">Вода и лед вместе устанавливают температуру ровно 0° по Цельсию.</skos:example>
@@ -810,7 +810,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_533">
     <od:hasAltshullerLabel xml:lang="ru">Использование явлений, сопутствующих фазовому переходу</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_53"/>
     <skos:prefLabel xml:lang="de">Nutze die einen Phasenübergang begleitenden physikalischen Effekte z.B.: Verdunstungskälte.</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use the physical effects accompanying a phase transition, such as evaporative coldness.</skos:prefLabel>
@@ -818,7 +818,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_534">
     <od:hasAltshullerLabel xml:lang="ru">Переход к двухфазному состоянию вещества</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_53"/>
     <skos:prefLabel xml:lang="de">Nutze Effekte, die aus dem gleichzeitigen Vorliegen zweier Phasen resultieren</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Use effects that result from the simultaneous presence of two phases</skos:prefLabel>
@@ -826,7 +826,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_535">
     <od:hasAltshullerLabel xml:lang="ru">Использование взаимодействия между частями (фазами) системы</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_53"/>
     <skos:prefLabel xml:lang="en">Improving the interaction between two phases</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Verbessere die Interaktion zwischen zwei Phasen</skos:prefLabel>
@@ -834,7 +834,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_54">
     <od:hasAltshullerLabel xml:lang="ru">Особенности применения физэффектов</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
     <skos:prefLabel xml:lang="de">Einsatz der Effekte-Datenbank</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Using the Effects Database</skos:prefLabel>
@@ -842,7 +842,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_541">
     <od:hasAltshullerLabel xml:lang="ru">Использование обратимых физических превращений</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Phase transitions, dissociation and association, ionization and recombination.</skos:example>
     <skos:example xml:lang="de">Phasenübergänge, Dissoziation und Assoziation, Ionisation und Rekombination.</skos:example>
     <skos:example xml:lang="ru">Фазовые переходы, диссоциация и ассоциация, ионизация и рекомбинация.</skos:example>
@@ -853,7 +853,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_542">
     <od:hasAltshullerLabel xml:lang="ru">Усиление поля на выходе</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:example xml:lang="en">Catalysts, enzymes.</skos:example>
     <skos:example xml:lang="de">Katalysatoren, Enzyme.</skos:example>
     <skos:example xml:lang="ru">Катализаторы, ферменты</skos:example>
@@ -864,7 +864,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_55">
     <od:hasAltshullerLabel xml:lang="ru">Экспериментальные стандарты</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_5"/>
     <skos:prefLabel xml:lang="en">Cloth particles</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Stoffpartikel</skos:prefLabel>
@@ -872,7 +872,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_551">
     <od:hasAltshullerLabel xml:lang="ru">Получение частиц вещества разложением</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_55"/>
     <skos:prefLabel xml:lang="de">Erzeuge Stoffpartikel (z. B. Ionen) durch Zerlegung eines höher organisierten Stoffes (z. B. Moleküle).</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Produce material particles (eg ions) by decomposing a more highly organized substance (eg molecules).</skos:prefLabel>
@@ -880,7 +880,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_552">
     <od:hasAltshullerLabel xml:lang="ru">Получение частиц вещества объединением</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_55"/>
     <skos:prefLabel xml:lang="en">Create material particles (eg atoms) by combining lower organized substances (eg elementary particles)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Erzeuge Stoffpartikel (z. B. Atome) durch Kombination niedriger organisierter Stoffe (z. B. Elementarteilchen)</skos:prefLabel>
@@ -888,7 +888,7 @@
   </od:StandardSolution>
   <od:StandardSolution rdf:about="http://opendiscovery.org/rdf/Standard/S_553">
     <od:hasAltshullerLabel xml:lang="ru">Простейшие способы получения частиц вещества</od:hasAltshullerLabel>
-    <rdf:type rdf:resource="http://www.w3org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:narrower rdf:resource="http://opendiscovery.org/rdf/Standard/S_55"/>
     <skos:prefLabel xml:lang="de">Setze beim Zerlegen oder Kombinieren von Stoffpartikeln einen vom Unterteilungsgrad her ähnlichen Stoff ein ("kleine Schritte tun")</skos:prefLabel>
     <skos:prefLabel xml:lang="en">When cutting or combining fabric particles, use a similar level of subdivision «do small steps»</skos:prefLabel>

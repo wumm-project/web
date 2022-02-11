@@ -14,7 +14,7 @@ function theStandards($input)
     $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/TheStandards/');
     $graph->parseFile($input);
     $a=array();
-    foreach($graph->allOfType('skos:Concept') as $concept) {
+    foreach($graph->allOfType('od:StandardSolution') as $concept) {
         $uri=str_replace('http://opendiscovery.org/rdf/Standard/','',$concept->getURI());
         $out="<h3> Standard Solution ".$uri."</h3>";
         //echo $concept->get("skos:prefLabel");
@@ -31,7 +31,6 @@ function theStandards($input)
     }
     ksort($a);
     $out='<h2>The 76 Inventive Standards</h2>
-<p> Strange enough, code does not work as required, no idea why. </p> 
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
