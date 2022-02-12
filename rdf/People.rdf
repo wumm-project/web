@@ -79,7 +79,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amnuel_PR">
     <foaf:affil>Beit She'an, Israel</foaf:affil>
-    <foaf:fullname xml:lang="ru">Амнуэль Павел Рафаэлович</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Амнуэль Песах Рафаэлович</foaf:fullname>
     <foaf:name>Pesakh R. Amnuel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Andersen_B">
@@ -759,12 +759,8 @@
     <foaf:name>Jiang Fan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Farber_BS">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:affil>TRIZ Biopharma International Corp</foaf:affil>
     <foaf:affil>TRIZBiopharma International, New York, USA</foaf:affil>
     <foaf:fullname xml:lang="ru">Фарбер Борис Славинович</foaf:fullname>
-    <foaf:fullname xml:lang="ru">Фарбер Борис Славинович </foaf:fullname>
-    <foaf:name>Boris Farber</foaf:name>
     <foaf:name>Boris S. Farber</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fayemi_PE">
@@ -1418,7 +1414,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_LA">
     <foaf:affil>OutCompete LLC, USA</foaf:affil>
-    <foaf:fullname xml:lang="ru">Каплан Леонид</foaf:fullname>
+    <foaf:fullname xml:lang="ru">Каплан Леонид Абрамович</foaf:fullname>
     <foaf:name>Leonid A. Kaplan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kaplan_S">
@@ -2209,7 +2205,7 @@
     <foaf:name>U. Mishra</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Misyuchenko_IL">
-    <foaf:affil>St. Petersburg, Russia</foaf:affil>
+    <foaf:affil>Lituania</foaf:affil>
     <foaf:fullname xml:lang="ru">Мисюченко Игорь Леонидович</foaf:fullname>
     <foaf:name>Igor Misyuchenko</foaf:name>
   </foaf:Person>
@@ -2935,9 +2931,9 @@
     <foaf:name>Avraam Seredinski</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Severinets_GA">
-    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Северинец Георгий Анатольевич</foaf:fullname>
-    <foaf:name>Georgi Severinets</foaf:name>
+    <foaf:name>Georgi A. Severinets</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Seydlitz_T">
     <foaf:affil>FH Westküste, Heide, Germany</foaf:affil>
@@ -3046,6 +3042,7 @@
     <foaf:name>Mikhail Shusterman</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sibiryakov_VG">
+    <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Сибиряков Виссарион Григорьевич</foaf:fullname>
     <foaf:name>Vissarion Sibiryakov</foaf:name>
   </foaf:Person>
@@ -3243,9 +3240,9 @@
     <foaf:name>Egil Stryken</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stupniker_YI">
-    <foaf:affil>Ukraina</foaf:affil>
+    <foaf:affil>Israel</foaf:affil>
     <foaf:fullname xml:lang="ru">Ступникер Юрий Иосифович</foaf:fullname>
-    <foaf:name>Yuri Stupniker</foaf:name>
+    <foaf:name>Yuri I. Stupniker</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Su_XF">
     <foaf:name>Xiaofang Su</foaf:name>
