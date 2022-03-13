@@ -40,6 +40,7 @@ function pageNavbar() {
             <li><a href="tbk.php">TRIZ Body of Knowledge</a></li>
             <li><a href="conferences.php">Past Conferences</a></li>
             <li><a href="presentations.php">TRIZ Presentations</a></li>
+            <li><a href="videos.php">Videos</a></li>
             <li><a href="ontology.php">TRIZ Ontology</a></li>
             <li><a href="principles.php">Principles</a></li>
             <li><a href="parameters.php">Parameters</a></li>

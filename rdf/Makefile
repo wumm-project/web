@@ -33,6 +33,7 @@ conferences:
 publications:
 	rapper -g ../../RDFData/Books.ttl -o rdfxml-abbrev >Books.rdf
 	rapper -g ../../RDFData/Presentations.ttl -o rdfxml-abbrev >Presentations.rdf
+	rapper -g ../../RDFData/Videos.ttl -o rdfxml-abbrev >Videos.rdf
 	rapper -g ../../RDFData/TBK-References.ttl -o rdfxml-abbrev >TBK-References.rdf
 
 ontologies:
@@ -47,7 +48,8 @@ ontologies:
 	rapper -g ../../RDFData/Matrix/Principles.ttl -o rdfxml-abbrev >Principles.rdf
 	rapper -g ../../RDFData/Matrix/Parameters.ttl -o rdfxml-abbrev >Parameters.rdf
 	rapper -g ../../RDFData/Ontologies/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
-	rapper -g ../../RDFData/Ontologies/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf
 
 more:
-	rapper -g ../../RDFData/BusinessTrends-Wagner.ttl -o rdfxml-abbrev >BusinessTrends-Wagner.rdf
+	rapper -g ../../RDFData/Business-TRIZ/BusinessTrends-Wagner.ttl -o rdfxml-abbrev >BusinessTrends-Wagner.rdf
+	rapper -g ../../RDFData/Business-TRIZ/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf
+	rapper -g ../../RDFData/FlowAnalysis/FlowDevelopmentPattern.ttl -o rdfxml-abbrev >FlowDevelopmentPattern.rdf

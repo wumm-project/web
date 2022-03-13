@@ -940,7 +940,7 @@
     <od:LippertGlossaryNote xml:lang="en">In a computer system, extraction is represented in the identification and removal of bugs and in the correction of system failures.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">In a computer, the removal of heat is an extraction.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">In contrast to segmentation, extraction involves the removal of things from the system. Extraction requires the separation of useful or harmful parts or properties from the whole system. This allows what is needed, or conversely what is not needed, to be taken from the system. This can be achieved by extracting the cause of the undesirable property or function.</od:LippertGlossaryNote>
-    <od:LippertGlossaryNote xml:lang="en">In process improvement, extraction is achieved by the application of Lean principles [37].</od:LippertGlossaryNote>
+    <od:LippertGlossaryNote xml:lang="en">In process improvement, extraction is achieved by the application of Lean principles.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">Similarly, extraction of the disturbing part or property from an object is seen in the development of an X-ray shield that has cut-outs in the shape of the lungs to better protect the parts of the body that do not need to be exposed.</od:LippertGlossaryNote>
     <od:Matrix2003Id>02</od:Matrix2003Id>
     <od:hasAltshuller73Id>02</od:hasAltshuller73Id>
@@ -952,6 +952,7 @@
     <skos:prefLabel xml:lang="de">Gesonderte Behandlung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Principle of separation</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Abtrennung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Taking away</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём вынесения</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Separation_1">

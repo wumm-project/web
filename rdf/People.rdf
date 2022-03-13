@@ -221,7 +221,7 @@
     <foaf:name>Giacomo Bersano</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bertoncelli_T">
-    <foaf:affil>ANSYS, Germany</foaf:affil>
+    <foaf:affil>ANSYS, Ismaning, Germany</foaf:affil>
     <foaf:name>Tiziana Bertoncelli</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bezdel_ZV">
@@ -393,6 +393,10 @@
     <foaf:affil>Irkutsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Быстрицкий Александр Анатольевич</foaf:fullname>
     <foaf:name>Alexander A. Bystritsky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cali_R">
+    <foaf:affil>EVOip, Mannheim, Germany</foaf:affil>
+    <foaf:name>Ricardo Cali</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Campagiorni_V">
     <foaf:name>Valentina Campagiorni</foaf:name>
@@ -997,6 +1001,8 @@
     <foaf:name>Igor Gorchakov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gorin_YV">
+    <dbo:birthDate>1938-07-18</dbo:birthDate>
+    <dbo:deathDate>2015-03-09</dbo:deathDate>
     <foaf:affil>Pensa, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Горин Юрий Васильевич</foaf:fullname>
     <foaf:name>Yuri V. Gorin</foaf:name>
@@ -1449,6 +1455,10 @@
     <foaf:affil>Solingen, Germany</foaf:affil>
     <foaf:name>Tim Katzwinkel</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kauffmann_H">
+    <foaf:affil>Motion Advantage, Balingen, Germany</foaf:affil>
+    <foaf:name>Harald Kauffmann</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kayser_L">
     <foaf:name>Lin Kayser</foaf:name>
   </foaf:Person>
@@ -1668,6 +1678,10 @@
     <foaf:fullname xml:lang="ru">Козырева Нелли Арнольдовна</foaf:fullname>
     <foaf:homepage rdf:resource="https://kozyreva.ucoz.ru/"/>
     <foaf:name>Nelli A. Kozyreva</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kraemer_W">
+    <foaf:affil>Haereus, Hanau, Germany</foaf:affil>
+    <foaf:name>Winfried Krämer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Krasnoslobodtsev_VJ">
     <foaf:affil>Russia</foaf:affil>

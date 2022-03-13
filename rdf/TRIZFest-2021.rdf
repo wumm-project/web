@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
@@ -11,8 +12,11 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/General">
+    <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2021/12/TRIZfest-2021-Proceedings.pdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
     <od:urlVideo rdf:resource="https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt"/>
+    <bibo:isbn>978-0-578-34278-8</bibo:isbn>
+    <bibo:issn>2374-2275</bibo:issn>
     <rdfs:label>TRIZ Fest 2021</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-18</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-15</ical:dtstart>

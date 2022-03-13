@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Video/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/Data/Videos/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <rdfs:label>Youtube Video Presentations of TRIZ Masters</rdfs:label>
+    <owl:imports rdf:resource="http://opendiscovery.org/rdf/People/"/>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Youtube-Video">
+    <rdfs:label>DCMI Video Metarecord</rdfs:label>
+  </owl:Class>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Fey-20190529">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=MLhZ-swewGg"/>
+    <dcterms:abstract xml:lang="en">Interview with Victor Fey taken by Robert Adunka on Sept 11, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fey_VR"/>
+    <dcterms:extent>00:10:09 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-09-11</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Kudryavtsev-20210824">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=fFyc6JEtPqI"/>
+    <dcterms:abstract xml:lang="en">Cult, charlatanism and 40 techniques. Unmasking TRIZ</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
+    <dcterms:extent>01:23:35 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2021-08-24</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Trizovication channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Kuryan-20200422">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=lZGlOoahpvc"/>
+    <dcterms:abstract xml:lang="en">On systems development, working with requirements and applying TRIZ to business with Andrei Kuryan. A MakeSense Podcast</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
+    <dcterms:extent>00:55:43 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-04-22</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Lebedyev-20180128">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=UX3uEUZUn_k"/>
+    <dcterms:abstract xml:lang="en">Flow optimisation law and flow analysis. Presentation at TRIZ Conference Moscow 10-11 November 2017</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
+    <dcterms:extent>01:12:42 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-01-28</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Lebedyev-20220125">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=pluVgvODb7A"/>
+    <dcterms:abstract xml:lang="en">An interview with TRIZ master Yuri Lebedev about some of the projects he has implemented, from technology consultancy to agriculture.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lebedev_YV"/>
+    <dcterms:extent>01:28:00 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2022-01-25</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Litvin-20171101">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=BPpTNC2QOh0"/>
+    <dcterms:abstract xml:lang="en">Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions).</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:extent>02:40:12 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017-11-01</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Nesterenko-20190619">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=JmploJo2XRA"/>
+    <dcterms:abstract xml:lang="en">OTSM-TRIZ as a source of didactic tools for management training. Meeting of the Moscow TRIZ Club on June 19, 2019.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
+    <dcterms:extent>02:20:36 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-06-21</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Schusterman-20190809">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=m1hKpd8vizU"/>
+    <dcterms:abstract xml:lang="en">Application of TRIZ to general thought processes, especially in childhood</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schusterman_MN"/>
+    <dcterms:extent>36:13 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-09</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Shpakovsky-20181119">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=KSutnPM0f68"/>
+    <dcterms:abstract xml:lang="en">Report on a new book by N.A. Shpakovsky "OTSM-TRIZ. Approaches and application practices".</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shpakovsky_NA"/>
+    <dcterms:extent>01:18:06 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-11-19</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Solving Mills facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20190722">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=2cfx3qJZJJ4"/>
+    <dcterms:abstract xml:lang="en">TRIZ for the development of small and medium-sized businesses. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 22, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:27:00 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-22</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20190725">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ubgvcjzhs3g"/>
+    <dcterms:abstract xml:lang="en">Thinking skills in small and medium business. Systemic thinking. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 25, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:27:10 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-25</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20190727">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=srh23Ug6D6s"/>
+    <dcterms:abstract xml:lang="en">Breakthrough thinking in small and medium-sized businesses. TRIZ for business. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 27, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:11:40 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-07-27</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel, accompanied by a large discussion over there</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20190813">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=X9tHu1czb7c"/>
+    <dcterms:abstract xml:lang="en">Abstract thinking in small and medium business. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on August 13, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:21:07 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-13</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20190819">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=4MRtONIOv4M"/>
+    <dcterms:abstract xml:lang="en">Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on August 19, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>00:59:33 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-19</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20190825">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ZWexPVGQHtk"/>
+    <dcterms:abstract xml:lang="en">Nonlinear thinking in small and medium business. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on August 25, 2019</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:22:44 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-08-25</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20191006">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=f6sG-ew9Gzw"/>
+    <dcterms:abstract xml:lang="en">New video in the series “Skills of innovative thinking” about resource thinking. Another interview given to Alexei Shchinnikov from the Saratov TRIZ Club</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:16:01 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-10-06</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20200213">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=gLx6h_KpDVI"/>
+    <dcterms:abstract xml:lang="en">TRIZ for problem solution in business and management</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:09:42 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-02-14</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20200630">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=vLpgLkx57ts"/>
+    <dcterms:abstract xml:lang="en">Where is TRIZ going?</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>01:01:20 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-06-30</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20200707">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=KBS7SJ7Ht_I"/>
+    <dcterms:abstract xml:lang="en">Why don't TRIZ teams launch their products?</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>00:55:53 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-07-07</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Trizovication channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Zlotin-2018006">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=gvIbzSkjhgg"/>
+    <dcterms:abstract xml:lang="en">The emergence of diversion analysis</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:extent>02:27:42 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-04-06</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via  MATRIZ Russia channel</rdfs:comment>
+  </od:Youtube-Video>
+</rdf:RDF>

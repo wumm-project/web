@@ -1,7 +1,7 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2022-02-11
+# lastModified: 2022-02-12
 
 # Changes:
 
@@ -38,11 +38,12 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TopLevel/","TopLevel.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/OntoCards/","OntoCards.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/StandardSolutions/","StandardSolutions.rdf");
-  $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessStandards/","BusinessStandards.rdf");
   
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessStandards/","BusinessStandards.rdf");  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessTrends/","BusinessTrends-Wagner.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK-References/","TBK-References.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowDevelopmentPattern.rdf");
   return $out;
 }
 
