@@ -59,7 +59,7 @@ function pageNavbar() {
 function generalContent() {
   return '
 <div class="container">
-  <h1 align="center">Demonstation Site of the 
+  <h1 align="center">Demonstration Site of the 
     <a href="https://wumm-project.github.io">WUMM Social Network</a></h1>
 </div>
 ';
