@@ -9,6 +9,7 @@
    xmlns:tc="http://opendiscovery.org/rdf/Concept/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Adaptability">
+    <od:hasAltshuller71Id>35</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>32</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -23,6 +24,7 @@
     <skos:prefLabel xml:lang="en">Aesthetics or Appearance</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AmountOfSubstance">
+    <od:hasAltshuller71Id>26</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>26</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>10</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -32,6 +34,7 @@
     <skos:prefLabel xml:lang="ru">Количество вещества</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AreaOfTheMovingObject">
+    <od:hasAltshuller71Id>05</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>05</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>05</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -41,6 +44,7 @@
     <skos:prefLabel xml:lang="ru">Площадь подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/AreaOfTheStationaryObject">
+    <od:hasAltshuller71Id>06</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>06</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>06</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -69,6 +73,7 @@
     <skos:prefLabel xml:lang="en">Complexity Of Control</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DeviceComplexity">
+    <od:hasAltshuller71Id>36</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>36</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>45</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -80,6 +85,7 @@
     <skos:prefLabel xml:lang="ru">Сложность устройства</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DifficultyOfDetecting">
+    <od:hasAltshuller71Id>37</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>37</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>47</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -90,6 +96,7 @@
     <skos:prefLabel xml:lang="ru">Сложность контроля и измерения</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DurabilityOfTheMovingObject">
+    <od:hasAltshuller71Id>15</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>15</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>12</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -99,6 +106,7 @@
     <skos:prefLabel xml:lang="ru">Время действия подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/DurabilityOfTheStationaryObject">
+    <od:hasAltshuller71Id>16</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>16</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>13</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -108,6 +116,7 @@
     <skos:prefLabel xml:lang="ru">Время действия неподвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EaseOfManufacturing">
+    <od:hasAltshuller71Id>32</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>32</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>41</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -118,6 +127,7 @@
     <skos:prefLabel xml:lang="ru">Удобство изготовления</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EaseOfOperation">
+    <od:hasAltshuller71Id>33</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>33</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>34</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -128,6 +138,7 @@
     <skos:prefLabel xml:lang="ru">Удобство эксплуатации</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EaseOfRepair">
+    <od:hasAltshuller71Id>34</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>34</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>36</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -150,6 +161,7 @@
     <skos:prefLabel xml:lang="de">Effizienz</skos:prefLabel>
   </od:ParameterClass>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EnergyUseOfTheMovingObject">
+    <od:hasAltshuller71Id>19</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>19</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>16</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -159,6 +171,7 @@
     <skos:prefLabel xml:lang="ru">Затрата энергии подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/EnergyUseOfTheStationaryObject">
+    <od:hasAltshuller71Id>20</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>20</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>17</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -168,6 +181,7 @@
     <skos:prefLabel xml:lang="ru">Затрата энергии неподвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/ExternalHarmfulFactors">
+    <od:hasAltshuller71Id>30</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>30</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>40</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -178,6 +192,7 @@
     <skos:prefLabel xml:lang="ru">Вредные факторы, действующие на объект извне</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Force">
+    <od:hasAltshuller71Id>10</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>10</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>15</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -197,6 +212,7 @@
     <skos:prefLabel xml:lang="en">Harmful Emissions</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/IlluminationIntensity">
+    <od:hasAltshuller71Id>18</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>18</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>23</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -206,6 +222,7 @@
     <skos:prefLabel xml:lang="ru">Освещённость</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/InternalHarmfulFactors">
+    <od:hasAltshuller71Id>31</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>31</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>31</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -216,6 +233,7 @@
     <skos:prefLabel xml:lang="ru">Вредные факторы самого объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LengthOfTheMovingObject">
+    <od:hasAltshuller71Id>03</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>03</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>03</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -225,6 +243,7 @@
     <skos:prefLabel xml:lang="ru">Длина подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LengthOfTheStationaryObject">
+    <od:hasAltshuller71Id>04</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>04</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>04</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -234,6 +253,7 @@
     <skos:prefLabel xml:lang="ru">Длина неподвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LevelOfAutomation">
+    <od:hasAltshuller71Id>38</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>38</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>43</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -243,6 +263,7 @@
     <skos:prefLabel xml:lang="ru">Степень автоматизации</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfEnergy">
+    <od:hasAltshuller71Id>22</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>22</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>27</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -252,6 +273,7 @@
     <skos:prefLabel xml:lang="ru">Потери энергии</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfInformation">
+    <od:hasAltshuller71Id>24</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>24</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>28</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -261,6 +283,7 @@
     <skos:prefLabel xml:lang="ru">Потери информации</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfSubstance">
+    <od:hasAltshuller71Id>23</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>23</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>25</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -270,6 +293,7 @@
     <skos:prefLabel xml:lang="ru">Потери вещества</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/LossOfTime">
+    <od:hasAltshuller71Id>25</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>25</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>26</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -279,6 +303,7 @@
     <skos:prefLabel xml:lang="ru">Потери времени</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/ManufacturingPrecision">
+    <od:hasAltshuller71Id>29</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>29</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>42</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -294,6 +319,7 @@
     <skos:prefLabel xml:lang="de">Messung</skos:prefLabel>
   </od:ParameterClass>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/MeasurementAccuracy">
+    <od:hasAltshuller71Id>28</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>28</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>48</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -352,6 +378,7 @@
     <skos:prefLabel xml:lang="de">Physikalische Parameter</skos:prefLabel>
   </od:ParameterClass>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Power">
+    <od:hasAltshuller71Id>21</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>21</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>18</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -361,6 +388,7 @@
     <skos:prefLabel xml:lang="ru">Мощность</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Productivity">
+    <od:hasAltshuller71Id>39</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>39</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>44</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -375,6 +403,7 @@
     <skos:prefLabel xml:lang="en">Quantity Of Information</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Reliability">
+    <od:hasAltshuller71Id>27</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>27</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>35</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -389,6 +418,7 @@
     <skos:prefLabel xml:lang="en">Security</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Shape">
+    <od:hasAltshuller71Id>12</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>12</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>09</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -398,6 +428,7 @@
     <skos:prefLabel xml:lang="ru">Форма</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Speed">
+    <od:hasAltshuller71Id>09</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>09</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>14</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -407,6 +438,7 @@
     <skos:prefLabel xml:lang="ru">Скорость</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/StabilityOfTheObjectsStructure">
+    <od:hasAltshuller71Id>13</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>13</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>21</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -416,6 +448,7 @@
     <skos:prefLabel xml:lang="ru">Устойчивость состава объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Strength">
+    <od:hasAltshuller71Id>14</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>14</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>20</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -425,6 +458,7 @@
     <skos:prefLabel xml:lang="ru">Прочность</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/StressOrPressure">
+    <od:hasAltshuller71Id>11</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>11</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>19</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -434,6 +468,7 @@
     <skos:prefLabel xml:lang="ru">Напряжение, давление</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/Temperature">
+    <od:hasAltshuller71Id>17</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>17</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>22</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -443,6 +478,7 @@
     <skos:prefLabel xml:lang="ru">Температура</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/VolumeOfTheMovingObject">
+    <od:hasAltshuller71Id>07</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>07</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>07</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -452,6 +488,7 @@
     <skos:prefLabel xml:lang="ru">Объем подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/VolumeOfTheStationaryObject">
+    <od:hasAltshuller71Id>08</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>08</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>08</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -467,6 +504,7 @@
     <skos:prefLabel xml:lang="en">Vulnerability</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/WeightOfTheMovingObject">
+    <od:hasAltshuller71Id>01</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>01</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>01</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -476,6 +514,7 @@
     <skos:prefLabel xml:lang="ru">Вес подвижного объекта</skos:prefLabel>
   </od:Parameter>
   <od:Parameter rdf:about="http://opendiscovery.org/rdf/Concept/WeightOfTheStationaryObject">
+    <od:hasAltshuller71Id>02</od:hasAltshuller71Id>
     <od:hasAltshuller84Id>02</od:hasAltshuller84Id>
     <od:hasMatrix2003Id>02</od:hasMatrix2003Id>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

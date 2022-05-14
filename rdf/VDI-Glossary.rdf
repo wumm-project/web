@@ -54,7 +54,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Antizipierende Fehlererkennung (AFE)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">anticipatory failure determination (AFD)</skos:prefLabel>
-    <skos:prefLabel xml:lang="ru">Определение ожидаемого сбоя (AFD)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Определение ожидаемого сбоя</skos:prefLabel>
   </od:VDIGlossaryEntry>
   <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CatalogueEffects">
     <od:VDIGlossaryDefinition xml:lang="en">Catalogue of physical, chemical, geometrical, biological, or other effects which may be selected and applied to solve physical contradictions and to fulfil functions.</od:VDIGlossaryDefinition>
@@ -79,8 +79,9 @@
     <od:VDIGlossaryDefinition xml:lang="en">System model which graphically represents cause-effect relations between functions, components, events, and parameters of the system and its environment</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Системная модель, которая графически представляет причинно-следственные связи между функциями, компонентами, событиями и параметрами системы и ее среды</od:VDIGlossaryDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">cause-effect diagram</skos:altLabel>
     <skos:prefLabel xml:lang="de">Ursache-Wirkungs-Ketten-Modell</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">cause-effect diagram (cause-effect-chain diagram)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cause-effect-chain diagram</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">причинно-следственная схема</skos:prefLabel>
   </od:VDIGlossaryEntry>
   <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/ClassicalTRIZ">
@@ -91,6 +92,15 @@
     <skos:prefLabel xml:lang="de">Klassische TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="en">classical TRIZ</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">классический ТРИЗ</skos:prefLabel>
+  </od:VDIGlossaryEntry>
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/CompleteSystem">
+    <od:VDIGlossaryDefinition xml:lang="de">System bestehend aus den Elementen Energiequelle, Antrieb, Übertragung, Arbeitsmittel, Steuerung, Objekt und gegebenenfalls weiteren Schnittstellen zum Obersystem.</od:VDIGlossaryDefinition>
+    <od:VDIGlossaryDefinition xml:lang="en">System consisting of the elements energy source, drive, transmission, working means, control, object and, if applicable, further interfaces to the supersystem.</od:VDIGlossaryDefinition>
+    <od:VDIGlossaryDefinition xml:lang="ru">Система, состоящая из элементов источник энергии, двигатель, трансмиссия, рабочий орган, управление, объект и, если применимо, дальнейшие интерфейсы к надсистеме.</od:VDIGlossaryDefinition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Vollständiges System nach TRIZ</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">complete system according to TRIZ</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">полная система в смысле ТРИЗ</skos:prefLabel>
   </od:VDIGlossaryEntry>
   <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/Contradiction">
     <od:VDIGlossaryDefinition xml:lang="en">Situation at which two contrary demands to a system have to be met.</od:VDIGlossaryDefinition>
@@ -127,7 +137,7 @@
     <od:VDIGlossaryDefinition xml:lang="de">TRIZ-Methode zur Verbesserung eines technischen Systems, bei der Eigenschaften, Charakteristika oder Merkmale von einem alternativen technischen System auf das betrachtete übertragen werden.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Метод ТРИЗ для улучшения технической системы, которая использует передачу свойств, характеристик или особенности альтернативной технической системы в исследуемую.</od:VDIGlossaryDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Feature Transfer</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Feature-Transfer</skos:prefLabel>
     <skos:prefLabel xml:lang="en">feature transfer</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">передача функций</skos:prefLabel>
   </od:VDIGlossaryEntry>
@@ -210,9 +220,9 @@
     <od:VDIGlossaryDefinition xml:lang="en">dimensionless ratio of benefit and expenses</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="de">dimensionsloser Quotient aus Nutzen und Aufwand</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">безразмерное соотношение выгод и расходов</od:VDIGlossaryDefinition>
-    <od:VDIGlossaryNote xml:lang="de">Der Aufwand ist bestimmt aus unerwünschten Effekte, Kosten, Problemen oder anderen Faktoren.</od:VDIGlossaryNote>
-    <od:VDIGlossaryNote xml:lang="en">The expenses comprise undesired effects, costs, problems or other factors.</od:VDIGlossaryNote>
-    <od:VDIGlossaryNote xml:lang="ru">Расходы включают нежелательные эффекты, затраты, проблемы или другие факторы.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="de">Der Aufwand ist bestimmt aus unerwünschten Effekten sowie anderen Faktoren wie Kosten, Problemen oder Umwelschäden.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="en">The expenses comprise undesired effects as well as other factors such as costs, problems or environmental damage.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="ru">Расходы определяются нежелательными последствиями, а также другими факторами, такими как затраты, проблемы или ущерб окружающей среде.</od:VDIGlossaryNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Idealität</skos:prefLabel>
     <skos:prefLabel xml:lang="en">ideality</skos:prefLabel>
@@ -235,7 +245,10 @@
     <od:VDIGlossaryDefinition xml:lang="de">Prinzipien zur Lösungen technischer Probleme.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Основы решения технических проблем.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryNote xml:lang="de">Die Prinzipien sind aus der Analyse von Patenten entstanden.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="de">Güte oder Marktwert im Sinne einer Innovation erweist sich erst später. In dieser Richtlinie wird trotzdem der Begriff „Innovationsprinzip“ statt „erfinderisches Prinzip“ verwendet.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="en">Quality or market value in the sense of an innovation, only proves itself later. Nevertheless, this standard uses the German term “Innovationsprinzip” instead of “erfinderisches Prinzip”.</od:VDIGlossaryNote>
     <od:VDIGlossaryNote xml:lang="en">The principles were derived from the analysis of existing patents.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="ru">Качество или рыночная ценность в смысле инновации проявляется только позже. Тем не менее, в настоящем стандарте используется немецкий термин "Innovationsprinzip" вместо "erfinderisches Prinzip".</od:VDIGlossaryNote>
     <od:VDIGlossaryNote xml:lang="ru">Принципы были получены на основе анализа существующих патентов.</od:VDIGlossaryNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">erfinderische Prinzipien</skos:prefLabel>
@@ -262,6 +275,7 @@
     <od:VDIGlossaryDefinition xml:lang="de">Vorgehen zum Lösen eines Problems unter Entwicklung von Lösungen, die sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergeben und damit als neuartig gelten.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Процесс решения проблем, который приводит к новым решениям, не очевидным для специалиста в данной области техники и которые рассматриваются как новизна.</od:VDIGlossaryDefinition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="de">erfinderisches Problem</skos:altLabel>
     <skos:prefLabel xml:lang="de">erfinderische Problemlösung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">inventive problem solving</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">решение изобретательских задач</skos:prefLabel>
@@ -476,7 +490,7 @@
     <skos:prefLabel xml:lang="en">system of inventive standards</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">система изобретательских стандартов</skos:prefLabel>
   </od:VDIGlossaryEntry>
-  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemicOperator">
+  <od:VDIGlossaryEntry rdf:about="http://opendiscovery.org/rdf/Concept/SystemOperator">
     <od:VDIGlossaryDefinition xml:lang="de">Schema zur Analyse eines Systems, zur Problemlösung und zur Abschätzung seiner zukünftigen Weiterentwicklung.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="en">Scheme for system analysis or for problem solution and for estimation of the future system evolution.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryDefinition xml:lang="ru">Схема для анализа системы или для решения проблемы и для оценки будущего развития системы.</od:VDIGlossaryDefinition>
@@ -494,10 +508,10 @@
     <od:VDIGlossaryDefinition xml:lang="ru">Научная и прикладная дисциплина, которая включает в себя изучение направлений эволюции инженерных систем и процесса решения изобретательских задач с целью разработки методов и инструментов поддерживать которые поддерживают инновационное совершенствование инженерных систем на основе системного подхода, основанного на научных методах.</od:VDIGlossaryDefinition>
     <od:VDIGlossaryNote xml:lang="de">In den ersten Übersetzungen vom Russischen ins Englische wurde TRIZ mit TIPS übersetzt. "TIPS" ist das Akronym der englischen Bezeichnung "Theory of Inventive Problem Solving".</od:VDIGlossaryNote>
     <od:VDIGlossaryNote xml:lang="en">In the first translations from Russian to English, TRIZ was translated as TIPS. The abbreviation "TIPS" is the acronym for "theory of inventive problem solving".</od:VDIGlossaryNote>
-    <od:VDIGlossaryNote xml:lang="en">Lately, TRIZ has been extended to non-technology areas, e.g. economical, organisational or information-technical systems.</od:VDIGlossaryNote>
-    <od:VDIGlossaryNote xml:lang="de">Mittlerweile wird TRIZ auch auf nicht technische Bereiche angewendet, z.B. ökonomische, organisatorische oder informationstechnische Systeme.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="en">Lately, TRIZ has been extended to non-technology tasks, e.g. economical, socio-ecological, organisational or information-technical problems.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="de">Mittlerweile wird TRIZ auch bei nicht technische Aufgaben angewendet, z.B. für ökonomische, sozio-ökologische, organisatorische oder informationstechnische Probleme.</od:VDIGlossaryNote>
     <od:VDIGlossaryNote xml:lang="ru">В первых переводах с русского на английский ТРИЗ была переведена как TIPS. Аббревиатура "TIPS" является аббревиатурой английского названия "theory of inventive problem solving".</od:VDIGlossaryNote>
-    <od:VDIGlossaryNote xml:lang="ru">В последнее время ТРИЗ была распространена на нетехнологические области, например, на экономические, организационные или информационно-технические системы.</od:VDIGlossaryNote>
+    <od:VDIGlossaryNote xml:lang="ru">В последнее время ТРИЗ была распространена на нетехнологические задачи, например, на экономические, социо-экогологические, организационные или информационно-технические проблемы.</od:VDIGlossaryNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">TRIZ (Theorie des erfinderischen Problemlösens)</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TRIZ (theory of inventive problem solving, TIPS)</skos:prefLabel>
@@ -559,6 +573,7 @@
     <rdfs:comment>2019-10-28 graebe: Adjusted to the new general standard</rdfs:comment>
     <rdfs:comment>2020-12-26 graebe: skos:definition, skos:note and skos:example changed to narrower predicates</rdfs:comment>
     <rdfs:comment>2021-01-25 graebe: tc:VDIGlossaryEntry changed to od:VDIGlossaryEntry</rdfs:comment>
+    <rdfs:comment>2022-03-14 graebe: Aligned with the version Blatt 1 of Sept. 2021</rdfs:comment>
     <rdfs:label>TRIZ VDI-Glossary</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

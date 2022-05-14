@@ -7,26 +7,9 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021/">
-    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2021.rdf"/>
-    <rdfs:label>Business TRIZ Online Fall 2021</rdfs:label>
-    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtstart>
-    <ical:location>Online</ical:location>
-    <ical:summary>BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community.</ical:summary>
-    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html"/>
-  </swc:ConferenceEvent>
-  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020">
-    <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
-    <rdfs:label>Business TRIZ Online 2020</rdfs:label>
-    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-27</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-24</ical:dtstart>
-    <ical:location>Online</ical:location>
-    <ical:summary xml:lang="en">The conference MOF - spelled as "MATRIZ Online Forum 2020" or "Moscow Online Forum 2020" is a online conference format newly created by the MATRIZ with simultaneous translation of the talks to English, Russian and Chinese. </ical:summary>
-    <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
-  </swc:ConferenceEvent>
-  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2020/">
-    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BusinessTRIZ-2020.rdf"/>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2020/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2020.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
     <rdfs:label>Business TRIZ Online 2020</rdfs:label>
     <ical:description xml:lang="ru">Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
 
@@ -37,14 +20,44 @@
     <ical:summary xml:lang="en">The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encourage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. </ical:summary>
     <ical:url rdf:resource="http://www.biztriz.net/news/2-uncategorised/32-2020.html"/>
   </swc:ConferenceEvent>
-  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/">
-    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BusinessTRIZ-2021.rdf"/>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021-F/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2021-F.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
+    <rdfs:label>Business TRIZ Online Fall 2021</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary>BUSINESS TRIZ ONLINE 2021 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community.</ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021-W/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2021-W.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
     <rdfs:label>Business TRIZ Online Winter 2021</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-27</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-26</ical:dtstart>
     <ical:location>Online</ical:location>
     <ical:summary xml:lang="en">The "Business TRIZ Online Winter 2021" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.</ical:summary>
     <ical:url rdf:resource="http://www.biztriz.net/36-conference-business-triz-online-winter-2021.html"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2022-S.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
+    <rdfs:label>Business TRIZ Online Spring 2022</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-20</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-21</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The BUSINESS TRIZ ONLINE - SPRING 2022 conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.</ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020">
+    <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
+    <rdfs:label>Business TRIZ Online 2020</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-27</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-24</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The conference MOF - spelled as "MATRIZ Online Forum 2020" or "Moscow Online Forum 2020" is a online conference format newly created by the MATRIZ with simultaneous translation of the talks to English, Russian and Chinese. </ical:summary>
+    <ical:url rdf:resource="https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/GermanTEX-2022.rdf"/>

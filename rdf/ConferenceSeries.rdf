@@ -11,6 +11,11 @@
     <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
     <rdfs:label>TSN: Conference Series</rdfs:label>
   </owl:Ontology>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/BTO">
+    <od:description>This series of conferences is organized by IBTA - the International Business TRIZ Association.</od:description>
+    <rdfs:label>Business TRIZ Online</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.biztriz.net"/>
+  </od:ConferenceSeries>
   <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/MTC">
     <od:description>This series of conferences is organized by the Moscow TRIZ Club.</od:description>
     <rdfs:label>Moscow TRIZ Conferences</rdfs:label>

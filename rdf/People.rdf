@@ -73,6 +73,9 @@
     <foaf:fullname xml:lang="ru">Альтшуллер Генрих Саулович</foaf:fullname>
     <foaf:name>Genrich Saulowich Altshuller</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amatulli_N">
+    <foaf:name>Natalia Amatulli</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Aminov_RB">
     <foaf:fullname xml:lang="ru">Аминов Рустем Булатович</foaf:fullname>
     <foaf:name>Rustem B. Aminov</foaf:name>
@@ -310,6 +313,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Borodastov_GV">
     <foaf:name>G.V. Borodastov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Borovikov_A">
+    <foaf:name>Artem Borovikov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Botashev_A">
     <foaf:fullname xml:lang="ru">Боташев Анвар</foaf:fullname>
@@ -883,7 +889,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gafitulin_TM">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Т.М. Гафитулин</foaf:fullname>
-    <foaf:name>T.M. Gafitulin</foaf:name>
+    <foaf:name>Timur M. Gafitulin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Galmadi_G">
     <foaf:name>Gheorghe Galmadi</foaf:name>
@@ -1087,7 +1093,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Halas_M">
     <foaf:affil>GRUPA ODITK, Poland</foaf:affil>
-    <foaf:name>Michal Halas</foaf:name>
+    <foaf:name>Michał Hałas</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Halchuk_I">
     <foaf:name>Ihar Halchuk</foaf:name>
@@ -1195,6 +1201,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hong_Z">
     <foaf:name>Zhang Hong</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hongbo_Y">
+    <foaf:name>Yan Hongbo</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hongyul_Y">
     <foaf:affil>TRIZ Center, South Korea</foaf:affil>
@@ -2613,7 +2622,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Polonsky_LM">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Полонский Леонид Моисеевич</foaf:fullname>
-    <foaf:name>L.M. Polonsky</foaf:name>
+    <foaf:name>Leonid M. Polonsky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pomeranets_MS">
     <foaf:fullname xml:lang="ru">Померанец М.С.</foaf:fullname>
@@ -3372,7 +3381,7 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tokarev_AS">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Токарев Александр Сергеевич</foaf:fullname>
-    <foaf:name>A.S. Tokarev</foaf:name>
+    <foaf:name>Alexander S. Tokarev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tomashevskaya_N">
     <foaf:name>Natalia Tomashevskaya</foaf:name>
@@ -3821,7 +3830,7 @@
     <foaf:name>Zhao Xin-jun</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Y">
-    <foaf:name>Yan Zhao</foaf:name>
+    <foaf:name>Zhao Yan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Z">
     <foaf:affil>Harbin Engieering University, China</foaf:affil>

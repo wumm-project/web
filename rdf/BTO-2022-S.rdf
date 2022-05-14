@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/General">
+    <rdfs:comment>Presentations of the Business TRIZ Online Spring 2022</rdfs:comment>
+    <rdfs:label>Business TRIZ Online Spring 2022</rdfs:label>
+    <ical:description xml:lang="en">One of the key skills of management professions in today's world is the ability to solve difficult, non-standard problems. The competitive environment and demands of the 21st century society require acting quickly. The need to effectively find new non-standard solutions, as well as to create new successful innovative business systems and business products are becoming the highest priority requirements. Most of such tasks require extraordinary, creative thinking.
+
+Technology and tools of systematic innovative thinking based on TRIZ - Theory of Inventive Problem Solving - are now actively implemented in various organizations all over the world. Originally developed to support technical innovation and used by many global companies, TRIZ is used in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
+
+The "BUSINESS TRIZ ONLINE - SPRING 2022" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.
+
+The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English.</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-20</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-05-21</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The BUSINESS TRIZ ONLINE - SPRING 2022 conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.</ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_100">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">Progress with Business TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_101">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_B"/>
+    <dcterms:title xml:lang="en">Preliminary Conception of Fusion with Business TRIZ and Multi-methods</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_102">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
+    <dcterms:title xml:lang="en">Process optimization using TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_103">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_SJ"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_YJ"/>
+    <dcterms:title xml:lang="en">To Improve the Service Quality of Convenience Stores by TRIZ for Business and Management</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_104">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Amatulli_N"/>
+    <dcterms:title xml:lang="en">Actual Case Study with Value Conflict Mapping (VCM)</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_105">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
+    <dcterms:title xml:lang="en">Factors approach to the technical contradiction elimination in the Business TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_106">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_TM"/>
+    <dcterms:title xml:lang="en">The Law of Completeness for social-techno systems. On the example of the commercial company organizational structure.</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_107">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_T"/>
+    <dcterms:title xml:lang="en">Use TRIZ to support the "Virtual ecological niche" for investments</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_108">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Halas_M"/>
+    <dcterms:title xml:lang="en">Jumping to the next S-curve</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_109">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hongbo_Y"/>
+    <dcterms:title xml:lang="en">Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_110">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
+    <dcterms:title xml:lang="en">On the Interconnection of Project- and Product-Centered Systemic Modelling</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_111">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borovikov_A"/>
+    <dcterms:title xml:lang="en">Matrix "Problem - Solution" for target audiences of products.</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_112">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tokarev_AS"/>
+    <dcterms:title xml:lang="en">Functional Approach to Representing Systems (Businesses and Processes).</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_113">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">Further development of Business TRIZ &amp; IBTA: Discussions </dcterms:title>
+  </od:Talk>
+</rdf:RDF>

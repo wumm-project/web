@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+<rdf:RDF xmlns:bmp="http://opendiscovery.org/rdf/BusinessModelPattern/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -25,6 +26,27 @@ werden?</od:Provocation>
 продуктами, процессами, услугами, бизнес-модельями и т.д.?</od:Provocation>
     <od:Provocation xml:lang="ru">Как расширить существующее предложение новым бизнес-модельем или объедить с
 другой бизнес-моделью?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/AddOn"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CrossSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CustomerLoyalty"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRat"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Integrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LockIn"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ObjectSelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/OpenBusinessModel"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/OpenSource"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/RazorBlade"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ReverseEngineering"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ReverseInnovation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SensorAsService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ShopInShop"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SolutionProvider"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Subscription"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TargetThePoor"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/UltimateLuxury"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Systemvollständigkeit</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Increasing System Completeness</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция к увеличению полноты системы</rdfs:label>
@@ -159,6 +181,19 @@ werden?</od:Provocation>
 были удалены именно эти шаги?</od:Provocation>
     <od:Provocation xml:lang="ru">Какие элементы существующей бизнес-модели можно свертывать? Какие другие
 элементы могут выполнять функцию свернутые элементы?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Barter"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/DirectSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/HiddenRevenue"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/License"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/NoFrills"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PeerToPeer"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Prosumer"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/RobinHood"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Subscription"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/UserDesigned"/>
     <rdfs:label xml:lang="de">Trend des zunehmenden Trimmgrades</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Increasing Degee of Trimming</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция повышения уровня свертывания</rdfs:label>
@@ -279,6 +314,29 @@ werden, um Aufgaben zu erfüllen bzw. oder Prozesse übernehmen?</od:Provocation
     <od:Provocation xml:lang="ru">Какие элементы окружающей среды, как конкуренция, интернет и т.д., всё ещё
 существены для бизнес-модели и как эта среда может быть использована для
 создания добавочной стоимости?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Affiliaton"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Auction"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Barter"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CrowdFunding"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CrowdSourcing"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/DirectSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ECommerce"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/MakeMoreOfIt"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/NoFrills"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/OpenBusinessModel"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/OpenSource"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PeerToPeer"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Prosumer"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/RevenueSharing"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ShopInShop"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TrashToCash"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Virtualisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/WhiteLabel"/>
     <rdfs:label xml:lang="de">Trend des Übergangs zum Supersystem</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Transition to the Supersystem</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция перехода к надсистеме</rdfs:label>
@@ -396,6 +454,17 @@ aufeinander abgestimmt und koordiniert werden?</od:Provocation>
 согласованность?</od:Provocation>
     <od:Provocation xml:lang="ru">Какие элементы бизнес-модели можно изменить или развить дальнше не слишком
 меняв внутренную координацию бизнес-модели?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CashMachine"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedControl"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Koordinierung</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Increasing Coordination</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция усиления координации</rdfs:label>
@@ -482,6 +551,16 @@ Fokus auf die Schaffung von Wert bei Kunden gelegt wird?</od:Provocation>
 на создании ценности у клиента?</od:Provocation>
     <od:Provocation xml:lang="ru">Какова фактическая ценность бизнес-модели у клиента и как это можно
 использовать для создания (дополнительных) продаж?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeveageCustomerData"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedControl"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Kontrollierbarkeit</rdfs:label>
     <rdfs:label xml:lang="en">Trend towards increasing controllability</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция к повышению управляемости</rdfs:label>
@@ -563,6 +642,13 @@ Zeiten ablaufen?</od:Provocation>
     <od:Provocation xml:lang="ru">Какие элементы существующей бизнес-модели могут взять на себя несколько
 функций и тем самым переходить от одной функции к
 многофункциональности?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FromPullToPush"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Dynamisierung</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Increasing Dynamization</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция увеличения динамизации</rdfs:label>
@@ -673,7 +759,13 @@ Interaktion ausgestaltet sind?</od:Provocation>
     <od:Provocation xml:lang="ru">Какие элементы бизнес-модели могут работать без человеческого
 взаимодействия?  Какие этапы процесса можно выполнить без человеческого
 вмешения?</od:Provocation>
-    <rdfs:label xml:lang="de">Trend der abnehmenden Einbeziehung von Menschen</rdfs:label>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRate"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ObjectSelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/SemsorAsService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Subscription"/>
+    <rdfs:label xml:lang="de">Trend der abnehmenden menschlichen Interaktion</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Decreasing Human Involvement</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция сокращения человеческого взаимодействия</rdfs:label>
     <skos:definition xml:lang="de">Abnehmende menschliche Interaktion</skos:definition>
@@ -783,6 +875,20 @@ etc.?</od:Provocation>
 противоречия могут быть разрешены средствами ТРИЗ?</od:Provocation>
     <od:Provocation xml:lang="ru">Какие элементы бизнес-модели могут развиваться быстрее или медленнее?  Как
 это меняет бизнес-модель?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/AddOn"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Aikido"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/IngredientBranding"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LayerPlayer"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LongTail"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/MassCustomisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ObjectSelfService"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TargetThePoor"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/UserDesigned"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/WhiteLabel"/>
     <rdfs:label xml:lang="de">Trend der ungleichen Entwicklung von Systemkomponenten</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Uneven Development of System Components</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция неравномерного развития компонентов системы</rdfs:label>
@@ -883,6 +989,16 @@ zu gestalten?</od:Provocation>
 т.д.?</od:Provocation>
     <od:Provocation xml:lang="ru">Какие этапы взаимодействия между клиентами и Бизнес не работает гладко?
 Какие проблемы возникают?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/AddOn"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Affiliation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Aikido"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Barter"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CashMachine"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRate"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData"/>
     <rdfs:label xml:lang="de">Trend der Flussverstärkung</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Flow Enhancement</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция улучшения потока</rdfs:label>
@@ -987,6 +1103,18 @@ adressiert werden?</od:Provocation>
     <od:Provocation xml:lang="ru">Как могут органы чувств человека (слух, вкус, обоняние, осязание, зрение)
 быть интегрированы в бизнес-модель? В каком смысле изменяет это существующую
 бизнес-модель?</od:Provocation>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CrossSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CustomerLoyalty"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedControl"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/UserDesigned"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Integration menschlicher Sinne</rdfs:label>
     <rdfs:label xml:lang="en">Trend of Increasing Integration of Human Senses</rdfs:label>
     <rdfs:label xml:lang="ru">Тенденция к увеличению интеграции человеческих чувств</rdfs:label>
@@ -1045,8 +1173,9 @@ often security needs.</skos:note>
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>2022-02-01 graebe: Extracted and transformed</rdfs:comment>
+    <rdfs:comment>2022-04-05 graebe: Business Model Patterns added</rdfs:comment>
     <rdfs:comment>Business trends proposed by Luisa Wagner in her master's thesis https://wumm-project.github.io/Texts/WagnerLuisa-2021.pdf.</rdfs:comment>
-    <rdfs:comment>Extracted and transformed by HGG, 2022-02-10</rdfs:comment>
     <rdfs:label>TRIZ Database - Business Trends</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

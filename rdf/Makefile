@@ -7,9 +7,10 @@ people:
 	rapper -g ../../RDFData/MATRIZMembers.ttl -o rdfxml-abbrev >MATRIZMembers.rdf
 
 conferences:
-	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2020.ttl -o rdfxml-abbrev >BusinessTRIZ-2020.rdf
-	rapper -g ../../RDFData/Conferences/BusinessTRIZ-2021.ttl -o rdfxml-abbrev >BusinessTRIZ-2021.rdf
-	rapper -g ../../RDFData/Conferences/BTO-2021.ttl -o rdfxml-abbrev >BTO-2021.rdf
+	rapper -g ../../RDFData/Conferences/BTO-2020.ttl -o rdfxml-abbrev >BTO-2020.rdf
+	rapper -g ../../RDFData/Conferences/BTO-2021-W.ttl -o rdfxml-abbrev >BTO-2021-W.rdf
+	rapper -g ../../RDFData/Conferences/BTO-2021-F.ttl -o rdfxml-abbrev >BTO-2021-F.rdf
+	rapper -g ../../RDFData/Conferences/BTO-2022-S.ttl -o rdfxml-abbrev >BTO-2022-S.rdf
 	rapper -g ../../RDFData/ConferenceSeries.ttl -o rdfxml-abbrev >ConferenceSeries.rdf
 	rapper -g ../../RDFData/PastConferences.ttl -o rdfxml-abbrev >PastConferences.rdf
 	rapper -g ../../RDFData/Conferences/MTC-2020.ttl -o rdfxml-abbrev >MTC-2020.rdf

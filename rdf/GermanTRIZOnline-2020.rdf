@@ -11,6 +11,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/General">
+    <od:theProceedings rdf:resource="https://doi.org/10.1007/978-3-662-63073-0"/>
     <rdfs:comment>Presentations of the Business Online Conference 2020</rdfs:comment>
     <rdfs:label xml:lang="en">1. German TRIZ Online Conference 2020</rdfs:label>
     <ical:description xml:lang="de">Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag).
