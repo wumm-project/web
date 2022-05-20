@@ -27,11 +27,18 @@ where { ?a a od:BusinessModelPattern . }';
     }
     $a=array();
     foreach($graph->allOfType('od:BusinessModelPattern') as $bmp) {
+        $comment=$bmp->get("rdfs:comment");
+        $note=$bmp->all("skos:note");
         $uri=str_replace('http://opendiscovery.org/rdf/BusinessModelPattern/'
                          ,'',$bmp->getURI());
         $out="<h3>".$uri."</h3>";
         $out.="<p>".showLanguage($bmp->all("skos:prefLabel"),"<br/>")."</p>";
-        $out.="<h4>Note</h4><p>".showLanguage($bmp->all("skos:note"),"<br/>")."</p>";
+        if (!empty($note)) {
+            $out.="<h4>Note</h4><p>".showLanguage($note,"<br/>")."</p>";
+        }
+        if (!empty($comment)) {
+            $out.="<h4>Comment</h4><p>".$comment."</p>";
+        }
         $a[$uri]="<div>\n$out\n</div>\n";
     }
     ksort($a);
