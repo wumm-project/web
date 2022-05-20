@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-02-11
+ * last update: 2022-05-20
  */
 
 function pageHeader() {
@@ -47,6 +47,7 @@ function pageNavbar() {
             <li><a href="standards.php">Standards</a></li>
             <li><a href="businessstandards.php">Business Standards</a></li>
             <li><a href="businesstrends.php">Business Trends</a></li>
+            <li><a href="bmp.php">Business Model Patterns</a></li>
             <li><a href="wtsp.php">WTSP Metadata</a></li>
             <!--<li><a href="test.php">Test</a></li>-->
           </ul>

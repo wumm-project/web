@@ -55,6 +55,26 @@ function showLanguage($a,$sep) {
     ksort($b);
     return join($sep,$b);
 }
+function listPerLanguage($concept,$item) {
+    $lang=array();
+    foreach($concept->all($item) as $v) {
+        $l=$v->getLang();
+        if (empty($l)) { $l='en'; }
+        $lang[$l]=1;
+    }
+    ksort($lang);
+    $out='';
+    foreach($lang as $l => $value) {
+        $b=array();
+        foreach($concept->all($item,"literal",$l) as $v) {
+            $b[]="<li>$v</li>";
+        }
+        ksort($b);
+        $out.="$l:<ul>".join("\n",$b).'</ul>';
+    }
+    return $out;
+}
+
 
 function createLink($url,$text) {
     return '<a href='.$url.'>'.$text.'</a>';

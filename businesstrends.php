@@ -1,32 +1,12 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-02-11
+ * last update: 2022-05-20
  */
 
 require 'vendor/autoload.php';
 require_once 'helper.php';
 require_once 'layout.php';
-
-function listPerLanguage($concept,$item) {
-    $lang=array();
-    foreach($concept->all($item) as $v) {
-        $l=$v->getLang();
-        if (empty($l)) { $l='en'; }
-        $lang[$l]=1;
-    }
-    ksort($lang);
-    $out='';
-    foreach($lang as $l => $value) {
-        $b=array();
-        foreach($concept->all($item,"literal",$l) as $v) {
-            $b[]="<li>$v</li>";
-        }
-        ksort($b);
-        $out.="$l:<ul>".join("\n",$b).'</ul>';
-    }
-    return $out;
-}
 
 function getSubTrends($trend) {
     global $sparql;
@@ -36,6 +16,7 @@ PREFIX od: <http://opendiscovery.org/rdf/Model#>
 PREFIX tc: <http://opendiscovery.org/rdf/Concept/> 
 
 describe ?a
+from <http://opendiscovery.org/rdf/BusinessTrends-Wagner/>
 where { ?a a tc:SubTrend; od:isSubtrendOf <'.$trend.'> . }';
 
     try {
@@ -59,7 +40,7 @@ function displaySubTrend($subtrend) {
     return $out;
 }
 
-function theTrends($input) 
+function theTrends() 
 {
     setNamespaces();
     global $sparql;
@@ -100,6 +81,6 @@ Wagner\'s Master Thesis</a> (in German). </p>
     return '<div class="container">'.$out.'</div>';
 }
 
-echo showpage(theTrends("rdf/BusinessTrends-Wagner.rdf"));
+echo showpage(theTrends());
 
 ?>
