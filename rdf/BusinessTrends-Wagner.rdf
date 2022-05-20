@@ -30,7 +30,7 @@ werden?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CrossSelling"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CustomerLoyalty"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRat"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRate"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Integrator"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LockIn"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ObjectSelfService"/>
@@ -457,12 +457,12 @@ aufeinander abgestimmt und koordiniert werden?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CashMachine"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedControl"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedContracting"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Koordinierung</rdfs:label>
@@ -553,12 +553,12 @@ Fokus auf die Schaffung von Wert bei Kunden gelegt wird?</od:Provocation>
 использовать для создания (дополнительных) продаж?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeveageCustomerData"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedControl"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedContracting"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Kontrollierbarkeit</rdfs:label>
@@ -643,9 +643,9 @@ Zeiten ablaufen?</od:Provocation>
 функций и тем самым переходить от одной функции к
 многофункциональности?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FromPullToPush"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FromPushToPull"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
@@ -878,7 +878,7 @@ etc.?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/AddOn"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Aikido"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/IngredientBranding"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LayerPlayer"/>
@@ -996,7 +996,7 @@ zu gestalten?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CashMachine"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRate"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData"/>
     <rdfs:label xml:lang="de">Trend der Flussverstärkung</rdfs:label>
@@ -1107,12 +1107,12 @@ adressiert werden?</od:Provocation>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/CustomerLoyalty"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalisedOwnership"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant"/>
-    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedControl"/>
+    <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedContracting"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket"/>
     <od:toBusinessModelPattern rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/UserDesigned"/>
     <rdfs:label xml:lang="de">Trend der zunehmenden Integration menschlicher Sinne</rdfs:label>

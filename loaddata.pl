@@ -39,6 +39,7 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/OntoCards/","OntoCards.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/StandardSolutions/","StandardSolutions.rdf");
   
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessModelPatterns/","BusinessModelPatterns.rdf");  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessStandards/","BusinessStandards.rdf");  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessTrends/","BusinessTrends-Wagner.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");

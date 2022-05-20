@@ -53,4 +53,5 @@ ontologies:
 more:
 	rapper -g ../../RDFData/Business-TRIZ/BusinessTrends-Wagner.ttl -o rdfxml-abbrev >BusinessTrends-Wagner.rdf
 	rapper -g ../../RDFData/Business-TRIZ/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf
+	rapper -g ../../RDFData/Business-TRIZ/BusinessModelPatterns.ttl -o rdfxml-abbrev >BusinessModelPatterns.rdf
 	rapper -g ../../RDFData/FlowAnalysis/FlowDevelopmentPattern.ttl -o rdfxml-abbrev >FlowDevelopmentPattern.rdf

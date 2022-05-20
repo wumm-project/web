@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bmp="http://opendiscovery.org/rdf/BusinessModelPattern/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/AddOn">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>01</od:hasNumber>
+    <skos:note xml:lang="de">Das Kernangebot ist preislich wettbewerbsfähig, aber es gibt zahlreiche Extras, die den Endpreis in die Höhe treiben. Am Ende zahlt der Kunde mehr, als er ursprünglich angenommen hat. Die Kunden profitieren von einem variablen Angebot, das sie an ihre spezifischen Bedürfnisse anpassen können.</skos:note>
+    <skos:note xml:lang="en">The core offering is priced competitively, but there are numerous extras that drive the final price up. In the end, the costumer pays more than he or she initially assumed. Customers benefit from a variable offer, which they can adapt to their specific needs.</skos:note>
+    <skos:note xml:lang="ru">Основное предложение имеет конкурентоспособную цену, но существует множество дополнительных услуг, которые увеличивают конечную цену. В итоге потребитель платит больше, чем предполагал изначально. Клиенты выигрывают от переменного предложения, которое они могут адаптировать к своим конкретным потребностям.</skos:note>
+    <skos:prefLabel xml:lang="en">Add-On</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zugabe</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Affiliation">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>02</od:hasNumber>
+    <skos:note xml:lang="de">Der Schwerpunkt liegt darin, andere dabei zu unterstützen, Produkte erfolgreich zu verkaufen und direkt von erfolgreichen Transaktionen zu profitieren.  Die Affiliates profitieren in der Regel von einer Art Pay-per-Sale- oder Pay-per-Display-Vergütung. Das Unternehmen wiederum erhält Zugang zu einem breiteren potenziellen Kundenstamm ohne zusätzliche aktive Verkaufs- oder Marketinganstrengungen.</skos:note>
+    <skos:note xml:lang="en">The focus lies in supporting others to successfully sell products and directly benefit from successful transactions.  Affiliates usually profit from some kind of pay-per-sale or pay-per-display compensation. The company, on the other hand, is able to gain access to a more diverse potential customer base without additional active sales or marketing efforts.</skos:note>
+    <skos:note xml:lang="ru">Основное внимание уделяется поддержке других людей в успешной продаже товаров и непосредственной выгоде от успешных сделок.  Аффилированные лица обычно получают прибыль в виде вознаграждения за продажу или за показ. С другой стороны, компания получает доступ к более разнообразной потенциальной клиентской базе без дополнительных активных продаж или маркетинговых усилий.</skos:note>
+    <skos:prefLabel xml:lang="en">Affiliation</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zugehörigkeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Аффилиация</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Aikido">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>03</od:hasNumber>
+    <skos:note xml:lang="en">Aikido is a Japanese martial art in which the strength of an attacker is used against him or her. As a business model, Aikido allows a company to offer something diametrically opposed to the image and mindset of the competition. This new value proposition attracts customers who prefer ideas or concepts opposed to the mainstream.</skos:note>
+    <skos:note xml:lang="de">Aikido ist eine japanische Kampfsportart, bei der die Kraft des Angreifers gegen ihn eingesetzt wird. Als Geschäftsmodell ermöglicht es Aikido einem Unternehmen, etwas anzubieten, das dem Image und der Denkweise der Konkurrenz diametral entgegengesetzt ist. Dieses neue Wertversprechen zieht Kunden an, die Ideen oder Konzepte bevorzugen, die sich vom Mainstream abheben.</skos:note>
+    <skos:note xml:lang="en">Айкидо - это японское боевое искусство, в котором сила нападающего используется против него самого. Как бизнес-модель, Айкидо позволяет компании предложить нечто диаметрально противоположное имиджу и менталитету конкурентов. Это новое ценностное предложение привлекает клиентов, которые предпочитают идеи или концепции, противоположные мейнстриму.</skos:note>
+    <skos:prefLabel xml:lang="de">Aikido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Aikido</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Айкидо</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Auction">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>04</od:hasNumber>
+    <skos:note xml:lang="en">Auctioning means selling a product or service to the highest bidder. The final price is achieved when a particular end time of the auction is reached or when no higher offers are received. This allows the company to sell at the highest price acceptable to the customer. The customer benefits from the opportunity to influence the price of a product.</skos:note>
+    <skos:prefLabel xml:lang="en">Auction</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Versteigerung</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Аукцион</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Barter">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>05</od:hasNumber>
+    <skos:note xml:lang="en">Barter is a method of exchange in which goods are given away to customers without the transaction of actual money.  In return, they provide something of value to the sponsoring organisation. The exchange does not have to show any direct connection and is valued differently by each party.</skos:note>
+    <skos:prefLabel xml:lang="en">Barter</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Tauschhandel</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Бартер</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/CashMachine">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>06</od:hasNumber>
+    <skos:note xml:lang="en">In the Cash Machine concept, the customer pays upfront for the products sold to the customer before the company is able to cover the associated expenses. This results in increased liquidity which can be used to amortise debt or to fund investments in other areas.</skos:note>
+    <skos:prefLabel xml:lang="en">Cash Machine</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Geldautomat</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/CrossSelling">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>07</od:hasNumber>
+    <skos:note xml:lang="en">In this model, services or products from a formerly excluded industry are added to the offerings, thus leveraging existing key skills and resources. In retail especially, companies can easily provide additional products and offerings that are not linked to the main industry on which they were previously focused. Thus, additional revenue can be generated with relatively few changes to the existing infrastructure and assets, since more potential customer needs are met.</skos:note>
+    <skos:prefLabel xml:lang="de">Cross Selling</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cross Selling</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Перекрестные продажи</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/CrowdFunding">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>08</od:hasNumber>
+    <skos:note xml:lang="en">A product, project or entire start-up is financed by a crowd of investors who wish to support the underlying idea, typically via the Internet. If the critical mass is achieved, the idea will be realized and investors receive special benefits, usually proportionate to the amount of money they provided.</skos:note>
+    <skos:prefLabel xml:lang="de">Crowd-Funding</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Crowd-Funding</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/CrowdSourcing">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>09</od:hasNumber>
+    <skos:note xml:lang="en">The solution of a task or problem is adopted by an anonymous crowd, typically via the Internet. Contributors receive a small reward or have the chance to win a prize if their solution is chosen for production or sale. Customer interaction and inclusion can foster a positive relationship with a company, and subsequently increase sales and revenue.</skos:note>
+    <skos:prefLabel xml:lang="de">Crowd-Sourcing</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Crowd-Sourcing</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/CustomerLoyalty">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>10</od:hasNumber>
+    <skos:note xml:lang="en">Customers are retained and loyalty assured by providing value beyond the actual product or service itself, i.e., through incentive-based programs. The goal is to increase loyalty by creating an emotional connection or simply rewarding it with special offers. Customers are voluntarily bound to the company, which protects future revenue.</skos:note>
+    <skos:prefLabel xml:lang="en">Customer Loyalty</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kundentreue</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Лояльность клиентов</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Digitisation">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>11</od:hasNumber>
+    <skos:note xml:lang="en">This pattern relies on the ability to turn existing products or services into digital variants, and thus offer advantages over tangible products, e.g., easier and faster distribution.  Ideally, the digitization of a product or service is realized without harnessing the value proposition which is offered to the customer. In other words: efficiency and multiplication by means of digitization does not reduce the perceived customer value.</skos:note>
+    <skos:prefLabel xml:lang="de">Digitalisierung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Digitisation</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/DirectSelling">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>12</od:hasNumber>
+    <skos:note xml:lang="en">Direct selling refers to a scenario whereby a company's products are not sold through intermediary channels, but are available directly from the manufacturer or service provider. In this way, the company skips the retail margin or any additional costs associated with the intermediates.  These savings can be forwarded to the customer and a standardized sales experience established. Additionally, such close contact can improve customer relationships.</skos:note>
+    <skos:prefLabel xml:lang="en">Direct Selling</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Direktvertrieb</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Прямые продажи</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/ECommerce">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>13</od:hasNumber>
+    <skos:note xml:lang="en">Traditional products or services are delivered through online channels only, thus removing costs associated with running a physical branch infrastructure. Customers benefit from higher availability and convenience, while the company is able to integrate its sales and distribution with other internal processes.</skos:note>
+    <skos:prefLabel xml:lang="en">E-Commerce</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Elektronischer Handel</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Электронная коммерция</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/ExperienceSelling">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>14</od:hasNumber>
+    <skos:note xml:lang="en">The value of a product or service is increased with the customer experience offered with it. This opens the door for higher customer demand and commensurate increase in prices charged. This means that the customer experience must be adapted accordingly, e.g., by attuning promotion or shop fittings.</skos:note>
+    <skos:prefLabel xml:lang="de">Erlebnis Verkaufen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Experience Selling</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/FlatRate">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>15</od:hasNumber>
+    <skos:note xml:lang="en">In this model, a single fixed fee for a product or service is charged, regardless of actual usage or time restrictions on it. The user benefits from a simple cost structure while the company benefits from a constant revenue stream.</skos:note>
+    <skos:prefLabel xml:lang="en">Flat Rate</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Pauschalpreis</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/FractionalOwnership">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>16</od:hasNumber>
+    <skos:note xml:lang="en">Fractional ownership describes the sharing of a certain asset class amongst a group of owners. Typically, the asset is capital intensive but only required on an occasional basis.  While the customer benefits from the rights as an owner, the entire capital does not have to be provided alone.</skos:note>
+    <skos:prefLabel xml:lang="de">Bruchteilseigentum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fractional Ownership</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Дробное владение</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Franchising">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>17</od:hasNumber>
+    <skos:note xml:lang="en">The franchisor owns the brand name, products, and corporate identity, and these are licensed to independent franchisees who carry the risk of local operations. Revenue is generated as part of the franchisees’ revenue and orders.  The franchisees benefit from the usage of well known brands, know-how, and support.</skos:note>
+    <skos:prefLabel xml:lang="de">Franchising</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Franchising</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Франчайзинг</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Freemium">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>18</od:hasNumber>
+    <skos:note xml:lang="en">The basic version of an offering is given away for free in the hope of eventually persuading the customers to pay for the premium version. The free offering is able to attract the highest volume of customers possible for the company. The generally smaller volume of paying ‘premium customers’ generate the revenue, which also cross-finances the free offering.</skos:note>
+    <skos:prefLabel xml:lang="de">Freemium</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Freemium</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/FromPushToPull">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>19</od:hasNumber>
+    <skos:note xml:lang="en">This pattern describes the strategy of a company to decentralize and thus add flexibility to the company's processes in order to be more customer focused. To quickly and flexibly respond to new customer needs, any part of the value chain - including production or even research and development - can be affected.</skos:note>
+    <skos:prefLabel xml:lang="en">From Push to Pull</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Von Push zu Pull</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/GuaranteedAvailability">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>20</od:hasNumber>
+    <skos:note xml:lang="en">Within this model, the availability of a product or service is guaranteed, resulting in almost zero downtime. The customer can use the offering as required, which minimizes losses resulting from downtime. The company uses expertise and economies of scale to lower operation costs and achieve these availability levels.</skos:note>
+    <skos:prefLabel xml:lang="de">Garantierte Verfügbarkeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guarateed Availability</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Гарантированная доступность</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/HiddenRevenue">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>21</od:hasNumber>
+    <skos:note xml:lang="en">The logic that the user is responsible for the income of the business is abandoned. Instead, the main source of revenue comes from a third party, which cross-finances whatever free or low-priced offering attracts the users. A very common case of this model is financing through advertisement, where attracted customers are of value to the advertisers who fund the offering. This concept facilitates the idea of 'separation between revenue and customer'.</skos:note>
+    <skos:prefLabel xml:lang="en">Hidden revenue</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Versteckte Einnahmen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Скрытый доход</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/How">
+    <skos:prefLabel xml:lang="en">How</skos:prefLabel>
+  </od:BMP-Dimension>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/IngredientBranding">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>22</od:hasNumber>
+    <skos:note xml:lang="en">Ingredient branding describes the specific selection of an ingredient, component, and brand originating from a specific supplier, which will be included in another product. This product is then additionally branded and advertised with the ingredient product, collectively adding value for the customer. This projects the positive brand associations and properties on the product, and can increase the attractiveness of the end product.</skos:note>
+    <skos:prefLabel xml:lang="en">Ingredient Branding</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Werbung mit Inhalt</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Брендинг ингредиентов</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Integrator">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>23</od:hasNumber>
+    <skos:note xml:lang="en">An integrator is in command of the bulk of the steps in a value-adding process. The control of all resources and capabilities in terms of value creation lies with the company. Efficiency gains, economies of scope, and lower dependencies from suppliers result in a decrease in costs and can increase the stability of value creation.</skos:note>
+    <skos:prefLabel xml:lang="de">Integrator</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Integrator</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Интегратор</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/LayerPlayer">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>24</od:hasNumber>
+    <skos:note xml:lang="en">A layer player is a specialized company limited to the provision of one value-adding step for different value chains. This step is typically offered within a variety of independent markets and industries. The company benefits from economies of scale and often produces more efficiently. Further, the established special expertise can result in a higher quality process.</skos:note>
+    <skos:prefLabel xml:lang="de">Layer Player</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Layer Player</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/LeverageCustomerData">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>25</od:hasNumber>
+    <skos:note xml:lang="en">New value is created by collecting customer data and preparing it in beneficial ways for internal usage or interested third-parties. Revenues are generated by either selling this data directly to others or leveraging it for own purposes, i.e., to increase the effectiveness of advertising.</skos:note>
+    <skos:prefLabel xml:lang="de">Kundendaten nutzen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Leverage Customer Data</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Использовать данные клиента</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/License">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>26</od:hasNumber>
+    <skos:note xml:lang="en">Efforts are focused on developing intellectual property that can be licensed to other manufacturers. This model, therefore, relies not on the realization and utilization of knowledge in the form of products, but attempts to transform these intangible goods into money. This allows a company to focus on research and development. It also allows the provision of knowledge, which would otherwise be left unused and potentially be valuable to third parties.</skos:note>
+    <skos:prefLabel xml:lang="en">License</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Lizenz</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Лицензия</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/LockIn">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>27</od:hasNumber>
+    <skos:note xml:lang="en">Customers are locked into a vendor's world of products and services. Using another vendor is impossible without incurring substantial switching costs, and thus protecting the company from losing customers. This lock-in is either generated by technological mechanisms or substantial interdependencies of products or services.</skos:note>
+    <skos:prefLabel xml:lang="de">Lock-In</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lock-In</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/LongTail">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>28</od:hasNumber>
+    <skos:note xml:lang="en">Instead of concentrating on blockbusters, the main bulk of revenues is generated through a 'long tail' of niche products. Individually, these neither demand high volumes, nor allow for a high margin. If a vast variety of these products are offered in sufficient amounts, the profits from resultant small sales can add up to a significant amount.</skos:note>
+    <skos:prefLabel xml:lang="de">Langer Schwanz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Long Tail</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/MakeMoreOfIt">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>29</od:hasNumber>
+    <skos:note xml:lang="en">Know-how and other available assets existing in the company are not only used to build own products, but also offered to other companies. Slack resources, therefore, can be used to create additional revenue besides those generated directly from the core value proposition of the company.</skos:note>
+    <skos:prefLabel xml:lang="en">Make More of It</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Mehr daraus machen</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/MassCustomisation">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>30</od:hasNumber>
+    <skos:note xml:lang="en">Customizing products through mass production once seemed to be an impossible endeavor. The approach of modular products and production systems has enabled the efficient individualization of products. As a consequence, individual customer needs can be met within mass production circumstances and at competitive prices.</skos:note>
+    <skos:prefLabel xml:lang="en">Mass Customisation</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Personalisierung von Massenware</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Массовая персонализация</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/NoFrills">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>31</od:hasNumber>
+    <skos:note xml:lang="en">Value creation focuses on what is necessary to deliver the core value proposition of a product or service, typically as basic as possible. Cost savings are shared with the customer, usually resulting in a customer base with lower purchasing power or purchasing willingness.</skos:note>
+    <skos:prefLabel xml:lang="en">No Frills</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ohne Schnickschnack</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Без излишеств</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/ObjectSelfService">
+    <rdfs:comment>additional in (Wagner 2021)</rdfs:comment>
+    <skos:prefLabel xml:lang="en">Object Self Service</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Objekt Selbstbedienung</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Самообслуживание объектов</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/OpenBusinessModel">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>32</od:hasNumber>
+    <skos:note xml:lang="en">In open business models, collaboration with partners in the ecosystem becomes a central source of value creation.  Companies pursuing an open business model actively search for novel ways of working together with suppliers, customers, or complementors to open and extend their business.</skos:note>
+    <skos:prefLabel xml:lang="de">Offenes Geschäftsmodell</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Open Business Model</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Открытая бизнес-модель</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/OpenSource">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>33</od:hasNumber>
+    <skos:note xml:lang="en">In software engineering, the source code of a software product is not kept proprietary, but is freely accessible for anyone. Generally, this could be applied to any technology details of any product. Others can contribute to the product, but also use it free as a sole user. Money is typically earned with services that are complimentary to the product, such as consulting and support.</skos:note>
+    <skos:prefLabel xml:lang="de">Open Source</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Open Source</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Orchestrator">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>34</od:hasNumber>
+    <skos:note xml:lang="en">Within this model, the company's focus is on the core competencies in the value chain. The other value chain segments are outsourced and actively coordinated. This allows the company to reduce costs and benefit from the suppliers' economies of scale. Furthermore, the focus on core competencies can increase performance.</skos:note>
+    <skos:prefLabel xml:lang="de">Orchestrator</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Orchestrator</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/PayPerUse">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>35</od:hasNumber>
+    <rdfs:cooment>not used in (Wagner 2022)</rdfs:cooment>
+    <skos:note xml:lang="en">In this model, the actual usage of a service or product is metered. The customer pays on the basis of what he or she effectively consumes. The company is able to attract customers who wish to benefit from the additional flexibility, which might be priced higher.</skos:note>
+    <skos:prefLabel xml:lang="de">Bezahlen pro Nutzung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Pay per Use</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Оплата за использование</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/PayWhatYouWant">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasNumber>36</od:hasNumber>
+    <skos:note xml:lang="en">The buyer pays any desired amount for a given commodity, sometimes even zero. In some cases, a minimum floor price may be set, and/or a suggested price may be indicated as guidance for the buyer. The customer is allowed to influence the price, while the seller benefits from higher numbers of attracted customers, since individuals’ willingness to pay is met. Based on the existence of social norms and morals, this is only rarely exploited, which makes it suitable to attract new customers.</skos:note>
+    <skos:prefLabel xml:lang="en">Pay What You Want</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zahlen Sie, was Sie wollen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Платить по желанию</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/PeerToPeer">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>37</od:hasNumber>
+    <skos:note xml:lang="en">This model is based on a cooperation that specializes in mediating between individuals belonging to an homogeneous group. It is often abbreviated as P2P. The company offers a meeting point, i.e., an online database and communication service that connects these individuals (these could include offering personal objects for rent, providing certain products or services, or the sharing of information and experiences).</skos:note>
+    <skos:prefLabel xml:lang="de">Peer-to-Peer</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Peer-to-Peer</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/PerformanceBasedContracting">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>38</od:hasNumber>
+    <skos:note xml:lang="en">A product's price is not based upon the physical value, but on the performance or valuable outcome it delivers in the form of a service. Performance based contractors are often strongly integrated into the value creation process of their customers. Special expertise and economies of scale result in lower production and maintenance costs of a product, which can be forwarded to the customer. Extreme variants of this model are represented by different operation schemes in which the product remains the property of the company and is operated by it.</skos:note>
+    <skos:prefLabel xml:lang="de">Leistungsabhängige Vertragsgestaltung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Performance-Based Contracting</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Контрактация на основе результатов деятельности</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Prosumer">
+    <rdfs:comment>additional in (Wagner 2021)</rdfs:comment>
+    <skos:prefLabel xml:lang="de">Prosumer</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Prosumer</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/RazorBlade">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>39</od:hasNumber>
+    <skos:note xml:lang="en">The basic product is cheap or given away for free. The consumables that are needed to use or operate it, on the other hand, are expensive and sold at high margins. The initial product's price lowers customers’ barriers to purchase, while the subsequent recurring sales cross-finance it.  Usually, these products are technologically bound to each other to further enhance this effect.</skos:note>
+    <skos:prefLabel xml:lang="de">Rasiermesser und Klinge</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Razor and Blade</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Бритва и лезвие</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/RentNotBuy">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>40</od:hasNumber>
+    <rdfs:comment>not used in (Wagner 2022)</rdfs:comment>
+    <skos:note xml:lang="en">The customer does not buy a product, but instead rents it.  This lowers the capital typically needed to gain access to the product. The company itself benefits from higher profits on each product, as it is paid for the duration of the rental period. Both parties benefit from higher efficiency in product utilization as time of non-usage, which unnecessarily binds capital, is reduced on each product.</skos:note>
+    <skos:prefLabel xml:lang="de">Mieten statt Kaufen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Rent instead of Buy</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Аренда вместо покупки</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/RevenueSharing">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>41</od:hasNumber>
+    <skos:note xml:lang="en">Revenue sharing refers to firms’ practice of sharing revenues with their stakeholders, such as complementors or even rivals. Thus, in this business model, advantageous properties are merged to create symbiotic effects in which additional profits are shared with partners participating in the extended value creation. One party is able to obtain a share of revenue from another that benefits from increased value for its customer base.</skos:note>
+    <skos:prefLabel xml:lang="de">Beteiligung am Erlös</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Revenue Sharing</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Разделение доходов</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/ReverseEngineering">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>42</od:hasNumber>
+    <skos:note xml:lang="en">This pattern refers to obtaining a competitor's product, taking it apart, and using this information to produce a similar or compatible product. Because no huge investment in research or development is necessary, these products can be offered at a lower price than the original product.</skos:note>
+    <skos:prefLabel xml:lang="de">Reverse Engineering</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Reverse Engineering</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Обратный инжиниринг</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/ReverseInnovation">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>43</od:hasNumber>
+    <skos:note xml:lang="en">Simple and inexpensive products, that were developed within and for emerging markets, are also sold in industrial countries. The term ‘reverse’ refers to the process by which new products are typically developed in industrial countries and then adapted to fit emerging market needs.</skos:note>
+    <skos:prefLabel xml:lang="de">Reverse Innovation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Reverse Innovation</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Обратная инновация</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/RobinHood">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>44</od:hasNumber>
+    <skos:note xml:lang="en">The same product or service is provided to ‘the rich’ at a much higher price than to ‘the poor’. Thus, the main bulk of profits are generated from the wealthy customer base.  Serving ‘the poor’ is not profitable per se, but creates economies of scale, which other providers cannot achieve. Additionally, it has a positive effect on the company's image.</skos:note>
+    <skos:prefLabel xml:lang="de">Robin Hood</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Robin Hood</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Робин Гуд</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/SelfService">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>45</od:hasNumber>
+    <skos:note xml:lang="en">A part of the value creation is transferred to the customer in exchange for a lower price of the service or product. This is particularly suited for process steps that add relatively little perceived value for the customer, but incur high costs.  Customers benefit from efficiency and time savings, while putting in their own effort. This can also increase efficiency, since in some cases, the customer can execute a valueadding step more quickly and in a more target-oriented manner than the company.</skos:note>
+    <skos:prefLabel xml:lang="de">Selbstbedienung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Self-Service</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Самообслуживание</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/SensorAsService">
+    <rdfs:comment>additional in (Wagner 2021)</rdfs:comment>
+    <skos:prefLabel xml:lang="de">Sensor als Dienstleistung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sensor as Service</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Сенсор как услуга</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/ShopInShop">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>46</od:hasNumber>
+    <skos:note xml:lang="en">Instead of opening new branches, a partner is chosen whose branches can profit from integrating the company's offerings in a way that imitates a small shop within another shop (a win-win situation). The hosting store can benefit from more attracted customers and is able to gain constant revenue from the hosted shop in the form of rent. The hosted company gains access to cheaper resources such as space, location, or workforce.</skos:note>
+    <skos:prefLabel xml:lang="de">Shop im Shop</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Shop-In-Shop</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Магазин в магазине</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/SolutionProvider">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>47</od:hasNumber>
+    <skos:note xml:lang="en">A full service provider offers total coverage of products and services in a particular domain, consolidated via a single point of contact. Special know-how is given to the customer in order to increase his or her efficiency and performance. By becoming a full service provider, a company can prevent revenue losses by extending their service and adding it to the product. Additionally, close contact with the customer allows great insight into customer habits and needs which can be used to improve the products and services.</skos:note>
+    <skos:prefLabel xml:lang="de">Anbieter von Lösungen</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Solution Provider</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Поставщик решений</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Subscription">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>48</od:hasNumber>
+    <skos:note xml:lang="en">The customer pays a regular fee, typically on a monthly or an annual basis, in order to gain access to a product or service. While customers mostly benefit from lower usage costs and general service availability, the company generates a more steady income stream.</skos:note>
+    <skos:prefLabel xml:lang="de">Abonnement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Subscription</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Подписка</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Supermarket">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>49</od:hasNumber>
+    <skos:note xml:lang="en">A company sells a large variety of readily available products and accessories under one roof. Generally, the assortment of products is large but the prices are kept low. More customers are attracted due to the great range on offer, while economies of scope yield advantages for the company.</skos:note>
+    <skos:prefLabel xml:lang="en">Supermarket</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Supermarkt</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Супермаркет</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/TargetThePoor">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>50</od:hasNumber>
+    <skos:note xml:lang="en">The product or service offering does not target the premium customer, but rather, the customer positioned at the base of the pyramid. Customers with lower purchasing power benefit from affordable products. The company generates small profits with each product sold, but benefits from the higher sales numbers that usually come with the scale of the customer base.</skos:note>
+    <skos:prefLabel xml:lang="de">Die Armen als Zielgruppe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Target the Poor</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/TrashToCash">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>51</od:hasNumber>
+    <skos:note xml:lang="en">Used products are collected and either sold in other parts of the world or transformed into new products. The profit scheme is essentially based on low-to-no purchase prices.  Resource costs for the company are practically eliminated, whilst the supplier's waste disposal is either provided, or associated costs are reduced. This also addresses customers’ potential environmental awareness ideals.</skos:note>
+    <skos:prefLabel xml:lang="de">Altes zu Bargeld</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Trash-to-Cash</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/TwoSidedMarket">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>52</od:hasNumber>
+    <skos:note xml:lang="en">A two-sided market facilitates interactions between multiple interdependent groups of customers. The value of the platform increases as more groups or as more individual members of each group are using it. The two sides usually come from disparate groups, e.g., businesses and private interest groups.</skos:note>
+    <skos:prefLabel xml:lang="en">Two-Sided Market</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zweiseitiger Markt</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Двусторонний рынок</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/UltimateLuxury">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>53</od:hasNumber>
+    <skos:note xml:lang="en">This pattern describes the strategy of a company to focus on the upper side of society's pyramid. This allows a company to distinguish its products or services greatly from others. High standards of quality or exclusive privileges are the main focus to attract these kinds of customers. The necessary investments for these differentiations are met by the relatively high prices that can be achieved - which usually allow for very high margins.</skos:note>
+    <skos:prefLabel xml:lang="en">Ultimate Luxury</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ultimativer Luxus</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Предельная роскошь</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/UserDesigned">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasNumber>54</od:hasNumber>
+    <skos:note xml:lang="en">Within user manufacturing, a customer is both the manufacturer and the consumer. As an example, an online platform provides the customer with the necessary support in order to design and merchandise the product, e.g., product design software, manufacturing services, or an online shop to sell the product. Thus, the company only supports the customers in their undertakings and benefits from their creativity. The customer benefits from the potential to realize entrepreneurial ideas without having to provide the required infrastructure. Revenue is then generated as part of the actual sales.</skos:note>
+    <skos:prefLabel xml:lang="en">User Designed</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vom Nutzer entworfen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Пользовательский дизайн</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Value">
+    <skos:prefLabel xml:lang="en">Value</skos:prefLabel>
+  </od:BMP-Dimension>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Virtualisation">
+    <rdfs:comment>additional in (Wagner 2021)</rdfs:comment>
+    <skos:prefLabel xml:lang="en">Virtualisation</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Virtualisierung</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Виртуализация</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/What">
+    <skos:prefLabel xml:lang="en">What</skos:prefLabel>
+  </od:BMP-Dimension>
+  <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/WhiteLabel">
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/How"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Value"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/What"/>
+    <od:hasDimension rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/Who"/>
+    <od:hasNumber>55</od:hasNumber>
+    <skos:note xml:lang="en">A white label producer allows other companies to distribute its goods under their brands, so that it appears as if they are made by them. The same product or service is often sold by multiple marketers and under different brands. This way, various customer segments can be satisfied with the same product. </skos:note>
+    <skos:prefLabel xml:lang="de">Produkt ohne Marke</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">White Label</skos:prefLabel>
+  </od:BusinessModelPattern>
+  <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Who">
+    <skos:prefLabel xml:lang="en">Who</skos:prefLabel>
+  </od:BMP-Dimension>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/BusinessModelPatterns/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>2022-05-19: Extracted and transformed from (Gassmann 2013)</rdfs:comment>
+    <rdfs:label>The Business Model Patterns in the St. Gallen Business Model Navigator</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

@@ -15,6 +15,10 @@
     <rdfs:comment>2021-02-15 graebe: foaf:fullname changed to name surname fathername according to the convention in the MATRIZ certificate list</rdfs:comment>
     <rdfs:label>People in the TRIZ Community</rdfs:label>
   </owl:Ontology>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Abdulaev_H">
+    <foaf:affil>Azerbaijan National Aviation Academy, Baku, Azerbaijan</foaf:affil>
+    <foaf:name>Hagani Abdulaev</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Abramov_OY">
     <foaf:affil>Algorithm Ltd., St. Petersburg, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Абрамов Олег Юрьевич</foaf:fullname>
@@ -1772,6 +1776,11 @@
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Кустова Эльвира</foaf:fullname>
     <foaf:name>Elvira Kustova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kutvan_AB">
+    <foaf:affil>Ankara, Turkey</foaf:affil>
+    <foaf:homepage rdf:resource="https://www.kutvan.com/our-founders"/>
+    <foaf:name>Ali B. Kutvan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kuzmin_AM">
     <foaf:fullname xml:lang="ru">Кузьмин А.М.</foaf:fullname>
