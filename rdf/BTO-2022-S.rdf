@@ -37,11 +37,6 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English.</ical
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
     <dcterms:title xml:lang="en">Process optimization using TRIZ</dcterms:title>
   </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_103">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_SJ"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_YJ"/>
-    <dcterms:title xml:lang="en">To Improve the Service Quality of Convenience Stores by TRIZ for Business and Management</dcterms:title>
-  </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_104">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Amatulli_N"/>
     <dcterms:title xml:lang="en">Actual Case Study with Value Conflict Mapping (VCM)</dcterms:title>
@@ -63,24 +58,26 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English.</ical
     <dcterms:title xml:lang="en">Jumping to the next S-curve</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_109">
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Han_B"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hongbo_Y"/>
     <dcterms:title xml:lang="en">Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_110">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
-    <dcterms:title xml:lang="en">On the Interconnection of Project- and Product-Centered Systemic Modelling</dcterms:title>
+    <dcterms:title xml:lang="en">On the interconnection of project- and product-centered systemic modelling</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_111">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Borovikov_A"/>
-    <dcterms:title xml:lang="en">Matrix "Problem - Solution" for target audiences of products.</dcterms:title>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Isaac_DP"/>
+    <dcterms:title xml:lang="en">Anticipatory Failure Analysis to identify hidden risks to business continuity</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_112">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tokarev_AS"/>
-    <dcterms:title xml:lang="en">Functional Approach to Representing Systems (Businesses and Processes).</dcterms:title>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khristenko_AV"/>
+    <dcterms:title xml:lang="en">Adaptation of the Conflict Matrix for the scope of services</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_113">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
-    <dcterms:title xml:lang="en">Further development of Business TRIZ &amp; IBTA: Discussions </dcterms:title>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tokarev_AS"/>
+    <dcterms:title xml:lang="en">Extended description of systems.</dcterms:title>
   </od:Talk>
 </rdf:RDF>

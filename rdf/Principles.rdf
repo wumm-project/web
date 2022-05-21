@@ -163,6 +163,7 @@
     <od:hasAltshuller84Id>26</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Copying_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Copying_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Copying_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Arbeit mit Modellen</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Kopierens</skos:prefLabel>
@@ -179,6 +180,11 @@
     <od:description xml:lang="en">Replace the object or system of objects by optical copies (illustrations).</od:description>
     <od:description xml:lang="ru">Объект или система объектов должны быть заменены оптическими копиями (иллюстрациями).</od:description>
   </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Copying_3">
+    <od:description xml:lang="en">If optical copies are used, move to infrared or ultraviolet (Use an appropriate out of the ordinary illumination and viewing situation).</od:description>
+    <od:description xml:lang="de">Wenn optische Kopien verwendet werden, wechseln Sie zu Infrarot oder Ultraviolett (verwenden Sie eine geeignete, ungewöhnliche Beleuchtungs- und Betrachtungssituation).</od:description>
+    <od:description xml:lang="ru">Если используются оптические копии, перейдите к инфракрасным или ультрафиолетовым (Используйте соответствующее нестандартное освещение и ситуацию просмотра).</od:description>
+  </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/Countermass">
     <od:LippertGlossaryNote xml:lang="en">Floating is enabled by weight being countered by hydrodynamic forces; flying is enabled by aerodynamic lift.</od:LippertGlossaryNote>
     <od:LippertGlossaryNote xml:lang="en">In systems engineering, this principle is manifest in distributed architectures where a more uniform distribution of resources is evident.</od:LippertGlossaryNote>
@@ -192,6 +198,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Countermass_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Countermass_2"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Anti-Weight</skos:altLabel>
     <skos:altLabel xml:lang="en">Counterbalance (Counter-Weight)</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of the countermass</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Gegengewichts</skos:prefLabel>
@@ -205,6 +212,7 @@
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Countermass_2">
     <od:description xml:lang="en">Compensate the weight of the object by interaction with a medium.</od:description>
     <od:description xml:lang="de">Kompensiere das Gewicht des Objektes durch Wechselwirkung mit einem Medium.</od:description>
+    <od:description xml:lang="en">To compensate for the weight (downward tendency) of an object, make it interact with the environment (e.g. use global lift forces).</od:description>
     <od:description xml:lang="ru">Вес объекта должен быть компенсирован взаимодействием со средой.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/Coupling">
@@ -212,6 +220,7 @@
     <od:hasAltshuller73Id>05</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>05</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Coupling_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Coupling_2"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="de">Kombination</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Principle of coupling</skos:prefLabel>
@@ -219,9 +228,15 @@
     <skos:prefLabel xml:lang="ru">Приём объединения</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Coupling_1">
+    <od:description xml:lang="en">Bring closer together (or merge) identical or similar objects, assemble identical or similar parts to perform parallel operations.</od:description>
     <od:description xml:lang="en">Couple similar or coordinating systems or operations.</od:description>
     <od:description xml:lang="de">Kopple gleichartige oder zu koordinierende Systeme oder Operationen.</od:description>
     <od:description xml:lang="ru">Подобные или координирующие системы или операции должны быть объединены.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Coupling_2">
+    <od:description xml:lang="en">Make operations contiguous or parallel; bring them together in time.</od:description>
+    <od:description xml:lang="de">Vorgänge zusammenhängend oder parallel machen; sie zeitlich zusammenführen.</od:description>
+    <od:description xml:lang="ru">Сделать операции смежными или параллельными; свести их во времени.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/Dynamization">
     <od:LippertGlossaryNote xml:lang="en">Computers have enabled a great deal of dynamism by moving print to digital media.</od:LippertGlossaryNote>
@@ -239,6 +254,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Dynamization_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Dynamization_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Dynamics</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of dynamization</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Dynamisierung</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der ständigen Anpassung</skos:prefLabel>
@@ -278,8 +294,10 @@
     <od:hasAltshuller73Id>09</od:hasAltshuller73Id>
     <od:hasAltshuller84Id>09</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_1"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_2"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="en">Cushion in Advance</skos:altLabel>
+    <skos:altLabel xml:lang="en">Preliminary Anti-Action</skos:altLabel>
     <skos:altLabel xml:lang="en">Preliminary Counteraction</skos:altLabel>
     <skos:altLabel xml:lang="de">Prinzip der Vorspannung</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of early counteraction</skos:prefLabel>
@@ -288,12 +306,14 @@
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_1">
     <od:description xml:lang="en">If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction.</od:description>
+    <od:description xml:lang="en">If it will be necessary to do an action with both harmful and useful effects, this action should be replaced with anti-actions to control harmful effects.</od:description>
     <od:description xml:lang="de">Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung.</od:description>
     <od:description xml:lang="ru">Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_2">
-    <od:description xml:lang="de">Erzeuge im Objekt vorab eine Gegenwirkung, die der unzulässigen oder unerwünschten Wirkung entgegengesetzt ist (Prinzip der Vorspannung).</od:description>
-    <od:description xml:lang="ru">Заранее придать объекту напряжения, противоположные недопустимым или нежелательным рабочим напряжениям.</od:description>
+    <od:description xml:lang="en">Create beforehand stresses in an object that will oppose known undesirable working stresses later on</od:description>
+    <od:description xml:lang="de">Vorab Spannungen in einem Objekt erzeugen, die bekannten späteren unerwünschten Arbeitsbelastungen entgegenwirken.</od:description>
+    <od:description xml:lang="ru">Заранее создать в объекте напряжения, которые в дальнейшем будут противостоять известным нежелательным рабочим напряжениям.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/EliminationAndRegenerationOfParts">
     <od:LippertGlossaryNote xml:lang="en">An example of rejecting is a biodegradable packaging material.</od:LippertGlossaryNote>
@@ -463,14 +483,14 @@
     <od:hasAltshuller84Id>27</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InexpensiveShortLifeObject_1"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">Inexpensive Short-Life Object (Disposable)</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Principle of inexpensive short-life object instead of expensive longevity</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Cheap Short-Living Objects (Disposable)</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Principle of inexpensive short-living object instead of expensive longevity</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём дешёвой недолговечности вместо дорогой долговечности</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/InexpensiveShortLifeObject_1">
     <od:description xml:lang="de">Ersetze ein teures Objekt durch ein Sortiment billiger Objekte, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird.</od:description>
-    <od:description xml:lang="en">Replace the expensive object by a range of cheap objects, with some quality features, such as longevity, being dispensed.</od:description>
+    <od:description xml:lang="en">Replace the expensive object by a range of cheap objects, with some quality features, such as longevity or service quality, being dispensed.</od:description>
     <od:description xml:lang="ru">Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми уступками к качественным характеристикам, таким как долговечность.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/InverseAction">
@@ -488,6 +508,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InverseAction_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:altLabel xml:lang="de">Inversion</skos:altLabel>
+    <skos:altLabel xml:lang="en">The Other Way Round</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of inverse action</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Funktionsumkehr (Inversion)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём Наоборот</skos:prefLabel>
@@ -521,6 +542,7 @@
     <od:hasAltshuller84Id>03</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/LocalQuality_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/LocalQuality_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/LocalQuality_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of Local Quality</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der örtlichen Qualität</skos:prefLabel>
@@ -536,6 +558,11 @@
     <od:description xml:lang="de">Gehe von der homogenen Struktur des Objektes oder des umgebenden Mediums zu einer inhomogenen Struktur über.</od:description>
     <od:description xml:lang="en">Transform the homogeneous structure of the object or the surrounding medium into an inhomogeneous structure.</od:description>
     <od:description xml:lang="ru">Однородная структура объекта или окружающей среды должна быть преобразована в неоднородную.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/LocalQuality_3">
+    <od:description xml:lang="de">Lasse jedes Teil eines Objekts eine andere und nützliche Funktion erfüllen.</od:description>
+    <od:description xml:lang="en">Make each part of an object fulfill a different and useful function.</od:description>
+    <od:description xml:lang="ru">Сделай так, чтобы каждая часть предмета выполняла свою полезную функцию.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations">
     <od:LippertGlossaryNote xml:lang="en">Full and complete utilization of the electromagnetic spectrum also utilizes this principle.</od:LippertGlossaryNote>
@@ -571,8 +598,8 @@
     <od:description xml:lang="ru">Объект должен вибрировать.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_4">
-    <od:description xml:lang="en">Exploit the eigen frequency.</od:description>
-    <od:description xml:lang="de">Nutze die Eigenfrequenz aus.</od:description>
+    <od:description xml:lang="en">Exploit the resonant frequency.</od:description>
+    <od:description xml:lang="de">Nutze Resonanzfrequenzen aus.</od:description>
     <od:description xml:lang="ru">Собственная частота должна эксплуатироваться.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_5">
@@ -596,8 +623,8 @@
     <skos:prefLabel xml:lang="ru">принцип посредника</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Mediator_1">
-    <od:description xml:lang="de">Binde das Objekt an ein anderes leicht zu entfernendes Objekt.</od:description>
-    <od:description xml:lang="en">Connect the object to another easily removable object.</od:description>
+    <od:description xml:lang="de">Binde das Objekt zeitweise an ein anderes leicht zu entfernendes Objekt.</od:description>
+    <od:description xml:lang="en">Connect the object temporarily to another easily removable object.</od:description>
     <od:description xml:lang="ru">Объект должен быть связан с другим легко удаляемым объектом.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Mediator_2">
@@ -622,7 +649,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Nesting_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/Nesting_2"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">Nested dolls</skos:altLabel>
+    <skos:altLabel xml:lang="en">Nested doll</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of nesting (matryoshka)</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Integration (Matrjoschka-Prinzip)</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём вложенности («матрёшки»)</skos:prefLabel>
@@ -798,16 +825,17 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreliminaryAction_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/PreliminaryAction_2"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Beforehand Cushioning</skos:altLabel>
+    <skos:altLabel xml:lang="en">Prevention</skos:altLabel>
     <skos:altLabel xml:lang="de">Vorbeugen</skos:altLabel>
-    <skos:altLabel xml:lang="en">prevention</skos:altLabel>
     <skos:prefLabel xml:lang="en">Preliminary Action</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Principle of preliminary action</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Prävention</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём заранее подложенной подушки</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/PreliminaryAction_1">
     <od:description xml:lang="en">Compensate the relatively low reliability of the object by means previously provided.</od:description>
     <od:description xml:lang="de">Kompensiere die relativ geringe Zuverlässigkeit des Objektes durch vorher bereitgestellte Hilfsmittel.</od:description>
+    <od:description xml:lang="en">Prepare emergency means beforehand to compensate for the relatively low reliability of an object.</od:description>
     <od:description xml:lang="ru">Относительно низкая надежность объекта компенсируется ранее предоставленными средствами.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/PreliminaryAction_2">
@@ -826,6 +854,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_3"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_4"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of the replacement of mechanical schemes</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip des Austauschs mechanischer Wirkschemata</skos:prefLabel>
@@ -845,6 +874,11 @@
     <od:description xml:lang="en">Change from immovable fields to moving ones, from constant fields to changing ones, from structureless to structured fields.</od:description>
     <od:description xml:lang="de">Gehe von unbeweglichen Feldern zu bewegten über, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Feldern.</od:description>
     <od:description xml:lang="ru">Переходить от неподвижных полей к движущимся, от постоянных к меняющимся, от бесструктурных к структурированным полям.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_4">
+    <od:description xml:lang="de">Ersetze ein mechanisches Mittel durch ein sensorisches (optisches, akustisches, geschmackliches oder geruchliches) Mittel.</od:description>
+    <od:description xml:lang="en">Replace a mechanical means with a sensory (optical, acoustic, taste or smell) means.</od:description>
+    <od:description xml:lang="ru">Заменить механическое средство сенсорным (оптическим, акустическим, вкусовым или обонятельным) средством.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/RushingThrough">
     <od:LippertGlossaryNote xml:lang="en">The speed of the action can be increased to reduce or eliminate the bad effects.</od:LippertGlossaryNote>
@@ -895,12 +929,12 @@
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Segmentation_2">
     <od:description xml:lang="de">Führe das Objekt zerlegbar aus.</od:description>
-    <od:description xml:lang="en">Make the object to be dismantled.</od:description>
+    <od:description xml:lang="en">Make the object easy to disassemble.</od:description>
     <od:description xml:lang="ru">Объект должен быть разложен.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Segmentation_3">
     <od:description xml:lang="de">Erhöhe den Grad der Zerlegung des Objektes.</od:description>
-    <od:description xml:lang="en">Increase the degree of decomposition of the object.</od:description>
+    <od:description xml:lang="en">Increase the degree of fragmentation or segmentation.</od:description>
     <od:description xml:lang="ru">Степень разложения объекта должна быть увеличена.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/SelfService">
@@ -957,6 +991,7 @@
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Separation_1">
     <od:description xml:lang="en">Remove the disturbing part or property from the object.</od:description>
+    <od:description xml:lang="en">Separate an interfering part or property from an object, or single out the only necessary part (or property) of an object</od:description>
     <od:description xml:lang="de">Trenne vom Objekt das störende Teil, die störende Eigenschaft, ab.</od:description>
     <od:description xml:lang="ru">Из объекта отделить мешающую часть с вредным свойством.</od:description>
   </od:Recommendation>
@@ -981,6 +1016,7 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SphericalShape_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/SphericalShape_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Spheroidality - Curvature</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of the ball similarity</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der sphärischen Form</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём сфероидальности</skos:prefLabel>
@@ -1080,7 +1116,9 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_2"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Blessing in Disguise</skos:altLabel>
     <skos:altLabel xml:lang="en">Transform Damage into Use</skos:altLabel>
+    <skos:altLabel xml:lang="en">Turn Lemons into Lemonade</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of Transformation of Harmful into Useful</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Umwandlung von Schädlichem in Nützliches</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём превращения вредного в полезное</skos:prefLabel>
@@ -1130,6 +1168,7 @@
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_1">
     <od:description xml:lang="en">Instead of arrangement in only a layer arrange objects in multiple layers. </od:description>
     <od:description xml:lang="de">Ordne die Objekte statt in nur einer Ebene in mehreren Ebenen angeordnet.</od:description>
+    <od:description xml:lang="en">Use a multi-story arrangement of objects instead of a single-story arrangement.</od:description>
     <od:description xml:lang="ru">Вместо размещения только в один слой размещать объекты в нескольких слоях.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_2">
@@ -1140,11 +1179,13 @@
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_3">
     <od:description xml:lang="en">Exploit the back of the given object.</od:description>
     <od:description xml:lang="de">Nutze die Rückseite des gegebenen Objektes aus.</od:description>
+    <od:description xml:lang="en">Use 'another side' of a given area</od:description>
     <od:description xml:lang="ru">Использовать обратную сторону данного объекта.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_4">
     <od:description xml:lang="de">Bei Schwierigkeiten der Bewegung eines Objektes längs einer Linie gehe zu zwei Dimensionen über, d.h. bewege es in einer Ebene. Analog werden Schwierigkeiten einer zweidimensionalen Bewegung von Objekten durch Übergang zum dreidimensionalen Raum beseitigt.</od:description>
     <od:description xml:lang="en">Difficulties from object's motion on a line are eliminated when the object moves in two dimensions. Difficulties associated with the movement of objects on a plane are eliminated by the transition to three-dimensional space.</od:description>
+    <od:description xml:lang="en">Move an object in two- or three-dimensional space</od:description>
     <od:description xml:lang="ru">Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект перемещается в двух измерениях, то есть в плоскости. Трудности, связанные с перемещением объектов на плоскости устраняются при переходе в трехмерное пространство.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/Universality">

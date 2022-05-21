@@ -78,6 +78,7 @@
     <foaf:name>Genrich Saulowich Altshuller</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Amatulli_N">
+    <foaf:affil>Lugano, Switzerland</foaf:affil>
     <foaf:name>Natalia Amatulli</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Aminov_RB">
@@ -1197,7 +1198,7 @@
     <foaf:name>Nino Hoch</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Holtz_V">
-    <foaf:affil xml:lang="en">Intel Corporate TRIZ Chapter, USA</foaf:affil>
+    <foaf:affil>Intel Corporate TRIZ Chapter, USA</foaf:affil>
     <foaf:name>Vendetta Holtz</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hong_KS">
@@ -1207,6 +1208,7 @@
     <foaf:name>Zhang Hong</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hongbo_Y">
+    <foaf:affil>Baotou University, China</foaf:affil>
     <foaf:name>Yan Hongbo</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hongyul_Y">
@@ -1275,6 +1277,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ishrat_I">
     <foaf:name>Irna Ishrat</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Issak_DP">
+    <foaf:affil>India</foaf:affil>
+    <foaf:name>David Peris Isaak</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ivanov_A">
     <foaf:affil>Minsk, Belarus</foaf:affil>
@@ -1515,6 +1521,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khrebtov_A">
     <foaf:fullname xml:lang="ru">Хребтов Александр</foaf:fullname>
     <foaf:name>Alexander Khrebtov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khristenko_AV">
+    <foaf:fullname xml:lang="ru"> Христенко Алеся Владимировна</foaf:fullname>
+    <foaf:name>Alesya V. Khristenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khronik_A">
     <foaf:fullname xml:lang="ru">Хроник Алексей</foaf:fullname>

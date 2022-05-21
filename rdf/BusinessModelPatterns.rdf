@@ -204,6 +204,11 @@
     <skos:prefLabel xml:lang="ru">Скрытый доход</skos:prefLabel>
   </od:BusinessModelPattern>
   <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/How">
+    <skos:definition xml:lang="en">To build and distribute the value proposition, a firm has
+to master several processes and activities. These processes and activities,
+along with the involved resources and capabilities, plus their orchestration
+in the focal firm's internal value chain form this dimension within the design
+of a new business model. </skos:definition>
     <skos:prefLabel xml:lang="en">How</skos:prefLabel>
   </od:BMP-Dimension>
   <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/IngredientBranding">
@@ -531,6 +536,11 @@
     <skos:prefLabel xml:lang="ru">Пользовательский дизайн</skos:prefLabel>
   </od:BusinessModelPattern>
   <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Value">
+    <skos:definition xml:lang="en">This dimension explains why the business model is
+financially viable, thus it relates to the revenue model. In essence, it
+unifies aspects such as, for example, the cost structure and the applied
+revenue mechanisms, and points to the elementary question of any firm, namely
+how to make money in the business. </skos:definition>
     <skos:prefLabel xml:lang="en">Value</skos:prefLabel>
   </od:BMP-Dimension>
   <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Virtualisation">
@@ -540,6 +550,11 @@
     <skos:prefLabel xml:lang="ru">Виртуализация</skos:prefLabel>
   </od:BusinessModelPattern>
   <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/What">
+    <skos:definition xml:lang="en">This dimension describes what is offered to the target
+customer, or, put differently, what the customer values. This notion is
+commonly referred to as the customer value proposition or, more simply, the
+value proposition. It can be defined as a holistic view of a company's bundle
+of products and services that are of value to the customer.</skos:definition>
     <skos:prefLabel xml:lang="en">What</skos:prefLabel>
   </od:BMP-Dimension>
   <od:BusinessModelPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/WhiteLabel">
@@ -553,9 +568,14 @@
     <skos:prefLabel xml:lang="en">White Label</skos:prefLabel>
   </od:BusinessModelPattern>
   <od:BMP-Dimension rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/Who">
+    <skos:definition xml:lang="en">Every business model serves a certain customer group. Thus,
+it should answer the question 'Who is the customer?'.  The failure to
+adequately define the market is a key factor associated with venture failure.
+Hence the definition of the target customer is a central dimension in
+designing a new business model. </skos:definition>
     <skos:prefLabel xml:lang="en">Who</skos:prefLabel>
   </od:BMP-Dimension>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/BusinessModelPatterns/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/BusinessModelPatterns/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
