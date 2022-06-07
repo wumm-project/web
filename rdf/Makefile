@@ -1,4 +1,4 @@
-all: people conferences ontologies publications more
+all: people conferences ontologies publications business more
 
 people:
 	rapper -g ../../RDFData/People.ttl -o rdfxml-abbrev >People.rdf
@@ -50,8 +50,13 @@ ontologies:
 	rapper -g ../../RDFData/Matrix/Parameters.ttl -o rdfxml-abbrev >Parameters.rdf
 	rapper -g ../../RDFData/Ontologies/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
 
-more:
+business:
 	rapper -g ../../RDFData/Business-TRIZ/BusinessTrends-Wagner.ttl -o rdfxml-abbrev >BusinessTrends-Wagner.rdf
 	rapper -g ../../RDFData/Business-TRIZ/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf
 	rapper -g ../../RDFData/Business-TRIZ/BusinessModelPatterns.ttl -o rdfxml-abbrev >BusinessModelPatterns.rdf
+	rapper -g ../../RDFData/Business-TRIZ/EcoDesignPrinciples.ttl -o rdfxml-abbrev >EcoDesignPrinciples.rdf
+	rapper -g ../../RDFData/Business-TRIZ/SBMPatterns.ttl -o rdfxml-abbrev >SBMPatterns.rdf
+	rapper -g ../../RDFData/Business-TRIZ/MannDombExamples.ttl -o rdfxml-abbrev >MannDombExamples.rdf
+
+more:
 	rapper -g ../../RDFData/FlowAnalysis/FlowDevelopmentPattern.ttl -o rdfxml-abbrev >FlowDevelopmentPattern.rdf

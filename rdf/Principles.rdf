@@ -79,21 +79,42 @@
     <od:hasAltshuller84Id>35</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_3"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_4"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_5"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Aggregatzustände und deren Übergänge beherrschen</skos:prefLabel>
+    <skos:altLabel xml:lang="de">Aggregatzustände und deren Übergänge beherrschen</skos:altLabel>
     <skos:prefLabel xml:lang="en">Principle of changing the physical or chemical parameters of an object</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём изменения физико-химических параметров объекта</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_1">
-    <od:description xml:lang="de">Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper.</od:description>
-    <od:description xml:lang="en">This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body.</od:description>
-    <od:description xml:lang="ru">К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела.</od:description>
+    <od:description xml:lang="en">Change an object's physical state (e.g. to a gas, liquid, or solid)</od:description>
+    <od:description xml:lang="de">Veränderung des physikalischen Zustands eines Objekts (z. B. in ein Gas, eine Flüssigkeit oder einen Feststoff)</od:description>
+    <od:description xml:lang="ru">Изменение физического состояния объекта (например, превращение в газ, жидкость или твердое тело)</od:description>
+    <skos:note xml:lang="de">Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper.</skos:note>
+    <skos:note xml:lang="en">This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body.</skos:note>
+    <skos:note xml:lang="ru">К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела.</skos:note>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_2">
     <od:description xml:lang="en">Changing the parameters of an object concerns not only substances, but also fields</od:description>
     <od:description xml:lang="de">Das Ändern der Parameter eines Objekts betrifft nicht nur Substanzen, sondern auch Felder</od:description>
     <od:description xml:lang="ru">Изменение параметров объекта касается не только вещест, но и полей</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_3">
+    <od:description xml:lang="en">Change the concentration or consistency</od:description>
+    <od:description xml:lang="de">Änderung der Konzentration oder der Konsistenz</od:description>
+    <od:description xml:lang="ru">Изменить концентрацию или консистенцию</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_4">
+    <od:description xml:lang="en">Change the degree of flexibility</od:description>
+    <od:description xml:lang="de">Ändern des Flexibilitätsgrads</od:description>
+    <od:description xml:lang="ru">Изменить степень гибкости</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_5">
+    <od:description xml:lang="en">Change the temperature</od:description>
+    <od:description xml:lang="de">Ändern der Temperatur</od:description>
+    <od:description xml:lang="ru">Изменить температуру</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/CompositeMaterials">
     <od:LippertGlossaryNote xml:lang="en">In systems engineering, the use of commodity hardware from a variety of sources to create a system creates a composite.</od:LippertGlossaryNote>
@@ -410,17 +431,17 @@
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_2"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Principle of using flexible covers or thin films</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Principle of using flexible shells or thin films</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Anwendung biegsamer Hüllen oder dünner Folien</skos:prefLabel>
     <skos:prefLabel xml:lang="ru">Приём использования гибких оболочек или тонких плёнок</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_1">
-    <od:description xml:lang="en">Use flexible cover or thin films instead of the usual constructions.</od:description>
+    <od:description xml:lang="en">Use flexible shells or thin films instead of the usual constructions.</od:description>
     <od:description xml:lang="de">Verwende biegsame Hüllen und dünne Folien statt der üblichen Konstruktionen.</od:description>
     <od:description xml:lang="ru">Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие плёнки.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_2">
-    <od:description xml:lang="en">Isolate the object from the surrounding medium by means of flexible envelopes and thin foil.</od:description>
+    <od:description xml:lang="en">Isolate the object from the surrounding medium by means of flexible shells and thin foil.</od:description>
     <od:description xml:lang="de">Isoliere das Objekt mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium.</od:description>
     <od:description xml:lang="ru">Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой плёнки.</od:description>
   </od:Recommendation>
@@ -457,6 +478,7 @@
     <od:hasAltshuller84Id>39</od:hasAltshuller84Id>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_1"/>
     <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_2"/>
+    <od:hasRecommendation rdf:resource="http://opendiscovery.org/rdf/Concept/InertMedium_3"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Principle of using an inert medium</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Prinzip der Verwendung eines inerten Mediums</skos:prefLabel>
@@ -471,6 +493,11 @@
     <od:description xml:lang="en">Carry out the process in a vacuum.</od:description>
     <od:description xml:lang="de">Führe den Prozess im Vakuum durch.</od:description>
     <od:description xml:lang="ru">Процесс должен проводиться в вакууме.</od:description>
+  </od:Recommendation>
+  <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/InertMedium_3">
+    <od:description xml:lang="en">Add neutral parts, or inert additives to an object.</od:description>
+    <od:description xml:lang="de">Hinzufügen neutraler Teile oder inerter Zusatzstoffe zu einem Objekt.</od:description>
+    <od:description xml:lang="ru">Добавлять нейтральные части или инертные добавки к объекту.</od:description>
   </od:Recommendation>
   <od:Principle rdf:about="http://opendiscovery.org/rdf/Concept/InexpensiveShortLifeObject">
     <od:LippertGlossaryNote xml:lang="en">A common example is that of temporary staffing or computer timesharing.</od:LippertGlossaryNote>
@@ -762,7 +789,7 @@
     <skos:prefLabel xml:lang="ru">Приём применения пневмо- и гидросооружений</skos:prefLabel>
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/PneumaticOrHydraulicConstructions_1">
-    <od:description xml:lang="de">Ersetze schwere Teile des Objektes durch gasförmige oder flüssige, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile.</od:description>
+    <od:description xml:lang="de">Ersetze Feststoffteile des Objektes durch gasförmige oder flüssige, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile.</od:description>
     <od:description xml:lang="en">Replace heavy parts of the object by gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts.</od:description>
     <od:description xml:lang="ru">Вместо тяжелых частей объекта введите газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части.</od:description>
   </od:Recommendation>
@@ -862,7 +889,7 @@
   </od:Principle>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_1">
     <od:description xml:lang="de">Nutze die Felder in Kombination mit Ferromagnetteilchen.</od:description>
-    <od:description xml:lang="en">Use the fields in combination with ferromagnetic particles.</od:description>
+    <od:description xml:lang="en">Use fields in conjunction with field-activated (e.g. ferromagnetic) particles</od:description>
     <od:description xml:lang="ru">Использовать поля в сочетании с ферромагнитными частицами.</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_2">

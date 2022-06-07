@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:ed="http://opendiscovery.org/rdf/EcoDesignPrinciple/"
+   xmlns:edc="http://opendiscovery.org/rdf/EcoDesignConcept/"
+   xmlns:edg="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials">
+    <skos:prefLabel xml:lang="en">Auxiliary Material</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Components">
+    <skos:prefLabel xml:lang="en">Components</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction">
+    <skos:prefLabel xml:lang="en">Distance Reduction</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate">
+    <skos:prefLabel xml:lang="en">Eliminate</skos:prefLabel>
+  </od:EDPAction>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Emissions">
+    <skos:prefLabel xml:lang="en">Emissions</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife">
+    <skos:prefLabel xml:lang="en">End of Life</skos:prefLabel>
+  </od:EDPPhase>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Energy">
+    <skos:prefLabel xml:lang="en">Energy</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction">
+    <skos:prefLabel xml:lang="en">Reduction of Energy Consumption</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction">
+    <skos:prefLabel xml:lang="en">Reduction of Energy</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic">
+    <skos:prefLabel xml:lang="en">External Logistic</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ImproveDurability">
+    <skos:prefLabel xml:lang="en">Improve Durability</skos:prefLabel>
+  </od:EDPAction>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/InternalLogistic">
+    <skos:prefLabel xml:lang="en">Internal Logistic</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces">
+    <skos:prefLabel xml:lang="en">List of Fields and Forces</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfPhysicalEffects">
+    <skos:prefLabel xml:lang="en">List of Physical Effects</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfStructuralResources">
+    <skos:prefLabel xml:lang="en">List of Structural Resources</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Machineries">
+    <skos:prefLabel xml:lang="en">Machineries</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing">
+    <skos:prefLabel xml:lang="en">Manufacturing</skos:prefLabel>
+  </od:EDPPhase>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction">
+    <skos:prefLabel xml:lang="en">Mass Reduction</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/MaterialSubstitution">
+    <skos:prefLabel xml:lang="en">Substitution of Material</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging">
+    <skos:prefLabel xml:lang="en">Packaging</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing">
+    <skos:prefLabel xml:lang="en">Pre-Manufacturing</skos:prefLabel>
+  </od:EDPPhase>
+  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse">
+    <skos:prefLabel xml:lang="en">Product Use</skos:prefLabel>
+  </od:EDPPhase>
+  <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/RawMaterials">
+    <skos:prefLabel xml:lang="en">Raw Materials</skos:prefLabel>
+  </od:EDPTarget>
+  <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceDistance">
+    <skos:prefLabel xml:lang="en">Reduce Distance</skos:prefLabel>
+  </od:EDPAction>
+  <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass">
+    <skos:prefLabel xml:lang="en">Reduce Mass</skos:prefLabel>
+  </od:EDPAction>
+  <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity">
+    <skos:prefLabel xml:lang="en">Reduce Quantity</skos:prefLabel>
+  </od:EDPAction>
+  <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume">
+    <skos:prefLabel xml:lang="en">Reduce Volume</skos:prefLabel>
+  </od:EDPAction>
+  <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/TransportationMeanSubstitution">
+    <skos:prefLabel xml:lang="en">Substitution of Transport Means</skos:prefLabel>
+  </od:EDPTool>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS01">
+    <skos:note xml:lang="en">According to TRIZ Law #6, during its evolution, when a technical system
+exhausts the possibilities of further significant improvement, it is included
+in a super-system as one of its parts. As a result, a new development of the
+system becomes possible. From an environmental point of view, the product
+reaches the minimum consumption of its energy resources, drastically reducing
+its environmental impact. The use of external resources usually does not
+contribute to increasing the impact as it concerns resources already present
+in the environment, and not yet exploited.</skos:note>
+    <skos:prefLabel xml:lang="en">Switch to Super System</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS02">
+    <skos:note xml:lang="en">Trimming is a good technique for making greener products. It consists of
+making a product constituted by fewer parts, with positive consequences on
+many aspects of the product life cycle, from the management of warehouse
+orders, storage, transport, as well as on reducing the mass. In order to
+achieve the maximum environmental benefits, it is preferable to start by
+eliminating those pieces having the highest impact on the environment. When a
+component is deleted from the system, it is better to try to exploit the
+resources already available in the super-system to replace its useful
+function.</skos:note>
+    <skos:prefLabel xml:lang="en">Trimming</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS03">
+    <skos:note xml:lang="en">According to TRIZ, the dematerialization of a product coincides with its
+Ideality. The TRIZ Ideal Product is that which does not exist while continuing
+to perform the function for which it was conceived.  In this way, the product
+is not associated with any energy flow, material, packaging, etc., and cannot
+produce environmental impacts. It consists in eliminating all useless product
+components, reducing toward zero auxiliary materials, consumables, or
+eliminating the distance. The ideal lawnmower coincides, for example, with a
+lawn made of dwarf grass or grass inhibited in its growth so that it no longer
+needs to be cut.</skos:note>
+    <skos:prefLabel xml:lang="en">Dematerialization/Ideality</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS04">
+    <skos:note xml:lang="en">In the case of manufacturing processes, Merging suggests making operations
+contiguous or parallel, bringing them together in time. The combination of the
+processes brings benefits by eliminating the impacts associated with the
+internal transport and/or packaging of the material, eliminating the problems
+of repositioning the piece, as well as offering the synergies of several
+machines that share the same energy and control sources.</skos:note>
+    <skos:prefLabel xml:lang="en">Merging</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS05">
+    <skos:note xml:lang="en">Generally, in order to increase the mechanical strength of an object, the
+thicknesses are increased, or the materials are substituted with greater
+density, which irredeemably contribute to an increased object mass. In this
+case, instead to increase the performances by reducing the mass, the goal is
+acting on the topology or on the distribution of the masses within the volume
+of the object, arranging the mass only where it is needed and eliminating the
+portions which have no functional characteristics.  A good trigger to help the
+designer in this task is to introduce TRIZ Principle #31 “Porous materials”,
+which involves making an object porous or adding porous elements. If already
+porous, you use the pores to introduce a useful substance or function into the
+object. Structural optimizer tools can be used to improve mass reduction, too.</skos:note>
+    <skos:prefLabel xml:lang="en">Redesign the Internal Structure by Porosity</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS06">
+    <skos:note xml:lang="en">TRIZ Principle #35 “Parameter change” entails changing an object’s physical
+state to a gas, liquid, or solid; changing pressure or other physical
+parameters; changing the concentration or consistency; changing the degree of
+flexibility; or changing the temperature. TRIZ Principle #36 “Phase
+transition” is the use of volume or other physical properties. The solutions
+working on the change in the physical state of the aggregation of a product
+provide results that are very appealing but not necessarily greener, e.g., a
+solid fuel is less explosive, but it is not more sustainable than other
+fuels. In order to achieve environmental benefits, it is advised to try its
+application on products where the transportation has a great incidence, e.g.,
+the gases that, in liquid state, occupy less volume and all types of liquids
+in a freeze-dried form. The benefits of the change of state can be amplified
+by taking advantage of the temporary properties emerging during the phase
+transition. For instance, water expansion during freezing is a property known
+from thousands of years in mines, where large stones are placed within water
+cavities and are broken by ice expansion.</skos:note>
+    <skos:prefLabel xml:lang="en">Change the State of Aggregation</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS07">
+    <skos:note xml:lang="en">TRIZ Principle #3 “Local quality” is used for reducing mental inertia when
+considering space and materials too homogeneous and continuous. It suggests to
+“Change an object’s structure from uniform to non-uniform, make each part of
+an object function in conditions most suitable for its operation, and make
+each part of an object fulfill a different and useful function”. We can say
+that, from the Ecodesign point of view, this principle tends to optimize the
+processes and, therefore, to reduce the energy and mass impacts. With the same
+principle we tend to conceive multi-function objects for exploiting synergies
+among functions.</skos:note>
+    <skos:prefLabel xml:lang="en">Local Quality</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS08">
+    <skos:note xml:lang="en">Substitute a material or an energy flow or changing a transport mean with a
+lower environmental impact. The application of this strategy has its maximum
+effectiveness if integrated with a library of materials and related
+environmental impacts.</skos:note>
+    <skos:prefLabel xml:lang="en">Substitute</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS09">
+    <skos:note xml:lang="en">TRIZ Principle #1 “Segmentation” is the key principle to make the system work
+only where needed (only in the Operative Zone). Segmentation entails dividing
+a system or object into independent parts or components (disassembly) and
+recombine them in a more suitable way for the purposes to achieve (e.g.,
+transport separately single parts). For example, use two small motors instead
+a big one to better optimize performance and exhaust gases. This principle
+does not guarantee greener results and must always be verified from an LCA
+(Life Cycle Assessment) point of view.</skos:note>
+    <skos:prefLabel xml:lang="en">Segmentation of the Parts/Components</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS10">
+    <skos:note xml:lang="en">Design for assembly (DFA) is a process whereby products are designed with ease
+of assembly in mind. If a product contains fewer parts it will take less time
+and energy to assemble, thereby reducing assembly impacts. In addition, if the
+parts are provided with features which make it easier to grasp, move, orient
+and insert, this will also reduce assembly time, energy and costs.</skos:note>
+    <skos:prefLabel xml:lang="en">Design for Assembly</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS11">
+    <skos:note xml:lang="en">TRIZ Principle #15 “Dynamics” is the key principle to make the system work
+only when needed (Operative Time) and always in an optimal way. Dynamics
+allows (or design) the characteristics of an object, external environment, or
+process to change to be optimal or to find an optimal operating condition. If
+an object (or process) is rigid or inflexible, make it movable or adaptive.
+Any increase in efficiency has a positive effect on energy savings by the
+machine or the manufacturing process.</skos:note>
+    <skos:prefLabel xml:lang="en">Dynamics</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS12">
+    <skos:note xml:lang="en">TRIZ Principle #13 “The Other Way Around” is simply reversing the normal
+procedure or process.  According to it, invert the action(s) used to solve the
+problem (e.g., instead of cooling an object, heat it); make the movable parts
+of the entity fixed, and the fixed parts movable; turn the entity ‘upside
+down’; nest objects inside others; and exploit other dimensions. This
+principle can be a very useful for finding better solutions, but it does not
+guarantee greener results that must be always verified from an LCA point of
+view.</skos:note>
+    <skos:prefLabel xml:lang="en">The Other Way Around</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS13">
+    <skos:note xml:lang="en">TRIZ Principle #2 “Taking out” means to separate an interfering part or
+property from an object, or single out the only necessary part (or property)
+of an object. It forces users to use only what is needed, thus reducing the
+environmental impacts.</skos:note>
+    <skos:prefLabel xml:lang="en">Taking out</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS14">
+    <skos:note xml:lang="en">According with the third law of system evolution, all technical systems can be
+represented at least by the engine, the transmission, the working unit and the
+control elements for each of them. If one of these control elements is
+lacking, try to introduce it, while if it is insufficient try to improve
+it. More control means bigger efficiency and energy reduction.</skos:note>
+    <skos:prefLabel xml:lang="en">Increase Control</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS15">
+    <skos:note xml:lang="en">Recycle/Reuse is part of the “Switch to super system” TRIZ
+suggestion. However, it appears in this form in the end of use phase
+guidelines. Recycling allows the elimination of disposal impact, while reusing
+helps to reduce impacts produced by the disassembly and the recycle operation,
+in addition to those deriving from the production of new products.</skos:note>
+    <skos:prefLabel xml:lang="en">Recycle/Reuse</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDPGenericStrategy rdf:about="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/GS16">
+    <skos:note xml:lang="en">Optimization is present in many inventive principles even if, alone, is not a
+classical TRIZ approach; it can be useful for reducing impacts every time
+helps user to increase efficiency, reduce mass and eliminate unnecessary
+parts. It is introduced into guidelines by adapting technical suggestions to
+the specific context; i.e., during manufacturing processes, reduce the casting
+channels during the melting, and eliminate additive manufacturing supports for
+reducing wastes. Furthermore, reduce machining operations for cutting
+shavings, limit the surface finishing treatment areas for saving energy, and
+improve die-castings to reduce defects, conceive the piece so that it is more
+resistant for the subsequent assembly phases, etc.
+</skos:note>
+    <skos:prefLabel xml:lang="en">Optimize</skos:prefLabel>
+  </od:EDPGenericStrategy>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateComponentsByIdeality">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During the end of life, eliminate the components by exploiting their natural biodegradability or by improving this property.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfPhysicalEffects"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Take advantage by a limited exposition to artificial fields and forces (e.g. forced oxidation, thermal degradation) just to increase their biodegradability.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Take advantage by the use of natural resources (e.g. microorganism, polymerization by sun light) and the climatic and morphological (e.g. site depth, soil composition) characteristics of the storage site.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Components"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Eliminate Components (Ideality, Switch to Supersystem)</rdfs:label>
+    <skos:example xml:lang="en">Improving the biodegradability of landfill leachates through electrochemical oxidation processes (El Kateb et al., 2019) and that of PLA through thermal degradation (Mofokeng and Luyt, 2015).</skos:example>
+    <skos:example xml:lang="en">Making plastic comestible for insects and other living species (Weiss et al., 2017).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateComponentsByRecycling">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">For improving the end of life, eliminate the components to be disposed, by recycling as much as possible of the constituent parts and materials (see circular economy).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Exploit all those products that cannot be recycled (e.g. ashes - Agrela et al., 2019) and the emissions of the recycling process (e.g. exhaust gases) as useful resource for generating electrical or thermal energy.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Finds new markets and new collaborations for the distribution of recycled material.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the quantity of unrecoverable materials from the recycling processes through the separate collection and the reduction of the moisture within the waste.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Components"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Eliminate Components (Recycle, Optimize)</rdfs:label>
+    <skos:example xml:lang="en">A Danish company developed a technology for recycling the 99% of worn out artificial turf from soccer pitches, transforming it into rubber granules, sand and plastic fibers. (Patent number: EP3138677A1)</skos:example>
+    <skos:example xml:lang="en">A Finnish engine company developed a supercharging large diesel engine for reprocessing exhaust gases in marine applications, with a reduction of eq. CO2 up to 76%.</skos:example>
+    <skos:example xml:lang="en">Recovering cobalt and lithium from spent lithium-ion battery (Zeng et al., 2015).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateComponentsByReuse">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">For improving the end of life, eliminate the product to be disposed, by reusing it or its components as they are or after reparation for performing the same function or for other uses inside or outside the operating context, or by maintaining them as spare parts for other systems (see circular economy).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Relegate the product only to the realization of those functionalities not been compromised by the wear of time.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Repair/regenerate the product by making it able to perform the same functionalities through design for repairability and design for update.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Rethink the use of the product by tolerating a decreasing in the performances.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Components"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Eliminate Components (Reuse)</rdfs:label>
+    <skos:example xml:lang="en">Containers, newsstands, pallets and bins used in architectural buildings and furnishing.</skos:example>
+    <skos:example xml:lang="en">Former Italian high-speed trains used in regional lines.</skos:example>
+    <skos:example xml:lang="en">Savannah College of Art and Design designed an easily repairable and upgradable microwave containing slots for updates, easily replaceable parts, also not original or from other models.</skos:example>
+    <skos:example xml:lang="en">Ship restaurant moored at the port.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateComponentsByTakingOut">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">For improving the end of life, eliminate the components (i.e. hazardous materials) that reduce the reuse, the recyclability or the disposal of the product by removing them from the product with the less amount of energy.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfPhysicalEffects"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Try to exploit fields and forces from the environment (e.g. gravity, geodetic share of water).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Try to exploit heating coming from sun or subsoil (e.g. drying)</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Try to exploit physical effects requiring small energy to be exploited (e.g. fluid pression, centrifugal force, vibrations).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Components"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Eliminate Components (Ideality, Taking out)</rdfs:label>
+    <skos:example xml:lang="en">Biodrying, biostabilization, thermal drying and solar drying for dehumidifying urban wastes before incinerators (Tun and Juchelkova, 2018).</skos:example>
+    <skos:example xml:lang="en">Eliminating low-content impurities from Aluminum solidification by exploiting centrifugal force in rotative furnaces (Zhao et al., 2010).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateComponentsByTrimming">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During the end of life, eliminate the disassembly of the product before its disposal (dissolution by incineration) by finding technologies able to entirely or largely dispose it, so that the required energy and related environmental impacts can be avoided</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:specificSuggestion xml:lang="en">Demand the coarse separation directly to the consumer by making the different parts of the product easier to separate.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Implements separate waste collection upstream of the disposal process.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Optimize the parameters of the disposal process so that it is as versatile as possible, seeking a compromise between the different methods of disposal of processed materials (i.e. temperatures and times).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Simultaneously processing of parts made of similar materials (i.e. chemical composition, melting temperature and disposal time) and avoiding parts with impurities difficult to dispose.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Eliminate Components (Trimming)</rdfs:label>
+    <skos:example xml:lang="en">Dismantling multi-parts components, without disassembly them, within pyrolysis reactor by properly setting the operative parameters (Tian and Chen, 2014).</skos:example>
+    <skos:example xml:lang="en">Milk bricks made by two easily detachable components: plastic lid and cardboard body with tinplate.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateMachineriesByMerging">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, eliminate one or more machineries/manufacturing processes by merging them with others in order to perform multiple operations on the resulting work center, saving the overall energy.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:specificSuggestion xml:lang="en">Merge the operations themselves by optimizing the sequence of operations to be performed according to the logic of the work center: e.g. the combination of cutting and punching for laser-punching machines.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the movements of the semifinished among the two machineries by ideally bringing them to zero if the two operations can be carried out by fixing the piece in the same position.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Share the hardware, i.e. tools, consumables, sensors and their management/handling systems (e.g. lubricant pump), for both the operations.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Machineries"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Eliminate Machineries (Merging)</rdfs:label>
+    <skos:example xml:lang="en">In order to save oil and energy during frying, an American potato chips producer, instead of using the pressing machine and frying machine, eliminated the second one by adding the vegetal oil within the pressing machine for directly frying the potatoes during the pressing.</skos:example>
+    <skos:example xml:lang="en">The introduction of hybrid manufacturing allowed both chip removal and additive manufacturing within the same machine, through a more efficient use of the resources available, machines and materials (Cortina et al., 2018).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateMachineriesByOptimization">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, eliminate one or more machineries/manufacturing processes by optimizing the shape of the semi-finished, thinking not only about how it should be at the end of the process but also in relation to the sequence of all its processing phases (construction of the piece, finishing and assembly).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Machineries"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Eliminate Machineries (Optimize)</rdfs:label>
+    <skos:example xml:lang="en">Density-based topology (i.e. Bridging topology) optimization for eliminating the supports in additive manufacturing (Zegard and Paulino, 2016).</skos:example>
+    <skos:example xml:lang="en">Optimizing the speed of injection of the liquid material inside the molds for reducing the connection radii and the voids and the volumes of the sprues (Wang et al., 2017).</skos:example>
+    <skos:example xml:lang="en">Optimizing the topology design of the components realized through additive manufacturing allowed a remarkable reduction of the impacts compared to CNC milling (Tang et al., 2016).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminatePackagingByMerging">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During delivery phase, eliminate the packaging, by merging or combining two or more products inside, and maintain them as such or split after delivery.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Bundle more products by placing them together by saving packaging material on the scale factor.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Chemically merge two products (e.g. compounds).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Fill each empty space within the packaging or within the product (e.g. holes, cavities) with small products or components.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Physically merge two products (e.g. swiss army knife).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Eliminate Packaging (Merging, The other way around)</rdfs:label>
+    <skos:example xml:lang="en">In order to eliminate the bottle, gel douche uses a single bottle to contain two products i.e. the soap and the shampoo.</skos:example>
+    <skos:example xml:lang="en">Normally, six water bottles or rolls of toilet paper are contained within the same packaging.</skos:example>
+    <skos:example xml:lang="en">The smallest components (e.g. screws, squares) of furniture units at home are generally positioned inside the cavities and empty spaces.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminatePackagingByTrimming">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During delivery phase, eliminate the (primary packaging) packaging, by demanding its role of protection and/or advertising (e.g. energy or nutrition labeling), directly to the product itself or to the secondary packaging that contains the primary packaging.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Eliminate part of the packaging by directly showing the contained product.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Make minor improvements to the secondary packaging by making it suitable to contain the product (e.g. by making it waterproof for storing liquids).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Modify the product surface by reporting on it advertising or information (e.g. nutritional value).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Eliminate Packaging (Trimming, Switch to supersystem)</rdfs:label>
+    <skos:example xml:lang="en">Directly filling the tanks of the printers instead of using cartridges.</skos:example>
+    <skos:example xml:lang="en">Reproducing the bio-label on the fruit peel trough laser marking.</skos:example>
+    <skos:example xml:lang="en">Showing the contained product as advertising for reducing the packaging mass.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateRawMaterialsByDematerialization">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During design phase, eliminate components with highest environmental impact, compensating their functions with a field (e.g. electromagnetic, light, laser) achieving the same goal.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">List of fields and forces</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/RawMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Eliminate Raw Materials (Dematerialization)</rdfs:label>
+    <skos:example xml:lang="en">Malmodin and Lunden (2018) compared the environmental impacts of a single smartphone and 18 different devices potentially embedded within it (e.g. photo camera, radio, traditional phone) by finding a reduction in power consumption (449 vs 5 Watts), embodied energy (1706 kWh vs 75 kWh), stand-by energy use (72 vs 2,5 Watts) and weight (26 vs 0,1 kg).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/EliminateRawMaterialsByTrimming">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate"/>
+    <od:genericSuggestion xml:lang="en">During design phase, eliminate components with highest environmental impact, transferring their functions to an already existent component (multi-functional design) in order simplify the system and reduce the mass.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/RawMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Eliminate Raw Materials by Trimming</rdfs:label>
+    <skos:example xml:lang="en">Transforming MTB traditional tires into tubeless tires with a commercial kit allows to eliminate the air chamber by making the tire impermeable with liquid latex and acrylic adhesive tape in order to be directly filled with air. This solution reduces the equivalent CO2 from 0,22 kg CO2 to 0,06 kg CO2 (94%) for each tire.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ImproveComponentsDurabilityByIdeality">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ImproveDurability"/>
+    <od:genericSuggestion xml:lang="en">During product use, improve the durability of the product components, by making them self-reparable in case of damages or deteriorations, by independently re-arranging or by introducing additional substances able to automatically intervene when necessary. In order to repair the product</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Try to exploit chemical or physical transformations occurring to the materials constituting the product when the environmental conditions change (e.g. air composition, pressure).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Try to exploit the resources, i.e. structures and fields, available from the external environment for repairing the product by privileging the natural resources (e.g. heating from UV rays, magnetism, gravity).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Components"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Improve Durability of the Product Components (Ideality, Switch to supersystem)</rdfs:label>
+    <skos:example xml:lang="en">A semi-liquid compound can polymerize with UV rays by forming a solid cohesive structure for filling cracks in wing profiles and shoe soils (Chen et al., 2015).</skos:example>
+    <skos:example xml:lang="en">Introducing mastic inside air chambers for keeping them intact after small punctures by filling the puncture holes through expansion and solidification on contact with air.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ImproveComponentsDurabilityByOptimization">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ImproveDurability"/>
+    <od:genericSuggestion xml:lang="en">During product use, improve the durability of the product components, by improving their working conditions in order to avoid deterioration phenomena and damages.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Improve the programs and the devices for piloting the product.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Introduce sensors for monitoring the product conditions and the consumptions.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Plan the frequency and type of maintenance interventions (i.e. predictive, preventive, failure) (e.g. Sari et al., 2015).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Regularly upgrade software and hardware.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Components"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Improve Durability of the Product Components (Dynamic, Optimize)</rdfs:label>
+    <skos:example xml:lang="en">Developing algorithms for enlarging operational life of water pumping systems by considering cavitation, variability of water inflow and activation frequency (Torregrossa and Capitanescu, 2019).</skos:example>
+    <skos:example xml:lang="en">Optimizing the car traction control systems in order to avoid breaking blocking and the overheating of the brakes pads.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ImproveDurabilityAuxiliaryMaterials">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ImproveDurability"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, improve the durability of the auxiliary materials by increasing their exploitation (physical and structural) and by improving or their ways of functioning and reducing their use through the reduction of contact forces, frictions, vibrations and overheating.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:specificSuggestion xml:lang="en">;&lt;brBetter exploit the available spatial resources, i.e. their operative surface (e.g. Möbius strip, sharp with multiple sides) and volume (e.g. porosity).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Better exploit their physical properties (e.g. conductivity, magnetism, boiling point, change of state).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Improve the environmental conditions where the auxiliary materials work: temperature, humidity, pressure.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Monitor the performances of the machineries or the condition of the worked pieces involving the auxiliary materials.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the differences between the tangential velocities, the temperatures of the auxiliary materials (i.e. tools, molds) and the semi-finished to be worked.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Use self-lubricating materials.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:comment>Example (1)</rdfs:comment>
+    <rdfs:label xml:lang="en">Improve Durability Auxiliary Materials (Other dimensions, Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">Increase the durability of adhesive tapes, by making the distribution of the contact surface more homogeneous like the adhesion systems of lizards and arthropods (Puthoff, 2019).</skos:example>
+    <skos:example xml:lang="en">Increase the durability of bearings, by realizing a partial micro-textured internal surface for reducing the friction (green tribology) (Matele and Pandey, 2018).</skos:example>
+    <skos:example xml:lang="en">Increase the durability of forging tools in hot die forging processes, by monitoring the wear conditions through acoustic and resetting their dynamics of functioning (Hawryluk, 2016). The same is done for drilling tools, by monitoring the quality of the surface roughness within the holes (Ullah et al., 2019).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceDistanceExternalLogisticEndOfLife">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceDistance"/>
+    <od:genericSuggestion xml:lang="en">For improving the end of life, reduce the distance of external logistic, by approaching the disassemble system or the disposal plant and the wastes by temporarily or definitely transferring the disposal plant near the wastes to be processed in order to eliminate or reduce the impacts deriving from rubbish collection.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Reduce Distance External Logistic (Ideality)</rdfs:label>
+    <skos:example xml:lang="en">Medium-size pyrolysis reactor (up to 4 MW) installed within stand-alone containers in former industrial sites where the wastes are placed.</skos:example>
+    <skos:example xml:lang="en">The French Plastic Odyssey project consists of using a boat dismantling floating plastic waste with an onboard pyrolysis reactor.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceDistanceExternalLogisticSupplyPhase">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceDistance"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the distance of external logistic, favoring zero-mile alternatives, both for raw materials and energy sources (e.g. geothermal energy), and approaching the supply sources and the production plant: build the plant near the sources or transfer the sources near the plant.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Distance External Logistic (Ideality)</rdfs:label>
+    <skos:example xml:lang="en">Almost all the solar farms in former global project Desertec were planned to be realized near the coasts for minimizing the transport of cooling water.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceDistanceInternalLogistic">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceDistance"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce distance of the internal logistic, by improving the physical disposition of the machineries and the layout inside the productive plant.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:specificSuggestion xml:lang="en">Exploit resources (e.g. gravity) for moving the semi-finished inside the productive plant (e.g. spiral rack conveyors).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Optimize the quantity of moved materials in relation to the production rate for reducing the bottlenecks: use software for system simulation.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the route of semi-finished by moving them through other directions (e.g. diagonal), other dimensions (e.g. climbing over the obstacles above or below) or by dividing and recombining their flows: use software for product layout.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/InternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Distance Internal Logistic (Other dimensions, Segmentation, Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">A proper adaptation of the layout of Rotterdam Shortsea Terminal, obtained through a smart disposition of the containers and the spaces for their movements, has been estimated to be the most effective measure to reduce CO2 emissions in the terminal by nearly 70 per cent, in a study proposed by Geerlings and van Duin (2011).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassAuxiliaryMaterialsByControl">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the mass of auxiliary materials, by introducing a field acting as a control for monitoring the environmental conditions (e.g. weather conditions, air humidity), the product (e.g. wear status) and the conditions of the same&lt;br/&gt;auxiliary materials.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Auxiliary Materials (Increase control)</rdfs:label>
+    <skos:example xml:lang="en">Irrigation systems connected to the web (Internet of Things) for saving waters according to weather forecasting.</skos:example>
+    <skos:example xml:lang="en">Photocells on the taps in public toilets to detect the user presence.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassAuxiliaryMaterialsByLocalQuality">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the mass of auxiliary materials by rationalizing and controlling their use only where and when are specifically required.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Combine lubricants or fuels with different qualities: use the better one only when the product is working with the full performances.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Confine the presence of lubricant or cooling only in the most critical zones (e.g. where the temperatures or the frictions are higher).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the thickness of the film of lubricant.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Auxiliary Materials (Local Quality &amp; Separation in space/time)</rdfs:label>
+    <skos:example xml:lang="en">Optimizing the shape of the creeping gaskets for confining a small quantity of lubricant (up to 25% less according to a North European company) only where friction is greater.</skos:example>
+    <skos:example xml:lang="en">Redesigning the surface roughness for optimizing the adherence of the film lubricant and reducing its thickness (Hassanpour et al., 2016).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassAuxiliaryMaterialsByRecycling">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce the mass of auxiliary materials (i.e. consumables) by recycling them from inside or outside the productive plant, or by extend their operative life, with or without making changes to them.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Make the manufacturing process more robust for tolerating the deterioration of the performances of the auxiliaries.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Treat exhaust auxiliary materials by reinvigorate them (e.g. cleaning and filtration for oil, sharpening for tools).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Auxiliary Materials (Recycle, Switch to Supersystem)</rdfs:label>
+    <skos:example xml:lang="en">An innovative printer deletes the ink on used papers and re-prints on them.</skos:example>
+    <skos:example xml:lang="en">Condensing water humidity for irrigating (Alnaser and Barakat, 2000).</skos:example>
+    <skos:example xml:lang="en">Producing biodiesel from cooking oil is more sustainable then diesel (Yaakob et al., 2013).</skos:example>
+    <skos:example xml:lang="en">Recycling exhaust lubricating oil is more sustainable than conventional refinery process (Botas et al., 2017).</skos:example>
+    <skos:example xml:lang="en">Recycling lubricating oil for reducing the global warming potential, cumulative energy demand, acidification and toxicity (Botas et al., 2017).</skos:example>
+    <skos:example xml:lang="en">Regenerating tools in CNC stations and foundry molds for plastic or integrating inserts of new material in limited parts.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassAuxiliaryMaterialsByRedesign">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the mass of auxiliary materials, by rationalizing their use at microlevel of detail (i.e. topology redesign) without compromising the functionality at the macrolevel (e.g. a full volume becomes a foam, a solid line becomes a dashed line).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfStructuralResources"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Auxiliary Materials (Redesign internal structure)</rdfs:label>
+    <skos:example xml:lang="en">Optimizing spatial distribution (for minimizing it) of the lubricant through spray (Zhang et al., 2019).</skos:example>
+    <skos:example xml:lang="en">Saving ink during printing, by optimizing the deposition: microscopically dotted and macroscopically perceived as solid.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassAuxiliaryMaterialsBySupersystem">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce the mass of auxiliary materials by exploiting resources from inside or outside the productive plant, or waste (see circular economy) and renewable natural resources from the working environment (e.g. rain water).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Consider the balance between their availability and the energy required for their transformations that are required for their reuse, modification and recycle.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Give preference to those closest to you on a spatial level.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Mass Auxiliary Materials (Switch to Supersystem)</rdfs:label>
+    <skos:example xml:lang="en">Biodiesel realized from waste oil by Italian consortium Canoe.</skos:example>
+    <skos:example xml:lang="en">Irrigating Israeli’s drylands with using waste and salt waters for vegetable and fruit production guaranteed advantages on sustainability (Tal, 2016).</skos:example>
+    <skos:example xml:lang="en">Mushrooms made with waste beer and rice and mycelia grown with plastic waste are exploited by some experimental crops.</skos:example>
+    <skos:example xml:lang="en">The RadChemLab of the University of Pavia exploited exhaust oils for realizing resin for the fusion wire in additive manufacturing processes.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassEmissions">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce the mass of the process emissions by avoiding/reducing their production or by intercepting and storing them once generated, avoiding dispersion in the environment.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Change the environmental conditions (e.g. temperature, pression) where the pollutants are produced for reducing/inhibiting them.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Change the working condition (e.g. speed rate) for the same purpose.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Intercept the pollutants once produced, within chimney or in the external environment, through filtration systems (i.e. physical barriers, cyclonic filters, chemical additives) and confine them in a stable manner for disposal or reuse.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Emissions"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Emissions (Local Quality &amp; Separation in space)</rdfs:label>
+    <skos:example xml:lang="en">Breaking down the production of NOx in gas turbine through a controlled injection of small quantities of water steam within the combustion chamber for locally decreasing the temperature that is responsible for their chemical aggregation.</skos:example>
+    <skos:example xml:lang="en">Fernando and Hor (2017) reported some techniques for reducing pollutants production in Malaysia working on energy management practices.</skos:example>
+    <skos:example xml:lang="en">Nawi et al. (2016) introduced a systematic technique for selecting systems for CO2  capture, by considering sustainability and costs.</skos:example>
+    <skos:example xml:lang="en">Russo et al. (2019) proposed an improvement for pyrolysis reactors aimed at minimizing the production of ashes, through a redesigned internal layout.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassPackagingByAggregation">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the mass of the packaging of the raw material, by changing its state of aggregation of the raw material in order to make it more resistant to be carried with a lighter packaging.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Packaging (Change the state of Aggregation)</rdfs:label>
+    <skos:example xml:lang="en">The introduction of solid ink cartridges for printers allowed the complete elimination of their packaging.</skos:example>
+    <skos:example xml:lang="en">Transporting milk in form of powder from farm to factory by using simple plastic sachets, instead of the conventional metallic bins. Also, producer of other foodstuffs, e.g. dehydrated fruit, fish, egg, exploit the same strategy.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassPackagingByOptimization">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During delivery phase, reduce the mass of the packaging, optimizing the spatial mass distribution around the product by paying attention to the most delicate points to protect.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Combine different materials.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Introduce ribs and reinforcements.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Redesign the shape by changing the geometry.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reorganize the internal structure (e.g. porosity, honeycomb, foam).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Use variable thicknesses.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Mass Packaging (Optimize, Local quality &amp; Separation in space)</rdfs:label>
+    <skos:example xml:lang="en">An Irish company active in ultralightweight paper packaging, made by honeycomb structure, for containing glass bottles.</skos:example>
+    <skos:example xml:lang="en">An international big firm of food and beverages optimized the shape of its plastic water bottles in order to increase the strength by reducing the mass of 15% (2.1 grams) for each bottle.</skos:example>
+    <skos:example xml:lang="en">Packaging for eggs made by semi-open forms.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassRawMaterialsByRecycling">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the amount of the raw material, using recycled waste materials as input of your process. Wastes can come from your process or from other plants (circular economy).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">List of structural resources.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/RawMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Mass Raw Materials (Recycle)</rdfs:label>
+    <skos:example xml:lang="en">Recycling concrete aggregates in new buildings and for paving roads for reduce the impacts up to 50% (McGinnis et al., 2017; Ossa et al., 2016).</skos:example>
+    <skos:example xml:lang="en">Recycling fibers in fashion industry (Leonas, 2017).</skos:example>
+    <skos:example xml:lang="en">Recycling the casting channels for successive melting in the foundries.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassRawMaterialsByRedesign">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
+    <od:genericSuggestion xml:lang="en">During design phase, reduce the mass of the raw material, increasing its internal porosity. In order to modify the system without compromising the performance (stiffness, thermal or electrical conductivity), check the list of resources from the “Resources List” module.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">List of structural resources.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/RawMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Mass Raw Materials (Redesign internal structure)</rdfs:label>
+    <skos:example xml:lang="en">A multi-national packaging reduced the weight of their packaging up to 70%, by realizing an internal honeycomb structure.</skos:example>
+    <skos:example xml:lang="en">Twede et al. (2014) collected and compared a multitude of paper packaging made by different lightweight structures (e.g. wavy, porous, corrugated, expanded, perforated) in terms of sustainability.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityEnergyByOptimization">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the quantity of energy required during the product maintenance, by optimizing the design for maintenance.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:specificSuggestion xml:lang="en">Exploit new positions and orientations for the components to be more frequently replaced (e.g. Turn upside down).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Improve and simplify the monitoring operations in order to reduce the physical operations be carried out.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Increase the structural (local) quality of the removable joints, in order to allow more precise and stable couplings.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Introduce new direction for their extraction and re-entry, by reducing the displacements.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Make the components more easily to segment and recombine (e.g. snap joints, Poka-Yoke connections).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Plan the sequence of operations through dedicated software.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Quantity Energy (Optimize, The other way around, Other dimensions)</rdfs:label>
+    <skos:example xml:lang="en">Easily removable cover for replacing the battery, placed inside the larger one in some Swiss watches.</skos:example>
+    <skos:example xml:lang="en">Facilitating the substitution of the bulb lamp in modern projects trough front accessing by the lens.</skos:example>
+    <skos:example xml:lang="en">Making manufacturing greener by introducing tools for training practitioners (Ajukumar and Gandhi, 2013).</skos:example>
+    <skos:example xml:lang="en">Standardizing all the screws within engines for the U.S. Army military vehicles, in order to allow maintenance with a unique special wrench.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityOfEnergyByIdeality">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During the end of life, reduce the energy required for disassembling the product, by making its components more easily separable or self-separable (i.e. active disassembly) when subjected to the action of fields, physical effects or substances, in order to reduce or eliminate the need of dedicated operations and machineries and their energy consumption. This is possible thanks to the behavior of the internal structure, materials and shape of these components to external stimuli.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfPhysicalEffects"/>
+    <od:specificSuggestion xml:lang="en">Bring together parts with different physical properties (e.g. weight, thermal conductivity, hydro solubility, magnetic conductivity).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Exploit the polymerization caused by electromagnetic wave (e.g. UV light) for disassembly the internal structure of microscopic polymeric objects or textiles.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Exploit the resonance frequency of objects subjected to vibrations to amplify their displacement or break the junctions.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Takes advantage of the change of shape of memory materials when heated.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Ideality, Switch to Supersystem)</rdfs:label>
+    <skos:example xml:lang="en">A Japanese tech manufacturer developed a set of junctures for mobile phones, which able to self-separate under the effect of a controlled resonance frequency.</skos:example>
+    <skos:example xml:lang="en">Introducing electromagnetic separation for those components made by different materials.</skos:example>
+    <skos:example xml:lang="en">Introducing snap-fits, made by shape memory polymers releasing through a thermal trigger, for active disassembly of assembled parts (Carrell et al., 2011).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityOfEnergyByLocalQuality">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the quantity of the product energy consumption by optimizing its performances during time in relation to the working conditions, i.e. user demand and environmental situations (e.g. climatic and morphological).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:specificSuggestion xml:lang="en">Move the entire product or the single components from continuous to discontinuous (start and stop).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Regulate the product rhythms by increasing them when the maximum performances and reducing them during the other periods, by eventually synchronizing the product with other devices through the increasing in the number of controls.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Local quality, Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">Disconnecting and reconnecting some cylinders in automotive engines or elaborating variable parts of the inlet mass flow with by pass-valve and the working conditions, i.e. user demand and environmental situations (e.g. climatic and morphological) afterburners in turbofans for limiting the fuel consumption.</skos:example>
+    <skos:example xml:lang="en">Improving traction control with torque sensor in automotive for reducing fuel consumption.</skos:example>
+    <skos:example xml:lang="en">Monitoring humidity, tension and moisture within air, soil and leaves for saving water in modern irrigation systems.</skos:example>
+    <skos:example xml:lang="en">The introduction of intelligent systems for traction control resulted proved to be the best strategy for reducing fuel consumption of Chinese high-speed rails (Tan et al. 2016).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityOfEnergyByTakingout">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the quantity of the energy required for moving the product, by reducing the mass of the product by temporarily or definitively eliminating those components that have already carried out their functions and recover them later.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Taking out)</rdfs:label>
+    <skos:example xml:lang="en">In space rockets and military aircrafts, the heavy empty fuel tanks are jettisoned after the use and then recovered.</skos:example>
+    <skos:example xml:lang="en">Railway trains with the number of variable carriages or urban autobus with magnetically connected micromodules a well-known Italian design agency.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityOfEnergyProductUse">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the quantity of required (non-renewable) energy, by exploiting sources of natural or discarded energy from inside the product (e.g. steam, hot water, kinetic energy during breaking, vibrations) or the external environment (e.g. solar power, gravity) through the introduction of recovery and conversion systems (e.g. KERS, dynamo, heat condensers).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Recycle, Switch to supersystem)</rdfs:label>
+    <skos:example xml:lang="en">An American producer of Electric Mountain Bikes developed a simple and lightweight dynamo, embedded within the central movement, which allows to recharge the batteries when pedaling downhill.</skos:example>
+    <skos:example xml:lang="en">Buenaventura and Azzopardi (2015) analyzed several techniques of energy recovery systems for retrofitting internal combustion engine in order to improve sustainability.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityofEnergyByDesign">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce the required energy, by optimizing the design for assembly of the product (i.e. kind of involved parts and shapes).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:specificSuggestion xml:lang="en">Introduce quick joints and standard parts for reducing the number of assembly tools substitutions.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Redesign the geometry my making it more accessible for automatic interventions: eliminate undercuts and reduce displacements of robot’s arms and auxiliary materials.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Use asymmetrical parts for facilitating the correct orientation and position of the piece during assembly in order to reduce its displacements.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Design for assembly, Asymmetry)</rdfs:label>
+    <skos:example xml:lang="en">A Chinese manufacturer introduced a standard architecture for electronic products by reducing the number of components and designing the part orientation.</skos:example>
+    <skos:example xml:lang="en">Go et al. (2015) presented a novel methodology for supporting product re-design through the reduction of the number of its parts and evaluating the environmental impact.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityofEnergyByDynamics">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce the required energy, by optimizing the temporal dynamic of the manufacturing process (machineries and internal logistic) in relation to the production rate.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:specificSuggestion xml:lang="en">Move them from continuous to discontinuous operation (start and stop).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Optimize their processed and carried load.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Optimize their speed rate (i.e. reduce when possible) by planning through a dedicated software.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">Developing algorithms for investigating the optimal cutting conditions in relation to energy consumption and waste management (Hegab et al., 2018), or the lubricant consumption (e.g. Brinksmeier et al., 1999).</skos:example>
+    <skos:example xml:lang="en">Investigating the most suitable production route in additive manufacturing for minimizing energy consumption (Priarone et al., 2018).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityofEnergyByRecycling">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During the end of life, reduce the energy required for disassembling the product, by optimizing its design in order to improve the manual and automatic operations and to reduce the required time and energy.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:specificSuggestion xml:lang="en">Eliminate/reduce irreversible junctions (e.g. welding).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Facilitate the physical accessibility to the parts for human (i.e. ergonomics) or machines.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Introduce quick release couplings that do not require tools.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Introduce standard junctions in order to reduce the number and the complexity of dedicated tools.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Program the sequence of the operations to by carried out through a more efficient sequence.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the displacements both of the operators and the machines.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Recycle)</rdfs:label>
+    <skos:example xml:lang="en">A digital cameras producer introduced a model where the external case can be easily and automatically disassembled through a dedicated machine acting on some access points.</skos:example>
+    <skos:example xml:lang="en">Alshibli et al. (2016) improved the disassembly sequencing by introducing a modified Genetic Algorithm for searching the more sustainable combination.</skos:example>
+    <skos:example xml:lang="en">Wang (2017) introduced industrial robots in automatic disassembly line of waste LCD for reducing the environmental impact of the phase.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceQuantityofEnergyManufacturing">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceQuantity"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, reduce the required energy, by exploiting the resources from outside or inside the productive plant. Install plants for producing heat or electricity from natural sources (e.g. solar panels, river mill/turbine) or discarded hot water, steam or smokes (e.g. tube bundle exchangers, ranking cycles).</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Energy"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Quantity of Energy (Recycle, Switch to supersystem)</rdfs:label>
+    <skos:example xml:lang="en">Excavators including hydraulic accumulators for energy regenerators can reduce the total consumption up to 45% (Lin et al., 2010).</skos:example>
+    <skos:example xml:lang="en">Organic Rankine Cycles recover heat from low temperature sources for producing electricity.</skos:example>
+    <skos:example xml:lang="en">Trigeneration systems combining cogeneration plants with absorption refrigeration for the production of cooling.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticByAggregation">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the external logistic, by changing the state of aggregation of the raw material during the transportation and if is not necessary do not bring it back to the original state after, so saving the energy required for the second&lt;br/&gt;transformation.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
+    <od:specificSuggestion xml:lang="en">Reduce the size of the transportation mean (e.g. eliminating the trailer, reduction of the front section) by saving consumption.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Take advantage of the saved space for transferring additional load during travels, by reducing their overall number.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Volume External Logistic (Change the state of aggregation)</rdfs:label>
+    <skos:example xml:lang="en">Liquefying LNG (Liquefied Natural Gas) and maintaining it as is, as cryogenic fuel (Kumar et al., 2011).</skos:example>
+    <skos:example xml:lang="en">Storing liquid oxygen in pressurized cylinders during transport and regasifying it in a second time.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticByOptimization">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the external logistic, optimizing their physical disposition inside the transportation mean using all dimensions and empty spaces.</od:genericSuggestion>
+    <od:specificSuggestion xml:lang="en">Exploit all empty spaces (i.e. Matryoshka) or less conventional directions (moving out from horizontal/vertical plane towards diagonal directions) or using 3D placement.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Move in two or three-dimensional space (e.g. Tetris game).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Tilt or re-orient the object, lay it on its side (upside down).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Use a multi-story arrangement of objects instead of a single-story arrangement.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Use “another side” of a given area.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Volume External Logistic (The other way around)</rdfs:label>
+    <skos:example xml:lang="en">Disposing the cars according to different inclinations within car carrier trucks.</skos:example>
+    <skos:example xml:lang="en">Low-diameter sheet coils be placed inside large diameter coils during transport.</skos:example>
+    <skos:example xml:lang="en">Self-folding chairs made by ridged rotable parts for saving space during&lt;br/&gt;transport.</skos:example>
+    <skos:example xml:lang="en">Truck loading optimization for paper rolls, pallets, skids and boxes via trailers, containers and railcars, made by commercial software.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticBySegmentation">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the external logistic, optimizing the disposition inside the transportation mean, by physically dividing the raw materials in pieces and then recombining them in a more suitable way during the transportation.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Volume External Logistic (Segmentation)</rdfs:label>
+    <skos:example xml:lang="en">Compressing data by packing them during transmission and unpacking them after the reception for saving the total amount of shared data and so the mass of the transmission cables.</skos:example>
+    <skos:example xml:lang="en">Removing tree trunks from the branches and cut them into various pieces during transport.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticEndOfLife">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">For improving the end of life, reduce the volume of the external logistic by reducing the volume of the wastes before the transportation phase to the disposal or collection site.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Compress the waste within the domestic/industrial collection bin.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Compress the waste within the product once has been generated.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Production of the waste: redesign the products so it can generate a waste with a less volume.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Reduce the volume of the wastes within the transportation mean, e.g. the typical compactor truck.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Reduce Volume External Logistic (Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">A patented vacuum-cleaner (ITMI20131928) contains a dustcompactor inside that can be manually actuated.</skos:example>
+    <skos:example xml:lang="en">Commercial garbage bins including waste compactors.</skos:example>
+    <skos:example xml:lang="en">Plastic bottles including flexible ribs for optimizing the deformation.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticSupplyPhase">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the external logistic, by modifying the shape of the raw material or its packaging, also by deforming them through flexion or torsion, so that it can reduce its volume and/or better adapt to the available volume inside the transportation mean in order to save space.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Volume External Logistic (Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">&lt;brIndustrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers.</skos:example>
+    <skos:example xml:lang="en">Foldable parking tents and removable caravans.</skos:example>
+    <skos:example xml:lang="en">Nested container realized with conical or flared shapes.</skos:example>
+    <skos:example xml:lang="en">Suppliers for plastic for fusion have instead modified the shape of the plastic itself, by adopting granules instead of reels.</skos:example>
+    <skos:example xml:lang="en">Using rectangular cans instead of cylindrical ones.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumePackagingByDynamics">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the packaging, by adapting its shape according to the contained product, i.e. by changing its physical properties from hard to soft, from rigid to elastic, from fixed to flexible, from slow to rapidly changing, from single element to multiparts.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfStructuralResources"/>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Reduce Volume Packaging (Dynamics)</rdfs:label>
+    <skos:example xml:lang="en">A commercial firm active in packaging developed flexible tube of paper, which can be rolled up on itself by flattening and melted by increasing its contained volume up to become of square section.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumePackagingByIdeality">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
+    <od:genericSuggestion xml:lang="en">During delivery phase, reduce the volume of the primary packaging by taking out un-useful substances from the product (e.g. humidity) of from the empty spaces within the same packaging (e.g. air) in a reversible or irreversible manner. Limit the operations to be carried out before (e.g. suction) and after as much as possible in order to not compromise the environmental advantages:</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
+    <od:specificSuggestion xml:lang="en">Consider to modify the product sold and its related business if the modifications are substantial and irreversible.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Exploit natural resources or the waste energy sources for the before and after transformations.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Exploit the already necessary operations for the same purpose of the previous advice (e.g. diluting with water the powdered tempera in the bin before whitening).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Make the product able to naturally reabsorb the un-useful substances once delivered or just before use (e.g. by ensuring a microstructure consisting of open porosity to accommodate the air).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Reduce Volume Packaging (Taking out, Ideality, Switch to supersystem)</rdfs:label>
+    <skos:example xml:lang="en">A German company produces compressed pop-up sponges which are transported in small sachets occupying less than 20% times the standard volume, which is immediately recovered once in contact with air. The same is done for mattresses and pillows.</skos:example>
+    <skos:example xml:lang="en">Grated cheese occupies a smaller volume than a slice also thanks to the elimination of the crust.</skos:example>
+    <skos:example xml:lang="en">Rice vacuum eliminates the volume that is normally occupied by the air within the rice bag.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherAuxiliaryMaterials">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing phase, select other auxiliary materials, by selecting those requiring more eco-sustainable during their entire lifecycle.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MaterialSubstitution"/>
+    <od:specificSuggestion xml:lang="en">Privilege machineries allowing minor adjustments during their substitutions.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries having a greater stability during time and therefore that at the end of life they include a smaller quantity of impacting contaminants (typically for lubricating and cooling fluids).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are more sustainable to be produced, delivery and disposed.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Select Other Auxiliary Materials (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">Biofuel-powered vehicles are more sustainable than diesel ones in terms of vehicular efficiency (+82%) and reduction of emission (-21.5%) (Korres et al., 2010).</skos:example>
+    <skos:example xml:lang="en">In order to eliminate the support of 3D printed objects through milling, some 3D printers can integrate hydro soluble materials for the supports between the final piece and the supporting plate, which can be removed through a water jet.</skos:example>
+    <skos:example xml:lang="en">Reducing the impact deriving from the disposal of lubricants, by substituting the synthetic-based ones with those water-based.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherExternalLogisticEndOfLife">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During end of life, select other transportation means for the waste, favoring those that require less energy consumption and producing less pollution for each kilometer covered with the same load carried.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/TransportationMeanSubstitution"/>
+    <od:specificSuggestion xml:lang="en">In referring to home deliveries, consider the possibility to change the transportation mean during the so-called ”last mile” that is estimated as the most difficult part of logistics in order to satisfy customer needs and one of the least controllable part of the travel as regards environmental impacts.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Select Other External Logistic (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">Buchal et al. (2019) identified methane-powered vehicles as the most promising alternative for reducing CO2 emissions in Germany within the next years.</skos:example>
+    <skos:example xml:lang="en">City of Goteborg gradually substituted all the public vehicles, i.e. buses, vans for waste collection and taxi, with vehicles powered by ethanol, hybrid and full- electric and more efficient traditional engines.</skos:example>
+    <skos:example xml:lang="en">Italian producer of mineral water substituted its trucks for deliveries with models powered by LPG, which have a greater autonomy and an environmental impact reduced more than 30%.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherExternalLogisticSupplyPhase">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, select other transport means, favoring those requiring a lower energy consumption and producing less pollution for each kilometer covered with the same carried load.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/TransportationMeanSubstitution"/>
+    <od:specificSuggestion xml:lang="en">Consider the possibility to using different transport mean in series or in parallel.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Considers the characteristics of the fuel supply network in different geographical area in terms of sustainability (e.g. using renewable sources for producing electricity for electric cars) (Marcilio et al., 2018).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ExternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Select Other External Logistic (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">A Chinese company active in agrobusiness moves a consistent part of its raw materials from the suppliers by exploiting a river, and its current, and a series of artificial channels, which are also used for irrigating the fields nearby.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherInternalLogistic">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, select other transportation means for internal logistic, by privileging those more sustainable during the lifecycle and, in particular, those requiring less energy consumption and better energy sources to move the given load across a certain distance.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/TransportationMeanSubstitution"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/InternalLogistic"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Select Other Internal Logistic (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">In order to increase the efficiency of internal logistic and reducing the impacts, in 2016, a swiss brewery substituted all its 217 Diesel forklifts with electric models which are 30 percent more efficiency and they allowed to save a total amount of 100000 liters of fuel, or about 260 tons of saved emission of CO2.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherMachineriesSubstitute">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During manufacturing, select other machineries, by selecting those requiring more eco-sustainable during their entire lifecycle.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are able to be fed with less impacting energy sources.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are compatible with a more flexible mode of use in relation to production needs (start and stop, variable speed rate).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are minimizing the material waste for the same work piece.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are more energy efficient, i.e. requiring less energy consumption.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are more sustainable in construction, delivery and disposal.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which are producing small amounts of pollutants.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Privilege machineries which guarantee a more careful use of auxiliary materials (i.e. consumables), in terms of required quantity and compatibility with the more eco-sustainable ones.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Machineries"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <rdfs:label xml:lang="en">Select Other Machineries (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">In order to avoid the production of the molds, some manufacturers introduced 3D printers in their facilities in substitution of the traditional molding machineries.</skos:example>
+    <skos:example xml:lang="en">Lin et al. (2010) compared traditional construction machinery such as the excavator and wheel loader, powered by gasoline, and hybrid models, including regeneration systems, by considering consumptions, pollutants and the challenging deriving from their production, finding considerable environmental advantages.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherPackagingEndOfLife">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">For improving the end of life, select other packaging, in order to make it more easily disposed as such by the environment (e.g. by favoring combinations of those biodegradable) or by the same consumer, i.e. by making the packaging edible.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyConsumptionReduction"/>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <rdfs:label xml:lang="en">Select Other Packaging (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">Eco-bags in European supermarket.</skos:example>
+    <skos:example xml:lang="en">Edible water bottle made membrane of edible algae, developed by a London-based startup in 2014.</skos:example>
+    <skos:example xml:lang="en">Food packaging made by with banana leaves and flexible pieces of bamboo in Thai supermarkets.</skos:example>
+    <skos:example xml:lang="en">Recyclable PLA water bottles and food packaging (Muller et al. 2017).</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherPackagingForDelivery">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During delivery phase, select alternative primary packaging, favoring those that have similar physical characteristics but a lower environmental impact to be produced.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MaterialSubstitution"/>
+    <od:specificSuggestion xml:lang="en">If it is possible, deliver the products without the packaging.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Packaging must be always long time durable, light and recyclable.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Pay attention to the choice of the colorants in terms of quantities and compositions of the colorants (Zhang and Yang, 2018).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Stimulates the user towards the choice of a more eco-sustainable packaging, by acting on its design (e.g. Khalil et al., 2016; Johnson, 2016).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <rdfs:label xml:lang="en">Select Other Packaging (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">A German shoes manufacturing developed a new packaging made by fabric, which involve fewer raw materials and saves more than 60% of water and energy.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherPackagingSupplyPhase">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During supply phase, select alternative primary packaging, favoring those that have similar physical characteristics but a lower environmental impact to be produced and dismantled.</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MaterialSubstitution"/>
+    <od:specificSuggestion xml:lang="en">If it is possible, ask for raw materials that not require any primary packaging.</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Packaging must be always long time durable, light and recyclable.</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Select Other Packaging (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">An Italian packaging firm produces an ecologic bubble wrap, entirely made with recycled paper.</skos:example>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/SelectOtherRawMaterials">
+    <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/SelectOther"/>
+    <od:genericSuggestion xml:lang="en">During design phase in premanufacturing, select other raw materials, favoring those having a lower environmental impact during the entire lifecycle: production (extraction/recycling and transformation), manufacturing (workability with available technologies, absence of hazardous materials), use (non-toxicity, integrity, durability in relation to the working conditions and environment) and disposed (biocompatibility)</od:genericSuggestion>
+    <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MaterialSubstitution"/>
+    <od:specificSuggestion xml:lang="en">Use models for supporting the selection of materials based on the multi-criteria prioritization considering sustainability, performances, costs, etc. (e.g. Akadiri et al., 2013).</od:specificSuggestion>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/RawMaterials"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <rdfs:label xml:lang="en">Select Other Raw Materials (Substitute)</rdfs:label>
+    <skos:example xml:lang="en">A well-known footwear brand replaced the synthetic plastic of the soles of its running shoes with natural rubber, without modifying the design and the production technologies and preserving the strength and durability of the product.</skos:example>
+    <skos:example xml:lang="en">Selecting unconventional sustainable building insulation materials by exploiting local materials and industrial byproducts in order to limit the impacts from transportation and disposal (Asdrubali et al., 2015).</skos:example>
+  </od:EDP>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciples/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>2022-06-06: Extracted and transformed from (Russo, Spreafico 2020)</rdfs:comment>
+    <rdfs:label>The Eco Design principles in (Russo, Spreafico 2020)</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

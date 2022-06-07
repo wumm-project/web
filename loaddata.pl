@@ -42,6 +42,11 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessModelPatterns/","BusinessModelPatterns.rdf");  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessStandards/","BusinessStandards.rdf");  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/BusinessTrends/","BusinessTrends-Wagner.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/EcoDesignPrinciples/","EcoDesignPrinciples.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/MannDombExamples/","MannDombExamples.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/SBMPatterns/","SBMPatterns.rdf");
+
+  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK-References/","TBK-References.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowDevelopmentPattern.rdf");

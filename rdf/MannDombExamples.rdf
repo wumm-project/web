@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:tc="http://opendiscovery.org/rdf/Concept/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Asymmetry_1">
+    <od:MannDombExample xml:lang="en">(Proportionately) more ‘P’ or more ‘S’ in the Deming PDSA cycle</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Budget for different departments individually rather than using a constant percentage increase or reduction for all departments</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Skewed normal distributions.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use a different marketing approach for each class of clients. (Combine with Segmentation and Local Quality--make each class smaller to be sure the approach is exactly tailored to it.)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Asymmetry_2">
+    <od:MannDombExample xml:lang="en">360° appraisals</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Honda’s 4M - ‘man maximum, machine minimum’ product design philosophy.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">More equitable 2-way dialogue between management and workers</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Shift away from calendar-influenced sales bias (e.g. shift from annual to bi-annual car registration dates (to reduce August sales peak), greetings card companies, etc.)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The Peter Pyramid’ (9)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ChangeColorAndTransparency_2">
+    <od:MannDombExample xml:lang="en">Importance of creating clear, concise mission statement (34)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Smoke-screen/mis-information to disguise confidential R&amp;D etc activities</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Transparent communications</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Transparent’ organisations</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ChangeColorAndTransparency_3">
+    <od:MannDombExample xml:lang="en">Creation of ‘corporate colours’ - creating a strong brand image through use of bespoke colours - ‘BP green’, ‘British Telecom red’ phone boxes, ‘Ford blue’, etc</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Highlighter pens</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Red/Blue proposal preparation teams</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Six Thinking Hats (33)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use colours to communicate state of alert (green, black, amber, red, etc)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of lighting effects to change mood in a room or office</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_1">
+    <od:MannDombExample xml:lang="en">Electronic voting in elections</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Numerical simulation</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Telephone banking</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Virtual prototyping</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Virtual shopping - e.g. Amazon.com</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_3">
+    <od:MannDombExample xml:lang="en">Change the team structure (e.g. football teams use substitutes)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Stores introduce ‘special offers’ and other promotions</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Six Action Shoes’ (35)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Six Thinking Hats’ (33)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_4">
+    <od:MannDombExample xml:lang="en">Introduce intelligence into on-line catalogues (e.g. first generation catalogues were replicas of previous paper versions, latest generation incorporate search engines, expert systems, etc)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Moves away from fixed clothing size partitions - e.g. ‘Personal Pairs’ - a customer at a participating store chooses which fabric he/she wants, then is measured. Those measurements are transmitted instantly to a Levi's plant in Tennessee where the data controls a laser cutter. The bar-coded pieces are stitched on the regular assembly line, and mailed directly to the customer. (The custom Levi’s, which customers love, run about  more than off-the-rack ones) (22)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Software with options for ‘beginner’ through to ‘expert’ usage</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ChangePhysicalOrChemicalParameters_5">
+    <od:MannDombExample xml:lang="en">Get customers excited (‘hot’) about the product by giving them ownership of the change</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Get employees excited about the future of the company by using full involvement strategic planning, or stock options, or… etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘A fired-up team wins games even if it’s not the best team. A fired-up company can achieve the same result’ (34)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/CompositeMaterials_1">
+    <od:MannDombExample xml:lang="en">A Final Thought</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Although not claiming the search of management texts for this article was in any way comprehensive, it was, nevertheless, very broad-ranging. It is worth noting that in all the texts we examined, we did not discover any ideas or innovations which caused us to believe there might st Inventive (Business) Principle.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Combined high risk/low risk investment strategy</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Do training with a combination of lecture, simulations, on-line learning, video, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Employ different personality types (e.g. Myers-Briggs) on a team</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Hard person/soft person negotiating team.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mix of thinking skills in a project team (e.g. Basadur (4), De Bono’s ‘Six Thinking Hats‘ (33) and ‘Six Action Shoes’ (35))</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Multi-disciplinary project teams.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Positional players in a football team</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Post-capitalist Society’ (40)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Small is beautiful’ - appreciation for diverse, interconnected systems (41)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ContinuityOfUsefulAction_1">
+    <od:MannDombExample xml:lang="en">24 hour car service operation - evening pick-up, return of serviced car by breakfast the following morning (garage perspective)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Continuous on-line monitoring of elevators by Otis - total maintenance responsibility (3, pp. 54-5)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Institute Constant Improvement (Point No.5 of Deming’s Fourteen Points (5))</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Run the bottleneck operations in a factory continuously, to reach the optimum pace.  (From theory of constraints)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The power of a waterfall is nothing but a lot of drips working together’ (12)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ContinuityOfUsefulAction_2">
+    <od:MannDombExample xml:lang="en">Conduct training during pauses in work</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Multi-skilling to enable working in bottleneck functions to improve workflow</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Hot-till’ing in supermarkets - staff do other tasks during quiet periods; move to tills when they see queues developing</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Life-long learning’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The more I practice, the luckier I get’ Gary Player</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Copying_1">
+    <od:MannDombExample xml:lang="en">Lascaux II - reproduction of Lascaux cave paintings which is open to visitors</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Listen to an audiotape instead of attending a seminar.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Rapid prototyping (e.g. stereo-lithography)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Scan rare, historic books, documents, etc so they are accessible to all and the original remains protected</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Virtual reality via computer instead of an expensive vacation</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Copying_2">
+    <od:MannDombExample xml:lang="en">Keep your personal calendar on a web-site so you (and others?) can access it from any computer, and it can’t get lost</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use a central electronic database instead of paper records in cases where multiple users would benefit from simultaneous access to data - e.g. medical records, customer data, engineering drawings, etc</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Video-conferencing instead of physical travel</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Virtual product service manuals.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Copying_3">
+    <od:MannDombExample xml:lang="en">Evaluate customer satisfaction using multiple techniques</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Evaluate employee morale using multiple methods such as interviews and questionnaires (2 different ‘wavelengths’)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Have your customers benchmark you/have your suppliers benchmark you</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Countermass_1">
+    <od:MannDombExample xml:lang="en">'Whenever I feel afraid, I hold my head erect, and whistle a happy tune, and no one will suspect I'm afraid.'--Anna in 'The King and I' by Rogers and Hammerstein</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Companies increase flagging sales by making connections with other rising products (e.g. movie tie-ins)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">In a merger of two companies, one ‘lifts’ the other with whatever its stronger features are (distribution system, marketing, methods, capital, etc)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘This is my depressed stance. When you're depressed, it makes a lot of difference how you stand. The worst thing you can do is straighten up and hold your head high because then you'll start to feel better. If you're going to get any joy out of being depressed, you've got to stand like this.’ Charlie Brown</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Countermass_2">
+    <od:MannDombExample xml:lang="en">A small company is ‘lifted’ by a resource - use of a transportation network, etc - to the level of the larger companies</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Attach product/service marketing to customer and business driving forces (Megatrends aging population, desire for flexibility, simplicity, etc)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Political parties boost poll ratings by attaching themselves to popular causes</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Coupling_1">
+    <od:MannDombExample xml:lang="en">Cell-based Manufacture</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Internet Cafe</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Merge companies with related products</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Personal computers in a network</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">The ‘Joiner Triangle’ - Quality/Scientific Approach/All-One-Team (10)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Toyota JIT</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Young engineers have ideas, old engineers have bad experiences’ Japanese saying</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Coupling_2">
+    <od:MannDombExample xml:lang="en">Enlisting customer help in designing the product (Boeing 777 ‘Working Together Teams)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Multi-media presentations</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Theory of Constraints (11)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Aligned, Creative and Exploring’ Teams (12)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Dynamization_1">
+    <od:MannDombExample xml:lang="en">Changing the supervisor’s role; avoid ‘whack-a-mole’ firefighting (10, p. 20)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Flexible organisation structure (chaocracy)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Gallery Furniture on-line shopping - customer is able to control and move cameras to point to different products in different parts of the store from his/her home computer (http://www.galleryfurniture.com)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Dynamization_2">
+    <od:MannDombExample xml:lang="en">Conglomerate structures</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Geographically or functionally independent business units</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Work teams oriented to achieve same goal, but work at different rates on different objectives</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Dynamization_3">
+    <od:MannDombExample xml:lang="en">Continuous Process Improvement</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Empowerment</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Rapid Reaction Force</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Swatch design proliferation - design for specific market niches</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Cafeteria’ benefits - where employees pick which types of insurance, health system, etc.  they want</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Customer Response Teams’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘In today’s turbulent business environment, there are no hard fast conclusions - only transitions’ (14)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_1">
+    <od:MannDombExample xml:lang="en">Customer trials/segmented launch of (high risk) new products (e.g. film companies film several endings to a movie and trial with different audiences before finalising selection)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use formal risk assessment methods to quantify risk and identify mitigation actions before (and during) a project</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of voluntary redundancy/pay-cuts/short-time working/job-sharing as alternatives to down-sizing</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">When making a public announcement, include all the information, not just the harmful parts (e.g. Johnson &amp; Johnson’s handling of the Tylenol tampering case)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/EarlyCounteraction_2">
+    <od:MannDombExample xml:lang="en">Epson product development engineers spend time as sales and then service staff before they are allowed to work on product development activities (Reference 3, p101)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Prior to a lay-off, prepare compensation, outplacement, and communication packages for all affected employees</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘In me the tiger sniffs the rose.’ Siegfried Sassoon</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/EliminationAndRegenerationOfParts_1">
+    <od:MannDombExample xml:lang="en">Consultants</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Contract hire of specialised equipment/facilities, etc</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Flexible, variable-sized project teams</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Load/capacity balance using contract labour</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/EliminationAndRegenerationOfParts_2">
+    <od:MannDombExample xml:lang="en">Life-long learning (where individuals are given responsibility for managing their own personal continuing education, ensuring skills remain up to date)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Need to periodically re-energise continuous improvement initiatives (‘enthusiasm injections’)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘In a start-up company, you basically throw out all assumptions every three weeks.’ Scott McNealy</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Equipotentiality_1">
+    <od:MannDombExample xml:lang="en">Beware of the Peter Principle - ‘Every employee tends to rise to his/her level of incompetence (15)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Force-Field Analysis - group discussion of the phrase ‘forces push in various directions’ teambuilding/problem-solving technique discussed in (3).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Make ‘horizontal’ career changes to broaden skills</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Team members distribute their own merit award money (rather than often divisive management dictate)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Feedback_1">
+    <od:MannDombExample xml:lang="en">(Supermarket) loyalty cards - provide customer shopping profile information</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Budgets - Measurements are used to decide when to modify a process.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Customer surveys/customer seminars, etc</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Electronic bulletin boards</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Enlist customers in the design process.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Statistical Process Control (SPC) - Measurements are used to decide when to modify a process.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Active Transition Management’ as a way of controlling product development process between research, development and production phases.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Extranets’ (22)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘What you measure is what you get’ Joe Juran</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Feedback_2">
+    <od:MannDombExample xml:lang="en">As a product is being developed, key personnel and leadership physically move from one sector to another to actively manage transitions between product development stages.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Change a management measure from budget variance to customer satisfaction.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Expose designers as well as marketers to customers</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Motorola ‘open dissent’ policy - employees fill in a minority report to senior management when ideas they consider valuable are unsupported by colleagues and immediate superiors (27, pp. 164-6)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Multi-Criteria Decision Analysis (valid ‘apples and oranges’ comparisons).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Toshiba medical systems division split into R&amp;D, Engineering and Manufacture sectors.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of ‘half-life’ as a measure of improvement (e.g. time taken to half product development time) to encourage large-scale thinking</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Co-evolutionary marketing’ - e.g. Amazon.com invites readers to write on-line book reviews; other readers often prefer these views to professional reviewer evaluations, therefore people visit the site more often (26)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Open the kimono’ - everything out in the open communication (14, Chapter 9)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Supravision’ rather than ‘supervision’</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_1">
+    <od:MannDombExample xml:lang="en">Card transactions instead of money - e.g. vending machines in companies use employee ID card and charges are debited direct from salary</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Inflatable ‘passenger’ for lone drivers out late at night</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">The thinnest film is a single molecule thick. Likewise, the thinnest organisation structure is one employee thick. Get faster customer service by having the single employee customer service agent have all the necessary data easily available, so the customer only deals with the single, flexible ‘shell’ of the organisation not the whole bulky volume.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Cardboard police’ - 2D policemen or police cars over freeway bridges used as a means of slowing down traffic</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/FlexibleCoversOrThinFilms_2">
+    <od:MannDombExample xml:lang="en">Office workers in open areas can use flexible curtains to shut themselves off from the visual chaos of the open area when they need to concentrate rather than communicate</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use ‘trade secret’ methods to separate company proprietary knowledge from general knowledge</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Umbrella’ organisations</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘We like to delegate and leave people as free as possible, so we try to push management decisions down the line. We run Rolls-Royce with a very thin corporate structure’, Lord Tombs of Brailes, ex-Chairman of Rolls-Royce (32)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Homogeneity_1">
+    <od:MannDombExample xml:lang="en">Boeing ‘Working Together Teams’ - bring customers and suppliers into design loop.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Co-located project teams</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Common data transfer protocols between different organisations</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Internal customers</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Product branding/product families</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Constancy of Purpose’ (Point No. 1 of Deming’s Fourteen Points (5))</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Singing from the same hymn sheet’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The best way to make a silk purse from a sow’s ear is to begin with a silk sow. The same is true of money’ (Augustine’s Law #1 (Reference 8))</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/InertMedium_1">
+    <od:MannDombExample xml:lang="en">Corporate Retreats</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Hare Brain, Tortoise Mind (39)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Moves away from the (normal) disruptive performance appraisal, merit award, and reward environment to an (emotionally neutral) more fair system of working practice (36, 37).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Operations Room - e.g. for planning organisational change, proposal submissions, contract tendering, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Time-out during negotiation</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Away-day’s/ team-building days</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘TRIZ and People’ (38)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/InertMedium_3">
+    <od:MannDombExample xml:lang="en">Introduction of ‘quiet areas’ into the workplace.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Rest breaks/’pause for reflection’ breaks in meetings.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of neutral third parties during difficult negotiations (e.g. Senator George Mitchell in Northern Ireland, ACAS, etc.)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/InexpensiveShortLifeObject_1">
+    <od:MannDombExample xml:lang="en">Flight simulator reduces pilot training costs.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Numerical simulation - operational analysis (virtual war-gaming, virtual business development, strategic planning modeling).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Plastic cups in motels, disposable diapers, many kinds of medical supplies.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Swatch ‘renewed impulse’ buying ‘ - ‘Change clothes? Change Swatch’.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use disposable paper objects to avoid the cost of cleaning and storing durable objects.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/InverseAction_1">
+    <od:MannDombExample xml:lang="en">Benchmark against the worst instead of the best (16).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Blame the process not the person</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Bring the mountain to Mohammed, instead of bringing Mohammed to the mountain.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Expansion instead of contraction during recession.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘I used to think that anyone doing anything weird was weird. I suddenly realised that anyone doing anything weird wasn’t weird at all, and it was the people saying they were weird that were weird’ Paul McCartney.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/InverseAction_2">
+    <od:MannDombExample xml:lang="en">Cash-till assistant is the most important part of a retail organisation</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Chairman of company spends time in the complaints department answering customer complaints</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Computer help lines were often originally set up with relatively no-technical staff at the front-end, directing calls to progressively more technically able staff the more complicated the problem is. Latest logic suggests reversing this trend - i.e. place the most qualified staff as first point of contact (e.g. IBM)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Corporate ‘unlearning’ - acquiring the ability to forget about the past where appropriate</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mercedes Benz vision changed from ‘the best or nothing’ to ‘the best for our customers’ i.e. shift from internal to externally focused vision statement.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Product- rather than function-based organisation structure</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Russian government pays inventors for patent applications/West makes the inventor pay to apply.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">The Peter Pyramid (9)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Nothing fails like success’ (19)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Ours is the age that is proud of machines that think and suspicious of men who try to’ H Mumford-Jones (16)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Ready, Fire, Aim’ - Tom Peters (18)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘We don’t stop playing because we grow old, we grow old because we stop playing’ (12)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘When you reach the top, that’s when the climb begins’ Michael Caine</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/InverseAction_3">
+    <od:MannDombExample xml:lang="en">Don’t make changes just because they are fashionable management fads</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Home banking</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Home-shopping</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Park-and-ride schemes in busy cities</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘If you obey all the rules, you miss all the fun’ Katherine Hepburn (17)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/LocalQuality_1">
+    <od:MannDombExample xml:lang="en">Customisable software</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Have each employee's workplace customized to his/her ergonomic and psychological needs.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Working hours phased to accommodate people working on international, shifted timezone projects</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Empowerment’ of individuals</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/LocalQuality_2">
+    <od:MannDombExample xml:lang="en">Casual (‘dress-down’) days.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Flexible working hours.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Franchise fast food outlets have local dishes in addition to normal product range.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Introduce ‘Corporate Jester’ (e.g. British Airways) as a method of encouraging ‘out of the box’ thinking.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Moves away from rigid salary structures/job grading.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Red team/Blue team proposal preparation structures</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Quiet’ work areas.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/LocalQuality_3">
+    <od:MannDombExample xml:lang="en">Hire local people to acquire cultural knowledge of local customers</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Organisational division by function rather than product.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Position factory or distribution centre near to customers</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Staff specialists in centres of excellence</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Kids areas’ in restaurants, etc.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_2">
+    <od:MannDombExample xml:lang="en">Bring new blood into team</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Hire consultant</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_3">
+    <od:MannDombExample xml:lang="en">Use the catchball process of hoshin planning to get the whole organisation ‘vibrating’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘A good manager doesn't try to eliminate conflict; he tries to keep it from wasting the energies of his people. If you're the boss and your people fight you openly when they think that you are wrong -- that's healthy’ Robert Townsend</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The things we fear most in organizations -- fluctuations, disturbances, imbalances -- are the primary sources of creativity’ Margaret J Wheatley.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_4">
+    <od:MannDombExample xml:lang="en">Creating extra-ordinary unity of purpose in a work-team (e.g. Don Petersen’s story of the Ford versus Mazda competition to win the transmission job for the FWD Taurus (23))</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use strategic planning (policy deployment, hoshin Kanri) to select the right frequency and get the organisation resonating at that frequency to accomplish a breakthrough strategy</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Kansei’ - Japanese term for resonance/one-ness between product and user (23, pp 139-45)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/MechanicalVibrations_5">
+    <od:MannDombExample xml:lang="en">Communicate frequently, in multiple modes (newsletter, Intranet, staff meetings, etc).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘He inspired in us the belief that we were working in a medium that was powerful enough to influence the world’ Lillian Gish on D.W.Griffiths (12)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘I don’t think that you should ever manage anything that you don’t care passionately about’ D Coleman, VP &amp; CFO Apple (12)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Mediator_1">
+    <od:MannDombExample xml:lang="en">Hire consultant.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Introduction of specialist trouble-shooting or fire-fighting teams</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Subcontract occasional services - accounts, cleaning, transport, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use bridging loan arrangements to help cashflow</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Mediator_2">
+    <od:MannDombExample xml:lang="en">Franchisee acts as intermediary between corporate vision and customer</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">KLM ‘feeder’ airline concept - short flights from Germany, England pull passengers away from national airlines in order that they fly long distances using Holland as a hub</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Sub-contract non-core business (e.g. cleaning services, transport)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Travel agent (NB can also mean removal of intermediary - e.g. direct selling).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">UPS distribution system using core sorting centre.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of impartial body during difficult negotiation (e.g. ACAS)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Cuckoo Investments’ (24)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Po’ (provocative operator) - a place between ‘yes’ and ‘no’, construct devised by Edward DeBono to help avoid premature discarding of ideas (28)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Video Plus’ - programme video using simple codes to represent channels, dates and times</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Nesting_1">
+    <od:MannDombExample xml:lang="en">Four levels of knowledge - 1) Basic Skills, 2) Know How, 3) Process Management, 4) Strategic Vision - contained in effective company (e.g. Sony) training schemes (3, pp. 292-4)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Hierarchy of employee needs - Basic, Environment, Simple Individual, Complex Individual, Transcendent (14, Chapter 3)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mapping priority innovation areas (3, pp. 136-7)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Store-in-store</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Nesting_2">
+    <od:MannDombExample xml:lang="en">Casino hotel architecture (Las Vegas style): The guest must pass through the gaming area to get to the restaurant, the hotel registration, even the lavatories!</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Door sensors count customers into and out of a store/office, etc (use data for market profiling, etc)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Expose traditionally inward facing job-holders to external events/customers (e.g. engineers shadow marketing people during customer visits)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Plug holes in organisation structure</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use ‘Why, What’s Stopping?’ question sequence to break through layers of problems to get to root cause (4)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PartialOrExcessiveEffect_1">
+    <od:MannDombExample xml:lang="en">Communicate more often and with more information than you think necessary</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Going into a new market, do 'saturation' advertising by all media--mail, newspapers, local magazines, local radio, local TV, billboards, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Communication is and should be hellfire and sparks, as well as sweetness and light’ Aman Vivian Rakoff</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘If it ain’t broke, improve it anyway’ - Japanese process management philosophy.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The most important numbers are the ones you’ll never know’ - W.E. Deming (i.e. is it possible to ever know what ‘100%’ means)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PeriodicAction_1">
+    <od:MannDombExample xml:lang="en">24-hour car service operation - evening pick-up, return of serviced car by breakfast the following morning (customer perspective).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Get work done between meetings</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Perform maintenance work during vacations</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PeriodicAction_2">
+    <od:MannDombExample xml:lang="en">Batch manufacture.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Change team leadership periodically (e.g. countries take it in turns to ‘lead’ the EU)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Introduce sabbaticals to refresh people’s points of view</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Tidal traffic flow schemes ease transport into and out of busy areas</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PeriodicAction_3">
+    <od:MannDombExample xml:lang="en">Audit at irregular intervals</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Flexible savings schemes which pay higher interest rates the fewer the number of withdrawals made</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use monthly or weekly feedback instead of annual reviews</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PhaseTransition_1">
+    <od:MannDombExample xml:lang="en">Awareness of the requirements of different stages - conception, birth, development, maturity, retirement - of a project (e.g. shifting manpower requirements, shifting budget requirements).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Forming/storming/norming/performing phases of team development - e.g. take advantage of enthusiasm dip during storming-norming (3)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Tendency to relax after receiving a Quality Award, Innovation Award, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Transition from a ‘bull’ to a ‘bear’ market.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PneumaticOrHydraulicConstructions_1">
+    <od:MannDombExample xml:lang="en">Flexible (fluid) organisation structure versus old fixed hierarchical structures</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Introduction of ‘breathing spaces’ into contracts</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Liquidation of assets</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Water logic’ versus ‘rock logic’ - fluid, flowing, gradually building up logic versus permanent, hard-edged, rock-like alternatives (31)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PorousMaterials_1">
+    <od:MannDombExample xml:lang="en">Government ‘leaks’ - used as a way of gauging public reaction to (usually) controversial issues</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Improve internal communications by creating Intranet accessible by all hierarchical layers; giving workers access to CEO and vice-versa.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Think of the customer-facing layers of a company as a porous membrane which filters information flow both into and out of the organisation</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Trickle-down’ economics</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PorousMaterials_2">
+    <od:MannDombExample xml:lang="en">Empower the customer facing layer (information is the thing that fills the pores - see 30A).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Media relations department turns spin-doctor and/or marketing feedback gatherer</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use mind-maps (30), self-patterning capabilities (21), etc to improve the information/knowledge intake and filtering abilities of the brain</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PreferredAction_1">
+    <od:MannDombExample xml:lang="en">Benetton ‘retarded differentiation’ - clothing is knitted before it is dyed; colour only applied when the season’s popular colours emerge.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Cell-based manufacture</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Dealer-fit car accessories - CD player, alloy wheels, air-con, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Kanban arrangements in a Just-In-Time factory</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Publish an agenda before meetings</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘If I had 8 hours to chop down a tree, I’d spend 6 hours sharpening my axe’ Abraham Lincoln.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PreferredAction_2">
+    <od:MannDombExample xml:lang="en">Dialogue with employees before embarking on BPR/change management activities.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Perform non-critical path tasks early (where circumstances permit)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Project pre-planning</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of ‘story-boarding’ to facilitate creative problem solving (i.e. gathering the data before the 'creativity' session)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/PreliminaryAction_1">
+    <od:MannDombExample xml:lang="en">Back up computer data</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Begin with ‘S’ in the PDSA cycle (10)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Contingency planning</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Encourage short, effective meetings by removing the chairs</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Establish a worst-case, fall-back position prior to negotiation - ‘Best Alternative to a Negotiated Agreement’ (6)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Put clauses in contracts requiring arbitration/mediation to avoid litigation</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Run anti-virus software frequently (and update it frequently)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘80% of a successful production is in the casting’ Lindsay Anderson</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_1">
+    <od:MannDombExample xml:lang="en">Intelligent tidal traffic flow control (e.g. using roadside sensors)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mind-mapping software tools</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">The fee ranges from $0.50 to $3.50 depending on how heavy the traffic is on the free part of the highway. Radio signals deduct the payment from the users' account when the car enters the special traffic lane.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use a radio transponder payment system for traffic control (Highway 91 in California).</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_2">
+    <od:MannDombExample xml:lang="en">Automatic GPS sensors inform central control point where (e.g. delivery trucks or taxis) are</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Electronic tagging</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mrs Fields Cookies has a morning video/internet conference with all franchisees electronic communication replaces memos, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Pagers</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_3">
+    <od:MannDombExample xml:lang="en">MBWA - Management By Walking Around</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mind-maps (30)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Tidal traffic flow schemes /HOV lanes</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Hot-desking’</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ReplacementOfMechanicalSchemes_4">
+    <od:MannDombExample xml:lang="en">CEO of budget motel chain; ‘our goal is that when you turn out the lights and climb into bed, you think you are at the Hilton’ (16)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Electronic voting</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Have retail customers enter data by means of a touch screen, instead of filling out a form that must be keyed in by employees. (Wedding registries, etc. use this)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Supermarkets pump bakery odours around the store to help advertise bread products</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/RushingThrough_1">
+    <od:MannDombExample xml:lang="en">Get through painful processes quickly (e.g. firing someone)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Rapid prototyping</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Don’t be afraid to take a big step if one is indicated. You can’t cross a chasm in two small jumps’ David Lloyd George</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Fail Fast; Learn Fast’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Fast Cycle - Full Participation’ - method of involving the whole organisation simultaneously and rapidly in a major change, such as a re-organisation</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘If you want to succeed, double your failure rate’ JR Watson, IBM founder</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Incrementalism is innovation’s worst enemy’ Nicholas Negreponte, MIT Media Lab (18)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Segmentation_1">
+    <od:MannDombExample xml:lang="en">Autonomous profit centres.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Divide an organisation into different product centres.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Franchise outlets</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Image/Value/Satisfaction segmentation of customer purchase related preferences (Reference 3, pp86-8)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Kano Diagram - Excitement, Performance, and Threshold product attribute parameters.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Marketing segmentation by demographics, sociographics, psychographics, lifestyles, etc (creation of ‘micro-niches’ - Reference 3, p85)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Min Basadur 8 step ‘Simplex’ innovation process (4)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Segmentation of ‘idea management’ process into Fertilization, Seeding, and Incubation phases (Reference 3, p128)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Strength/Weakness/Opportunity/Threat (SWOT) analysis</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use a work breakdown structure for a large project.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Segmentation_2">
+    <od:MannDombExample xml:lang="en">Container shipment</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Flexible Manufacturing Systems</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Flexible pensions</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Modular furniture/offices</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use of temporary workers on short-term projects</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Segmentation_3">
+    <od:MannDombExample xml:lang="en">Distance learning (also ‘Taking Out’)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Quality Circles.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Virtual office/remote working (also ‘Taking Out’)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Creative Segmentation’ - ‘high performance small car’, ‘easy to use SLR’, ‘cordless power tool’ (Reference 3)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Empowerment’ - segmentation of decision making.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/SelfService_1">
+    <od:MannDombExample xml:lang="en">Body Shop re-cycles used containers brought back by customers - helps promote corporate green image</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Loan out temporarily under-utilised workers to other organisations (load-capacity balancing across companies - e.g. footballers - win-win situation; the player stays match fit, the loaner saves wages, the loanee fills skill shortage)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Re-cycle all packaging material</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Re-hire retired workers for jobs where their experience is needed</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Scan mail into data systems and recycle the paper</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Brown-field’ developments</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Industrial eco-systems’ (22, 29) - e.g. plan factories so that waste heat from one operation provides power for another operation, install co-generation equipment so that waste heat can generate electricity - use it for your own operations or sell it to the electric power utility.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/SelfService_2">
+    <od:MannDombExample xml:lang="en">Bar-codes in supermarkets provide instant pricing information, but the system also gathers information to assist future marketing decisions</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Brand image circularity - Harvard Business School produces bright people; these people enhance the School’s reputation; hence lots of people apply; hence they only take on very bright people; bright people in equals bright people out; and so the circle re-enforces itself.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Edward DeBono’s suggestion to Ford UK that they buy National Car Parks and then only let Ford cars into the parking lots - i.e. motorists buying a Ford are also buying a parking place in every city (24)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Quality Circles</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Self-help groups</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Cookies’ on the Internet gather data useful for future marketing activities, while performing a useful service for the ‘surfer’</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Separation_1">
+    <od:MannDombExample xml:lang="en">Activity-Based Costing instead of allocation cost accounting.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Breakdown barriers between departments (Point No.9 of Deming’s Fourteen Points (5)).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Drive Out Fear (Point No.8 of Deming’s Fourteen Points (5))</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Eliminate exhortations (Point No.10 of Deming’s Fourteen Points (5))</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Eliminate targets (Point No.11 of Deming’s Fourteen Points (5)).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Just-In-Time inventory management</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Separate development and production activities - skunkworks, tiger-teams, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">USP advertising</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Lean Manufacture’ (7)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Separate the PEOPLE from the PROBLEM’ (‘Getting To Yes’ (6)).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The optimum committee has no members’ (Augustine’s Law #31 (Reference 8))</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/SphericalShape_1">
+    <od:MannDombExample xml:lang="en">Ergonomic desk/work-station designs.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Take the shortest path to the customer - around the organisation rather than point-topoint through the bureaucracy</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Form the wagons into a circle’ John Wayne</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/SphericalShape_2">
+    <od:MannDombExample xml:lang="en">Circular work cells</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Establish a sphere of influence, then market to that sphere</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Levi Strauss' IS Department's organizational chart resembles a solar system, with the names of 20 managers appearing once on a large circle-and in many cases, also on one of four smaller circles intersecting the large one. The small circles represent action groups focusing on specific tasks, including customer service and business systems (20).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Quality Circles</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Rotate leadership of a team</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/SphericalShape_3">
+    <od:MannDombExample xml:lang="en">Mobile car service - mechanic comes to you rather than you going to garage</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mobile factory</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Mobile library</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Meals on wheels’/home-delivery pizza</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/StrongOxidants_1">
+    <od:MannDombExample xml:lang="en">Guest speakers at a seminar</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Injection of new-blood/new challenge into a team</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Risk and Revenue Sharing Partnerships</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use case-studies in training</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use internal subject matter experts</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Use simulations/games instead of lecture-style training</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/StrongOxidants_2">
+    <od:MannDombExample xml:lang="en">Consider personal chemistry issues when assembling a project team - find people who will spark-off interesting reactions with each other.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Corporate Jester</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Deming’s 4 stages of learning - unconscious incompetence, conscious incompetence, conscious competence, unconscious competence</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Expose air or oxygen to ionizing radiation, D. Use ionized oxygen, E. Replace ozonized (or ionized) oxygen with ozone (atmosphere enriched by ‘unstable’ elements) .</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Focus teams on a single project only (give them an enriched environment full of success factors</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">harmony within discord or you will drift away from the forces that keep a company alive’ Takeo Fujisawa, Honda co-founder.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Devil’s Advocate’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘I like Bartok and Stravinsky. It’s a discordant sound and there are discordant sounds inside a company. As president you must orchestrate the discordant sounds into a kind of harmony. But you never want too much harmony. One must cultivate a taste for finding</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Leadership is a potent combination of strategy and character. But if you must be without one, be without strategy.’ General H. Norman, Schwartzkopff (17)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ThermalExpansion_1">
+    <od:MannDombExample xml:lang="en">If employees are excited (‘hot’) each can do more in the space that expands to exist between them.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘A fired-up, empowered, appreciated individual will do the work of three who aren’t’ Anon.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘It seems safe to say that significant discovery, really creative thinking, does not occur with regard to problems about which the thinker is lukewarm’. Mary Henle</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/ThermalExpansion_2">
+    <od:MannDombExample xml:lang="en">Expand or contract marketing efforts depending on the product’s ‘hotness’ - rate of sales and profitability</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Personality matching on work-teams</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_1">
+    <od:MannDombExample xml:lang="en">Benevolent dictatorship (25)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Reduce resourcing levels to such an extent that new ways of doing the job have to be discovered</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Restrict supply of goods to create scarcity value (e.g. some sports car manufacturers seek to maintain a multiple year waiting list on vehicles)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">The famous software solution ‘that’s not a bug, it’s a feature’</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_2">
+    <od:MannDombExample xml:lang="en">Eliminate fear of change by introducing fear of competition</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Keep traffic out of cities by introducing cheap ‘park and ride’ and expensive downtown parking charges.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Loss-leader strategy for increasing sales</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Make potentially polluting industries place flow intakes downstream of flow outlets on a river</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Put a ‘problem’ person on an assignment in another area where he/she can do well and not be a problem to the original group</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransformationOfHarmfulIntoUseful_3">
+    <od:MannDombExample xml:lang="en">Collect information to understand the harm, then formulate a positive action to remove it</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Making a fuss over customers who have experienced a problem with your goods/services/etc, tends to re-enforce their overall positive feel about you - to a level greater than that where no problem had occurred</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Recast an attack on you as an attack on the problem (6).</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Provocations’ method of encouraging new ideas (24)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The Extra Mile will have no traffic jams.’ Unknown.</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_1">
+    <od:MannDombExample xml:lang="en">Employees 'disappear' from the customers in a theme park, descend into a tunnel, and walk to their next assignment, where they return to the surface and magically reappear.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Multi-stack storage systems use the height of a building, and save floorspace</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Organisational hierarchy</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Pile ‘em high, sell ‘em cheap’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘Standing on the shoulders of giants…’</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘When two people meet, there are really six people present. There is each man as he sees himself, each man as he wants to be seen, and each man as he really is.’ Michael De Saintamo</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_2">
+    <od:MannDombExample xml:lang="en">Horizontal (peer) communication</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Horizontally integrated manufacture</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Shift from portrait to landscape report format</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Shift from ‘line’ to ‘project’ management dominance in matrix organisation (and vice-versa - depending on prevailing market conditions)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Switch from vertical to horizontal (lateral) thinking - and vice-versa (21)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_3">
+    <od:MannDombExample xml:lang="en">New ways of looking at the selling process - instead of selling carpets to its commercial and industrial customers, Interface now offers what it calls the 'Evergreen Lease.' Its customers no longer buy carpets or pay an installation fee - they just pay a monthly service fee that guarantees they will always have clean, attractive carpets (22)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">View your organisation from the outside - either directly or using consultants, ‘mystery shoppers’, etc.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘The seeing of objects involves many sources of information beyond those meeting the eye when we look at an object. It generally involves knowledge of the object derived from previous experience, and this experience is not limited to vision but may include the other senses: touch, taste, smell, hearing, and perhaps also temperature or pain.’ R.L.Gregory</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘You can’t teach an old dogma new tricks’ Dorothy Parker</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/TransitionToAnotherDimension_4">
+    <od:MannDombExample xml:lang="en">360º appraisals.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Distributed responsibility and authority - e.g. Quality department advises on technical details and conducts audits, but everyone is responsible for quality. Ditto Safety Office.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Multi-dimensional organisation hierarchy charts - 3D (e.g. to show ‘hard’ and ‘soft’ relationships), or 4D - to include an element of time or movement (‘Buckyball Management’ - Reference 20)</od:MannDombExample>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://opendiscovery.org/rdf/Concept/Universality_1">
+    <od:MannDombExample xml:lang="en">Multi-skilling of work-force</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Rapid Reaction Forces in the military - cross-trained, equipment versatility, etc)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Semco - managerial staff set their own salaries, shopfloor workers set their own productivity targets, part of change agent’s job is to eliminate need for his/her job (13)</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">Team leader acts as recorder and timekeeper.</od:MannDombExample>
+    <od:MannDombExample xml:lang="en">‘One-stop shopping’ - supermarkets sell insurance, banking services, fuel, newspapers, etc.</od:MannDombExample>
+  </rdf:Description>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/MannDombExamples/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+    <rdfs:comment>2022-05-21 graebe: Examples from Business Area for the 40 Principles given in (Mann, Domb 1999)</rdfs:comment>
+    <rdfs:label>Examples from Business Area for the 40 Principles</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

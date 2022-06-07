@@ -10,7 +10,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/BTO-2021-F/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2021-F/General">
-    <od:theVideos rdf:resource="https://youtube.com/playlist?list=PLFgocOPCN0yeQRXSl3E4jSYwMBBnM87g"/>
+    <od:theVideos rdf:resource="https://youtube.com/playlist?list=PLFgocOPCN0yeQRXSl3E4jSYwMBBnM87gC"/>
     <rdfs:comment>Presentations of the Business TRIZ Online Fall 2021</rdfs:comment>
     <rdfs:label>Business TRIZ Online Fall 2021</rdfs:label>
     <ical:description xml:lang="en">One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.

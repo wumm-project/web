@@ -13,8 +13,8 @@
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/General">
     <od:theProceedings rdf:resource="https://matriz.org/wp-content/uploads/2021/12/TRIZfest-2021-Proceedings.pdf"/>
+    <od:theVideos rdf:resource="https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
-    <od:urlVideo rdf:resource="https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt"/>
     <bibo:isbn>978-0-578-34278-8</bibo:isbn>
     <bibo:issn>2374-2275</bibo:issn>
     <rdfs:label>TRIZ Fest 2021</rdfs:label>
