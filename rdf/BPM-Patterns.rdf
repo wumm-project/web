@@ -1,0 +1,3726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/BPM-Patterns/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Business Process Management Patterns from bpmpatterns.org.</rdfs:comment>
+    <rdfs:comment>Extracted and transformed by HGG, 2022-06-11</rdfs:comment>
+    <rdfs:label>Business Process Management Patterns</rdfs:label>
+  </owl:Ontology>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_101">
+    <od:extendOfDocumentation>Extent of Documentation</od:extendOfDocumentation>
+    <od:hasArticleType>Type of Article</od:hasArticleType>
+    <od:hasCitationCount>Citation Count</od:hasCitationCount>
+    <od:hasGuidelines>Instructions, Guidelines</od:hasGuidelines>
+    <od:hasKeyword>Keywords</od:hasKeyword>
+    <od:hasLanguageDependency>Language Dependency</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Method of Creation</od:hasMethodOfCreation>
+    <od:hasNotation>Notation</od:hasNotation>
+    <od:hasOrigin>Origin</od:hasOrigin>
+    <od:hasPresentation>Presentation</od:hasPresentation>
+    <od:hasScope>Scope</od:hasScope>
+    <od:hasTemplate>Template</od:hasTemplate>
+    <od:hasToolSupport>Tool Support</od:hasToolSupport>
+    <od:hasView>View</od:hasView>
+    <od:intendedUser>Intended User</od:intendedUser>
+    <od:toCategory>Category</od:toCategory>
+    <od:toPattern>Patterns</od:toPattern>
+    <dcterms:issued>Year</dcterms:issued>
+    <dcterms:title xml:lang="en">Title</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_102">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>21</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>BPMN-Q</od:hasKeyword>
+    <od:hasKeyword>compliance analysis</od:hasKeyword>
+    <od:hasKeyword>compliance auditing</od:hasKeyword>
+    <od:hasKeyword>compliance checking</od:hasKeyword>
+    <od:hasKeyword>compliance management</od:hasKeyword>
+    <od:hasKeyword>compliance monitoring</od:hasKeyword>
+    <od:hasKeyword>compliance rule</od:hasKeyword>
+    <od:hasKeyword>query language</od:hasKeyword>
+    <od:hasKeyword>violation</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, BPMN-Q</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">A compliance management framework for business process models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_103">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>9</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>BPEL</od:hasKeyword>
+    <od:hasKeyword>formal semantic</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasLanguageDependency>yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML AD, BPEL</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.3</od:toCategory>
+    <od:toPattern>Flow</od:toPattern>
+    <od:toPattern>If</od:toPattern>
+    <od:toPattern>Repeat Until</od:toPattern>
+    <od:toPattern>RepeatUntil</od:toPattern>
+    <od:toPattern>Sequence</od:toPattern>
+    <od:toPattern>While</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">A Model-Driven Approach for Generating Business Processes and Process Interaction Semantics</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_104">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>20</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>DMSL</od:hasKeyword>
+    <od:hasKeyword>SOA</od:hasKeyword>
+    <od:hasKeyword>UML profile</od:hasKeyword>
+    <od:hasKeyword>WSDL</od:hasKeyword>
+    <od:hasKeyword>domain-specific modeling language</od:hasKeyword>
+    <od:hasKeyword>loop</od:hasKeyword>
+    <od:hasKeyword>model transformation</od:hasKeyword>
+    <od:hasKeyword>service</od:hasKeyword>
+    <od:hasKeyword>service-oriented architecture</od:hasKeyword>
+    <od:hasKeyword>web service</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst &amp; IT Specialist</od:intendedUser>
+    <od:toCategory>8.3</od:toCategory>
+    <od:toPattern>assign</od:toPattern>
+    <od:toPattern>bundle</od:toPattern>
+    <od:toPattern>invoke</od:toPattern>
+    <od:toPattern>loop</od:toPattern>
+    <od:toPattern>service</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">A Pattern-based Approach to Business Process Modeling and Implementation in Web Services</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_105">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>19</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>TQM</od:hasKeyword>
+    <od:hasKeyword>design review</od:hasKeyword>
+    <od:hasKeyword>determination of product requirements</od:hasKeyword>
+    <od:hasKeyword>order acceptance</od:hasKeyword>
+    <od:hasKeyword>quality constraint</od:hasKeyword>
+    <od:hasKeyword>quality control</od:hasKeyword>
+    <od:hasKeyword>quality management</od:hasKeyword>
+    <od:hasKeyword>query language</od:hasKeyword>
+    <od:hasKeyword>requirements</od:hasKeyword>
+    <od:hasKeyword>review. VPSL</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Survey</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, UML 2.0 Ads</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.2</od:toCategory>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">A Pattern-driven Development Process for Quality Standard-conforming Business Process Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_106">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>13</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SPEM</od:hasKeyword>
+    <od:hasKeyword>software process</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Domain-Specific</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.1</od:toCategory>
+    <od:toPattern>Fagan Inspection</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">A UML-Based Process Meta-model Integrating a Rigorous Process Patterns Definition</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_107">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>4</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>UML</od:hasKeyword>
+    <od:hasKeyword>UML activity diagram</od:hasKeyword>
+    <od:hasKeyword>activity diagram</od:hasKeyword>
+    <od:hasKeyword>formal semantic</od:hasKeyword>
+    <od:hasKeyword>model checking</od:hasKeyword>
+    <od:hasKeyword>semantic</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasKeyword>verification</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>1.1</od:toCategory>
+    <od:toPattern>action</od:toPattern>
+    <od:toPattern>activity final</od:toPattern>
+    <od:toPattern>decision</od:toPattern>
+    <od:toPattern>flow final</od:toPattern>
+    <od:toPattern>fork</od:toPattern>
+    <od:toPattern>initial</od:toPattern>
+    <od:toPattern>join</od:toPattern>
+    <od:toPattern>loop</od:toPattern>
+    <od:toPattern>merge</od:toPattern>
+    <od:toPattern>sequence</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Activity Diagrams Patterns for Modeling Business Processes</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_108">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>63</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>business function</od:hasKeyword>
+    <od:hasKeyword>content</od:hasKeyword>
+    <od:hasKeyword>semantics</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML AD</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.2</od:toCategory>
+    <od:toPattern>Approval</od:toPattern>
+    <od:toPattern>Decision</od:toPattern>
+    <od:toPattern>Information Request</od:toPattern>
+    <od:toPattern>Iterative Approval</od:toPattern>
+    <od:toPattern>Multi-Decision</od:toPattern>
+    <od:toPattern>Multi-Information Request</od:toPattern>
+    <od:toPattern>Multi-Notification</od:toPattern>
+    <od:toPattern>Multi-Request-Response</od:toPattern>
+    <od:toPattern>Multi-question-answer</od:toPattern>
+    <od:toPattern>Multiple Approval</od:toPattern>
+    <od:toPattern>Notification</od:toPattern>
+    <od:toPattern>Question-Answer</od:toPattern>
+    <od:toPattern>Single Approval</od:toPattern>
+    <od:toPattern>Single-Decision</od:toPattern>
+    <od:toPattern>Single-Information Request</od:toPattern>
+    <od:toPattern>Single-Notification</od:toPattern>
+    <od:toPattern>Single-Question-answer</od:toPattern>
+    <od:toPattern>Single-Request-Response</od:toPattern>
+    <od:toPattern>bi-directional performative</od:toPattern>
+    <od:toPattern>multi-request</od:toPattern>
+    <od:toPattern>single-reuest</od:toPattern>
+    <od:toPattern>unidirectional performative</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Activity patterns in process-aware information systems: basic concepts and empirical evidence</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_109">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>49</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>commenting</od:hasKeyword>
+    <od:hasKeyword>feedback</od:hasKeyword>
+    <od:hasKeyword>knowledge sharing</od:hasKeyword>
+    <od:hasKeyword>participation</od:hasKeyword>
+    <od:hasKeyword>ranking</od:hasKeyword>
+    <od:hasKeyword>skill</od:hasKeyword>
+    <od:hasKeyword>socialization</od:hasKeyword>
+    <od:hasKeyword>transpareny</od:hasKeyword>
+    <od:hasKeyword>voting</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Organization</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.3</od:toCategory>
+    <od:toPattern>advancement notification</od:toPattern>
+    <od:toPattern>dynamic enrollment</od:toPattern>
+    <od:toPattern>feedback</od:toPattern>
+    <od:toPattern>invitation</od:toPattern>
+    <od:toPattern>people search</od:toPattern>
+    <od:toPattern>poll</od:toPattern>
+    <od:toPattern>skills search</od:toPattern>
+    <od:toPattern>social publication</od:toPattern>
+    <od:toPattern>social sourcing</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">BPMN and Design Patterns for Engineering Social BPM Solutions</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_110">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>IT architecture</od:hasKeyword>
+    <od:hasKeyword>change element</od:hasKeyword>
+    <od:hasKeyword>change option</od:hasKeyword>
+    <od:hasKeyword>information system</od:hasKeyword>
+    <od:hasKeyword>organization architecture</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>cheaper</od:toPattern>
+    <od:toPattern>extended</od:toPattern>
+    <od:toPattern>handed over</od:toPattern>
+    <od:toPattern>improved</od:toPattern>
+    <od:toPattern>more expensive</od:toPattern>
+    <od:toPattern>moved</od:toPattern>
+    <od:toPattern>new</od:toPattern>
+    <od:toPattern>received</od:toPattern>
+    <od:toPattern>suspended</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Business Process Aware IS Change Management in SMEs</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_111">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>50</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>B2B</od:hasKeyword>
+    <od:hasKeyword>choreography</od:hasKeyword>
+    <od:hasKeyword>collaboration</od:hasKeyword>
+    <od:hasKeyword>contract</od:hasKeyword>
+    <od:hasKeyword>cooperation</od:hasKeyword>
+    <od:hasKeyword>interoperability</od:hasKeyword>
+    <od:hasKeyword>synchronisation</od:hasKeyword>
+    <od:hasKeyword>synchronization</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function &amp; Organization</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.3</od:toCategory>
+    <od:toPattern>Chained Additive</od:toPattern>
+    <od:toPattern>Chained Substitutive</od:toPattern>
+    <od:toPattern>Nested Deferred</od:toPattern>
+    <od:toPattern>Nested Parallel</od:toPattern>
+    <od:toPattern>Nested Synchronous</od:toPattern>
+    <od:toPattern>Parallel Synchronized</od:toPattern>
+    <dcterms:issued>2004</dcterms:issued>
+    <dcterms:title xml:lang="en">Business Process Choreography for B2B Collaboration</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_112">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>2</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>collaboration</od:hasKeyword>
+    <od:hasKeyword>coordinate contribution</od:hasKeyword>
+    <od:hasKeyword>coordingation</od:hasKeyword>
+    <od:hasKeyword>deciding</od:hasKeyword>
+    <od:hasKeyword>decision making</od:hasKeyword>
+    <od:hasKeyword>human resources</od:hasKeyword>
+    <od:hasKeyword>knowledge workers</od:hasKeyword>
+    <od:hasKeyword>retrieve contribution</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Case Study</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.1, 4.3</od:toCategory>
+    <od:toPattern>deadline agreement</od:toPattern>
+    <od:toPattern>escalation</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Business Process Design Meets Business Practices Through Enterprise Patterns: A Case Study</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_113">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>17</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>BPR</od:hasKeyword>
+    <od:hasKeyword>assignment</od:hasKeyword>
+    <od:hasKeyword>automation</od:hasKeyword>
+    <od:hasKeyword>business process reenigineering</od:hasKeyword>
+    <od:hasKeyword>change</od:hasKeyword>
+    <od:hasKeyword>control</od:hasKeyword>
+    <od:hasKeyword>dBOP</od:hasKeyword>
+    <od:hasKeyword>deep Business Optimization Platform</od:hasKeyword>
+    <od:hasKeyword>improvement</od:hasKeyword>
+    <od:hasKeyword>organisational structure</od:hasKeyword>
+    <od:hasKeyword>organizational structure</od:hasKeyword>
+    <od:hasKeyword>process improvement</od:hasKeyword>
+    <od:hasKeyword>process performance</od:hasKeyword>
+    <od:hasKeyword>sequencing</od:hasKeyword>
+    <od:hasKeyword>variance</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.2</od:toCategory>
+    <od:toPattern>activity elimination</od:toPattern>
+    <od:toPattern>automated approval</od:toPattern>
+    <od:toPattern>automated decision</od:toPattern>
+    <od:toPattern>case manager</od:toPattern>
+    <od:toPattern>composition</od:toPattern>
+    <od:toPattern>decomposition</od:toPattern>
+    <od:toPattern>early knockout</od:toPattern>
+    <od:toPattern>exception standardization</od:toPattern>
+    <od:toPattern>flexible assignment</od:toPattern>
+    <od:toPattern>generalization</od:toPattern>
+    <od:toPattern>knockout elimination</od:toPattern>
+    <od:toPattern>parallelization</od:toPattern>
+    <od:toPattern>rework elimination</od:toPattern>
+    <od:toPattern>serialization</od:toPattern>
+    <od:toPattern>specialization</od:toPattern>
+    <od:toPattern>split workload</od:toPattern>
+    <od:toPattern>task automation</od:toPattern>
+    <od:toPattern>triage</od:toPattern>
+    <od:toPattern>variant elimination</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">Business Process Optimization Using Formalized Optimization Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_114">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>6</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>BPT Wizard</od:hasKeyword>
+    <od:hasKeyword>Business Process Transformation Wizard</od:hasKeyword>
+    <od:hasKeyword>change</od:hasKeyword>
+    <od:hasKeyword>improvement</od:hasKeyword>
+    <od:hasKeyword>optimization</od:hasKeyword>
+    <od:hasKeyword>parallelization</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Industry</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.3</od:toCategory>
+    <od:toPattern>Change branching probability</od:toPattern>
+    <od:toPattern>Combine roles</od:toPattern>
+    <od:toPattern>IT (Information Technology) systems</od:toPattern>
+    <od:toPattern>Introduce business integration solutions</od:toPattern>
+    <od:toPattern>Optimize resource capacities</od:toPattern>
+    <od:toPattern>Optimize resource scheduling policies</od:toPattern>
+    <od:toPattern>Parallelize activities</od:toPattern>
+    <od:toPattern>Permute the order of tasks</od:toPattern>
+    <od:toPattern>Remote activities</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">Business process transformation patterns &amp; the business process transformation wizard</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_115">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>814</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>RAD</od:hasKeyword>
+    <od:hasKeyword>role activity diagram</od:hasKeyword>
+    <od:hasKeyword>role-activity diagram</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Role-Activity Diagrams</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <dcterms:issued>1995</dcterms:issued>
+    <dcterms:title xml:lang="en">Business processes: modelling and analysis for re-engineering and improvement</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_116">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>30</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>SoO</od:hasKeyword>
+    <od:hasKeyword>auditing</od:hasKeyword>
+    <od:hasKeyword>bounded existence</od:hasKeyword>
+    <od:hasKeyword>chain response</od:hasKeyword>
+    <od:hasKeyword>compliance auditing</od:hasKeyword>
+    <od:hasKeyword>compliance checking</od:hasKeyword>
+    <od:hasKeyword>compliance management</od:hasKeyword>
+    <od:hasKeyword>compliance monitoring</od:hasKeyword>
+    <od:hasKeyword>compliance rule</od:hasKeyword>
+    <od:hasKeyword>control</od:hasKeyword>
+    <od:hasKeyword>control rule</od:hasKeyword>
+    <od:hasKeyword>model checking</od:hasKeyword>
+    <od:hasKeyword>occurrence</od:hasKeyword>
+    <od:hasKeyword>order</od:hasKeyword>
+    <od:hasKeyword>property specification</od:hasKeyword>
+    <od:hasKeyword>resource</od:hasKeyword>
+    <od:hasKeyword>response</od:hasKeyword>
+    <od:hasKeyword>segretation of duties</od:hasKeyword>
+    <od:hasKeyword>specification</od:hasKeyword>
+    <od:hasKeyword>temporal</od:hasKeyword>
+    <od:hasKeyword>temporal logic</od:hasKeyword>
+    <od:hasKeyword>time</od:hasKeyword>
+    <od:hasKeyword>timing</od:hasKeyword>
+    <od:hasKeyword>universality</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <od:toPattern>absence</od:toPattern>
+    <od:toPattern>absent</od:toPattern>
+    <od:toPattern>after</od:toPattern>
+    <od:toPattern>bondedwith</od:toPattern>
+    <od:toPattern>chain precedence</od:toPattern>
+    <od:toPattern>chainleadsto</od:toPattern>
+    <od:toPattern>chainprecedence</od:toPattern>
+    <od:toPattern>coabsent</od:toPattern>
+    <od:toPattern>coexists</od:toPattern>
+    <od:toPattern>corequisite</od:toPattern>
+    <od:toPattern>exactlyat</od:toPattern>
+    <od:toPattern>exclusive</od:toPattern>
+    <od:toPattern>existence</od:toPattern>
+    <od:toPattern>exists</od:toPattern>
+    <od:toPattern>exists every</od:toPattern>
+    <od:toPattern>exists max</od:toPattern>
+    <od:toPattern>exists min</od:toPattern>
+    <od:toPattern>leadsto</od:toPattern>
+    <od:toPattern>multi-bonded</od:toPattern>
+    <od:toPattern>multi-segregated</od:toPattern>
+    <od:toPattern>mutexchoice</od:toPattern>
+    <od:toPattern>performedby</od:toPattern>
+    <od:toPattern>pleadsto</od:toPattern>
+    <od:toPattern>precedence</od:toPattern>
+    <od:toPattern>precedes</od:toPattern>
+    <od:toPattern>rbondedwith</od:toPattern>
+    <od:toPattern>segragated from</od:toPattern>
+    <od:toPattern>segregation</od:toPattern>
+    <od:toPattern>universal</od:toPattern>
+    <od:toPattern>universality</od:toPattern>
+    <od:toPattern>usegregatedfrom</od:toPattern>
+    <od:toPattern>within</od:toPattern>
+    <od:toPattern>xleadsto</od:toPattern>
+    <dcterms:issued>2012</dcterms:issued>
+    <dcterms:title xml:lang="en">Capturing Compliance Requirements: A Pattern-Based Approach</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_117">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>454</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>adaptation</od:hasKeyword>
+    <od:hasKeyword>adapting</od:hasKeyword>
+    <od:hasKeyword>adding fragment</od:hasKeyword>
+    <od:hasKeyword>change</od:hasKeyword>
+    <od:hasKeyword>changing</od:hasKeyword>
+    <od:hasKeyword>control dependency</od:hasKeyword>
+    <od:hasKeyword>copy</od:hasKeyword>
+    <od:hasKeyword>copying</od:hasKeyword>
+    <od:hasKeyword>delete</od:hasKeyword>
+    <od:hasKeyword>deleting fragment</od:hasKeyword>
+    <od:hasKeyword>deletion move</od:hasKeyword>
+    <od:hasKeyword>embed</od:hasKeyword>
+    <od:hasKeyword>embedding</od:hasKeyword>
+    <od:hasKeyword>extract</od:hasKeyword>
+    <od:hasKeyword>extracting</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>inline</od:hasKeyword>
+    <od:hasKeyword>insert</od:hasKeyword>
+    <od:hasKeyword>insertion</od:hasKeyword>
+    <od:hasKeyword>parallelization</od:hasKeyword>
+    <od:hasKeyword>parallelize</od:hasKeyword>
+    <od:hasKeyword>process fragment</od:hasKeyword>
+    <od:hasKeyword>replace</od:hasKeyword>
+    <od:hasKeyword>replacing</od:hasKeyword>
+    <od:hasKeyword>swap</od:hasKeyword>
+    <od:hasKeyword>update condition</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variants</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Industry</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>add control dependency</od:toPattern>
+    <od:toPattern>copy process fragment</od:toPattern>
+    <od:toPattern>delete process fragment</od:toPattern>
+    <od:toPattern>embed process fragment in conditional branch</od:toPattern>
+    <od:toPattern>embed process fragment into loop</od:toPattern>
+    <od:toPattern>extract sub process</od:toPattern>
+    <od:toPattern>inline sub process</od:toPattern>
+    <od:toPattern>insert process fragment</od:toPattern>
+    <od:toPattern>late composition of process fragments</od:toPattern>
+    <od:toPattern>late modeling of process fragments</od:toPattern>
+    <od:toPattern>late modelling of process fragments</od:toPattern>
+    <od:toPattern>late selection of process fragments</od:toPattern>
+    <od:toPattern>move process fragment</od:toPattern>
+    <od:toPattern>multi-instance activity</od:toPattern>
+    <od:toPattern>parallelize activities</od:toPattern>
+    <od:toPattern>remove control dependency</od:toPattern>
+    <od:toPattern>replace process fragment</od:toPattern>
+    <od:toPattern>swap process fragment</od:toPattern>
+    <od:toPattern>update condition</od:toPattern>
+    <dcterms:issued>2008</dcterms:issued>
+    <dcterms:title xml:lang="en">Change patterns and change support features - Enhancing flexibility in process-aware information systems</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_118">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>authorisation</od:hasKeyword>
+    <od:hasKeyword>authorization</od:hasKeyword>
+    <od:hasKeyword>change detection</od:hasKeyword>
+    <od:hasKeyword>change impact analysis</od:hasKeyword>
+    <od:hasKeyword>control flow</od:hasKeyword>
+    <od:hasKeyword>difference</od:hasKeyword>
+    <od:hasKeyword>effort estimation</od:hasKeyword>
+    <od:hasKeyword>impact analysis</od:hasKeyword>
+    <od:hasKeyword>order</od:hasKeyword>
+    <od:hasKeyword>refinement</od:hasKeyword>
+    <od:hasKeyword>role</od:hasKeyword>
+    <od:hasKeyword>traceability</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>Activities Occur at Different Moments in Processes</od:toPattern>
+    <od:toPattern>Additional Dependencies</od:toPattern>
+    <od:toPattern>Corresponding Collections of Activities</od:toPattern>
+    <od:toPattern>Different Collections of Roles</od:toPattern>
+    <od:toPattern>Different Dependencies</od:toPattern>
+    <od:toPattern>Different Roles</od:toPattern>
+    <od:toPattern>Interchanged Activities</od:toPattern>
+    <od:toPattern>Iterative Versus Once-Off Occurrence</od:toPattern>
+    <od:toPattern>Partly Corresponding Activities</od:toPattern>
+    <od:toPattern>Partly Corresponding Collections of Activities</od:toPattern>
+    <od:toPattern>Refined Activity</od:toPattern>
+    <od:toPattern>Single Role Versus Collection of Roles</od:toPattern>
+    <od:toPattern>Skipped Activity</od:toPattern>
+    <dcterms:issued>2015</dcterms:issued>
+    <dcterms:title xml:lang="en">Change Patterns Detection and Traceability Impact Analysis of Business Process Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_119">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>4</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>HIM</od:hasKeyword>
+    <od:hasKeyword>KIBS</od:hasKeyword>
+    <od:hasKeyword>business rule</od:hasKeyword>
+    <od:hasKeyword>condition model</od:hasKeyword>
+    <od:hasKeyword>control pattern</od:hasKeyword>
+    <od:hasKeyword>human interaction management</od:hasKeyword>
+    <od:hasKeyword>knowledge worker</od:hasKeyword>
+    <od:hasKeyword>knowledge-intensive business service</od:hasKeyword>
+    <od:hasKeyword>post-condition</od:hasKeyword>
+    <od:hasKeyword>postcondition</od:hasKeyword>
+    <od:hasKeyword>pre-condition</od:hasKeyword>
+    <od:hasKeyword>precondition</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, condition modeling language</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Organization</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>2.1</od:toCategory>
+    <od:toPattern>AND join</od:toPattern>
+    <od:toPattern>AND split</od:toPattern>
+    <od:toPattern>AND-join</od:toPattern>
+    <od:toPattern>AND-split</od:toPattern>
+    <od:toPattern>IOR split</od:toPattern>
+    <od:toPattern>OR split IOR-split</od:toPattern>
+    <od:toPattern>OR-split</od:toPattern>
+    <od:toPattern>XOR join</od:toPattern>
+    <od:toPattern>XOR-join</od:toPattern>
+    <od:toPattern>XOR-split XOR split</od:toPattern>
+    <od:toPattern>arbitrary cycle</od:toPattern>
+    <od:toPattern>asynchrous join</od:toPattern>
+    <od:toPattern>atomic multicast notification</od:toPattern>
+    <od:toPattern>case statement</od:toPattern>
+    <od:toPattern>collaboration</od:toPattern>
+    <od:toPattern>conditional routing</od:toPattern>
+    <od:toPattern>contingent requests</od:toPattern>
+    <od:toPattern>cycle</od:toPattern>
+    <od:toPattern>deadline</od:toPattern>
+    <od:toPattern>decision</od:toPattern>
+    <od:toPattern>deferred XOR split</od:toPattern>
+    <od:toPattern>deferred XOR-split</od:toPattern>
+    <od:toPattern>deferred choice</od:toPattern>
+    <od:toPattern>dynamic routing</od:toPattern>
+    <od:toPattern>event aggregation</od:toPattern>
+    <od:toPattern>exclusive OR split</od:toPattern>
+    <od:toPattern>exclusive OR-join exclusive OR join</od:toPattern>
+    <od:toPattern>exclusive OR-split</od:toPattern>
+    <od:toPattern>exclusive choice</od:toPattern>
+    <od:toPattern>external choice</od:toPattern>
+    <od:toPattern>fork</od:toPattern>
+    <od:toPattern>gather</od:toPattern>
+    <od:toPattern>implicit choice</od:toPattern>
+    <od:toPattern>implicit termination</od:toPattern>
+    <od:toPattern>iteration</od:toPattern>
+    <od:toPattern>merge</od:toPattern>
+    <od:toPattern>message stream</od:toPattern>
+    <od:toPattern>milestone</od:toPattern>
+    <od:toPattern>multi threading without synchronization</od:toPattern>
+    <od:toPattern>multi-choice</od:toPattern>
+    <od:toPattern>multi-responses</od:toPattern>
+    <od:toPattern>multicast</od:toPattern>
+    <od:toPattern>multiple choice and synchronizing merge</od:toPattern>
+    <od:toPattern>multiple discriminator</od:toPattern>
+    <od:toPattern>multiple instances with design-time knowledge</od:toPattern>
+    <od:toPattern>multiple instances with run-time knowledge</od:toPattern>
+    <od:toPattern>multiple instances without synchronization</od:toPattern>
+    <od:toPattern>multiple merge</od:toPattern>
+    <od:toPattern>n-out-of-m join</od:toPattern>
+    <od:toPattern>one-from-many receive</od:toPattern>
+    <od:toPattern>one-to-many send</od:toPattern>
+    <od:toPattern>one-to-many send and receive</od:toPattern>
+    <od:toPattern>parallel routing</od:toPattern>
+    <od:toPattern>parallel split</od:toPattern>
+    <od:toPattern>point-to-point send</od:toPattern>
+    <od:toPattern>racing incoming messages</od:toPattern>
+    <od:toPattern>racing messages</od:toPattern>
+    <od:toPattern>relayed request</od:toPattern>
+    <od:toPattern>rendezvous</od:toPattern>
+    <od:toPattern>request and response</od:toPattern>
+    <od:toPattern>request with referral</od:toPattern>
+    <od:toPattern>scatter</od:toPattern>
+    <od:toPattern>scatter-gather</od:toPattern>
+    <od:toPattern>selection</od:toPattern>
+    <od:toPattern>send and receive</od:toPattern>
+    <od:toPattern>send with failovers</od:toPattern>
+    <od:toPattern>send/receive</od:toPattern>
+    <od:toPattern>sequence</od:toPattern>
+    <od:toPattern>sequential routing</od:toPattern>
+    <od:toPattern>serial routing</od:toPattern>
+    <od:toPattern>simple merge</od:toPattern>
+    <od:toPattern>spawn off facility</od:toPattern>
+    <od:toPattern>state condition</od:toPattern>
+    <od:toPattern>streamed responses</od:toPattern>
+    <od:toPattern>switch</od:toPattern>
+    <od:toPattern>synchronization</od:toPattern>
+    <od:toPattern>synchronizer</od:toPattern>
+    <od:toPattern>test arc</od:toPattern>
+    <od:toPattern>transactional notification</od:toPattern>
+    <od:toPattern>unicast</od:toPattern>
+    <od:toPattern>unstructured loop</od:toPattern>
+    <od:toPattern>withdraw message</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Condition-based process patterns for modeling of human processes in Knowledge-intensive Business Services</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_120">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>17</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>CWM</od:hasKeyword>
+    <od:hasKeyword>CWM-BPMN</od:hasKeyword>
+    <od:hasKeyword>MTCO</od:hasKeyword>
+    <od:hasKeyword>contract workflow model</od:hasKeyword>
+    <od:hasKeyword>multi-tier contract ontology</od:hasKeyword>
+    <od:hasKeyword>non-performance</od:hasKeyword>
+    <od:hasKeyword>obligation</od:hasKeyword>
+    <od:hasKeyword>performance</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.2</od:toCategory>
+    <od:toPattern>Communication between the Parties</od:toPattern>
+    <od:toPattern>Contract -Business Process</od:toPattern>
+    <od:toPattern>Exclusive Processing</od:toPattern>
+    <od:toPattern>Obligation State Changes</od:toPattern>
+    <od:toPattern>Performance Events</od:toPattern>
+    <od:toPattern>Performance Events Sequences</od:toPattern>
+    <od:toPattern>Remedial Options Choice</od:toPattern>
+    <od:toPattern>Simultaneous Processing</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Contract Workflow Model Patterns Using BPMN</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_121">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>Exception Handling Process Ontology</od:hasKeyword>
+    <od:hasKeyword>contracting</od:hasKeyword>
+    <od:hasKeyword>domain ontology</od:hasKeyword>
+    <od:hasKeyword>obligation</od:hasKeyword>
+    <od:hasKeyword>ontology</od:hasKeyword>
+    <od:hasKeyword>right</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <od:toPattern>Cancel Order</od:toPattern>
+    <od:toPattern>Penalty</od:toPattern>
+    <dcterms:issued>2008</dcterms:issued>
+    <dcterms:title xml:lang="en">Contract-Based Exception Handling Process Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_122">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>30</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>contracting</od:hasKeyword>
+    <od:hasKeyword>electronic contracting</od:hasKeyword>
+    <od:hasKeyword>negotiating</od:hasKeyword>
+    <od:hasKeyword>negotiation</od:hasKeyword>
+    <od:hasKeyword>obligation</od:hasKeyword>
+    <od:hasKeyword>service contracting</od:hasKeyword>
+    <od:hasKeyword>service dependency</od:hasKeyword>
+    <od:hasKeyword>transaction protocol</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Petri Net</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Domain-Specific</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.2</od:toCategory>
+    <od:toPattern>alternating binding counter offers</od:toPattern>
+    <od:toPattern>binding request</od:toPattern>
+    <od:toPattern>implicit accept</od:toPattern>
+    <od:toPattern>multiple binding offers</od:toPattern>
+    <od:toPattern>multiple non-binding offers</od:toPattern>
+    <od:toPattern>single binding counter offer</od:toPattern>
+    <od:toPattern>single binding offer</od:toPattern>
+    <od:toPattern>single non-binding offer</od:toPattern>
+    <dcterms:issued>2003</dcterms:issued>
+    <dcterms:title xml:lang="en">Contracting Workflows and Protocol Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_123">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>4</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>compliance analysis</od:hasKeyword>
+    <od:hasKeyword>compliance auditing</od:hasKeyword>
+    <od:hasKeyword>compliance checking</od:hasKeyword>
+    <od:hasKeyword>compliance management</od:hasKeyword>
+    <od:hasKeyword>compliance monitoring</od:hasKeyword>
+    <od:hasKeyword>control system</od:hasKeyword>
+    <od:hasKeyword>controlling</od:hasKeyword>
+    <od:hasKeyword>internal control system</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, EPK</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <od:toPattern>Production Deployment</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Control Patterns - Bridging The Gap Between Is Controls And BPM</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_124">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>19</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>REST</od:hasKeyword>
+    <od:hasKeyword>SOAP</od:hasKeyword>
+    <od:hasKeyword>service composition</od:hasKeyword>
+    <od:hasKeyword>web service</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN, UML Sequence Diagrams</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>4.1</od:toCategory>
+    <od:toPattern>Alternative</od:toPattern>
+    <od:toPattern>Exclusive Choice</od:toPattern>
+    <od:toPattern>Iteration</od:toPattern>
+    <od:toPattern>Local Synchronization Merge</od:toPattern>
+    <od:toPattern>Parallel Split</od:toPattern>
+    <od:toPattern>Selection</od:toPattern>
+    <od:toPattern>Sequence</od:toPattern>
+    <od:toPattern>Structured Discriminator</od:toPattern>
+    <od:toPattern>Structured Loop</od:toPattern>
+    <od:toPattern>Structured Partial Join</od:toPattern>
+    <od:toPattern>Synchronization</od:toPattern>
+    <od:toPattern>Unordered Sequence</od:toPattern>
+    <od:toPattern>While</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Control-Flow Patterns for Decentralized RESTful Service Composition</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_125">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>control flow</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>By-pass</od:toPattern>
+    <od:toPattern>Bypass</od:toPattern>
+    <od:toPattern>Deactivate</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">D&amp;B: Two Additional Workflow Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_126">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>28</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>deadlock</od:hasKeyword>
+    <od:hasKeyword>reachability</od:hasKeyword>
+    <od:hasKeyword>soundness</od:hasKeyword>
+    <od:hasKeyword>transferability</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>loop deadlock</od:toPattern>
+    <od:toPattern>multiple source deadlock</od:toPattern>
+    <od:toPattern>work item outflow</od:toPattern>
+    <dcterms:issued>1999</dcterms:issued>
+    <dcterms:title xml:lang="en">Definition of Deadlock Patterns for Business Processes Workflow Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_127">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Survey</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>RBAC</od:hasKeyword>
+    <od:hasKeyword>access control</od:hasKeyword>
+    <od:hasKeyword>delegation of permissions between users</od:hasKeyword>
+    <od:hasKeyword>delegation of roles between users</od:hasKeyword>
+    <od:hasKeyword>delegation of task instances</od:hasKeyword>
+    <od:hasKeyword>resource</od:hasKeyword>
+    <od:hasKeyword>role</od:hasKeyword>
+    <od:hasKeyword>role hierarchy</od:hasKeyword>
+    <od:hasKeyword>role-to-role delegation</od:hasKeyword>
+    <od:hasKeyword>temporary role</od:hasKeyword>
+    <od:hasKeyword>user-to-user delegation</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Organization</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>2.2</od:toCategory>
+    <od:toPattern>Cascading Revocation</od:toPattern>
+    <od:toPattern>Delegation of individual permissions from user to role</od:toPattern>
+    <od:toPattern>Delegation of tasks from user to role</od:toPattern>
+    <od:toPattern>Multi-level delegation</od:toPattern>
+    <od:toPattern>Multiple-delegation</od:toPattern>
+    <od:toPattern>Revocation</od:toPattern>
+    <od:toPattern>Time-Constrained delegation</od:toPattern>
+    <od:toPattern>Time-out Revocation</od:toPattern>
+    <od:toPattern>Upward-Delegation</od:toPattern>
+    <od:toPattern>delegation of individual permissions between roles</od:toPattern>
+    <od:toPattern>delegation of roles between roles</od:toPattern>
+    <od:toPattern>delegation of roles from user to role</od:toPattern>
+    <od:toPattern>delegation of task-instances from user to role</od:toPattern>
+    <od:toPattern>delegation of tasks between roles</od:toPattern>
+    <od:toPattern>delegation of tasks between users</od:toPattern>
+    <od:toPattern>role-to-role</od:toPattern>
+    <od:toPattern>user-to-user</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Delegation Pattern in Workflow System</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_128">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>22</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>B2B</od:hasKeyword>
+    <od:hasKeyword>CrossFlow</od:hasKeyword>
+    <od:hasKeyword>business-to-business</od:hasKeyword>
+    <od:hasKeyword>electronic sourcing</od:hasKeyword>
+    <od:hasKeyword>esourcing</od:hasKeyword>
+    <od:hasKeyword>service provision</od:hasKeyword>
+    <od:hasKeyword>supply chain</od:hasKeyword>
+    <od:hasKeyword>virtual business process</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Petri Net</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.3</od:toCategory>
+    <od:toPattern>gray box</od:toPattern>
+    <od:toPattern>grey box</od:toPattern>
+    <od:toPattern>provider-initiated bi-directional</od:toPattern>
+    <od:toPattern>token propagation</od:toPattern>
+    <dcterms:issued>2007</dcterms:issued>
+    <dcterms:title xml:lang="en">Discovering Patterns for Inter-Organizational Business Process Collaboration</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_129">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>32</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>e-sourcing</od:hasKeyword>
+    <od:hasKeyword>electronic sourcing</od:hasKeyword>
+    <od:hasKeyword>esourcing</od:hasKeyword>
+    <od:hasKeyword>sourcing</od:hasKeyword>
+    <od:hasKeyword>supply chain</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Petri-nets</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.1</od:toCategory>
+    <od:toPattern>black box</od:toPattern>
+    <od:toPattern>black-box</od:toPattern>
+    <od:toPattern>grey box</od:toPattern>
+    <od:toPattern>grey-box</od:toPattern>
+    <od:toPattern>white box</od:toPattern>
+    <od:toPattern>white-box</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">Discovering Patterns for Inter-Organizational Business Process Collaboration</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_130">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>29</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>adaptation</od:hasKeyword>
+    <od:hasKeyword>adapting</od:hasKeyword>
+    <od:hasKeyword>change</od:hasKeyword>
+    <od:hasKeyword>changing</od:hasKeyword>
+    <od:hasKeyword>dynamic process change</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>improvement</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variants</od:hasKeyword>
+    <od:hasKeyword>version management</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>AND Merge</od:toPattern>
+    <od:toPattern>AND split</od:toPattern>
+    <od:toPattern>Activity Change</od:toPattern>
+    <od:toPattern>Activity Content Change</od:toPattern>
+    <od:toPattern>Activity De-Parallelization</od:toPattern>
+    <od:toPattern>Activity Delete/Detour</od:toPattern>
+    <od:toPattern>Activity Parallel Insert</od:toPattern>
+    <od:toPattern>Activity Parallelization</od:toPattern>
+    <od:toPattern>Activity Position Adjustment</od:toPattern>
+    <od:toPattern>Activity Replace/Detour</od:toPattern>
+    <od:toPattern>Activity Sequential Insert/Propagation</od:toPattern>
+    <od:toPattern>N out of M OR Split</od:toPattern>
+    <od:toPattern>N-out-of-M OR Split</od:toPattern>
+    <od:toPattern>OR split</od:toPattern>
+    <od:toPattern>Sequential Merge</od:toPattern>
+    <od:toPattern>XOR split</od:toPattern>
+    <od:toPattern>sequential split</od:toPattern>
+    <dcterms:issued>2007</dcterms:issued>
+    <dcterms:title xml:lang="en">Dynamic Business Process Management based on Process Change Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_131">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>19</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>C-EPC</od:hasKeyword>
+    <od:hasKeyword>Provop</od:hasKeyword>
+    <od:hasKeyword>adaption</od:hasKeyword>
+    <od:hasKeyword>configurable process model</od:hasKeyword>
+    <od:hasKeyword>configurable region</od:hasKeyword>
+    <od:hasKeyword>configuration alternatives</od:hasKeyword>
+    <od:hasKeyword>configuration constraint</od:hasKeyword>
+    <od:hasKeyword>context condition</od:hasKeyword>
+    <od:hasKeyword>delete</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>insert</od:hasKeyword>
+    <od:hasKeyword>model configuration</od:hasKeyword>
+    <od:hasKeyword>modify</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Survey</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>Delete Configurable Region</od:toPattern>
+    <od:toPattern>Delete Configuration Alternative in a Configurable Region</od:toPattern>
+    <od:toPattern>Delete Configuration Constraint Between Configuration Alternatives</od:toPattern>
+    <od:toPattern>Delete Context Condition of a Configuration Alternative</od:toPattern>
+    <od:toPattern>Insert Configurable Region</od:toPattern>
+    <od:toPattern>Insert Configuration Alternative in a Configurable Region</od:toPattern>
+    <od:toPattern>Insert Configuration Constraint Between Configuration Alternatives</od:toPattern>
+    <od:toPattern>Insert Context Condition of a Configuration Alternative</od:toPattern>
+    <od:toPattern>Modify Context Condition of a Configuration Alternative</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Enhancing Modeling and Change Support for Process Families through Change Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_132">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>25</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>ambulatory service</od:hasKeyword>
+    <od:hasKeyword>capacity analysis</od:hasKeyword>
+    <od:hasKeyword>demand foecast</od:hasKeyword>
+    <od:hasKeyword>diagnose</od:hasKeyword>
+    <od:hasKeyword>healthcare</od:hasKeyword>
+    <od:hasKeyword>hospital</od:hasKeyword>
+    <od:hasKeyword>medical appointment</od:hasKeyword>
+    <od:hasKeyword>medical service</od:hasKeyword>
+    <od:hasKeyword>medical supplies</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research &amp; Industry</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>9</od:toCategory>
+    <od:toPattern>OR service</od:toPattern>
+    <od:toPattern>demand analysis and management</od:toPattern>
+    <od:toPattern>internal shared services</od:toPattern>
+    <od:toPattern>operating room service</od:toPattern>
+    <od:toPattern>service line for patients</od:toPattern>
+    <od:toPattern>shared services</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">Enterprise and process architecture patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_133">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>22</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>ArchiMate</od:hasKeyword>
+    <od:hasKeyword>EA</od:hasKeyword>
+    <od:hasKeyword>architectural description</od:hasKeyword>
+    <od:hasKeyword>automation</od:hasKeyword>
+    <od:hasKeyword>business process execution support</od:hasKeyword>
+    <od:hasKeyword>business process support</od:hasKeyword>
+    <od:hasKeyword>role assignment</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, ArchiMate</od:hasNotation>
+    <od:hasOrigin>Industry</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Resource</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>5.1</od:toCategory>
+    <od:toPattern>Business object fully realized by application layer</od:toPattern>
+    <od:toPattern>Business object partially realized by application layer</od:toPattern>
+    <od:toPattern>Business object without application layer realization</od:toPattern>
+    <od:toPattern>Business object without concrete realization</od:toPattern>
+    <od:toPattern>Full concrete business object realization</od:toPattern>
+    <od:toPattern>Full non-redundant business process automation</od:toPattern>
+    <od:toPattern>Full redundant business process automation</od:toPattern>
+    <od:toPattern>Fully automated business process</od:toPattern>
+    <od:toPattern>Fully manually supported business process</od:toPattern>
+    <od:toPattern>Fully manually supported business process with single role-assignment</od:toPattern>
+    <od:toPattern>Fully non-redundantly supported business process</od:toPattern>
+    <od:toPattern>Fully realized business object</od:toPattern>
+    <od:toPattern>Fully redundantly supported business process</od:toPattern>
+    <od:toPattern>Fully supported business process</od:toPattern>
+    <od:toPattern>Heterogeneous application support of a business process</od:toPattern>
+    <od:toPattern>Homogenous application support of a business process</od:toPattern>
+    <od:toPattern>Manually unsupported business process</od:toPattern>
+    <od:toPattern>Multiple application layer business object realization</od:toPattern>
+    <od:toPattern>Multiple business object realization</od:toPattern>
+    <od:toPattern>Multiple concrete business object realization</od:toPattern>
+    <od:toPattern>Partial concrete business object realization</od:toPattern>
+    <od:toPattern>Partially automated business process</od:toPattern>
+    <od:toPattern>Partially manually supported business process</od:toPattern>
+    <od:toPattern>Partially realized business object</od:toPattern>
+    <od:toPattern>Partially supported business process</od:toPattern>
+    <od:toPattern>Single application layer business object realization</od:toPattern>
+    <od:toPattern>Single business object realization</od:toPattern>
+    <od:toPattern>Single concrete business object realization</od:toPattern>
+    <od:toPattern>Strictly unsupported business process</od:toPattern>
+    <od:toPattern>Unautomated business process</od:toPattern>
+    <od:toPattern>strictly unrealized business object</od:toPattern>
+    <od:toPattern>unrealized business object</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">Enterprise architecture patterns for business process support analysis</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_134">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>471</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>communication</od:hasKeyword>
+    <od:hasKeyword>competitive task</od:hasKeyword>
+    <od:hasKeyword>human workflow</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.1, 2.1</od:toCategory>
+    <od:toPattern>call partner service</od:toPattern>
+    <od:toPattern>correlate request and response</od:toPattern>
+    <od:toPattern>dynamic partner</od:toPattern>
+    <od:toPattern>escalation</od:toPattern>
+    <od:toPattern>prioritization</od:toPattern>
+    <od:toPattern>pub/sub</od:toPattern>
+    <od:toPattern>publish to multiple subscribers</od:toPattern>
+    <od:toPattern>publish/subscribe</od:toPattern>
+    <od:toPattern>receive request</od:toPattern>
+    <od:toPattern>roles compete for task</od:toPattern>
+    <od:toPattern>unsolicited event</od:toPattern>
+    <od:toPattern>wait for response</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Essential Business Process Modeling</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_135">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Personal Experience</od:hasArticleType>
+    <od:hasCitationCount>85</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>Little-JIL</od:hasKeyword>
+    <od:hasKeyword>compensation</od:hasKeyword>
+    <od:hasKeyword>exception flow</od:hasKeyword>
+    <od:hasKeyword>restart</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN, Little-JIL, UML</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>1.1</od:toCategory>
+    <od:toPattern>compensate</od:toPattern>
+    <od:toPattern>deferred fixing</od:toPattern>
+    <od:toPattern>exception-driven rework</od:toPattern>
+    <od:toPattern>immediate fixing</od:toPattern>
+    <od:toPattern>ordered alternatives</od:toPattern>
+    <od:toPattern>reject</od:toPattern>
+    <od:toPattern>retry</od:toPattern>
+    <od:toPattern>trying other alternatives</od:toPattern>
+    <od:toPattern>unordered alternatives</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Exception Handling Patterns for Process Modeling</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_136">
+    <od:extendOfDocumentation>Complete (entsprechendes Paper wird referenziert)</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>3</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>EIP</od:hasKeyword>
+    <od:hasKeyword>enterprise integration</od:hasKeyword>
+    <od:hasKeyword>message exchange</od:hasKeyword>
+    <od:hasKeyword>message flow</od:hasKeyword>
+    <od:hasKeyword>message-based integration</od:hasKeyword>
+    <od:hasKeyword>middleware</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Industry</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>4.1</od:toCategory>
+    <od:toPattern>Aggregator</od:toPattern>
+    <od:toPattern>Content Enricher</od:toPattern>
+    <od:toPattern>Message Translator</od:toPattern>
+    <od:toPattern>Request-Reply</od:toPattern>
+    <od:toPattern>Splitter</od:toPattern>
+    <od:toPattern>message splitter</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Experiences with Business Process Model and Notation for Modeling Integration Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_137">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>10</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>location awareness</od:hasKeyword>
+    <od:hasKeyword>location dependency</od:hasKeyword>
+    <od:hasKeyword>location-aware</od:hasKeyword>
+    <od:hasKeyword>location-awareness</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>Location-dependent exclusive split</od:toPattern>
+    <od:toPattern>Location-dependent parallel split</od:toPattern>
+    <od:toPattern>Location-dependent sequence</od:toPattern>
+    <od:toPattern>Location-dependent simple merge</od:toPattern>
+    <od:toPattern>Location-dependent synchronization</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Exploring location-dependency in process modeling</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_138">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>19</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>CEP</od:hasKeyword>
+    <od:hasKeyword>adaption</od:hasKeyword>
+    <od:hasKeyword>complex event processing</od:hasKeyword>
+    <od:hasKeyword>configurable process model</od:hasKeyword>
+    <od:hasKeyword>event-driven</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>model configuration</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>Compensation with Escalation</od:toPattern>
+    <od:toPattern>Restart Event</od:toPattern>
+    <od:toPattern>Unfailable Timed Handler</od:toPattern>
+    <od:toPattern>Wait for Event</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Extended Workflow Flexibility using Rule-Based Adaptation Patterns with Eventing Semantics</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_139">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>47</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SOA</od:hasKeyword>
+    <od:hasKeyword>cancellation</od:hasKeyword>
+    <od:hasKeyword>compensation</od:hasKeyword>
+    <od:hasKeyword>composite web service</od:hasKeyword>
+    <od:hasKeyword>composition</od:hasKeyword>
+    <od:hasKeyword>coordination</od:hasKeyword>
+    <od:hasKeyword>service-oriented architecture</od:hasKeyword>
+    <od:hasKeyword>transactional flow</od:hasKeyword>
+    <od:hasKeyword>transactional model</od:hasKeyword>
+    <od:hasKeyword>transactional web service</od:hasKeyword>
+    <od:hasKeyword>web service</od:hasKeyword>
+    <od:hasKeyword>workflow flexibility</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">Extending workflow patterns with transactional dependencies to define reliable composite Web services</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_140">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>cloud</od:hasKeyword>
+    <od:hasKeyword>resource</od:hasKeyword>
+    <od:hasKeyword>virtual resource</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Resource</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>2.1</od:toCategory>
+    <od:toPattern>Definition and Implementation of an Abstract Set of Elementary Operations Provided by the Virtual Resources Itself</od:toPattern>
+    <od:toPattern>Definition of an Abstract Virtual Resource Lifecycle and Implementation of the Relevant Abstract Operations Provided by the Cloud-Environment</od:toPattern>
+    <od:toPattern>Virtual Resource Specification and Classification</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Fabric-Process Patterns - Towards a Methodology for Fabric-Process Design</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_141">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>23</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>Bounded-Exists</od:hasKeyword>
+    <od:hasKeyword>Chain-LeadsTo</od:hasKeyword>
+    <od:hasKeyword>CoAbsent</od:hasKeyword>
+    <od:hasKeyword>DirectlyFollowedBy</od:hasKeyword>
+    <od:hasKeyword>Exists</od:hasKeyword>
+    <od:hasKeyword>Exists-Often</od:hasKeyword>
+    <od:hasKeyword>Frees</od:hasKeyword>
+    <od:hasKeyword>PerformedBy</od:hasKeyword>
+    <od:hasKeyword>Performer</od:hasKeyword>
+    <od:hasKeyword>absence</od:hasKeyword>
+    <od:hasKeyword>boundedwith</od:hasKeyword>
+    <od:hasKeyword>chain precedence</od:hasKeyword>
+    <od:hasKeyword>chain-precedes</od:hasKeyword>
+    <od:hasKeyword>coExists</od:hasKeyword>
+    <od:hasKeyword>compliance auditing</od:hasKeyword>
+    <od:hasKeyword>compliance checking</od:hasKeyword>
+    <od:hasKeyword>compliance management</od:hasKeyword>
+    <od:hasKeyword>compliance monitoring</od:hasKeyword>
+    <od:hasKeyword>compliance request language</od:hasKeyword>
+    <od:hasKeyword>compliance rule</od:hasKeyword>
+    <od:hasKeyword>corequisite</od:hasKeyword>
+    <od:hasKeyword>exclusive</od:hasKeyword>
+    <od:hasKeyword>exclusivity</od:hasKeyword>
+    <od:hasKeyword>existence</od:hasKeyword>
+    <od:hasKeyword>isAbsent</od:hasKeyword>
+    <od:hasKeyword>isUniversal</od:hasKeyword>
+    <od:hasKeyword>leads-to</od:hasKeyword>
+    <od:hasKeyword>leadsTo</od:hasKeyword>
+    <od:hasKeyword>mutexchoice</od:hasKeyword>
+    <od:hasKeyword>precedence</od:hasKeyword>
+    <od:hasKeyword>precedes</od:hasKeyword>
+    <od:hasKeyword>query language</od:hasKeyword>
+    <od:hasKeyword>regulatory compliance</od:hasKeyword>
+    <od:hasKeyword>resource</od:hasKeyword>
+    <od:hasKeyword>response</od:hasKeyword>
+    <od:hasKeyword>segregatedfrom</od:hasKeyword>
+    <od:hasKeyword>segregation</od:hasKeyword>
+    <od:hasKeyword>substitute</od:hasKeyword>
+    <od:hasKeyword>temporal</od:hasKeyword>
+    <od:hasKeyword>timed</od:hasKeyword>
+    <od:hasKeyword>timed pattern</od:hasKeyword>
+    <od:hasKeyword>universality</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, LTL</od:hasNotation>
+    <od:hasOrigin>Research &amp; Industry</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function &amp; Resource</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Formalizing and applying compliance patterns for business process compliance</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_142">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>32</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>content</od:hasKeyword>
+    <od:hasKeyword>guidance</od:hasKeyword>
+    <od:hasKeyword>process modeling support</od:hasKeyword>
+    <od:hasKeyword>process modelling support</od:hasKeyword>
+    <od:hasKeyword>reuse</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.2</od:toCategory>
+    <od:toPattern>4 eyes principle</od:toPattern>
+    <od:toPattern>4-eyes principle</od:toPattern>
+    <od:toPattern>Avoidance of Infinite Waits</od:toPattern>
+    <od:toPattern>approval</od:toPattern>
+    <od:toPattern>four eyes principle</od:toPattern>
+    <od:toPattern>secured interaction</od:toPattern>
+    <od:toPattern>trusted timestamp</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">Fragmento: Advanced Process Fragment Library</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_143">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>33</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>CAP</od:hasKeyword>
+    <od:hasKeyword>DEMO</od:hasKeyword>
+    <od:hasKeyword>accept</od:hasKeyword>
+    <od:hasKeyword>acceptance</od:hasKeyword>
+    <od:hasKeyword>allow</od:hasKeyword>
+    <od:hasKeyword>cancel</od:hasKeyword>
+    <od:hasKeyword>coordination</od:hasKeyword>
+    <od:hasKeyword>decline</od:hasKeyword>
+    <od:hasKeyword>intention</od:hasKeyword>
+    <od:hasKeyword>promise</od:hasKeyword>
+    <od:hasKeyword>quit</od:hasKeyword>
+    <od:hasKeyword>refuse</od:hasKeyword>
+    <od:hasKeyword>reject</od:hasKeyword>
+    <od:hasKeyword>request</od:hasKeyword>
+    <od:hasKeyword>social system</od:hasKeyword>
+    <od:hasKeyword>state</od:hasKeyword>
+    <od:hasKeyword>statement</od:hasKeyword>
+    <od:hasKeyword>transaction</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, CPN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>cancellation</od:toPattern>
+    <od:toPattern>cancellation of a request</od:toPattern>
+    <od:toPattern>cancellation of a statement</od:toPattern>
+    <od:toPattern>cancellation of an acceptance</od:toPattern>
+    <od:toPattern>standard</od:toPattern>
+    <od:toPattern>success</od:toPattern>
+    <od:toPattern>transaction</od:toPattern>
+    <dcterms:issued>2003</dcterms:issued>
+    <dcterms:title xml:lang="en">Generic Recurrent Patterns in Business Processes</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_144">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>21</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>deadlock</od:hasKeyword>
+    <od:hasKeyword>livelock</od:hasKeyword>
+    <od:hasKeyword>multiple termination</od:hasKeyword>
+    <od:hasKeyword>soundness</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, EPC</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>All Or Nothing</od:toPattern>
+    <od:toPattern>Partial Redo</od:toPattern>
+    <od:toPattern>Straight Road with Exits</od:toPattern>
+    <dcterms:issued>2007</dcterms:issued>
+    <dcterms:title xml:lang="en">Good and Bad Excuses for Unstructured Business Process Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_145">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>7</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>ecofriendly</od:hasKeyword>
+    <od:hasKeyword>ecological</od:hasKeyword>
+    <od:hasKeyword>environment</od:hasKeyword>
+    <od:hasKeyword>environmental perspective</od:hasKeyword>
+    <od:hasKeyword>green</od:hasKeyword>
+    <od:hasKeyword>green BPM</od:hasKeyword>
+    <od:hasKeyword>green activity</od:hasKeyword>
+    <od:hasKeyword>green resource</od:hasKeyword>
+    <od:hasKeyword>greening</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Resource</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.3</od:toCategory>
+    <od:toPattern>Common Process Improvement for Environmental Aspects</od:toPattern>
+    <od:toPattern>Green Compensation</od:toPattern>
+    <od:toPattern>Green Feature</od:toPattern>
+    <od:toPattern>Green Variant</od:toPattern>
+    <od:toPattern>Human Process Performance</od:toPattern>
+    <od:toPattern>Resource Change</od:toPattern>
+    <od:toPattern>insourcing</od:toPattern>
+    <od:toPattern>outsourcing</od:toPattern>
+    <od:toPattern>process automation</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Green Business Process Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_146">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>2</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>collaboration</od:hasKeyword>
+    <od:hasKeyword>collaborative</od:hasKeyword>
+    <od:hasKeyword>concurrent changes</od:hasKeyword>
+    <od:hasKeyword>consistency</od:hasKeyword>
+    <od:hasKeyword>editing</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>parallel extension</od:toPattern>
+    <od:toPattern>parallel insert</od:toPattern>
+    <od:toPattern>serial extension</od:toPattern>
+    <od:toPattern>serial insert</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Handling Concurrent Changes in Collaborative Process Model Development: A Change-Pattern Based Approach</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_147">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>CEP</od:hasKeyword>
+    <od:hasKeyword>business pattern</od:hasKeyword>
+    <od:hasKeyword>complex event processing</od:hasKeyword>
+    <od:hasKeyword>review</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.2</od:toCategory>
+    <od:toPattern>Carry Out</od:toPattern>
+    <od:toPattern>Competing</od:toPattern>
+    <od:toPattern>Countersign Document</od:toPattern>
+    <od:toPattern>Delegating</od:toPattern>
+    <od:toPattern>Preparation</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Heterogeneous Business Process Consolidation: A Pattern-Driven Approach</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_148">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>18</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>ADM</od:hasKeyword>
+    <od:hasKeyword>KDM</od:hasKeyword>
+    <od:hasKeyword>architecture-driven modernization</od:hasKeyword>
+    <od:hasKeyword>knowledge discovery metamodel</od:hasKeyword>
+    <od:hasKeyword>legacy system</od:hasKeyword>
+    <od:hasKeyword>loosely coupling</od:hasKeyword>
+    <od:hasKeyword>modernization</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>8.2</od:toCategory>
+    <od:toPattern>BPD Skepeton</od:toPattern>
+    <od:toPattern>branching</od:toPattern>
+    <od:toPattern>collaboration</od:toPattern>
+    <od:toPattern>conditional sequence</od:toPattern>
+    <od:toPattern>data input</od:toPattern>
+    <od:toPattern>data output</od:toPattern>
+    <od:toPattern>exception</od:toPattern>
+    <od:toPattern>implicit termination</od:toPattern>
+    <od:toPattern>sequence</od:toPattern>
+    <od:toPattern>start</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Implementing Business Process Recovery Patterns through QVT Transformations</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_149">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>17</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>DPP</od:hasKeyword>
+    <od:hasKeyword>content</od:hasKeyword>
+    <od:hasKeyword>guidance</od:hasKeyword>
+    <od:hasKeyword>process modeling support</od:hasKeyword>
+    <od:hasKeyword>process modelling support</od:hasKeyword>
+    <od:hasKeyword>reuse</od:hasKeyword>
+    <od:hasKeyword>semantics-based analysis</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Domain-Specific</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.1</od:toCategory>
+    <od:toPattern>accounting</od:toPattern>
+    <od:toPattern>checking</od:toPattern>
+    <od:toPattern>contact</od:toPattern>
+    <od:toPattern>inventory</od:toPattern>
+    <od:toPattern>invoicing</od:toPattern>
+    <od:toPattern>notification</od:toPattern>
+    <od:toPattern>offer</od:toPattern>
+    <od:toPattern>order</od:toPattern>
+    <od:toPattern>payment</od:toPattern>
+    <od:toPattern>planning</od:toPattern>
+    <od:toPattern>production</od:toPattern>
+    <od:toPattern>shipment</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Improving the process of process modelling by the use of domain process patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_150">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>35</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SPLE</od:hasKeyword>
+    <od:hasKeyword>adaption</od:hasKeyword>
+    <od:hasKeyword>configurable process model</od:hasKeyword>
+    <od:hasKeyword>feature</od:hasKeyword>
+    <od:hasKeyword>feature diagram</od:hasKeyword>
+    <od:hasKeyword>feature model</od:hasKeyword>
+    <od:hasKeyword>model configuration</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>product line</od:hasKeyword>
+    <od:hasKeyword>software product line engineering</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>Arbitrary cycles</od:toPattern>
+    <od:toPattern>Cancel Activity</od:toPattern>
+    <od:toPattern>Cancel Case</od:toPattern>
+    <od:toPattern>Deferred choice</od:toPattern>
+    <od:toPattern>Discriminator</od:toPattern>
+    <od:toPattern>Discriminator and n out of m Join</od:toPattern>
+    <od:toPattern>Discriminator and n-out-of-m Join</od:toPattern>
+    <od:toPattern>Implicit termination</od:toPattern>
+    <od:toPattern>Inclusive branching</od:toPattern>
+    <od:toPattern>Interleaved parallel routing</od:toPattern>
+    <od:toPattern>Milestone</od:toPattern>
+    <od:toPattern>Multiple Instances  with a priory design time knowledge</od:toPattern>
+    <od:toPattern>Multiple Instances  with a priory runtime knowledge</od:toPattern>
+    <od:toPattern>Multiple Instances  without synchronization</od:toPattern>
+    <od:toPattern>Parallel branching</od:toPattern>
+    <od:toPattern>Sequence</od:toPattern>
+    <od:toPattern>Sub-Process</od:toPattern>
+    <od:toPattern>Subprocess</od:toPattern>
+    <dcterms:issued>2012</dcterms:issued>
+    <dcterms:title xml:lang="en">Modeling and validation of business process families</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_151">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>5</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>catch up</od:hasKeyword>
+    <od:hasKeyword>catching up</od:hasKeyword>
+    <od:hasKeyword>deviation</od:hasKeyword>
+    <od:hasKeyword>error</od:hasKeyword>
+    <od:hasKeyword>exception</od:hasKeyword>
+    <od:hasKeyword>execution priority</od:hasKeyword>
+    <od:hasKeyword>failure</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, ADEPT</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>backwards jump</od:toPattern>
+    <od:toPattern>forward jump</od:toPattern>
+    <od:toPattern>skipping</od:toPattern>
+    <dcterms:issued>2002</dcterms:issued>
+    <dcterms:title xml:lang="en">Modellierung planbarer Abweichungen in Workflow-Management-Systemen</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_152">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>4 eyes principle</od:hasKeyword>
+    <od:hasKeyword>4-eyes principle</od:hasKeyword>
+    <od:hasKeyword>BPR</od:hasKeyword>
+    <od:hasKeyword>SOA</od:hasKeyword>
+    <od:hasKeyword>Tomasulo</od:hasKeyword>
+    <od:hasKeyword>business process reenigineering</od:hasKeyword>
+    <od:hasKeyword>case management</od:hasKeyword>
+    <od:hasKeyword>case manager</od:hasKeyword>
+    <od:hasKeyword>chain of execution</od:hasKeyword>
+    <od:hasKeyword>control flow analysis</od:hasKeyword>
+    <od:hasKeyword>data flow analysis</od:hasKeyword>
+    <od:hasKeyword>delegation</od:hasKeyword>
+    <od:hasKeyword>dependability</od:hasKeyword>
+    <od:hasKeyword>design diversity</od:hasKeyword>
+    <od:hasKeyword>escalation</od:hasKeyword>
+    <od:hasKeyword>exception</od:hasKeyword>
+    <od:hasKeyword>fault tolerance</od:hasKeyword>
+    <od:hasKeyword>filter ordering</od:hasKeyword>
+    <od:hasKeyword>flexible assignment</od:hasKeyword>
+    <od:hasKeyword>flow variable speculation</od:hasKeyword>
+    <od:hasKeyword>four eyes principle</od:hasKeyword>
+    <od:hasKeyword>knock-out</od:hasKeyword>
+    <od:hasKeyword>nomination</od:hasKeyword>
+    <od:hasKeyword>order assignment</od:hasKeyword>
+    <od:hasKeyword>order distribution</od:hasKeyword>
+    <od:hasKeyword>parallelization</od:hasKeyword>
+    <od:hasKeyword>process administration role</od:hasKeyword>
+    <od:hasKeyword>redoing</od:hasKeyword>
+    <od:hasKeyword>reliability</od:hasKeyword>
+    <od:hasKeyword>resequencing</od:hasKeyword>
+    <od:hasKeyword>scoreboarding</od:hasKeyword>
+    <od:hasKeyword>service</od:hasKeyword>
+    <od:hasKeyword>service-oriented architecture</od:hasKeyword>
+    <od:hasKeyword>specialist-generalist</od:hasKeyword>
+    <od:hasKeyword>transaction</od:hasKeyword>
+    <od:hasKeyword>transactional support</od:hasKeyword>
+    <od:hasKeyword>web service</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.2</od:toCategory>
+    <od:toPattern>case manager</od:toPattern>
+    <od:toPattern>exception</od:toPattern>
+    <od:toPattern>flexible assignment</od:toPattern>
+    <od:toPattern>knock-out</od:toPattern>
+    <od:toPattern>knockout</od:toPattern>
+    <od:toPattern>order assignment</od:toPattern>
+    <od:toPattern>specialist-generalist</od:toPattern>
+    <od:toPattern>specialist/generalist</od:toPattern>
+    <od:toPattern>split responsibilities</od:toPattern>
+    <dcterms:issued>2012</dcterms:issued>
+    <dcterms:title xml:lang="en">Optimization of WS-BPEL Workflows through Business Process Re-Engineering Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_153">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>106</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>grid workflow</od:hasKeyword>
+    <od:hasKeyword>parallelism</od:hasKeyword>
+    <od:hasKeyword>scientific workflow</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Informal</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Researcher, IT Specialist</od:intendedUser>
+    <od:toCategory>3</od:toCategory>
+    <od:toPattern>Adaptive Data Parallelism</od:toPattern>
+    <od:toPattern>Best Effort Pipelines</od:toPattern>
+    <od:toPattern>Blocking Pipelines</od:toPattern>
+    <od:toPattern>Buffered Pipelines</od:toPattern>
+    <od:toPattern>Dynamic Data Parallelism</od:toPattern>
+    <od:toPattern>Parallel Execution</od:toPattern>
+    <od:toPattern>Piplined Execution</od:toPattern>
+    <od:toPattern>Simple Parallelism</od:toPattern>
+    <od:toPattern>Static Data Parallelism</od:toPattern>
+    <od:toPattern>Streaming Pipelines</od:toPattern>
+    <od:toPattern>SuperScalar Pipelines</od:toPattern>
+    <dcterms:issued>2016</dcterms:issued>
+    <dcterms:title xml:lang="en">Parallel Computing Patterns for Grid Workflows</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_154">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SLA</od:hasKeyword>
+    <od:hasKeyword>monitoring</od:hasKeyword>
+    <od:hasKeyword>service level</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, CPN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst &amp; IT Specialist</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <dcterms:issued>2015</dcterms:issued>
+    <dcterms:title xml:lang="en">Patterns and tools for business process monitoring customization</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_155">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>2</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>conceptual model</od:hasKeyword>
+    <od:hasKeyword>logical model</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Survey</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.2</od:toCategory>
+    <od:toPattern>Divide Complex Process Into Smaller Sub-Processes</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Patterns as an Artifact for Business Process Improvement - Insights from a Case Study</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_156">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>8</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>adaption</od:hasKeyword>
+    <od:hasKeyword>adaption pattern</od:hasKeyword>
+    <od:hasKeyword>adaptive workflow segment</od:hasKeyword>
+    <od:hasKeyword>domain engineering</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Industry</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>Abort Compensate and Escalate</od:toPattern>
+    <od:toPattern>Abort Compensate and Restart</od:toPattern>
+    <od:toPattern>Abort Compensate and Resume</od:toPattern>
+    <od:toPattern>Abort Try Resolve Restart or Escalate</od:toPattern>
+    <od:toPattern>Abort and Continue Flow</od:toPattern>
+    <od:toPattern>Copy Segment</od:toPattern>
+    <od:toPattern>Insert Segment</od:toPattern>
+    <od:toPattern>Insert Segment After</od:toPattern>
+    <od:toPattern>Insert Segment Before</od:toPattern>
+    <od:toPattern>Insert Segment Parallel</od:toPattern>
+    <od:toPattern>Loop Segment</od:toPattern>
+    <od:toPattern>Move Segment</od:toPattern>
+    <od:toPattern>Optional Spawn Synched Task</od:toPattern>
+    <od:toPattern>Optional Spawn Synchronised Task</od:toPattern>
+    <od:toPattern>Optional Spawn Synchronized Task</od:toPattern>
+    <od:toPattern>Parallelise Activities</od:toPattern>
+    <od:toPattern>Parallelize Activities</od:toPattern>
+    <od:toPattern>Periodic Segment</od:toPattern>
+    <od:toPattern>Replace Segment</od:toPattern>
+    <od:toPattern>Schedule Independent Segment</od:toPattern>
+    <od:toPattern>Schedule Parallel Segment</od:toPattern>
+    <od:toPattern>Schedule-Restricted Segment</od:toPattern>
+    <od:toPattern>Segment Delayed Execution</od:toPattern>
+    <od:toPattern>Segment Externally Completed</od:toPattern>
+    <od:toPattern>Segment Externally Triggered</od:toPattern>
+    <od:toPattern>Segment Minimum Duration Time</od:toPattern>
+    <od:toPattern>Segment Time Lag</od:toPattern>
+    <od:toPattern>Segment Wait For After</od:toPattern>
+    <od:toPattern>Segment Wait For Before</od:toPattern>
+    <od:toPattern>Segment Wait For Parallel</od:toPattern>
+    <od:toPattern>Segment WaitFor After</od:toPattern>
+    <od:toPattern>Segment WaitFor Before</od:toPattern>
+    <od:toPattern>Segment WaitFor Parallel</od:toPattern>
+    <od:toPattern>Signal Segment Completion</od:toPattern>
+    <od:toPattern>Skip segment</od:toPattern>
+    <od:toPattern>Spawn Segment</od:toPattern>
+    <od:toPattern>Subsequent Execution Delay</od:toPattern>
+    <od:toPattern>Subsequent Execution Restriction</od:toPattern>
+    <od:toPattern>Swap Segment</od:toPattern>
+    <od:toPattern>Validity Period</od:toPattern>
+    <od:toPattern>Wrap Segment</od:toPattern>
+    <od:toPattern>Wrap Segment in Event Handler</od:toPattern>
+    <dcterms:issued>2011</dcterms:issued>
+    <dcterms:title xml:lang="en">Patterns for Flexible BPMN Workflows</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_157">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>5</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>AND-branches</od:hasKeyword>
+    <od:hasKeyword>MDA</od:hasKeyword>
+    <od:hasKeyword>PIM</od:hasKeyword>
+    <od:hasKeyword>grid resource</od:hasKeyword>
+    <od:hasKeyword>grid service</od:hasKeyword>
+    <od:hasKeyword>model-driven architecture</od:hasKeyword>
+    <od:hasKeyword>platform independent model</od:hasKeyword>
+    <od:hasKeyword>semantic composition</od:hasKeyword>
+    <od:hasKeyword>service composition</od:hasKeyword>
+    <od:hasKeyword>workflow composition</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, UML</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Domain-Specific</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Resource</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>2.1</od:toCategory>
+    <od:toPattern>Alternative Branches</od:toPattern>
+    <od:toPattern>Alternative Services</od:toPattern>
+    <od:toPattern>Loop</od:toPattern>
+    <od:toPattern>Sequence</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Patterns for Modeling and Composing Workflows from Grid Services</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_158">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>57</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>access</od:hasKeyword>
+    <od:hasKeyword>aggregating</od:hasKeyword>
+    <od:hasKeyword>aggregation</od:hasKeyword>
+    <od:hasKeyword>assemble</od:hasKeyword>
+    <od:hasKeyword>assembling</od:hasKeyword>
+    <od:hasKeyword>availability</od:hasKeyword>
+    <od:hasKeyword>capacity</od:hasKeyword>
+    <od:hasKeyword>choose</od:hasKeyword>
+    <od:hasKeyword>collection</od:hasKeyword>
+    <od:hasKeyword>coloured Petri net</od:hasKeyword>
+    <od:hasKeyword>concurrency</od:hasKeyword>
+    <od:hasKeyword>concurrent access</od:hasKeyword>
+    <od:hasKeyword>consistency</od:hasKeyword>
+    <od:hasKeyword>control</od:hasKeyword>
+    <od:hasKeyword>create</od:hasKeyword>
+    <od:hasKeyword>creation</od:hasKeyword>
+    <od:hasKeyword>decomposing</od:hasKeyword>
+    <od:hasKeyword>decomposition</od:hasKeyword>
+    <od:hasKeyword>discern</od:hasKeyword>
+    <od:hasKeyword>exclusive lock</od:hasKeyword>
+    <od:hasKeyword>generation</od:hasKeyword>
+    <od:hasKeyword>inspect</od:hasKeyword>
+    <od:hasKeyword>inspection</od:hasKeyword>
+    <od:hasKeyword>merge</od:hasKeyword>
+    <od:hasKeyword>monitor</od:hasKeyword>
+    <od:hasKeyword>monitoring</od:hasKeyword>
+    <od:hasKeyword>shared lock</od:hasKeyword>
+    <od:hasKeyword>synchronizing</od:hasKeyword>
+    <od:hasKeyword>throughput</od:hasKeyword>
+    <od:hasKeyword>transfer</od:hasKeyword>
+    <od:hasKeyword>transferring</od:hasKeyword>
+    <od:hasKeyword>transform</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, CPN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2, 3</od:toCategory>
+    <od:toPattern>aggregate objects</od:toPattern>
+    <od:toPattern>asynchronous aggregator</od:toPattern>
+    <od:toPattern>asynchronous router</od:toPattern>
+    <od:toPattern>asynchronous transfer</od:toPattern>
+    <od:toPattern>bi-lock manager</od:toPattern>
+    <od:toPattern>blocking state-dependent filter</od:toPattern>
+    <od:toPattern>blocking state-independent filter</od:toPattern>
+    <od:toPattern>broadcasting</od:toPattern>
+    <od:toPattern>capacity-bounding</od:toPattern>
+    <od:toPattern>colored inhibitor arc</od:toPattern>
+    <od:toPattern>coloured inhibitor arc</od:toPattern>
+    <od:toPattern>copy manager</od:toPattern>
+    <od:toPattern>data distributor</od:toPattern>
+    <od:toPattern>data merger</od:toPattern>
+    <od:toPattern>database management</od:toPattern>
+    <od:toPattern>deterministic xor-split</od:toPattern>
+    <od:toPattern>fifo queue</od:toPattern>
+    <od:toPattern>id manager</od:toPattern>
+    <od:toPattern>id matching</od:toPattern>
+    <od:toPattern>inclusive or</od:toPattern>
+    <od:toPattern>inhibitor arc</od:toPattern>
+    <od:toPattern>ior</od:toPattern>
+    <od:toPattern>lifo queue</od:toPattern>
+    <od:toPattern>lock manager</od:toPattern>
+    <od:toPattern>log manager</od:toPattern>
+    <od:toPattern>non-deterministic xor-split</od:toPattern>
+    <od:toPattern>or</od:toPattern>
+    <od:toPattern>priority queue</od:toPattern>
+    <od:toPattern>queue</od:toPattern>
+    <od:toPattern>random queue</od:toPattern>
+    <od:toPattern>redundancy manager</od:toPattern>
+    <od:toPattern>rendez-vous</od:toPattern>
+    <od:toPattern>rendezvous</od:toPattern>
+    <od:toPattern>shared database</od:toPattern>
+    <od:toPattern>synchronous transfer</od:toPattern>
+    <od:toPattern>translator</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Patterns in Colored Petri Nets</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_159">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>56</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SBVR</od:hasKeyword>
+    <od:hasKeyword>SOA</od:hasKeyword>
+    <od:hasKeyword>adaptability</od:hasKeyword>
+    <od:hasKeyword>business rule</od:hasKeyword>
+    <od:hasKeyword>process composition</od:hasKeyword>
+    <od:hasKeyword>service composition</od:hasKeyword>
+    <od:hasKeyword>service-oriented architecture</od:hasKeyword>
+    <od:hasKeyword>web services</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst &amp; IT Specialist</od:intendedUser>
+    <od:toCategory>3</od:toCategory>
+    <dcterms:issued>2008</dcterms:issued>
+    <dcterms:title xml:lang="en">Patterns of Business Rules to Enable Agile Business Processes</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_160">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>32</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>co-work</od:hasKeyword>
+    <od:hasKeyword>collaboration</od:hasKeyword>
+    <od:hasKeyword>collective</od:hasKeyword>
+    <od:hasKeyword>repository</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.3</od:toCategory>
+    <od:toPattern>check in and merge</od:toPattern>
+    <od:toPattern>co-work</od:toPattern>
+    <od:toPattern>collective merge</od:toPattern>
+    <od:toPattern>collective synchronization</od:toPattern>
+    <od:toPattern>delegated work</od:toPattern>
+    <od:toPattern>distributed merge</od:toPattern>
+    <od:toPattern>distributed synchronization</od:toPattern>
+    <od:toPattern>division of labor</od:toPattern>
+    <od:toPattern>division of labour</od:toPattern>
+    <od:toPattern>individual synchronization</od:toPattern>
+    <od:toPattern>master/slave</od:toPattern>
+    <od:toPattern>multiprocessing</od:toPattern>
+    <od:toPattern>mutual exclusion</od:toPattern>
+    <od:toPattern>procucer/reviewer</od:toPattern>
+    <dcterms:issued>1998</dcterms:issued>
+    <dcterms:title xml:lang="en">Process model patterns for collaborative work</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_161">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>25</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>CADS</od:hasKeyword>
+    <od:hasKeyword>PROPEL</od:hasKeyword>
+    <od:hasKeyword>software process</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.1</od:toCategory>
+    <od:toPattern>Capture Vocabulary centrally</od:toPattern>
+    <od:toPattern>Capture Vocabulary participatorily</od:toPattern>
+    <od:toPattern>Capture a Common Vocabulary</od:toPattern>
+    <od:toPattern>Develop requirements management plan</od:toPattern>
+    <od:toPattern>Develop vision</od:toPattern>
+    <od:toPattern>Inspect Requirements</od:toPattern>
+    <od:toPattern>Introductional Session</od:toPattern>
+    <od:toPattern>Release</od:toPattern>
+    <od:toPattern>Review</od:toPattern>
+    <od:toPattern>Review Session</od:toPattern>
+    <od:toPattern>Review requirements</od:toPattern>
+    <od:toPattern>Walkthrough Requirements</od:toPattern>
+    <dcterms:issued>2004</dcterms:issued>
+    <dcterms:title xml:lang="en">Process Patterns - a Means to Describe Processes in a Flexible Way</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_162">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>42</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>augmentation</od:hasKeyword>
+    <od:hasKeyword>business perspective</od:hasKeyword>
+    <od:hasKeyword>complexity</od:hasKeyword>
+    <od:hasKeyword>customization</od:hasKeyword>
+    <od:hasKeyword>inter-view</od:hasKeyword>
+    <od:hasKeyword>model transformation</od:hasKeyword>
+    <od:hasKeyword>presentation</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasKeyword>view</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.1</od:toCategory>
+    <od:toPattern>Appearance</od:toPattern>
+    <od:toPattern>Calculated information</od:toPattern>
+    <od:toPattern>Choreography inter-view</od:toPattern>
+    <od:toPattern>Consistency preservation</od:toPattern>
+    <od:toPattern>Construct preservation</od:toPattern>
+    <od:toPattern>Executability preservation</od:toPattern>
+    <od:toPattern>Human-assisted augmentation</od:toPattern>
+    <od:toPattern>Orchestration inter-view</od:toPattern>
+    <od:toPattern>Runtime information</od:toPattern>
+    <od:toPattern>Scheme</od:toPattern>
+    <od:toPattern>abstraction</od:toPattern>
+    <od:toPattern>aggregation</od:toPattern>
+    <od:toPattern>alteration</od:toPattern>
+    <od:toPattern>custom categories</od:toPattern>
+    <od:toPattern>custom category</od:toPattern>
+    <od:toPattern>insertion</od:toPattern>
+    <od:toPattern>layout</od:toPattern>
+    <od:toPattern>logical information</od:toPattern>
+    <od:toPattern>omission</od:toPattern>
+    <od:toPattern>organizational information</od:toPattern>
+    <od:toPattern>preservation</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Process Viewing Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_163">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasCitationCount>5</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>PDDQM</od:hasKeyword>
+    <od:hasKeyword>collapse</od:hasKeyword>
+    <od:hasKeyword>compacting</od:hasKeyword>
+    <od:hasKeyword>complexity</od:hasKeyword>
+    <od:hasKeyword>complexity reduction</od:hasKeyword>
+    <od:hasKeyword>composition</od:hasKeyword>
+    <od:hasKeyword>comprehensibility</od:hasKeyword>
+    <od:hasKeyword>data quality</od:hasKeyword>
+    <od:hasKeyword>duplication</od:hasKeyword>
+    <od:hasKeyword>merging</od:hasKeyword>
+    <od:hasKeyword>metric</od:hasKeyword>
+    <od:hasKeyword>modularization</od:hasKeyword>
+    <od:hasKeyword>omission</od:hasKeyword>
+    <od:hasKeyword>quality check</od:hasKeyword>
+    <od:hasKeyword>review</od:hasKeyword>
+    <od:hasKeyword>understandability</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Survey</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.2</od:toCategory>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Process-Driven Data Quality Management Through Integration of Data Quality into Existing Process Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_164">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>7</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>agent-based</od:hasKeyword>
+    <od:hasKeyword>interaction</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.1</od:toCategory>
+    <od:toPattern>MVC</od:toPattern>
+    <od:toPattern>agent-based model</od:toPattern>
+    <od:toPattern>court case</od:toPattern>
+    <od:toPattern>diffusor</od:toPattern>
+    <od:toPattern>learning</od:toPattern>
+    <od:toPattern>logo world</od:toPattern>
+    <od:toPattern>model-view-controller</od:toPattern>
+    <od:toPattern>scheduler</od:toPattern>
+    <od:toPattern>scheduler scramble</od:toPattern>
+    <od:toPattern>step by step</od:toPattern>
+    <od:toPattern>step-by-step</od:toPattern>
+    <od:toPattern>story time</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Product and process patterns for agent-based modelling and simulation</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_165">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>20</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>asset</od:hasKeyword>
+    <od:hasKeyword>attack</od:hasKeyword>
+    <od:hasKeyword>availability</od:hasKeyword>
+    <od:hasKeyword>checksum</od:hasKeyword>
+    <od:hasKeyword>confidentiality</od:hasKeyword>
+    <od:hasKeyword>countermeasure</od:hasKeyword>
+    <od:hasKeyword>cryptography</od:hasKeyword>
+    <od:hasKeyword>data protection</od:hasKeyword>
+    <od:hasKeyword>denial of service</od:hasKeyword>
+    <od:hasKeyword>dos</od:hasKeyword>
+    <od:hasKeyword>encryption</od:hasKeyword>
+    <od:hasKeyword>flooding</od:hasKeyword>
+    <od:hasKeyword>input canonicalisation</od:hasKeyword>
+    <od:hasKeyword>input canonicalization</od:hasKeyword>
+    <od:hasKeyword>input filtration</od:hasKeyword>
+    <od:hasKeyword>input sanitisation</od:hasKeyword>
+    <od:hasKeyword>input validation</od:hasKeyword>
+    <od:hasKeyword>integrity</od:hasKeyword>
+    <od:hasKeyword>migitation</od:hasKeyword>
+    <od:hasKeyword>risk avoidance</od:hasKeyword>
+    <od:hasKeyword>risk reduction</od:hasKeyword>
+    <od:hasKeyword>risk treatment</od:hasKeyword>
+    <od:hasKeyword>security</od:hasKeyword>
+    <od:hasKeyword>security objective</od:hasKeyword>
+    <od:hasKeyword>threat</od:hasKeyword>
+    <od:hasKeyword>vulnerability</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.2</od:toCategory>
+    <od:toPattern>Securing business activity after data is submitted</od:toPattern>
+    <od:toPattern>Securing business services against DoS attacks</od:toPattern>
+    <od:toPattern>Securing data from unauthorised access</od:toPattern>
+    <od:toPattern>Securing data stored in/retrieved from the data store</od:toPattern>
+    <od:toPattern>Securing data that flow between the business entities</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Securing business processes using security risk-oriented patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_166">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>21</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>Generic Process Model</od:hasKeyword>
+    <od:hasKeyword>control flow</od:hasKeyword>
+    <od:hasKeyword>ontology</od:hasKeyword>
+    <od:hasKeyword>workflow pattern</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>Concurrency with FIFO merge</od:toPattern>
+    <od:toPattern>Concurrency with First-in-first-out merge</od:toPattern>
+    <od:toPattern>Concurrency with asymmetric synchronization/competition</od:toPattern>
+    <od:toPattern>Concurrency with competition</od:toPattern>
+    <od:toPattern>Concurrency with synchronization</od:toPattern>
+    <od:toPattern>Multi-choice with FIFO merge</od:toPattern>
+    <od:toPattern>Multi-choice with First- in-first-out merge</od:toPattern>
+    <od:toPattern>Multi-choice with asymmetric synchronization/FIFO</od:toPattern>
+    <od:toPattern>Multi-choice with asymmetric synchronization/competition</od:toPattern>
+    <od:toPattern>Multi-choice with competition</od:toPattern>
+    <od:toPattern>Multi-choice with synchronization</od:toPattern>
+    <od:toPattern>Two domain exclusive choice</od:toPattern>
+    <od:toPattern>concurrency with asymmetric synchronization/FIFO</od:toPattern>
+    <od:toPattern>single domain exclusive choice</od:toPattern>
+    <dcterms:issued>2007</dcterms:issued>
+    <dcterms:title xml:lang="en">Semantic Analysis of Flow Patterns in Business Process Modeling</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_167">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>415</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SOA</od:hasKeyword>
+    <od:hasKeyword>receive</od:hasKeyword>
+    <od:hasKeyword>send</od:hasKeyword>
+    <od:hasKeyword>service-oriented architecture</od:hasKeyword>
+    <od:hasKeyword>web service</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>4.1</od:toCategory>
+    <od:toPattern>atomic multicast notification</od:toPattern>
+    <od:toPattern>contingent requests</od:toPattern>
+    <od:toPattern>dynamic routing</od:toPattern>
+    <od:toPattern>multi-responses</od:toPattern>
+    <od:toPattern>one-from-many receive</od:toPattern>
+    <od:toPattern>one-to-many send</od:toPattern>
+    <od:toPattern>racing incoming messages</od:toPattern>
+    <od:toPattern>relayed request</od:toPattern>
+    <od:toPattern>request with referral</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Service Interaction Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_168">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>99</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SOA</od:hasKeyword>
+    <od:hasKeyword>choreography</od:hasKeyword>
+    <od:hasKeyword>integration</od:hasKeyword>
+    <od:hasKeyword>interaction</od:hasKeyword>
+    <od:hasKeyword>message</od:hasKeyword>
+    <od:hasKeyword>receive</od:hasKeyword>
+    <od:hasKeyword>refinement</od:hasKeyword>
+    <od:hasKeyword>send</od:hasKeyword>
+    <od:hasKeyword>service adapter</od:hasKeyword>
+    <od:hasKeyword>service composition</od:hasKeyword>
+    <od:hasKeyword>service replacement</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Extension, Petri Net</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>4.1</od:toCategory>
+    <od:toPattern>concurrent receive</od:toPattern>
+    <od:toPattern>concurrent send</od:toPattern>
+    <od:toPattern>correlation broker</od:toPattern>
+    <od:toPattern>correlation swap</od:toPattern>
+    <od:toPattern>following correlated receive</od:toPattern>
+    <od:toPattern>following correlated send</od:toPattern>
+    <od:toPattern>internal choice</od:toPattern>
+    <od:toPattern>internal choice receiving follow-up</od:toPattern>
+    <od:toPattern>leading correlated receive</od:toPattern>
+    <od:toPattern>leading correlated send</od:toPattern>
+    <od:toPattern>lossy receive</od:toPattern>
+    <od:toPattern>post-blocking send</od:toPattern>
+    <od:toPattern>pre-blocking send</od:toPattern>
+    <od:toPattern>receive</od:toPattern>
+    <od:toPattern>receiving choice</od:toPattern>
+    <od:toPattern>receiving choice sending follow-up</od:toPattern>
+    <od:toPattern>send</od:toPattern>
+    <od:toPattern>sending choice</od:toPattern>
+    <od:toPattern>sending choice receiving follow-up</od:toPattern>
+    <od:toPattern>uncorrelated send</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Service Interaction: Patterns, Formalization, and Analysis</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_169">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>acceptance</od:hasKeyword>
+    <od:hasKeyword>administrative decision</od:hasKeyword>
+    <od:hasKeyword>approval</od:hasKeyword>
+    <od:hasKeyword>authentication</od:hasKeyword>
+    <od:hasKeyword>authorisation</od:hasKeyword>
+    <od:hasKeyword>authorization</od:hasKeyword>
+    <od:hasKeyword>document</od:hasKeyword>
+    <od:hasKeyword>permission</od:hasKeyword>
+    <od:hasKeyword>review</od:hasKeyword>
+    <od:hasKeyword>reviewing</od:hasKeyword>
+    <od:hasKeyword>signature workflow</od:hasKeyword>
+    <od:hasKeyword>signing</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Organization</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>5.2</od:toCategory>
+    <od:toPattern>additional countersignature</od:toPattern>
+    <od:toPattern>dynamic countersignature</od:toPattern>
+    <od:toPattern>jump signature</od:toPattern>
+    <od:toPattern>sequential signature</od:toPattern>
+    <od:toPattern>static countersignature</od:toPattern>
+    <dcterms:issued>2012</dcterms:issued>
+    <dcterms:title xml:lang="en">Simplifying the Design of Signature Workflow with Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_170">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>24</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>SPEM</od:hasKeyword>
+    <od:hasKeyword>role blueprint</od:hasKeyword>
+    <od:hasKeyword>role definition</od:hasKeyword>
+    <od:hasKeyword>software process</od:hasKeyword>
+    <od:hasKeyword>task blueprint</od:hasKeyword>
+    <od:hasKeyword>task definition</od:hasKeyword>
+    <od:hasKeyword>work product blueprint</od:hasKeyword>
+    <od:hasKeyword>work product definition</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, polymetric views</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No (mentioned, but without link)</od:hasToolSupport>
+    <od:hasView>Function &amp; Resource</od:hasView>
+    <od:intendedUser>IT Specialist</od:intendedUser>
+    <od:toCategory>8.1</od:toCategory>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Software Process Model Blueprints</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_171">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>34</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>EAM</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Resource</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2, 2.1</od:toCategory>
+    <od:toPattern>Architecture Control by Applying a Release Workflow</od:toPattern>
+    <od:toPattern>Automatic Data Acquisition/Maintenance</od:toPattern>
+    <od:toPattern>Centralised Manual Data Acquisition/Maintenance</od:toPattern>
+    <od:toPattern>Decentralised Manual Data Acquisition/Maintenance</od:toPattern>
+    <od:toPattern>Lifecycle Management</od:toPattern>
+    <od:toPattern>Verification and Audit</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Some Process Patterns for Enterprise Architecture Management</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_172">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>9</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>administration</od:hasKeyword>
+    <od:hasKeyword>administrative workflow</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML AD</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>4.3</od:toCategory>
+    <od:toPattern>register</od:toPattern>
+    <od:toPattern>validate</od:toPattern>
+    <dcterms:issued>2002</dcterms:issued>
+    <dcterms:title xml:lang="en">Specifying And Analysing Static And Dynamic Patterns Of Administrative Processes</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_173">
+    <od:extendOfDocumentation>Complete (werden in der Dissertation von Kühn beschrieben)</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>8</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>EAI</od:hasKeyword>
+    <od:hasKeyword>EMI</od:hasKeyword>
+    <od:hasKeyword>enterprise application integration</od:hasKeyword>
+    <od:hasKeyword>enterprise model integration</od:hasKeyword>
+    <od:hasKeyword>strategy</od:hasKeyword>
+    <od:hasKeyword>strategy management</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst &amp; IT Specialist</od:intendedUser>
+    <od:toCategory>8.2</od:toCategory>
+    <od:toPattern>concept mapping</od:toPattern>
+    <od:toPattern>concept-mapping</od:toPattern>
+    <od:toPattern>fragment</od:toPattern>
+    <od:toPattern>merge</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Strategie-, Prozess- und IT-Management: Ein Pattern-orientierter Integrationsansatz</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_174">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>76</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>causal footprint</od:hasKeyword>
+    <od:hasKeyword>causality graph</od:hasKeyword>
+    <od:hasKeyword>soundness</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Petri Net, EPC</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>Deadlock</od:toPattern>
+    <od:toPattern>Generalised Trap</od:toPattern>
+    <od:toPattern>Generalized Trap</od:toPattern>
+    <od:toPattern>Multiple Termination</od:toPattern>
+    <od:toPattern>Trap</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">Structural Patterns for Soundness of Business Process Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_175">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>17</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>MDA</od:hasKeyword>
+    <od:hasKeyword>model driven architecture</od:hasKeyword>
+    <od:hasKeyword>model transformation</od:hasKeyword>
+    <od:hasKeyword>nested branching</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.3</od:toCategory>
+    <od:toPattern>alternative</od:toPattern>
+    <od:toPattern>branching</od:toPattern>
+    <od:toPattern>end</od:toPattern>
+    <od:toPattern>loop</od:toPattern>
+    <od:toPattern>multiple alternative</od:toPattern>
+    <od:toPattern>parallel</od:toPattern>
+    <od:toPattern>sequential-path</od:toPattern>
+    <od:toPattern>start</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">Structural Patterns for the Transformation of Business Process Models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_176">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>4</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>activity-control diagram</od:hasKeyword>
+    <od:hasKeyword>causal ordering</od:hasKeyword>
+    <od:hasKeyword>causal relationship</od:hasKeyword>
+    <od:hasKeyword>failure diagnosis</od:hasKeyword>
+    <od:hasKeyword>failure reasoning</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>Yes</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>AND split AND join</od:toPattern>
+    <od:toPattern>AND-OR</od:toPattern>
+    <od:toPattern>All-Out-Priority-Join</od:toPattern>
+    <od:toPattern>COUNT split OR join</od:toPattern>
+    <od:toPattern>Custom</od:toPattern>
+    <od:toPattern>Decision</od:toPattern>
+    <od:toPattern>Display</od:toPattern>
+    <od:toPattern>Exchange</od:toPattern>
+    <od:toPattern>Information</od:toPattern>
+    <od:toPattern>Integration</od:toPattern>
+    <od:toPattern>Invoke</od:toPattern>
+    <od:toPattern>Module</od:toPattern>
+    <od:toPattern>Priority split OR join</od:toPattern>
+    <od:toPattern>Retrieval</od:toPattern>
+    <od:toPattern>Transformation</od:toPattern>
+    <od:toPattern>split-join</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Structured design, consistency analysis and failure reasoning of business workflows with activity-control templates and causal ordering</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_177">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>29</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>BPR</od:hasKeyword>
+    <od:hasKeyword>business process reenigineering</od:hasKeyword>
+    <od:hasKeyword>change</od:hasKeyword>
+    <od:hasKeyword>improvement</od:hasKeyword>
+    <od:hasKeyword>process improvement</od:hasKeyword>
+    <od:hasKeyword>process performance</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, ARIS Toolset</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.2</od:toCategory>
+    <od:toPattern>Addition</od:toPattern>
+    <od:toPattern>Elimination</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">The Idea behind Business Process Improvement: Toward a Business Process Improvement Pattern Framework</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_178">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>58</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>constraint</od:hasKeyword>
+    <od:hasKeyword>duration</od:hasKeyword>
+    <od:hasKeyword>temporal</od:hasKeyword>
+    <od:hasKeyword>time lag</od:hasKeyword>
+    <od:hasKeyword>timing</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Case Study &amp; Survey</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <od:toPattern>Appointment Series</od:toPattern>
+    <od:toPattern>Cyclic Elements</od:toPattern>
+    <od:toPattern>Deadline</od:toPattern>
+    <od:toPattern>Durations</od:toPattern>
+    <od:toPattern>Fixed Date Elements</od:toPattern>
+    <od:toPattern>Inter-Task Constraints</od:toPattern>
+    <od:toPattern>Mutual Exclusion</od:toPattern>
+    <od:toPattern>Periodicity</od:toPattern>
+    <od:toPattern>Recurrence</od:toPattern>
+    <od:toPattern>Schedule Restricted Elements</od:toPattern>
+    <od:toPattern>Temporal Relations</od:toPattern>
+    <od:toPattern>Time Lags between Arbitrary Events</od:toPattern>
+    <od:toPattern>Time Lags between two Activities</od:toPattern>
+    <od:toPattern>Time-based Restrictions</od:toPattern>
+    <od:toPattern>Time-dependent Variability</od:toPattern>
+    <od:toPattern>Upper and Lower Bound Constraints</od:toPattern>
+    <od:toPattern>Validity Period</od:toPattern>
+    <dcterms:issued>2012</dcterms:issued>
+    <dcterms:title xml:lang="en">Time patterns for process-aware information systems</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_179">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Survey</od:hasArticleType>
+    <od:hasCitationCount>11</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>BPR</od:hasKeyword>
+    <od:hasKeyword>change</od:hasKeyword>
+    <od:hasKeyword>improvement</od:hasKeyword>
+    <od:hasKeyword>process improvement</od:hasKeyword>
+    <od:hasKeyword>process performance</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.2</od:toCategory>
+    <od:toPattern>Adapt</od:toPattern>
+    <od:toPattern>Combine</od:toPattern>
+    <od:toPattern>Create</od:toPattern>
+    <od:toPattern>Decide</od:toPattern>
+    <od:toPattern>Eliminate</od:toPattern>
+    <od:toPattern>Magnify</od:toPattern>
+    <od:toPattern>Manage</od:toPattern>
+    <od:toPattern>Minimize</od:toPattern>
+    <od:toPattern>Move</od:toPattern>
+    <od:toPattern>Preserve</od:toPattern>
+    <od:toPattern>Put to other uses</od:toPattern>
+    <od:toPattern>Rearrange</od:toPattern>
+    <od:toPattern>Separate</od:toPattern>
+    <od:toPattern>Substitute</od:toPattern>
+    <od:toPattern>Use</od:toPattern>
+    <dcterms:issued>2013</dcterms:issued>
+    <dcterms:title xml:lang="en">Towards a framework for identifying business process redesign patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_180">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>29</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>e-science</od:hasKeyword>
+    <od:hasKeyword>scientific workflow management system</od:hasKeyword>
+    <od:hasKeyword>scientific workflow system</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Domain-Specific</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Researcher</od:intendedUser>
+    <od:toCategory>1.2, 3</od:toCategory>
+    <od:toPattern>Data token duplication</od:toPattern>
+    <od:toPattern>Sequential Control and Concurrent Data</od:toPattern>
+    <od:toPattern>Sequential Control and Sequential Data</od:toPattern>
+    <od:toPattern>Single activity with multiple input and/or mul- tiple output dependencies</od:toPattern>
+    <od:toPattern>Single activity with one input and one output dependency</od:toPattern>
+    <od:toPattern>Synchronization of sequential data tokens</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Towards scientific workflow patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_181">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Evaluation Research</od:hasArticleType>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>4 eyes principle</od:hasKeyword>
+    <od:hasKeyword>4-eyes principle</od:hasKeyword>
+    <od:hasKeyword>GMQL</od:hasKeyword>
+    <od:hasKeyword>MaRisk</od:hasKeyword>
+    <od:hasKeyword>agreement</od:hasKeyword>
+    <od:hasKeyword>compliance auditing</od:hasKeyword>
+    <od:hasKeyword>compliance checking</od:hasKeyword>
+    <od:hasKeyword>compliance management</od:hasKeyword>
+    <od:hasKeyword>compliance monitoring</od:hasKeyword>
+    <od:hasKeyword>compliance rule</od:hasKeyword>
+    <od:hasKeyword>confirmation</od:hasKeyword>
+    <od:hasKeyword>credit decision</od:hasKeyword>
+    <od:hasKeyword>dunning</od:hasKeyword>
+    <od:hasKeyword>four eyes principle</od:hasKeyword>
+    <od:hasKeyword>identification</od:hasKeyword>
+    <od:hasKeyword>legal text</od:hasKeyword>
+    <od:hasKeyword>money laundering</od:hasKeyword>
+    <od:hasKeyword>query language</od:hasKeyword>
+    <od:hasKeyword>recurring check</od:hasKeyword>
+    <od:hasKeyword>regulatory compliance</od:hasKeyword>
+    <od:hasKeyword>settlement</od:hasKeyword>
+    <od:hasKeyword>split responsibilities</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Manual Mining</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <od:toPattern>4 eyes principle</od:toPattern>
+    <od:toPattern>4-eyes principle</od:toPattern>
+    <od:toPattern>agreement</od:toPattern>
+    <od:toPattern>confirmation</od:toPattern>
+    <od:toPattern>credit decision</od:toPattern>
+    <od:toPattern>dunning</od:toPattern>
+    <od:toPattern>four eyes principle</od:toPattern>
+    <od:toPattern>identification</od:toPattern>
+    <od:toPattern>identification-transaction</od:toPattern>
+    <od:toPattern>recurring check</od:toPattern>
+    <od:toPattern>settlement</od:toPattern>
+    <dcterms:issued>2015</dcterms:issued>
+    <dcterms:title xml:lang="en">Towards Supporting Business Process Compliance Checking with Compliance Pattern Catalogues - A Financial Industry Case Study</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_182">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>11</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>business model</od:hasKeyword>
+    <od:hasKeyword>business rationale</od:hasKeyword>
+    <od:hasKeyword>e3value</od:hasKeyword>
+    <od:hasKeyword>economic conversion</od:hasKeyword>
+    <od:hasKeyword>economic exchange</od:hasKeyword>
+    <od:hasKeyword>economic resource</od:hasKeyword>
+    <od:hasKeyword>trust</od:hasKeyword>
+    <od:hasKeyword>value conversion</od:hasKeyword>
+    <od:hasKeyword>value engineering</od:hasKeyword>
+    <od:hasKeyword>value exchange</od:hasKeyword>
+    <od:hasKeyword>value model</od:hasKeyword>
+    <od:hasKeyword>value objec</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, e3-value</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>6.1</od:toCategory>
+    <od:toPattern>commitment authorisation</od:toPattern>
+    <od:toPattern>commitment confirmation</od:toPattern>
+    <od:toPattern>compensation</od:toPattern>
+    <od:toPattern>post verification</od:toPattern>
+    <od:toPattern>pre-execution</od:toPattern>
+    <od:toPattern>receipt</od:toPattern>
+    <od:toPattern>verification</od:toPattern>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:title xml:lang="en">Towards Value-based Design Patterns for Inter-Organizational Control</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_183">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>goal modeling</od:hasKeyword>
+    <od:hasKeyword>goal modelling</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.2</od:toCategory>
+    <od:toPattern>decomposition-by-cases</od:toPattern>
+    <od:toPattern>divide-and-conquer</od:toPattern>
+    <od:toPattern>guard-introduction</od:toPattern>
+    <od:toPattern>milestone-driven</od:toPattern>
+    <od:toPattern>uncontrability-driven</od:toPattern>
+    <od:toPattern>unmonitorability-driven</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Transformation Approach from KAOS Goal Models to BPMN Models Using Refinement Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_184">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>4</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>UML</od:hasKeyword>
+    <od:hasKeyword>UML activity diagram</od:hasKeyword>
+    <od:hasKeyword>activity diagram</od:hasKeyword>
+    <od:hasKeyword>stepwise refinement</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, UML AD</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.1</od:toCategory>
+    <od:toPattern>alternative</od:toPattern>
+    <od:toPattern>sequence</od:toPattern>
+    <dcterms:issued>2012</dcterms:issued>
+    <dcterms:title xml:lang="en">UML AD Refinement Patterns for Modeling Workflow Applications</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_185">
+    <od:extendOfDocumentation>Partial</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>UML activity diagrams</od:hasKeyword>
+    <od:hasKeyword>transformation</od:hasKeyword>
+    <od:hasLanguageDependency>Yes</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, EPC, UML AD</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>dissection of events</od:toPattern>
+    <od:toPattern>sequential events</od:toPattern>
+    <dcterms:issued>2002</dcterms:issued>
+    <dcterms:title xml:lang="en">UML design patterns for business processes</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_186">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>3</od:hasCitationCount>
+    <od:hasGuidelines>Yes</od:hasGuidelines>
+    <od:hasKeyword>REA</od:hasKeyword>
+    <od:hasKeyword>business model</od:hasKeyword>
+    <od:hasKeyword>business rationale</od:hasKeyword>
+    <od:hasKeyword>economic agent</od:hasKeyword>
+    <od:hasKeyword>economic conversion</od:hasKeyword>
+    <od:hasKeyword>economic exchange</od:hasKeyword>
+    <od:hasKeyword>economic resource</od:hasKeyword>
+    <od:hasKeyword>resource-event-agent</od:hasKeyword>
+    <od:hasKeyword>value conversion</od:hasKeyword>
+    <od:hasKeyword>value exchange</od:hasKeyword>
+    <od:hasKeyword>value model</od:hasKeyword>
+    <od:hasKeyword>value object</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, REA, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>8.3</od:toCategory>
+    <od:toPattern>conversion</od:toPattern>
+    <od:toPattern>exchange</od:toPattern>
+    <od:toPattern>insourcing</od:toPattern>
+    <od:toPattern>outsourcing</od:toPattern>
+    <od:toPattern>renting</od:toPattern>
+    <dcterms:issued>2014</dcterms:issued>
+    <dcterms:title xml:lang="en">Value-chain discovery from business process models</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_187">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>1</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>adaption</od:hasKeyword>
+    <od:hasKeyword>configurable process model</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>model configuration</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variability modeling</od:hasKeyword>
+    <od:hasKeyword>variability modelling</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, BPMN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Organization &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>Variability Configuration</od:toPattern>
+    <od:toPattern>Variability Derivation</od:toPattern>
+    <dcterms:issued>2015</dcterms:issued>
+    <dcterms:title xml:lang="en">Variability patterns for business processes in BPMN</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_188">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>7</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>adaption</od:hasKeyword>
+    <od:hasKeyword>compare</od:hasKeyword>
+    <od:hasKeyword>comparing</od:hasKeyword>
+    <od:hasKeyword>comparison</od:hasKeyword>
+    <od:hasKeyword>difference</od:hasKeyword>
+    <od:hasKeyword>flexibility</od:hasKeyword>
+    <od:hasKeyword>process family</od:hasKeyword>
+    <od:hasKeyword>variability</od:hasKeyword>
+    <od:hasKeyword>variant</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Business Analyst &amp; IT Specialist</od:intendedUser>
+    <od:toCategory>7.1</od:toCategory>
+    <od:toPattern>de-parallelization</od:toPattern>
+    <od:toPattern>delete</od:toPattern>
+    <od:toPattern>insert</od:toPattern>
+    <od:toPattern>merge</od:toPattern>
+    <od:toPattern>move</od:toPattern>
+    <od:toPattern>parallelization</od:toPattern>
+    <od:toPattern>replace</od:toPattern>
+    <od:toPattern>skip</od:toPattern>
+    <od:toPattern>split</od:toPattern>
+    <od:toPattern>swap</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Workflow Change Patterns: Opportunities for Extension and Reuse</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_189">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Survey</od:hasArticleType>
+    <od:hasCitationCount>5</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>soundness</od:hasKeyword>
+    <od:hasKeyword>terminating</od:hasKeyword>
+    <od:hasKeyword>termination</od:hasKeyword>
+    <od:hasKeyword>weak soundness</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, Petri Net</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Formal</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Light</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function &amp; Information</od:hasView>
+    <od:intendedUser>Researcher</od:intendedUser>
+    <od:toCategory>1.1</od:toCategory>
+    <od:toPattern>mandatory completion</od:toPattern>
+    <od:toPattern>optional completion</od:toPattern>
+    <od:toPattern>possible completion</od:toPattern>
+    <dcterms:issued>2009</dcterms:issued>
+    <dcterms:title xml:lang="en">Workflow Completion Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_190">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>629</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>N-out-of-M</od:hasKeyword>
+    <od:hasKeyword>PAIS</od:hasKeyword>
+    <od:hasKeyword>Process-Aware Information System</od:hasKeyword>
+    <od:hasKeyword>WCP</od:hasKeyword>
+    <od:hasKeyword>flow of control</od:hasKeyword>
+    <od:hasKeyword>workflow engine</od:hasKeyword>
+    <od:hasKeyword>workflow pattern</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>Existing, CPN</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>1-out-of-M join</od:toPattern>
+    <od:toPattern>AND join</od:toPattern>
+    <od:toPattern>AND split</od:toPattern>
+    <od:toPattern>AND-join</od:toPattern>
+    <od:toPattern>AND-split</od:toPattern>
+    <od:toPattern>Acyclic Synchronizing Merge</od:toPattern>
+    <od:toPattern>Arbitrary Cycles</od:toPattern>
+    <od:toPattern>Blocking Discriminator</od:toPattern>
+    <od:toPattern>Blocking Partial Join</od:toPattern>
+    <od:toPattern>Cancel Activity</od:toPattern>
+    <od:toPattern>Cancel Multiple Instance Activity</od:toPattern>
+    <od:toPattern>Cancel Region</od:toPattern>
+    <od:toPattern>Cancelling Discriminator</od:toPattern>
+    <od:toPattern>Cancelling Partial Join</od:toPattern>
+    <od:toPattern>Cancelling Partial Join for Multiple Instances</od:toPattern>
+    <od:toPattern>Complete Multiple Instance Activity</od:toPattern>
+    <od:toPattern>Critical Section</od:toPattern>
+    <od:toPattern>Deferred Choice</od:toPattern>
+    <od:toPattern>Dynamic Partial Join for Multiple Instances</od:toPattern>
+    <od:toPattern>Explicit Termination</od:toPattern>
+    <od:toPattern>External choice</od:toPattern>
+    <od:toPattern>General Synchronizing Merge</od:toPattern>
+    <od:toPattern>Generalized AND-Join</od:toPattern>
+    <od:toPattern>IOR split</od:toPattern>
+    <od:toPattern>IOr-split</od:toPattern>
+    <od:toPattern>Implicit Termination</od:toPattern>
+    <od:toPattern>Interleaved Parallel Routing</od:toPattern>
+    <od:toPattern>Interleaved Routing</od:toPattern>
+    <od:toPattern>Multi threading without synchronization</od:toPattern>
+    <od:toPattern>Multiple Instances with a priori Design-Time Knowledge</od:toPattern>
+    <od:toPattern>Multiple Instances with a priori Run-Time Knowledge</od:toPattern>
+    <od:toPattern>Multiple Instances without Synchronization</od:toPattern>
+    <od:toPattern>Multiple instances without a priori run-time knowledge</od:toPattern>
+    <od:toPattern>OR split</od:toPattern>
+    <od:toPattern>OR-split</od:toPattern>
+    <od:toPattern>Persistent Trigger</od:toPattern>
+    <od:toPattern>Recursion</od:toPattern>
+    <od:toPattern>Static Partial Join for Multiple Instances</od:toPattern>
+    <od:toPattern>Structured Discriminator</od:toPattern>
+    <od:toPattern>Structured Loop</od:toPattern>
+    <od:toPattern>Structured Partial Join</od:toPattern>
+    <od:toPattern>Structured Synchronizing Merge</od:toPattern>
+    <od:toPattern>Synchronizing join</od:toPattern>
+    <od:toPattern>Test arc</od:toPattern>
+    <od:toPattern>Thread Merge</od:toPattern>
+    <od:toPattern>Thread Split</od:toPattern>
+    <od:toPattern>Transient Trigger</od:toPattern>
+    <od:toPattern>Unstructured loop</od:toPattern>
+    <od:toPattern>XOR join</od:toPattern>
+    <od:toPattern>XOR-join</od:toPattern>
+    <od:toPattern>XOR-split XOR split</od:toPattern>
+    <od:toPattern>asynchronous join</od:toPattern>
+    <od:toPattern>cancel Case</od:toPattern>
+    <od:toPattern>case statement</od:toPattern>
+    <od:toPattern>conditional routing</od:toPattern>
+    <od:toPattern>cycle</od:toPattern>
+    <od:toPattern>deadline</od:toPattern>
+    <od:toPattern>decision</od:toPattern>
+    <od:toPattern>deferred XOR-split</od:toPattern>
+    <od:toPattern>exclusive OR join</od:toPattern>
+    <od:toPattern>exclusive OR split</od:toPattern>
+    <od:toPattern>exclusive OR-join</od:toPattern>
+    <od:toPattern>exclusive OR-split</od:toPattern>
+    <od:toPattern>exclusive choice</od:toPattern>
+    <od:toPattern>fork</od:toPattern>
+    <od:toPattern>implicit choice</od:toPattern>
+    <od:toPattern>inclusive OR split</od:toPattern>
+    <od:toPattern>inclusive OR-split</od:toPattern>
+    <od:toPattern>iteration</od:toPattern>
+    <od:toPattern>merge</od:toPattern>
+    <od:toPattern>milestone</od:toPattern>
+    <od:toPattern>multi-choice</od:toPattern>
+    <od:toPattern>multi-merge</od:toPattern>
+    <od:toPattern>multiple choice</od:toPattern>
+    <od:toPattern>parallel routing</od:toPattern>
+    <od:toPattern>parallel split</od:toPattern>
+    <od:toPattern>rendez-vous</od:toPattern>
+    <od:toPattern>rendezvous</od:toPattern>
+    <od:toPattern>selection</od:toPattern>
+    <od:toPattern>sequence</od:toPattern>
+    <od:toPattern>sequential routing</od:toPattern>
+    <od:toPattern>serial routing</od:toPattern>
+    <od:toPattern>simple merge</od:toPattern>
+    <od:toPattern>spawn off facility</od:toPattern>
+    <od:toPattern>state condition</od:toPattern>
+    <od:toPattern>switch</od:toPattern>
+    <od:toPattern>synchronization</od:toPattern>
+    <od:toPattern>synchronizer</od:toPattern>
+    <od:toPattern>withdraw activity</od:toPattern>
+    <od:toPattern>withdraw case</od:toPattern>
+    <od:toPattern>withdraw message</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">Workflow Control-Flow Patterns: A Revised View</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_191">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>269</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>PAIS</od:hasKeyword>
+    <od:hasKeyword>Process-Aware Information System</od:hasKeyword>
+    <od:hasKeyword>communication</od:hasKeyword>
+    <od:hasKeyword>data flow</od:hasKeyword>
+    <od:hasKeyword>data interaction</od:hasKeyword>
+    <od:hasKeyword>data passing</od:hasKeyword>
+    <od:hasKeyword>data transfer</od:hasKeyword>
+    <od:hasKeyword>data visibility</od:hasKeyword>
+    <od:hasKeyword>data-based routing</od:hasKeyword>
+    <od:hasKeyword>information exchange</od:hasKeyword>
+    <od:hasKeyword>information resource</od:hasKeyword>
+    <od:hasKeyword>workflow engine</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Information</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>3</od:toCategory>
+    <od:toPattern>Data Interaction - Case to Environment - Pull-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Case to Environment - Push-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Environment to Case - Pull-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Environment to Case - Push-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Environment to Task - Push-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Environment to Workflow - Push-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Task to Environment - Pull-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Workflow to Environment - Pull-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction - Workflow to Environment - Push-Oriented</od:toPattern>
+    <od:toPattern>Data Interaction- Environment to Workflow - Pull-Oriented</od:toPattern>
+    <od:toPattern>Data Transfer - Copy In/Copy Out</od:toPattern>
+    <od:toPattern>Data Transfer by Reference - Unlocked</od:toPattern>
+    <od:toPattern>Data Transfer by Reference - With Lock</od:toPattern>
+    <od:toPattern>Data Transfer by Value - Incoming</od:toPattern>
+    <od:toPattern>Data Transfer by Value - Outgoing</od:toPattern>
+    <od:toPattern>Data Transformation - Input</od:toPattern>
+    <od:toPattern>Data Transformation - Output</od:toPattern>
+    <od:toPattern>Data-based Routing</od:toPattern>
+    <od:toPattern>Data-based Task Trigger</od:toPattern>
+    <od:toPattern>Event-based Task Trigger</od:toPattern>
+    <od:toPattern>Task Postcondition - Data Existence</od:toPattern>
+    <od:toPattern>Task Postcondition - Data Value</od:toPattern>
+    <od:toPattern>Task Precondition - Data Existence</od:toPattern>
+    <od:toPattern>Task Precondition - Data Value</od:toPattern>
+    <od:toPattern>block data</od:toPattern>
+    <od:toPattern>case data</od:toPattern>
+    <od:toPattern>data interaction  Sub-Workflow Decomposition to Block Task</od:toPattern>
+    <od:toPattern>data interaction - Task to Environment pull-oriented</od:toPattern>
+    <od:toPattern>data interaction - Task to Environment push-oriented</od:toPattern>
+    <od:toPattern>data interaction - case to case</od:toPattern>
+    <od:toPattern>data interaction - from Multiple Instance Task</od:toPattern>
+    <od:toPattern>data interaction - to Multiple Instance Task</od:toPattern>
+    <od:toPattern>data interaction Block Task to Sub-Workflow Decomposition</od:toPattern>
+    <od:toPattern>data interaction task to task</od:toPattern>
+    <od:toPattern>environment data</od:toPattern>
+    <od:toPattern>multiple instance data</od:toPattern>
+    <od:toPattern>scope data</od:toPattern>
+    <od:toPattern>task data</od:toPattern>
+    <od:toPattern>workflow data</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Workflow Data Patterns: Identification, Representation and Tool Support</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_192">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>207</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>constraint violation</od:hasKeyword>
+    <od:hasKeyword>deadline expiry</od:hasKeyword>
+    <od:hasKeyword>exception handling</od:hasKeyword>
+    <od:hasKeyword>external trigger</od:hasKeyword>
+    <od:hasKeyword>failure</od:hasKeyword>
+    <od:hasKeyword>invariant</od:hasKeyword>
+    <od:hasKeyword>precondition</od:hasKeyword>
+    <od:hasKeyword>resource unavailability</od:hasKeyword>
+    <od:hasKeyword>unexpected behavior</od:hasKeyword>
+    <od:hasKeyword>unexpected behaviour</od:hasKeyword>
+    <od:hasKeyword>work item failure</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>New</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>None</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Function</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>1.2</od:toCategory>
+    <od:toPattern>compensate</od:toPattern>
+    <od:toPattern>continue workflow case</od:toPattern>
+    <od:toPattern>continue-allocation</od:toPattern>
+    <od:toPattern>continue-execution</od:toPattern>
+    <od:toPattern>continue-offer</od:toPattern>
+    <od:toPattern>force-complete</od:toPattern>
+    <od:toPattern>force-complete-a</od:toPattern>
+    <od:toPattern>force-complete-o</od:toPattern>
+    <od:toPattern>force-fail</od:toPattern>
+    <od:toPattern>force-fail-o</od:toPattern>
+    <od:toPattern>no action</od:toPattern>
+    <od:toPattern>orce-fail-a</od:toPattern>
+    <od:toPattern>reallocate</od:toPattern>
+    <od:toPattern>reallocate-s</od:toPattern>
+    <od:toPattern>remove all cases</od:toPattern>
+    <od:toPattern>remove current case</od:toPattern>
+    <od:toPattern>reoffer</od:toPattern>
+    <od:toPattern>reoffer-a</od:toPattern>
+    <od:toPattern>reoffer-s</od:toPattern>
+    <od:toPattern>restart</od:toPattern>
+    <od:toPattern>rollback</od:toPattern>
+    <dcterms:issued>2006</dcterms:issued>
+    <dcterms:title xml:lang="en">Workflow Exception Patterns</dcterms:title>
+  </od:BPMPaper>
+  <od:BPMPaper rdf:about="http://opendiscovery.org/rdf/BPMPaper_193">
+    <od:extendOfDocumentation>Complete</od:extendOfDocumentation>
+    <od:hasArticleType>Proposal of Solution</od:hasArticleType>
+    <od:hasCitationCount>422</od:hasCitationCount>
+    <od:hasGuidelines>No</od:hasGuidelines>
+    <od:hasKeyword>PAIS</od:hasKeyword>
+    <od:hasKeyword>Process-Aware Information System</od:hasKeyword>
+    <od:hasKeyword>auto-start</od:hasKeyword>
+    <od:hasKeyword>collaboration</od:hasKeyword>
+    <od:hasKeyword>cooperation</od:hasKeyword>
+    <od:hasKeyword>creation</od:hasKeyword>
+    <od:hasKeyword>detour</od:hasKeyword>
+    <od:hasKeyword>multiple resources</od:hasKeyword>
+    <od:hasKeyword>pull</od:hasKeyword>
+    <od:hasKeyword>push</od:hasKeyword>
+    <od:hasKeyword>resource allocation</od:hasKeyword>
+    <od:hasKeyword>resource distribution</od:hasKeyword>
+    <od:hasKeyword>resource modeling</od:hasKeyword>
+    <od:hasKeyword>resource modelling</od:hasKeyword>
+    <od:hasKeyword>resource perspective</od:hasKeyword>
+    <od:hasKeyword>scheduling</od:hasKeyword>
+    <od:hasKeyword>visibility</od:hasKeyword>
+    <od:hasKeyword>work distribution</od:hasKeyword>
+    <od:hasKeyword>workflow engine</od:hasKeyword>
+    <od:hasLanguageDependency>No</od:hasLanguageDependency>
+    <od:hasMethodOfCreation>Informed Argument</od:hasMethodOfCreation>
+    <od:hasNotation>None</od:hasNotation>
+    <od:hasOrigin>Research</od:hasOrigin>
+    <od:hasPresentation>Graphical</od:hasPresentation>
+    <od:hasPresentation>Textual</od:hasPresentation>
+    <od:hasScope>Generic</od:hasScope>
+    <od:hasTemplate>Full</od:hasTemplate>
+    <od:hasToolSupport>No</od:hasToolSupport>
+    <od:hasView>Resource</od:hasView>
+    <od:intendedUser>Business Analyst</od:intendedUser>
+    <od:toCategory>2.1</od:toCategory>
+    <od:toPattern>Additional Resources</od:toPattern>
+    <od:toPattern>Authorisation</od:toPattern>
+    <od:toPattern>Automatic Execution</od:toPattern>
+    <od:toPattern>Capability-based Allocation</od:toPattern>
+    <od:toPattern>Case Handling</od:toPattern>
+    <od:toPattern>Chained Execution</od:toPattern>
+    <od:toPattern>Commencement on Allocation</od:toPattern>
+    <od:toPattern>Commencement on Creation</od:toPattern>
+    <od:toPattern>Configurable Allocated Work Item Visibility</od:toPattern>
+    <od:toPattern>Configurable Unallocated Work Item Visibility</od:toPattern>
+    <od:toPattern>Deallocation</od:toPattern>
+    <od:toPattern>Deferred Allocation</od:toPattern>
+    <od:toPattern>Delegation</od:toPattern>
+    <od:toPattern>Direct Allocation</od:toPattern>
+    <od:toPattern>Distribution by Allocation - Single Resource</od:toPattern>
+    <od:toPattern>Distribution by Offer - Multiple Resources</od:toPattern>
+    <od:toPattern>Distribution by Offer - Single Resource</od:toPattern>
+    <od:toPattern>Distribution on Enablement</od:toPattern>
+    <od:toPattern>Early Distribution</od:toPattern>
+    <od:toPattern>Escalation</od:toPattern>
+    <od:toPattern>History-based Allocation</od:toPattern>
+    <od:toPattern>Late Distribution</od:toPattern>
+    <od:toPattern>Organisational Allocation</od:toPattern>
+    <od:toPattern>Piled Execution</od:toPattern>
+    <od:toPattern>Pre-Do</od:toPattern>
+    <od:toPattern>Random Allocation</od:toPattern>
+    <od:toPattern>Redo</od:toPattern>
+    <od:toPattern>Resource-Determined Work Queue Content</od:toPattern>
+    <od:toPattern>Resource-Initiated Allocation</od:toPattern>
+    <od:toPattern>Resource-Initiated Execution - Allocated Work Item</od:toPattern>
+    <od:toPattern>Resource-Initiated Execution - Offered Work Item</od:toPattern>
+    <od:toPattern>Retain Familiar</od:toPattern>
+    <od:toPattern>Role-Based Allocation</od:toPattern>
+    <od:toPattern>Round Robin Allocation</od:toPattern>
+    <od:toPattern>Selection Autonomy</od:toPattern>
+    <od:toPattern>Separation of Duties</od:toPattern>
+    <od:toPattern>Shortest Queue</od:toPattern>
+    <od:toPattern>Simultaneous Execution</od:toPattern>
+    <od:toPattern>Skip</od:toPattern>
+    <od:toPattern>SoD</od:toPattern>
+    <od:toPattern>Stateful Reallocation</od:toPattern>
+    <od:toPattern>Stateless Reallocation</od:toPattern>
+    <od:toPattern>Suspension/Resumption</od:toPattern>
+    <od:toPattern>System-Determined Work Queue Content</od:toPattern>
+    <dcterms:issued>2005</dcterms:issued>
+    <dcterms:title xml:lang="en">Workflow Resource Patterns: Identification, Representation and Tool Support</dcterms:title>
+  </od:BPMPaper>
+</rdf:RDF>

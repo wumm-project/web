@@ -56,6 +56,7 @@ business:
 	rapper -g ../../RDFData/Business-TRIZ/BusinessModelPatterns.ttl -o rdfxml-abbrev >BusinessModelPatterns.rdf
 	rapper -g ../../RDFData/Business-TRIZ/EcoDesignPrinciples.ttl -o rdfxml-abbrev >EcoDesignPrinciples.rdf
 	rapper -g ../../RDFData/Business-TRIZ/SBMPatterns.ttl -o rdfxml-abbrev >SBMPatterns.rdf
+	rapper -g ../../RDFData/Business-TRIZ/BPM-Patterns.ttl -o rdfxml-abbrev >BPM-Patterns.rdf
 	rapper -g ../../RDFData/Business-TRIZ/MannDombExamples.ttl -o rdfxml-abbrev >MannDombExamples.rdf
 
 more:

@@ -1,7 +1,7 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2022-05-21
+# lastModified: 2022-06-12
 
 # Changes:
 
@@ -45,8 +45,8 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/EcoDesignPrinciples/","EcoDesignPrinciples.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/MannDombExamples/","MannDombExamples.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/SBMPatterns/","SBMPatterns.rdf");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/BPM-Patterns/","BPM-Patterns.rdf");
 
-  
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK-References/","TBK-References.rdf");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowDevelopmentPattern.rdf");
