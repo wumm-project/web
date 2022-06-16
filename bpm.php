@@ -20,10 +20,15 @@ PREFIX od: <http://opendiscovery.org/rdf/Model#>
 PREFIX bpm: <http://bpmpatterns.org/rdf/Model#> 
 PREFIX bpmp: <http://bpmpatterns.org/rdf/Pattern/> 
 
-construct { ?a a bpm:Pattern; skos:prefLabel ?l; od:relatedPaper ?p .}
+construct { ?a a bpm:Pattern; skos:prefLabel ?l; od:relatedPaper ?p;
+od:relatedCategory ?c .}
 
 from <http://opendiscovery.org/rdf/BPM-Patterns/>
-where { ?a a bpm:Pattern; skos:prefLabel ?l . ?p a od:BPMPaper; od:toPatternURI ?a .}';
+where { ?a a bpm:Pattern; skos:prefLabel ?l . 
+optional {?p a od:BPMPaper; od:toPatternURI ?a . }
+optional {?p a od:BPMPaper; od:toCategory ?c . }
+
+}';
 
     try {
         $graph = $sparql->query($query);
@@ -32,15 +37,22 @@ where { ?a a bpm:Pattern; skos:prefLabel ?l . ?p a od:BPMPaper; od:toPatternURI 
     }
     $a=array();
     foreach($graph->allOfType('bpm:Pattern') as $bmp) {
-        $dim=array();
+        $paper=array();
         foreach ($bmp->all("od:relatedPaper") as $v) {
-            $dim[]=str_replace('http://bpmpatterns.org/rdf/','',$v->getURI());
+            $paper[]=str_replace('http://bpmpatterns.org/rdf/','',$v->getURI());
+        }
+        $cat=array();
+        foreach ($bmp->all("od:relatedCategory") as $v) {
+            $cat[]=str_replace('http://bpmpatterns.org/rdf/Model#','',$v->getURI());
         }
         $uri=str_replace('http://bpmpatterns.org/rdf/','',$bmp->getURI());
         $out="<h3>".$uri."</h3>";
-        $out.="<p>".showLanguage($bmp->all("skos:prefLabel"),"<br/>")."</p>";
-        if (!empty($dim)) {
-            $out.="<h4>References</h4><ul><li>".join("</li>\n<li>",$dim)."</li></ul>";
+        $out.="<p>".join(", ",$bmp->all("skos:prefLabel"))."</p>";
+        if (!empty($paper)) {
+            $out.="<p><strong>References: </strong>".join(", ",$paper)."</p>";
+        }
+        if (!empty($cat)) {
+            $out.="<p><strong>Categories: </strong>".join(", ",$cat)."</p>";
         }
         $a[$uri]="<div>\n$out\n</div>\n";
     }
