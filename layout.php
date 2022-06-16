@@ -48,6 +48,7 @@ function pageNavbar() {
             <li><a href="businessstandards.php">Business Standards</a></li>
             <li><a href="businesstrends.php">Business Trends</a></li>
             <li><a href="bmp.php">Business Model Patterns</a></li>
+            <li><a href="bpm.php">Business Process Model Patterns</a></li>
             <li><a href="wtsp.php">WTSP Metadata</a></li>
             <!--<li><a href="test.php">Test</a></li>-->
           </ul>
