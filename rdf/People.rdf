@@ -3052,6 +3052,7 @@
     <foaf:name>Anton Shokin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shpakovsky_NA">
+    <dbo:birthDate>1954-06-12</dbo:birthDate>
     <dbo:deathDate>2021-11-08</dbo:deathDate>
     <foaf:affil>Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Шпаковский Николай Андреевич</foaf:fullname>
@@ -3375,7 +3376,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Thiel_R">
     <dbo:birthDate>1930-09-25</dbo:birthDate>
     <dbo:deathDate>2021-12-19</dbo:deathDate>
-    <foaf:affil>LIFIS, Bugk bei Storkow, Germany</foaf:affil>
     <foaf:name>Rainer Thiel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Thurnes_C">

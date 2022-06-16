@@ -287,7 +287,7 @@
     <od:description xml:lang="ru">Если объект в целом неподвижен, он должен стать подвижным (регулируемым).</od:description>
   </od:Recommendation>
   <od:Recommendation rdf:about="http://opendiscovery.org/rdf/Concept/Dynamization_2">
-    <od:description xml:lang="en">Brake down the object into parts that can be displaced or shifted.</od:description>
+    <od:description xml:lang="en">Break down the object into parts that can be displaced or shifted.</od:description>
     <od:description xml:lang="de">Zerlege das Objekt in Teile, die sich zueinander verstellen oder verschieben lassen.</od:description>
     <od:description xml:lang="ru">Объект разбить на части, которые могут быть смещены или сдвинуты.</od:description>
   </od:Recommendation>

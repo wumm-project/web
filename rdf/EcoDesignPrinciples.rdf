@@ -17,6 +17,9 @@
   <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Components">
     <skos:prefLabel xml:lang="en">Components</skos:prefLabel>
   </od:EDPTarget>
+  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Design">
+    <skos:prefLabel xml:lang="en">Design</skos:prefLabel>
+  </od:EDPPhase>
   <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction">
     <skos:prefLabel xml:lang="en">Distance Reduction</skos:prefLabel>
   </od:EDPTool>
@@ -444,7 +447,7 @@ resistant for the subsequent assembly phases, etc.
     <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ImproveDurability"/>
     <od:genericSuggestion xml:lang="en">During manufacturing, improve the durability of the auxiliary materials by increasing their exploitation (physical and structural) and by improving or their ways of functioning and reducing their use through the reduction of contact forces, frictions, vibrations and overheating.</od:genericSuggestion>
     <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EnergyReduction"/>
-    <od:specificSuggestion xml:lang="en">;&lt;brBetter exploit the available spatial resources, i.e. their operative surface (e.g. Möbius strip, sharp with multiple sides) and volume (e.g. porosity).</od:specificSuggestion>
+    <od:specificSuggestion xml:lang="en">Better exploit the available spatial resources, i.e. their operative surface (e.g. Möbius strip, sharp with multiple sides) and volume (e.g. porosity).</od:specificSuggestion>
     <od:specificSuggestion xml:lang="en">Better exploit their physical properties (e.g. conductivity, magnetism, boiling point, change of state).</od:specificSuggestion>
     <od:specificSuggestion xml:lang="en">Improve the environmental conditions where the auxiliary materials work: temperature, humidity, pressure.</od:specificSuggestion>
     <od:specificSuggestion xml:lang="en">Monitor the performances of the machineries or the condition of the worked pieces involving the auxiliary materials.</od:specificSuggestion>
@@ -492,7 +495,7 @@ resistant for the subsequent assembly phases, etc.
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceMassAuxiliaryMaterialsByControl">
     <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceMass"/>
-    <od:genericSuggestion xml:lang="en">During product use, reduce the mass of auxiliary materials, by introducing a field acting as a control for monitoring the environmental conditions (e.g. weather conditions, air humidity), the product (e.g. wear status) and the conditions of the same&lt;br/&gt;auxiliary materials.</od:genericSuggestion>
+    <od:genericSuggestion xml:lang="en">During product use, reduce the mass of auxiliary materials, by introducing a field acting as a control for monitoring the environmental conditions (e.g. weather conditions, air humidity), the product (e.g. wear status) and the conditions of the same auxiliary materials.</od:genericSuggestion>
     <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ListOfFieldsAndForces"/>
     <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/MassReduction"/>
     <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials"/>
@@ -748,7 +751,7 @@ resistant for the subsequent assembly phases, etc.
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticByAggregation">
     <od:action rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ReduceVolume"/>
-    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the external logistic, by changing the state of aggregation of the raw material during the transportation and if is not necessary do not bring it back to the original state after, so saving the energy required for the second&lt;br/&gt;transformation.</od:genericSuggestion>
+    <od:genericSuggestion xml:lang="en">During supply phase, reduce the volume of the external logistic, by changing the state of aggregation of the raw material during the transportation and if is not necessary do not bring it back to the original state after, so saving the energy required for the second transformation.</od:genericSuggestion>
     <od:interactiveModule rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction"/>
     <od:specificSuggestion xml:lang="en">Reduce the size of the transportation mean (e.g. eliminating the trailer, reduction of the front section) by saving consumption.</od:specificSuggestion>
     <od:specificSuggestion xml:lang="en">Take advantage of the saved space for transferring additional load during travels, by reducing their overall number.</od:specificSuggestion>
@@ -772,7 +775,7 @@ resistant for the subsequent assembly phases, etc.
     <rdfs:label xml:lang="en">Reduce Volume External Logistic (The other way around)</rdfs:label>
     <skos:example xml:lang="en">Disposing the cars according to different inclinations within car carrier trucks.</skos:example>
     <skos:example xml:lang="en">Low-diameter sheet coils be placed inside large diameter coils during transport.</skos:example>
-    <skos:example xml:lang="en">Self-folding chairs made by ridged rotable parts for saving space during&lt;br/&gt;transport.</skos:example>
+    <skos:example xml:lang="en">Self-folding chairs made by ridged rotable parts for saving space during transport.</skos:example>
     <skos:example xml:lang="en">Truck loading optimization for paper rolls, pallets, skids and boxes via trailers, containers and railcars, made by commercial software.</skos:example>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/ReduceVolumeExternalLogisticBySegmentation">
@@ -808,8 +811,8 @@ resistant for the subsequent assembly phases, etc.
     <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
     <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <rdfs:label xml:lang="en">Reduce Volume External Logistic (Dynamics)</rdfs:label>
-    <skos:example xml:lang="en">&lt;brIndustrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers.</skos:example>
     <skos:example xml:lang="en">Foldable parking tents and removable caravans.</skos:example>
+    <skos:example xml:lang="en">Industrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers.</skos:example>
     <skos:example xml:lang="en">Nested container realized with conical or flared shapes.</skos:example>
     <skos:example xml:lang="en">Suppliers for plastic for fusion have instead modified the shape of the plastic itself, by adopting granules instead of reels.</skos:example>
     <skos:example xml:lang="en">Using rectangular cans instead of cylindrical ones.</skos:example>
