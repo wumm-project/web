@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:ed="http://opendiscovery.org/rdf/EcoDesignPrinciple/"
    xmlns:edc="http://opendiscovery.org/rdf/EcoDesignConcept/"
    xmlns:edg="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/"
+   xmlns:edp="http://opendiscovery.org/rdf/EcoDesignPrinciple/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
    xmlns:org="http://www.w3.org/ns/org#"
@@ -17,12 +17,13 @@
   <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Components">
     <skos:prefLabel xml:lang="en">Components</skos:prefLabel>
   </od:EDPTarget>
-  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Design">
-    <skos:prefLabel xml:lang="en">Design</skos:prefLabel>
-  </od:EDPPhase>
   <od:EDPTool rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/DistanceReduction">
     <skos:prefLabel xml:lang="en">Distance Reduction</skos:prefLabel>
   </od:EDPTool>
+  <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution">
+    <rdfs:comment>Considered separately in (Maccioni et al. 2019)</rdfs:comment>
+    <skos:prefLabel xml:lang="en">Distribution and Packaging</skos:prefLabel>
+  </od:EDPPhase>
   <od:EDPAction rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/Eliminate">
     <skos:prefLabel xml:lang="en">Eliminate</skos:prefLabel>
   </od:EDPAction>
@@ -75,6 +76,7 @@
     <skos:prefLabel xml:lang="en">Packaging</skos:prefLabel>
   </od:EDPTarget>
   <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing">
+    <rdfs:comment>Including Design, which is considered separately in several papers</rdfs:comment>
     <skos:prefLabel xml:lang="en">Pre-Manufacturing</skos:prefLabel>
   </od:EDPPhase>
   <od:EDPPhase rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse">

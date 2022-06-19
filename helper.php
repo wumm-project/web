@@ -2,7 +2,7 @@
 
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-02-11
+ * last update: 2022-06-18
  */
 
 /* ======= Sparql Endpoint as global variable ======== */
@@ -24,6 +24,8 @@ function setNamespaces() {
     \EasyRdf\RdfNamespace::set('od', 'http://opendiscovery.org/rdf/Model#');
     \EasyRdf\RdfNamespace::set('odp', 'http://opendiscovery.org/rdf/Person/');
     \EasyRdf\RdfNamespace::set('tc', 'http://opendiscovery.org/rdf/Concept/');
+    \EasyRdf\RdfNamespace::set('bm', 'http://opendiscovery.org/rdf/BusinessModel/');
+    \EasyRdf\RdfNamespace::set('bmp', 'http://opendiscovery.org/rdf/BusinessModelPattern/');
 }
 
 function htmlEnv($out) 

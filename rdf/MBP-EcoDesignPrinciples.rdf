@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:edc="http://opendiscovery.org/rdf/EcoDesignConcept/"
+   xmlns:edp="http://opendiscovery.org/rdf/EcoDesignPrinciple/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/EcoDesignExample/">
+  <od:ED_Example rdf:about="http://opendiscovery.org/rdf/EcoDesignExample/Example_1">
+    <od:hasSuccessLevel>1</od:hasSuccessLevel>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P16"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P18"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P46"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P48"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P52"/>
+    <skos:description xml:lang="en">FRIA refrigerator, Ursula Tischner: fridge built into the external wall to use the winter cold</skos:description>
+    <skos:note xml:lang="en">All in all the energy payoff is potentially remarkable: the
+FRIA uses at most half the energy of a modern fridge; there is no CFC usage;
+and energy waste, up to 80% in a normal fridge, is removed through FRIAs
+integration into the buildings fabric (P16, P18 and P48).  </skos:note>
+    <skos:note xml:lang="en">It was calculated that in typical German house it could work
+for about 3–5 months a year without consuming any energy (P16, P46 and
+P52).</skos:note>
+  </od:ED_Example>
+  <od:ED_Example rdf:about="http://opendiscovery.org/rdf/EcoDesignExample/Example_2">
+    <od:hasSuccessLevel>3</od:hasSuccessLevel>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P08"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P29"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P31"/>
+    <skos:description xml:lang="en">Zipcar: car sharing</skos:description>
+    <skos:note xml:lang="en">This service (P29) offers a convenient alternative to car
+ownership and enables people to use the most effective combination of motor
+vehicles, walking, biking, or public transportation (P08, P31). The largest
+provider in the United States, Zipcar, claims that each of its cars replaces
+over 15 privately owned vehicles, thus relieving congestion and changing the
+urban landscape (P08, P31).  </skos:note>
+  </od:ED_Example>
+  <od:ED_Example rdf:about="http://opendiscovery.org/rdf/EcoDesignExample/Example_3">
+    <od:hasSuccessLevel>4</od:hasSuccessLevel>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P09"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P11"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P36"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P37"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P45"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P50"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P57"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P63"/>
+    <skos:description xml:lang="en">Solid inks Xerox: the ink has been made solid in order to avoid the cartridge</skos:description>
+    <skos:note xml:lang="en">Because solid blocks of ink are used, there is less waste
+generated than is with laser printers or inkjet printers (P57), which produce
+empty ink or toner cartridges (P63), in addition to packaging and packing
+materials (P50). A loose ink block does not leave any residual cartridge after
+it is consumed only a crushable, thin, plastic packing tray and a recyclable
+cardboard packaging box (P37).  </skos:note>
+    <skos:note xml:lang="en">Think about products that dont need packaging, the packaging is
+already included in the product (P09, P11, P36 and P45). </skos:note>
+  </od:ED_Example>
+  <od:ED_Example rdf:about="http://opendiscovery.org/rdf/EcoDesignExample/Example_4">
+    <od:hasSuccessLevel>5</od:hasSuccessLevel>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P03"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P17"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P24"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P26"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P47"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P60"/>
+    <skos:description xml:lang="en">The Leo bed, designed by Irene Puorto: the bed was created with a dynamic architecture to adapt to the childs growth, avoiding the need to buy a new bed.</skos:description>
+    <skos:note xml:lang="en">Ecological cot-bed made in wood without the use of glues (P17,
+P24, P26, P47).  </skos:note>
+    <skos:note xml:lang="en">Leo is a cot-bed, designed by Irene Puorto, that can be spread
+out by lowering the elevated sides when no longer needed because of the child
+growing (P03, P60). </skos:note>
+  </od:ED_Example>
+  <od:ED_Example rdf:about="http://opendiscovery.org/rdf/EcoDesignExample/Example_5">
+    <od:hasSuccessLevel>6</od:hasSuccessLevel>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P06"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P09"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P17"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P19"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P29"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P30"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P32"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P45"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P47"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P48"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P5"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P58"/>
+    <skos:description xml:lang="en">Koppert: it offers customers a crop protection service invoiced by hectare, where the farmer pays a fixed amount per hectare of crops to be protected</skos:description>
+    <skos:note xml:lang="en">The company provides a distinctive benefit: it offers customers
+a crop protection service invoiced by hectare, where, the farmer pays a fixed
+amount per hectare of crops to be protected (P06, P29, P30). And rather than
+using expensive chemical solutions that are potentially harmful for the
+environment, the health of the farmer and the consumers, the company decided
+to build its offer based on nature intelligence and the free ecological
+services that it renders us (P09, P17, P19, P32, P45, P47, P48, P58). [...]
+Advantages for Koppert customers are numerous: implementation of a natural
+system of disease prevention, enabling to stop or to reduce use of pesticides
+that cost time, money and demand handling hazardous substances; improvement of
+biological quality of the grounds, positive impact on the outputs,
+possibilities of qualifying for organic farming certification and so on (P58).
+</skos:note>
+  </od:ED_Example>
+  <od:ED_Example rdf:about="http://opendiscovery.org/rdf/EcoDesignExample/Example_6">
+    <od:hasSuccessLevel>7</od:hasSuccessLevel>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P06"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P08"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P29"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P38"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P45"/>
+    <od:toMBP_EDP rdf:resource="http://opendiscovery.org/rdf/EcoDesignPrinciple/P49"/>
+    <skos:description xml:lang="en">Detergent Allegrini: detergent home delivery with reusable containers</skos:description>
+    <skos:note xml:lang="en">Allegrini has provided a Casa Quick service of detergent home
+delivery (P29). Casa Quick products are distributed from vans that drive from
+house to house according to their delivery route. According to their needs,
+every family can refill (P06, P38, P49) their reusable plastic containers
+(provided by Allegrini) and pay for the just right quantity of detergent (P08,
+P45). At the same time the clients can acquire information about optimizing
+detergent consumption (P29).  </skos:note>
+  </od:ED_Example>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P01">
+    <od:hasMBPID>P01</od:hasMBPID>
+    <skos:definition xml:lang="en">Design for appropriate lifespan</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P02">
+    <od:hasMBPID>P02</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Design for reliability (simplify, reduce number of component)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P03">
+    <od:hasMBPID>P03</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <skos:definition xml:lang="en">Facilitate upgrading and adaptability</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P04">
+    <od:hasMBPID>P04</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <skos:definition xml:lang="en">Facilitate maintenance</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P05">
+    <od:hasMBPID>P05</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <skos:definition xml:lang="en">Facilitate repair</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P06">
+    <od:hasMBPID>P06</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <skos:definition xml:lang="en">Facilitate reuse</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P07">
+    <od:hasMBPID>P07</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
+    <skos:definition xml:lang="en">Facilitate remanufacturing</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P08">
+    <od:hasMBPID>P08</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Intensify use (share, multifunction, integrated, on demand)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P09">
+    <od:hasMBPID>P09</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <skos:definition xml:lang="en">Minimize material content or dematerialize, digitalize, miniaturize</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P10">
+    <od:hasMBPID>P10</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <skos:definition xml:lang="en">Minimize scraps and discards</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P11">
+    <od:hasMBPID>P11</od:hasMBPID>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Minimize packaging (avoid, integrate, drastically reduce)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P12">
+    <od:hasMBPID>P12</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Minimize material consumption during usage (select more consumption-efficient systems)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P13">
+    <od:hasMBPID>P13</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Minimize materials consumption during usage (engage systems with dynamic material consumption)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P14">
+    <od:hasMBPID>P14</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
+    <skos:definition xml:lang="en">Minimize energy consumption (during pre-production and production)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P15">
+    <od:hasMBPID>P15</od:hasMBPID>
+    <skos:definition xml:lang="en">Minimize energy consumption (during transportation and storage)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P16">
+    <od:hasMBPID>P16</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Minimize energy consumption (select systems with energy-efficient operation stage)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P17">
+    <od:hasMBPID>P17</od:hasMBPID>
+    <skos:definition xml:lang="en">Select non-toxic and harmless materials</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P18">
+    <od:hasMBPID>P18</od:hasMBPID>
+    <skos:definition xml:lang="en">Select non-toxic and harmless energy resources</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P19">
+    <od:hasMBPID>P19</od:hasMBPID>
+    <skos:definition xml:lang="en">Select renewable and bio-compatible materials</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P20">
+    <od:hasMBPID>P20</od:hasMBPID>
+    <skos:definition xml:lang="en">Select renewable and bio-compatible energy resources</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P21">
+    <od:hasMBPID>P21</od:hasMBPID>
+    <skos:definition xml:lang="en">Adopt the cascade approach</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P22">
+    <od:hasMBPID>P22</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <skos:definition xml:lang="en">Facilitate end-of-life collection and transportation</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P23">
+    <od:hasMBPID>P23</od:hasMBPID>
+    <skos:definition xml:lang="en">Identify materials</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P24">
+    <od:hasMBPID>P24</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Minimize the overall number of different incompatible materials</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P25">
+    <od:hasMBPID>P25</od:hasMBPID>
+    <skos:definition xml:lang="en">Facilitate cleaning</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P26">
+    <od:hasMBPID>P26</od:hasMBPID>
+    <skos:definition xml:lang="en">Facilitate composting</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P27">
+    <od:hasMBPID>P27</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce and facilitate operations of disassembly and separation</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P28">
+    <od:hasMBPID>P28</od:hasMBPID>
+    <skos:definition xml:lang="en">Engage reversible joining systems</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P29">
+    <od:hasMBPID>P29</od:hasMBPID>
+    <skos:definition xml:lang="en">Develop services providing added value to the product’s life cycle</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P30">
+    <od:hasMBPID>P30</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Develop services providing ‘final results’</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P31">
+    <od:hasMBPID>P31</od:hasMBPID>
+    <skos:definition xml:lang="en">Develop services providing ‘enabling platforms for customers’</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P32">
+    <od:hasMBPID>P32</od:hasMBPID>
+    <skos:definition xml:lang="en">Change raw material (low impact or recyclable/recycled)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P33">
+    <od:hasMBPID>P33</od:hasMBPID>
+    <skos:definition xml:lang="en">Modify raw material (reduce mass and volume)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P34">
+    <od:hasMBPID>P34</od:hasMBPID>
+    <skos:definition xml:lang="en">Use pre-manufactured material</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P35">
+    <od:hasMBPID>P35</od:hasMBPID>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <skos:definition xml:lang="en">Change material (low impact) for the packaging</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P36">
+    <od:hasMBPID>P36</od:hasMBPID>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <skos:definition xml:lang="en">Reduce the mass of the packaging (eliminate, reduce, integrate, modify raw material to be protected)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P37">
+    <od:hasMBPID>P37</od:hasMBPID>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Reduce the volume of the packaging (reduce the volume, dynamize)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P38">
+    <od:hasMBPID>P38</od:hasMBPID>
+    <skos:definition xml:lang="en">Improve packaging durability (reuse in the same or different way, recycle)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P39">
+    <od:hasMBPID>P39</od:hasMBPID>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Modify packaging to increase raw material durability (controlled atmosphere, vacuum, deep freeze, sterilization)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P40">
+    <od:hasMBPID>P40</od:hasMBPID>
+    <skos:definition xml:lang="en">Use efficient transports</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P41">
+    <od:hasMBPID>P41</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Optimize logistic (choose the shortest route in time or in space)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P42">
+    <od:hasMBPID>P42</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce the volume of the load (reduce the volume or the free space)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P43">
+    <od:hasMBPID>P43</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Reduce the transportation risk</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P44">
+    <od:hasMBPID>P44</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Modify the products for maintenance</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P45">
+    <od:hasMBPID>P45</od:hasMBPID>
+    <skos:definition xml:lang="en">Avoid auxiliary components (independent, eliminate components, dematerializing)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P46">
+    <od:hasMBPID>P46</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Reduce auxiliary components (rationalize, improve energy performances, discretize use)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P47">
+    <od:hasMBPID>P47</od:hasMBPID>
+    <skos:definition xml:lang="en">Remove dangerous materials during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P48">
+    <od:hasMBPID>P48</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce environmental problems during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P49">
+    <od:hasMBPID>P49</od:hasMBPID>
+    <skos:definition xml:lang="en">Act on durability (more operation, different way) of the packaging during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P50">
+    <od:hasMBPID>P50</od:hasMBPID>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Reduce the mass of the packaging during the product use (light material, multifunctional product)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P51">
+    <od:hasMBPID>P51</od:hasMBPID>
+    <skos:definition xml:lang="en">Act on shape and volume</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P52">
+    <od:hasMBPID>P52</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce the consumption of energy required (efficient or alternative)</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P53">
+    <od:hasMBPID>P53</od:hasMBPID>
+    <skos:definition xml:lang="en">Recover dissipated energy during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P54">
+    <od:hasMBPID>P54</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce the need of maintenance during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P55">
+    <od:hasMBPID>P55</od:hasMBPID>
+    <skos:definition xml:lang="en">Make the maintenance proactive during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P56">
+    <od:hasMBPID>P56</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Design repairable product</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P57">
+    <od:hasMBPID>P57</od:hasMBPID>
+    <skos:definition xml:lang="en">Realize modular product</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P58">
+    <od:hasMBPID>P58</od:hasMBPID>
+    <skos:definition xml:lang="en">Design product with low emission of pollution substances during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P59">
+    <od:hasMBPID>P59</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Reduce the product mass during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P60">
+    <od:hasMBPID>P60</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
+    <skos:definition xml:lang="en">Reduce the product volume during the product use</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P61">
+    <od:hasMBPID>P61</od:hasMBPID>
+    <skos:definition xml:lang="en">Recovery of material (reuse, remanufacture, recycle) at the end of the product’s life</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P62">
+    <od:hasMBPID>P62</od:hasMBPID>
+    <skos:definition xml:lang="en">Use biodegradable packaging for the end of the product’s life</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P63">
+    <od:hasMBPID>P63</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce the mass for the end of the product’s life</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P64">
+    <od:hasMBPID>P64</od:hasMBPID>
+    <skos:definition xml:lang="en">Allow the separability of materials at the end of the product’s life</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P65">
+    <od:hasMBPID>P65</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
+    <skos:definition xml:lang="en">Use connections between parts for the end of the product’s life</skos:definition>
+  </od:EDP>
+  <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P66">
+    <od:hasMBPID>P66</od:hasMBPID>
+    <skos:definition xml:lang="en">Reduce the weight and the volume of the transport at the end of the product’s life</skos:definition>
+  </od:EDP>
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/MBP-EcoDesignPrinciples/">
+    <cc:attributionName>The Open Discovery Project</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>2022-06-14: Extracted and transformed from (Maccioni et al. 2019)</rdfs:comment>
+    <rdfs:label>The Eco Design principles in (Maccioni et al. 2019)</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

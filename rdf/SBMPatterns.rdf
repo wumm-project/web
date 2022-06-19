@@ -9,73 +9,73 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G01">
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G01">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P1_4"/>
     <od:hasLFId>G01</od:hasLFId>
     <skos:description xml:lang="en">Patterns that primarily address the revenue model of a business model, i.e. how offerings are priced and revenues generated.</skos:description>
     <skos:prefLabel xml:lang="en">Pricing &amp; Revenue Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G02">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G02">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P2_1"/>
     <od:hasLFId>G02</od:hasLFId>
     <skos:description xml:lang="en">Patterns that address the financing model within a business model, i.e. how equity, debt and operating capital are acquired.</skos:description>
     <skos:prefLabel xml:lang="en">Financing Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G03">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G03">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P3_3"/>
     <od:hasLFId>G03</od:hasLFId>
     <skos:description xml:lang="en">Patterns that integrate ecological aspects into key activities and value propositions, i.e. how processes and offerings are designed to improve their ecological performance over their entire life cycle.</skos:description>
     <skos:prefLabel xml:lang="en">Ecodesign Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G04">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G04">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P4_2"/>
     <od:hasLFId>G04</od:hasLFId>
     <skos:description xml:lang="en">Patterns that help integrate the idea of circular material and energy flows into partnerships, key activities, and customer channels, i.e. how materials and energy flow into, out of, and return to a company.</skos:description>
     <skos:prefLabel xml:lang="en">Closing-the-Loop Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G05">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G05">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P5_1"/>
     <od:hasLFId>G05</od:hasLFId>
     <skos:description xml:lang="en">Patterns that modify the upstream (partners, resources, capabilities) and/or downstream (customers, relationships, channels) components of a business model, i.e. how inputs are sourced and target groups are reached.</skos:description>
     <skos:prefLabel xml:lang="en">Supply Chain Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G06">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G06">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P6_1"/>
     <od:hasLFId>G06</od:hasLFId>
     <skos:description xml:lang="en">Patterns that help donate products or services to target groups in need, i.e. how costs are covered and social target groups are reached.</skos:description>
     <skos:prefLabel xml:lang="en">Giving Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G07">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G07">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P7_1"/>
     <od:hasLFId>G07</od:hasLFId>
     <skos:description xml:lang="en">Patterns that create markets for otherwise neglected target groups, involving modified value propositions, channels, revenue, pricing and cost models, i.e.</skos:description>
     <skos:prefLabel xml:lang="en">Access Provision Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G08">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G08">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P8_2"/>
     <od:hasLFId>G08</od:hasLFId>
     <skos:description xml:lang="en">Patterns that integrate social target groups in need, including otherwise neglected groups, either as customers or productive partners, i.e. how customers, partners, and employees are defined and integrated.</skos:description>
     <skos:prefLabel xml:lang="en">Social Mission Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G09">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G09">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P9_3"/>
     <od:hasLFId>G09</od:hasLFId>
     <skos:description xml:lang="en">Patterns that emphasize the functional and service value of products and that offer performance management, i.e. how value propositions are defined and delivered.</skos:description>
     <skos:prefLabel xml:lang="en">Service &amp; Performance Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G10">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G10">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P10_1"/>
     <od:hasLFId>G10</od:hasLFId>
     <skos:description xml:lang="en">Patterns that integrate a broad range of stakeholders as co-owners and co-managers, how partners are defined and how the organization is governed.</skos:description>
     <skos:prefLabel xml:lang="en">Cooperative Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Block rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G11">
+  </od:PatternGroup>
+  <od:PatternGroup rdf:about="http://opendiscovery.org/rdf/BusinessModelGroup/G11">
     <od:hasAnchor rdf:resource="http://opendiscovery.org/rdf/BusinessModelPattern/P11_1"/>
     <od:hasLFId>G11</od:hasLFId>
     <skos:description xml:lang="en">Patterns that substitute resource or product ownership with community-based access to resources and products, how value propositions are defined and delivered.</skos:description>
     <skos:prefLabel xml:lang="en">Community Platform Patterns</skos:prefLabel>
-  </od:Block>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P10_1">
+  </od:PatternGroup>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P10_1">
     <od:hasContext xml:lang="en">In today’s business world, the shareholder model is still the norm and managers’ main responsibility is to meet the expectations of shareholders without giving equal weight to other stakeholders’ interests.</od:hasContext>
     <od:hasExample xml:lang="en">[Ocean Spray] is an American agricultural cooperative that is owned and operated by 750 cranberry and grapefruit growers. Ocean has annual revenues of $2 billion; the cooperative’s members are the only shareholders. </od:hasExample>
     <od:hasLFId>P10_1</od:hasLFId>
@@ -85,8 +85,8 @@
     <od:hasSolution xml:lang="en">The cooperative model follows a multi-stakeholder approach and is therefore owned and managed by cooperative members.  Members can be retail consumers, users of services, employees, suppliers, or the local community, for example.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G10"/>
     <skos:prefLabel xml:lang="en">Cooperative Ownership</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P11_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P11_1">
     <od:hasContext xml:lang="en">When a product or other asset is not used very often, when it is expensive or not fully proven (e.g., emobiles), many consumers are not willing to purchase it. Individual and exclusive ownership also means that more resources must be used to satisfy consumers’ needs.</od:hasContext>
     <od:hasExample xml:lang="en">[Turo (formerly RelayRides)] operates a peer-to peer car sharing marketplace. Private car owners can rent out their vehicles via Turo’s online platform and thus increase the usage of their vehicles while earning money. </od:hasExample>
     <od:hasLFId>P11_1</od:hasLFId>
@@ -96,8 +96,8 @@
     <od:hasSolution xml:lang="en">Sharing, or collaborative consumption, is about matching the supplier side of a platform with the demand side of that platform.  The product is shared among a number of users, whenever the individual user needs access to the product. Sharing models have in common that the consumer does not pay for buying a product but only for using it.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G11"/>
     <skos:prefLabel xml:lang="en">Sharing Business</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_1">
     <od:hasContext xml:lang="en">Base of the Pyramid (BoP) and low-income groups in both developed and developing countries are often excluded from consumption due to price barriers.</od:hasContext>
     <od:hasExample xml:lang="en">[Novo Nordisk] sells insulin in developing countries at prices that are up to 20% below the mean prices charged in developed countries. </od:hasExample>
     <od:hasLFId>P1_1</od:hasLFId>
@@ -107,8 +107,8 @@
     <od:hasSolution xml:lang="en">Charging groups with higher payment thresholds higher prices to subsidize those groups who cannot afford to pay as much.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G01"/>
     <skos:prefLabel xml:lang="en">Differential Pricing</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_2">
     <od:hasContext xml:lang="en">Pertains mostly to software or web-based services such as social networks, but also to traditional products and services such as healthcare.</od:hasContext>
     <od:hasExample xml:lang="en">[Aravind Eye Care System] offers free eye care to more than half of their patients in India. Those who can afford to pay for it receive extra services like air-conditioned waiting rooms. </od:hasExample>
     <od:hasLFId>P11</od:hasLFId>
@@ -118,8 +118,8 @@
     <od:hasSolution xml:lang="en">Provide a basic service or product free of charge to lower entry barriers for customers, while a fee is charged for additional features and functionality. This allows gaining traction through partly free offerings.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G01"/>
     <skos:prefLabel xml:lang="en">Freemium</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_3">
     <od:hasContext xml:lang="en">Forms of leasing and renting are becoming increasingly popular in the renewable energy industry. Also, lowincome groups are able to purchase goods they otherwise could not afford.</od:hasContext>
     <od:hasExample xml:lang="en">[Simpa Networks] provides distributed energy solutions to underserved consumers in emerging markets on a progressive purchase basis.  Customers first make a small down payment for a solar system and then pre-pay for the energy service they need. </od:hasExample>
     <od:hasLFId>P16</od:hasLFId>
@@ -129,8 +129,8 @@
     <od:hasSolution xml:lang="en">Offering product leasing or renting for a certain period of time instead of selling it outright. As an option, this can lead to ownership (progressive purchase).  This allows extending breadth and depth of customer groups for new products.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G01"/>
     <skos:prefLabel xml:lang="en">Innovative Product Financing</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P1_4">
     <od:hasContext xml:lang="en">Green- or social start-ups that enter new markets are often in need of reliable revenue streams and customer relationships.</od:hasContext>
     <od:hasExample xml:lang="en">[Blissmobox] is a membership club that offers monthly subscription boxes filled with a selection of organic, non-toxic and eco products. </od:hasExample>
     <od:hasLFId>P1_4</od:hasLFId>
@@ -140,8 +140,8 @@
     <od:hasSolution xml:lang="en">Charging a customer a rolling fee, typically on a monthly or annual basis for access to a product or service. The customer pays a fee, irrespective of product or service use. This allows creating consistent income streams.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G01"/>
     <skos:prefLabel xml:lang="en">Subscription Model</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P2_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P2_1">
     <od:hasContext xml:lang="en">Typically, traditional financing requires convincing investors and banks based on expected cash flows. This is often impossible when it comes to sustainability innovations.</od:hasContext>
     <od:hasExample xml:lang="en">[Community Sourced Capital] is an online marketplace that provides a platform for small businesses to source capital from members of their communities. Members finance part of a loan by buying a $50 unit of the loan issued to the business. </od:hasExample>
     <od:hasLFId>P2_1</od:hasLFId>
@@ -151,8 +151,8 @@
     <od:hasSolution xml:lang="en">Mobilizing a network, usually online, to tap the financial resources of a mixed group of people and to circumvent traditional financiers such as banks. Forms of crowdfunding are e.g. donationbased, loan-based and equity-based.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G02"/>
     <skos:prefLabel xml:lang="en">Crowdfunding</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P2_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P2_2">
     <od:hasContext xml:lang="en">Traditional banks tend to decline loans to base of the pyramid and low-income groups because of high transaction costs and a lack of collateral and credit history.</od:hasContext>
     <od:hasExample xml:lang="en">[WaterCredit], an initiative launched by the nonprofit Water.org, provides access to safe water and sanitation in developing countries by issuing microfinance loans for clean water and toilets for individual- and communal use. </od:hasExample>
     <od:hasLFId>P21</od:hasLFId>
@@ -162,8 +162,8 @@
     <od:hasSolution xml:lang="en">Providing small loans and financial services to people without access to conventional banks. Microfinance is often provided through group-lending systems where group members act as guarantors for each other.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G02"/>
     <skos:prefLabel xml:lang="en">Microfinance</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P2_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P2_3">
     <od:hasContext xml:lang="en">Base of the pyramid and low-income groups, both in developed and developing countries, are often excluded from consumption possibilities due to price barriers or because offerings for these groups do not exist.</od:hasContext>
     <od:hasExample xml:lang="en">[Grameen-Veolia] is a social joint venture with the purpose of bringing safe and affordable drinking water to Bangladesh’s rural population. The water supplier is set up as a selfsustaining, no-loss and no-dividends business. </od:hasExample>
     <od:hasLFId>P2_3</od:hasLFId>
@@ -173,8 +173,8 @@
     <od:hasSolution xml:lang="en">Investors are entitled to get their money back. But profits are not distributed to them as these are reinvested to improve the product or service quality or to fund new social businesses. Social target groups benefit from improved product and service quality and/or lower prices.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G02"/>
     <skos:prefLabel xml:lang="en">Social Business Model: No dividends</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_1">
     <od:hasContext xml:lang="en">There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution, in particular when it comes to complex products that use critical resources such as rare earths.</od:hasContext>
     <od:hasExample xml:lang="en">[Epson’s] EcoTank printer range is comprised of printers that are equipped with refillable ink tanks with a printing capacity of up to 50 ink cartridge sets, depending on the model. While these printers come with a hefty price tag, their ink tanks are not only more convenient and durable than regular ink cartridges, but also provide higher cost savings in terms of page yield. </od:hasExample>
     <od:hasLFId>P13</od:hasLFId>
@@ -184,8 +184,8 @@
     <od:hasSolution xml:lang="en">Employing a hybrid model that combines a durable product and short-lived consumables. That is, selling a long-lasting device, such as a copier, and remanufacturing its short-lived parts, such as toner cartridges, where the company obtains revenues mainly from the consumables.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G03"/>
     <skos:prefLabel xml:lang="en">Hybrid model/Gap-exploiter model</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_2">
     <od:hasContext xml:lang="en">Because of increasing threats to human health and natural ecosystems there is a growing need of reducing the use of finite resources and diminishing waste and pollution.</od:hasContext>
     <od:hasExample xml:lang="en">To help achieve their Mission Zero, [Interface] developed Microtuft, a new carpet tile that uses 50% less yarn than conventional tiles. The company purchases raw materials that are recycled or bio-based and uses ultrasonic cutting equipment, which reduces excess trimmings and improves resource efficiency. </od:hasExample>
     <od:hasLFId>P19</od:hasLFId>
@@ -195,8 +195,8 @@
     <od:hasSolution xml:lang="en">Seeking to improve resource efficiency, reduce waste and emissions through product and process redesign, such as lean manufacturing, ecoefficiency (Factor 4 and Natural Capitalism), and cleaner production.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G03"/>
     <skos:prefLabel xml:lang="en">Maximise material productivity and energy efficiency</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_3">
     <od:hasContext xml:lang="en">There is growing pressure on most industries to improve eco-efficiency and effectiveness in products; e.g. due to societal and political expectations for products that support a circular economy.</od:hasContext>
     <od:hasExample xml:lang="en">[Xella Denmark] produces innovative Autoclaved Aerated Concrete blocks that are Cradle-to-Cradle certified. Throughout the entire life cycle of Xella’s products sustainability is a guiding principle, i.e. from raw material extraction to waste. </od:hasExample>
     <od:hasLFId>P27</od:hasLFId>
@@ -206,8 +206,8 @@
     <od:hasSolution xml:lang="en">Offering responsible and sustainable products that last, increase users' ecoefficiency, and are reusable, repairable, and/or recyclable. Risks in production and use are reduced, e.g. toxicity. This allows replacing inefficient and harmful product designs.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G03"/>
     <skos:prefLabel xml:lang="en">Product Design</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P3_4">
     <od:hasContext xml:lang="en">Because of increasing threats to human health and natural ecosystems there is a growing need of reducing the use of finite resources and diminishing waste and pollution.</od:hasContext>
     <od:hasExample xml:lang="en">[Adnams], a British brewery, built a new distribution center using primarily low carbon materials with excellent insulating properties (e.g. lime and hemp) and also installed solar heating and rainwater recovery systems. The new production equipment is of high quality and efficiency – e.g. 90% of the heat produced in one brew is used to in the next brew. </od:hasExample>
     <od:hasLFId>P39</od:hasLFId>
@@ -217,8 +217,8 @@
     <od:hasSolution xml:lang="en">Substituting finite and non-recyclable production inputs with renewable resources and designing processes based on nature-inspired principles, e.g. closing material and energy cycles.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G03"/>
     <skos:prefLabel xml:lang="en">Substitute with renewables and natural processes</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_1">
     <od:hasContext xml:lang="en">In the current industrial economy, opportunities to leverage wasted and underutilized resources (e.g.  materials, energy, capacities, assets) are overlooked as companies tend to focus on their main products only.</od:hasContext>
     <od:hasExample xml:lang="en">[British Sugar], the largest sugar producer in the UK, uses wastes from sugar production, such as residual resin and pulp, for the production of chemical products and animal feed, which are later sold on the market. </od:hasExample>
     <od:hasLFId>P4_1</od:hasLFId>
@@ -228,8 +228,8 @@
     <od:hasSolution xml:lang="en">Using the by-products from product generation as input for additional products that can be used by the company itself or sold on the market.  This allows reducing waste, optimizing material flows, and increasing revenues.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Co-Product Generation</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_2">
     <od:hasContext xml:lang="en">In the current industrial economy, opportunities to leverage wasted and underutilized resources (e.g.  materials, energy, capacities, assets) are often overlooked, partly because their potential cannot be exploited by single organizations.</od:hasContext>
     <od:hasExample xml:lang="en">[Industrial symbiosis of Kalundborg in Denmark], where several industrial actors exploit each other’s by-products, surplus and waste materials on a commercial basis, including energy and water exchanges. </od:hasExample>
     <od:hasLFId>P15</od:hasLFId>
@@ -239,8 +239,8 @@
     <od:hasSolution xml:lang="en">Employing a shared or cascaded use of resources, byproducts, and waste materials among different actors on a commercial basis. Establishing inter-firm exchanges and linkages driven by the need to reduce virgin inputs, waste, and costs.  This allows reducing waste and optimizing material flows among multiple organizations.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Industrial Symbiosis</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_3">
     <od:hasContext xml:lang="en">In the current industrial economy, opportunities to leverage wasted and underutilized resources (e.g.  materials, energy) are often overlooked, partly because their potential cannot be exploited by single organizations. Connecting waste producers and users becomes crucial.</od:hasContext>
     <od:hasExample xml:lang="en">[smileexchange.ie] is a free online platform where resource exchanges between members are facilitated through technical assistance, in order to increase cost savings, reduce waste going to landfill and to create new business opportunities. </od:hasExample>
     <od:hasLFId>P23</od:hasLFId>
@@ -250,8 +250,8 @@
     <od:hasSolution xml:lang="en">Creating an electronic marketplace for waste that matches supply and demand, enabling the exchange of waste between actors and retaining the value contained in materials. Companies providing such services gain earnings from commissions on transactions.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Online Waste Exchange Platform</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_4">
     <od:hasContext xml:lang="en">There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution.  There is also a need to look for new input sources due to increasing resource scarcities.</od:hasContext>
     <od:hasExample xml:lang="en">[Bionic Yarn], a New York-based company that makes fibers out of materials such as plastic bottles and recovered ocean plastic that can be used to make clothing, e.g. G-STAR RAW’s Raw for the Oceans Fall/Winter 2015 collection. </od:hasExample>
     <od:hasLFId>P28</od:hasLFId>
@@ -261,8 +261,8 @@
     <od:hasSolution xml:lang="en">Recycling used products in such a way that their base materials are recovered and most of their embodied value (energy, labor, financial capital) is retained. This allows gaining access to resources and retaining the value contained in materials.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Product Recycling</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_5">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_5">
     <od:hasContext xml:lang="en">There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution.  Products that have been used often still have use value for others, but in some cases they need to be completely overhauled or even decomposed and remanufactured.</od:hasContext>
     <od:hasExample xml:lang="en">[Apple Certified Refurbished] Macs are likely to be returned or reconditioned models. The returned unit may have been faulty (and fixed) or may have been returned under the standard sale-and-returns procedure. All refurbished Macs are cleaned, checked, tested and visually indistinguishable from brand new models and come with a one-year warranty. </od:hasExample>
     <od:hasLFId>P30</od:hasLFId>
@@ -272,8 +272,8 @@
     <od:hasSolution xml:lang="en">Used products flow (back) to a manufacturer who repairs or replaces product components, incl. cosmetic updates (refurbishment), or disassembles products to reuse their components in as new products (remanufacturing). This allows retaining the value contained in products and creating new revenue sources.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Remanufacturing / Next Life Sales</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_6">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_6">
     <od:hasContext xml:lang="en">There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution, in particular when products have the potential to be repaired or maintained.</od:hasContext>
     <od:hasExample xml:lang="en">[Agito Medical] offers service contracts on CT and MRI equipment, such as delivering spare parts, engineering and maintenance services.  Thereby equipment may be repaired and upgraded, rather than replaced. The flexibility of these services secures a maximum possible uptime of the equipment, and prolongs the lifespan of the entire system. </od:hasExample>
     <od:hasLFId>P31</od:hasLFId>
@@ -283,8 +283,8 @@
     <od:hasSolution xml:lang="en">Products remain the customer’s property, but broken or used products are repaired and/or maintained by a service provider. The same products are used again and longer, and the value they contain is retained.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Repair</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_7">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_7">
     <od:hasContext xml:lang="en">There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution.  Products that have been used often still have use value for others, in particular when they are still working.</od:hasContext>
     <od:hasExample xml:lang="en">[Godsinlösen] redistributes damaged, insured goods. Godsinlösen retrieves damaged goods from policyholders and ensures that they are handled, by being reused or recycled, as effective and transparent as possible in line with environmental standards. </od:hasExample>
     <od:hasLFId>P33</od:hasLFId>
@@ -294,8 +294,8 @@
     <od:hasSolution xml:lang="en">Used products flow (back) to a service provider and/or distributor, either directly or via an intermediary, and are then resold, maybe in slightly enhanced form. This allows retaining the value contained in products and creating new revenue sources.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Reuse</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_8">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_8">
     <od:hasContext xml:lang="en">Because of increasing threats to human health and natural ecosystems there is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution. Managing take back systems for products, parts or base materials can support circular economy models.</od:hasContext>
     <od:hasExample xml:lang="en">[Desso], a Dutch manufacturer of carpets, carpet tiles and artificial grass, developed its own Take Back Programme to take back and recycle old carpets from customers and noncustomers to make new carpets. </od:hasExample>
     <od:hasLFId>P40</od:hasLFId>
@@ -305,8 +305,8 @@
     <od:hasSolution xml:lang="en">Implementing channels and management systems to recover products or parts from customers and distributors. This allows bringing back products or parts to manufacturers.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Take Back Management</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_9">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P4_9">
     <od:hasContext xml:lang="en">Fast-moving markets and technological developments lead to shorter product life with regard to actuality of version, aesthetics etc.</od:hasContext>
     <od:hasExample xml:lang="en">The [Fairphone] is built to last by combining a modular architecture with the possibility of repair. Affordable spare parts and free tutorials are offered to facilitate phone repair. Plus, its source code is provided to extend the lifetime of the software. </od:hasExample>
     <od:hasLFId>P42</od:hasLFId>
@@ -316,8 +316,8 @@
     <od:hasSolution xml:lang="en">Replacing outdated components that are part of products in use with technologically superior or updated components. This allows using working products as long as possible.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G04"/>
     <skos:prefLabel xml:lang="en">Upgrading</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_1">
     <od:hasContext xml:lang="en">There is growing pressure on companies to be more transparent and efficient, e.g. in terms of using natural resources and avoiding risks and harms to their supply chain partners and customers.</od:hasContext>
     <od:hasExample xml:lang="en">[IKEA] has developed the IKEA Way on Purchasing Products, Materials and Services (IWAY) as Management a supplier code of conduct. IKEA has systemized and formalized social and environmental standards, which are to be met in the sourcing of raw materials and core services throughout the entire company. This has resulted e.g. in reduced use of toxic chemicals. </od:hasExample>
     <od:hasLFId>P12</od:hasLFId>
@@ -327,8 +327,8 @@
     <od:hasSolution xml:lang="en">Sourcing raw inputs and components in the most eco-friendly way possible and reducing or even eliminating toxic inputs. Suppliers are urged to commit to green supply chain management. Partners and networks are crucial for green supply chains.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G05"/>
     <skos:prefLabel xml:lang="en">Green Supply Chain Management</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_2">
     <od:hasContext xml:lang="en">A lack of attention to the livelihood of local suppliers by large corporations can often result in a decline in both economic and social value.</od:hasContext>
     <od:hasExample xml:lang="en">[Woolworths South Africa] sources directly from local farmers, as well as provides credit and training in crop selection and sustainable farming, driven by the goal to be more independent from global supply chains, strengthen local farming and improve local economies. </od:hasExample>
     <od:hasLFId>P14</od:hasLFId>
@@ -338,8 +338,8 @@
     <od:hasSolution xml:lang="en">Integrating local, lowincome or less skilled suppliers into the supply chains of existing for-profit companies. This can require providing financial support and training opportunities to develop local suppliers’ capabilities.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G05"/>
     <skos:prefLabel xml:lang="en">Inclusive Sourcing</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_3">
     <od:hasContext xml:lang="en">Base of the pyramid and low-income consumers tend to make small, but frequent purchases. These customers are often not reached by major suppliers, both in terms of outlets and product or service formats.</od:hasContext>
     <od:hasExample xml:lang="en">[Zain] in Madagascar offers shared phone services to those unable to afford their own handsets, through existing retail outlets that are part of the Village Phone Program. </od:hasExample>
     <od:hasLFId>P20</od:hasLFId>
@@ -349,8 +349,8 @@
     <od:hasSolution xml:lang="en">Offering products and services that match customers’ cash-flows (e.g., small-sized product units) and employing specialized, independent distributors. This can require strengthening existing retail outlets and delivery channels through training and financing partners as local vendors.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G05"/>
     <skos:prefLabel xml:lang="en">Micro Distribution and Retail</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_4">
     <od:hasContext xml:lang="en">Green and social start-ups need less costly and scalable distribution systems. As customers become comfortable with online shopping, switching from brick and mortar to virtual channels becomes an option.</od:hasContext>
     <od:hasExample xml:lang="en">[Sungevity], a residential solar installation and financing company, developed a scalable online sales model where customers get a price quote within 24 hours. Remote engineers design the solar systems using satellite imagery. </od:hasExample>
     <od:hasLFId>P25</od:hasLFId>
@@ -360,8 +360,8 @@
     <od:hasSolution xml:lang="en">Introducing virtual customer relationships and channels, and only a few or no retail outposts. Making use of third-party platforms, e.g.  shop-in-shop models. This allows increasing resource efficiency and scalability of product distribution.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G05"/>
     <skos:prefLabel xml:lang="en">Physical to Virtual</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_5">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_5">
     <od:hasContext xml:lang="en">Aligning supply and demand is particularly challenging for new types of offerings, which can result in excess material in the production cycle and inefficient use of scarce financial resources.</od:hasContext>
     <od:hasExample xml:lang="en">To determine whether there is sufficient customer demand for the [Tesla] Model 3 to begin production, future Model 3 owners were asked to reserve a vehicle by making a deposit of $1,000. </od:hasExample>
     <od:hasLFId>P26</od:hasLFId>
@@ -371,8 +371,8 @@
     <od:hasSolution xml:lang="en">Producing a product only when consumer demand is verified, e.g. via online platforms that allow customers to place pre-orders, to vote on preferred products or even to design their own products. This allows reducing overproduction and inefficient use of resources.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G05"/>
     <skos:prefLabel xml:lang="en">Produce on Demand</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_6">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P5_6">
     <od:hasContext xml:lang="en">There is growing pressure on companies to be more transparent and efficient, e.g. in terms of using natural resources and avoiding risks and harms to their supply chain partners and customers.</od:hasContext>
     <od:hasExample xml:lang="en">[McDonalds] is committed to Good Sourcing, meaning that the company works directly with its suppliers who, in their words, are committed to sustainable supply chain management and compliance, i.e. requirements for ethics, environmental responsibility and economic viability. </od:hasExample>
     <od:hasLFId>P35</od:hasLFId>
@@ -382,8 +382,8 @@
     <od:hasSolution xml:lang="en">Reducing the length and complexity of supply chains, e.g. spatially, through less and closer partner and customer relationships. Improving transparency, e.g.  by reducing the number of connections or knowledge sharing with suppliers.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G05"/>
     <skos:prefLabel xml:lang="en">Shorter Supply Chains</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P6_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P6_1">
     <od:hasContext xml:lang="en">Base of the pyramid and low-income groups, in both developed and developing countries, are often excluded from particular forms of consumption due to price barriers or because markets for these groups do often not exist.</od:hasContext>
     <od:hasExample xml:lang="en">[2 Degrees] sells nutrition bars directly to consumers and through retail outlets. For every 2 Degrees bar purchased, the company provides a meal to a hungry child. The company does this by forming partnerships with nonprofit organizations that provide food assistance e.g. through health clinics, schools, and community groups.</od:hasExample>
     <od:hasLFId>P2</od:hasLFId>
@@ -393,8 +393,8 @@
     <od:hasSolution xml:lang="en">Donating goods or services in a fixed ratio to regular sales. Costs can be covered by regular sales revenues, third-party donations or social investors.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G06"/>
     <skos:prefLabel xml:lang="en">Buy One, Give One</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P6_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P6_2">
     <od:hasContext xml:lang="en">Some social groups are excluded from consumption possibilities due to price barriers or because offerings for these groups do not exist.</od:hasContext>
     <od:hasExample xml:lang="en">[co2online] offers free online tools to help users track and reduce their energy consumption, costs, and CO_2 emissions. Based on the generated information about users’ energy consumption, co2online offers commercial services such as customized market studies. </od:hasExample>
     <od:hasLFId>P3</od:hasLFId>
@@ -404,8 +404,8 @@
     <od:hasSolution xml:lang="en">Offering a product or service for free to a social target group while earning revenues from commercial customers, e.g. based on the information generated by the social target group.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G06"/>
     <skos:prefLabel xml:lang="en">Commercially Utilized Social Mission</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_1">
     <od:hasContext xml:lang="en">Base of the pyramid and low-income groups, in both developed and developing countries, are often excluded from particular forms of consumption due to price barriers or because markets for these groups do often not exist.</od:hasContext>
     <od:hasExample xml:lang="en">[Novartis’ Arogya Parivar], a multi-national pharma company, combined education and sales efforts to create a for-profit initiative to improve health outcomes for poor, rural communities in India. Arogya Parivar employs health educators to create faith in medicine.  Accompanying supervisors educate doctors and pharmacies and assess local needs. Where necessary, Novartis seeks local partners to build up capacity. </od:hasExample>
     <od:hasLFId>P1</od:hasLFId>
@@ -415,8 +415,8 @@
     <od:hasSolution xml:lang="en">Creating a new marketing system for otherwise neglected customer segments, by building new customer relationships, distribution channels, and revenue models. This allows offering products and services that take into account the needs of social target groups and their varying education and income levels.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G07"/>
     <skos:prefLabel xml:lang="en">Building a Marketplace</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_2">
     <od:hasContext xml:lang="en">Approximately 3.5 billion people worldwide lack access to financial services because institutions face high transaction costs and complex logistics to reach the poor, especially in remote areas, due to the cumbersome nature of securely transporting and distributing cash. Providers of other goods and services that require distribution infrastructure and payment mechanisms share this challenge.</od:hasContext>
     <od:hasExample xml:lang="en">[FINO] offers, among other services, biometric smart card-based electronic wallets for 23 million customers to receive and spend social benefits distributed by the government of India. </od:hasExample>
     <od:hasLFId>P7_2</od:hasLFId>
@@ -426,8 +426,8 @@
     <od:hasSolution xml:lang="en">Offering cashless accounts and payment systems to social target groups without bank access. These accounts are used in combination with e-transaction platforms that enable transactions between product and service providers and customers.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G07"/>
     <skos:prefLabel xml:lang="en">e-Transaction Platforms</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_3">
     <od:hasContext xml:lang="en">Traditional banks tend to decline loans to base of the pyramid and low-income groups because of high transaction costs and a lack of collateral and credit history.</od:hasContext>
     <od:hasExample xml:lang="en">[Promigas], a natural gas utility in Colombia, issues credit for renovations and housing appliances to homeowners, only if those homeowners have paid off their connection fees. </od:hasExample>
     <od:hasLFId>P7_3</od:hasLFId>
@@ -437,8 +437,8 @@
     <od:hasSolution xml:lang="en">Providing access to credit (as a non-bank) based on former experience with the customer, instead of formal bank applications. Lending is not based on a customer’s credit history, but on other transactions in the past.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G07"/>
     <skos:prefLabel xml:lang="en">Experience-Based Customer Credit</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_4">
     <od:hasContext xml:lang="en">Some people are not connected to basic supplies because they live in remote areas with a lack of infrastructures, or belong to the base of the pyramid and low-income groups.</od:hasContext>
     <od:hasExample xml:lang="en">[Manila Water] in the Philippines is experimenting with stand-alone water systems that provide communities outside its network area with clean, affordable water. Partners, usually local governments, operate these systems and customers pay their bills at local shops—with the balances transferred to the company via mobile banking. </od:hasExample>
     <od:hasLFId>P17</od:hasLFId>
@@ -448,8 +448,8 @@
     <od:hasSolution xml:lang="en">Providing basic supplies through extended grid coverage and bundling financing (e.g., tiered pricing), technology (e.g., smart metering), and customer service (e.g., maintenance) to minimize technical and commercial losses and ensure that customers are paying.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G07"/>
     <skos:prefLabel xml:lang="en">Last-Mile Grid Utilities</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_5">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_5">
     <od:hasContext xml:lang="en">The costs for higher education, e.g. university degrees, can consume a considerable share of a families’ income.  Higher education is essential for professional careers, but base of the pyramid and low-income groups often do not have access to higher education.</od:hasContext>
     <od:hasExample xml:lang="en"></od:hasExample>
     <od:hasLFId>P44</od:hasLFId>
@@ -459,8 +459,8 @@
     <od:hasSolution xml:lang="en">[Uniminuto], an educational institution in Colombia, offers professional and technical training to low- and middle income students both on-site and online at affordable rates. Uniminuto, for instance, rents or shares buildings with other educational institutions to keep its tuition prices low. </od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G07"/>
     <skos:prefLabel xml:lang="en">Value-for-Money Degrees</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_6">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P7_6">
     <od:hasContext xml:lang="en">A home is the biggest investment most people ever make and they have to be convinced it is worth the commitment, which can feel risky. Lower-income groups are often not able to invest in own homes and build up capital and financial security.</od:hasContext>
     <od:hasExample xml:lang="en">[VINTE], a Mexican developer, sells homes in multi-unit buildings starting at $23,000 for 42 square meters, including a kitchen, joint livingdining space, two bedrooms and one bathroom. The homes are designed to reduce gas bills by 75%. Some buildings have rooftop solar cells to lower electricity costs. </od:hasExample>
     <od:hasLFId>P45</od:hasLFId>
@@ -470,8 +470,8 @@
     <od:hasSolution xml:lang="en">Offering affordable home ownership by bundling high value for money homes (e.g., efficient design), facilitating access to financing (e.g., third-party financing), and customer support (e.g., customer training).</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G07"/>
     <skos:prefLabel xml:lang="en">Value-for-Money Housing</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_1">
     <od:hasContext xml:lang="en">Some social groups are denied help or sidelined because of a lack of understanding for their particular situation.</od:hasContext>
     <od:hasExample xml:lang="en">[Väter] (German for fathers) aims at improving the acceptance of fathers staying at home to care for their children. Väter provides services based on knowledge acquired by collaborating with fathers. Services include corporate training courses on work-life balance and online networking for fathers. </od:hasExample>
     <od:hasLFId>P10</od:hasLFId>
@@ -481,8 +481,8 @@
     <od:hasSolution xml:lang="en">Accumulating problem specific know-how as a resource. This know-how is derived from affected persons’ experiences and is used to educate, train, and help social target groups.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G08"/>
     <skos:prefLabel xml:lang="en">Expertise Broker</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_2">
     <od:hasContext xml:lang="en">Some social groups are not able to engage as productive workforce, although they wish to, e.g. because of a lack of skills or labor markets for these groups do not exist.</od:hasContext>
     <od:hasExample xml:lang="en">[Fifteen], a social enterprise started by British celebrity chef Jamie Oliver, involves several top class restaurants that provide training and fulltime positions (upon completion) to disadvantaged young people. Part of the restaurants’ profits is used to fund the training. </od:hasExample>
     <od:hasLFId>P18</od:hasLFId>
@@ -492,8 +492,8 @@
     <od:hasSolution xml:lang="en">Offering opportunities to excluded social target groups to engage as productive and paid workforce.  They can help in generating market revenues. Training and capability development might be required.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G08"/>
     <skos:prefLabel xml:lang="en">Market-Oriented Social Mission</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_3">
     <od:hasContext xml:lang="en">Base of the pyramid and low-income groups are often excluded from particular forms of consumption due to price barriers or because markets for these groups do not exist.</od:hasContext>
     <od:hasExample xml:lang="en">[Arbeiterkind] (‘Working-class Child’) is a mentoring network and information platform that helps young adults with working class background to overcome barriers such as financial concerns to pursue a university degree. This venture to fight social segregation in the German academic system is supported by volunteers, donations and governmental funds. </od:hasExample>
     <od:hasLFId>P22</od:hasLFId>
@@ -503,8 +503,8 @@
     <od:hasSolution xml:lang="en">Launching a dedicated project/organization aimed at satisfying the consumption need of a target group that does not have sufficient funds to pay for a product or service. The social mission is largely funded by social investors and supported by volunteers.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G08"/>
     <skos:prefLabel xml:lang="en">One-Sided Social Mission</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_4">
     <od:hasContext xml:lang="en">Base of the pyramid and low-income groups, both in developed and developing countries, are often excluded from business and income opportunities due to a lack of skills and business organizations dedicated to these groups.</od:hasContext>
     <od:hasExample xml:lang="en">[Grameen Bank] is a formal bank that is owned to 94 percent by the poor, mostly female borrowers of the bank, and it serves them exclusively. The remaining six percent is owned by the government. </od:hasExample>
     <od:hasLFId>P36</od:hasLFId>
@@ -514,8 +514,8 @@
     <od:hasSolution xml:lang="en">Launching an enterprise owned and run by the social target group to generate market-based revenues and even make profits. The social target group benefits from income and business opportunities.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G08"/>
     <skos:prefLabel xml:lang="en">Social Business Model: Empowerment</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_5">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P8_5">
     <od:hasContext xml:lang="en">Two-sided platforms are an effective means to match suppliers and users of products and services. This approach is not only applicable to traditional online platforms such as search engines, but also to social businesses.</od:hasContext>
     <od:hasExample xml:lang="en">[Was hab’ ich?] (‘What do I have?’) is an online interactive platform, where medical students translate diagnostic findings for patients in laymen’s terms and exchange knowledge and learning opportunities with fellow medical students and doctors. </od:hasExample>
     <od:hasLFId>P41</od:hasLFId>
@@ -525,8 +525,8 @@
     <od:hasSolution xml:lang="en">Offering a platform, maybe third party-funded, to match two social target groups, one on the production and one on the consumption side. The group on the production side offers free production support for the consuming social target group.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G08"/>
     <skos:prefLabel xml:lang="en">Two-Sided Social Mission</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_1">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_1">
     <od:hasContext xml:lang="en">The development of new products or services to solve fundamental ecological or social problems, such as investing in a new drug, can be too risky for clients to do it based on their own resources.</od:hasContext>
     <od:hasExample xml:lang="en">The [NYC ABLE] Project for Incarcerated Youth: Adolescent Behavioral Learning Experience (ABLE) Program launched by the New York City Department of Correction aims to reduce the re-incarceration rate by at least 10 percent among youths at Rikers Island through an evidence-based intervention program targeted at improving personal responsibility and decisionmaking. If the program fails to meet its goal, New York City government is not required to provide funding to MDRC, the non-profit overseeing the project. </od:hasExample>
     <od:hasLFId>P24</od:hasLFId>
@@ -536,8 +536,8 @@
     <od:hasSolution xml:lang="en">Employing success-based contracting, usually between providers of a new product or service and the client, in which payments depend on meeting a predefined success level.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G09"/>
     <skos:prefLabel xml:lang="en">Pay for Success</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_2">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_2">
     <od:hasContext xml:lang="en">Replacing established and/or complex products, or technologies in a broader sense, is challenging due to several barriers to their diffusion. In particular providers of eco-friendly technologies have to find ways to make their offerings attractive.</od:hasContext>
     <od:hasExample xml:lang="en">[Tesla] sells e-mobiles as products owned by individual customers. The company also offers the charging infrastructure, where the revenue model is currently changing from free to paid charging. Further services include over-the-air software updates that add new features and functionality to the cars. </od:hasExample>
     <od:hasLFId>P29</od:hasLFId>
@@ -547,8 +547,8 @@
     <od:hasSolution xml:lang="en">The business model is still mainly geared towards sales of products, but some extra services are added. The product is usually owned by the customer. Customers pay for the product and product-related services offered by the provider.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G09"/>
     <skos:prefLabel xml:lang="en">Product-oriented Services</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_3">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_3">
     <od:hasContext xml:lang="en">Replacing established and/or complex products, or technologies in a broader sense, is challenging due to several barriers to their diffusion. In particular providers of eco-friendly technologies have to find ways to make their offerings attractive.</od:hasContext>
     <od:hasExample xml:lang="en">[Xerox] introduced pay per print solutions that have been followed by most copier producers.  Pay per print means that the customer pays per print, while the copier producer takes over all activities needed to perform the copying or printing functions, including paper, toner, maintenance, repair and replacement of parts or whole copiers if necessary. </od:hasExample>
     <od:hasLFId>P32</od:hasLFId>
@@ -558,8 +558,8 @@
     <od:hasSolution xml:lang="en">The client and provider in principle agree on a result, and there is no predetermined product involved. The service provider owns the product and is responsible for its use. This creates more accountability within the broader system for product disposal, and higher likelihood of product repair, reuse and recycling.  The customer pays for an outcome and not for buying or using a particular product.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G09"/>
     <skos:prefLabel xml:lang="en">Result-oriented Services</skos:prefLabel>
-  </od:Pattern>
-  <od:Pattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_4">
+  </od:SBMPattern>
+  <od:SBMPattern rdf:about="http://opendiscovery.org/rdf/BusinessModelPattern/P9_4">
     <od:hasContext xml:lang="en">Replacing established and/or complex products, or technologies in a broader sense, is challenging due to several barriers to their diffusion. In particular providers of eco-friendly technologies have to find ways to make their offerings attractive.</od:hasContext>
     <od:hasExample xml:lang="en">[Rolls Royce plc] offers maintenance and other services around the aircraft turbines they provide to airlines (Power by the hour). Instead of charging per turbine sold, Rolls Royce uses a total care model focused on achieving outcomes for customers. Customers pay a service fee that includes the turbines, maintenance, and further services. </od:hasExample>
     <od:hasLFId>P43</od:hasLFId>
@@ -569,7 +569,7 @@
     <od:hasSolution xml:lang="en">The traditional product still plays a central role, but the business model is not geared towards selling products. The product usually stays in ownership with the provider and can be shared by a number of users. Customers pay e.g. a leasing, renting or service fee for the use and performance of a particular product.</od:hasSolution>
     <od:toPatternGroup rdf:resource="http://opendiscovery.org/rdf/BusinessModelGroup/G09"/>
     <skos:prefLabel xml:lang="en">Use-oriented Services</skos:prefLabel>
-  </od:Pattern>
+  </od:SBMPattern>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/SBMPatterns/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
