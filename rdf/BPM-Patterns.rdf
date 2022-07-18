@@ -7,7 +7,8 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns="http://bpmpatterns.org/rdf/Paper/">
   <od:BPMPaper rdf:about="http://bpmpatterns.org/rdf/BPMPaper/P102">
     <od:extendOfDocumentation rdf:resource="http://bpmpatterns.org/rdf/Model#Documentation_Complete"/>
     <od:hasArticleType rdf:resource="http://bpmpatterns.org/rdf/Model#ProposalofSolution"/>
@@ -23,6 +24,7 @@
     <od:hasKeyword>query language</od:hasKeyword>
     <od:hasKeyword>violation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://opus.kobv.de/ubp/volltexte/2010/4922/"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMNQ"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
@@ -48,6 +50,7 @@
     <od:hasKeyword>formal semantic</od:hasKeyword>
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/ICIS.2009.135"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPEL"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -91,6 +94,7 @@
     <od:hasKeyword>service-oriented architecture</od:hasKeyword>
     <od:hasKeyword>web service</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-540-75492-3_15"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -131,6 +135,7 @@
     <od:hasKeyword>requirements</od:hasKeyword>
     <od:hasKeyword>review. VPSL</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/VLHCC.2006.5"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#Survey"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UML2_0Ads"/>
@@ -154,6 +159,7 @@
     <od:hasKeyword>SPEM</od:hasKeyword>
     <od:hasKeyword>software process</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/11767718_39"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UML"/>
@@ -186,6 +192,7 @@
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasKeyword>verification</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-319-00948-3_13"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UML"/>
@@ -230,6 +237,7 @@
     <od:hasKeyword>content</od:hasKeyword>
     <od:hasKeyword>semantics</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1504/IJBPIM.2009.027778"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UMLAD"/>
@@ -304,6 +312,7 @@
     <od:hasKeyword>transpareny</od:hasKeyword>
     <od:hasKeyword>voting</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-28108-2_22"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
@@ -348,6 +357,7 @@
     <od:hasKeyword>information system</od:hasKeyword>
     <od:hasKeyword>organization architecture</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-03973-7_4"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -393,6 +403,7 @@
     <od:hasKeyword>synchronisation</od:hasKeyword>
     <od:hasKeyword>synchronization</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/MIC.2004.1260702"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -434,6 +445,7 @@
     <od:hasKeyword>knowledge workers</od:hasKeyword>
     <od:hasKeyword>retrieve contribution</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.4018/ijec.2014010104"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#CaseStudy"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -476,6 +488,7 @@
     <od:hasKeyword>variance</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-21863-7_11"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -539,6 +552,7 @@
     <od:hasKeyword>optimization</od:hasKeyword>
     <od:hasKeyword>parallelization</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/WSC.2006.323140"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Industry"/>
@@ -579,6 +593,7 @@
     <od:hasKeyword>role activity diagram</od:hasKeyword>
     <od:hasKeyword>role-activity diagram</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471953520.html"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_RoleActivityDiagrams"/>
@@ -626,6 +641,7 @@
     <od:hasKeyword>timing</od:hasKeyword>
     <od:hasKeyword>universality</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/MS.2012.45"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -739,6 +755,7 @@
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasKeyword>variants</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1016/j.datak.2008.05.001"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -809,6 +826,7 @@
     <od:hasKeyword>role</od:hasKeyword>
     <od:hasKeyword>traceability</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-94-017-9588-3_33"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -866,6 +884,7 @@
     <od:hasKeyword>pre-condition</od:hasKeyword>
     <od:hasKeyword>precondition</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1016/j.eswa.2010.09.065"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_conditionmodelinglanguage"/>
@@ -1056,6 +1075,7 @@
     <od:hasKeyword>obligation</od:hasKeyword>
     <od:hasKeyword>performance</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://ceur-ws.org/Vol-363/paper16.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1099,6 +1119,7 @@
     <od:hasKeyword>ontology</od:hasKeyword>
     <od:hasKeyword>right</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-540-78942-0_51"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1132,6 +1153,7 @@
     <od:hasKeyword>service dependency</od:hasKeyword>
     <od:hasKeyword>transaction protocol</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/3-540-44895-0_11"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_PetriNet"/>
@@ -1204,6 +1226,7 @@
     <od:hasKeyword>service composition</od:hasKeyword>
     <od:hasKeyword>web service</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://design.inf.unisi.ch/sites/default/files/biblio/rest-tweb-dcfw.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1254,6 +1277,7 @@
     <od:hasGuidelines rdf:resource="http://bpmpatterns.org/rdf/Model#Guidelines_No"/>
     <od:hasKeyword>control flow</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-22418-8_62"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1283,6 +1307,7 @@
     <od:hasKeyword>soundness</od:hasKeyword>
     <od:hasKeyword>transferability</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/HICSS.1999.772966"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1321,6 +1346,7 @@
     <od:hasKeyword>temporary role</od:hasKeyword>
     <od:hasKeyword>user-to-user delegation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/COMPSACW.2010.75"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1382,6 +1408,8 @@
     <od:hasKeyword>supply chain</od:hasKeyword>
     <od:hasKeyword>virtual business process</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1142/S0218843007001664"/>
+    <od:hasLink rdf:resource="https://www.etis.ee/Portal/Publications/Display/7819f2e2-c35a-4ced-81cb-d9fb8dfbdd68?lang=ENG"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_PetriNet"/>
@@ -1416,6 +1444,8 @@
     <od:hasKeyword>sourcing</od:hasKeyword>
     <od:hasKeyword>supply chain</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1142/S0218843007001664"/>
+    <od:hasLink rdf:resource="https://www.etis.ee/Portal/Publications/Display/7819f2e2-c35a-4ced-81cb-d9fb8dfbdd68?lang=ENG"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Petrinets"/>
@@ -1457,6 +1487,7 @@
     <od:hasKeyword>variants</od:hasKeyword>
     <od:hasKeyword>version management</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/ICCIT.2007.190"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1526,6 +1557,7 @@
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-38484-4_18"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#Survey"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1573,6 +1605,7 @@
     <od:hasKeyword>medical service</od:hasKeyword>
     <od:hasKeyword>medical supplies</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1108/14637151111149447"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Industry"/>
@@ -1613,6 +1646,7 @@
     <od:hasKeyword>business process support</od:hasKeyword>
     <od:hasKeyword>role assignment</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1016/j.jss.2011.02.043"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_ArchiMate"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1702,6 +1736,7 @@
     <od:hasKeyword>competitive task</od:hasKeyword>
     <od:hasKeyword>human workflow</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://shop.oreilly.com/product/9780596008437.do"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1752,6 +1787,7 @@
     <od:hasKeyword>exception flow</od:hasKeyword>
     <od:hasKeyword>restart</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/TSE.2010.1"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1799,6 +1835,7 @@
     <od:hasKeyword>message-based integration</od:hasKeyword>
     <od:hasKeyword>middleware</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-319-09195-2_17"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1837,6 +1874,7 @@
     <od:hasKeyword>location-aware</od:hasKeyword>
     <od:hasKeyword>location-awareness</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1108/BPMJ-06-2013-0066"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
@@ -1878,6 +1916,7 @@
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://subs.emis.de/LNI/Proceedings/Proceedings175/article5865.html"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -1918,6 +1957,7 @@
     <od:hasKeyword>web service</od:hasKeyword>
     <od:hasKeyword>workflow flexibility</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/AICT-ICIW.2006.97"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -1942,6 +1982,7 @@
     <od:hasKeyword>resource</od:hasKeyword>
     <od:hasKeyword>virtual resource</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/97-3-662-43745-2_10"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -2010,6 +2051,7 @@
     <od:hasKeyword>timed pattern</od:hasKeyword>
     <od:hasKeyword>universality</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/s10270-014-0395-3"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_LTL"/>
@@ -2038,6 +2080,7 @@
     <od:hasKeyword>process modelling support</od:hasKeyword>
     <od:hasKeyword>reuse</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-1-4419-9790-6_53"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
@@ -2057,7 +2100,6 @@
     <od:toPattern>four eyes principle</od:toPattern>
     <od:toPattern>secured interaction</od:toPattern>
     <od:toPattern>trusted timestamp</od:toPattern>
-    <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/4eyesprinciple"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/AvoidanceofInfiniteWaits"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/approval"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/foureyesprinciple"/>
@@ -2090,6 +2132,7 @@
     <od:hasKeyword>statement</od:hasKeyword>
     <od:hasKeyword>transaction</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/3-540-44895-0_14"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_CPN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2129,6 +2172,7 @@
     <od:hasKeyword>multiple termination</od:hasKeyword>
     <od:hasKeyword>soundness</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="https://www.researchgate.net/profile/Volker_Gruhn2/publication/221034631_Good_and_Bad_Excuses_for_Unstructured_Business_Process_Models/links/0912f50d32378b3e4c000000.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_EPC"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2165,6 +2209,7 @@
     <od:hasKeyword>green resource</od:hasKeyword>
     <od:hasKeyword>greening</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/SOCA.2013.11"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -2209,6 +2254,7 @@
     <od:hasKeyword>consistency</od:hasKeyword>
     <od:hasKeyword>editing</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/EDOCW.2013.34"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2243,6 +2289,7 @@
     <od:hasKeyword>complex event processing</od:hasKeyword>
     <od:hasKeyword>review</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://ieeexplore.ieee.org/document/7312304/"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -2281,6 +2328,7 @@
     <od:hasKeyword>loosely coupling</od:hasKeyword>
     <od:hasKeyword>modernization</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-13688-7_12"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2329,6 +2377,7 @@
     <od:hasKeyword>reuse</od:hasKeyword>
     <od:hasKeyword>semantics-based analysis</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1080/17517575.2013.857792"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -2385,6 +2434,7 @@
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1016/j.is.2012.11.010"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2450,6 +2500,7 @@
     <od:hasKeyword>failure</od:hasKeyword>
     <od:hasKeyword>flexibility</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://subs.emis.de/LNI/Proceedings/Proceedings12/article238.html"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_ADEPT"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
@@ -2513,6 +2564,7 @@
     <od:hasKeyword>transactional support</od:hasKeyword>
     <od:hasKeyword>web service</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.4018/978-1-4666-0255-7.ch020"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2553,6 +2605,7 @@
     <od:hasKeyword>parallelism</od:hasKeyword>
     <od:hasKeyword>scientific workflow</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="https://doi.org/10.1109/WORKS.2006.5282349"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Informal"/>
@@ -2600,6 +2653,7 @@
     <od:hasKeyword>monitoring</od:hasKeyword>
     <od:hasKeyword>service level</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/s11761-015-0185-y"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_CPN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2626,6 +2680,7 @@
     <od:hasKeyword>logical model</od:hasKeyword>
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-38827-9_7"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#Survey"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -2655,6 +2710,7 @@
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1145/2396716.2396723"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2767,6 +2823,7 @@
     <od:hasKeyword>service composition</od:hasKeyword>
     <od:hasKeyword>workflow composition</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-01347-8_51"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UML"/>
@@ -2829,6 +2886,7 @@
     <od:hasKeyword>transform</od:hasKeyword>
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://ww.workflowpatterns.com/documentation/documents/CPN_PATTERNS.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_CPN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2930,6 +2988,7 @@
     <od:hasKeyword>service-oriented architecture</od:hasKeyword>
     <od:hasKeyword>web services</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1080/17517570802245441"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -2956,6 +3015,7 @@
     <od:hasKeyword>collective</od:hasKeyword>
     <od:hasKeyword>repository</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="https://hal.inria.fr/inria-00107838/"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3008,6 +3068,7 @@
     <od:hasKeyword>PROPEL</od:hasKeyword>
     <od:hasKeyword>software process</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.177.7108"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3061,6 +3122,7 @@
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasKeyword>view</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/EDOC.2010.16"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3140,6 +3202,7 @@
     <od:hasKeyword>review</od:hasKeyword>
     <od:hasKeyword>understandability</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/s12599-013-0297-x"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#Survey"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -3164,6 +3227,7 @@
     <od:hasKeyword>agent-based</od:hasKeyword>
     <od:hasKeyword>interaction</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1057/jos.2013.4"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3232,6 +3296,7 @@
     <od:hasKeyword>threat</od:hasKeyword>
     <od:hasKeyword>vulnerability</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1016/j.csi.2013.12.007"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
@@ -3267,6 +3332,7 @@
     <od:hasKeyword>ontology</od:hasKeyword>
     <od:hasKeyword>workflow pattern</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-540-75183-0_29"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3319,6 +3385,7 @@
     <od:hasKeyword>service-oriented architecture</od:hasKeyword>
     <od:hasKeyword>web service</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/11538394_20"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3367,6 +3434,7 @@
     <od:hasKeyword>service composition</od:hasKeyword>
     <od:hasKeyword>service replacement</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-01918-0_2"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Extension"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_PetriNet"/>
@@ -3439,6 +3507,7 @@
     <od:hasKeyword>signature workflow</od:hasKeyword>
     <od:hasKeyword>signing</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/COMPSACW.2012.60"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -3479,6 +3548,7 @@
     <od:hasKeyword>work product blueprint</od:hasKeyword>
     <od:hasKeyword>work product definition</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-14347-2_24"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_polymetricviews"/>
@@ -3502,6 +3572,7 @@
     <od:hasGuidelines rdf:resource="http://bpmpatterns.org/rdf/Model#Guidelines_No"/>
     <od:hasKeyword>EAM</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://subs.emis.de/LNI/Proceedings/Proceedings150/article4851.html"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -3539,6 +3610,7 @@
     <od:hasKeyword>administration</od:hasKeyword>
     <od:hasKeyword>administrative workflow</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://aisel.aisnet.org/ecis2002/155/"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UMLAD"/>
@@ -3571,6 +3643,7 @@
     <od:hasKeyword>strategy</od:hasKeyword>
     <od:hasKeyword>strategy management</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/3-7908-1624-8_78"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UML"/>
@@ -3603,6 +3676,7 @@
     <od:hasKeyword>causality graph</od:hasKeyword>
     <od:hasKeyword>soundness</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/EDOC.2006.56"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_EPC"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -3641,6 +3715,7 @@
     <od:hasKeyword>nested branching</od:hasKeyword>
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/EDOCW.2006.64"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3682,6 +3757,7 @@
     <od:hasKeyword>failure diagnosis</od:hasKeyword>
     <od:hasKeyword>failure reasoning</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1016/j.eswa.2010.12.121"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3740,6 +3816,7 @@
     <od:hasKeyword>process improvement</od:hasKeyword>
     <od:hasKeyword>process performance</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://www.bptrends.com/bpt/wp-content/publicationfiles/04-06-ART-PatternFramework-Forster.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_ARISToolset"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -3772,6 +3849,7 @@
     <od:hasKeyword>timing</od:hasKeyword>
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/s00766-012-0162-3"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#CaseStudy"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#Survey"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
@@ -3833,6 +3911,7 @@
     <od:hasKeyword>process improvement</od:hasKeyword>
     <od:hasKeyword>process performance</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1108/BPMJ-Mar-2012-0020"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3885,6 +3964,7 @@
     <od:hasKeyword>scientific workflow management system</od:hasKeyword>
     <od:hasKeyword>scientific workflow system</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://doi.acm.org/10.1145/1645164.1645177"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -3942,6 +4022,7 @@
     <od:hasKeyword>settlement</od:hasKeyword>
     <od:hasKeyword>split responsibilities</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.18417/emisa.10.1.4"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#ManualMining"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -3964,7 +4045,6 @@
     <od:toPattern>identification-transaction</od:toPattern>
     <od:toPattern>recurring check</od:toPattern>
     <od:toPattern>settlement</od:toPattern>
-    <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/4eyesprinciple"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/agreement"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/confirmation"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/creditdecision"/>
@@ -4033,6 +4113,7 @@
     <od:hasKeyword>goal modelling</od:hasKeyword>
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1145/2554850.2555119"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -4070,6 +4151,7 @@
     <od:hasKeyword>activity diagram</od:hasKeyword>
     <od:hasKeyword>stepwise refinement</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/COMPSACW.2012.51"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_UMLAD"/>
@@ -4097,6 +4179,7 @@
     <od:hasKeyword>UML activity diagrams</od:hasKeyword>
     <od:hasKeyword>transformation</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_Yes"/>
+    <od:hasLink rdf:resource="https://www.researchgate.net/profile/Peter_Rittgen/publication/228973491_UML_design_patterns_for_business_processes/links/5446d41f0cf22b3c14e0b5ff.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_EPC"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -4135,6 +4218,7 @@
     <od:hasKeyword>value model</od:hasKeyword>
     <od:hasKeyword>value object</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-662-45501-2_3"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -4177,6 +4261,7 @@
     <od:hasKeyword>variability modelling</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/s10257-015-0290-7"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_BPMN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -4213,6 +4298,7 @@
     <od:hasKeyword>variability</od:hasKeyword>
     <od:hasKeyword>variant</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/978-3-642-05441-9_23"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -4258,6 +4344,7 @@
     <od:hasKeyword>termination</od:hasKeyword>
     <od:hasKeyword>weak soundness</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1109/COASE.2009.5234170"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_PetriNet"/>
@@ -4292,6 +4379,7 @@
     <od:hasKeyword>workflow engine</od:hasKeyword>
     <od:hasKeyword>workflow pattern</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://www.workflowpatterns.com/documentation/documents/BPM-06-22.pdf"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_CPN"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_Existing"/>
@@ -4395,7 +4483,6 @@
     <od:toPattern>withdraw activity</od:toPattern>
     <od:toPattern>withdraw case</od:toPattern>
     <od:toPattern>withdraw message</od:toPattern>
-    <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/1outofMjoin"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/ANDjoin"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/ANDsplit"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/AcyclicSynchronizingMerge"/>
@@ -4427,6 +4514,7 @@
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/Multipleinstanceswithoutaprioriruntimeknowledge"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/Multithreadingwithoutsynchronization"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/ORsplit"/>
+    <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/OneOutofMjoin"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/PersistentTrigger"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/Recursion"/>
     <od:toPatternURI rdf:resource="http://bpmpatterns.org/rdf/Pattern/StaticPartialJoinforMultipleInstances"/>
@@ -4499,6 +4587,7 @@
     <od:hasKeyword>information resource</od:hasKeyword>
     <od:hasKeyword>workflow engine</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/11568322_23"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -4608,6 +4697,7 @@
     <od:hasKeyword>unexpected behaviour</od:hasKeyword>
     <od:hasKeyword>work item failure</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/11767138_20"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_New"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -4689,6 +4779,7 @@
     <od:hasKeyword>work distribution</od:hasKeyword>
     <od:hasKeyword>workflow engine</od:hasKeyword>
     <od:hasLD rdf:resource="http://bpmpatterns.org/rdf/Model#LanguageDependency_No"/>
+    <od:hasLink rdf:resource="http://dx.doi.org/10.1007/11431855_16"/>
     <od:hasMethodOfCreation rdf:resource="http://bpmpatterns.org/rdf/Model#InformedArgument"/>
     <od:hasNotation rdf:resource="http://bpmpatterns.org/rdf/Model#Notation_None"/>
     <od:hasOrigin rdf:resource="http://bpmpatterns.org/rdf/Model#Research"/>
@@ -4791,13 +4882,6 @@
     <dcterms:issued>2005</dcterms:issued>
     <dcterms:title xml:lang="en">Workflow Resource Patterns: Identification, Representation and Tool Support</dcterms:title>
   </od:BPMPaper>
-  <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/1outofMjoin">
-    <skos:prefLabel xml:lang="en">1-out-of-M join</skos:prefLabel>
-  </bpm:Pattern>
-  <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/4eyesprinciple">
-    <skos:prefLabel xml:lang="en">4 eyes principle</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">4-eyes principle</skos:prefLabel>
-  </bpm:Pattern>
   <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/ANDMerge">
     <skos:prefLabel xml:lang="en">AND Merge</skos:prefLabel>
   </bpm:Pattern>
@@ -5652,6 +5736,9 @@
   </bpm:Pattern>
   <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/ObligationStateChanges">
     <skos:prefLabel xml:lang="en">Obligation State Changes</skos:prefLabel>
+  </bpm:Pattern>
+  <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/OneOutofMjoin">
+    <skos:prefLabel xml:lang="en">1-out-of-M join</skos:prefLabel>
   </bpm:Pattern>
   <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/Optimizeresourcecapacities">
     <skos:prefLabel xml:lang="en">Optimize resource capacities</skos:prefLabel>
@@ -6721,6 +6808,8 @@
     <skos:prefLabel xml:lang="en">forward jump</skos:prefLabel>
   </bpm:Pattern>
   <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/foureyesprinciple">
+    <skos:prefLabel xml:lang="en">4 eyes principle</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">4-eyes principle</skos:prefLabel>
     <skos:prefLabel xml:lang="en">four eyes principle</skos:prefLabel>
   </bpm:Pattern>
   <bpm:Pattern rdf:about="http://bpmpatterns.org/rdf/Pattern/fragment">
@@ -7572,7 +7661,8 @@
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Business Process Management Patterns from bpmpatterns.org.</rdfs:comment>
-    <rdfs:comment>Extracted and transformed by HGG, 2022-06-16</rdfs:comment>
+    <rdfs:comment>graebe 2022-06-16: Extracted and transformed from the CSV</rdfs:comment>
+    <rdfs:comment>graebe 2022-07-08: Links to the papers added from the website</rdfs:comment>
     <rdfs:label>Business Process Management Patterns</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

@@ -25,7 +25,8 @@ conferences:
 	rapper -g ../../RDFData/Conferences/TRIZFest-2018.ttl -o rdfxml-abbrev >TRIZFest-2018.rdf
 	rapper -g ../../RDFData/Conferences/TRIZFest-2019.ttl -o rdfxml-abbrev >TRIZFest-2019.rdf
 	rapper -g ../../RDFData/Conferences/TRIZFest-2021.ttl -o rdfxml-abbrev >TRIZFest-2021.rdf
-	rapper -g ../../RDFData/Conferences/GermanTRIZOnline-2020.ttl -o rdfxml-abbrev >GermanTRIZOnline-2020.rdf
+	rapper -g ../../RDFData/Conferences/DAT-2020.ttl -o rdfxml-abbrev >DAT-2020.rdf
+	rapper -g ../../RDFData/Conferences/DAT-2022.ttl -o rdfxml-abbrev >DAT-2022.rdf
 	rapper -g ../../RDFData/Conferences/GermanTEX-2022.ttl -o rdfxml-abbrev >GermanTEX-2022.rdf
 	rapper -g ../../RDFData/Conferences/MOF-2020.ttl -o rdfxml-abbrev >MOF-2020.rdf
 	rapper -g ../../RDFData/Conferences/TRIZ-Future-2020.ttl -o rdfxml-abbrev >TRIZ-Future-2020.rdf

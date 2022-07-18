@@ -1178,6 +1178,10 @@
     <foaf:affil>Erfinder-Akademie, Leipzig, Germany</foaf:affil>
     <foaf:name>Michael Herrlich</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hess_J">
+    <foaf:affil>Evonik Operations GmbH, Hanau, Germany</foaf:affil>
+    <foaf:name>Jürgen Hess</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hierl_R">
     <foaf:affil>Leadership Service, Freudenberg, Germany</foaf:affil>
     <foaf:name>Robert Hierl</foaf:name>
@@ -2281,6 +2285,10 @@
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Мохова Ксения Сергеевна</foaf:fullname>
     <foaf:name>K. S. Mokhova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Moosburger_J">
+    <foaf:affil>ams-OSRAM International GmbH, Regensburg, Germany</foaf:affil>
+    <foaf:name>Jürgen Moosburger</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Morandi_W">
     <foaf:name>Walter Morandi</foaf:name>
@@ -3621,7 +3629,7 @@
     <foaf:name>Edward Werninghaus</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wessner_J">
-    <foaf:affil>Bosch, Gerlingen, Germany</foaf:affil>
+    <foaf:affil>Bosch, Stuttgart, Germany</foaf:affil>
     <foaf:name>Jochen Wessner</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/WiecekJanka_E">
