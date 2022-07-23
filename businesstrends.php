@@ -1,7 +1,10 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-06-18
+ * last update: 2022-07-23
+
+ * 2022-07-23: displayuri.php link in getBMLabels added.
+
  */
 
 require 'vendor/autoload.php';
@@ -43,7 +46,8 @@ function displaySubTrend($subtrend) {
 function getBMLabels($a) {
     $b=array();
     foreach($a as $v) {
-        $b[]=$v->getLiteral("skos:prefLabel","en");
+        $url='http://wumm.uni-leipzig.de/displayuri.php?uri='.$v->getURI();
+        $b[]=createLink($url,$v->getLiteral("skos:prefLabel","en"));
     }
     return $b;
 }
