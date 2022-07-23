@@ -1091,7 +1091,7 @@ feedstock CEBM patterns seek to retain the material value by closing resource
 loops. </skos:note>
     <skos:prefLabel xml:lang="en">Value oriented strategy</skos:prefLabel>
   </od:CEBMStrategy>
-  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/CEBMPatterns/">
+  <owl:Ontology rdf:about="http://opendiscovery.org/rdf/CEBMPatterns/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>

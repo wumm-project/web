@@ -852,6 +852,10 @@
     <foaf:fullname xml:lang="ru">Фоменко Алексей Юрьевич</foaf:fullname>
     <foaf:name>Alexey Y. Fomenko</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Foris_O">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:name>Olga Foris</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fowlkes_WY">
     <foaf:name>William Y. Fowlkes</foaf:name>
   </foaf:Person>
