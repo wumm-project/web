@@ -47,6 +47,7 @@
     <foaf:name>Humberto Aguayo Téllez</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Agulyansky_A">
+    <foaf:affil>Intel, USA</foaf:affil>
     <foaf:name>Anatoly Agulyansky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Agulyansky_AA">
@@ -774,7 +775,7 @@
     <foaf:name>Jiang Fan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Farber_BS">
-    <foaf:affil>TRIZBiopharma International, New York, USA</foaf:affil>
+    <foaf:affil>CEO of TRIZ Biopharma International, New York, USA</foaf:affil>
     <foaf:fullname xml:lang="ru">Фарбер Борис Славинович</foaf:fullname>
     <foaf:name>Boris S. Farber</foaf:name>
   </foaf:Person>
@@ -2623,7 +2624,7 @@
     <foaf:name>Robert Płatek</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Platt_R">
-    <foaf:affil>ABB, Poland</foaf:affil>
+    <foaf:affil>Strategy + Innovation Group, USA</foaf:affil>
     <foaf:name>Richard Platt</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pobol_A">

@@ -377,10 +377,20 @@ The Conference aims at linking industrial companies, research centers, education
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon"/>
     <rdfs:label>TRIZCon 2020</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-07</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-06</ical:dtstart>
-    <ical:location>Purdue Univ., West Lafayette, USA</ical:location>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-06</ical:dtstart>
+    <ical:location>Online</ical:location>
     <ical:summary>TRIZCon 2020, organized by the Altshuller Institute</ical:summary>
     <ical:url rdf:resource="https://www.aitriz.org/trizcon2020"/>
+  </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZCon-2021/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZCon-2021.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon"/>
+    <rdfs:label>TRIZCon 2021</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-06</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-05</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary>TRIZCon 2021, organized by the Altshuller Institute</ical:summary>
+    <ical:url rdf:resource="https://www.aitriz.org/trizcon2021"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZFest-2015.rdf"/>
