@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-05-20
+ * last update: 2022-07-30
  */
 
 function pageHeader() {
@@ -35,22 +35,10 @@ function pageNavbar() {
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li> 
-            <li><a href="people.php">People</a></li>
-            <li><a href="books.php">Books</a></li>
-            <li><a href="tbk.php">TRIZ Body of Knowledge</a></li>
-            <li><a href="conferences.php">Past Conferences</a></li>
-            <li><a href="presentations.php">TRIZ Presentations</a></li>
-            <li><a href="videos.php">Videos</a></li>
+            <li><a href="social.php">TRIZ Social Network</a></li>
+            <li><a href="classic.php">Classical TRIZ</a></li>
             <li><a href="ontology.php">TRIZ Ontology</a></li>
-            <li><a href="principles.php">Principles</a></li>
-            <li><a href="parameters.php">Parameters</a></li>
-            <li><a href="standards.php">Standards</a></li>
-            <li><a href="businessstandards.php">Business Standards</a></li>
-            <li><a href="businesstrends.php">Business Trends</a></li>
-            <li><a href="bmp.php">Business Model Patterns</a></li>
-            <li><a href="bpm.php">Business Process Model Patterns</a></li>
-            <li><a href="wtsp.php">WTSP Metadata</a></li>
-            <!--<li><a href="test.php">Test</a></li>-->
+            <li><a href="business.php">Business TRIZ</a></li>
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->

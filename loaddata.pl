@@ -5,11 +5,10 @@
 
 # Changes:
 
-# purpose: load data into the local Virtuoso store
+# purpose: load data in rdf/xml format into the WUMM Virtuoso store
 # usage: perl loaddata.pl | isql-vt 1112 dba <YourSecretPassword>
 
 my $RDFData="/local/home/wumm/web/rdf";
-#my $RDFData="/home/graebe/git/WUMM/web/rdf";
 # print cleardata();
 print loaddata();
 
