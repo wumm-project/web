@@ -89,6 +89,10 @@ function showTalk($talk) {
         $a[]=createLink($v,"Paper");
     }
     $urlPaper=join(", ",$a);
+    foreach ($talk->all("od:urlPreprint") as $v) {
+        $a[]=createLink($v,"Preprint");
+    }
+    $urlPreprint=join(", ",$a);
     $a=array();
     foreach ($talk->all("od:urlSlides") as $v) {
         $a[]=createLink($v,"Slides");
@@ -118,6 +122,11 @@ function showTalk($talk) {
         $out.='
   <div class="paper"> <img alt="" src="images/13_icon_pdf.gif"'
         .' width="18px"/>&nbsp;'.$urlPaper.' </div>';
+    } 
+    if ($urlPreprint) { 
+        $out.='
+  <div class="preprint"> <img alt="" src="images/13_icon_pdf.gif"'
+        .' width="18px"/>&nbsp;'.$urlPreprint.' </div>';
     } 
     if ($urlSlides) { 
         $out.='

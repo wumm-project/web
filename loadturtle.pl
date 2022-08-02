@@ -8,7 +8,7 @@
 # purpose: load data in turtle format into the local Virtuoso store
 # usage: perl loaddata.pl | isql-vt 1111 dba <YourSecretPassword>
 
-my $RDFData="/home/graebe/git/WUMM/RDFData";
+my $RDFData=$ENV{"WUMM_RDFDATA"};
 print loaddata();
 
 ## end main ## 

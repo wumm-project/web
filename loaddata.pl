@@ -1,14 +1,14 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2022-06-19
+# lastModified: 2022-08-01
 
 # Changes:
 
 # purpose: load data in rdf/xml format into the WUMM Virtuoso store
 # usage: perl loaddata.pl | isql-vt 1112 dba <YourSecretPassword>
 
-my $RDFData="/local/home/wumm/web/rdf";
+my $RDFData=$ENV{"WUMM_WEB"}."/rdf";
 # print cleardata();
 print loaddata();
 

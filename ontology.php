@@ -9,8 +9,7 @@ require_once 'helper.php';
 require_once 'layout.php';
 
 function theTitle() {
-    return '<a href="ontology.php">Home</a>
-    <h2>The WUMM Ontology Project</h2>';
+    return '<h2>The WUMM Ontology Project</h2>';
 }
 
 // ------ helper ---- 

@@ -11,9 +11,20 @@ require_once 'layout.php';
 function thePeople() 
 {
     setNamespaces();
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/People/');
-    $graph->parseFile("rdf/People.rdf");
-    $graph->parseFile("rdf/MATRIZ-Certificates.rdf");
+    global $sparql;
+    $query='
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a 
+from <http://opendiscovery.org/rdf/People/>
+from <http://opendiscovery.org/rdf/MATRIZ-Certificates/>
+where { ?a a foaf:Person .}';
+
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
     $a=array();
     foreach ($graph->allOfType('foaf:Person') as $autor) {
         $c=array();        
@@ -24,8 +35,10 @@ function thePeople()
         }
         $b=array();                
         foreach ($autor->all("foaf:name") as $e) {
-            $b[]='<strong><span itemprop="name" class="foaf:name">'
-                .$e->getValue().'</span></strong>';
+            $url='http://wumm.uni-leipzig.de/displayuri.php?uri='.$autor->getURI();
+            $value='<strong><span itemprop="name" class="foaf:name">'
+                  .$e->getValue().'</span></strong>';
+            $b[]=createLink($url,$value);
         }
         foreach ($autor->all("foaf:affil") as $e) {
             $b[]='<span itemprop="affiliation" class="foaf:affil">'
