@@ -325,7 +325,7 @@ The Conference aims at linking industrial companies, research centers, education
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2022</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-29</ical:dtend>
-    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-27</ical:dtstart>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-27</ical:dtstart>
     <ical:location>Warsaw University of Technology (Warsaw, Poland)</ical:location>
     <ical:summary xml:lang="en">The conference aims at linking organizations and individuals from the industry, research, and education worlds to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum to exchange new ideas on knowledge-based innovation, present recent achievements in this area, and strengthen collaboration between academic and industrial players.</ical:summary>
     <ical:url rdf:resource="https://tfc2022.elka.pw.edu.pl/"/>
