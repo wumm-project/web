@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:track="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/General">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2022.rdf"/>
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
+    <rdfs:label>TRIZ Future 2022</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-29</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-27</ical:dtstart>
+    <ical:location>Warsaw University of Technology (Warsaw, Poland)</ical:location>
+    <ical:summary xml:lang="en">The conference aims at linking organizations and individuals from the industry, research, and education worlds to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum to exchange new ideas on knowledge-based innovation, present recent achievements in this area, and strengthen collaboration between academic and industrial players.</ical:summary>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_100">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Obojski_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Przymusiala_M"/>
+    <dcterms:title xml:lang="en">Everything You Always Wanted to Know About TRIZ But Had Nobody to Ask</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_101">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prushinskiy_VO"/>
+    <dcterms:title xml:lang="en">Introduction Into Patents, Intellectual Property (IP) Enhancement And Patent Deconstruction</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_102">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rudzinski_M"/>
+    <dcterms:title xml:lang="en">Cognitive Filters and Psychological Inertia</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_103">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Anhalt_K"/>
+    <dcterms:title xml:lang="en">PACTT – The Polish Association of Centers for Technology Transfer</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_104">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fey_VR"/>
+    <dcterms:title xml:lang="en">How to Map Your Best Innovation Opportunities</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_105">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nowak_R"/>
+    <dcterms:title xml:lang="en">Introduction to Artificial Intelligence</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_106">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Proseanic_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:title xml:lang="en">TRIZ and Progressive Artificial Neural Networks (PANN)</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_107">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mysior_M"/>
+    <dcterms:title xml:lang="en">Modular ideality for systematic segmentation</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_108">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Landi_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Spreafico_C"/>
+    <dcterms:title xml:lang="en">How to implement EU eco-design Directive through a TRIZ-based approach</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_109">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Edward_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Labadin_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ramaiyer_NK"/>
+    <dcterms:title xml:lang="en">Mathematical Modelling and Formalization of TRIZ: Trimming for Product Design</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_110">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gardoni_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tremblay_S"/>
+    <dcterms:title xml:lang="en">Improving the TRIZ creative engineering methodology to take into account the notion of the value of the idea</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_111">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zusman_AV"/>
+    <dcterms:title xml:lang="en">New developments in the application of TRIZ to solving problems in complex systems, including business and social ones</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_112">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mahmood_MH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Soosay_AER"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yusoff_SBM"/>
+    <dcterms:title xml:lang="en">Triz-based Remodelling of Body Enclosure for Corpse</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_113">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Benmoussa_R"/>
+    <dcterms:title xml:lang="en">Eco-design Pilot Improvement Based on TRIZ and ASIT Tools</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_114">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schollmeyer_J"/>
+    <dcterms:title xml:lang="en">Idenitifying organisational tradeoffs by analysing employee reviews with NLP</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_115">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/George_F"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Leong_JPC"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mintu_TG"/>
+    <dcterms:title xml:lang="en">TRIZ-based Approach in Capturing and Managing Indigenous Innovation and Knowledge</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_116">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wawrzynski_P"/>
+    <dcterms:title xml:lang="en">Deep Learning and machine creativity</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_117">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/BoratynskaSala_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wozniak_M"/>
+    <dcterms:title xml:lang="en">The potential of creative methods for IT project management</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_118">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Phadnis_N"/>
+    <dcterms:title xml:lang="en">Innovation Portfolio Management: How TRIZ can help?</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_119">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bertoncelli_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gronauer_B"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naehler_HT"/>
+    <dcterms:title xml:lang="en">Modeling IT systems in TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_120">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Beckmann_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bertoncelli_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gronauer_B"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naehler_HT"/>
+    <dcterms:title xml:lang="en">Modeling Software in TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_121">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chibane_H"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hanifi_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Houssin_R"/>
+    <dcterms:title xml:lang="en">Inventive principles extraction in inventive design using Artificial Intelligence methods</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_122">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gervasoni_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Russo_D"/>
+    <dcterms:title xml:lang="en">AI based Patent analyzer for suggesting Solutive actions and graphical triggers</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_123">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Iniotakis_C"/>
+    <dcterms:title xml:lang="en">VA++ - the Next Generation of Value Analysis in TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_124">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hentschel_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hiltmann_K"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Huber_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naehler_HT"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_CM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wichowska_AM"/>
+    <dcterms:title xml:lang="en">Development of an Ontology of Sustainable Eco-friendly Technologies and Products based on the Inventive Principles of the TRIZ Theory (OntoSustIP)</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_125">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Obojski_J"/>
+    <dcterms:title xml:lang="en">Market Impact Chain Analysis - MICA, new TRIZ tool</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_126">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mintu_TG"/>
+    <dcterms:title xml:lang="en">TRIZ-based Approach in Co-creating Virtual Storymaps</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_127">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Douard_N"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Giakos_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Samet_A"/>
+    <dcterms:title xml:lang="en">Bridging Two Different Domains so as To Potentially Pair Their Inherent Problem-Solution. Text Contents: Applications to Quantum Sensing and Biology</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_128">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Goh_CH"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
+    <dcterms:title xml:lang="en">Inventive Design Solutions for the Complex Social-Technical Problems in Preserving Indigenous Symbolic Visual Communications</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_129">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Prushinskiy_VO"/>
+    <dcterms:title xml:lang="en">TRIZ, Big Data and improving of UI of electronic devices</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_130">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guarino_G"/>
+    <dcterms:title xml:lang="en">Automatic TRIZ domain mapping</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_131">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Iuga_M"/>
+    <dcterms:title xml:lang="en">Adoption of Artificial Intelligence in Romania: Innovative Policies to Overpass Vulnerabilities with TRIZ and Deep-Thinking Tools</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_132">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Julitz_TM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Katzwinkel_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Loewer_M"/>
+    <dcterms:title xml:lang="en">Using MBSE for conflict managing TRIZ on a systems engineering level</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_133">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Koziolek_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mysior_M"/>
+    <dcterms:title xml:lang="en">Hypotheses analysis as a development of the System Operator method used in TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_134">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Harlim_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tanoyo_T"/>
+    <dcterms:title xml:lang="en">TRIZ Training Within a Continuous Improvement (Kai-zen) Event – Exploration and Evaluation</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_135">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Przymusiala_M"/>
+    <dcterms:title xml:lang="en">TRIZ trainings in pandemic times – teaching TRIZ using TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_136">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dewulf_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mann_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nakagawa_T"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Orloff_MA"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">WTSP Report (5) Catalogs of TRIZ and Around-TRIZ Sites in the World: We Can Learn Full Scope of TRIZ-related Works in the World</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_137">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abdullah_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Iqbal_AM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khan_AS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kulathuramaiyer_N"/>
+    <dcterms:title xml:lang="en">Analysing Human Capital to Strengthen National Innovation System Through University-Industry Research Collaboration: A TRIZ-Based Approach</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_138">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fey_VR"/>
+    <dcterms:title xml:lang="en">How to Advance TRIZ into an Exact Science</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_139">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berdyugina_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:title xml:lang="en">Exploitation of causal relation for automatic extraction of contradiction from a domain-restricted patent corpus</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_140">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
+    <dcterms:title xml:lang="en">Systems, Resources, and Systemic Development in TRIZ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_141">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bryksin_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chechurin_L"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kaliteevski_V"/>
+    <dcterms:title xml:lang="en">Integration of TRIZ methodologies into the digital product development process</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_142">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Livotov_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/MasUdah"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pachulska_AM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Santosa_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sekaran_APC"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Takwanto_A"/>
+    <dcterms:title xml:lang="en">Eco-Feasibility Study and Application of Natural Inventive Principles in Chemical Engineering Design</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_143">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bekas_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuduk_G"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Palka_P"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wasowska_B"/>
+    <dcterms:title xml:lang="en">Analysis of Tools Used for Implementation of a Knowledge Base Based on an Ontology for a Service Robot in a Kitchen Environment</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_144">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Heuten_V"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kleemann_KP"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schumann_N"/>
+    <dcterms:title xml:lang="en">Focusing the first phase – an interdisciplinary approach to modeling an interactive system on the use case Indoor-Blind-Navigation</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_145">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dakkak_B"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hassan_IE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Laaroussi_EG"/>
+    <dcterms:title xml:lang="en">Lean and TRIZ for improving the maintenance process</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_146">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Brad_S"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Stetco_E"/>
+    <dcterms:title xml:lang="en">An Interactive Artificial Intelligence System for Inventive Problem-Solving</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_147">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bastian_L"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cavallucci_D"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Coulibaly_A"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gobert_J"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ory_M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Rudolf_F"/>
+    <dcterms:title xml:lang="en">Open Inventive Design Method (OIDM-Triz) approach for the modeling of complex systems and the resolution of multidisciplinary contradictions. Application to the exploration of innovative solutions to deal with the climate change impacts</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_148">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Korotchenya_V"/>
+    <dcterms:title xml:lang="en">Ideal Final Result for Agriculture: Striving after Sustainability</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_149">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wessner_J"/>
+    <dcterms:title xml:lang="en">The Use of Publicly Available Image Search Engines to Find Solution Ideas</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/Talk_150">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mei_CA"/>
+    <dcterms:title xml:lang="en">Integrating TRIZ with AI in the era of the Fourth Industrial Revolution</dcterms:title>
+  </od:Talk>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Keynote">
+    <rdfs:label xml:lang="en">Keynote</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/SD">
+    <rdfs:label xml:lang="en">Session</rdfs:label>
+  </swc:TrackEvent>
+  <swc:TrackEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/Tutorial">
+    <rdfs:label xml:lang="en">Tutorial</rdfs:label>
+  </swc:TrackEvent>
+</rdf:RDF>

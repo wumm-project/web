@@ -3,14 +3,11 @@
    xmlns:edc="http://opendiscovery.org/rdf/EcoDesignConcept/"
    xmlns:edg="http://opendiscovery.org/rdf/EcoDesignGenericStrategy/"
    xmlns:edp="http://opendiscovery.org/rdf/EcoDesignPrinciple/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
-   xmlns:org="http://www.w3.org/ns/org#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
   <od:EDPTarget rdf:about="http://opendiscovery.org/rdf/EcoDesignConcept/AuxiliaryMaterials">
     <skos:prefLabel xml:lang="en">Auxiliary Material</skos:prefLabel>
   </od:EDPTarget>
@@ -960,7 +957,7 @@ resistant for the subsequent assembly phases, etc.
     <cc:attributionName>The Open Discovery Project</cc:attributionName>
     <cc:attributionURL rdf:resource="http://opendiscovery.org"/>
     <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>2022-06-06: Extracted and transformed from (Russo, Spreafico 2020)</rdfs:comment>
+    <rdfs:comment>2022-06-06 graebe: Extracted and transformed from (Russo, Spreafico 2020)</rdfs:comment>
     <rdfs:label>The Eco Design principles in (Russo, Spreafico 2020)</rdfs:label>
   </owl:Ontology>
 </rdf:RDF>

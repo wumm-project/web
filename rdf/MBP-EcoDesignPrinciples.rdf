@@ -122,6 +122,7 @@ detergent consumption (P29).  </skos:note>
   </od:ED_Example>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P01">
     <od:hasMBPID>P01</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/PreManufacturing"/>
     <skos:definition xml:lang="en">Design for appropriate lifespan</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P02">
@@ -193,6 +194,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P15">
     <od:hasMBPID>P15</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
     <skos:definition xml:lang="en">Minimize energy consumption (during transportation and storage)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P16">
@@ -202,22 +204,27 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P17">
     <od:hasMBPID>P17</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Select non-toxic and harmless materials</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P18">
     <od:hasMBPID>P18</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Select non-toxic and harmless energy resources</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P19">
     <od:hasMBPID>P19</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Select renewable and bio-compatible materials</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P20">
     <od:hasMBPID>P20</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Select renewable and bio-compatible energy resources</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P21">
     <od:hasMBPID>P21</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Adopt the cascade approach</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P22">
@@ -227,6 +234,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P23">
     <od:hasMBPID>P23</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Identify materials</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P24">
@@ -237,22 +245,27 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P25">
     <od:hasMBPID>P25</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Facilitate cleaning</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P26">
     <od:hasMBPID>P26</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Facilitate composting</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P27">
     <od:hasMBPID>P27</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Reduce and facilitate operations of disassembly and separation</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P28">
     <od:hasMBPID>P28</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Engage reversible joining systems</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P29">
     <od:hasMBPID>P29</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Develop services providing added value to the product’s life cycle</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P30">
@@ -262,28 +275,34 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P31">
     <od:hasMBPID>P31</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Develop services providing ‘enabling platforms for customers’</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P32">
     <od:hasMBPID>P32</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
     <skos:definition xml:lang="en">Change raw material (low impact or recyclable/recycled)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P33">
     <od:hasMBPID>P33</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
     <skos:definition xml:lang="en">Modify raw material (reduce mass and volume)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P34">
     <od:hasMBPID>P34</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Manufacturing"/>
     <skos:definition xml:lang="en">Use pre-manufactured material</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P35">
     <od:hasMBPID>P35</od:hasMBPID>
     <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
     <skos:definition xml:lang="en">Change material (low impact) for the packaging</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P36">
     <od:hasMBPID>P36</od:hasMBPID>
     <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
     <skos:definition xml:lang="en">Reduce the mass of the packaging (eliminate, reduce, integrate, modify raw material to be protected)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P37">
@@ -294,6 +313,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P38">
     <od:hasMBPID>P38</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
     <skos:definition xml:lang="en">Improve packaging durability (reuse in the same or different way, recycle)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P39">
@@ -304,6 +324,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P40">
     <od:hasMBPID>P40</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
     <skos:definition xml:lang="en">Use efficient transports</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P41">
@@ -313,6 +334,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P42">
     <od:hasMBPID>P42</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
     <skos:definition xml:lang="en">Reduce the volume of the load (reduce the volume or the free space)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P43">
@@ -327,6 +349,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P45">
     <od:hasMBPID>P45</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Avoid auxiliary components (independent, eliminate components, dematerializing)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P46">
@@ -336,40 +359,49 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P47">
     <od:hasMBPID>P47</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Remove dangerous materials during the product use</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P48">
     <od:hasMBPID>P48</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Reduce environmental problems during the product use</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P49">
     <od:hasMBPID>P49</od:hasMBPID>
-    <skos:definition xml:lang="en">Act on durability (more operation, different way) of the packaging during the product use</skos:definition>
+    <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
+    <skos:definition xml:lang="en">Act on durability (more operation, different way) of the packaging</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P50">
     <od:hasMBPID>P50</od:hasMBPID>
     <od:what rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Packaging"/>
     <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/Distribution"/>
-    <skos:definition xml:lang="en">Reduce the mass of the packaging during the product use (light material, multifunctional product)</skos:definition>
+    <skos:definition xml:lang="en">Reduce the mass of the packaging (light material, multifunctional product)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P51">
     <od:hasMBPID>P51</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Act on shape and volume</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P52">
     <od:hasMBPID>P52</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Reduce the consumption of energy required (efficient or alternative)</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P53">
     <od:hasMBPID>P53</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Recover dissipated energy during the product use</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P54">
     <od:hasMBPID>P54</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Reduce the need of maintenance during the product use</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P55">
     <od:hasMBPID>P55</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Make the maintenance proactive during the product use</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P56">
@@ -383,6 +415,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P58">
     <od:hasMBPID>P58</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/ProductUse"/>
     <skos:definition xml:lang="en">Design product with low emission of pollution substances during the product use</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P59">
@@ -397,18 +430,22 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P61">
     <od:hasMBPID>P61</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Recovery of material (reuse, remanufacture, recycle) at the end of the product’s life</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P62">
     <od:hasMBPID>P62</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Use biodegradable packaging for the end of the product’s life</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P63">
     <od:hasMBPID>P63</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Reduce the mass for the end of the product’s life</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P64">
     <od:hasMBPID>P64</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Allow the separability of materials at the end of the product’s life</skos:definition>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P65">
@@ -418,6 +455,7 @@ detergent consumption (P29).  </skos:note>
   </od:EDP>
   <od:EDP rdf:about="http://opendiscovery.org/rdf/EcoDesignPrinciple/P66">
     <od:hasMBPID>P66</od:hasMBPID>
+    <od:when rdf:resource="http://opendiscovery.org/rdf/EcoDesignConcept/EndOfLife"/>
     <skos:definition xml:lang="en">Reduce the weight and the volume of the transport at the end of the product’s life</skos:definition>
   </od:EDP>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/MBP-EcoDesignPrinciples/">

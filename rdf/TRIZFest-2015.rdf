@@ -115,7 +115,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naehter_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Neumuth_T"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tharmann_R"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_CM"/>
     <dcterms:title>One Day at the Museum – Using a Museum as Resource for Teaching and Learning TRIZ</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/Paper_118">

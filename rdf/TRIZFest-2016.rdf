@@ -238,7 +238,7 @@
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_142">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naether_S"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_CM"/>
     <dcterms:title>TRIZ integration for project managers – discovering further TRIZ benefits</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/Paper_143">

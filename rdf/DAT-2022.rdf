@@ -50,7 +50,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr wieder im Springer Vieweg ve
     <dcterms:title xml:lang="en">TRIZ and City Traffic Planning</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/DAT-2022/Talk_105">
-    <od:urlPaper rdf:resource="https://hg-graebe.de/EigeneTexte/DAT-22-en.pdf"/>
+    <od:urlPreprint rdf:resource="https://hg-graebe.de/EigeneTexte/DAT-22-en.pdf"/>
     <od:urlSlides rdf:resource="https://hg-graebe.de/EigeneTexte/DAT-22-Slides.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:title xml:lang="en">Components as Resources and Cooperative Action</dcterms:title>

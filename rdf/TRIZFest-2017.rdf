@@ -126,7 +126,7 @@
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_120">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Naether_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schmidt_A"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_CM"/>
     <dcterms:title>Hybridization of DFSS- and TRIZ-modeling methods within an innovation oriented DFSS-framework</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_121">
@@ -207,7 +207,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Adunka_R"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hiltmann_K"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Huber_N"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Thurnes_CM"/>
     <dcterms:title>Standard VDI 4521 part 3: inventive problem solving with TRIZ: problem solution</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_138">
