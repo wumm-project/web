@@ -50,6 +50,8 @@ sub loaddata {
   # experimental
   $out.=createLoadCommand("http://opendiscovery.org/rdf/Books/","Books.ttl");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK-References/","TBK-References.ttl");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK1-Concepts/","TBK1-Concepts.ttl");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK2-Concepts/","TBK2-Concepts.ttl");
 #  $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowDevelopmentPattern.ttl");
   return $out;
 }
