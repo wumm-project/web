@@ -328,7 +328,7 @@
     <dcterms:title>TRIZ invention school for the children and the youth</dcterms:title>
   </od:Paper>
   <od:Paper rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/Paper_162">
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarova_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarova_EM"/>
     <dcterms:title>TRIZ pedagogy as the basis of the educational process</dcterms:title>
   </od:Paper>
 </rdf:RDF>

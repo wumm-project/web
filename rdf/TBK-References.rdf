@@ -5,6 +5,7 @@
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odbib="http://opendiscovery.org/rdf/BIB/"
    xmlns:odp="http://opendiscovery.org/rdf/Person/"
    xmlns:odv1="http://opendiscovery.org/rdf/TBK1/"
    xmlns:odv2="http://opendiscovery.org/rdf/TBK2/"
@@ -28,7 +29,7 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shapiro_RB"/>
     <dcterms:issued>1956</dcterms:issued>
     <dcterms:title xml:lang="en">On Psychology of Inventive Creativity</dcterms:title>
-    <rdfs:comment>English translation in TRIZ Review 1 (2019) </rdfs:comment>
+    <rdfs:comment>English translation in TRIZ Review 1 (2019)</rdfs:comment>
     <rdfs:comment>Problems of Psychology, Vol. 6., pp. 37-49, 1956. See also Izobretenia, The Altshuller Institute for TRIZ Studies, 2000.</rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1960">
@@ -191,6 +192,14 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Filkovsky_GL"/>
     <dcterms:issued>1975</dcterms:issued>
     <dcterms:title xml:lang="ru">Современное состояние теории решения изобретательских зада</dcterms:title>
+  </od:Reference>
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1975_29b169">
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK1/V11"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz1.asp"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1975</dcterms:issued>
+    <dcterms:title>The Process of Inventive Problem Solving: Main Stages and Mechanisms</dcterms:title>
+    <rdfs:comment>Publishing date: 06.04.75</rdfs:comment>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1975_39e00f">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/F05"/>
@@ -437,6 +446,15 @@
     <dcterms:issued>1980</dcterms:issued>
     <dcterms:title xml:lang="ru">Крылья для Икара: Как решать изобретательские задачи</dcterms:title>
   </od:Reference>
+  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1981_4c5f6a">
+    <od:Quelle>Альтшуллер Г. С., Горин Ю. В. Отталкиваться — притягиваться, "Техника и наука", 1981, №7. 17-18.</od:Quelle>
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/D14"/>
+    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/tin022.asp"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gorin_YV"/>
+    <dcterms:issued>1981</dcterms:issued>
+    <dcterms:title xml:lang="ru">«Отталкиваться — притягиваться</dcterms:title>
+  </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1981_da3002">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/F21"/>
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/F22"/>
@@ -668,6 +686,14 @@
     <dcterms:title xml:lang="ru">Дерзкие формулы творчества</dcterms:title>
     <rdfs:comment>pp. 64—66</rdfs:comment>
   </od:Reference>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1987_652d2d">
+    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/Book/Verweis.6"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:title xml:lang="en">Daring Formulae of Creativity</dcterms:title>
+    <rdfs:comment>Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74.</rdfs:comment>
+  </od:TRIZ-Book>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_1987_867391">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/B01"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
@@ -1027,38 +1053,16 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:title>Principles of Sufield Analysis</dcterms:title>
   </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_XX_29b169">
-    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK1/V11"/>
-    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz1.asp"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:title>The Process of Inventive Problem Solving: Main Stages and Mechanisms</dcterms:title>
-    <rdfs:comment>Publishing date: 06.04.75</rdfs:comment>
-  </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_XX_2f260e">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK1/V14"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:title>Laws of Systems Evolution</dcterms:title>
-  </od:Reference>
-  <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_XX_4c5f6a">
-    <od:Quelle>Альтшуллер Г. С., Горин Ю. В. Отталкиваться — притягиваться, с. 133 — 140. </od:Quelle>
-    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/D14"/>
-    <od:relatedLinks rdf:resource="http://www.altshuller.ru/triz/tin022.asp"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gorin_YV"/>
-    <dcterms:title xml:lang="ru">«Отталкиваться — притягиваться</dcterms:title>
   </od:Reference>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_XX_57fb7a">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK1/V12"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
     <dcterms:title>Administrative, Engineering, and Physical Contradictions</dcterms:title>
   </od:Reference>
-  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_XX_652d2d">
-    <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/Book/Verweis.6"/>
-    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Altshuller_GS"/>
-    <dcterms:title xml:lang="en">Daring Formulae of Creativity</dcterms:title>
-    <rdfs:comment>Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74.</rdfs:comment>
-  </od:TRIZ-Book>
   <od:Reference rdf:about="http://opendiscovery.org/rdf/BIB/Altshuller_XX_89e794">
     <od:hatVerweis rdf:resource="http://opendiscovery.org/rdf/TBK2/F34"/>
     <od:relatedLinks rdf:resource="http://www.altshuller.ru/trtl/heretic1.asp"/>

@@ -205,7 +205,7 @@
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/Talk_126">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/track/Pedagogy"/>
     <od:urlPaper rdf:resource="https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarova_O"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarova_EM"/>
     <dcterms:title xml:lang="en">Competency based approach in "education without lesson" at school using the system approach</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/Talk_127">

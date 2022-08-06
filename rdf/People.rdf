@@ -240,6 +240,11 @@
     <foaf:affil>Strasbourg, France</foaf:affil>
     <foaf:name>Daria Berdyugina</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Berkova_V">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Беркова Виктория</foaf:fullname>
+    <foaf:name>Victoria Berkova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bersano_G">
     <foaf:affil>IKOS Consulting Group, France</foaf:affil>
     <foaf:name>Giacomo Bersano</foaf:name>
@@ -1039,6 +1044,11 @@
     <foaf:fullname xml:lang="ru">Голдовский Борис Израйлевич</foaf:fullname>
     <foaf:name>Boris I. Goldovsky</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Golitsyna_NB">
+    <foaf:affil>Petrozavodsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Голицына Наталья Борисовна</foaf:fullname>
+    <foaf:name>Natalya B. Golitsyna</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Golovchenko_GG">
     <foaf:fullname xml:lang="ru">Головченко Георгий Григорьевич</foaf:fullname>
     <foaf:name>Georgi G. Golovchenko</foaf:name>
@@ -1082,9 +1092,10 @@
     <foaf:affil xml:lang="en">Ukrainian TRIZ Association, Ukraina</foaf:affil>
     <foaf:name>Igor Gredynarov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gredynarova_O">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gredynarova_EM">
     <foaf:affil>Zaporozhye, Ukraine</foaf:affil>
-    <foaf:name>Olena Gredynarova</foaf:name>
+    <foaf:fullname xml:lang="ru">Грединарова Елена Михайловна</foaf:fullname>
+    <foaf:name>Elena M. Gredynarova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Griffay_G">
     <foaf:affil>Arcelor-Mittal, France</foaf:affil>
@@ -1117,12 +1128,18 @@
     <foaf:fullname xml:lang="ru">Гин Анатолий Александрович</foaf:fullname>
     <foaf:name>Anatoly Guin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guin_Anton">
+    <foaf:affil>Moscow, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Гин Антон</foaf:fullname>
+    <foaf:name>Anton Guin</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guin_Elena">
     <foaf:affil>Association «Education for a New Era», Russia</foaf:affil>
     <foaf:name>Elena Guin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guin_Evgenia">
     <foaf:affil>Association «Education for a New Era», Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Гин Евгения</foaf:fullname>
     <foaf:name>Eugenia Guin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guio_RD">
@@ -1337,6 +1354,11 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ishrat_I">
     <foaf:name>Irna Ishrat</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ismailova_OV">
+    <foaf:affil>Angarsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Измайлова Ольга Васильевна</foaf:fullname>
+    <foaf:name>Olga V. Ismailova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Issak_DP">
     <foaf:affil>India</foaf:affil>
@@ -1678,6 +1700,11 @@
     <foaf:affil>ABB, Poland</foaf:affil>
     <foaf:name>Paweł Kłys</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Klyuch_N">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Ключ Наталья</foaf:fullname>
+    <foaf:name>Natalya Klyuch</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kneisel_BO">
     <foaf:name>Boris Oliver Kneisel</foaf:name>
   </foaf:Person>
@@ -1781,6 +1808,11 @@
     <foaf:affil>Haereus, Hanau, Germany</foaf:affil>
     <foaf:name>Winfried Krämer</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Krashennikova_O">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Крашенинникова Ольга</foaf:fullname>
+    <foaf:name>Olga Krashennikova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Krasnoslobodtsev_VJ">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Краснослободцев Валерий Яковлевич</foaf:fullname>
@@ -1864,6 +1896,11 @@
     <foaf:affil>Moscow, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Кустова Эльвира</foaf:fullname>
     <foaf:name>Elvira Kustova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kutusova_A">
+    <foaf:affil>Tyumen, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Кутузова Анна</foaf:fullname>
+    <foaf:name>Anna Kutusova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kutvan_AB">
     <foaf:affil>Ankara, Turkey</foaf:affil>
@@ -2659,6 +2696,11 @@
     <foaf:fullname xml:lang="ru">Петий Игорь Иванович</foaf:fullname>
     <foaf:name>Igor Petiy</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrishcheva_AE">
+    <foaf:affil>Angarsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Петрищева Анна Егоровна</foaf:fullname>
+    <foaf:name>Anna E. Petrishcheva</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Petrov_D">
     <foaf:name>Dmitrij Petrov</foaf:name>
   </foaf:Person>
@@ -2755,6 +2797,11 @@
     <foaf:fullname xml:lang="ru">Полонский Леонид Моисеевич</foaf:fullname>
     <foaf:name>Leonid M. Polonsky</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Polyakova_MV">
+    <foaf:affil>Angarsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Полякова Маргарита Владимировна</foaf:fullname>
+    <foaf:name>Margarita V. Polyakova</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Pomeranets_MS">
     <foaf:fullname xml:lang="ru">Померанец М.С.</foaf:fullname>
     <foaf:name>M.S. Pomeranets</foaf:name>
@@ -2766,6 +2813,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Popova_SL">
     <foaf:affil>HTW Dresden, Germany</foaf:affil>
     <foaf:name>Silvia Liubenova Popova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Potyomkina_E">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Потёмкина Елена</foaf:fullname>
+    <foaf:name>Elena Potyomkina</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Prada_A">
     <foaf:name>Alessandro Prada</foaf:name>
@@ -3521,6 +3573,11 @@
     <foaf:affil>Gomel, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Тимохов Виктор Иванович</foaf:fullname>
     <foaf:name>Viktor I. Timochov</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Timofeeva_EV">
+    <foaf:affil>Vladivostok, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Тимофеева Елена Владимировна</foaf:fullname>
+    <foaf:name>Elena V. Timofeeva</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tkachev_BI">
     <foaf:name>Boris I. Tkachev</foaf:name>
