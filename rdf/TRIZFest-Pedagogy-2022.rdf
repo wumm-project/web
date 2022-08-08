@@ -18,70 +18,87 @@
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_100">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Evgenia"/>
+    <dcterms:title xml:lang="en">Implementation of TRIZ-pedagogy principles in the educational process with examples from different subjects</dcterms:title>
     <dcterms:title xml:lang="ru">Реализация принципов ТРИЗ-педагогики в учебном процессе на примерах из разных предметов</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_101">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Ismailova_OV"/>
+    <dcterms:title xml:lang="en">Resources of TRIZ for achievement of meta-subject results and shaping of functional literacy in history and social science lessons</dcterms:title>
     <dcterms:title xml:lang="ru">Ресурсы ТРИЗ в достижении метапредметных результатов и формировании функциональной грамотности на примере уроков истории и обществознания</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_102">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrishcheva_AE"/>
+    <dcterms:title xml:lang="en">Role of TRIZ system in development of functional literacy of natural sciences (Chemistry lessons)</dcterms:title>
     <dcterms:title xml:lang="ru">Роль системы ТРИЗ в развитии естественнонаучной функциональной грамотности (на примере уроков химии)</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_103">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polyakova_MV"/>
+    <dcterms:title xml:lang="en">Physics Lesson with TRIZ</dcterms:title>
     <dcterms:title xml:lang="ru">Урок физики с ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_104">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chizhevskaya_NE"/>
+    <dcterms:title xml:lang="en">Use of the game technology "Yes-no" in teaching school-age children methods of analysis and problem solving</dcterms:title>
     <dcterms:title xml:lang="ru">Использование технологии игры «Да-нет» в обучении детей школьного возраста способам анализа и решения проблем</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_105">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Timofeeva_EV"/>
+    <dcterms:title xml:lang="en">Teaching Russian language and literature on the basis of OTSM-TRIZ tools: experience of the private school "Darina"</dcterms:title>
     <dcterms:title xml:lang="ru">Обучение русскому языку и литературе на базе инструментов ОТСМ-ТРИЗ технологии: опыт частной школы «Дарина» </dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_106">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kutusova_A"/>
+    <dcterms:title xml:lang="en">Teaching school subjects based on open problems</dcterms:title>
     <dcterms:title xml:lang="ru">Преподавание школьных предметов на основе открытых задач</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_107">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Golitsyna_NB"/>
+    <dcterms:title xml:lang="en">TRIZ tools in biology teaching</dcterms:title>
     <dcterms:title xml:lang="ru">Инструменты ТРИЗ в преподавании биологии</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_108">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Anton"/>
+    <dcterms:title xml:lang="en">Literature and TRIZ - new opportunities for development of thinking</dcterms:title>
     <dcterms:title xml:lang="ru">Литература и ТРИЗ – новые возможности развития мышления</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_109">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Berkova_V"/>
+    <dcterms:title xml:lang="en">Limits and flight of fantasy in development of mathematical thinking</dcterms:title>
     <dcterms:title xml:lang="ru">Ограничения и полет фантазии в развитии математического мышления</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_110">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Murashkovska_IN"/>
+    <dcterms:title xml:lang="en">Human in an unstable world: what to teach?</dcterms:title>
     <dcterms:title xml:lang="ru">Человек в неустойчивом мире: чему учить?</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_111">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nesterenko_AA"/>
+    <dcterms:title xml:lang="en">Instruments of OTSM-TRIZ technology in children's network projects</dcterms:title>
     <dcterms:title xml:lang="ru">Инструменты ОТСМ-ТРИЗ технологии в детских сетевых проектах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_112">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gredynarova_EM"/>
+    <dcterms:title xml:lang="en">Steps (system) introducing TRIZ into educational process on the example of the private school complex EudoS of Continuous Education</dcterms:title>
     <dcterms:title xml:lang="ru">Последовательность (системность) внедрения ТРИЗ в образовательный процесс на примере Частного Комплекса непрерывного образования Школы ЭйдоС</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_113">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Krashennikova_O"/>
+    <dcterms:title xml:lang="en">TRIZ and multilingual children: "when you cannot work in a traditional way"</dcterms:title>
     <dcterms:title xml:lang="ru">ТРИЗ и многоязычные дети: «когда не можно работать традиционально»</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_114">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozyreva_NA"/>
+    <dcterms:title xml:lang="en">Designing Toys and Games with TRIZ Tools</dcterms:title>
     <dcterms:title xml:lang="ru">Проектирование игр и игрушек инструментами ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_115">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Klyuch_N"/>
+    <dcterms:title xml:lang="en">Plot course as a format and resource for TRIZ lessons in supplementary education</dcterms:title>
     <dcterms:title xml:lang="ru">Сюжетный курс как формат и ресурс для занятий по ТРИЗ в дополнительном образовании</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_116">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Potyomkina_E"/>
-    <dcterms:title xml:lang="ru">После 13 поздно? - Сложности и успехи в обучении ТРИЗ подростков</dcterms:title>
+    <dcterms:title xml:lang="en">Is it too late after 13? Challenges and successes in teaching TRIZ to teenagers</dcterms:title>
+    <dcterms:title xml:lang="ru">После 13 поздно? Сложности и успехи в обучении ТРИЗ подростков</dcterms:title>
   </od:Talk>
 </rdf:RDF>

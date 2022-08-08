@@ -4095,9 +4095,6 @@
     <foaf:affil xml:lang="en">Hubei, PR China</foaf:affil>
     <foaf:name>Zhou Zaolin</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhuckov_RF">
-    <foaf:name>R.F. Zhuckov</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zinner_V">
     <foaf:name>Viktoria Zinner</foaf:name>
   </foaf:Person>
