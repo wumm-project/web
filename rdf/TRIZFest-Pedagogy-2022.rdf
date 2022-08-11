@@ -15,6 +15,7 @@
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-23</ical:dtstart>
     <ical:location>Online</ical:location>
     <ical:summary>TRIZFest Pedagogy 2022 Online</ical:summary>
+    <ical:url rdf:resource="https://wumm-project.github.io/Conferences/TRIZFest-Pedagogy-2022.pdf"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/Talk_100">
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guin_Evgenia"/>

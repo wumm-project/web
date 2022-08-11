@@ -421,6 +421,10 @@
     <foaf:fullname xml:lang="ru">Бушуев Александр Борисович</foaf:fullname>
     <foaf:name>Alexander B. Bushuyev</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bykhovskiy_M">
+    <foaf:affil>Russia</foaf:affil>
+    <foaf:name>Mikhail Bykhovskiy</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bystritsky_AA">
     <foaf:affil>Irkutsk, Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Быстрицкий Александр Анатольевич</foaf:fullname>
@@ -472,6 +476,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chen_Y">
     <foaf:name>Yinuo Chen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Chen_Z">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Zhuo Chen</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cheng_M">
     <foaf:name>Min Cheng</foaf:name>
@@ -572,6 +580,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Condrea_I">
     <foaf:name>Ionut Condrea</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cong_L">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Liwei Cong</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Conley_DW">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>David Worrell Conley</foaf:name>
@@ -604,6 +616,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dammak_H">
     <foaf:affil>Montréal, Canada</foaf:affil>
     <foaf:name>Houcine Dammak</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dang_N">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Ning Dang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Danilovsky_YE">
     <foaf:affil>QM&amp;E / Gen3 Partners, South Korea</foaf:affil>
@@ -1157,6 +1173,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Hafer_L">
     <foaf:name>Lionel Hafer</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Haijun_L">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Li Haijun</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Halas_M">
     <foaf:affil>GRUPA ODITK, Poland</foaf:affil>
     <foaf:name>Michał Hałas</foaf:name>
@@ -1314,6 +1334,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_HC">
     <foaf:name>Huan-Chu Huang</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_J">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Jun Huang</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_Y">
     <foaf:name>Huang Yan</foaf:name>
   </foaf:Person>
@@ -1367,6 +1391,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Iuga_M">
     <foaf:name>Marin Iuga</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Iv_Y">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Yang Iv</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ivanov_A">
     <foaf:affil>Minsk, Belarus</foaf:affil>
     <foaf:fullname xml:lang="ru">Иванов Антон</foaf:fullname>
@@ -1415,6 +1443,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jeong_W">
     <foaf:name>Wanseok Jeong</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jiang_L">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Lingli Jiang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jiao_L">
     <foaf:affil>Harbin Engieering University, China</foaf:affil>
@@ -2074,6 +2106,14 @@
     <foaf:affil>Harbin Engieering University, China</foaf:affil>
     <foaf:name>Peng Li</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_S">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Sheng Li</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_W">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Wei Li</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Li_Y">
     <foaf:name>Yang Li</foaf:name>
   </foaf:Person>
@@ -2083,6 +2123,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lianjun_H">
     <foaf:affil>China Railway Engineering Group, China</foaf:affil>
     <foaf:name>Hu Lianjun</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Liao_F">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Fei Liao</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lichachev_AY">
     <foaf:fullname xml:lang="ru">Лихачев А.Ю.</foaf:fullname>
@@ -2127,6 +2171,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Liu_BY">
     <foaf:name>Bill Yuanbo Liu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Liu_C">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Claire Liu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Liu_MY">
     <foaf:affil>GET Group, PR of China</foaf:affil>
@@ -2319,6 +2367,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mei_CA">
     <foaf:name>Mei Choo Ang</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mei_F">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Feixiang Mei</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/MejiaGutierrez_R">
     <foaf:affil>Columbia</foaf:affil>
@@ -2533,6 +2585,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ni_X">
     <foaf:affil>Strasbourg, France</foaf:affil>
     <foaf:name>Xin Ni</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nie_J">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Jiapeng Nie</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nikashin_AI">
     <foaf:affil>Russia</foaf:affil>
@@ -2914,6 +2970,10 @@
     <foaf:affil>LIFIS, Berlin, Germany</foaf:affil>
     <foaf:name>Werner Regen</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ren_J">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Junjie Ren</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Renaud_J">
     <foaf:affil>INSA Strasbourg, France</foaf:affil>
     <foaf:name>Jean Renaud</foaf:name>
@@ -3191,6 +3251,14 @@
     <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
     <foaf:name>Alexey Shchinnikov</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shen_D">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Deliang Shen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shen_W">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Wei Shen</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sheng_ILS">
     <foaf:affil>Monash University Malaysia, Malaysia</foaf:affil>
     <foaf:name>Issac Lim Sing Sheng</foaf:name>
@@ -3380,6 +3448,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Son_DI">
     <foaf:name>Dong-Il Son</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Song_J">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Jianyi Song</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Song_MJ">
     <foaf:affil>Samsung Electronics, South Korea</foaf:affil>
@@ -3594,9 +3666,11 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tomashevskaya_N">
     <foaf:name>Natalia Tomashevskaya</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tony_TW">
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Tong_W">
+    <foaf:affil>China</foaf:affil>
     <foaf:affil>PR China</foaf:affil>
-    <foaf:name>Tony Tong Wei</foaf:name>
+    <foaf:name>(Tony) Tong Wei</foaf:name>
+    <foaf:name>Wei Tong</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Torgashev_AS">
     <foaf:affil>Russia</foaf:affil>
@@ -3736,6 +3810,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wan_Y">
     <foaf:name>Yuhui Wan</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_C">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Chuanwen Wang</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_CY">
     <foaf:affil>Tianjin, China</foaf:affil>
     <foaf:name>Congying Wang</foaf:name>
@@ -3754,6 +3832,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_JF">
     <foaf:name>Jinfeng Wang</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_Jing">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Jing Wang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_K">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-7881-1060"/>
@@ -3811,6 +3893,10 @@
     <foaf:affil>Oberhaching, Germany</foaf:affil>
     <foaf:name>Siegfried Weigert</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wen_M">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Min Wen</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wenxin_C">
     <foaf:name>Chen Wenxin</foaf:name>
   </foaf:Person>
@@ -3848,6 +3934,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xi_DZ">
     <foaf:name>Dao-zheng Xi</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xi_Y">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Yufu Xi</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xiaofeng_S">
     <foaf:name>Sun Xiaofeng</foaf:name>
   </foaf:Person>
@@ -3858,6 +3948,18 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xing_FL">
     <foaf:affil>PR China</foaf:affil>
     <foaf:name>Xing Fenglei</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xing_T">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Tian Xing</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xu_B">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Bing Xu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xu_D">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Dongshuang Xu</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Xu_DS">
     <foaf:name>Dongshuang Xu</foaf:name>
@@ -3958,6 +4060,14 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_N">
     <foaf:name>Na Yu</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_X">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Xionghou Yu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yuan_H">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Heng Yuan</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yudin_YA">
     <foaf:fullname xml:lang="ru">Юдин Ю.А.</foaf:fullname>
     <foaf:name>Yu.A. Yudin</foaf:name>
@@ -3996,6 +4106,10 @@
     <foaf:affil>Tel Aviv, Israel</foaf:affil>
     <foaf:name>Igor Zasedenets</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zeng_W">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Wensheng Zeng</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_E">
     <foaf:name>Erjia Zhang</foaf:name>
   </foaf:Person>
@@ -4008,7 +4122,9 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_L">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-3271-461X"/>
+    <foaf:affil>China</foaf:affil>
     <foaf:affil>Tianjin, PR China</foaf:affil>
+    <foaf:name>Lan Zhang</foaf:name>
     <foaf:name>Lulu Zhang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_P">
@@ -4033,6 +4149,10 @@
     <foaf:affil>Tianjin, China</foaf:affil>
     <foaf:name>Xinyu Zhang</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_Y">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Yaoyuan Zhang</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_YH">
     <foaf:name>Yonghui Zhang</foaf:name>
   </foaf:Person>
@@ -4053,6 +4173,8 @@
     <foaf:name>Zhao Xin-jun</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Y">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Yan Zhao</foaf:name>
     <foaf:name>Zhao Yan</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Z">
@@ -4086,6 +4208,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhong_Y">
     <foaf:affil>Northeastern University, Shenyang, PR China</foaf:affil>
     <foaf:name>Zhong Yingb</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_J">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Junwu Zhou</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_X">
     <foaf:affil>Harbin Engieering University, China</foaf:affil>
@@ -4121,6 +4247,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zong_B">
     <foaf:name>Baochao Zong</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zong_J">
+    <foaf:affil>China</foaf:affil>
+    <foaf:name>Jiancheng Zong</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zubarev_VV">
     <foaf:name>V.V. Zubarev</foaf:name>
