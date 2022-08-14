@@ -1,12 +1,12 @@
 ##################################
 #
 # author: graebe
-# lastModified: 2022-07-30
+# lastModified: 2022-08-14
 
 # Changes:
 
 # purpose: load data in turtle format into the local Virtuoso store
-# usage: perl loaddata.pl | isql-vt 1111 dba <YourSecretPassword>
+# usage: perl loadturtle.pl | isql-vt 1111 dba <YourSecretPassword>
 
 my $RDFData=$ENV{"WUMM_RDFDATA"};
 print loaddata();
@@ -52,13 +52,13 @@ sub loaddata {
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TRIZ-References/","TRIZ-References.ttl");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK1-Concepts/","TBK1-Concepts.ttl");
   $out.=createLoadCommand("http://opendiscovery.org/rdf/TBK2-Concepts/","TBK2-Concepts.ttl");
-#  $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowDevelopmentPattern.ttl");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowAnalysis/FlowDevelopmentPattern.ttl");
   return $out;
 }
 
 sub loadsomedata {
   my $out;
-  $out.=createLoadCommand("http://opendiscovery.org/rdf/Principles/","Matrix/Principles.ttl");
+  $out.=createLoadCommand("http://opendiscovery.org/rdf/FlowDevelopmentPattern/","FlowAnalysis/FlowDevelopmentPattern.ttl");
   return $out;
 }
 
