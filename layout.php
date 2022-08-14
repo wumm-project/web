@@ -39,6 +39,7 @@ function pageNavbar() {
             <li><a href="classic.php">Classical TRIZ</a></li>
             <li><a href="ontology.php">TRIZ Ontology</a></li>
             <li><a href="business.php">Business TRIZ</a></li>
+            <li><a href="eco.php">Eco Design and Business Models</a></li>
           </ul>
         </div><!-- navbar end -->
       </div><!-- container end -->

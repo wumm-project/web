@@ -11,16 +11,27 @@ require_once 'layout.php';
 function theBooks($author) 
 {
     setNamespaces();
-    //echo "Author is $author";
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Books/');
-    $graph->parseFile('rdf/Books.rdf');
-    $graph->parseFile('rdf/People.rdf');
-    $graph->parseFile('rdf/TBK-References.rdf');
+    global $sparql;
+    $query='
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a ?b
+from <http://opendiscovery.org/rdf/People/>
+from <http://opendiscovery.org/rdf/TRIZ-References/>
+where { 
+?a a foaf:Person .
+?b a od:Reference .
+}';
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
     $thebooks=array(); 
-    $res = $graph->allOfType('od:TRIZ-Book');
-    foreach ($res as $book) {
+    foreach($graph->allOfType('od:TRIZ-Book') as $book) {
         $titel=showLanguage($book->all("dcterms:title"),"<br/>");
-        $theAuthors=join("",$book->all("dcterms:creator"));
+        $aut=$book->all("dcterms:creator"); // yet to be fixed to get them in alphabetic order.
+        $theAuthors=join("",$aut);
         $id=$theAuthors.$book->get("dcterms:issued").$titel;
         if (empty($author) or strpos($theAuthors,$author)) {
             $thebooks[$id]=listBook($book);

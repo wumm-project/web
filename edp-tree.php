@@ -35,23 +35,30 @@ where { ?a a od:EDPNode .}';
     $out='<h2>The EDP Tree proposed by Davide Rosso and Christian Spreafico</h2>
 
 <p>The following tree of EcoDesignPrinciples was proposed by Davide Rosso and
-Christian Spreafico</p>
+Christian Spreafico. The tree consists of 4 parts corresponding to the life
+cycle phases <em>Pre-Manufacturing</em>, <em>Manufacturing</em>, <em>Product
+Use</em> and <em>End of Life</em> of a product.  The RDF variant was generated
+from a JSON dump provided by the authors.  An exact reference is still to be
+added.</p>
 
 <div class="concept">
+<ul style="list-style: none;">
 '.join("\n", $a).'
-</div> <!-- end concept list -->';
+</ul></div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
 }
 
 function displayNode($node) {
     $children=array();
-    foreach($node->all("skos:broader") as $child) {
+    foreach($node->all("skos:narrower") as $child) {
         $uri=str_replace("http://opendiscovery.org/rdf/","",$child->getURI());
         $children[$uri]=displayNode($child);
     }
     ksort($children);
     $out='';
-    if(!empty($children)) { $out='<ul>'.join("\n",$children).'</ul>'; }
+    if(!empty($children)) {
+        $out='<ul style="list-style: none;">'.join("\n",$children).'</ul>';
+    }
     return '<p>'.displayEntry($node).$out."</p>";
 }
 
@@ -61,18 +68,24 @@ function displayEntry($node) {
     $disadvantages=$node->get("od:Disadvantages");
     $goal=$node->get("od:Goal");
     $id=$node->get("od:Id");
+    $suggestion=$node->get("od:Suggestion");
+    $examples=$node->all("skos:example");
     $out="<h3>".$node->get("skos:prefLabel")."</h3>\n";
-    if (!empty($id)) {
-        $out.="<p>Id: $id </p>\n";
-    }
+    //if (!empty($id)) { $out.="<br/>Id: $id\n"; }
     if (!empty($goal)) {
-        $out.="<p>Goal: $goal </p>\n";
+        $out.="<br/>Goal: $goal\n";
     }
     if (!empty($advantages)) {
-        $out.="<p>Advantages: $advantages </p>\n";
+        $out.="<br/>Advantages: $advantages\n";
     }
     if (!empty($disadvantages)) {
-        $out.="<p>Disadvantages: $disadvantages </p>\n";
+        $out.="<br/>Disadvantages: $disadvantages\n";
+    }
+    if (!empty($suggestion)) {
+        $out.="<br/>Suggestion: $suggestion\n";
+    }
+    if (!empty($examples)) {
+        $out.="<p>Examples: ".join("<br/>",$examples)." </p>\n";
     }
     return "<li>\n$out\n</li>\n";
 }

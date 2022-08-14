@@ -132,7 +132,7 @@ function listBook($book) {
     $out='
 <div itemscope itemtype="http://schema.org/Book" class="book">
 <!-- ID: '.$id.' -->
-  <h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>
+  <h4><a href="displayprop.php?uri='.$uri.'">'.$uri.'</a></h4>
   <h4><div itemprop="title" class="title">'.$titel.'</div></h4>
   <div class="author"><strong>Author(s):</strong> '. $autoren.'</div>';
     if ($lang) { 

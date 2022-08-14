@@ -21,10 +21,20 @@ endpoint</a>.</p>
 <p>Here we compiled for the moment the following demonstrations: 
 <ul> 
 
-<li>A list of <a href="books.php">TRIZ Books</a> (yet to be consolidated).</li>
+<li>A list of <a href="books.php">TRIZ Books</a>.</li>
 
-<li>An RDF version of the <a href="tbk.php">TRIZ Body of Knowledge</a> (yet to
-be consolidated, at the moment only the references are listed). </li>
+<li>A translation to RDF of both the Russian (2007, 3 concept areas) and
+English (2012, 7 concept areas) versions of the <a
+href="https://www.aitriz.org/triz/triz-body-of-knowledge">TRIZ Body of
+Knowledge</a>.  Both versions are enriched with English, Russian and German
+notations.  The links to the literature point to the WUMM RDF database of TRIZ
+References.
+ 
+<ul>
+<li><a href="tbk1-tree.php">English Version of 2012</a></li>
+<li><a href="tbk2-tree.php">Russian Version of 2007</a></li>
+</ul> 
+</li>
 
 <li><a href="principles.php">40 Principles</a>.</li>
 
