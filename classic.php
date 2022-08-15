@@ -46,6 +46,9 @@ the Matrix</a> are available in JSON format.</li>
 
 <li>Trends of Engineering Systems Evolution have yet to be added.</li>
  
+<li><a href="flowdevpat.php">Flow Development Patterns</a> proposed by
+A. Lyubomirsky (2006).</li>
+
 </ul> 
 ';
     return '<div class="container">'.$out.'</div>';

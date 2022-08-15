@@ -33,11 +33,16 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 construct { ?a od:references ?u . } 
 from <http://opendiscovery.org/rdf/TRIZ-References/>
-where { ?u a od:Reference ; od:hatVerweis ?a .}'; try { $references = $sparql->query($query); } catch (Exception $e) { print
-    "<div class='error'>".$e->getMessage()."</div>\n"; } $a=array(); foreach
-    ($graph->allOfType('skos:Concept') as $c) {
-    $uri=str_replace("http://opendiscovery.org/rdf/","",$c->getURI());
-    $a[$uri]=displayNode($c,$references); }
+where { ?u a od:Reference ; od:hatVerweis ?a .}';
+    try { $references = $sparql->query($query); }
+    catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
+    $a=array();
+    foreach ($graph->allOfType('skos:Concept') as $c) {
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$c->getURI());
+        $a[$uri]=displayNode($c,$references);
+    }
 
     return '
 <div class="container"> 
