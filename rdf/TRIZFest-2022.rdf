@@ -31,6 +31,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_102">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Liu_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Liu_C"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_C"/>
@@ -42,13 +43,9 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_T"/>
     <dcterms:title xml:lang="en">Employing TRIZ Tools to Build “Virtual Ecological Niche” for Emerging Technology Industries</dcterms:title>
   </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_104">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Huang_J"/>
-    <dcterms:title xml:lang="en">Application of TRIZ in IPD</dcterms:title>
-  </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Tong_W"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chen_Z"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Liao_F"/>
@@ -61,6 +58,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_106">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Bykhovskiy_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Minaker_VE"/>
     <dcterms:title xml:lang="en">Decision-Making Method (DMM)</dcterms:title>
@@ -74,6 +72,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_108">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Popova_SL"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Guenther_S"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Popova_SL"/>
     <dcterms:title xml:lang="en">TRIZ Reverse – Case Study In The Field of Basic Research of Physics</dcterms:title>
@@ -85,32 +84,22 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_110">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smirnova_E"/>
     <dcterms:title xml:lang="en">Identifying The Best Technology for Solid Waste Management Using TRIZ-Based Technology Scouting</dcterms:title>
   </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_111">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
-    <dcterms:title xml:lang="en">TRIZ inspired Creation of Digital Business Models</dcterms:title>
-  </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_112">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Abramov_OY"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Chrzaszcz_J"/>
     <dcterms:title xml:lang="en">Applying TRIZ to Forecast The Development Of CECA</dcterms:title>
   </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_113">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cong_L"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Dang_N"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shen_D"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wang_Jing"/>
-    <dcterms:title xml:lang="en">Case Study: Fracture of Shaft Head of Centrifugal Pump</dcterms:title>
-  </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_114">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Zong_J"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Cao_GX"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Iv_Y"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mei_F"/>
@@ -119,22 +108,15 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_115">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Liu_C"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Lin_A"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhao_Y"/>
     <dcterms:title xml:lang="en">Innovative Design of Intelligent Welding System for Pressure Vessel Based on TRIZ</dcterms:title>
-  </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_116">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yu_X"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Yuan_H"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zeng_W"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhou_J"/>
-    <dcterms:title xml:lang="en">Scheme Design of Safety Assistance System for Mistakenly Stepping on Accelerator Based on TRIZ Method</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_117">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Jiang_L"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Li_W"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shen_W"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tong_W"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Wen_M"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Xi_Y"/>
@@ -162,11 +144,6 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
     <dcterms:title xml:lang="en">Technical Contradiction Analysis as a Convenient Tool to Resolve Contradictions in Express Way</dcterms:title>
-  </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_122">
-    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
-    <dcterms:title xml:lang="en">TBA</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_123">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>

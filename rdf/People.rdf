@@ -595,10 +595,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Condrea_I">
     <foaf:name>Ionut Condrea</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cong_L">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Liwei Cong</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Conley_DW">
     <foaf:affil>USA</foaf:affil>
     <foaf:name>David Worrell Conley</foaf:name>
@@ -631,10 +627,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dammak_H">
     <foaf:affil>Montréal, Canada</foaf:affil>
     <foaf:name>Houcine Dammak</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dang_N">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Ning Dang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Danilovsky_YE">
     <foaf:affil>QM&amp;E / Gen3 Partners, South Korea</foaf:affil>
@@ -1356,10 +1348,6 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_HC">
     <foaf:name>Huan-Chu Huang</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_J">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Jun Huang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_Y">
     <foaf:name>Huang Yan</foaf:name>
@@ -3312,14 +3300,6 @@
     <foaf:homepage rdf:resource="https://www.facebook.com/ashinnikov"/>
     <foaf:name>Alexey Shchinnikov</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shen_D">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Deliang Shen</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shen_W">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Wei Shen</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Sheng_ILS">
     <foaf:affil>Monash University Malaysia, Malaysia</foaf:affil>
     <foaf:name>Issac Lim Sing Sheng</foaf:name>
@@ -3901,10 +3881,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_JF">
     <foaf:name>Jinfeng Wang</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_Jing">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Jing Wang</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wang_K">
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-7881-1060"/>
     <foaf:affil>Tianjin, China</foaf:affil>
@@ -4128,14 +4104,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_N">
     <foaf:name>Na Yu</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yu_X">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Xionghou Yu</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yuan_H">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Heng Yuan</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yudin_YA">
     <foaf:fullname xml:lang="ru">Юдин Ю.А.</foaf:fullname>
     <foaf:name>Yu.A. Yudin</foaf:name>
@@ -4173,10 +4141,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zasedenets_I">
     <foaf:affil>Tel Aviv, Israel</foaf:affil>
     <foaf:name>Igor Zasedenets</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zeng_W">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Wensheng Zeng</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_E">
     <foaf:name>Erjia Zhang</foaf:name>
@@ -4276,10 +4240,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhong_Y">
     <foaf:affil>Northeastern University, Shenyang, PR China</foaf:affil>
     <foaf:name>Zhong Yingb</foaf:name>
-  </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_J">
-    <foaf:affil>China</foaf:affil>
-    <foaf:name>Junwu Zhou</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_X">
     <foaf:affil>Harbin Engieering University, China</foaf:affil>
