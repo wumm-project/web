@@ -89,6 +89,7 @@ function showTalk($talk) {
         $a[]=createLink($v,"Paper");
     }
     $urlPaper=join(", ",$a);
+    $a=array();
     foreach ($talk->all("od:urlPreprint") as $v) {
         $a[]=createLink($v,"Preprint");
     }
