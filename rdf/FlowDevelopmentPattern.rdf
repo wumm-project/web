@@ -13,13 +13,29 @@
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_Core"/>
     <skos:definition xml:lang="en">Increase in the process of development the positive
   effect of useful flows.</skos:definition>
-    <skos:preflabel xml:lang="en">Increase the positive effect of useful flows</skos:preflabel>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2"/>
+    <skos:prefLabel xml:lang="en">Increase the positive effect of useful flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_1_1">
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_1"/>
     <skos:definition xml:lang="en">Increase in the process of development the the
   conductivity of useful flows.</skos:definition>
-    <skos:preflabel xml:lang="en">Increase the conductivity of useful flows</skos:preflabel>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_01"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_02"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_03"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_04"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_05"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_06"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_07"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_08"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_09"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_10"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_11"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_12"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_13"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1_14"/>
+    <skos:prefLabel xml:lang="en">Increase the conductivity of useful flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_1_1_01">
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1"/>
@@ -39,7 +55,7 @@
   increase in conductivity. Ideally, there should be no transformations at
   all, and all components of flows should immediately have the form necessary
   for their final use.</skos:note>
-    <skos:preflabel xml:lang="en">Reduction in the number of flow transformations</skos:preflabel>
+    <skos:prefLabel xml:lang="en">Reduction in the number of flow transformations</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_1_1_02">
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1"/>
@@ -52,7 +68,7 @@
     <skos:note xml:lang="en">If there is considerable resistance to the flow, and the losses
   involved in its conversion are relatively small, the flow is converted to
   the most easily transferable form.</skos:note>
-    <skos:preflabel xml:lang="en">Flow conversion</skos:preflabel>
+    <skos:prefLabel xml:lang="en">Flow conversion</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_1_1_03">
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_1"/>
@@ -258,6 +274,16 @@
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_1"/>
     <skos:definition xml:lang="en">In the process of development, there is an increase in the
   efficiency of useful flows.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_01"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_02"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_03"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_04"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_05"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_06"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_07"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_08"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_09"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1_2_10"/>
     <skos:prefLabel xml:lang="en">Increasing the efficiency of useful flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_1_2_01">
@@ -482,12 +508,22 @@
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_Core"/>
     <skos:definition xml:lang="en">Reduce in the process of development the negative effect
   of harmful flows.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2"/>
     <skos:prefLabel xml:lang="en">Reducing the Negative Effect of Harmful Flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_2_1">
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_2"/>
     <skos:definition xml:lang="en">Decrease in the process of development the conductivity
   of harmful flows.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_01"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_02"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_03"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_04"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_05"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_06"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_07"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_1_08"/>
     <skos:prefLabel xml:lang="en">Reduction of harmful flow conductivity</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_2_1_01">
@@ -585,6 +621,16 @@
     <skos:definition xml:lang="en">Prevent undesirable effects of flows on an object by
   changing characteristics of the harmful flow (without changing its power) or
   object to be damaged.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_01"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_02"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_03"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_04"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_05"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_06"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_07"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_08"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_09"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2_2_10"/>
     <skos:prefLabel xml:lang="en">Reducing the damaging power of the harmful flow</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_2_2_01">
@@ -734,12 +780,16 @@
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_Core"/>
     <skos:definition xml:lang="en">Reduce the process of development of the negative effect
   of parasitic flows.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_3_1"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_3_2"/>
     <skos:prefLabel xml:lang="en">Reducing the negative effects of parasitic flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_3_1">
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_3"/>
     <skos:definition xml:lang="en">Decrease in the process of development the conductivity
   of parasitic flows.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_3_1_01"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_3_1_02"/>
     <skos:prefLabel xml:lang="en">Reduction of conductivity of parasitic flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_3_1_01">
@@ -761,6 +811,7 @@
     <skos:broader rdf:resource="http://opendiscovery.org/rdf/FDP/P_3"/>
     <skos:definition xml:lang="en">Decrease in the process of development the cost of
   parasitic flows.</skos:definition>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_3_2_01"/>
     <skos:prefLabel xml:lang="en">Reducing the cost of parasitic flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_3_2_01">
@@ -772,7 +823,10 @@
     <skos:prefLabel xml:lang="en">Reuse parasitic flows</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <tc:FlowDevelopmentPattern rdf:about="http://opendiscovery.org/rdf/FDP/P_Core">
-    <skos:preflabel xml:lang="en">The core or the pattern tree</skos:preflabel>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_1"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_2"/>
+    <skos:narrower rdf:resource="http://opendiscovery.org/rdf/FDP/P_3"/>
+    <skos:prefLabel xml:lang="en">The core of the pattern tree</skos:prefLabel>
   </tc:FlowDevelopmentPattern>
   <owl:Ontology rdf:about="http://opendiscovery.org/rdf/Ontologies/FlowDevelopmentPattern/">
     <cc:attributionName>The Open Discovery Project</cc:attributionName>

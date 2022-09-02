@@ -67,6 +67,8 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_107">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:urlPaper rdf:resource="https://hg-graebe.de/EigeneTexte/TRIZfest-2022.pdf"/>
+    <od:urlSlides rdf:resource="https://hg-graebe.de/EigeneTexte/TRIZfest-2022-Slides.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
     <dcterms:title xml:lang="en">On Some Aspects of TRIZ Flow Analysis</dcterms:title>
   </od:Talk>

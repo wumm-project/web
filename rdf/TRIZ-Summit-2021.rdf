@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
-   xmlns:track="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020-Main/">
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020-Main/ATalk_201">
@@ -353,8 +352,8 @@ The results of the study showed that the inclusion of art technologies in the ed
     <od:theVideos rdf:resource="https://www.youtube.com/playlist?list=PLTCt_2Wj3LtObcbU4gkhb6EEIOTpNyhDF"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit"/>
     <rdfs:comment>Three sessions on 15, 16, 23 October 2021</rdfs:comment>
-    <rdfs:label>TRIZ Summit 2021 Online</rdfs:label>
-    <ical:description>TRIZ Summit 2021 Online</ical:description>
+    <rdfs:label>TRIZ Developer Summit 2021 Online</rdfs:label>
+    <ical:description>TRIZ Developer Summit 2021 Online</ical:description>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-23</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-15</ical:dtstart>
     <ical:location>Online, supported by EPAM, Minsk, Belarus</ical:location>
