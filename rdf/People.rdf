@@ -764,6 +764,10 @@
     <foaf:affil>Strasbourg, France</foaf:affil>
     <foaf:name>Pierre Dumangin</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Duque_JGM">
+    <foaf:affil>Bogotá, Colombia</foaf:affil>
+    <foaf:name>Juan Gonzalo Mejia Duque</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Dusmikeev_A">
     <foaf:affil xml:lang="ru">Компания МедиуМ, бренд SolarEnrg, Директор</foaf:affil>
     <foaf:name>Andrei Dusmikeev</foaf:name>
@@ -1450,7 +1454,7 @@
     <foaf:name>Camille Jean</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jeon_YM">
-    <foaf:name>Yong Mun Jeon</foaf:name>
+    <foaf:name>Jeon Yong Mun</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Jeong_JH">
     <foaf:affil>South Korea</foaf:affil>

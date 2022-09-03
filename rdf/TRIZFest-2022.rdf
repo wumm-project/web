@@ -132,6 +132,7 @@
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_119">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <od:urlSlides rdf:resource="http://wumm.uni-leipzig.de/Presentations/Mayer-20220902.pdf"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Mayer_O"/>
     <dcterms:title xml:lang="en">Sustainability Modelling with TRIZ</dcterms:title>
   </od:Talk>
