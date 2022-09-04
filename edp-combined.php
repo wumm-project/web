@@ -41,6 +41,10 @@ optional { ?a od:action ?w3 . ?w3 skos:prefLabel  ?action . }
 <p>The following combined list of EcoDesignPrinciples was extracted from the
 overview papers (Russo, Spreafico 2020) and (Maccioni, Borgianni, Pigosso 2019).</p>
 
+<p>This list serves only as proof of concept to demonstrate the potential of
+the RDF backed WUMM database.  The links in the table point to a relevant part
+of the complete RDF information in the database. </p>
+
 <div class="concept">
 <table class="table table-bordered">
 <tr><th>URI</th><th>Description</th><th>What</th><th>When</th><th>Action</th></tr>
@@ -50,8 +54,9 @@ overview papers (Russo, Spreafico 2020) and (Maccioni, Borgianni, Pigosso 2019).
 }
 
 function displayCombinedRow($uri,$v) {
-    return '<tr><td>'.$uri.'</td><td>'.$v->d.'</td><td>'.$v->what.'</td><td>'
-                     .$v->when.'</td><td>'.$v->action."</td></tr>\n";
+    return '<tr>'.'<td><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></td><td>'
+                 .$v->d.'</td><td>'.$v->what.'</td><td>'
+                 .$v->when.'</td><td>'.$v->action."</td></tr>\n";
 }
 
 echo showpage(theCombinedList());

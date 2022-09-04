@@ -41,6 +41,10 @@ Use</em> and <em>End of Life</em> of a product.  The RDF variant was generated
 from a JSON dump provided by the authors.  An exact reference is still to be
 added.</p>
 
+<p>This tree serves only as proof of concept to demonstrate the potential of
+the RDF backed WUMM database.  The links in the table point to a relevant part
+of the complete RDF information in the database. </p>
+
 <div class="concept">
 <ul style="list-style: none;">
 '.join("\n", $a).'
@@ -70,7 +74,8 @@ function displayEntry($node) {
     $id=$node->get("od:Id");
     $suggestion=$node->get("od:Suggestion");
     $examples=$node->all("skos:example");
-    $out="<h3>".$node->get("skos:prefLabel")."</h3>\n";
+    $out='<h3><a href="displayuri.php?uri='.$uri.'">'
+        .$node->get("skos:prefLabel")."</a></h3>\n";
     //if (!empty($id)) { $out.="<br/>Id: $id\n"; }
     if (!empty($goal)) {
         $out.="<br/>Goal: $goal\n";

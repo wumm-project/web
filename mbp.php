@@ -38,7 +38,11 @@ filter regex(?a,"EcoDesignPrinciple/P")
     $out='<h2>The EDP List proposed by Maccioni, Borgianni, Pigosso (2019)</h2>
 
 <p>The following list of EcoDesignPrinciples was extracted mainly from two
-overview papers (Russo et al. 2017) and (Vezzoli, Mancini 2008).</p>
+overview papers (Russo et al. 2017) and (Vezzoli, Mancini 2008). </p> 
+
+<p>This list serves only as proof of concept to demonstrate the potential of
+the RDF backed WUMM database.  The links in the table point to a relevant part
+of the complete RDF information in the database. </p>
 
 <div class="concept">
 <table class="table table-bordered">
@@ -49,8 +53,9 @@ overview papers (Russo et al. 2017) and (Vezzoli, Mancini 2008).</p>
 }
 
 function displayMBPRow($v) {
-    return '<tr><td>'.$v->i.'</td><td>'.$v->d.'</td><td>'
-                     .$v->bl."</td></tr>\n";
+    $uri=$v->a; 
+    return '<tr>'.'<td><a href="displayuri.php?uri='.$uri.'">'
+                 .$v->i.'</a></td><td>'.$v->d.'</td><td>'.$v->bl."</td></tr>\n";
 }
 
 echo showpage(theMBPList());
