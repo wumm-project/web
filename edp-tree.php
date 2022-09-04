@@ -32,10 +32,10 @@ where { ?a a od:EDPNode .}';
         }
     }
     ksort($a);
-    $out='<h2>The EDP Tree proposed by Davide Rosso and Christian Spreafico</h2>
+    $out='<h2>The EDP Tree proposed by Davide Russo and Christian Spreafico</h2>
 
-<p>The following tree of EcoDesignPrinciples was proposed by Davide Rosso and
-Christian Spreafico. The tree consists of 4 parts corresponding to the life
+<p>The following tree of EcoDesignPrinciples was proposed by Davide Russo and
+Christian Spreafico. The tree consists of 4 subtrees corresponding to the life
 cycle phases <em>Pre-Manufacturing</em>, <em>Manufacturing</em>, <em>Product
 Use</em> and <em>End of Life</em> of a product.  The RDF variant was generated
 from a JSON dump provided by the authors.  An exact reference is still to be
