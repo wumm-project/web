@@ -1,4 +1,4 @@
-all: people conferences ontologies publications business more
+all: people conferences publications more
 
 people:
 	rapper -g ../../RDFData/People.ttl -o rdfxml-abbrev >People.rdf
@@ -41,30 +41,6 @@ publications:
 	rapper -g ../../RDFData/Presentations.ttl -o rdfxml-abbrev >Presentations.rdf
 	rapper -g ../../RDFData/Videos.ttl -o rdfxml-abbrev >Videos.rdf
 	rapper -g ../../RDFData/TBK-References.ttl -o rdfxml-abbrev >TBK-References.rdf
-
-ontologies:
-	rapper -g ../../RDFData/Ontologies/TOP-Glossary.ttl -o rdfxml-abbrev >TOP-Glossary.rdf
-	rapper -g ../../RDFData/Ontologies/Lippert-Glossary.ttl -o rdfxml-abbrev >Lippert-Glossary.rdf
-	rapper -g ../../RDFData/Ontologies/Matvienko-Glossary.ttl -o rdfxml-abbrev >Matvienko-Glossary.rdf
-	rapper -g ../../RDFData/Ontologies/VDI-Glossary.ttl -o rdfxml-abbrev >VDI-Glossary.rdf
-	rapper -g ../../RDFData/Ontologies/Souchkov-Glossary.ttl -o rdfxml-abbrev >Souchkov-Glossary.rdf
-	rapper -g ../../RDFData/Ontologies/TopLevel.ttl -o rdfxml-abbrev >TopLevel.rdf
-	rapper -g ../../RDFData/Ontologies/Thesaurus.ttl -o rdfxml-abbrev >Thesaurus.rdf
-	rapper -g ../../RDFData/Ontologies/OntoCards.ttl -o rdfxml-abbrev >OntoCards.rdf
-	rapper -g ../../RDFData/Matrix/Principles.ttl -o rdfxml-abbrev >Principles.rdf
-	rapper -g ../../RDFData/Matrix/Parameters.ttl -o rdfxml-abbrev >Parameters.rdf
-	rapper -g ../../RDFData/Ontologies/StandardSolutions.ttl -o rdfxml-abbrev >StandardSolutions.rdf
-
-business:
-	rapper -g ../../RDFData/Business-TRIZ/BusinessTrends-Wagner.ttl -o rdfxml-abbrev >BusinessTrends-Wagner.rdf
-	rapper -g ../../RDFData/Business-TRIZ/BusinessStandards.ttl -o rdfxml-abbrev >BusinessStandards.rdf
-	rapper -g ../../RDFData/Business-TRIZ/BusinessModelPatterns.ttl -o rdfxml-abbrev >BusinessModelPatterns.rdf
-	rapper -g ../../RDFData/Business-TRIZ/EcoDesignPrinciples.ttl -o rdfxml-abbrev >EcoDesignPrinciples.rdf
-	rapper -g ../../RDFData/Business-TRIZ/MBP-EcoDesignPrinciples.ttl -o rdfxml-abbrev >MBP-EcoDesignPrinciples.rdf
-	rapper -g ../../RDFData/Business-TRIZ/CEBMPatterns.ttl -o rdfxml-abbrev >CEBMPatterns.rdf
-	rapper -g ../../RDFData/Business-TRIZ/SBMPatterns.ttl -o rdfxml-abbrev >SBMPatterns.rdf
-	rapper -g ../../RDFData/Business-TRIZ/BPM-Patterns.ttl -o rdfxml-abbrev >BPM-Patterns.rdf
-	rapper -g ../../RDFData/Business-TRIZ/MannDombExamples.ttl -o rdfxml-abbrev >MannDombExamples.rdf
 
 more:
 	rapper -g ../../RDFData/FlowAnalysis/FlowDevelopmentPattern.ttl -o rdfxml-abbrev >FlowDevelopmentPattern.rdf

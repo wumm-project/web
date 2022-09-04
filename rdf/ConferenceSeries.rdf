@@ -16,6 +16,10 @@
     <rdfs:label>Business TRIZ Online</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://www.biztriz.net"/>
   </od:ConferenceSeries>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/GTC">
+    <od:description>This series of German TRIZ conferences is organized mainly by Bayern innovativ.</od:description>
+    <rdfs:label>German TRIZ Conferences</rdfs:label>
+  </od:ConferenceSeries>
   <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/MTC">
     <od:description>This series of conferences is organized by the Moscow TRIZ Club.</od:description>
     <rdfs:label>Moscow TRIZ Conferences</rdfs:label>
@@ -28,7 +32,7 @@
   </od:ConferenceSeries>
   <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future">
     <od:description>This series of conferences is organized by ETRIA.</od:description>
-    <rdfs:label>TRIZ Developer Summit</rdfs:label>
+    <rdfs:label>TRIZ Future Conferences</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67"/>
   </od:ConferenceSeries>
   <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit">

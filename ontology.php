@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-02-11
+ * last update: 2022-09-04
  */
 
 require 'vendor/autoload.php';
@@ -14,40 +14,30 @@ function theTitle() {
 
 // ------ helper ---- 
 
-function queryConcepts() {
-    global $sparql;
-    $query='
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
-PREFIX od: <http://opendiscovery.org/rdf/Model#>
-PREFIX tc: <http://opendiscovery.org/rdf/Concept/> 
-
-describe ?a
-where { ?a a skos:Concept . }';
-
-    try {
-        $results = $sparql->query($query);
-    } catch (Exception $e) {
-        print "<div class='error'>".$e->getMessage()."</div>\n";
-    }
-    return $results;
-}
-
-function theGlossaries() {
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
-    $graph->parseFile("rdf/Souchkov-Glossary.rdf"); 
-    $graph->parseFile("rdf/TOP-Glossary.rdf"); 
-    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more 
-    $graph->parseFile("rdf/Matvienko-Glossary.rdf");
-    $graph->parseFile("rdf/Lippert-Glossary.rdf");
-    return $graph;
-}
-
 function displayThesaurus() {
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
+    /* $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
     $graph->parseFile("rdf/Thesaurus.rdf"); 
     $graph->parseFile("rdf/Souchkov-Glossary.rdf"); 
     $graph->parseFile("rdf/TOP-Glossary.rdf"); 
-    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more
+    $graph->parseFile("rdf/VDI-Glossary.rdf"); // add more    */
+
+    setNamespaces();
+    global $sparql;
+    $query='
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a 
+from <http://opendiscovery.org/rdf/Thesaurus/>
+from <http://opendiscovery.org/rdf/Souchkov-Glossary/>
+from <http://opendiscovery.org/rdf/TOP-Glossary/>
+from <http://opendiscovery.org/rdf/VDI-Glossary/>
+where { ?a a skos:Concept . }';
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
+
     $a=array();
     $res = $graph->allOfType("skos:Concept");
     foreach ($res as $concept) {
@@ -68,7 +58,19 @@ function displayThesaurus() {
     return '<div class="container">'.$out.'</div>';
 }
 
-function displayGlossary($graph) {
+function displayGlossary() {
+    global $sparql;
+    $query='
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+PREFIX tc: <http://opendiscovery.org/rdf/Concept/> 
+
+describe ?a
+where { ?a a skos:Concept . }';
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
     $a=array();
     $res = $graph->allOfType("skos:Concept");
     foreach ($res as $concept) {
@@ -102,8 +104,21 @@ function displayGlossary($graph) {
 // ------ the top level concepts
 
 function TopLevel() {
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
-    $graph->parseFile("rdf/TopLevel.rdf");  
+    /* $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/Ontology/');
+       $graph->parseFile("rdf/TopLevel.rdf"); */  
+    setNamespaces();
+    global $sparql;
+    $query='
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a 
+from <http://opendiscovery.org/rdf/TopLevel/>
+where { ?a a od:TopLevelConcept .}';
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
     $a=array();
     $res = $graph->allOfType("od:TopLevelConcept");
     foreach ($res as $concept) {
@@ -141,6 +156,8 @@ function displaySubconcepts($s) {
 
 function OntoCards() {
     // extract the OntoCards
+    setNamespaces();
+    global $sparql;
     $query='
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
 PREFIX od: <http://opendiscovery.org/rdf/Model#>
@@ -149,8 +166,8 @@ PREFIX tc: <http://opendiscovery.org/rdf/Concept/>
 construct { ?a ?b ?c . ?e od:hasSubConcept ?d . }
 from <http://opendiscovery.org/rdf/OntoCards/>
 where { { ?a a od:OntoCard ; ?b ?c . }
-union { ?d od:hasSuperConcept ?e . } }';
-    $sparql = new \EasyRdf\Sparql\Client("http://wumm.uni-leipzig.de:8891/sparql");
+union { ?d od:hasSuperConcept ?e . } 
+}';
     try {
         $graph = $sparql->query($query);
     } catch (Exception $e) {
@@ -197,9 +214,8 @@ Project</a>. It\'s a first hack, more detailed explanations will be comiled
 
 <p>For the moment we compiled 
 <ul> 
-<li><a href="ontology.php?rdf=thesaurus">A combined Thesaurus</a> from the files </li>
-<li><a href="ontology.php?rdf=glossaries">A combined Glossary</a> from the files </li>
-<li><a href="ontology.php?rdf=sparql">A combined Glossary</a> from SPAQRL</li>
+<li><a href="ontology.php?rdf=thesaurus">A combined Thesaurus</a> </li>
+<li><a href="ontology.php?rdf=sparql">A combined Glossary</a> </li>
 <li><a href="ontology.php?rdf=TopLevel">Top Level Concepts</a> from the TRIZ Ontology Project</li> 
 <li><a href="ontology.php?rdf=OntoCards">OntoCards</a> from the TRIZ Ontology Project</li>
 </ul> 
@@ -235,8 +251,7 @@ function theOntologyPage($rdf) {
     setNamespaces();
     #echo $rdf;
     if ($rdf=='thesaurus') { $out=displayThesaurus(); }
-    else if ($rdf=='glossaries') { $out=displayGlossary(theGlossaries()); }
-    else if ($rdf=='sparql') { $out=displayGlossary(queryConcepts()); }
+    else if ($rdf=='sparql') { $out=displayGlossary(); }
     else if ($rdf=='TopLevel') { $out=TopLevel(); }
     else if ($rdf=='OntoCards') { $out=OntoCards(); }
     else { $out=generalOntologyInfo(); }
@@ -244,11 +259,12 @@ function theOntologyPage($rdf) {
 }
 
 
-$rdf=$_GET["rdf"]; // (thesaurus | glossaries | sparql | TopLevel | OntoCards )
+$rdf=$_GET["rdf"]; // (thesaurus | sparql | TopLevel | OntoCards )
 echo showpage(theOntologyPage($rdf));
 
 #echo displayThesaurus();
-#setNamespaces(); echo OntoCards();
+#echo displayGlossary();
+#echo OntoCards();
 
 
 ?>
