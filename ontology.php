@@ -65,6 +65,56 @@ PREFIX od: <http://opendiscovery.org/rdf/Model#>
 PREFIX tc: <http://opendiscovery.org/rdf/Concept/> 
 
 describe ?a
+where { ?a a skos:Concept . }
+
+LIMIT 10000
+';
+    #Nevertheless not all attributes are displayed
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
+    $a=array();
+    $res = $graph->allOfType("skos:Concept");
+    foreach ($res as $concept) {
+        $uri=str_replace("http://opendiscovery.org/rdf/","",$concept->getURI());
+        $types=join("<br/> ",$concept->all("rdf:type"));
+        $preflabel=showLanguage($concept->all("skos:prefLabel"),"<br/>");
+        $out='<h4><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></h4>'
+            .'<h5><strong>Types</strong></h5>'.$types
+            .'<h5><strong>Preferred Label</strong></h5>'.$preflabel;
+        $u=showLanguage($concept->all("od:TOPExplanation"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>TOP Explanation:</strong></h5>'.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:SouchkovDefinition"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Souchkov\'s Definition:</strong></h5> '.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:MatvienkoDefinition"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Matvienko\'s Definition:</strong></h5> '.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:VDIGlossaryDefinition"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Definition in the VDI Glossary:</strong></h5> '.$u.'</p>'; }
+        $u=showLanguage($concept->all("od:hasLippertNote"),"<br/>");
+        if (!empty($u)) {$out.='<h5><strong>Note in Lippert/Cloutier:</strong></h5> '.$u.'</p>'; }
+        $a[$concept->getUri()]="<div>\n$out\n</div>\n";
+    }
+    ksort($a);
+    $out=theTitle().'
+<h3>A Combined TRIZ Glossary</h2>
+
+<p>It contains glossaries from Valeri Souchkov, from the VDI norm, the GSA thesaurus,
+<div class="concept">
+'.join("\n", $a).'
+</div> <!-- end concept list -->';
+    return '<div class="container">'.$out.'</div>';
+}
+
+function displayVDIGlossary() {
+    global $sparql;
+    $query=' 
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+PREFIX tc: <http://opendiscovery.org/rdf/Concept/> 
+
+describe ?a
+from <http://opendiscovery.org/rdf/VDI-Glossary/>
 where { ?a a skos:Concept . }';
     try {
         $graph = $sparql->query($query);
@@ -94,7 +144,7 @@ where { ?a a skos:Concept . }';
     }
     ksort($a);
     $out=theTitle().'
-<h3>The Combined TRIZ Thesaurus</h2>
+<h3>The VDI TRIZ Glossary </h2>
 <div class="concept">
 '.join("\n", $a).'
 </div> <!-- end concept list -->';
@@ -216,6 +266,7 @@ Project</a>. It\'s a first hack, more detailed explanations will be comiled
 <ul> 
 <li><a href="ontology.php?rdf=thesaurus">A combined Thesaurus</a> </li>
 <li><a href="ontology.php?rdf=sparql">A combined Glossary</a> </li>
+<li><a href="ontology.php?rdf=VDI">The VDI Glossary</a> </li>
 <li><a href="ontology.php?rdf=TopLevel">Top Level Concepts</a> from the TRIZ Ontology Project</li> 
 <li><a href="ontology.php?rdf=OntoCards">OntoCards</a> from the TRIZ Ontology Project</li>
 </ul> 
@@ -254,15 +305,18 @@ function theOntologyPage($rdf) {
     else if ($rdf=='sparql') { $out=displayGlossary(); }
     else if ($rdf=='TopLevel') { $out=TopLevel(); }
     else if ($rdf=='OntoCards') { $out=OntoCards(); }
+    else if ($rdf=='VDI') { $out=displayVDIGlossary(); }
     else { $out=generalOntologyInfo(); }
     return '<div class="container">'.$out.'</div>';
 }
 
 
-$rdf=$_GET["rdf"]; // (thesaurus | sparql | TopLevel | OntoCards )
+$rdf=$_GET["rdf"]; // (thesaurus | sparql | TopLevel | OntoCards | VDI )
+#$rdf="VDI"; // (thesaurus | sparql | TopLevel | OntoCards | VDI )
 echo showpage(theOntologyPage($rdf));
 
 #echo displayThesaurus();
+#echo displayVDIGlossary();
 #echo displayGlossary();
 #echo OntoCards();
 
