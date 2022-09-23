@@ -43,7 +43,8 @@ of the complete RDF information in the database. </p>
 
 <div class="concept">
 <table class="table table-bordered">
-<tr><th>URI</th><th>Description</th><th>What</th><th>When</th><th>Action</th><<th>GenericPrinciple</th></tr>
+<tr><th>URI</th><th>Description</th><th>What</th><th>When</th>
+<th>Action</th><th>GenericPrinciple</th></tr>
 '.join("\n", $a).'
 </table></div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
