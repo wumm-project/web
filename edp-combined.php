@@ -50,7 +50,12 @@ of the complete RDF information in the database. </p>
 }
 
 function joinLabels ($u) {
-
+    $a=array();
+    foreach($u as $e) {
+        $a[]=$e->get("skos:prefLabel");
+    }
+    return join(", ",$a);
+}    
 
 function displayCombinedRow($uri,$v) {
     $d=$v->get("skos:definition");
