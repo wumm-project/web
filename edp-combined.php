@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-09-04
+ * last update: 2022-09-23
 
  */
 
@@ -16,23 +16,19 @@ function theCombinedList() {
     $query='
 PREFIX od: <http://opendiscovery.org/rdf/Model#>
 
-select ?a ?d ?what ?when ?action
+construct { ?a ?b ?c .}
 from <http://opendiscovery.org/rdf/EcoDesignPrinciples/>
 from <http://opendiscovery.org/rdf/MBP-EcoDesignPrinciples/>
-where {
-?a a od:EDP ; skos:definition ?d .
-optional { ?a od:what ?w1 . ?w1 skos:prefLabel ?what . }
-optional { ?a od:when ?w2 . ?w2 skos:prefLabel  ?when . }
-optional { ?a od:action ?w3 . ?w3 skos:prefLabel  ?action . } 
-}';
+where { ?a ?b ?c . }
+';
     try {
-        $res = $sparql->query($query);
+        $graph = $sparql->query($query);
     } catch (Exception $e) {
         print "<div class='error'>".$e->getMessage()."</div>\n";
     }
     $a=array();
-    foreach($res as $v) {
-        $uri=str_replace('http://opendiscovery.org/rdf/EcoDesignPrinciple/','',$v->a);
+    foreach($graph->allOfType('od:EDP') as $v) {
+        $uri=str_replace('http://opendiscovery.org/rdf/EcoDesignPrinciple/','',$v->getURI());
         $a[$uri]=displayCombinedRow($uri,$v);
     }
     ksort($a);
@@ -47,16 +43,30 @@ of the complete RDF information in the database. </p>
 
 <div class="concept">
 <table class="table table-bordered">
-<tr><th>URI</th><th>Description</th><th>What</th><th>When</th><th>Action</th></tr>
+<tr><th>URI</th><th>Description</th><th>What</th><th>When</th><th>Action</th><<th>GenericPrinciple</th>/tr>
 '.join("\n", $a).'
 </table></div> <!-- end concept list -->';
     return '<div class="container">'.$out.'</div>';
 }
 
+function joinLabels ($u) {
+    $a=array();
+    foreach($u as $e) {
+        $a[]=$e->get("skos:prefLabel");
+    }
+    return join(", ",$a);
+}    
+
 function displayCombinedRow($uri,$v) {
+    $d=$v->get("skos:definition");
+    $what=joinLabels($v->all("od:what"));
+    $when=joinLabels($v->all("od:when"));
+    $action=joinLabels($v->all("od:action"));
+    $gp=joinLabels($v->all("od:toGenericStrategy"));
     return '<tr>'.'<td><a href="displayuri.php?uri='.$uri.'">'.$uri.'</a></td><td>'
-                 .$v->d.'</td><td>'.$v->what.'</td><td>'
-                 .$v->when.'</td><td>'.$v->action."</td></tr>\n";
+                 .$d.'</td><td>'.$what.'</td><td>'
+                 .$when.'</td><td>'.$action.'</td><td>'
+                 .$gp."</td></tr>\n";
 }
 
 echo showpage(theCombinedList());
