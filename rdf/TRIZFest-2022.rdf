@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
    xmlns:od="http://opendiscovery.org/rdf/Model#"
@@ -11,7 +12,10 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/General">
+    <od:theProceedings rdf:resource="https://www.researchgate.net/publication/363266497_Proceedings_of_the_17th_International_Conference_TRIZfest_2022"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest"/>
+    <bibo:isbn>979-8-218-07055-7</bibo:isbn>
+    <bibo:issn>2374-2275</bibo:issn>
     <rdfs:label>TRIZFest 2022</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-03</ical:dtend>
     <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-31</ical:dtstart>
@@ -42,6 +46,12 @@
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_T"/>
     <dcterms:title xml:lang="en">Employing TRIZ Tools to Build “Virtual Ecological Niche” for Emerging Technology Industries</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_104">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Huang_J"/>
+    <dcterms:title xml:lang="en">Application of TRIZ in IPD</dcterms:title>
+    <rdfs:comment>Not presented at the conference</rdfs:comment>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_105">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
@@ -89,6 +99,12 @@
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fimin_P"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Smirnova_E"/>
     <dcterms:title xml:lang="en">Identifying The Best Technology for Solid Waste Management Using TRIZ-Based Technology Scouting</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_111">
+    <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
+    <dcterms:title xml:lang="en">TRIZ Inspired Creation of Digital Business Models</dcterms:title>
+    <rdfs:comment>Not presented at the conference</rdfs:comment>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Talk_112">
     <swc:relatedToEvent rdf:resource="http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/Paper"/>

@@ -40,6 +40,17 @@
     <ical:summary xml:lang="en">The "Business TRIZ Online Winter 2021" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.</ical:summary>
     <ical:url rdf:resource="http://www.biztriz.net/36-conference-business-triz-online-winter-2021.html"/>
   </swc:ConferenceEvent>
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/">
+    <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
+    <rdfs:label xml:lang="en">Business TRIZ Online Fall 2022 (in Russian)</rdfs:label>
+    <rdfs:label xml:lang="ru">Бизнес ТРИЗ Онлайн - Осень 2022</rdfs:label>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-19</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-18</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">The BUSINESS TRIZ ONLINE conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community. The conference is held in Russian</ical:summary>
+    <ical:summary xml:lang="ru">Онлайн конференция «БИЗНЕС ТРИЗ ОНЛАЙН 2022» приглашает всех, кто заинтересован узнать, что такое Бизнес ТРИЗ, как его применять, а также обсудить текущие проблемы и перспективы развития как ТРИЗ для бизнеса и управления, так и сообщества Бизнес ТРИЗ. Конференция «БИЗНЕС ТРИЗ ОНЛАЙН - ОСЕНЬ 2022» проводится на русском языке</ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/47-business-triz-online-fall-2022.html"/>
+  </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2022-S.rdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
@@ -326,6 +337,7 @@ The Conference aims at linking industrial companies, research centers, education
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/">
     <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2022.rdf"/>
+    <od:theProceedings rdf:resource="https://doi.org/10.1007/978-3-031-17288-5"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future"/>
     <rdfs:label>TRIZ Future 2022</rdfs:label>
     <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-29</ical:dtend>

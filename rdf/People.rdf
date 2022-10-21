@@ -116,10 +116,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arutyunova_E">
     <foaf:name>Ekaterina Arutyunova</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Asatullina">
-    <foaf:fullname xml:lang="ru">Асатуллина</foaf:fullname>
-    <foaf:name>Asatullina</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Atvars_A">
     <foaf:affil>Riga, Latvia</foaf:affil>
     <foaf:name>Aigars Atvars</foaf:name>
@@ -1349,6 +1345,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_HC">
     <foaf:name>Huan-Chu Huang</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_J">
+    <foaf:name>Huang Jun</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Huang_Y">
     <foaf:name>Huang Yan</foaf:name>
   </foaf:Person>
@@ -1764,10 +1763,6 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kneisel_BO">
     <foaf:name>Boris Oliver Kneisel</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Knyazeva">
-    <foaf:fullname xml:lang="ru">Князева</foaf:fullname>
-    <foaf:name>Knyazeva</foaf:name>
-  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Koblenc_P">
     <foaf:affil xml:lang="ru">EPAM Systems, Проектный менеджер</foaf:affil>
     <foaf:name>Pavel Koblenc</foaf:name>
@@ -1820,8 +1815,10 @@
     <foaf:name>Stanislav Korneev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korolev_VA">
-    <foaf:fullname xml:lang="ru">Королёв В. А.</foaf:fullname>
-    <foaf:name>V. A. Korolev</foaf:name>
+    <foaf:affil>Kiev, Ukraine</foaf:affil>
+    <foaf:fullname xml:lang="ru">Королёв Владимир Александрович</foaf:fullname>
+    <foaf:homepage rdf:resource="http://www.triz.org.ua"/>
+    <foaf:name>Vladimir A. Korolev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Korotchenya_V">
     <foaf:name>Valery Korotchenya</foaf:name>
@@ -3827,7 +3824,9 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Vikentiev_IL">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Викентьев Игорь Леонардович</foaf:fullname>
+    <foaf:homepage rdf:resource="http://triz-chance.ru"/>
     <foaf:homepage rdf:resource="https://vikent.ru"/>
+    <foaf:homepage rdf:resource="https://www.triz-ri.ru"/>
     <foaf:name>Igor L. Vikentiev</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Villarroel_JRE">
@@ -4036,6 +4035,11 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yang_WD">
     <foaf:name>Wen-dan Yang</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yarygin_A">
+    <foaf:affil>Petrazovodsk, Russia</foaf:affil>
+    <foaf:fullname xml:lang="ru">Ярыгин Андрей</foaf:fullname>
+    <foaf:name>Andrey Yarygin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yatsunenko_S">
     <foaf:affil>Novismo, Warsaw, Poland</foaf:affil>
