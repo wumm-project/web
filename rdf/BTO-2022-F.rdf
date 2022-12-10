@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:odp="http://opendiscovery.org/rdf/Person/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/">
+  <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/General">
+    <rdfs:comment>Presentations of the Business TRIZ Online Fall 2022</rdfs:comment>
+    <rdfs:label>Business TRIZ Online Fall 2022</rdfs:label>
+    <ical:description xml:lang="en">One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
+
+Technology and tools for systems innovation thinking based on TRIZ - Theory of Inventive Problem Solving - are now being actively implemented in various organisations around the world. Originally developed to support technical innovation and used by many global companies, TRIZ has found application in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
+
+BUSINESS TRIZ ONLINE 2022 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community.</ical:description>
+    <ical:description xml:lang="ru">Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+
+Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления.
+
+Онлайн форум «БИЗНЕС ТРИЗ ОНЛАЙН 2022» приглашает всех, кто заинтересован узнать, что такое Бизнес ТРИЗ, как его применять, а также обсудить текущие проблемы и перспективы развития как ТРИЗ для бизнеса и управления, так и сообщества Бизнес ТРИЗ.</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-19</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-18</ical:dtstart>
+    <ical:location>Online</ical:location>
+    <ical:summary xml:lang="en">BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community.</ical:summary>
+    <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/47-business-triz-online-fall-2022.html"/>
+  </swc:ConferenceEvent>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_100">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=ajZiDZ6ShmM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
+    <dcterms:title xml:lang="en">Multiple contradictions in business systems and a method for quick fixes</dcterms:title>
+    <dcterms:title xml:lang="ru">Множественныве противоречия в бизнес-системах и экспресс-метод их устранения</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_101">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_TM"/>
+    <dcterms:title xml:lang="en">Not by TRIZ alone. Useful pre-TRIZ methods in business consulting.</dcterms:title>
+    <dcterms:title xml:lang="ru">Не ТРИЗом единым. Полезные до-ТРИЗовские методы в бизнес-консультировании.</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_102">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
+    <dcterms:title xml:lang="en">Business-TRIZ case: 12-fold reduction in delivery time</dcterms:title>
+    <dcterms:title xml:lang="ru">Кейс Бизнес-ТРИЗ: Сокращение сроков поставки в 12 раз</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_103">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_NY"/>
+    <dcterms:title xml:lang="en">The concept of "Success" and analysis of key success parameters, on practical examples</dcterms:title>
+    <dcterms:title xml:lang="ru">Понятие «Успешность» и анализ ключевых параметров успешности, на практических примерах</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_104">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shapiro_A"/>
+    <dcterms:title xml:lang="en">Using TRIZ tools for ordering the morphology of elements of user interface</dcterms:title>
+    <dcterms:title xml:lang="ru">Использование инструментов ТРИЗ для упорядочивания морфологии элементов пользовательского интерфейса</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_105">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=9Bi-sSsCGF0"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Fomenko_AY"/>
+    <dcterms:title xml:lang="en">Algorithm for formulation of the statement of purposes using TRIZ tools</dcterms:title>
+    <dcterms:title xml:lang="ru">Алгоритм формулирования заявления о целях с помощью инструментов ТРИЗ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_106">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Esmontova_M"/>
+    <dcterms:title xml:lang="en">Business TRIZ in IT</dcterms:title>
+    <dcterms:title xml:lang="ru">Бизнес ТРИЗ в ИТ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_107">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Logvinov_SA"/>
+    <dcterms:title xml:lang="en">Extended functional analysis for non-technical systems - an attempt at formalisation</dcterms:title>
+    <dcterms:title xml:lang="ru">Расширенный функциональный анализ для нетехнических систем - попытка формализации</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_108">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zheltov_A"/>
+    <dcterms:title xml:lang="en">Business TRIZ for Enterprise Business Architecture.</dcterms:title>
+    <dcterms:title xml:lang="ru">Бизнес ТРИЗ для бизнес-архитектуры предприятий.</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_109">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">Business TRIZ Development</dcterms:title>
+    <dcterms:title xml:lang="ru">Развитие Бизнес ТРИЗ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_110">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shevkoplyas_A"/>
+    <dcterms:title xml:lang="en">A real image of an ideal system</dcterms:title>
+    <dcterms:title xml:lang="ru">Реальный образ идеальной системы</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_111">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
+    <dcterms:title xml:lang="en">Organisation of TRIZ and Business TRIZ competencies within the "Rationalisation and Productivity Cup 2022"</dcterms:title>
+    <dcterms:title xml:lang="ru">Организация компетенции ТРИЗ и Бизнес-ТРИЗ в рамках "Кубка рационализации и производительности 2022"</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_112">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khalvitskaya_O"/>
+    <dcterms:title xml:lang="en">40 ways to resolve conflicts in education</dcterms:title>
+    <dcterms:title xml:lang="ru">40 приемов разрешения противоречий в образовании</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_113">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shumovsky_I"/>
+    <dcterms:title xml:lang="en">Experience in using TRIZ and RTV methods in IT business</dcterms:title>
+    <dcterms:title xml:lang="ru">Опыт использования методов ТРИЗ и РТВ в ИТ-бизнесе</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_114">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Arakelyan_S"/>
+    <dcterms:title xml:lang="en">Creative warm-ups using RTV-TRIZ tools</dcterms:title>
+    <dcterms:title xml:lang="ru">Креативные разминки с использованием инструментов РТВ-ТРИЗ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_115">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
+    <dcterms:title xml:lang="en">Working with hypotheses in Business TRIZ</dcterms:title>
+    <dcterms:title xml:lang="ru">Работа с гипотезами в Бизнес-ТРИЗ </dcterms:title>
+  </od:Talk>
+</rdf:RDF>

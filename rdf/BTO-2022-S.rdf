@@ -10,7 +10,7 @@
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/">
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/General">
-    <od:theVideosHidden rdf:resource="https://youtube.com/playlist?list=PLFgocOPCN0ydsl4GiUU4gJbgu3p296lpo"/>
+    <od:theVideos rdf:resource="https://youtube.com/playlist?list=PLFgocOPCN0ydsl4GiUU4gJbgu3p296lpo"/>
     <rdfs:comment>Presentations of the Business TRIZ Online Spring 2022</rdfs:comment>
     <rdfs:label>Business TRIZ Online Spring 2022</rdfs:label>
     <ical:description xml:lang="en">One of the key skills of management professions in today's world is the ability to solve difficult, non-standard problems. The competitive environment and demands of the 21st century society require acting quickly. The need to effectively find new non-standard solutions, as well as to create new successful innovative business systems and business products are becoming the highest priority requirements. Most of such tasks require extraordinary, creative thinking.
@@ -27,71 +27,84 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English.</ical
     <ical:url rdf:resource="http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html"/>
   </swc:ConferenceEvent>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_100">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=DKq3_TfBf9Y"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=6r9ecJtHHfk"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
-    <dcterms:title xml:lang="en">Progress with Business TRIZ</dcterms:title>
+    <dcterms:title xml:lang="en">Opening. Business TRIZ: current state and development prospects.</dcterms:title>
+    <dcterms:title xml:lang="ru">Открытие. Бизнес-ТРИЗ: современное состояние и перспективы развития.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_101">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=b4cKjtvQd4I"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Han_B"/>
-    <dcterms:title xml:lang="en">Preliminary Conception of Fusion with Business TRIZ and Multi-methods</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=YjNE_83DErY"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
+    <dcterms:title xml:lang="en">Conducting strategic sessions using TRIZ tools</dcterms:title>
+    <dcterms:title xml:lang="ru">Проведение стратегических сессий с применением инструментов ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_102">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=od0FijwqZHw"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Schaper_S"/>
-    <dcterms:title xml:lang="en">Process optimization using TRIZ</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=QaF3Py58W6E"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kustov_Y"/>
+    <dcterms:title xml:lang="en">Sociocracy and TRIZ</dcterms:title>
+    <dcterms:title xml:lang="ru">Социократия и ТРИЗ</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_103">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=fwhfSNzmgk8"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
+    <dcterms:title xml:lang="en">How to increase your podcast audience by a million people in just one month and no cost</dcterms:title>
+    <dcterms:title xml:lang="ru">Как увеличить аудиторию подкаста на миллион человек всего за один месяц и без затрат</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_104">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=GiIC1R7C0rc"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Amatulli_N"/>
-    <dcterms:title xml:lang="en">Actual Case Study with Value Conflict Mapping (VCM)</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=NL_hLsd4NBQ"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Svobodov_V"/>
+    <dcterms:title xml:lang="en">Money as a source of contradictions</dcterms:title>
+    <dcterms:title xml:lang="ru">Деньги как источник противоречий</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_105">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=lzex5g-BItE"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kozhemyako_AP"/>
-    <dcterms:title xml:lang="en">Factors approach to the technical contradiction elimination in the Business TRIZ</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IKRSE0MhspE"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Shapiro_A"/>
+    <dcterms:title xml:lang="en">Product/Service growth tree as a strategic tool</dcterms:title>
+    <dcterms:title xml:lang="ru">Дерево роста продукта/услуги как стратегический инструмент</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_106">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=Z42QIoP4akk"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gafitulin_TM"/>
-    <dcterms:title xml:lang="en">The Law of Completeness for social-techno systems. On the example of the commercial company organizational structure.</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=IICMVX-Hm5M"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Pravkin_D"/>
+    <dcterms:title xml:lang="en">Application of IFR and resource approach to the task of finding and retaining specialists in a federal company.</dcterms:title>
+    <dcterms:title xml:lang="ru">Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_107">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=mRkJEyZPBGo"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zhang_T"/>
-    <dcterms:title xml:lang="en">Use TRIZ to support the "Virtual ecological niche" for investments</dcterms:title>
+    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=1Vy-ICuBuhs"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Domkin_KI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Severinets_GA"/>
+    <dcterms:title xml:lang="en">Peculiarities of the application of the method of trimming to improve business processes in production</dcterms:title>
+    <dcterms:title xml:lang="ru">Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_108">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=JEol0Zi08vA"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Halas_M"/>
-    <dcterms:title xml:lang="en">Jumping to the next S-curve</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=1RLxF1HOebs"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kuryan_AG"/>
+    <dcterms:title xml:lang="en">Business Model Navigator: How contradictions in products and business models arise and are eliminated</dcterms:title>
+    <dcterms:title xml:lang="ru">Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_109">
-    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Han_B"/>
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=xWIWxvirXRA"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Hongbo_Y"/>
-    <dcterms:title xml:lang="en">Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=r3IXRZbjw-U"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Sidorec_A"/>
+    <dcterms:title xml:lang="en">TRIZ in Supply Chain Management. Basics</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ в Управлении Цепями Поставок. Основы</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_110">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=MXycTwHUywc"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Isaac_DP"/>
-    <dcterms:title xml:lang="en">Anticipatory Failure Analysis to identify hidden risks to business continuity</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=USZLGN1vhuo"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Saunin_NY"/>
+    <dcterms:title xml:lang="en">TRIZ for managers: a methodology for making effective decisions. Implementation of TRIZ in the GAZ Group through training of leaders on use cases.</dcterms:title>
+    <dcterms:title xml:lang="ru">ТРИЗ для руководителей: методика принятия эффективных решений (МПЭР). Внедрение ТРИЗ в Группе ГАЗ через обучение руководителей на примере кейсов.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_111">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=tGyyXu4KUgE"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Graebe_HG"/>
-    <dcterms:title xml:lang="en">On the interconnection of project- and product-centered systemic modelling</dcterms:title>
-  </od:Talk>
-  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_112">
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=4YPpPuDS4Us"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Khristenko_AV"/>
-    <dcterms:title xml:lang="en">Adaptation of the Conflict Matrix for the scope of services</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=m8e2PVSfltI"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Redkolis_EV"/>
+    <dcterms:title xml:lang="en">Practice of TRIZ application in non-industrial businesses</dcterms:title>
+    <dcterms:title xml:lang="ru">Практика применения ТРИЗ в непромышленных бизнесах</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-S/Talk_113">
-    <od:presentedBy rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
-    <od:urlVideoHidden rdf:resource="https://www.youtube.com/watch?v=VFRDx8ghis0"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Polonsky_LM"/>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Tokarev_AS"/>
-    <dcterms:title xml:lang="en">Extended description of systems.</dcterms:title>
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=eKoc5_Zcj_o"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:title xml:lang="en">Results of Business TRIZ application in real projects</dcterms:title>
+    <dcterms:title xml:lang="ru">Результаты применения Бизнес-ТРИЗ в реальных проектах</dcterms:title>
   </od:Talk>
 </rdf:RDF>

@@ -41,6 +41,7 @@
     <ical:url rdf:resource="http://www.biztriz.net/36-conference-business-triz-online-winter-2021.html"/>
   </swc:ConferenceEvent>
   <swc:ConferenceEvent rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/">
+    <od:detailedReport rdf:resource="http://wumm.uni-leipzig.de/rdf/BTO-2022-F.rdf"/>
     <od:toConferenceSeries rdf:resource="http://opendiscovery.org/rdf/ConferenceSeries/BTO"/>
     <rdfs:label xml:lang="en">Business TRIZ Online Fall 2022 (in Russian)</rdfs:label>
     <rdfs:label xml:lang="ru">Бизнес ТРИЗ Онлайн - Осень 2022</rdfs:label>

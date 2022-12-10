@@ -104,6 +104,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Anhalt_K">
     <foaf:name>Kazik Anhalt</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arakelyan_S">
+    <foaf:fullname xml:lang="ru">Аракелян Светлана</foaf:fullname>
+    <foaf:name>Svetlana Arakelyan</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Arel_AT">
     <foaf:name>A.T. Arel</foaf:name>
   </foaf:Person>
@@ -801,6 +805,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ermolai_V">
     <foaf:name>Vasile Ermolai</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Esmontova_M">
+    <foaf:fullname xml:lang="ru">Эсмонтова Мария</foaf:fullname>
+    <foaf:name>Maria Esmontova</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Essaid_A">
     <foaf:affil>Strasbourg, France</foaf:affil>
@@ -1629,6 +1637,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Kengerli_TA">
     <foaf:fullname xml:lang="ru">Кенгерли Т.А.</foaf:fullname>
     <foaf:name>T.A. Kengerli</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khalvitskaya_O">
+    <foaf:fullname xml:lang="ru">Халвицкая Ольга</foaf:fullname>
+    <foaf:name>Olga Khalvitskaya</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Khan_AS">
     <foaf:name>Adnan Shahid Khan</foaf:name>
@@ -3309,6 +3321,10 @@
     <foaf:fullname xml:lang="ru">Шевелева Елена Владимировна</foaf:fullname>
     <foaf:name>E. V. Shevelyeva</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shevkoplyas_A">
+    <foaf:fullname xml:lang="ru">Шевкопляс Александр</foaf:fullname>
+    <foaf:name>Alexander Shevkoplyas</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shi_X">
     <foaf:name>Shi Xiaohua</foaf:name>
   </foaf:Person>
@@ -3367,6 +3383,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shulyak_LA">
     <foaf:fullname xml:lang="ru">Шуляк Лев Абрамович</foaf:fullname>
     <foaf:name>Lev Shulyak</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shumovsky_I">
+    <foaf:fullname xml:lang="ru">Шумовский Иван</foaf:fullname>
+    <foaf:name>Ivan Shumovsky</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Shuqin_W">
     <foaf:name>Wu Shuqin</foaf:name>
@@ -4220,6 +4240,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhao_Z">
     <foaf:affil>Harbin Engieering University, China</foaf:affil>
     <foaf:name>Zitong Zhao</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zheltov_A">
+    <foaf:fullname xml:lang="ru">Желтов Анатолий</foaf:fullname>
+    <foaf:name>Anatoliy Zheltov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhen_L">
     <foaf:affil>Harbin, PR China</foaf:affil>
