@@ -1277,6 +1277,10 @@
     <foaf:affil>Samsung, South Korea</foaf:affil>
     <foaf:name>Chang-Ryong Heo</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Herr_G">
+    <foaf:affil>WOIS Institute, Coburg, Germany</foaf:affil>
+    <foaf:name>Gunther Herr</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Herrlich_M">
     <foaf:affil>Erfinder-Akademie, Leipzig, Germany</foaf:affil>
     <foaf:name>Michael Herrlich</foaf:name>
@@ -2753,6 +2757,10 @@
     <foaf:affil>GE Global Operations, India</foaf:affil>
     <foaf:name>Indrajit Pande</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Panitz_G">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Gregor Panitz</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Papini_F">
     <foaf:affil>GE Global Research, Germany</foaf:affil>
     <foaf:name>Francesco Papini</foaf:name>
@@ -4170,6 +4178,10 @@
     <foaf:affil>Tel Aviv, Israel</foaf:affil>
     <foaf:name>Igor Zasedenets</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zeihsel_F">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Frank Zeihsel</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_E">
     <foaf:name>Erjia Zhang</foaf:name>
   </foaf:Person>
@@ -4280,6 +4292,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_ZL">
     <foaf:affil xml:lang="en">Hubei, PR China</foaf:affil>
     <foaf:name>Zhou Zaolin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ziegltrum_D">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Dieter Ziegltrum</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zinner_V">
     <foaf:name>Viktoria Zinner</foaf:name>

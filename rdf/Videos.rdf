@@ -27,15 +27,6 @@
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-09-11</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dcterms:language>
   </od:Youtube-Video>
-  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Kudryavtsev-20210824">
-    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=fFyc6JEtPqI"/>
-    <dcterms:abstract xml:lang="en">Cult, charlatanism and 40 techniques. Unmasking TRIZ</dcterms:abstract>
-    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
-    <dcterms:extent>01:23:35 h</dcterms:extent>
-    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2021-08-24</dcterms:issued>
-    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
-    <rdfs:comment xml:lang="en">Published via Trizovication channel</rdfs:comment>
-  </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Kuryan-20200422">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=lZGlOoahpvc"/>
     <dcterms:abstract xml:lang="en">On systems development, working with requirements and applying TRIZ to business with Andrei Kuryan. A MakeSense Podcast</dcterms:abstract>
@@ -174,14 +165,34 @@
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
   </od:Youtube-Video>
-  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20200707">
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Trizofication-20200707">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=KBS7SJ7Ht_I"/>
     <dcterms:abstract xml:lang="en">Why don't TRIZ teams launch their products?</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
     <dcterms:extent>00:55:53 h</dcterms:extent>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020-07-07</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
-    <rdfs:comment xml:lang="en">Published via Trizovication channel</rdfs:comment>
+    <rdfs:comment xml:lang="en">Published via Trizofication channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Trizofication-20210824">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=fFyc6JEtPqI"/>
+    <dcterms:abstract xml:lang="en">Cult, charlatanism and 40 techniques. Unmasking TRIZ</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Kudryavtsev_AV"/>
+    <dcterms:extent>01:23:35 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2021-08-24</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <rdfs:comment xml:lang="en">Published via Trizofication channel</rdfs:comment>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Trizofication-20230123">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=bbsfVq6IaPg"/>
+    <dcterms:abstract xml:lang="en">TRIZ Master Oleg Gerasimov on why to study TRIZ through examples of completed projects.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Gerasimov_OM"/>
+    <dcterms:extent>01:35:41 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2023-01-23</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:title xml:lang="en">"Don't be afraid of challenging tasks". TRIZ Master Oleg Gerasimov @Trizofication</dcterms:title>
+    <dcterms:title xml:lang="ru">«Не бояться сложных задач». Мастер ТРИЗ Олег Герасимов @Trizofication</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via Trizofication channel</rdfs:comment>
   </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Zlotin-2018006">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=gvIbzSkjhgg"/>

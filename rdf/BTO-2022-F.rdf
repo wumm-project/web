@@ -40,6 +40,7 @@ BUSINESS TRIZ ONLINE 2022 online forum invites everyone who is interested to lea
     <dcterms:title xml:lang="ru">Не ТРИЗом единым. Полезные до-ТРИЗовские методы в бизнес-консультировании.</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/BTO-2022-F/Talk_102">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=XY_BfVjeBQA"/>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Blagich_A"/>
     <dcterms:title xml:lang="en">Business-TRIZ case: 12-fold reduction in delivery time</dcterms:title>
     <dcterms:title xml:lang="ru">Кейс Бизнес-ТРИЗ: Сокращение сроков поставки в 12 раз</dcterms:title>
