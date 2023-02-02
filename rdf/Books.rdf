@@ -302,6 +302,21 @@
     <dcterms:title xml:lang="ru">Талантливое мышление: ТРИЗ</dcterms:title>
     <bibo:isbn>9785449357854</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2018_ClassicalTRIZ_en">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Firstfruits Sdn Bhd, Malaysia</dc:publisher>
+    <dcterms:abstract xml:lang="en">This book was authored by Mr. Vladimir Petrov, a TRIZ Master who had worked closely with the Father of TRIZ, Genrich S. Altshuller. I had the opportunity of translating this book from Russian into English. It was most challenging especially due to the complexity of the Russian language along with making the right interpretation from a TRIZ perspective. Nevertheless, after 9 months’ worth of effort, this book was finally translated. 
+This book can be divided into three sections. The first section creates an awareness that we are always bounded by psychological inertia (a.k.a. mental block) whenever we solve problems. We unconsciously use solutions, methods, or concepts which are known to us. This results in the use of old solutions to solve new problems. These solutions are neither creative nor elegant. 
+Once we realize that we have this inherent weakness, the second section then equips us with a comprehensive understanding of Classical TRIZ which encompasses its fundamentals, methodologies including S-curve, Laws of Technical System Evolution, Substancefield Analysis, Scientific Effects, and ARIZ. For example, ARIZ is an extremely rigorous problem solving methodology where minimal change is required and yet the problem needs to be solved in the most effective way. 
+Finally, the third section deals with the systematic development of creative imagination in order to overcome psychological inertia. The Complete Book of CLASSICAL TRIZ II The Complete Book of Classical TRIZ Basically, the key aspect of TRIZ is the structured and systematic approach towards problem solving and creative innovation. 
+I would like to acknowledge Mr. Tan Eng Hoo who identified the opportunity and obtained Mr. Petrov’s permission to translate the book into English. This has enabled us, who are from the Malaysia TRIZ Innovation Association (MyTRIZ) to help contribute towards the TRIZ body of knowledge. 
+Finally, all credit for the contents that work for you should go to Mr. Petrov. However, if there are any contents that don’t, please revert to me for future improvements. I thank you for your patience and hope that this book will be value added towards your mastery of creativity. 
+(Yeoh Teong San, Ph.D., Malaysia TRIZ Innovation Association (MyTRIZ)) </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018</dcterms:issued>
+    <dcterms:title xml:lang="en">The Complete Book of Classical TRIZ. Theory of Inventive Problem Solving</dcterms:title>
+    <bibo:isbn>9789838040457</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2018_Ex_ru">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>
     <dc:publisher xml:lang="ru">Издательские решения</dc:publisher>
@@ -483,6 +498,17 @@ The book is intended for students of engineering disciplines. It can also be use
     <bibo:asin>B081ZJ966M</bibo:asin>
     <bibo:isbn>9781711620374</bibo:isbn>
   </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2019_SystemsApproach_en">
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Amazon Digital Services LLC</dc:publisher>
+    <dc:publisher xml:lang="en">Independently published</dc:publisher>
+    <dcterms:abstract xml:lang="en">This book describes a systematic approach. Describes the basic definitions of a systematic approach: systems thinking, systems analysis and system synthesis, systems theory. The concepts of the system and its components are presented such as integrity, property, attitude, anthropogenic system, technical system. In addition, the concepts described function, process, flow and hierarchy. Introduces the concept of consistency and system requirements. The system operator is described. Account any changes and their effects on the system. The focus is on the systems approach to design. Procedures for system analysis and system synthesis are described. System analysis to identify gaps is done in the following sequence: Component Analysis, Structural Analysis, Functional Analysis and Diagnostic Analysis. </dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019</dcterms:issued>
+    <dcterms:title xml:lang="en">Systems Approach: Theory of Inventive Problem Solving (TRIZ).</dcterms:title>
+    <bibo:asin> B07S3VRKKD</bibo:asin>
+    <bibo:isbn>9781088677735</bibo:isbn>
+  </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2019_TIPS_en">
     <od:relatedLinks rdf:resource="https://link.springer.com/book/10.1007/978-3-030-04254-7"/>
     <od:relatedLinks rdf:resource="https://www.springer.com/in/book/9783030042530"/>
@@ -531,16 +557,22 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2020_NSP_en">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dc:publisher xml:lang="en">Amazon Digital Services LLC</dc:publisher>
+    <dc:publisher xml:lang="en">Independently published</dc:publisher>
+    <dcterms:abstract xml:lang="en">This textbook describes a method for solving non-standard problems, consisting of 5 steps.
+The book contains a description of the logic of inventive problem solving. Much attention in the textbook is given to the practice of using these tools.
+The material is quickly and easily absorbed. It is suitable for solving problems from any field of knowledge. This volume of knowledge is sufficient for solving many inventive problems. Much attention is given in this book to practice of using these tools, therefore, the book contains many tasks for independent work, which are analyzed in appendixes.
+The book contains 88 problems of 41 for an independent solution. Author's analysis of these problems is given in the appendix.
+The book is intended for a broad circle of readers and will be especially useful for those who want to learn how to obtain new ideas quickly. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2020</dcterms:issued>
     <dcterms:title xml:lang="en">Solving Non-Standard Problems</dcterms:title>
+    <bibo:asin>B081D6VGFJ</bibo:asin>
     <bibo:isbn>9781707864195</bibo:isbn>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2020_TB_en">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
     <dc:publisher xml:lang="en">Amazon Digital Services LLC</dc:publisher>
-    <dcterms:abstract> 
-This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
+    <dcterms:abstract>This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
 The theoretical material is illustrated by many examples, problems, and graphical material (approximately 300 examples and problems, and approximately 400 illustrations). It describes more than 300 concepts. Material for independent work is provided at the end of each chapter.
 The book is intended for students of engineering disciplines. It can also be useful for engineers and inventors, scientists, university professors, and those who solve creative problems.
 </dcterms:abstract>
@@ -549,6 +581,18 @@ The book is intended for students of engineering disciplines. It can also be use
     <dcterms:title xml:lang="en">TRIZ Basics. Theory of Inventive Problem Solving</dcterms:title>
     <bibo:asin>B081D6VGFJ</bibo:asin>
     <bibo:isbn>9798622683022</bibo:isbn>
+  </od:TRIZ-Book>
+  <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Petrov_2023_TalentedThinking_en">
+    <od:relatedLinks rdf:resource="https://link.springer.com/book/10.1007/978-3-031-15505-5"/>
+    <od:relatedLinks rdf:resource="https://www.amazon.co.uk/Talented-Thinking-TRIZ-Vladimir-Petrov/dp/3031155041"/>
+    <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dc:language>
+    <dc:publisher xml:lang="en">Springer</dc:publisher>
+    <dcterms:abstract xml:lang="en">This book shows how to acquire inventive thinking skills. It contains many examples and solved problems, as well as assignments for independent work. An analysis of most of the tasks is given in the appendix. This book describes all components of creative thinking, mainly system thinking, evolutionary thinking, thinking through contradictions, thinking with the use of resources, thinking with the use of models and development of creative thinking. Particular attention is given to improvement of skills of Inventive thinking. This book is intended for a broad circle of readers, suitable for all those who want to quickly get new ideas and have a developed inventive thinking.</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Petrov_VM"/>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2023</dcterms:issued>
+    <dcterms:title xml:lang="en">Talented Thinking. TRIZ</dcterms:title>
+    <bibo:isbn>9783031155048</bibo:isbn>
+    <bibo:isbn>9783031155055</bibo:isbn>
   </od:TRIZ-Book>
   <od:TRIZ-Book rdf:about="http://opendiscovery.org/rdf/BIB/Royzen_1986_ru">
     <dc:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dc:language>

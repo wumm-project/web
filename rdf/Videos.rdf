@@ -27,6 +27,14 @@
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2019-09-11</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dcterms:language>
   </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Feygenson-20230202">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=kVqZucWJGHg"/>
+    <dcterms:abstract xml:lang="en">Webinar "Systematic Innovation Using TRIZ" by Dr. Oleg Feygenson, organised by Matriz-Official</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Feygenson_ON"/>
+    <dcterms:extent>00:58:02 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2023-02-02</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dcterms:language>
+  </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Kuryan-20200422">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=lZGlOoahpvc"/>
     <dcterms:abstract xml:lang="en">On systems development, working with requirements and applying TRIZ to business with Andrei Kuryan. A MakeSense Podcast</dcterms:abstract>
