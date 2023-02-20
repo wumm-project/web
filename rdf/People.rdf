@@ -36,7 +36,7 @@
     <foaf:name>Said Adima</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Adunka_R">
-    <foaf:affil>TRIZ Consulting Group, Sulzbach-Rosenberg, Germany</foaf:affil>
+    <foaf:affil>TRIZ Consulting, Sulzbach-Rosenberg, Germany</foaf:affil>
     <foaf:homepage rdf:resource="http://www.adunka.de/"/>
     <foaf:name>Robert Adunka</foaf:name>
   </foaf:Person>
@@ -599,6 +599,10 @@
     <foaf:affil>USA</foaf:affil>
     <foaf:name>David Worrell Conley</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Conzelmann_R">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Rene Conzelmann</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Cooke_J">
     <foaf:name>John Cooke</foaf:name>
   </foaf:Person>
@@ -925,7 +929,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Fresner_J">
     <foaf:affil xml:lang="en">TRIZ Campus Vienna, Vienna, Austria</foaf:affil>
-    <foaf:name>J. Fresner</foaf:name>
+    <foaf:name>Johannes Fresner</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Frigo_N">
     <foaf:name>Nicola Frigo</foaf:name>
@@ -1134,6 +1138,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gronauer_B">
     <foaf:affil>StrategieInnovation, Hünfeld, Germany</foaf:affil>
+    <foaf:homepage rdf:resource="https://www.barbara-gronauer.de"/>
     <foaf:name>Barbara Gronauer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Guarino_G">
@@ -1177,6 +1182,10 @@
     <rdfs:seeAlso rdf:resource="http://orcid.org/0000-0002-8201-9551"/>
     <foaf:affil>INSA Strasbourg, France</foaf:affil>
     <foaf:name>Roland de Guio</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gundlach_C">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Carsten Gundlach</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gurkov_D">
     <foaf:fullname xml:lang="ru">Гурков Даниил</foaf:fullname>
@@ -1390,6 +1399,7 @@
     <foaf:name>Ilya Y. Ilyin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Iniotakis_C">
+    <foaf:affil>Germany</foaf:affil>
     <foaf:name>Christian Iniotakis</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Iqbal_AM">
@@ -2038,7 +2048,7 @@
     <foaf:name>Armin Lau</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Laue_R">
-    <foaf:affil>Zwickau, Germany</foaf:affil>
+    <foaf:affil>WTH, Zwickau, Germany</foaf:affil>
     <foaf:name>Ralf Laue</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lautenschlaeger_S">
@@ -2262,7 +2272,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lovich_A">
     <foaf:affil>Germany</foaf:affil>
-    <foaf:name>A. Lovich</foaf:name>
+    <foaf:name>Andreas Lovich</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lui_K">
     <foaf:affil>Gree Electric Appliances Inc. of Zhuhai, PR of China</foaf:affil>
@@ -2404,6 +2414,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Mazzuchi_TA">
     <foaf:name>T.A. Mazzuchi</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Meckler_P">
+    <foaf:affil>PM inno, Germany</foaf:affil>
+    <foaf:name>Peter Meckler</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Medvedyev_AV">
     <foaf:affil>Algorithm Ltd., Russia</foaf:affil>
@@ -2652,6 +2666,10 @@
     <foaf:affil>China</foaf:affil>
     <foaf:name>Jiapeng Nie</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nik_ME">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Mohammad Ebrahimi Nik</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Nikashin_AI">
     <foaf:affil>Russia</foaf:affil>
     <foaf:fullname xml:lang="ru">Никашин Александр Иванович</foaf:fullname>
@@ -2716,6 +2734,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Oroian_B">
     <foaf:name>Bogdan Oroian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Orso_j">
+    <foaf:affil>Univ. Reutlingen, Germany</foaf:affil>
+    <foaf:name>Jochen Orso</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ory_M">
     <foaf:name>Murielle Ory</foaf:name>
@@ -3120,7 +3142,7 @@
     <foaf:name>Aleksei Ruin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Runck_J">
-    <foaf:affil>Linz, Austria</foaf:affil>
+    <foaf:affil>e-pulse, Linz, Austria</foaf:affil>
     <foaf:name>Joachim Runck</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Russo_D">
@@ -3553,7 +3575,7 @@
     <foaf:name>Valeri V. Souchkov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spaeth_A">
-    <foaf:affil>FAU Erlangen, Germany</foaf:affil>
+    <foaf:affil>INAM Forchheim, Germany</foaf:affil>
     <foaf:name>Andreas Späth</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spasic_I">
@@ -3584,6 +3606,10 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stasyuk_I">
     <foaf:name>Inna Stasyuk</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Steinbiss_K">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Kristina Steinbiß</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stepanchikova_M">
     <foaf:affil>Moscow, Russia</foaf:affil>
@@ -3965,7 +3991,7 @@
     <foaf:name>Shi Weigang</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Weigert_S">
-    <foaf:affil>Oberhaching, Germany</foaf:affil>
+    <foaf:affil>IBW, Oberhaching, Germany</foaf:affil>
     <foaf:name>Siegfried Weigert</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Wen_M">
@@ -4292,6 +4318,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhou_ZL">
     <foaf:affil xml:lang="en">Hubei, PR China</foaf:affil>
     <foaf:name>Zhou Zaolin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ziegler_M">
+    <foaf:affil>Germany</foaf:affil>
+    <foaf:name>Marco Ziegler</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ziegltrum_D">
     <foaf:affil>Germany</foaf:affil>

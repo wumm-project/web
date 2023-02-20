@@ -33,9 +33,9 @@
     <dcterms:abstract xml:lang="de">Gregor Panitz ist sein über 23 Jahren in der Entwicklung elektrischer Kontakt- und Stecksysteme bei TE Connectivity beschäftigt. Mit TRIZ kam er doch recht spät seiner Entwicklerlaufbahn in Berührung. Umso stärker ist nun seine Begeisterung für die Methode aber auch der Drang einfache, praktische und „begleitende“ Ansätze für die tägliche Entwicklerarbeit zu finden. Nicht immer muss ein „TRIZ Workshop“ mit 10 Leuten im Kalender stehen oder eine tiefe Methodenausbildung notwendig sein. Nicht die Methode schafft die Lösung, sondern der Mensch. Seine Kreativität muss nur von der Leine gelassen werden. Manchmal mit einem Schubser. Als sehr hilfreich haben sich hier vor allem die etwas vergessenen Ansätze von Nikolai Khomenko aus dem OTSM-TRIZ erwiesen. Mit den wirklich simplen Ideen aus Most Desirable Result und TONGs Model, kombiniert mit der Gold-Fish-Methode als Sezierwerkzeug und den bekannten Ansätzen des klassischen TRIZ konnten bereits einige unmögliche Aufgabenstellungen innerhalb von Stunden gelöst werden. Das Tool Network-of-Problems verhilft morphologisch vorzugehen und unterwegs permanent Widersprüche aufzudecken. Gregor wird in seinem Vortrag die Methoden erläutern und einige Beispiele aus dem Alltag der Anwendung zeigen.</dcterms:abstract>
     <dcterms:abstract xml:lang="ru">Грегор Панитц работает над разработкой систем электрических контактов и разъемов в TE Connectivity более 23 лет. Он пришел в контакт с ТРИЗ довольно поздно в своем развитии. карьере. Тем более сейчас его энтузиазм по поводу метода, но также и стремление найти простые, практичные и «сопутствующие» подходы для ежедневной работы разработчика. необходимо углубленное методическое обучение.Не метод создает решение, а человек.Творчество его нужно просто спускать с поводка.Иногда с подталкиванием.Оправдали себя несколько подзабытые подходы Николая Хоменко из ОТСМ-ТРИЗ быть очень полезным здесь.С действительно простыми идеями из Наиболее желаемого результата и модели Тонга, в сочетании с методом золотых рыбок в качестве инструмента вскрытия и хорошо известными подходами классической ТРИЗ, несколько unm возможные задачи могут быть решены в течение нескольких часов. Инструмент Network-of-Problems помогает двигаться морфологически и выявлять постоянные противоречия на этом пути. Грегор объяснит методы в своей лекции и покажет несколько примеров из повседневного использования.</dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Panitz_G"/>
-    <dcterms:title xml:lang="de">Einfache aber große Tools aus dem Bereich des OTSM-TRIZWiderspruchsorientierte Innovationsstrategie</dcterms:title>
-    <dcterms:title xml:lang="en">Simple but great tools from the field of OTSM-TRIZContradiction-oriented innovation strategy</dcterms:title>
-    <dcterms:title xml:lang="ru">Простые, но замечательные инструменты из области ОТСМ-ТРИЗ, ориентированной на противоречия инновационной стратегии</dcterms:title>
+    <dcterms:title xml:lang="de">Einfache aber große Tools aus dem Bereich des OTSM-TRIZ</dcterms:title>
+    <dcterms:title xml:lang="en">Simple but great tools from the field of OTSM-TRIZ</dcterms:title>
+    <dcterms:title xml:lang="ru">Простые, но замечательные инструменты из области ОТСМ-ТРИЗ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_102">
     <dcterms:abstract xml:lang="de">Prof. Dr.-Ing. Christian M. Thurnes beschäftigt sich seit 25 Jahren als Trainer und Coach in der industriellen Praxis und auch als Professor in Lehre und Weiterbildung mit TRIZ. Er nutzt TRIZ-Tools verschiedener Schulen, sei es MATRIZ, OTSM oder z.B. die TRIZ-Ansätze des IDEATION-TRIZ, um die es in diesem Vortrag geht. Prof. Thurnes ist Vorsitzender des VDI-GPP Fachausschusses „Innovationsmethodiken“, der die TRIZ VDI-Richtlinie 4521 erarbeitet hat und Übersetzer und Autor von TRIZ-Praxisbüchern.
@@ -66,7 +66,7 @@ Er möchte in diesem Vortrag sowohl die Parallelen aber auch die Unterschiede zw
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Haussmann_B"/>
     <dcterms:title xml:lang="en">VAVE / DFMA / Value Analysis / TRIZ</dcterms:title>
     <dcterms:title xml:lang="de">VAVE / DFMA / Wertanalyse / TRIZ</dcterms:title>
-    <dcterms:title xml:lang="ru">VAVE/DFMA/анализ стоимости/TRIZ</dcterms:title>
+    <dcterms:title xml:lang="ru">VAVE / DFMA / анализ стоимости / TRIZ</dcterms:title>
   </od:Talk>
   <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_104">
     <dcterms:abstract xml:lang="en">Dr. Andreas Späth has been a scientist specializing in the field of material characterization using X-ray and electron microscopy since 2008. For several years he has been giving seminars at the Friedrich-Alexander University in Erlangen "Strategic analysis and project management". Through a colleague he came across TRIZ in 2019. From his professional work in basic research and nanotechnology he noticed that in these areas there are some examples of the application of some of the "lost innovation principles" 41-50 Although these IPs were formulated by Altshuller, they were classified as not sufficiently proven in practice. In particular, self-assembly plays a major role in modern nanotechnology. A derivation of the underlying contradictions could identify the position of the additional IPs in the matrix and thus new innovative Enable solutions in other areas.</dcterms:abstract>
@@ -88,5 +88,11 @@ Extension of the object modeling methodology or the TRIZ functional analysis to 
     <dcterms:title xml:lang="de">Erweiterung der Funktionsanalyse</dcterms:title>
     <dcterms:title xml:lang="en">Function Analysis Extension</dcterms:title>
     <dcterms:title xml:lang="ru">Расширение функционального анализа</dcterms:title>
+  </od:Talk>
+  <od:Talk rdf:about="http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_106">
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Nik_ME"/>
+    <dcterms:title xml:lang="de">Die Dinge in Deutschland erledigen</dcterms:title>
+    <dcterms:title xml:lang="en">Getting things done in Germany</dcterms:title>
+    <dcterms:title xml:lang="ru">Выполнение задач в Германии</dcterms:title>
   </od:Talk>
 </rdf:RDF>
