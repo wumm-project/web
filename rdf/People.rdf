@@ -197,6 +197,7 @@
     <foaf:name>Matthias Bauch</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bayer_T">
+    <foaf:affil>Wittenstein SE, Igersheim, Germany</foaf:affil>
     <foaf:name>Thomas Bayer</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bdulenko_MK">
@@ -331,6 +332,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bolotovsky_VN">
     <foaf:fullname xml:lang="ru">Болотовский В.Н.</foaf:fullname>
     <foaf:name>V.N. Bolotovsky</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Bond_o">
+    <foaf:affil>Fresenius Medical Care, Schweinfurt, Germany</foaf:affil>
+    <foaf:name>Oliver Bond</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/BoratynskaSala_A">
     <foaf:affil>Cracow University of Technology, Poland</foaf:affil>
@@ -1138,6 +1143,8 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Gronauer_B">
     <foaf:affil>StrategieInnovation, Hünfeld, Germany</foaf:affil>
+    <foaf:homepage rdf:resource="https://mindful-innovation.de"/>
+    <foaf:homepage rdf:resource="https://triz-akademie.de/"/>
     <foaf:homepage rdf:resource="https://www.barbara-gronauer.de"/>
     <foaf:name>Barbara Gronauer</foaf:name>
   </foaf:Person>
@@ -2039,6 +2046,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Laoh_S">
     <foaf:name>Sascha Láoh</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Laqua_M">
+    <foaf:affil>Neckarsulm, Germany</foaf:affil>
+    <foaf:name>Matthias Laqua</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Lasota_M">
     <foaf:affil>Novismo, Poland</foaf:affil>
     <foaf:name>Maciej Lasota</foaf:name>
@@ -2591,6 +2602,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Naehler_HT">
     <foaf:affil>c4pi – Center for Product-Innovation, Hünfeld, Germany</foaf:affil>
+    <foaf:homepage rdf:resource="https://triz-akademie.de/"/>
     <foaf:name>Horst Thomas Nähler</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Naehter_S">
@@ -2735,8 +2747,8 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Oroian_B">
     <foaf:name>Bogdan Oroian</foaf:name>
   </foaf:Person>
-  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Orso_j">
-    <foaf:affil>Univ. Reutlingen, Germany</foaf:affil>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Orso_J">
+    <foaf:affil>HS Reutlingen, Germany</foaf:affil>
     <foaf:name>Jochen Orso</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Ory_M">
@@ -3073,6 +3085,10 @@
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rezzaghi_P">
     <foaf:name>Paolo Rezzaghi</foaf:name>
   </foaf:Person>
+  <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rindelhardt_K">
+    <foaf:affil>Siemns Healthcare, Rudolstadt, Germany</foaf:affil>
+    <foaf:name>Kai Rindelhardt</foaf:name>
+  </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Rivin_E">
     <foaf:name>E. Rivin</foaf:name>
   </foaf:Person>
@@ -3142,7 +3158,7 @@
     <foaf:name>Aleksei Ruin</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Runck_J">
-    <foaf:affil>e-pulse, Linz, Austria</foaf:affil>
+    <foaf:affil>E+E Elektronik, Engerwitzdorf, Austria</foaf:affil>
     <foaf:name>Joachim Runck</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Russo_D">
@@ -3233,7 +3249,7 @@
     <foaf:name>Rashid Scharipov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Schaumann_U">
-    <foaf:affil>Oberderdingen, Germany</foaf:affil>
+    <foaf:affil>EGO Gerätebau, Oberderdingen, Germany</foaf:affil>
     <foaf:name>Uwe Schaumann</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Scheers_J">
@@ -3575,7 +3591,7 @@
     <foaf:name>Valeri V. Souchkov</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spaeth_A">
-    <foaf:affil>INAM Forchheim, Germany</foaf:affil>
+    <foaf:affil>FAU Erlangen, Germany</foaf:affil>
     <foaf:name>Andreas Späth</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Spasic_I">
@@ -3608,7 +3624,7 @@
     <foaf:name>Inna Stasyuk</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Steinbiss_K">
-    <foaf:affil>Germany</foaf:affil>
+    <foaf:affil>HS Reutlingen, Germany</foaf:affil>
     <foaf:name>Kristina Steinbiß</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Stepanchikova_M">
@@ -4097,6 +4113,7 @@
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yatsunenko_S">
     <foaf:affil>Novismo, Warsaw, Poland</foaf:affil>
+    <foaf:fullname xml:lang="ru">Яцуненко Сергей Анатольевич</foaf:fullname>
     <foaf:name>Sergey Yatsunenko</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Yefimov_AV">
@@ -4205,7 +4222,7 @@
     <foaf:name>Igor Zasedenets</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zeihsel_F">
-    <foaf:affil>Germany</foaf:affil>
+    <foaf:affil>Synnovating GmbH, Kaiserslautern, Germany</foaf:affil>
     <foaf:name>Frank Zeihsel</foaf:name>
   </foaf:Person>
   <foaf:Person rdf:about="http://opendiscovery.org/rdf/Person/Zhang_E">

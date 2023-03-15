@@ -19,6 +19,16 @@
   <owl:Class rdf:about="http://opendiscovery.org/rdf/Model#Youtube-Video">
     <rdfs:label>DCMI Video Metarecord</rdfs:label>
   </owl:Class>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Danilovsky-20230222">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=RlxWK8EOF1U"/>
+    <dcterms:abstract xml:lang="en">Tour de force on main topics of a level 1 TRIZ course</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Danilovsky_YE"/>
+    <dcterms:extent>01:24:33 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2023-02-22</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:title xml:lang="en">the phenomenon of giants and dwarfs rocking to generate energy</dcterms:title>
+    <dcterms:title xml:lang="ru">феномен гиганты и карлики раскачивание для генерации энергии</dcterms:title>
+  </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Fey-20190529">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=MLhZ-swewGg"/>
     <dcterms:abstract xml:lang="en">Interview with Victor Fey taken by Robert Adunka on Sept 11, 2019</dcterms:abstract>
@@ -66,6 +76,15 @@
     <dcterms:extent>02:40:12 h</dcterms:extent>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2017-11-01</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Litvin-20230204">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=wWhUG2KfjE4"/>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Litvin_SS"/>
+    <dcterms:extent>00:54:38 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2023-02-04</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:title xml:lang="en">Practical application of TRIZ in GEN TRIZ projects</dcterms:title>
+    <dcterms:title xml:lang="ru">Практическое применение ТРИЗ на примере проектов компании GEN TRIZ</dcterms:title>
   </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Nesterenko-20190619">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=JmploJo2XRA"/>
@@ -173,6 +192,16 @@
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <rdfs:comment xml:lang="en">Published via Souchkov's facebook channel</rdfs:comment>
   </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Souchkov-20230301">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=3Efd0meMwDk"/>
+    <dcterms:abstract xml:lang="en">Monthly Webinar of MATRIZ-Official</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Souchkov_VV"/>
+    <dcterms:extent>00:59:45 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2023-03-01</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">en</dcterms:language>
+    <dcterms:title xml:lang="en">Webinar "Business TRIZ: Accelerating Business Innovation"</dcterms:title>
+    <rdfs:comment xml:lang="en">Published via MATRIZ-Official facebook channel</rdfs:comment>
+  </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Trizofication-20200707">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=KBS7SJ7Ht_I"/>
     <dcterms:abstract xml:lang="en">Why don't TRIZ teams launch their products?</dcterms:abstract>
@@ -204,10 +233,35 @@
   </od:Youtube-Video>
   <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Zlotin-2018006">
     <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=gvIbzSkjhgg"/>
-    <dcterms:abstract xml:lang="en">The emergence of diversion analysis</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">From Youtube abstract (translated to English):
+
+I always listen with interest to an amazing TRIZ Master Boris Zlotin, and
+once, 16 years ago, in 2007, Boris Lvovitch told in great detail how he came
+to TRIZ, how this process developed from the first "TRIZ + FVA department" at
+Electrosila to his move to Chisinau, and then to Detroit of the whole TRIZ
+school.
+
+8 hours of Boris Zlotin's stories about TRIZ formation in 2007. Download from
+&lt;https://disk.yandex.ru/d/JjEG1onOiENOGA&gt; and all transcripts of the talks
+from &lt;http://triz-solver.com/index.php/lyubopytno/182-triz-history&gt;
+
+A special story is about software IWB to support the invention process
+training of a group of Russian and Korean TRIZ experts in Seoul in 2012
+&lt;http://triz-solver.com/index.php/soft&gt;. No one has created anything similar
+to the analytical block "Problem Formulator" so far, which works equally well
+in technical, social or managerial fields. </dcterms:abstract>
     <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
     <dcterms:extent>02:27:42 h</dcterms:extent>
     <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2018-04-06</dcterms:issued>
+    <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
+    <dcterms:title xml:lang="en">Talk of Boris Zlotin</dcterms:title>
+  </od:Youtube-Video>
+  <od:Youtube-Video rdf:about="http://opendiscovery.org/rdf/Video/Zlotin-20221212">
+    <od:urlVideo rdf:resource="https://www.youtube.com/watch?v=xMg06W3TMWA"/>
+    <dcterms:abstract xml:lang="en">The emergence of diversion analysis</dcterms:abstract>
+    <dcterms:creator rdf:resource="http://opendiscovery.org/rdf/Person/Zlotin_BL"/>
+    <dcterms:extent>02:18:43 h</dcterms:extent>
+    <dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF">2022-12-12</dcterms:issued>
     <dcterms:language rdf:datatype="http://purl.org/dc/terms/RFC4646">ru</dcterms:language>
     <rdfs:comment xml:lang="en">Published via  MATRIZ Russia channel</rdfs:comment>
   </od:Youtube-Video>
