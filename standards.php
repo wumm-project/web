@@ -11,8 +11,20 @@ require_once 'layout.php';
 function theStandards($input) 
 {
     setNamespaces();
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/TheStandards/');
-    $graph->parseFile($input);
+    global $sparql;
+    $query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a 
+from <http://opendiscovery.org/rdf/StandardSolutions/>
+where { ?a a od:StandardSolution . }';
+
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
     $a=array();
     foreach($graph->allOfType('od:StandardSolution') as $concept) {
         $uri=str_replace('http://opendiscovery.org/rdf/Standard/','',$concept->getURI());

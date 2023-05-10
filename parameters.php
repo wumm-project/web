@@ -11,9 +11,20 @@ require_once 'layout.php';
 function theParameters() 
 {
     setNamespaces();
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/ThePrinciples/');
-    $graph->parseFile("rdf/Parameters.rdf");
-    //echo $graph->dump("html");
+    global $sparql;
+    $query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a ?b
+from <http://opendiscovery.org/rdf/Parameters/>
+where { ?a a od:Parameter . ?b a od:ParameterClass .}';
+
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
     $a=array();
     $res = $graph->allOfType('od:Parameter');
     foreach ($res as $concept) {

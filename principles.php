@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2021-09-21
+ * last update: 2023-05-10  
  */
 
 require 'vendor/autoload.php';
@@ -11,10 +11,22 @@ require_once 'layout.php';
 function thePrinciples() 
 {
     setNamespaces();
-    $graph = new \EasyRdf\Graph('http://opendiscovery.org/rdf/ThePrinciples/');
-    $graph->parseFile("rdf/Principles.rdf");
-    $a=array(); $e=array();
-    $res = $graph->allOfType('od:Principle');
+    global $sparql;
+    $query='
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX od: <http://opendiscovery.org/rdf/Model#>
+
+describe ?a ?b
+from <http://opendiscovery.org/rdf/Principles/>
+where { ?a a od:Principle . ?b a od:Recommendation .}';
+
+    try {
+        $graph = $sparql->query($query);
+    } catch (Exception $e) {
+        print "<div class='error'>".$e->getMessage()."</div>\n";
+    }
+    $a=array();
+    $res = $graph->allOfType('od:Principle'); 
     foreach ($res as $concept) {
         $name=str_replace("http://opendiscovery.org/rdf/Concept/","",$concept->getUri());
         $out="<h3> $name </h3>";
