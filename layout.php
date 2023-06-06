@@ -72,10 +72,8 @@ function pageFooter() {
         <p class="text-muted">&copy; <a href="http://wumm.uni-leipzig.de">The WUMM Projekt</a> since 2019 </p>
       </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap JavaScript plugins) -->
-    <script src="js/jquery.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     
   </body>
 </html>';
