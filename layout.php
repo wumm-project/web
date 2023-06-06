@@ -30,18 +30,26 @@ function pageNavbar() {
   return '
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">Home</a></li> 
-            <li><a href="social.php">TRIZ Social Network</a></li>
-            <li><a href="classic.php">Classical TRIZ</a></li>
-            <li><a href="ontology.php">TRIZ Ontology</a></li>
-            <li><a href="business.php">Business TRIZ</a></li>
-            <li><a href="eco.php">Eco Design and Business Models</a></li>
+          <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+            <li class="nav-item">
+	      <a class="nav-link" href="index.php">Home</a></li>
+            <li class="nav-item">
+	      <a class="nav-link" href="social.php">TRIZ Social
+		Network</a></li>
+            <li class="nav-item">
+	      <a class="nav-link" href="classic.php">Classical TRIZ</a></li>
+            <li class="nav-item">
+	      <a class="nav-link" href="ontology.php">TRIZ Ontology</a></li>
+            <li class="nav-item">
+	      <a class="nav-link" href="business.php">Business TRIZ</a></li>
+            <li class="nav-item">
+	      <a class="nav-link" href="eco.php">Eco Design and Business
+		Models</a></li>
           </ul>
-        </div><!-- navbar end -->
+	</div><!-- navbar end -->
       </div><!-- container end -->
     </nav>
 ';
