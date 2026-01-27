@@ -18,7 +18,7 @@
         <schema:name>Graz University of Technology</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>International TRIZ Conference 2023 (ITC‑2023)</schema:name>
+    <schema:name>International TRIZ Conference 2023 (ITC-2023)</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-30</schema:startDate>
     <schema:url rdf:resource="https://www.matriz-official.net/index.php/events/2-uncategorised/31-itc-2023-page"/>
     <schema:workPresented>
@@ -32,7 +32,7 @@
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/ITC_2025">
     <schema:about>TRIZ &amp; AI integration, innovation strategy, global collaboration</schema:about>
-    <schema:description>ITC‑2025, hosted on Jeju Island, South Korea, is an international TRIZ conference organized by MATRIZ Official in collaboration with Korean TRIZ Association and partners, focusing on the integration of TRIZ with AI, intellectual property strategies, technology forecasting, and industry applications.</schema:description>
+    <schema:description>ITC-2025, hosted on Jeju Island, South Korea, is an international TRIZ conference organized by MATRIZ Official in collaboration with Korean TRIZ Association and partners, focusing on the integration of TRIZ with AI, intellectual property strategies, technology forecasting, and industry applications.</schema:description>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-27</schema:endDate>
     <schema:keywords>TRIZ, AI, innovation, problem solving, structured innovation</schema:keywords>
     <schema:location>
@@ -46,7 +46,7 @@
         <schema:name>Jeju National University</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>International TRIZ Conference 2025 (ITC‑2025)</schema:name>
+    <schema:name>International TRIZ Conference 2025 (ITC-2025)</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</schema:startDate>
     <schema:url rdf:resource="https://www.matriz-official.net/"/>
   </schema:Event>
@@ -94,7 +94,7 @@
         <schema:name>Offenburg University</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>23rd International TRIZ Future Conference (TFC‑2023)</schema:name>
+    <schema:name>23rd International TRIZ Future Conference (TFC-2023)</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-12</schema:startDate>
     <schema:url rdf:resource="https://tfc2023.etria.eu/"/>
     <schema:workPresented>
@@ -122,7 +122,7 @@
         <schema:name>Technical University of Cluj-Napoca</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>24th International TRIZ Future Conference (TFC‑2024)</schema:name>
+    <schema:name>24th International TRIZ Future Conference (TFC-2024)</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-06</schema:startDate>
     <schema:url rdf:resource="https://tfc2024.eu/"/>
     <schema:workPresented>
@@ -148,7 +148,7 @@
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRAI_2025">
     <schema:about>AI and TRIZ hybrid methodologies, interdisciplinary innovation</schema:about>
-    <schema:description>TRAI2025 explores synergies between artificial intelligence and TRIZ methodology as a global platform, bringing together researchers and practitioners to discuss hybrid AI‑TRIZ approaches, ethical considerations, and interdisciplinary innovation. The proceedings will be published in the IFIP Advances in Information and Communication Technology series.</schema:description>
+    <schema:description>TRAI2025 explores synergies between artificial intelligence and TRIZ methodology as a global platform, bringing together researchers and practitioners to discuss hybrid AI-TRIZ approaches, ethical considerations, and interdisciplinary innovation. The proceedings will be published in the IFIP Advances in Information and Communication Technology series.</schema:description>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-07</schema:endDate>
     <schema:keywords>AI, TRIZ, innovation, interdisciplinary research</schema:keywords>
     <schema:location>
@@ -157,20 +157,20 @@
           <rdf:Description>
             <schema:addressCountry>FR</schema:addressCountry>
             <schema:addressLocality>Saclay</schema:addressLocality>
-            <schema:addressRegion>Île‑de‑France</schema:addressRegion>
+            <schema:addressRegion>Île-de-France</schema:addressRegion>
           </rdf:Description>
         </schema:address>
-        <schema:name>EDF Innovation Hub, Paris‑Saclay</schema:name>
+        <schema:name>EDF Innovation Hub, Paris-Saclay</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>World Conference of AI‑Powered Innovation and TRIZ Methodology 2025 (TRAI2025)</schema:name>
+    <schema:name>World Conference of AI-Powered Innovation and TRIZ Methodology 2025 (TRAI2025)</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</schema:startDate>
     <schema:url rdf:resource="https://trai2025.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
         <schema:doi>https://doi.org/10.1007/978-3-032-08847-5</schema:doi>
         <schema:isbn>978-3-032-08847-5</schema:isbn>
-        <schema:name>World Conference of AI‑Powered Innovation and TRIZ Methodology 2025, Proceedings Part I</schema:name>
+        <schema:name>World Conference of AI-Powered Innovation and TRIZ Methodology 2025, Proceedings Part I</schema:name>
         <schema:publisher>Springer Cham</schema:publisher>
         <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-032-08847-5"/>
       </schema:CreativeWork>
@@ -178,7 +178,7 @@
     <schema:workPresented>
       <schema:CreativeWork>
         <schema:isbn>978-3-032-08851-2</schema:isbn>
-        <schema:name>World Conference of AI‑Powered Innovation and TRIZ Methodology 2025, Proceedings Part II</schema:name>
+        <schema:name>World Conference of AI-Powered Innovation and TRIZ Methodology 2025, Proceedings Part II</schema:name>
         <schema:publisher>Springer Cham</schema:publisher>
         <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-032-08851-2"/>
       </schema:CreativeWork>
@@ -186,7 +186,7 @@
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZCON2025">
     <schema:about>TRIZ development, innovation practice, education, manufacturing</schema:about>
-    <schema:description>TRIZCON2025, hosted by the Altshuller Institute for TRIZ Studies and the University of Latvia, is a premier global TRIZ conference covering TRIZ applications across education, manufacturing, science, and AI‑enhanced innovation.</schema:description>
+    <schema:description>TRIZCON2025, hosted by the Altshuller Institute for TRIZ Studies and the University of Latvia, is a premier global TRIZ conference covering TRIZ applications across education, manufacturing, science, and AI-enhanced innovation.</schema:description>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-07</schema:endDate>
     <schema:keywords>TRIZ, inventive problem solving, AI, education, industry</schema:keywords>
     <schema:location>
@@ -206,7 +206,7 @@
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2009">
     <schema:description>The inaugural TRIZfest conference brought together TRIZ practitioners and researchers to share early experiences and methodological advances.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07‑29</schema:endDate>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-29</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -217,19 +217,19 @@
         <schema:name>St. Petersburg</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2009</schema:name>
+    <schema:name>TRIZfest-2009</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-25</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2009 Proceedings</schema:name>
+        <schema:name>TRIZfest-2009 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2009/TRIZfest-2009-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2011">
-    <schema:description>TRIZfest‑2011 continued the tradition of international exchange on TRIZ theory and practice in Russia.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011‑07‑26</schema:endDate>
+    <schema:description>TRIZfest-2011 continued the tradition of international exchange on TRIZ theory and practice in Russia.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-26</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -240,13 +240,13 @@
         <schema:name>St. Petersburg</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2011</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07‑24</schema:startDate>
+    <schema:name>TRIZfest-2011</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-07-24</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2012">
-    <schema:description>TRIZfest‑2012 expanded TRIZfest into Northern Europe with sessions on applied innovation.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012‑08‑04</schema:endDate>
+    <schema:description>TRIZfest-2012 expanded TRIZfest into Northern Europe with sessions on applied innovation.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-08-04</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -257,13 +257,13 @@
         <schema:name>Lappeenranta</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2012</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-08‑02</schema:startDate>
+    <schema:name>TRIZfest-2012</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-08-02</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2013">
-    <schema:description>TRIZfest‑2013 featured international speakers and reports on TRIZ methodology adaptation and applications in Eastern Europe.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013‑08‑03</schema:endDate>
+    <schema:description>TRIZfest-2013 featured international speakers and reports on TRIZ methodology adaptation and applications in Eastern Europe.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-03</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -274,19 +274,19 @@
         <schema:name>Kiev</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2013</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013‑08‑01</schema:startDate>
+    <schema:name>TRIZfest-2013</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-01</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2013 Report</schema:name>
+        <schema:name>TRIZfest-2013 Report</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2013/TRIZfest-2013-Report.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2014">
-    <schema:description>TRIZfest‑2014 brought TRIZ expertise to Central Europe with diverse presentations and discussions.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014‑09‑06</schema:endDate>
+    <schema:description>TRIZfest-2014 brought TRIZ expertise to Central Europe with diverse presentations and discussions.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-06</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -297,19 +297,19 @@
         <schema:name>Prague</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2014</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014‑09‑04</schema:startDate>
+    <schema:name>TRIZfest-2014</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-04</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2014 Proceedings</schema:name>
+        <schema:name>TRIZfest-2014 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2014/TRIZfest-2014-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2015">
-    <schema:description>TRIZfest‑2015 included reports on TRIZ application in Asia and fostered regional collaboration.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015‑09‑12</schema:endDate>
+    <schema:description>TRIZfest-2015 included reports on TRIZ application in Asia and fostered regional collaboration.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-12</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -320,19 +320,19 @@
         <schema:name>Seoul</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2015</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015‑09‑10</schema:startDate>
+    <schema:name>TRIZfest-2015</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-10</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2015 Proceedings</schema:name>
+        <schema:name>TRIZfest-2015 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2015/TRIZfest-2015-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2016">
-    <schema:description>TRIZfest‑2016 gathered TRIZ professionals in China to discuss frontier developments and applications.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016‑07‑30</schema:endDate>
+    <schema:description>TRIZfest-2016 gathered TRIZ professionals in China to discuss frontier developments and applications.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-30</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -343,19 +343,19 @@
         <schema:name>Beijing</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2016</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016‑07‑28</schema:startDate>
+    <schema:name>TRIZfest-2016</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-28</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2016 Proceedings</schema:name>
+        <schema:name>TRIZfest-2016 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2016/TRIZfest-2016-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2017">
-    <schema:description>TRIZfest‑2017 featured sessions on TRIZ research, case studies, and practical implementation in industry.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017‑09‑16</schema:endDate>
+    <schema:description>TRIZfest-2017 featured sessions on TRIZ research, case studies, and practical implementation in industry.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-16</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -366,19 +366,19 @@
         <schema:name>Kraków</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2017</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017‑09‑14</schema:startDate>
+    <schema:name>TRIZfest-2017</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-14</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2017 Proceedings</schema:name>
+        <schema:name>TRIZfest-2017 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2017/TRIZfest-2017-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2018">
-    <schema:description>TRIZfest‑2018 brought together European and global TRIZ stakeholders for knowledge sharing and collaboration.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018‑09‑15</schema:endDate>
+    <schema:description>TRIZfest-2018 brought together European and global TRIZ stakeholders for knowledge sharing and collaboration.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-15</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -389,19 +389,19 @@
         <schema:name>Lisbon</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2018</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018‑09‑13</schema:startDate>
+    <schema:name>TRIZfest-2018</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-13</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2018 Proceedings</schema:name>
+        <schema:name>TRIZfest-2018 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2018/TRIZfest-2018-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2019">
-    <schema:description>TRIZfest‑2019 continued the annual tradition of international exchange on TRIZ methods and innovations.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019‑09‑14</schema:endDate>
+    <schema:description>TRIZfest-2019 continued the annual tradition of international exchange on TRIZ methods and innovations.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-14</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -412,37 +412,37 @@
         <schema:name>Heilbronn</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2019</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019‑09‑11</schema:startDate>
+    <schema:name>TRIZfest-2019</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-11</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2019 Proceedings</schema:name>
+        <schema:name>TRIZfest-2019 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2019/TRIZfest-2019-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2021">
-    <schema:description>TRIZfest‑2021 adapted to an online format and featured global TRIZ case studies, tools, and pedagogical sessions.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021‑09‑18</schema:endDate>
+    <schema:description>TRIZfest-2021 adapted to an online format and featured global TRIZ case studies, tools, and pedagogical sessions.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-18</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:name>Online</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2021</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021‑09‑15</schema:startDate>
+    <schema:name>TRIZfest-2021</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-15</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2021 Proceedings</schema:name>
+        <schema:name>TRIZfest-2021 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2021/TRIZfest-2021-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
   </schema:Event>
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2022">
-    <schema:description>TRIZfest‑2022 featured sessions on TRIZ in education and professional deployment in Europe.</schema:description>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022‑09‑03</schema:endDate>
+    <schema:description>TRIZfest-2022 featured sessions on TRIZ in education and professional deployment in Europe.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-03</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -453,12 +453,12 @@
         <schema:name>Graz</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2022</schema:name>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022‑08‑31</schema:startDate>
+    <schema:name>TRIZfest-2022</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-31</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2022 Proceedings</schema:name>
+        <schema:name>TRIZfest-2022 Proceedings</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2022/TRIZfest-2022-Proceedings.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
@@ -466,9 +466,8 @@
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2023">
     <rdf:type rdf:resource="https://schema.org/Event"/>
     <schema:description>TRIZfest 2023 provided an international platform for TRIZ practitioners and researchers to present industrial case studies, teaching experiences, and applied TRIZ innovations.</schema:description>
-    <schema:description>TRIZfest‑2023 was held in Bengaluru, featuring a robust program of TRIZ case studies, industry engagement, and global networking opportunities.</schema:description>
+    <schema:description>TRIZfest-2023 was held in Bengaluru, featuring a robust program of TRIZ case studies, industry engagement, and global networking opportunities.</schema:description>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-17</schema:endDate>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023‑09‑17</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -491,14 +490,12 @@
       </schema:Place>
     </schema:location>
     <schema:name>TRIZfest-2023</schema:name>
-    <schema:name>TRIZfest‑2023</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-14</schema:startDate>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023‑09‑14</schema:startDate>
     <schema:url rdf:resource="https://matriz.org/trizfest/"/>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2023 Report</schema:name>
+        <schema:name>TRIZfest-2023 Report</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2023/TRIZfest-2023-Report.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
@@ -506,9 +503,8 @@
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2024">
     <rdf:type rdf:resource="https://schema.org/Event"/>
     <schema:description>TRIZfest 2024 featured workshops, industrial case studies, and applied TRIZ presentations for an international audience, continuing the community tradition of knowledge exchange.</schema:description>
-    <schema:description>TRIZfest‑2024 featured global participation, tutorials, and practical innovation sessions, fostering knowledge exchange across industries and academia.</schema:description>
+    <schema:description>TRIZfest-2024 featured global participation, tutorials, and practical innovation sessions, fostering knowledge exchange across industries and academia.</schema:description>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-06</schema:endDate>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024‑09‑06</schema:endDate>
     <schema:location>
       <schema:Place>
         <schema:address>
@@ -531,14 +527,12 @@
       </schema:Place>
     </schema:location>
     <schema:name>TRIZfest-2024</schema:name>
-    <schema:name>TRIZfest‑2024</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-04</schema:startDate>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024‑09‑04</schema:startDate>
     <schema:url rdf:resource="https://matriz.org/trizfest/"/>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2024 Report</schema:name>
+        <schema:name>TRIZfest-2024 Report</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2024/TRIZfest-2024-Report.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
@@ -546,10 +540,9 @@
   <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2025">
     <rdf:type rdf:resource="https://schema.org/Event"/>
     <schema:about>systematic innovation, global challenges, multidisciplinary applications</schema:about>
-    <schema:description>TRIZfest‑2025 convened in Yogyakarta under the theme “Connecting Minds, Methods, and Machines to Co‑Create Innovations for Global Challenges,” bringing together TRIZ professionals and enthusiasts.</schema:description>
-    <schema:description>TRIZfest‑2025, the 20th International TRIZ Conference organized by MATRIZ with local partners in Indonesia, brings together TRIZ practitioners and researchers to explore global challenges through systematic innovation, under the theme ‘Connecting Minds, Methods, and Machines’.</schema:description>
+    <schema:description>TRIZfest-2025 convened in Yogyakarta under the theme “Connecting Minds, Methods, and Machines to Co-Create Innovations for Global Challenges,” bringing together TRIZ professionals and enthusiasts.</schema:description>
+    <schema:description>TRIZfest-2025, the 20th International TRIZ Conference organized by MATRIZ with local partners in Indonesia, brings together TRIZ practitioners and researchers to explore global challenges through systematic innovation, under the theme ‘Connecting Minds, Methods, and Machines’.</schema:description>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-14</schema:endDate>
-    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025‑11‑14</schema:endDate>
     <schema:keywords>TRIZ, community, education, applied innovation</schema:keywords>
     <schema:location>
       <schema:Place>
@@ -572,13 +565,12 @@
         <schema:name>Yogyakarta</schema:name>
       </schema:Place>
     </schema:location>
-    <schema:name>TRIZfest‑2025</schema:name>
+    <schema:name>TRIZfest-2025</schema:name>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-11</schema:startDate>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025‑11‑11</schema:startDate>
     <schema:url rdf:resource="https://trizfest.org/"/>
     <schema:workPresented>
       <schema:CreativeWork>
-        <schema:name>TRIZfest‑2025 Report</schema:name>
+        <schema:name>TRIZfest-2025 Report</schema:name>
         <schema:url rdf:resource="https://matriz.org/wp-content/uploads/2025/TRIZfest-2025-Report.pdf"/>
       </schema:CreativeWork>
     </schema:workPresented>
