@@ -30,13 +30,9 @@ document selected social activities in the TRIZ community.</p>
       consists of an URI and a short information record of each listed
       person. </li>
     <li>short records of <a href="conferences.php">Past TRIZ Conferences</a>.
-      For many of these conferences detailed records (authors and their talks,
+      For some of these conferences detailed records (authors and their talks,
       partly abstracts, links to papers and presentations) are available, see
       the links in the overview page.
-      <ul>
-	<li> A <a href="https://wumm-project.github.io/Events.html">list of
-	    upcoming events</a> is part of the WUMM github pages.  </li>
-      </ul>
     </li>
     <li><a href="presentations.php">Selected TRIZ Presentations</a>.</li>
     <li><a href="videos.php">Selected TRIZ Videos</a>.</li>

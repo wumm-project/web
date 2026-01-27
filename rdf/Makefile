@@ -37,6 +37,7 @@ conferences:
 	rapper -g ../../RDFData/Conferences/TRIZ-Future-2020.ttl -o rdfxml-abbrev >TRIZ-Future-2020.rdf
 	rapper -g ../../RDFData/Conferences/TRIZ-Future-2021.ttl -o rdfxml-abbrev >TRIZ-Future-2021.rdf
 	rapper -g ../../RDFData/Conferences/TRIZ-Future-2022.ttl -o rdfxml-abbrev >TRIZ-Future-2022.rdf
+	rapper -g ../../RDFData/Conferences/ITC-2023.ttl -o rdfxml-abbrev >ITC-2023.rdf
 
 publications:
 	rapper -g ../../RDFData/Books.ttl -o rdfxml-abbrev >Books.rdf
@@ -46,3 +47,6 @@ publications:
 
 more:
 	rapper -g ../../RDFData/FlowAnalysis/FlowDevelopmentPattern.ttl -o rdfxml-abbrev >FlowDevelopmentPattern.rdf
+
+test:
+	rapper -g ../../RDFData/Konf.ttl -o rdfxml-abbrev >Konf.rdf

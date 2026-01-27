@@ -2,7 +2,7 @@
 
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-06-18
+ * last update: 2026-01-27
  */
 
 /* ======= Sparql Endpoint as global variable ======== */
@@ -26,6 +26,7 @@ function setNamespaces() {
     \EasyRdf\RdfNamespace::set('tc', 'http://opendiscovery.org/rdf/Concept/');
     \EasyRdf\RdfNamespace::set('bm', 'http://opendiscovery.org/rdf/BusinessModel/');
     \EasyRdf\RdfNamespace::set('bmp', 'http://opendiscovery.org/rdf/BusinessModelPattern/');
+    \EasyRdf\RdfNamespace::set('schema', 'https://schema.org/');
 }
 
 function htmlEnv($out) 
@@ -79,11 +80,11 @@ function listPerLanguage($concept,$item) {
 
 
 function createLink($url,$text) {
-    return '<a href='.$url.'>'.$text.'</a>';
+    return '<a href="'.$url.'">'.$text.'</a>';
 }
 
 function createUniLink($url) {
-    return '<a href='.$url.'>'.$url.'</a>';
+    return '<a href="'.$url.'">'.$url.'</a>';
 }
 
 function genericLink() {

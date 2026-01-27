@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:conf="http://opendiscovery.org/rdf/Conferences/"
+   xmlns:od="http://opendiscovery.org/rdf/Model#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/ITC_2023">
+    <schema:description>The 1st official MATRIZ International TRIZ Conference focusing on research, TRIZ methodology, and practical applications. It included keynote talks, technical sessions, and workshops.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-02</schema:endDate>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>AT</schema:addressCountry>
+            <schema:addressLocality>Graz</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Graz University of Technology</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>International TRIZ Conference 2023 (ITC‑2023)</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-30</schema:startDate>
+    <schema:url rdf:resource="https://www.matriz-official.net/index.php/events/2-uncategorised/31-itc-2023-page"/>
+    <schema:workPresented>
+      <schema:CreativeWork>
+        <schema:isbn>978-9090380766</schema:isbn>
+        <schema:name>ITC 2023 Proceedings</schema:name>
+        <schema:publisher>MATRIZ Official / Graz University of Technology</schema:publisher>
+        <schema:url rdf:resource="http://www.triz-event.com/ITC-2023-Proceedings.pdf"/>
+      </schema:CreativeWork>
+    </schema:workPresented>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/ITC_2025">
+    <schema:about>TRIZ &amp; AI integration, innovation strategy, global collaboration</schema:about>
+    <schema:description>ITC‑2025, hosted on Jeju Island, South Korea, is an international TRIZ conference organized by MATRIZ Official in collaboration with Korean TRIZ Association and partners, focusing on the integration of TRIZ with AI, intellectual property strategies, technology forecasting, and industry applications.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-27</schema:endDate>
+    <schema:keywords>TRIZ, AI, innovation, problem solving, structured innovation</schema:keywords>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>KR</schema:addressCountry>
+            <schema:addressLocality>Jeju</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Jeju National University</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>International TRIZ Conference 2025 (ITC‑2025)</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</schema:startDate>
+    <schema:url rdf:resource="https://www.matriz-official.net/"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TDS_2023">
+    <schema:about>TRIZ in education, business and technology, innovation practice</schema:about>
+    <schema:audience>TRIZ practitioners, educators, innovation researchers</schema:audience>
+    <schema:description>Annual TRIZ Developers Summit conference covering sections on TRIZ in education, IT, business, and technology, held online with free participation.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-15</schema:endDate>
+    <schema:keywords>TRIZ, online conference, innovative problem solving, TRIZ tools</schema:keywords>
+    <schema:name>TRIZ Developers Summit 2023</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-07</schema:startDate>
+    <schema:url rdf:resource="https://triz-summit.ru/en/conference/tds-2023/"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TDS_2024">
+    <schema:about>TRIZ in evolution, business, education, technology</schema:about>
+    <schema:audience>TRIZ developers, academicians, innovation professionals</schema:audience>
+    <schema:description>20th anniversary edition of the TRIZ Developers Summit with presentations on TRIZ theories, tools and applications across domains, held in hybrid format with simultaneous translation.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-15</schema:endDate>
+    <schema:keywords>TRIZ, evolution, developers summit, practical methodology</schema:keywords>
+    <schema:name>TRIZ Developers Summit 2024</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-13</schema:startDate>
+    <schema:url rdf:resource="https://triz-summit.ru/en/conference/tds-2024/"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TDS_2025">
+    <schema:about>TRIZ in IT, business and education; TRIZ and AI integration; Altshuller year</schema:about>
+    <schema:audience>TRIZ experts, researchers, industry professionals</schema:audience>
+    <schema:description>21st annual TRIZ Developers Summit titled 'TRIZ in Evolution', focusing on innovative applications of TRIZ in IT, business, education, and the opening of the International Year of G.S. Altshuller.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-17</schema:endDate>
+    <schema:keywords>TRIZ, AI, innovation, TRIZ evolution, global TRIZ community</schema:keywords>
+    <schema:name>TRIZ Developers Summit 2025</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-15</schema:startDate>
+    <schema:url rdf:resource="https://triz-summit.ru/en/conference/tds-2025/"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TFC_2023">
+    <schema:description>TFC 2023 focused on AI-driven invention and innovation, exploring the intersection of TRIZ with AI and systematic innovation methods. The conference included presentations, workshops, and case studies from academia and industry.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-14</schema:endDate>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>DE</schema:addressCountry>
+            <schema:addressLocality>Offenburg</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Offenburg University</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>23rd International TRIZ Future Conference (TFC‑2023)</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-12</schema:startDate>
+    <schema:url rdf:resource="https://tfc2023.etria.eu/"/>
+    <schema:workPresented>
+      <schema:CreativeWork>
+        <schema:creator>Denis Cavallucci; Pavel Livotov; Stelian Brad</schema:creator>
+        <schema:doi>https://doi.org/10.1007/978-3-031-42532-5</schema:doi>
+        <schema:isbn>978-3-031-42532-5</schema:isbn>
+        <schema:name>Towards AI-Aided Invention and Innovation: Proceedings of TFC 2023</schema:name>
+        <schema:publisher>Springer Cham</schema:publisher>
+        <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-031-42532-5"/>
+      </schema:CreativeWork>
+    </schema:workPresented>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TFC_2024">
+    <schema:description>TFC 2024 explored AI-powered innovation and inventive design as part of the IFIP WG 5.4 TRIZ Future Conference series. The program included research presentations, industry use cases, and tutorials on TRIZ applications.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-08</schema:endDate>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>RO</schema:addressCountry>
+            <schema:addressLocality>Cluj-Napoca</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Technical University of Cluj-Napoca</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>24th International TRIZ Future Conference (TFC‑2024)</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-06</schema:startDate>
+    <schema:url rdf:resource="https://tfc2024.eu/"/>
+    <schema:workPresented>
+      <schema:CreativeWork>
+        <schema:creator>Denis Cavallucci; Stelian Brad; Pavel Livotov</schema:creator>
+        <schema:doi>https://doi.org/10.1007/978-3-031-75919-2</schema:doi>
+        <schema:isbn>978-3-031-75919-2</schema:isbn>
+        <schema:name>World Conference of AI-Powered Innovation and Inventive Design (TFC 2024), Proceedings Part I</schema:name>
+        <schema:publisher>Springer Cham</schema:publisher>
+        <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-031-75919-2"/>
+      </schema:CreativeWork>
+    </schema:workPresented>
+    <schema:workPresented>
+      <schema:CreativeWork>
+        <schema:creator>Denis Cavallucci; Stelian Brad; Pavel Livotov</schema:creator>
+        <schema:doi>https://doi.org/10.1007/978-3-031-75923-9</schema:doi>
+        <schema:isbn>978-3-031-75923-9</schema:isbn>
+        <schema:name>World Conference of AI-Powered Innovation and Inventive Design (TFC 2024), Proceedings Part II</schema:name>
+        <schema:publisher>Springer Cham</schema:publisher>
+        <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-031-75923-9"/>
+      </schema:CreativeWork>
+    </schema:workPresented>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRAI_2025">
+    <schema:about>AI and TRIZ hybrid methodologies, interdisciplinary innovation</schema:about>
+    <schema:description>TRAI2025 explores synergies between artificial intelligence and TRIZ methodology as a global platform, bringing together researchers and practitioners to discuss hybrid AI‑TRIZ approaches, ethical considerations, and interdisciplinary innovation. The proceedings will be published in the IFIP Advances in Information and Communication Technology series.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-07</schema:endDate>
+    <schema:keywords>AI, TRIZ, innovation, interdisciplinary research</schema:keywords>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>FR</schema:addressCountry>
+            <schema:addressLocality>Saclay</schema:addressLocality>
+            <schema:addressRegion>Île‑de‑France</schema:addressRegion>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>EDF Innovation Hub, Paris‑Saclay</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>World Conference of AI‑Powered Innovation and TRIZ Methodology 2025 (TRAI2025)</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</schema:startDate>
+    <schema:url rdf:resource="https://trai2025.org/"/>
+    <schema:workPresented>
+      <schema:CreativeWork>
+        <schema:doi>https://doi.org/10.1007/978-3-032-08847-5</schema:doi>
+        <schema:isbn>978-3-032-08847-5</schema:isbn>
+        <schema:name>World Conference of AI‑Powered Innovation and TRIZ Methodology 2025, Proceedings Part I</schema:name>
+        <schema:publisher>Springer Cham</schema:publisher>
+        <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-032-08847-5"/>
+      </schema:CreativeWork>
+    </schema:workPresented>
+    <schema:workPresented>
+      <schema:CreativeWork>
+        <schema:isbn>978-3-032-08851-2</schema:isbn>
+        <schema:name>World Conference of AI‑Powered Innovation and TRIZ Methodology 2025, Proceedings Part II</schema:name>
+        <schema:publisher>Springer Cham</schema:publisher>
+        <schema:url rdf:resource="https://link.springer.com/book/10.1007/978-3-032-08851-2"/>
+      </schema:CreativeWork>
+    </schema:workPresented>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZCON2025">
+    <schema:about>TRIZ development, innovation practice, education, manufacturing</schema:about>
+    <schema:description>TRIZCON2025, hosted by the Altshuller Institute for TRIZ Studies and the University of Latvia, is a premier global TRIZ conference covering TRIZ applications across education, manufacturing, science, and AI‑enhanced innovation.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-07</schema:endDate>
+    <schema:keywords>TRIZ, inventive problem solving, AI, education, industry</schema:keywords>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>LV</schema:addressCountry>
+            <schema:addressLocality>Riga</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Riga, Latvia</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>TRIZCON2025</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-06</schema:startDate>
+    <schema:url rdf:resource="https://aitriz.org/TRIZCON2025"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2023">
+    <schema:description>TRIZfest 2023 provided an international platform for TRIZ practitioners and researchers to present industrial case studies, teaching experiences, and applied TRIZ innovations.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-17</schema:endDate>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>IN</schema:addressCountry>
+            <schema:addressLocality>Bengaluru</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Bengaluru, India</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>TRIZfest-2023</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-14</schema:startDate>
+    <schema:url rdf:resource="https://matriz.org/trizfest/"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2024">
+    <schema:description>TRIZfest 2024 featured workshops, industrial case studies, and applied TRIZ presentations for an international audience, continuing the community tradition of knowledge exchange.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-06</schema:endDate>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>MY</schema:addressCountry>
+            <schema:addressLocality>Kuching</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Kuching, Malaysia</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>TRIZfest-2024</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-04</schema:startDate>
+    <schema:url rdf:resource="https://matriz.org/trizfest/"/>
+  </schema:Event>
+  <schema:Event rdf:about="http://opendiscovery.org/rdf/Conferences/TRIZfest_2025">
+    <schema:about>systematic innovation, global challenges, multidisciplinary applications</schema:about>
+    <schema:description>TRIZfest‑2025, the 20th International TRIZ Conference organized by MATRIZ with local partners in Indonesia, brings together TRIZ practitioners and researchers to explore global challenges through systematic innovation, under the theme ‘Connecting Minds, Methods, and Machines’.</schema:description>
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-14</schema:endDate>
+    <schema:keywords>TRIZ, community, education, applied innovation</schema:keywords>
+    <schema:location>
+      <schema:Place>
+        <schema:address>
+          <rdf:Description>
+            <schema:addressCountry>ID</schema:addressCountry>
+            <schema:addressLocality>Yogyakarta</schema:addressLocality>
+          </rdf:Description>
+        </schema:address>
+        <schema:name>Yogyakarta, Indonesia</schema:name>
+      </schema:Place>
+    </schema:location>
+    <schema:name>TRIZfest‑2025</schema:name>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-11</schema:startDate>
+    <schema:url rdf:resource="https://trizfest.org/"/>
+  </schema:Event>
+</rdf:RDF>

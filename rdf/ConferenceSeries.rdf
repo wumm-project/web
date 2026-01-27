@@ -20,6 +20,11 @@
     <od:description>This series of German TRIZ conferences is organized mainly by Bayern innovativ.</od:description>
     <rdfs:label>German TRIZ Conferences</rdfs:label>
   </od:ConferenceSeries>
+  <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/ITC">
+    <od:description>This series of conferences is organized by MATRIZ-Official.</od:description>
+    <rdfs:label>International TRIZ Conference</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://www.matriz-official.net"/>
+  </od:ConferenceSeries>
   <od:ConferenceSeries rdf:about="http://opendiscovery.org/rdf/ConferenceSeries/MTC">
     <od:description>This series of conferences is organized by the Moscow TRIZ Club.</od:description>
     <rdfs:label>Moscow TRIZ Conferences</rdfs:label>
