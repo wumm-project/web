@@ -17,8 +17,8 @@ function theEvent($v,$graph) {
     $loc=$v->get("schema:location");
     if ($loc) { $location=$loc->get("schema:name"); }
     $url=$v->all("schema:url");
+    $workPresented=getWorkPresented($v);
     $series=$v->get("od:toConferenceSeries");
-    //$proceedings=$v->all("schema:workPresented");
     $out='
 <h2>'.$label.'</h2>
 <ul>
@@ -46,10 +46,9 @@ function theEvent($v,$graph) {
 <li><strong>URL: </strong>'
         .join("<br/> ",array_map('createLink',$url,$url)).'</li>';
     }
-    if ($proceedings) { 
+    if ($workPresented) { 
         $out.='
-<li><strong>Proceedings: </strong>'
-        .join("<br/> ",array_map('createLink',$proceedings,$proceedings)).'</li>';
+<li><strong>Sources: </strong>'.join("<br/> ",$workPresented).'</li>';
     }
     if ($details) {
         $link="conferences.php?conference=$details";
@@ -75,6 +74,15 @@ function theEvent($v,$graph) {
 </ul>';
 }
 
+function getWorkPresented($v) {
+    $a=array();
+    foreach($v->all("schema:workPresented") as $entry) {
+        $link=$entry->get("schema:url");
+        $what=$entry->get("schema:name");
+        $a[]=createLink($link,$what);
+    }
+    return $a;
+}
 
 function generalConferenceInfo($graph) {
     $graph->parseFile("rdf/Konf.rdf");

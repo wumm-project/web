@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2022-07-30
+ * last update: 2026-01-26
  */
 
 require_once 'layout.php';
@@ -33,6 +33,8 @@ document selected social activities in the TRIZ community.</p>
       For some of these conferences detailed records (authors and their talks,
       partly abstracts, links to papers and presentations) are available, see
       the links in the overview page.
+    <li>short records of <a href="conf-new.php">Past TRIZ Conferences</a>
+      extracted with ChatGPT.  
     </li>
     <li><a href="presentations.php">Selected TRIZ Presentations</a>.</li>
     <li><a href="videos.php">Selected TRIZ Videos</a>.</li>
